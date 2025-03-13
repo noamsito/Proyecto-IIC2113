@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "BWCm9oHpOCw=",
+  "dgSpecHash": "pgCoC5ccaEM=",
   "success": true,
   "projectFilePath": "/Users/noam/Desktop/Semestre 7/Diseño detallado de software/Proyecto-IIC2113/Proyecto-Megaten-IIC2113/Shin-Megami-Tensei-Controller/Shin-Megami-Tensei-Controller.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/noam/.nuget/packages/microsoft.netcore.app.ref/8.0.13/microsoft.netcore.app.ref.8.0.13.nupkg.sha512",
+    "/Users/noam/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.13/microsoft.aspnetcore.app.ref.8.0.13.nupkg.sha512",
+    "/Users/noam/.nuget/packages/microsoft.netcore.app.host.osx-x64/8.0.13/microsoft.netcore.app.host.osx-x64.8.0.13.nupkg.sha512"
+  ],
   "logs": []
 }
