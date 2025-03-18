@@ -20,3 +20,15 @@ C:\Users\Cristian\Downloads\Proyecto-Megaten-IIC2113\Shin-Megami-Tensei-View\obj
 C:\Users\Cristian\Downloads\Proyecto-Megaten-IIC2113\Shin-Megami-Tensei-View\obj\Debug\net8.0\refint\Shin-Megami-Tensei-View.dll
 C:\Users\Cristian\Downloads\Proyecto-Megaten-IIC2113\Shin-Megami-Tensei-View\obj\Debug\net8.0\Shin-Megami-Tensei-View.pdb
 C:\Users\Cristian\Downloads\Proyecto-Megaten-IIC2113\Shin-Megami-Tensei-View\obj\Debug\net8.0\ref\Shin-Megami-Tensei-View.dll
+C:\Users\vieir\RiderProjects\Proyecto-IIC2113\Proyecto-Megaten-IIC2113\Shin-Megami-Tensei-View\bin\Debug\net8.0\Shin-Megami-Tensei-View.deps.json
+C:\Users\vieir\RiderProjects\Proyecto-IIC2113\Proyecto-Megaten-IIC2113\Shin-Megami-Tensei-View\bin\Debug\net8.0\Shin-Megami-Tensei-View.dll
+C:\Users\vieir\RiderProjects\Proyecto-IIC2113\Proyecto-Megaten-IIC2113\Shin-Megami-Tensei-View\bin\Debug\net8.0\Shin-Megami-Tensei-View.pdb
+C:\Users\vieir\RiderProjects\Proyecto-IIC2113\Proyecto-Megaten-IIC2113\Shin-Megami-Tensei-View\obj\Debug\net8.0\Shin-Megami-Tensei-View.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vieir\RiderProjects\Proyecto-IIC2113\Proyecto-Megaten-IIC2113\Shin-Megami-Tensei-View\obj\Debug\net8.0\Shin-Megami-Tensei-View.AssemblyInfoInputs.cache
+C:\Users\vieir\RiderProjects\Proyecto-IIC2113\Proyecto-Megaten-IIC2113\Shin-Megami-Tensei-View\obj\Debug\net8.0\Shin-Megami-Tensei-View.AssemblyInfo.cs
+C:\Users\vieir\RiderProjects\Proyecto-IIC2113\Proyecto-Megaten-IIC2113\Shin-Megami-Tensei-View\obj\Debug\net8.0\Shin-Megami-Tensei-View.csproj.CoreCompileInputs.cache
+C:\Users\vieir\RiderProjects\Proyecto-IIC2113\Proyecto-Megaten-IIC2113\Shin-Megami-Tensei-View\obj\Debug\net8.0\Shin-Megami-Tensei-View.sourcelink.json
+C:\Users\vieir\RiderProjects\Proyecto-IIC2113\Proyecto-Megaten-IIC2113\Shin-Megami-Tensei-View\obj\Debug\net8.0\Shin-Megami-Tensei-View.dll
+C:\Users\vieir\RiderProjects\Proyecto-IIC2113\Proyecto-Megaten-IIC2113\Shin-Megami-Tensei-View\obj\Debug\net8.0\refint\Shin-Megami-Tensei-View.dll
+C:\Users\vieir\RiderProjects\Proyecto-IIC2113\Proyecto-Megaten-IIC2113\Shin-Megami-Tensei-View\obj\Debug\net8.0\Shin-Megami-Tensei-View.pdb
+C:\Users\vieir\RiderProjects\Proyecto-IIC2113\Proyecto-Megaten-IIC2113\Shin-Megami-Tensei-View\obj\Debug\net8.0\ref\Shin-Megami-Tensei-View.dll
