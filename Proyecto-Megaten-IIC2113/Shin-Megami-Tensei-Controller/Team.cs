@@ -38,6 +38,7 @@ public class Team
 
     public bool MinimumUnits()
     {
+        
         return true;
     }
 
@@ -46,8 +47,9 @@ public class Team
         return true;
     }
 
-    public bool SamuraiHasEnoughHabilities()
+    public bool SamuraiHasEnoughHabilities()    
     {
+        
         return true;
     }
 
@@ -58,6 +60,7 @@ public class Team
     
     public bool ValidTeam()
     {
+        
         return true;
     }
 }

@@ -13,6 +13,6 @@ public class Player
 
     public void SetTeam(Team team)
     {
-        // this.Team = team;
+        this.Team = team;
     }
 }

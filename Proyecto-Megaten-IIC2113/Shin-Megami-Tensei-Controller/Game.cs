@@ -24,9 +24,9 @@ public class Game
     public Team ConvertStringIntoTeam(List<string> teamUnits)
     {
         Team newTeam = new Team();
-        for (int i = 0; i < teamUnits.Count(); i++)
+        for (var i = 0; i < teamUnits.Count(); i++)
         {
-            if (string.IsNullOrWhiteSpace(teamUnits[i])) continue;
+            // if (string.IsNullOrWhiteSpace(teamUnits[i])) continue;
             
             if (!teamUnits[i].Contains("Samurai") && !teamUnits[i].Contains("Player"))
             {
@@ -34,13 +34,13 @@ public class Game
             }
             else
             {
-                // new_team.AddSamurai(new Samurai(name: teamUnits[i]));
+                newTeam.AddSamurai(new Samurai(name: teamUnits[i]));
             }
         }
         return newTeam;
     }
 
-    public void SeparateTeamsOfPlayers(int numberOfFile) // change to "content_teams_folder"
+    private void SeparateTeamsOfPlayers(int numberOfFile) // change to "content_teams_folder"
     {
         List<string> lines = content_teams_folder.Split('\n')
             .Select(line => line.Trim())  
@@ -58,7 +58,6 @@ public class Game
         
         foreach (string line in lines)
         {
-            // _view.WriteLine($"[{line}]");
             auxiliarTeam.Add(line);
             if (line.StartsWith("Player 1 Team"))
             {
@@ -66,23 +65,12 @@ public class Game
             }
             else if (line.StartsWith("Player 2 Team"))
             {
-                // _view.WriteLine($"{}");
                 currentPlayer.SetTeam(this.ConvertStringIntoTeam(auxiliarTeam));
                 currentPlayer = players["Player 2"];
             }
         }
         
-        // currentPlayer.SetTeam(this.ConvertStringIntoTeam(auxiliarTeam));
-
-        // Opcional: Verificar la salida en consola
-        // foreach (var player in players.Values)
-        // {
-        //     _view.WriteLine(player.Team.GetSamurai().Name);
-        //     foreach (var unit in player.Team.GetDemons())
-        //     {
-        //         _view.WriteLine($"  - {unit.Name}");
-        //     }
-        // }
+        currentPlayer.SetTeam(this.ConvertStringIntoTeam(auxiliarTeam));
     }
 
     
