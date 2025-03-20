@@ -15,4 +15,10 @@ public class Player
     {
         this.Team = team;
     }
+
+    public bool IsTeamValid()
+    {
+        // this.Team.ValidTeam();
+        return true;
+    }
 }

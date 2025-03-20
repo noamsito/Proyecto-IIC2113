@@ -4,6 +4,7 @@ public class Team
 {
     private Samurai samurai;
     private List<Demon> demons;
+    private bool valid;
 
     public Team()
     {
@@ -30,6 +31,11 @@ public class Team
     {
         return this.demons;
     }
+
+    public void SetTeamAsInvalid()
+    {
+        this.valid = false;
+    }
     
     public bool HasSamurai()
     {
@@ -39,11 +45,14 @@ public class Team
     public bool MinimumUnits()
     {
         
+        
         return true;
     }
 
     public bool UnitNotRepeated()
     {
+        
+        
         return true;
     }
 
@@ -55,12 +64,6 @@ public class Team
 
     public bool SamuraiHabilityNotRepeated()
     {
-        return true;
-    }
-    
-    public bool ValidTeam()
-    {
-        
         return true;
     }
 }

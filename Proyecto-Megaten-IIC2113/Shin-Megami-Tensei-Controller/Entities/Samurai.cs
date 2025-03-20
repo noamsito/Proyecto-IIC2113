@@ -6,6 +6,11 @@ public class Samurai : Unit
     {
         
     }
+    
+    public void AddHabilities(string newHability)
+    {
+        
+    }
 
     public override void SetStats(Dictionary<string, int> stats)
     {
