@@ -35,7 +35,8 @@ public class Game
             fullNameOfFile = $"{_teamsFolder}/0{numberOfFile + 1}.txt";
         }
         
-        this.content_teams_folder = File.ReadAllText(fullNameOfFile); // remember to fix this
+        this.content_teams_folder = File.ReadAllText(fullNameOfFile); 
+        _view.WriteLine(fullNameOfFile);
     }
 
     public Team ConvertStringIntoTeam(List<string> teamUnits)
@@ -61,52 +62,64 @@ public class Game
 
     private void SeparateTeamsOfPlayers()
     {
-        List<string> lines = content_teams_folder.Split('\n')
+        List<string> lines = GetNonEmptyLines(content_teams_folder);
+        InitializePlayers();
+    
+        Player currentPlayer = null;
+        List<string> teamUnits = new List<string>();
+    
+        foreach (string line in lines)
+        {
+            if (IsPlayerTeamLine(line, "Player 1 Team"))
+            {
+                currentPlayer = players["Player 1"];
+                AssignTeamToCurrentPlayer(ref currentPlayer, teamUnits);
+            }
+            else if (IsPlayerTeamLine(line, "Player 2 Team"))
+            {
+                currentPlayer = players["Player 2"];
+                AssignTeamToCurrentPlayer(ref currentPlayer, teamUnits);
+            }
+            else
+            {
+                teamUnits.Add(line);
+            }
+        }
+    
+        AssignTeamToCurrentPlayer(ref currentPlayer, teamUnits);
+    }
+    
+    private List<string> GetNonEmptyLines(string content)
+    {
+        return content.Split('\n')
             .Select(line => line.Trim())
             .Where(line => !string.IsNullOrWhiteSpace(line))
             .ToList();
-
+    }
+    
+    private void InitializePlayers()
+    {
         this.players = new Dictionary<string, Player>
         {
             { "Player 1", new Player("Player 1") },
             { "Player 2", new Player("Player 2") }
         };
-
-        Player currentPlayer = null;
-        List<string> auxiliarTeam = new List<string>();
-
-        foreach (string line in lines)
-        {
-            if (line.StartsWith("Player 1 Team"))
-            {
-                if (currentPlayer != null)
-                {
-                    currentPlayer.SetTeam(this.ConvertStringIntoTeam(auxiliarTeam));
-                    auxiliarTeam.Clear();
-                }
-                currentPlayer = players["Player 1"];
-            }
-            else if (line.StartsWith("Player 2 Team"))
-            {
-                if (currentPlayer != null)
-                {
-                    currentPlayer.SetTeam(this.ConvertStringIntoTeam(auxiliarTeam));
-                    auxiliarTeam.Clear();
-                }
-                currentPlayer = players["Player 2"];
-            }
-            else
-            {
-                auxiliarTeam.Add(line);
-            }
-        }
-
+    }
+    
+    private bool IsPlayerTeamLine(string line, string playerTeam)
+    {
+        return line.StartsWith(playerTeam);
+    }
+    
+    private void AssignTeamToCurrentPlayer(ref Player currentPlayer, List<string> teamUnits)
+    {
         if (currentPlayer != null)
         {
-            currentPlayer.SetTeam(this.ConvertStringIntoTeam(auxiliarTeam));
+            currentPlayer.SetTeam(this.ConvertStringIntoTeam(teamUnits));
+            teamUnits.Clear();
         }
     }
-
+    
     public void PrintTeams(Dictionary<string, Player> players)
     {
         foreach (var player in players)
@@ -117,6 +130,10 @@ public class Game
             if (team.HasSamurai())
             {
                 _view.WriteLine($"Samurai: {team.GetSamurai().Name}");
+            }
+            else
+            {
+                _view.WriteLine("Doesn't have a samurai");
             }
 
             foreach (var demon in team.GetDemons())
@@ -135,20 +152,11 @@ public class Game
             _view.WriteLine(i < 9 ? $"{i}: 00{i + 1}.txt" : $"{i}: 0{i + 1}.txt");
         }
         
-        string numberOfFile = _view.ReadLine();
-        this.AsignFileNameOfContents(int.Parse(numberOfFile));
-        SeparateTeamsOfPlayers();
-
-        if (this.players["Player 1"].Team.HasSamurai())
-        {
-            _view.WriteLine("skljfsdk\n");
-        }
-
-        if (this.players["Player 2"].Team.HasSamurai())
-        {
-            _view.WriteLine("skljfsdk 2 ");
-        }
+        string numberOfFileString = _view.ReadLine();
         
-        // this.PrintTeams(this.players);
+        this.AsignFileNameOfContents(int.Parse(numberOfFileString));
+        SeparateTeamsOfPlayers();
+        
+        this.PrintTeams(players);
     }
 }

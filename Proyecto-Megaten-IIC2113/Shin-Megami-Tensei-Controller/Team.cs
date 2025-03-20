@@ -42,28 +42,23 @@ public class Team
         return this.samurai != null;
     }
 
-    public bool MinimumUnits()
+    public bool HasMinimumUnits()
     {
-        
-        
-        return true;
+        return this.HasSamurai() && this.demons.Count <= 7;
     }
 
     public bool UnitNotRepeated()
     {
-        
-        
-        return true;
-    }
-
-    public bool SamuraiHasEnoughHabilities()    
-    {
-        
-        return true;
-    }
-
-    public bool SamuraiHabilityNotRepeated()
-    {
-        return true;
+        HashSet<string> demonNames = new HashSet<string>();
+    
+        foreach (Demon demon in this.demons)
+        {
+            if (!demonNames.Add(demon.Name))
+            {
+                return false; 
+            }
+        }
+    
+        return true; 
     }
 }
