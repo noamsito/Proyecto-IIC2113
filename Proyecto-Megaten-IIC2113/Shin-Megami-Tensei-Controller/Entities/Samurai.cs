@@ -1,6 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
+using System.Text.Json;
+using System.Collections.Generic;
 using Shin_Megami_Tensei.Gadgets;
 
 namespace Shin_Megami_Tensei
@@ -21,36 +22,9 @@ namespace Shin_Megami_Tensei
 
         public override void SetStatsFromJSON()
         {
-            string jsonContent = File.ReadAllText(JSON_FILE_PATH);
-            string samuraiName = this.GetName();
-        
-            int startIndex = jsonContent.IndexOf(samuraiName);
-            if (startIndex != -1)
-            {
-                int endIndex = jsonContent.IndexOf("}", startIndex);
-                string samuraiStats = jsonContent.Substring(startIndex, endIndex - startIndex);
-        
-                Dictionary<string, int> stats = ParseStats(samuraiStats);
-        
-                if (stats.ContainsKey("HP") && stats.ContainsKey("MP") && stats.ContainsKey("Str") &&
-                    stats.ContainsKey("Skl") && stats.ContainsKey("Mag") && stats.ContainsKey("Spd") &&
-                    stats.ContainsKey("Lck"))
-                {
-                    this._stats = new Stat(
-                        stats["HP"], stats["MP"], stats["Str"], stats["Skl"], 
-                        stats["Mag"], stats["Spd"], stats["Lck"]
-                    );
-                }
-                else
-                {
-                    throw new KeyNotFoundException("One or more required keys are missing in the stats dictionary.");
-                }
-            }
-            else
-            {
-                throw new KeyNotFoundException("Samurai name not found in the JSON content.");
-            }
+            
         }
+
         
         public void PrintStats()
         {
