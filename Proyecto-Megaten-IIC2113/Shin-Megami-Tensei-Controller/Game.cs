@@ -43,7 +43,7 @@ public class Game
     private Samurai SetUpSamurai(Samurai samurai, string unit)
     {;
         samurai.SetStatsFromJSON();
-        // samurai.SetAbilities();
+        samurai.SetSkillsFromJSON();
         return samurai;
     }
 

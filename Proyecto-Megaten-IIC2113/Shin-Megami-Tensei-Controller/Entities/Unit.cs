@@ -16,6 +16,8 @@ public abstract class Unit
 
     public abstract void SetStatsFromJSON();
     public abstract void UpdateStatsFromJSON();
+    public abstract void SetSkillsFromJSON();
+    public abstract void UpdateSkillsFromJSON();
     
     public string GetName()
     {

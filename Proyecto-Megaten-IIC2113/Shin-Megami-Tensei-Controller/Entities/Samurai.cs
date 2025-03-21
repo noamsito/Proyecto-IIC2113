@@ -49,6 +49,10 @@ public class Samurai : Unit
         // this.PrintStats();
     }
     
+    public override void UpdateStatsFromJSON()
+    {
+    }
+    
     public void PrintStats()
     {
         Console.WriteLine("Name: " + this.GetName() + "\n");
@@ -61,30 +65,57 @@ public class Samurai : Unit
         Console.WriteLine($"Lck: {this._stats.GetStatByName("Lck")}");
     }
 
-    private Dictionary<string, int> ParseStats(string samuraiStats)
+    public override void SetSkillsFromJSON()
     {
-        Dictionary<string, int> stats = new Dictionary<string, int>();
-        string[] statPairs = samuraiStats.Split(',');
-
-        foreach (string statPair in statPairs)
+        string jsonString = File.ReadAllText("data/skills.json");
+    
+        JsonDocument document = JsonDocument.Parse(jsonString);
+        JsonElement root = document.RootElement;
+    
+        foreach (JsonElement samurai in root.EnumerateArray())
         {
-            string[] keyValue = statPair.Split(':');
-            if (keyValue.Length == 2)
+            if (samurai.GetProperty("name").GetString() == this.GetName())
             {
-                string statName = keyValue[0].Trim(new char[] { '{', '}', ' ', '\"' });
-                int statValue = int.Parse(keyValue[1].Trim(new char[] { '{', '}', ' ', '\"', '(', ')' }));
-                stats[statName] = statValue;
+                JsonElement skillsElement = samurai.GetProperty("skills");
+                foreach (JsonElement skillElement in skillsElement.EnumerateArray())
+                {
+                    string name = skillElement.GetProperty("name").GetString();
+                    string type = skillElement.GetProperty("type").GetString();
+                    int cost = skillElement.GetProperty("cost").GetInt32();
+                    int power = skillElement.GetProperty("power").GetInt32();
+                    string target = skillElement.GetProperty("target").GetString();
+                    int hits = skillElement.GetProperty("hits").GetInt32();
+                    string effect = skillElement.GetProperty("effect").GetString();
+    
+                    Skill skill = new Skill(name, type, cost, power, target, hits, effect);
+                    this._skills.Add(skill);
+                }
+                break;
             }
         }
-
-        return stats;
+        
+        this.PrintSkills();
+    }
+    
+    public void PrintSkills()
+    {
+        Console.WriteLine("Name: " + this.GetName());
+        Console.WriteLine("Skills:");
+        foreach (var skill in this._skills)
+        {
+            Console.WriteLine($"Name: {skill.GetName()}");
+            Console.WriteLine($"Type: {skill.GetType()}");
+            Console.WriteLine($"Cost: {skill.GetCost()}");
+            Console.WriteLine($"Power: {skill.GetPower()}");
+            Console.WriteLine($"Target: {skill.GetTarget()}");
+            Console.WriteLine($"Hits: {skill.GetHits()}");
+            Console.WriteLine($"Effect: {skill.GetEffect()}");
+            Console.WriteLine();
+        }
     }
 
-    public void SetAbilities(Skill newSkill)
+    public override void UpdateSkillsFromJSON()
     {
-    }
-
-    public override void UpdateStatsFromJSON()
-    {
+        
     }
 }
