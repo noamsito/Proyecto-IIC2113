@@ -1,6 +1,7 @@
 ﻿using System.Text.Json.Nodes;
 using System.IO;
 using Newtonsoft.Json.Linq;
+using System.Text.Json;
 using Shin_Megami_Tensei.Gadgets;
 
 namespace Shin_Megami_Tensei;
@@ -24,29 +25,29 @@ public class Samurai : Unit
     public override void SetStatsFromJSON()
     {
         string jsonString = File.ReadAllText(JSON_FILE_PATH);
-        
-        JArray samuraiArray = JArray.Parse(jsonString);
-        foreach (JObject samurai in samuraiArray)
+    
+        JsonDocument document = JsonDocument.Parse(jsonString);
+        JsonElement root = document.RootElement;
+    
+        foreach (JsonElement samurai in root.EnumerateArray())
         {
-            if (samurai["name"]?.ToString() == this.GetName())
+            if (samurai.GetProperty("name").GetString() == this.GetName())
             {
-                int hp = samurai["stats"]?["HP"]?.Value<int>() ?? 0;
-                int mp = samurai["stats"]?["MP"]?.Value<int>() ?? 0;
-                int str = samurai["stats"]?["Str"]?.Value<int>() ?? 0;
-                int skl = samurai["stats"]?["Skl"]?.Value<int>() ?? 0;
-                int mag = samurai["stats"]?["Mag"]?.Value<int>() ?? 0;
-                int spd = samurai["stats"]?["Spd"]?.Value<int>() ?? 0;
-                int lck = samurai["stats"]?["Lck"]?.Value<int>() ?? 0;
+                int hp = samurai.GetProperty("stats").GetProperty("HP").GetInt32();
+                int mp = samurai.GetProperty("stats").GetProperty("MP").GetInt32();
+                int str = samurai.GetProperty("stats").GetProperty("Str").GetInt32();
+                int skl = samurai.GetProperty("stats").GetProperty("Skl").GetInt32();
+                int mag = samurai.GetProperty("stats").GetProperty("Mag").GetInt32();
+                int spd = samurai.GetProperty("stats").GetProperty("Spd").GetInt32();
+                int lck = samurai.GetProperty("stats").GetProperty("Lck").GetInt32();
     
                 this._stats = new Stat(hp, mp, str, skl, mag, spd, lck);
                 break;
             }
         }
         
-        this.PrintStats();
+        // this.PrintStats();
     }
-
-
     
     public void PrintStats()
     {
