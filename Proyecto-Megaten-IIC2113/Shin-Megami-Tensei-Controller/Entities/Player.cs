@@ -18,7 +18,15 @@ public class Player
 
     public bool IsTeamValid()
     {
-        // this.Team.ValidTeam();
-        return true;
+        if (this.Team.HasSamurai() && this.Team.UnitNotRepeated() && this.Team.HasMinimumUnits())
+        {
+            this.Team.SetTeamAsValid();
+        }
+        else
+        {
+            this.Team.SetTeamAsInvalid();
+        }
+    
+        return !this.Team.GetValidation();
     }
 }

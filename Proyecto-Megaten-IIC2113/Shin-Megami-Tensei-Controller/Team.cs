@@ -32,9 +32,19 @@ public class Team
         return this.demons;
     }
 
+    public bool GetValidation()
+    {
+        return this.valid;
+    }
+
     public void SetTeamAsInvalid()
     {
         this.valid = false;
+    }
+    
+    public void SetTeamAsValid()
+    {
+        this.valid = true;
     }
     
     public bool HasSamurai()
@@ -53,7 +63,7 @@ public class Team
     
         foreach (Demon demon in this.demons)
         {
-            if (!demonNames.Add(demon.Name))
+            if (!demonNames.Add(demon.GetName()))
             {
                 return false; 
             }

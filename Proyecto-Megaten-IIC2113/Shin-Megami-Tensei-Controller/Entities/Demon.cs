@@ -4,15 +4,15 @@ public class Demon : Unit
 {
     public Demon(string name) : base(name)
     {
-        this.Name = name;
+        this._name = name;
     }
     
-    public override void SetStats(Dictionary<string, int> stats)
+    public override void SetStatsFromJSON()
     {
         
     }
 
-    public override void UpdateStats()
+    public override void UpdateStatsFromJSON()
     {
         
     }

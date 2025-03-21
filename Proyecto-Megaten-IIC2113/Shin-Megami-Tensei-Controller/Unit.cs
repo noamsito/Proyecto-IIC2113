@@ -1,17 +1,29 @@
 ﻿using System.Data;
+using Shin_Megami_Tensei.Gadgets;
 
 namespace Shin_Megami_Tensei;
 
 public abstract class Unit
 {
-    public string Name;
-    public Dictionary<string, int> Stats;
-
+    protected string _name;
+    private List<Skill> _skills = new List<Skill>();
+    private Stat _stats;
+    
     protected Unit(string name)
     {
-        this.Name = name;
+        this._name = name;
     }
 
-    public abstract void SetStats(Dictionary<string, int> stats);
-    public abstract void UpdateStats();
+    public abstract void SetStatsFromJSON();
+    public abstract void UpdateStatsFromJSON();
+    
+    public string GetName()
+    {
+        return this._name;
+    }
+    
+    public Stat GetStats()
+    {
+        return this._stats;
+    }
 }
