@@ -1,10 +1,6 @@
-﻿using System;
+﻿using System.Text.Json.Nodes;
 using System.IO;
-using System.Text.Json;
-using System.Collections.Generic;
-using System.Text.Json.Nodes;
-// using System.Text.Json.;
-using System.Text.Json.Serialization;
+using Newtonsoft.Json.Linq;
 using Shin_Megami_Tensei.Gadgets;
 
 namespace Shin_Megami_Tensei;
@@ -27,15 +23,34 @@ public class Samurai : Unit
 
     public override void SetStatsFromJSON()
     {
-        string jsonString = File.ReadAllText("data/samurai.json");
+        string jsonString = File.ReadAllText(JSON_FILE_PATH);
         
-        JsonObject JSONSamurai = 
+        JArray samuraiArray = JArray.Parse(jsonString);
+        foreach (JObject samurai in samuraiArray)
+        {
+            if (samurai["name"]?.ToString() == this.GetName())
+            {
+                int hp = samurai["stats"]?["HP"]?.Value<int>() ?? 0;
+                int mp = samurai["stats"]?["MP"]?.Value<int>() ?? 0;
+                int str = samurai["stats"]?["Str"]?.Value<int>() ?? 0;
+                int skl = samurai["stats"]?["Skl"]?.Value<int>() ?? 0;
+                int mag = samurai["stats"]?["Mag"]?.Value<int>() ?? 0;
+                int spd = samurai["stats"]?["Spd"]?.Value<int>() ?? 0;
+                int lck = samurai["stats"]?["Lck"]?.Value<int>() ?? 0;
+    
+                this._stats = new Stat(hp, mp, str, skl, mag, spd, lck);
+                break;
+            }
+        }
+        
+        this.PrintStats();
     }
 
 
     
     public void PrintStats()
     {
+        Console.WriteLine("Name: " + this.GetName() + "\n");
         Console.WriteLine($"HP: {this._stats.GetStatByName("HP")}"); 
         Console.WriteLine($"MP: {this._stats.GetStatByName("MP")}");
         Console.WriteLine($"Str: {this._stats.GetStatByName("Str")}");

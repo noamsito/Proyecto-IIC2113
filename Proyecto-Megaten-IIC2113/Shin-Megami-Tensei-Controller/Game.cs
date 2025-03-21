@@ -156,7 +156,7 @@ public class Game
                 Samurai samurai = team.GetSamurai();
                 _view.WriteLine($"Samurai: {samurai.GetName()}");
                 
-                samurai.PrintStats();
+                // samurai.PrintStats();
             }
             else
             {
