@@ -17,8 +17,9 @@ public class Stat
 
     public int GetStatByName(string statName)
     {
-        return this._stats[statName];
+        return _stats.TryGetValue(statName, out int value) ? value : 0;
     }
+
 
     public Dictionary<string, int> GetAllStats()
     {
