@@ -65,36 +65,24 @@ public class Samurai : Unit
         Console.WriteLine($"Lck: {this._stats.GetStatByName("Lck")}");
     }
 
-    public override void SetSkillsFromJSON()
+    public override void SetSkillsFromJSON(string stringWithSkills)
     {
         string jsonString = File.ReadAllText("data/skills.json");
     
         JsonDocument document = JsonDocument.Parse(jsonString);
         JsonElement root = document.RootElement;
-    
-        foreach (JsonElement samurai in root.EnumerateArray())
-        {
-            if (samurai.GetProperty("name").GetString() == this.GetName())
-            {
-                JsonElement skillsElement = samurai.GetProperty("skills");
-                foreach (JsonElement skillElement in skillsElement.EnumerateArray())
-                {
-                    string name = skillElement.GetProperty("name").GetString();
-                    string type = skillElement.GetProperty("type").GetString();
-                    int cost = skillElement.GetProperty("cost").GetInt32();
-                    int power = skillElement.GetProperty("power").GetInt32();
-                    string target = skillElement.GetProperty("target").GetString();
-                    int hits = skillElement.GetProperty("hits").GetInt32();
-                    string effect = skillElement.GetProperty("effect").GetString();
-    
-                    Skill skill = new Skill(name, type, cost, power, target, hits, effect);
-                    this._skills.Add(skill);
-                }
-                break;
-            }
-        }
+
+        // List<string> listOfSkills = this.ConvertStringToList(stringWithSkills);
+        // Console.WriteLine($"Skills: {listOfSkills}");
         
-        this.PrintSkills();
+        // this.PrintSkills();
+    }
+
+    public List<string> ConvertStringToList(string skillsString)
+    {
+        string[] skillsArray = skillsString.Trim('(', ')').Split(',');
+    
+        return new List<string>(skillsArray);
     }
     
     public void PrintSkills()

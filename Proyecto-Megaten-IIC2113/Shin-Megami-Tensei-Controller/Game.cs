@@ -40,12 +40,12 @@ public class Game
         _view.WriteLine(fullNameOfFile);
     }
     
-    private Samurai SetUpSamurai(Samurai samurai, string unit)
-    {;
-        samurai.SetStatsFromJSON();
-        samurai.SetSkillsFromJSON();
-        return samurai;
-    }
+    // private Samurai SetUpSamurai(Samurai samurai, string unit)
+    // {;
+    //     samurai.SetStatsFromJSON();
+    //     samurai.SetSkillsFromJSON();
+    //     return samurai;
+    // }
 
     private Team ConvertStringIntoTeam(List<string> teamUnits)
     {
@@ -58,7 +58,10 @@ public class Game
               {
                   string samuraiName = unit.Replace("[Samurai]", "").Trim();
                   Samurai NewSamurai = new Samurai(samuraiName);
-                  this.SetUpSamurai(NewSamurai, unit);
+                  this.ExtractSkillsAndSamuraiNames(unit);
+                  NewSamurai.SetStatsFromJSON();
+                  // NewSamurai.SetSkillsFromJSON(samuraiName);
+                  // this.SetUpSamurai(NewSamurai, unit);
                   newTeam.AddSamurai(NewSamurai);
               }
               else
@@ -75,6 +78,48 @@ public class Game
       return newTeam;
       
     }
+
+    private (string, List<string>) ExtractSkillsAndSamuraiNames(string unit)
+    {
+        List<string> skillsNames = new List<string>();
+        
+        int startIndexSamuraiName = unit.IndexOf("[Samurai]") + "[Samurai]".Length;
+        // string samuraiName = unit.Substring(startIndexSamuraiName).Split()[0];
+        
+        int nameStart = "[Samurai]".Length;
+        int parenthesisStart = unit.IndexOf('(');
+        string samuraiName = "";
+        string skillsString = "";
+        
+            
+        if (parenthesisStart != -1)
+        {
+            // Extract skills if closing parenthesis exists
+            int parenthesisEnd = unit.IndexOf(')', parenthesisStart);
+            if (parenthesisEnd != -1)
+            {
+                skillsString = unit.Substring(parenthesisStart + 1, parenthesisEnd - parenthesisStart - 1);
+            }
+            
+            skillsNames = skillsString.Split(',')
+                                        .Select(word => word.Trim())
+                                        .ToList();
+            samuraiName = unit.Substring(nameStart, parenthesisStart - nameStart).Trim();
+        }
+        else
+        {
+            // No parenthesis, just extract the name
+            samuraiName = unit.Substring(nameStart).Trim();
+        }
+        
+        _view.WriteLine(samuraiName);
+        return (samuraiName, skillsNames);
+    }
+
+    // private List<Skill> ConvertListStringIntoSkills(List<string> listStringOfSkills)
+    // {
+    //     
+    // }
   
     private void SeparateTeamsOfPlayers()
     {
