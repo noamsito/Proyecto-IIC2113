@@ -17,7 +17,7 @@ public class Demon : Unit
         
     }
     
-    public override void SetSkillsFromJSON(string stringWithSkills)
+    public override void SetSkillsFromJSON(List<string> skillsList)
     {
         
     }

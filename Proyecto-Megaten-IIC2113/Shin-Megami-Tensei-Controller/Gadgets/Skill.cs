@@ -7,10 +7,10 @@ public class Skill
     private int cost;
     private int power;
     private string target;
-    private int hits;
+    private string hits;
     private string effect;
 
-    public Skill(string name, string type, int cost, int power, string target, int hits, string effect)
+    public Skill(string name, string type, int cost, int power, string target, string hits, string effect)
     {
         this.name = name;
         this.type = type;
@@ -46,7 +46,7 @@ public class Skill
         return this.target;
     }
     
-    public int GetHits()
+    public string GetHits()
     {
         return this.hits;
     }

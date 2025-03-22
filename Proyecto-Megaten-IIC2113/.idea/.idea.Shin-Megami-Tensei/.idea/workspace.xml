@@ -12,6 +12,7 @@
       <change beforePath="$PROJECT_DIR$/Shin-Megami-Tensei-Controller/Entities/Demon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Shin-Megami-Tensei-Controller/Entities/Demon.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Shin-Megami-Tensei-Controller/Entities/Samurai.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Shin-Megami-Tensei-Controller/Entities/Samurai.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Shin-Megami-Tensei-Controller/Entities/Unit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Shin-Megami-Tensei-Controller/Entities/Unit.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shin-Megami-Tensei-Controller/Gadgets/Skill.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Shin-Megami-Tensei-Controller/Gadgets/Skill.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Shin-Megami-Tensei-Controller/Game.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Shin-Megami-Tensei-Controller/Game.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Shin-Megami-Tensei-Controller/bin/Debug/net8.0/Shin-Megami-Tensei-Controller.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Shin-Megami-Tensei-Controller/bin/Debug/net8.0/Shin-Megami-Tensei-Controller.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Shin-Megami-Tensei-Controller/bin/Debug/net8.0/Shin-Megami-Tensei-Controller.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Shin-Megami-Tensei-Controller/bin/Debug/net8.0/Shin-Megami-Tensei-Controller.exe" afterDir="false" />
@@ -27,6 +28,7 @@
       <change beforePath="$PROJECT_DIR$/Shin-Megami-Tensei-Controller/obj/Debug/net8.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Shin-Megami-Tensei-Controller/obj/Debug/net8.0/apphost.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Shin-Megami-Tensei-Controller/obj/Debug/net8.0/ref/Shin-Megami-Tensei-Controller.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Shin-Megami-Tensei-Controller/obj/Debug/net8.0/ref/Shin-Megami-Tensei-Controller.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Shin-Megami-Tensei-Controller/obj/Debug/net8.0/refint/Shin-Megami-Tensei-Controller.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Shin-Megami-Tensei-Controller/obj/Debug/net8.0/refint/Shin-Megami-Tensei-Controller.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shin-Megami-Tensei-Controller/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Shin-Megami-Tensei-Controller/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Shin-Megami-Tensei-View/bin/Debug/net8.0/Shin-Megami-Tensei-View.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Shin-Megami-Tensei-View/bin/Debug/net8.0/Shin-Megami-Tensei-View.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Shin-Megami-Tensei-View/bin/Debug/net8.0/Shin-Megami-Tensei-View.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Shin-Megami-Tensei-View/bin/Debug/net8.0/Shin-Megami-Tensei-View.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Shin-Megami-Tensei-View/obj/Debug/net8.0/Shin-Megami-Tensei-View.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Shin-Megami-Tensei-View/obj/Debug/net8.0/Shin-Megami-Tensei-View.AssemblyInfo.cs" afterDir="false" />
@@ -36,6 +38,11 @@
       <change beforePath="$PROJECT_DIR$/Shin-Megami-Tensei-View/obj/Debug/net8.0/Shin-Megami-Tensei-View.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/Shin-Megami-Tensei-View/obj/Debug/net8.0/Shin-Megami-Tensei-View.sourcelink.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Shin-Megami-Tensei-View/obj/Debug/net8.0/ref/Shin-Megami-Tensei-View.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Shin-Megami-Tensei-View/obj/Debug/net8.0/ref/Shin-Megami-Tensei-View.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Shin-Megami-Tensei-View/obj/Debug/net8.0/refint/Shin-Megami-Tensei-View.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Shin-Megami-Tensei-View/obj/Debug/net8.0/refint/Shin-Megami-Tensei-View.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shin-Megami-Tensei-View/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Shin-Megami-Tensei-View/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shin-Megami-Tensei.Tests/obj/Debug/net8.0/Shin-Megami-Tensei.Tests.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Shin-Megami-Tensei.Tests/obj/Debug/net8.0/Shin-Megami-Tensei.Tests.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shin-Megami-Tensei.Tests/obj/Debug/net8.0/Shin-Megami-Tensei.Tests.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Shin-Megami-Tensei.Tests/obj/Debug/net8.0/Shin-Megami-Tensei.Tests.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shin-Megami-Tensei.Tests/obj/Debug/net8.0/Shin-Megami-Tensei.Tests.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Shin-Megami-Tensei.Tests/obj/Debug/net8.0/Shin-Megami-Tensei.Tests.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shin-Megami-Tensei.Tests/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Shin-Megami-Tensei.Tests/obj/rider.project.model.nuget.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,6 +128,7 @@
       <workItem from="1742262614639" duration="77000" />
       <workItem from="1742395326381" duration="1291000" />
       <workItem from="1742427544760" duration="28790000" />
+      <workItem from="1742648303527" duration="1961000" />
     </task>
     <servers />
   </component>

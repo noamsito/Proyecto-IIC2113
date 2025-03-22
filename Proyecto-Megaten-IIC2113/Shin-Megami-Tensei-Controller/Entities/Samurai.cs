@@ -65,17 +65,46 @@ public class Samurai : Unit
         Console.WriteLine($"Lck: {this._stats.GetStatByName("Lck")}");
     }
 
-    public override void SetSkillsFromJSON(string stringWithSkills)
+    public override void SetSkillsFromJSON(List<string> skillsList)
     {
         string jsonString = File.ReadAllText("data/skills.json");
     
         JsonDocument document = JsonDocument.Parse(jsonString);
-        JsonElement root = document.RootElement;
-
-        // List<string> listOfSkills = this.ConvertStringToList(stringWithSkills);
-        // Console.WriteLine($"Skills: {listOfSkills}");
+        JsonElement root = document.RootElement; // cambiar nombre
         
-        // this.PrintSkills();
+        foreach (var skill in skillsList)
+        {
+            this.MatchListSkillsWithJSON(skill, root);
+        }
+        
+        this.PrintSkills();
+    }
+    
+    public void MatchListSkillsWithJSON(string skill, JsonElement root)
+    {
+        foreach (JsonElement skillJSON in root.EnumerateArray())
+        {
+            if (skillJSON.GetProperty("name").GetString() == skill)
+            {
+                string name = skillJSON.GetProperty("name").GetString();
+                string type = skillJSON.GetProperty("type").GetString();
+                int cost = skillJSON.GetProperty("cost").GetInt32();
+                int power = skillJSON.GetProperty("power").GetInt32();
+                string target = skillJSON.GetProperty("target").GetString();
+                string hits = skillJSON.GetProperty("hits").GetString();
+                string effect = skillJSON.GetProperty("effect").GetString();
+    
+                this.AssignSkillWithSamurai(name, type, cost, power, target, hits, effect);
+                break;
+            }
+        }
+    }
+
+    public void AssignSkillWithSamurai(string name, string type, int cost, 
+                                        int power, string target, string hits, string effect)
+    {
+        Skill newSkill = new Skill(name, type, cost, power, target, hits, effect);
+        this._skills.Add(newSkill);
     }
 
     public List<string> ConvertStringToList(string skillsString)

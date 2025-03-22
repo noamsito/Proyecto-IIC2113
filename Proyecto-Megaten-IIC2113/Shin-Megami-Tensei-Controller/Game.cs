@@ -56,11 +56,13 @@ public class Game
           {
               if (!newTeam.HasSamurai())
               {
-                  string samuraiName = unit.Replace("[Samurai]", "").Trim();
+                  string samuraiName;
+                  List<string> ListOfSkillsSamurai;
+                  
+                  (samuraiName, ListOfSkillsSamurai) = this.ExtractSkillsAndSamuraiNames(unit);
                   Samurai NewSamurai = new Samurai(samuraiName);
-                  this.ExtractSkillsAndSamuraiNames(unit);
                   NewSamurai.SetStatsFromJSON();
-                  // NewSamurai.SetSkillsFromJSON(samuraiName);
+                  NewSamurai.SetSkillsFromJSON(ListOfSkillsSamurai);
                   // this.SetUpSamurai(NewSamurai, unit);
                   newTeam.AddSamurai(NewSamurai);
               }
