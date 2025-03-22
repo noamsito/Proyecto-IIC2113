@@ -9,7 +9,6 @@ namespace Shin_Megami_Tensei;
 public class Samurai : Unit
 {
     private List<Skill> _skills = new List<Skill>();
-    private Stat _stats;
     public Dictionary<string, string> Affinity;
     private const string JSON_FILE_PATH = "data/samurai.json";
     
@@ -134,5 +133,10 @@ public class Samurai : Unit
     public override void UpdateSkillsFromJSON()
     {
         
+    }
+    
+    public int GetQuantityOfSkills()
+    {
+        return this._skills.Count;
     }
 }

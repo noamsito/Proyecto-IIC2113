@@ -6,8 +6,8 @@ namespace Shin_Megami_Tensei;
 public abstract class Unit
 {
     protected string _name;
-    private List<Skill> _skills = new List<Skill>();
-    private Stat _stats;
+    protected List<Skill> _skills = new List<Skill>();
+    protected Stat _stats;
     
     protected Unit(string name)
     {
@@ -28,4 +28,9 @@ public abstract class Unit
     {
         return this._stats;
     }
-}
+
+    public List<Skill> GetSkills()
+    {
+        return this._skills;
+    }
+ }

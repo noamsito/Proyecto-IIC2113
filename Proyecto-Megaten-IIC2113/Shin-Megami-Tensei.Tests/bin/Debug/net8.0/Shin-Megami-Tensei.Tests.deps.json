@@ -300,7 +300,7 @@
         "runtime": {
           "lib/netstandard2.0/xunit.abstractions.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "0.0.0.0"
+            "fileVersion": "2.0.0.0"
           }
         }
       },
@@ -344,11 +344,12 @@
       "xunit.runner.visualstudio/2.8.2": {},
       "Shin-Megami-Tensei-Controller/1.0.0": {
         "dependencies": {
+          "Newtonsoft.Json": "13.0.1",
           "Shin-Megami-Tensei-View": "1.0.0"
         },
         "runtime": {
           "Shin-Megami-Tensei-Controller.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -356,7 +357,7 @@
       "Shin-Megami-Tensei-View/1.0.0": {
         "runtime": {
           "Shin-Megami-Tensei-View.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
