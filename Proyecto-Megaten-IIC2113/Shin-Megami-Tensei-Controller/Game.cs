@@ -243,9 +243,8 @@ public class Game
     private void CombatBetweenPlayers()
     {
         Player currentPlayer = this._players["Player 1"];
-        bool turnsAvailable = true;
         
-        while (turnsAvailable) // sacar esto
+        while (true) // sacar esto
         {
             _view.WriteLine(CONST_OF_SEPARATORS);
             _view.WriteLine($"Ronda de {currentPlayer.GetTeam().GetSamurai().GetName()}");
@@ -253,8 +252,6 @@ public class Game
             
             this.ShowBoardStatus();
         }
-        
-
     }
 
     private void ShowBoardStatus()
