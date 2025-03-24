@@ -10,7 +10,8 @@ public class Samurai : Unit
 {
     private List<Skill> _skills = new List<Skill>();
     public Dictionary<string, string> Affinity;
-    private const string JSON_FILE_PATH = "data/samurai.json";
+    private const string JSON_FILE_SAMURAI = "data/samurai.json";
+    private const string JSON_FILE_SKILLS = "data/samurai.json";
     
 
     public Samurai(string name) : base(name)
@@ -23,7 +24,7 @@ public class Samurai : Unit
 
     public override void SetStatsFromJSON()
     {
-        string jsonString = File.ReadAllText(JSON_FILE_PATH);
+        string jsonString = File.ReadAllText(JSON_FILE_SAMURAI);
     
         JsonDocument document = JsonDocument.Parse(jsonString);
         JsonElement root = document.RootElement;
@@ -41,6 +42,13 @@ public class Samurai : Unit
                 int lck = samurai.GetProperty("stats").GetProperty("Lck").GetInt32();
     
                 this._stats = new Stat(hp, mp, str, skl, mag, spd, lck);
+    
+                this.Affinity = new Dictionary<string, string>();
+                foreach (JsonProperty affinity in samurai.GetProperty("affinity").EnumerateObject())
+                {
+                    this.Affinity[affinity.Name] = affinity.Value.GetString();
+                }
+    
                 break;
             }
         }
@@ -62,11 +70,17 @@ public class Samurai : Unit
         Console.WriteLine($"Mag: {this._stats.GetStatByName("Mag")}");
         Console.WriteLine($"Spd: {this._stats.GetStatByName("Spd")}");
         Console.WriteLine($"Lck: {this._stats.GetStatByName("Lck")}");
+        
+        Console.WriteLine("Affinity:");
+        foreach (var affinity in this.Affinity)
+        {
+            Console.WriteLine($"{affinity.Key}: {affinity.Value}");
+        }
     }
 
-    public override void SetSkillsFromJSON(List<string> skillsList)
+    public void SetSkillsFromJSON(List<string> skillsList)
     {
-        string jsonString = File.ReadAllText("data/skills.json");
+        string jsonString = File.ReadAllText(JSON_FILE_SKILLS);
     
         JsonDocument document = JsonDocument.Parse(jsonString);
         JsonElement root = document.RootElement; // cambiar nombre

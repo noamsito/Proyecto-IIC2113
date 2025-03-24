@@ -9,45 +9,14 @@
   <component name="ChangeListManager">
     <list default="true" id="c2bf468a-8d45-4359-ad58-a882c4d46f13" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Shin-Megami-Tensei/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shin-Megami-Tensei/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shin-Megami-Tensei-Controller/Entities/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Shin-Megami-Tensei-Controller/Entities/Player.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Shin-Megami-Tensei-Controller/Entities/Samurai.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Shin-Megami-Tensei-Controller/Entities/Samurai.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shin-Megami-Tensei-Controller/Entities/Unit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Shin-Megami-Tensei-Controller/Entities/Unit.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Shin-Megami-Tensei-Controller/Game.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Shin-Megami-Tensei-Controller/Game.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shin-Megami-Tensei-Controller/Team.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Shin-Megami-Tensei-Controller/Team.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shin-Megami-Tensei-Controller/bin/Debug/net8.0/Shin-Megami-Tensei-Controller.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Shin-Megami-Tensei-Controller/bin/Debug/net8.0/Shin-Megami-Tensei-Controller.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shin-Megami-Tensei-Controller/bin/Debug/net8.0/Shin-Megami-Tensei-Controller.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Shin-Megami-Tensei-Controller/bin/Debug/net8.0/Shin-Megami-Tensei-Controller.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shin-Megami-Tensei-Controller/bin/Debug/net8.0/Shin-Megami-Tensei-Controller.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Shin-Megami-Tensei-Controller/bin/Debug/net8.0/Shin-Megami-Tensei-Controller.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Shin-Megami-Tensei-Controller/obj/Debug/net8.0/Shin-Megami-Tensei-Controller.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Shin-Megami-Tensei-Controller/obj/Debug/net8.0/Shin-Megami-Tensei-Controller.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Shin-Megami-Tensei-Controller/obj/Debug/net8.0/Shin-Megami-Tensei-Controller.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Shin-Megami-Tensei-Controller/obj/Debug/net8.0/Shin-Megami-Tensei-Controller.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shin-Megami-Tensei-Controller/obj/Debug/net8.0/Shin-Megami-Tensei-Controller.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Shin-Megami-Tensei-Controller/obj/Debug/net8.0/Shin-Megami-Tensei-Controller.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shin-Megami-Tensei-Controller/obj/Debug/net8.0/Shin-Megami-Tensei-Controller.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Shin-Megami-Tensei-Controller/obj/Debug/net8.0/Shin-Megami-Tensei-Controller.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shin-Megami-Tensei-Controller/obj/Debug/net8.0/Shin-Megami-Tensei-Controller.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/Shin-Megami-Tensei-Controller/obj/Debug/net8.0/Shin-Megami-Tensei-Controller.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shin-Megami-Tensei-Controller/obj/Debug/net8.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Shin-Megami-Tensei-Controller/obj/Debug/net8.0/apphost.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shin-Megami-Tensei-Controller/obj/Debug/net8.0/ref/Shin-Megami-Tensei-Controller.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Shin-Megami-Tensei-Controller/obj/Debug/net8.0/ref/Shin-Megami-Tensei-Controller.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shin-Megami-Tensei-Controller/obj/Debug/net8.0/refint/Shin-Megami-Tensei-Controller.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Shin-Megami-Tensei-Controller/obj/Debug/net8.0/refint/Shin-Megami-Tensei-Controller.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Shin-Megami-Tensei-View/obj/Debug/net8.0/Shin-Megami-Tensei-View.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Shin-Megami-Tensei-View/obj/Debug/net8.0/Shin-Megami-Tensei-View.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Shin-Megami-Tensei-View/obj/Debug/net8.0/Shin-Megami-Tensei-View.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Shin-Megami-Tensei-View/obj/Debug/net8.0/Shin-Megami-Tensei-View.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shin-Megami-Tensei.Tests/bin/Debug/net8.0/Shin-Megami-Tensei-Controller.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Shin-Megami-Tensei.Tests/bin/Debug/net8.0/Shin-Megami-Tensei-Controller.deps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shin-Megami-Tensei.Tests/bin/Debug/net8.0/Shin-Megami-Tensei-Controller.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Shin-Megami-Tensei.Tests/bin/Debug/net8.0/Shin-Megami-Tensei-Controller.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shin-Megami-Tensei.Tests/bin/Debug/net8.0/Shin-Megami-Tensei-Controller.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Shin-Megami-Tensei.Tests/bin/Debug/net8.0/Shin-Megami-Tensei-Controller.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shin-Megami-Tensei.Tests/bin/Debug/net8.0/Shin-Megami-Tensei-Controller.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Shin-Megami-Tensei.Tests/bin/Debug/net8.0/Shin-Megami-Tensei-Controller.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shin-Megami-Tensei.Tests/bin/Debug/net8.0/Shin-Megami-Tensei-View.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Shin-Megami-Tensei.Tests/bin/Debug/net8.0/Shin-Megami-Tensei-View.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shin-Megami-Tensei.Tests/bin/Debug/net8.0/Shin-Megami-Tensei-View.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Shin-Megami-Tensei.Tests/bin/Debug/net8.0/Shin-Megami-Tensei-View.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shin-Megami-Tensei.Tests/bin/Debug/net8.0/Shin-Megami-Tensei.Tests.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Shin-Megami-Tensei.Tests/bin/Debug/net8.0/Shin-Megami-Tensei.Tests.deps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shin-Megami-Tensei.Tests/bin/Debug/net8.0/Shin-Megami-Tensei.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Shin-Megami-Tensei.Tests/bin/Debug/net8.0/Shin-Megami-Tensei.Tests.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shin-Megami-Tensei.Tests/bin/Debug/net8.0/Shin-Megami-Tensei.Tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Shin-Megami-Tensei.Tests/bin/Debug/net8.0/Shin-Megami-Tensei.Tests.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Shin-Megami-Tensei.Tests/obj/Debug/net8.0/Shin-Megami-Tensei.Tests.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Shin-Megami-Tensei.Tests/obj/Debug/net8.0/Shin-Megami-Tensei.Tests.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Shin-Megami-Tensei.Tests/obj/Debug/net8.0/Shin-Megami-Tensei.Tests.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Shin-Megami-Tensei.Tests/obj/Debug/net8.0/Shin-Megami-Tensei.Tests.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shin-Megami-Tensei.Tests/obj/Debug/net8.0/Shin-Megami-Tensei.Tests.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Shin-Megami-Tensei.Tests/obj/Debug/net8.0/Shin-Megami-Tensei.Tests.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shin-Megami-Tensei.Tests/obj/Debug/net8.0/Shin-Megami-Tensei.Tests.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Shin-Megami-Tensei.Tests/obj/Debug/net8.0/Shin-Megami-Tensei.Tests.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shin-Megami-Tensei.Tests/obj/Debug/net8.0/Shin-Megami-Tensei.Tests.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Shin-Megami-Tensei.Tests/obj/Debug/net8.0/Shin-Megami-Tensei.Tests.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shin-Megami-Tensei.Tests/obj/Debug/net8.0/Shin-Megami-Tensei.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Shin-Megami-Tensei.Tests/obj/Debug/net8.0/Shin-Megami-Tensei.Tests.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shin-Megami-Tensei.Tests/obj/Debug/net8.0/Shin-Megami-Tensei.Tests.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Shin-Megami-Tensei.Tests/obj/Debug/net8.0/Shin-Megami-Tensei.Tests.genruntimeconfig.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shin-Megami-Tensei.Tests/obj/Debug/net8.0/Shin-Megami-Tensei.Tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Shin-Megami-Tensei.Tests/obj/Debug/net8.0/Shin-Megami-Tensei.Tests.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shin-Megami-Tensei.Tests/obj/Debug/net8.0/Shin-Megami-Tensei.Tests.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/Shin-Megami-Tensei.Tests/obj/Debug/net8.0/Shin-Megami-Tensei.Tests.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shin-Megami-Tensei.Tests/obj/Debug/net8.0/ref/Shin-Megami-Tensei.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Shin-Megami-Tensei.Tests/obj/Debug/net8.0/ref/Shin-Megami-Tensei.Tests.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shin-Megami-Tensei.Tests/obj/Debug/net8.0/refint/Shin-Megami-Tensei.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Shin-Megami-Tensei.Tests/obj/Debug/net8.0/refint/Shin-Megami-Tensei.Tests.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shin-Megami-Tensei.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/Shin-Megami-Tensei.sln.DotSettings.user" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,23 +55,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Project.Shin-Megami-Tensei-Controller.executor": "Run",
-    "926410a8-c23a-4858-914e-1bc0274169b2.executor": "Debug",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/noam/Desktop/Universidad/Semestres/Semestre 7/Diseño detallado de software/Proyecto-IIC2113/Proyecto-Megaten-IIC2113",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.keymap",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Project.Shin-Megami-Tensei-Controller.executor&quot;: &quot;Run&quot;,
+    &quot;926410a8-c23a-4858-914e-1bc0274169b2.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/noam/Desktop/Universidad/Semestres/Semestre 7/Diseño detallado de software/Proyecto-IIC2113/Proyecto-Megaten-IIC2113&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Shin-Megami-Tensei-Controller" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -139,7 +108,8 @@
       <workItem from="1742427544760" duration="28790000" />
       <workItem from="1742648303527" duration="9542000" />
       <workItem from="1742667443575" duration="2089000" />
-      <workItem from="1742670064470" duration="2170000" />
+      <workItem from="1742670064470" duration="2556000" />
+      <workItem from="1742745951967" duration="1730000" />
     </task>
     <servers />
   </component>
