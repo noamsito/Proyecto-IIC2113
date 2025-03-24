@@ -33,7 +33,8 @@ public class Demon : Unit
                 int spd = demon.GetProperty("stats").GetProperty("Spd").GetInt32();
                 int lck = demon.GetProperty("stats").GetProperty("Lck").GetInt32();
 
-                this._stats = new Stat(hp, mp, str, skl, mag, spd, lck);
+                this._baseStats = new Stat(hp, mp, str, skl, mag, spd, lck);
+                this._currentStats = new Stat(hp, mp, str, skl, mag, spd, lck);
 
                 this.Affinity = new Dictionary<string, string>();
                 foreach (JsonProperty affinity in demon.GetProperty("affinity").EnumerateObject())
@@ -51,7 +52,7 @@ public class Demon : Unit
         
     }
     
-    public void SetSkillsFromJSON()
+    public void SetDemonSkillsFromJSON()
     {
         string jsonString = File.ReadAllText(JSON_FILE_SKILLS);
         JsonDocument document = JsonDocument.Parse(jsonString);
@@ -107,13 +108,13 @@ public class Demon : Unit
     public void PrintStats()
     {
         Console.WriteLine("Name: " + this.GetName() + "\n");
-        Console.WriteLine($"HP: {this._stats.GetStatByName("HP")}");
-        Console.WriteLine($"MP: {this._stats.GetStatByName("MP")}");
-        Console.WriteLine($"Str: {this._stats.GetStatByName("Str")}");
-        Console.WriteLine($"Skl: {this._stats.GetStatByName("Skl")}");
-        Console.WriteLine($"Mag: {this._stats.GetStatByName("Mag")}");
-        Console.WriteLine($"Spd: {this._stats.GetStatByName("Spd")}");
-        Console.WriteLine($"Lck: {this._stats.GetStatByName("Lck")}");
+        Console.WriteLine($"HP: {this._baseStats.GetStatByName("HP")}");
+        Console.WriteLine($"MP: {this._baseStats.GetStatByName("MP")}");
+        Console.WriteLine($"Str: {this._baseStats.GetStatByName("Str")}");
+        Console.WriteLine($"Skl: {this._baseStats.GetStatByName("Skl")}");
+        Console.WriteLine($"Mag: {this._baseStats.GetStatByName("Mag")}");
+        Console.WriteLine($"Spd: {this._baseStats.GetStatByName("Spd")}");
+        Console.WriteLine($"Lck: {this._baseStats.GetStatByName("Lck")}");
     
         Console.WriteLine("Affinity:");
         foreach (var affinity in this.Affinity)

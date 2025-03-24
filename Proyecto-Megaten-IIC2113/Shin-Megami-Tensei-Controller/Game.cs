@@ -150,7 +150,7 @@ public class Game
         string demonName = unit.Trim();
         Demon newDemon = new Demon(demonName);
         newDemon.SetStatsFromJSON();
-        newDemon.SetSkillsFromJSON();
+        newDemon.SetDemonSkillsFromJSON();
 
         newTeam.AddDemon(newDemon);
     }
@@ -188,7 +188,7 @@ public class Game
     private Samurai SetUpSamurai(Samurai samurai, List<string> ListOfSkillsSamurai)
     {
         samurai.SetStatsFromJSON();
-        samurai.SetSkillsFromJSON(ListOfSkillsSamurai);
+        samurai.SetSamuraiSkillsFromJSON(ListOfSkillsSamurai);
         return samurai;
     }
 
@@ -245,40 +245,58 @@ public class Game
         Player currentPlayer = this._players["Player 1"];
         bool turnsAvailable = true;
         
-        while (turnsAvailable)
+        while (turnsAvailable) // sacar esto
         {
+            _view.WriteLine(CONST_OF_SEPARATORS);
             _view.WriteLine($"Ronda de {currentPlayer.GetTeam().GetSamurai().GetName()}");
-
             _view.WriteLine(CONST_OF_SEPARATORS);
             
-            this.ShowStatusPlayer(ref currentPlayer);
+            this.ShowBoardStatus();
         }
         
 
     }
 
-    private void ShowStatusPlayer(ref Player player)
+    private void ShowBoardStatus()
     {
-        _view.WriteLine($"Equipo de {player.GetTeam()}");
-        this.ShowTeamPlayer(ref player);
+        foreach (Player player in this._players.Values)
+        {
+            this.ShowStatusPlayer(player);
+        }
     }
 
-    private void ShowTeamPlayer(ref Player player)
+    private void ShowStatusPlayer(Player player)
+    {
+        _view.WriteLine($"Equipo de {player.GetTeam()}");
+        this.ShowTeamPlayer(player);
+    }
+
+    private void ShowTeamPlayer(Player player)
     {
         _view.WriteLine($"{player.GetName()}'s");
-        
+    
         Team playerTeam = player.GetTeam();
         Samurai playerSamurai = playerTeam.GetSamurai();
         char letterListingTeam = 'A';
-
-        _view.WriteLine($"{letterListingTeam}-{playerSamurai.GetName()}");
-        
-        foreach (Demon demon in playerTeam.GetDemons())
+    
+        Stat baseStatsSamurai = playerSamurai.GetBaseStats();
+        Stat currentStatsSamurai = playerSamurai.GetCurrentStats();
+    
+        _view.WriteLine($"{letterListingTeam}-{playerSamurai.GetName()} " +
+                        $"HP: {currentStatsSamurai.GetStatByName("HP")}/{baseStatsSamurai.GetStatByName("HP")} " +
+                        $"MP: {currentStatsSamurai.GetStatByName("MP")}/{baseStatsSamurai.GetStatByName("MP")}");
+    
+        var demons = playerTeam.GetDemons().Take(3).ToList(); 
+    
+        foreach (Demon demon in demons)
         {
             letterListingTeam++;
-            Stat statsDemon = demon.GetStats();
-            
-            _view.WriteLine($"{letterListingTeam}-{demon.GetName()} HP: {statsDemon.GetStatByName("HP")}");
+            Stat baseStatsDemon = demon.GetBaseStats();
+            Stat currentStatsDemon = demon.GetCurrentStats();
+    
+            _view.WriteLine($"{letterListingTeam}-{demon.GetName()} " +
+                            $"HP: {currentStatsDemon.GetStatByName("HP")}/{baseStatsDemon.GetStatByName("HP")} " +
+                            $"MP: {currentStatsDemon.GetStatByName("MP")}/{baseStatsDemon.GetStatByName("MP")}");
         }
     }
 }

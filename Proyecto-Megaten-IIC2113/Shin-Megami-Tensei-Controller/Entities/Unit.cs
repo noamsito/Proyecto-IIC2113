@@ -7,7 +7,8 @@ public abstract class Unit
 {
     protected string _name;
     protected List<Skill> _skills = new List<Skill>();
-    protected Stat _stats;
+    protected Stat _baseStats;
+    protected Stat _currentStats;
     
     protected Unit(string name)
     {
@@ -16,7 +17,6 @@ public abstract class Unit
 
     public abstract void SetStatsFromJSON();
     public abstract void UpdateStatsFromJSON();
-    // public abstract void SetSkillsFromJSON(List<string> skillsList);
     public abstract void UpdateSkillsFromJSON();
     
     public string GetName()
@@ -24,9 +24,14 @@ public abstract class Unit
         return this._name;
     }
     
-    public Stat GetStats()
+    public Stat GetBaseStats()
     {
-        return this._stats;
+        return this._baseStats;
+    }
+    
+    public Stat GetCurrentStats()
+    {
+        return this._currentStats;
     }
 
     public List<Skill> GetSkills()

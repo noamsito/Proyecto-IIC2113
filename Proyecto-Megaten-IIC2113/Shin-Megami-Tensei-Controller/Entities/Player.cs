@@ -17,9 +17,9 @@ public class Player
 
    public bool IsTeamValid()
    {
-       if (this._team.HasSamurai() && !this._team.GetIfSamuraiIsRepeated() && this._team.HasMinimumUnits()
+       if (this._team.HasSamurai() && !this._team.GetIfSamuraiIsRepeated() && this._team.HasMaximumUnits()
             && !this._team.UnitRepeated() && this._team.SamuraiWithLessThanMaxSkills()
-            && !this._team.SamuraiWithRepeatedHabilities() && this._team.HasMaximumUnits())
+            && !this._team.SamuraiWithRepeatedHabilities())
        {
            this._team.SetTeamAsValid();
        }
