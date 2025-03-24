@@ -269,12 +269,16 @@ public class Game
         
         Team playerTeam = player.GetTeam();
         Samurai playerSamurai = playerTeam.GetSamurai();
+        char letterListingTeam = 'A';
 
-        _view.WriteLine($"A-{playerSamurai.GetName()}");
+        _view.WriteLine($"{letterListingTeam}-{playerSamurai.GetName()}");
         
         foreach (Demon demon in playerTeam.GetDemons())
         {
-            _view.WriteLine("");
+            letterListingTeam++;
+            Stat statsDemon = demon.GetStats();
+            
+            _view.WriteLine($"{letterListingTeam}-{demon.GetName()} HP: {statsDemon.GetStatByName("HP")}");
         }
     }
 }
