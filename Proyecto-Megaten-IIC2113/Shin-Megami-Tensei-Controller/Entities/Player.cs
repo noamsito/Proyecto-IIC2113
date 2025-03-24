@@ -4,6 +4,8 @@ public class Player
 {
     private string _name;
     private Team _team;
+    private int fullTurns;
+    private int blinkingTurns;
 
     public Player(string name)
     {
@@ -40,4 +42,12 @@ public class Player
    {
        return this._team;   
    }
+
+   public void SetTurns()
+   {
+       if (this._team.HasSamurai())
+       {
+           this.fullTurns = this._team.GetDemons().Count + 1;
+       }
+   } 
 }

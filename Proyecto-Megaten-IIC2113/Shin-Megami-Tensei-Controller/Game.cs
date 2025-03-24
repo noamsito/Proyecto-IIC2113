@@ -1,4 +1,5 @@
 ﻿using System.Reflection.Metadata.Ecma335;
+using System.Transactions;
 using Shin_Megami_Tensei_View;
 using Shin_Megami_Tensei.Gadgets;
 
@@ -242,15 +243,55 @@ public class Game
 
     private void CombatBetweenPlayers()
     {
+        this.SetTurnsPlayers();
+        
         Player currentPlayer = this._players["Player 1"];
         
-        while (true) // sacar esto
-        {
+        bool thereIsAGameWinner = false;
+        
+        // while (!thereIsAGameWinner) 
+        // {
+         int numberPlayer = (currentPlayer.GetName() == "Player 1") ? 1 : 2;
+        
             _view.WriteLine(CONST_OF_SEPARATORS);
-            _view.WriteLine($"Ronda de {currentPlayer.GetTeam().GetSamurai().GetName()}");
+            _view.WriteLine($"Ronda de {currentPlayer.GetTeam().GetSamurai().GetName()} (J{numberPlayer})");
             _view.WriteLine(CONST_OF_SEPARATORS);
             
             this.ShowBoardStatus();
+
+            Samurai currentSamurai = currentPlayer.GetTeam().GetSamurai(); 
+            List<Demon> currentDemons = currentPlayer.GetTeam().GetDemons();
+            
+            string optionSamurai = this.OptionsSamurai(currentSamurai);
+            
+            // switch (optionSamurai)
+            // {
+            //     case "1":
+            //         this.SamuraiAttack(ref Samurai currentSamurai);
+            //     case "2":
+            //         break;
+            //     case "3":
+            //         break;
+            //     case "4":
+            //         break;
+            //     case "5":
+            //         break;
+            //     case "6":
+            //         break;
+            // }
+            //
+            // foreach (Demon demonPlayer in currentPlayer.GetTeam().GetDemons());
+            // {
+            //     
+            // }
+        // }
+    }
+    
+    private void SetTurnsPlayers()
+    {
+        foreach (Player player in this._players.Values)
+        {
+            player.SetTurns();
         }
     }
 
@@ -295,5 +336,43 @@ public class Game
                             $"HP: {currentStatsDemon.GetStatByName("HP")}/{baseStatsDemon.GetStatByName("HP")} " +
                             $"MP: {currentStatsDemon.GetStatByName("MP")}/{baseStatsDemon.GetStatByName("MP")}");
         }
+    }
+
+    private string OptionsSamurai(Samurai samuraiPlayer)
+    {
+        string options = "";
+        options += "1. Atacar\n";
+        options += "2. Disparar\n";
+        options += "3. Usar Habilidad\n";
+        options += "4. Invocar\n";
+        options += "5. Pasar Turno\n";
+        options += "6. Rendirse\n";
+        
+        _view.WriteLine(options);
+
+        return _view.ReadLine();
+    }
+
+    private string OptionsDemons(Demon currentDemon)
+    {
+        string options = "";
+        options += "1. Atacar\n";
+        options += "2. Usar Habilidad\n";
+        options += "3. Invocar\n";
+        options += "4. Pasar Turno\n";
+        
+        _view.WriteLine(options);
+
+        return _view.ReadLine();
+    }
+
+    // private string SelectTargetOpponent()
+    // {
+    //     
+    // }
+
+    private void SamuraiAttack(ref Samurai currentSamurai, Unit unitTarget)
+    {
+        
     }
 }

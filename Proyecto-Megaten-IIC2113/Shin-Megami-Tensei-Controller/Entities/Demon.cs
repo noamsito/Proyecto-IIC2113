@@ -5,12 +5,6 @@ namespace Shin_Megami_Tensei;
 
 public class Demon : Unit
 {
-    private List<Skill> _skills = new List<Skill>();
-    public Dictionary<string, string> Affinity;
-    private const string JSON_FILE_MONSTERS = "data/monsters.json";
-    private const string JSON_FILE_SKILLS = "data/samurai.json";
-
-
     public Demon(string name) : base(name)
     {
     }

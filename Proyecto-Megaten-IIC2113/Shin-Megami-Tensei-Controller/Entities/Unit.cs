@@ -7,6 +7,10 @@ public abstract class Unit
 {
     protected string _name;
     protected List<Skill> _skills = new List<Skill>();
+    protected Dictionary<string, string> Affinity;
+    protected const string JSON_FILE_SAMURAI = "data/samurai.json";
+    protected const string JSON_FILE_MONSTERS = "data/monsters.json";
+    protected const string JSON_FILE_SKILLS = "data/samurai.json";
     protected Stat _baseStats;
     protected Stat _currentStats;
     

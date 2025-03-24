@@ -8,12 +8,6 @@ namespace Shin_Megami_Tensei;
 
 public class Samurai : Unit
 {
-    private List<Skill> _skills = new List<Skill>();
-    public Dictionary<string, string> Affinity;
-    private const string JSON_FILE_SAMURAI = "data/samurai.json";
-    private const string JSON_FILE_SKILLS = "data/samurai.json";
-    
-
     public Samurai(string name) : base(name)
     {
     }
