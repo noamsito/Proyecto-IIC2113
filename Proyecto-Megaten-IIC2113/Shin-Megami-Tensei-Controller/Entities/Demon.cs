@@ -38,8 +38,6 @@ public class Demon : Unit
                 break;
             }
         }
-        
-        this.PrintStats();
     }
     public override void UpdateStatsFromJSON()
     {
@@ -71,8 +69,6 @@ public class Demon : Unit
                 break;
             }
         }
-    
-        this.PrintSkills();
     }
 
     public void AssignSkillWithDemon(string name, string type, int cost,

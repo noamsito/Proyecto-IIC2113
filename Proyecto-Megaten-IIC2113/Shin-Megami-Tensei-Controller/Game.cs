@@ -1,76 +1,67 @@
-﻿using System.Reflection.Metadata.Ecma335;
-using System.Transactions;
-using Shin_Megami_Tensei_View;
+﻿using Shin_Megami_Tensei_View;
 using Shin_Megami_Tensei.Gadgets;
 
 namespace Shin_Megami_Tensei;
 
 public class Game
 {
-    View _view;
-
-    readonly string _teamsFolder;
-    readonly int NUMBER_TOTAL_TEAMS;
-    readonly int NUMBER_OF_SEPARATOR_LINES;
-    readonly string CONST_OF_SEPARATORS;
-
+    private readonly View _view;
+    private readonly string _teamsFolder;
+    private readonly int _totalTeams;
+    private const int SeparatorLinesCount = 40;
+    private readonly string Separator = new string('-', SeparatorLinesCount);
     private Dictionary<string, Player> _players;
-
-    string content_teams_folder;
+    private string _teamsContent;
 
     public Game(View view, string teamsFolder)
     {
-        this._teamsFolder = teamsFolder;
         _view = view;
-
-        NUMBER_TOTAL_TEAMS = Directory.GetFiles(_teamsFolder, "*.txt").Length;
-
-        NUMBER_OF_SEPARATOR_LINES = 40;
-        CONST_OF_SEPARATORS = new string('-', NUMBER_OF_SEPARATOR_LINES);
+        _teamsFolder = teamsFolder;
+        _totalTeams = Directory.GetFiles(_teamsFolder, "*.txt").Length;
     }
 
     public void Play()
     {
-        _view.WriteLine("Elige un archivo para cargar los equipos");
-        for (int i = 0; i < NUMBER_TOTAL_TEAMS; i++)
+        PromptUserToSelectFile();
+        LoadTeamsFromFile();
+        ValidateTeams();
+        if (AreTeamsValid())
         {
-            _view.WriteLine(i < 9 ? $"{i}: 00{i + 1}.txt" : $"{i}: 0{i + 1}.txt");
+            _view.WriteLine("Equipos validos");
+            // StartCombat();
         }
-
-        string numberOfFileString = _view.ReadLine();
-
-        this.AssignFileNameOfContents(int.Parse(numberOfFileString));
-        SeparateTeamsOfPlayers();
-
-        if (!this._players["Player 1"].IsTeamValid() && !this._players["Player 2"].IsTeamValid())
+        else
         {
             _view.WriteLine("Archivo de equipos inválido");
         }
-        else
+    }
+
+    private void PromptUserToSelectFile()
+    {
+        _view.WriteLine("Elige un archivo para cargar los equipos");
+        for (int i = 0; i < _totalTeams; i++)
         {
-            this.CombatBetweenPlayers();
+            _view.WriteLine(i < 9 ? $"{i}: 00{i + 1}.txt" : $"{i}: 0{i + 1}.txt");
         }
     }
 
-    public void AssignFileNameOfContents(int numberOfFile)
+    private void LoadTeamsFromFile()
     {
-        string fullNameOfFile;
-        if (numberOfFile < 9)
-        {
-            fullNameOfFile = $"{_teamsFolder}/00{numberOfFile + 1}.txt";
-        }
-        else
-        {
-            fullNameOfFile = $"{_teamsFolder}/0{numberOfFile + 1}.txt";
-        }
-
-        this.content_teams_folder = File.ReadAllText(fullNameOfFile);
+        string fileNumber = _view.ReadLine();
+        string fileName = GetFileName(int.Parse(fileNumber));
+        _teamsContent = File.ReadAllText(fileName);
+        SeparateTeams();
     }
 
-    private void SeparateTeamsOfPlayers()
+    private string GetFileName(int fileNumber)
     {
-        List<string> lines = GetNonEmptyLines(content_teams_folder);
-        this.InitializePlayers();
+        return fileNumber < 9 ? $"{_teamsFolder}/00{fileNumber + 1}.txt" : $"{_teamsFolder}/0{fileNumber + 1}.txt";
+    }
+
+    private void SeparateTeams()
+    {
+        List<string> lines = GetNonEmptyLines(_teamsContent);
+        InitializePlayers();
 
         Player currentPlayer = null;
         List<string> teamUnits = new List<string>();
@@ -93,7 +84,7 @@ public class Game
 
         if (currentPlayer != null)
         {
-            currentPlayer.SetTeam(ConvertStringIntoTeam(teamUnits));
+            currentPlayer.SetTeam(ConvertStringToTeam(teamUnits));
         }
     }
 
@@ -101,25 +92,25 @@ public class Game
     {
         if (currentPlayer != null)
         {
-            currentPlayer.SetTeam(ConvertStringIntoTeam(teamUnits));
+            currentPlayer.SetTeam(ConvertStringToTeam(teamUnits));
             teamUnits.Clear();
         }
 
         currentPlayer = _players[playerName];
     }
 
-    private Team ConvertStringIntoTeam(List<string> teamUnits)
+    private Team ConvertStringToTeam(List<string> teamUnits)
     {
         Team newTeam = new Team();
         foreach (var unit in teamUnits)
         {
             if (unit.StartsWith("[Samurai]"))
             {
-                this.AddSamuraiToTeam(newTeam, unit);
+                AddSamuraiToTeam(newTeam, unit);
             }
             else
             {
-                this.AddDemonToTeam(newTeam, unit);
+                AddDemonToTeam(newTeam, unit);
             }
         }
 
@@ -130,36 +121,31 @@ public class Game
     {
         if (!newTeam.HasSamurai())
         {
-            string samuraiName;
-            List<string> ListOfSkillsSamurai;
+            var (samuraiName, skills) = ExtractSamuraiDetails(unit);
 
-            (samuraiName, ListOfSkillsSamurai) = this.ExtractSkillsAndSamuraiNames(unit);
-
-            Samurai NewSamurai = new Samurai(samuraiName);
-            this.SetUpSamurai(NewSamurai, ListOfSkillsSamurai);
-
-            newTeam.AddSamurai(NewSamurai);
+            Samurai samurai = new Samurai(samuraiName);
+            
+            SetUpSamurai(ref samurai, skills);
+            newTeam.AddSamurai(samurai);
         }
         else
         {
-            newTeam.SetTeamAsInvalid();
+            newTeam.SetSamuraiRepeated();
         }
     }
 
     private void AddDemonToTeam(Team newTeam, string unit)
     {
         string demonName = unit.Trim();
-        Demon newDemon = new Demon(demonName);
-        newDemon.SetStatsFromJSON();
-        newDemon.SetDemonSkillsFromJSON();
-
-        newTeam.AddDemon(newDemon);
+        Demon demon = new Demon(demonName);
+        demon.SetStatsFromJSON();
+        demon.SetDemonSkillsFromJSON();
+        newTeam.AddDemon(demon);
     }
 
-    private (string, List<string>) ExtractSkillsAndSamuraiNames(string unit)
+    private (string, List<string>) ExtractSamuraiDetails(string unit)
     {
-        List<string> skillsNames = new List<string>();
-
+        List<string> skills = new List<string>();
         int nameStart = "[Samurai]".Length;
         int parenthesisStart = unit.IndexOf('(');
         string samuraiName = "";
@@ -173,7 +159,7 @@ public class Game
                 skillsString = unit.Substring(parenthesisStart + 1, parenthesisEnd - parenthesisStart - 1);
             }
 
-            skillsNames = skillsString.Split(',')
+            skills = skillsString.Split(',')
                 .Select(word => word.Trim())
                 .ToList();
             samuraiName = unit.Substring(nameStart, parenthesisStart - nameStart).Trim();
@@ -183,14 +169,13 @@ public class Game
             samuraiName = unit.Substring(nameStart).Trim();
         }
 
-        return (samuraiName, skillsNames);
+        return (samuraiName, skills);
     }
 
-    private Samurai SetUpSamurai(Samurai samurai, List<string> ListOfSkillsSamurai)
+    private void SetUpSamurai(ref Samurai samurai, List<string> skills)
     {
         samurai.SetStatsFromJSON();
-        samurai.SetSamuraiSkillsFromJSON(ListOfSkillsSamurai);
-        return samurai;
+        samurai.SetSamuraiSkillsFromJSON(skills);
     }
 
     private List<string> GetNonEmptyLines(string content)
@@ -203,7 +188,7 @@ public class Game
 
     private void InitializePlayers()
     {
-        this._players = new Dictionary<string, Player>
+        _players = new Dictionary<string, Player>
         {
             { "Player 1", new Player("Player 1") },
             { "Player 2", new Player("Player 2") }
@@ -215,178 +200,139 @@ public class Game
         return line.StartsWith(playerTeam);
     }
 
-    private void PrintTeams(Dictionary<string, Player> players)
+    private void ValidateTeams()
     {
-        foreach (var player in players)
+        foreach (var player in _players.Values)
         {
-            _view.WriteLine($"{player.Key}'s Team:");
-            Team team = player.Value.GetTeam();
-
-            if (team.HasSamurai())
-            {
-                Samurai samurai = team.GetSamurai();
-                _view.WriteLine($"Samurai: {samurai.GetName()}");
-            }
-            else
-            {
-                _view.WriteLine("Doesn't have a samurai");
-            }
-
-            foreach (var demon in team.GetDemons())
-            {
-                _view.WriteLine($"Demon: {demon.GetName()}");
-            }
-
-            _view.WriteLine("\n");
+            player.IsTeamValid();
         }
     }
 
-    private void CombatBetweenPlayers()
+    private bool AreTeamsValid()
     {
-        this.SetTurnsPlayers();
-        
-        Player currentPlayer = this._players["Player 1"];
-        
-        bool thereIsAGameWinner = false;
-        
-        // while (!thereIsAGameWinner) 
-        // {
-         int numberPlayer = (currentPlayer.GetName() == "Player 1") ? 1 : 2;
-        
-            _view.WriteLine(CONST_OF_SEPARATORS);
-            _view.WriteLine($"Ronda de {currentPlayer.GetTeam().GetSamurai().GetName()} (J{numberPlayer})");
-            _view.WriteLine(CONST_OF_SEPARATORS);
-            
-            this.ShowBoardStatus();
-            _view.WriteLine(CONST_OF_SEPARATORS);
-            
-            this.ShowTurns(currentPlayer);
-            _view.WriteLine(CONST_OF_SEPARATORS);
-
-            this.ShowSortedOfUnitsPlayer(currentPlayer);
-            _view.WriteLine(CONST_OF_SEPARATORS);
-            
-            Samurai currentSamurai = currentPlayer.GetTeam().GetSamurai(); 
-            List<Demon> currentDemons = currentPlayer.GetTeam().GetDemons();
-
-            string optionSamurai = this.OptionsSamurai(currentSamurai);
-            _view.WriteLine(CONST_OF_SEPARATORS);
-            
-            switch (optionSamurai)
-            {
-                case "1":
-                    // add the method to select the option of the opponent
-                    
-                    // this.SamuraiAttack(currentSamurai);
-                    break;
-                case "2":
-                    break;
-                case "3":
-                    break;
-                case "4":
-                    break;
-                case "5":
-                    break;
-                case "6":
-                    break;
-            }
-            //
-            // foreach (Demon demonPlayer in currentPlayer.GetTeam().GetDemons());
-            // {
-            //     
-            // }
-        // }
+        return _players["Player 1"].IsTeamValid() && _players["Player 2"].IsTeamValid();
     }
-    
-    private void SetTurnsPlayers()
+
+    private void StartCombat()
     {
-        foreach (Player player in this._players.Values)
+        SetPlayerTurns();
+        Player currentPlayer = _players["Player 1"];
+        bool gameWon = false;
+
+        while (!gameWon)
+        {
+            int playerNumber = currentPlayer.GetName() == "Player 1" ? 1 : 2;
+
+            _view.WriteLine(Separator);
+            DisplayRoundHeader(currentPlayer, playerNumber);
+            _view.WriteLine(Separator);
+
+            
+            ShowBoardStatus();
+            _view.WriteLine(Separator);
+            
+            ShowTurns(currentPlayer);
+            _view.WriteLine(Separator);
+            
+            ShowSortedUnits(currentPlayer);
+            _view.WriteLine(Separator);
+            
+            string samuraiAction = GetSamuraiAction(currentPlayer.GetTeam().GetSamurai());
+            _view.WriteLine(Separator);
+            ManageSamuraiAction(samuraiAction, ref currentPlayer);
+        }
+    }
+
+    private void SetPlayerTurns()
+    {
+        foreach (Player player in _players.Values)
         {
             player.SetTurns();
         }
     }
 
+    private void DisplayRoundHeader(Player currentPlayer, int playerNumber)
+    {
+        _view.WriteLine($"Ronda de {currentPlayer.GetTeam().GetSamurai().GetName()} (J{playerNumber})");
+    }
+
     private void ShowBoardStatus()
     {
-        int numberPlayerBoardStatus = 1;
-        foreach (Player player in this._players.Values)
+        int playerNumber = 1;
+        foreach (Player player in _players.Values)
         {
-            this.ShowStatusPlayer(player, numberPlayerBoardStatus);
-            numberPlayerBoardStatus++;
+            ShowPlayerStatus(player, playerNumber);
+            playerNumber++;
         }
     }
 
-    private void ShowStatusPlayer(Player player, int numberPlayer)
+    private void ShowPlayerStatus(Player player, int playerNumber)
     {
-        _view.WriteLine($"Equipo de {player.GetTeam().GetSamurai().GetName()} (J{numberPlayer})");
-        this.ShowTeamPlayer(player);
+        _view.WriteLine($"Equipo de {player.GetTeam().GetSamurai().GetName()} (J{playerNumber})");
+        ShowTeamWithLetter(player);
     }
 
-    private void ShowTeamPlayer(Player player)
+    private void ShowTeamWithLetter(Player player)
     {
-        Team playerTeam = player.GetTeam();
-        Samurai playerSamurai = playerTeam.GetSamurai();
-        char letterListingTeam = 'A';
-    
-        Stat baseStatsSamurai = playerSamurai.GetBaseStats();
-        Stat currentStatsSamurai = playerSamurai.GetCurrentStats();
-    
-        _view.WriteLine($"{letterListingTeam}-{playerSamurai.GetName()} " +
-                        $"HP:{currentStatsSamurai.GetStatByName("HP")}/{baseStatsSamurai.GetStatByName("HP")} " +
-                        $"MP:{currentStatsSamurai.GetStatByName("MP")}/{baseStatsSamurai.GetStatByName("MP")}");
-    
-        var demons = playerTeam.GetDemons().Take(3).ToList(); 
-    
+        Team team = player.GetTeam();
+        Samurai samurai = team.GetSamurai();
+        char unitLabel = 'A';
+
+        DisplayUnitStatus(samurai, unitLabel);
+        var demons = team.GetDemons().Take(3).ToList();
+
         for (int i = 0; i < 3; i++)
         {
-            letterListingTeam++;
+            unitLabel++;
             if (i < demons.Count)
             {
-                Stat baseStatsDemon = demons[i].GetBaseStats();
-                Stat currentStatsDemon = demons[i].GetCurrentStats();
-        
-                _view.WriteLine($"{letterListingTeam}-{demons[i].GetName()} " +
-                                $"HP:{currentStatsDemon.GetStatByName("HP")}/{baseStatsDemon.GetStatByName("HP")} " +
-                                $"MP:{currentStatsDemon.GetStatByName("MP")}/{baseStatsDemon.GetStatByName("MP")}");
+                DisplayUnitStatus(demons[i], unitLabel);
             }
             else
             {
-                _view.WriteLine($"{letterListingTeam}-");
+                _view.WriteLine($"{unitLabel}-");
             }
         }
     }
 
-    private string OptionsSamurai(Samurai samuraiPlayer)
+    private void ShowTargetTeam(Player player)
     {
-        _view.WriteLine($"Seleccione una acción para {samuraiPlayer.GetName()}");
-    
-        string options = "1: Atacar\n" +
-                         "2: Disparar\n" +
-                         "3: Usar Habilidad\n" +
-                         "4: Invocar\n" +
-                         "5: Pasar Turno\n" +
-                         "6: Rendirse";
-    
-        _view.WriteLine(options);
-    
-        string optionSelected = _view.ReadLine();
-    
-        return optionSelected;
+        Team targetTeam = player.GetTeam();
+        Samurai targetSamurai = targetTeam.GetSamurai();
+        List<Demon> targetDemons = targetTeam.GetDemons();
+        
+        int i = 0 ;
+        
+        _view.WriteLine($"{i + 1}-{targetSamurai.GetName()} " +
+                        $"HP:{targetSamurai.GetCurrentStats().GetStatByName("HP")}/{targetSamurai.GetBaseStats().GetStatByName("HP")} " +
+                        $"MP:{targetSamurai.GetCurrentStats().GetStatByName("MP")}/{targetSamurai.GetBaseStats().GetStatByName("MP")}");
+
+        for (i = i; i < 3 && i < targetDemons.Count; i++)
+        {
+            Demon currentDemon = targetDemons[i];
+            _view.WriteLine($"{i + 1}-{currentDemon.GetName()} " +
+                            $"HP:{currentDemon.GetCurrentStats().GetStatByName("HP")}/{currentDemon.GetBaseStats().GetStatByName("HP")} " +
+                            $"MP:{currentDemon.GetCurrentStats().GetStatByName("MP")}/{currentDemon.GetBaseStats().GetStatByName("MP")}");;
+        }
+
+        i = (targetDemons.Count == 0) ? ++i : i;
+        
+        _view.WriteLine($"{i + 1}-Cancelar");
     }
 
-    private string OptionsDemons(Demon currentDemon)
+    private void DisplayUnitStatus(Unit unit, char label)
     {
-        string options = "";
-        options += "1. Atacar\n";
-        options += "2. Usar Habilidad\n";
-        options += "3. Invocar\n";
-        options += "4. Pasar Turno\n";
-        
-        string optionSelected = _view.ReadLine();
+        Stat baseStats = unit.GetBaseStats();
+        Stat currentStats = unit.GetCurrentStats();
+        _view.WriteLine($"{label}-{unit.GetName()} HP:{currentStats.GetStatByName("HP")}/{baseStats.GetStatByName("HP")} MP:{currentStats.GetStatByName("MP")}/{baseStats.GetStatByName("MP")}");
+    }
+
+    private string GetSamuraiAction(Samurai samurai)
+    {
+        _view.WriteLine($"Seleccione una acción para {samurai.GetName()}");
+        string options = "1: Atacar\n2: Disparar\n3: Usar Habilidad\n4: Invocar\n5: Pasar Turno\n6: Rendirse";
         _view.WriteLine(options);
-
-
-        return optionSelected;
+        return _view.ReadLine();
     }
 
     private void ShowTurns(Player player)
@@ -395,11 +341,11 @@ public class Game
         _view.WriteLine($"Blinking Turns: {player.GetBlinkingTurns()}");
     }
 
-    private void ShowSortedOfUnitsPlayer(Player currentPlayer)
+    private void ShowSortedUnits(Player currentPlayer)
     {
         _view.WriteLine("Orden:");
         Team team = currentPlayer.GetTeam();
-        
+
         if (team.HasSamurai())
         {
             _view.WriteLine($"1-{team.GetSamurai().GetName()}");
@@ -407,23 +353,71 @@ public class Game
 
         if (team.GetDemons().Count > 0)
         {
-            int numberDemon = 2;
+            int demonNumber = 2;
             List<Demon> sortedDemons = team.GetSortedDemonsBySpeed();
             foreach (Demon demon in sortedDemons)
             {
-                _view.WriteLine($"{numberDemon}-{demon.GetName()}");
-                numberDemon++;
+                _view.WriteLine($"{demonNumber}-{demon.GetName()}");
+                demonNumber++;
             }
         }
     }
     
-    // private string SelectTargetOpponent()
-    // {
-    //     
-    // }
-
-    private void SamuraiAttack(ref Samurai currentSamurai, Unit unitTarget)
+    private Player GetOpponent(Player currentPlayer)
     {
+        return currentPlayer.GetName() == "Player 1" ? _players["Player 2"] : _players["Player 1"];
+    }
+
+    private void ManageSamuraiAction(string action, ref Player currentPlayer)
+    {
+        Samurai samurai = currentPlayer.GetTeam().GetSamurai();
+        Player targetPlayer = GetOpponent(currentPlayer);
+
+        switch (action)
+        {
+            case "1":
+                string targetName = SelectTarget(samurai, targetPlayer);
+                _view.WriteLine(Separator);
+                Unit target = FindTarget(targetName, ref currentPlayer);
+                SamuraiAttack(ref samurai, target);
+                break;
+            case "2":
+                // Implement Shoot action
+                break;
+            case "3":
+                // Implement Use Skill action
+                break;
+            case "4":
+                // Implement Summon action
+                break;
+            case "5":
+                // Implement Pass Turn action
+                break;
+            case "6":
+                // Implement Surrender action
+                break;
+        }
+    }
+
+    private string SelectTarget(Unit attacker, Player targetPlayer)
+    {
+        _view.WriteLine($"Seleccione un objetivo para {attacker.GetName()}");
+        ShowTargetTeam(targetPlayer);
+        return _view.ReadLine();
+    }
+
+    private Unit FindTarget(string targetName, ref Player targetPlayer)
+    {
+        Team team = targetPlayer.GetTeam();
+        Unit target = team.GetSamurai().GetName() == targetName ? 
+            team.GetSamurai() : team.GetDemons().FirstOrDefault(demon => demon.GetName() == targetName);
         
+        _view.WriteLine($"{target.GetName()}");
+        return target;
+    }
+
+    private void SamuraiAttack(ref Samurai samurai, Unit target)
+    {
+        // Implement Samurai attack logic
     }
 }

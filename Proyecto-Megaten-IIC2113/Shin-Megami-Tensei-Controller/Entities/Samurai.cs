@@ -12,10 +12,6 @@ public class Samurai : Unit
     {
     }
 
-    public void AddSkills(string newSkill)
-    {
-    }
-
     public override void SetStatsFromJSON()
     {
         string jsonString = File.ReadAllText(JSON_FILE_SAMURAI);
@@ -47,8 +43,6 @@ public class Samurai : Unit
                 break;
             }
         }
-        
-        // this.PrintStats();
     }
     
     public override void UpdateStatsFromJSON()
@@ -76,23 +70,20 @@ public class Samurai : Unit
     public void SetSamuraiSkillsFromJSON(List<string> skillsList)
     {
         string jsonString = File.ReadAllText(JSON_FILE_SKILLS);
-    
         JsonDocument document = JsonDocument.Parse(jsonString);
-        JsonElement root = document.RootElement; // cambiar nombre
+        JsonElement root = document.RootElement;
         
         foreach (var skill in skillsList)
         {
             this.MatchListSkillsWithJSON(skill, root);
         }
-        
-        this.PrintSkills();
     }
     
     public void MatchListSkillsWithJSON(string skill, JsonElement root)
     {
         foreach (JsonElement skillJSON in root.EnumerateArray())
         {
-            if (skillJSON.GetProperty("name").GetString() == skill)
+            if (skillJSON.GetProperty("name").GetString() == skill) // esta por acá el error
             {
                 string name = skillJSON.GetProperty("name").GetString();
                 string type = skillJSON.GetProperty("type").GetString();
@@ -107,19 +98,12 @@ public class Samurai : Unit
             }
         }
     }
-
-    public void AssignSkillWithSamurai(string name, string type, int cost, 
-                                        int power, string target, string hits, string effect)
+    
+    public void AssignSkillWithSamurai(string name, string type, int cost, int power, string target, string hits, string effect)
     {
         Skill newSkill = new Skill(name, type, cost, power, target, hits, effect);
         this._skills.Add(newSkill);
-    }
-
-    public List<string> ConvertStringToList(string skillsString)
-    {
-        string[] skillsArray = skillsString.Trim('(', ')').Split(',');
-    
-        return new List<string>(skillsArray);
+        // Console.WriteLine($"{this._skills.Count}");
     }
     
     public void PrintSkills()

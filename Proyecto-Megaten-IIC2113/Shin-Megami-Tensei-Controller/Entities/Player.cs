@@ -19,15 +19,15 @@ public class Player
 
    public bool IsTeamValid()
    {
-       if (this._team.HasSamurai() && !this._team.GetIfSamuraiIsRepeated() && this._team.HasMaximumUnits()
-            && !this._team.UnitRepeated() && this._team.SamuraiWithLessThanMaxSkills()
-            && !this._team.SamuraiWithRepeatedHabilities())
+       if (!this._team.HasSamurai() || this._team.GetIfSamuraiIsRepeated() || !this._team.HasLessThanMaximumUnits()
+            || this._team.UnitRepeated() || this._team.SamuraiWithMoreThanMaxSkills()
+            || this._team.SamuraiWithRepeatedHabilities())
        {
-           this._team.SetTeamAsValid();
+           this._team.SetTeamAsInvalid();
        }
        else
        {
-           this._team.SetTeamAsInvalid();
+           this._team.SetTeamAsValid();
        }
    
        return this._team.GetValidation();

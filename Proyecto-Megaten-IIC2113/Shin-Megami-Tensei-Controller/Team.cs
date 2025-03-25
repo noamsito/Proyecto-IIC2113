@@ -67,51 +67,49 @@ public class Team
         this.SetTeamAsInvalid();
         this._samuraiRepeated = true;
     }
-
-    public bool HasMinimumUnits()
-    {
-        return this.HasSamurai() && this._demons.Count <= MAX_DEMONS;
-    }
     
-    public bool HasMaximumUnits()
+    public bool HasLessThanMaximumUnits()
     {
         return this.HasSamurai() && this._demons.Count <= MAX_DEMONS;
     }
 
     public bool UnitRepeated()
     {
-        HashSet<string> demonNames = new HashSet<string>();
+        List<string> demonNames = new List<string>();
     
         foreach (Demon demon in this._demons)
         {
-            if (!demonNames.Add(demon.GetName()))
+            if (demonNames.Contains(demon.GetName()))
             {
-                return true; 
+                return true;
             }
+            demonNames.Add(demon.GetName());
         }
     
-        return false; 
+        return false;
     }
 
-    public bool SamuraiWithLessThanMaxSkills()
+    public bool SamuraiWithMoreThanMaxSkills()
     {
-        return this._samurai.GetQuantityOfSkills() <= MAX_SKILLS_SAMURAI;
+        return this._samurai.GetQuantityOfSkills() > MAX_SKILLS_SAMURAI;
     }
     
-    public bool SamuraiWithRepeatedHabilities()
-    {
-        HashSet<string> skillNames = new HashSet<string>();
-    
-        foreach (Skill skill in this._samurai.GetSkills())
-        {
-            if (!skillNames.Add(skill.GetName()))
-            {
-                return true; 
-            }
-        }
-    
-        return false; 
-    }
+   public bool SamuraiWithRepeatedHabilities()
+   {
+       List<string> skillNames = new List<string>();
+       
+       foreach (Skill skill in this._samurai.GetSkills())
+       {
+           string skillName = skill.GetName().ToLower().Trim();
+           if (skillNames.Contains(skillName))
+           {
+               return true; 
+           }
+           skillNames.Add(skillName);
+       }
+       
+       return false; 
+   }
 
     public List<Demon> GetSortedDemonsBySpeed()
     { 
