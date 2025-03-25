@@ -43,11 +43,23 @@ public class Player
        return this._team;   
    }
 
+   public int GetFullTurns()
+   {
+        return this.fullTurns;
+   }
+
+   public int GetBlinkingTurns()
+   {
+        return this.blinkingTurns;
+   }
+
    public void SetTurns()
    {
        if (this._team.HasSamurai())
        {
            this.fullTurns = this._team.GetDemons().Count + 1;
        }
+
+       this.blinkingTurns = 0;
    } 
 }

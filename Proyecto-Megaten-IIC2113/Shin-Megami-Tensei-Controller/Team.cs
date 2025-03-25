@@ -75,7 +75,7 @@ public class Team
     
     public bool HasMaximumUnits()
     {
-        return this.HasSamurai() && this._demons.Count == MAX_DEMONS;
+        return this.HasSamurai() && this._demons.Count <= MAX_DEMONS;
     }
 
     public bool UnitRepeated()
@@ -111,5 +111,12 @@ public class Team
         }
     
         return false; 
+    }
+
+    public List<Demon> GetSortedDemonsBySpeed()
+    { 
+        return this._demons.OrderByDescending(
+            demon => demon.GetCurrentStats().GetStatByName("Spd")
+            ).ToList();
     }
 }

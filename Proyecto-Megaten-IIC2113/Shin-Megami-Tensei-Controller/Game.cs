@@ -258,27 +258,38 @@ public class Game
             _view.WriteLine(CONST_OF_SEPARATORS);
             
             this.ShowBoardStatus();
+            _view.WriteLine(CONST_OF_SEPARATORS);
+            
+            this.ShowTurns(currentPlayer);
+            _view.WriteLine(CONST_OF_SEPARATORS);
 
+            this.ShowSortedOfUnitsPlayer(currentPlayer);
+            _view.WriteLine(CONST_OF_SEPARATORS);
+            
             Samurai currentSamurai = currentPlayer.GetTeam().GetSamurai(); 
             List<Demon> currentDemons = currentPlayer.GetTeam().GetDemons();
-            
+
             string optionSamurai = this.OptionsSamurai(currentSamurai);
+            _view.WriteLine(CONST_OF_SEPARATORS);
             
-            // switch (optionSamurai)
-            // {
-            //     case "1":
-            //         this.SamuraiAttack(ref Samurai currentSamurai);
-            //     case "2":
-            //         break;
-            //     case "3":
-            //         break;
-            //     case "4":
-            //         break;
-            //     case "5":
-            //         break;
-            //     case "6":
-            //         break;
-            // }
+            switch (optionSamurai)
+            {
+                case "1":
+                    // add the method to select the option of the opponent
+                    
+                    // this.SamuraiAttack(currentSamurai);
+                    break;
+                case "2":
+                    break;
+                case "3":
+                    break;
+                case "4":
+                    break;
+                case "5":
+                    break;
+                case "6":
+                    break;
+            }
             //
             // foreach (Demon demonPlayer in currentPlayer.GetTeam().GetDemons());
             // {
@@ -297,22 +308,22 @@ public class Game
 
     private void ShowBoardStatus()
     {
+        int numberPlayerBoardStatus = 1;
         foreach (Player player in this._players.Values)
         {
-            this.ShowStatusPlayer(player);
+            this.ShowStatusPlayer(player, numberPlayerBoardStatus);
+            numberPlayerBoardStatus++;
         }
     }
 
-    private void ShowStatusPlayer(Player player)
+    private void ShowStatusPlayer(Player player, int numberPlayer)
     {
-        _view.WriteLine($"Equipo de {player.GetTeam()}");
+        _view.WriteLine($"Equipo de {player.GetTeam().GetSamurai().GetName()} (J{numberPlayer})");
         this.ShowTeamPlayer(player);
     }
 
     private void ShowTeamPlayer(Player player)
     {
-        _view.WriteLine($"{player.GetName()}'s");
-    
         Team playerTeam = player.GetTeam();
         Samurai playerSamurai = playerTeam.GetSamurai();
         char letterListingTeam = 'A';
@@ -321,36 +332,46 @@ public class Game
         Stat currentStatsSamurai = playerSamurai.GetCurrentStats();
     
         _view.WriteLine($"{letterListingTeam}-{playerSamurai.GetName()} " +
-                        $"HP: {currentStatsSamurai.GetStatByName("HP")}/{baseStatsSamurai.GetStatByName("HP")} " +
-                        $"MP: {currentStatsSamurai.GetStatByName("MP")}/{baseStatsSamurai.GetStatByName("MP")}");
+                        $"HP:{currentStatsSamurai.GetStatByName("HP")}/{baseStatsSamurai.GetStatByName("HP")} " +
+                        $"MP:{currentStatsSamurai.GetStatByName("MP")}/{baseStatsSamurai.GetStatByName("MP")}");
     
         var demons = playerTeam.GetDemons().Take(3).ToList(); 
     
-        foreach (Demon demon in demons)
+        for (int i = 0; i < 3; i++)
         {
             letterListingTeam++;
-            Stat baseStatsDemon = demon.GetBaseStats();
-            Stat currentStatsDemon = demon.GetCurrentStats();
-    
-            _view.WriteLine($"{letterListingTeam}-{demon.GetName()} " +
-                            $"HP: {currentStatsDemon.GetStatByName("HP")}/{baseStatsDemon.GetStatByName("HP")} " +
-                            $"MP: {currentStatsDemon.GetStatByName("MP")}/{baseStatsDemon.GetStatByName("MP")}");
+            if (i < demons.Count)
+            {
+                Stat baseStatsDemon = demons[i].GetBaseStats();
+                Stat currentStatsDemon = demons[i].GetCurrentStats();
+        
+                _view.WriteLine($"{letterListingTeam}-{demons[i].GetName()} " +
+                                $"HP:{currentStatsDemon.GetStatByName("HP")}/{baseStatsDemon.GetStatByName("HP")} " +
+                                $"MP:{currentStatsDemon.GetStatByName("MP")}/{baseStatsDemon.GetStatByName("MP")}");
+            }
+            else
+            {
+                _view.WriteLine($"{letterListingTeam}-");
+            }
         }
     }
 
     private string OptionsSamurai(Samurai samuraiPlayer)
     {
-        string options = "";
-        options += "1. Atacar\n";
-        options += "2. Disparar\n";
-        options += "3. Usar Habilidad\n";
-        options += "4. Invocar\n";
-        options += "5. Pasar Turno\n";
-        options += "6. Rendirse\n";
-        
+        _view.WriteLine($"Seleccione una acción para {samuraiPlayer.GetName()}");
+    
+        string options = "1: Atacar\n" +
+                         "2: Disparar\n" +
+                         "3: Usar Habilidad\n" +
+                         "4: Invocar\n" +
+                         "5: Pasar Turno\n" +
+                         "6: Rendirse";
+    
         _view.WriteLine(options);
-
-        return _view.ReadLine();
+    
+        string optionSelected = _view.ReadLine();
+    
+        return optionSelected;
     }
 
     private string OptionsDemons(Demon currentDemon)
@@ -361,11 +382,41 @@ public class Game
         options += "3. Invocar\n";
         options += "4. Pasar Turno\n";
         
+        string optionSelected = _view.ReadLine();
         _view.WriteLine(options);
 
-        return _view.ReadLine();
+
+        return optionSelected;
     }
 
+    private void ShowTurns(Player player)
+    {
+        _view.WriteLine($"Full Turns: {player.GetFullTurns()}");
+        _view.WriteLine($"Blinking Turns: {player.GetBlinkingTurns()}");
+    }
+
+    private void ShowSortedOfUnitsPlayer(Player currentPlayer)
+    {
+        _view.WriteLine("Orden:");
+        Team team = currentPlayer.GetTeam();
+        
+        if (team.HasSamurai())
+        {
+            _view.WriteLine($"1-{team.GetSamurai().GetName()}");
+        }
+
+        if (team.GetDemons().Count > 0)
+        {
+            int numberDemon = 2;
+            List<Demon> sortedDemons = team.GetSortedDemonsBySpeed();
+            foreach (Demon demon in sortedDemons)
+            {
+                _view.WriteLine($"{numberDemon}-{demon.GetName()}");
+                numberDemon++;
+            }
+        }
+    }
+    
     // private string SelectTargetOpponent()
     // {
     //     
