@@ -79,10 +79,12 @@ public class Player
 
    public void SetTurns()
    {
-       this._fullTurns = this._activeUnits.Count(unit => unit != null);
+       this._fullTurns = this._activeUnits.Count(unit => 
+           unit != null && 
+           unit.GetCurrentStats().GetStatByName("HP") > 0);
        
        this._blinkingTurns = 0;
-   } 
+   }
    
    public void SetActiveUnits()
    {
@@ -247,14 +249,31 @@ public class Player
 
    public void RemoveFromActiveUnitsIfDead()
    {
-      for (int i = 0; i < _activeUnits.Count; i++)
-      {
-          if (_activeUnits[i] != null && 
-              _activeUnits[i].GetCurrentStats().GetStatByName("HP") <= 0 &&
-              _activeUnits[i] is not Samurai)
-          {
-              _activeUnits[i] = null;
-          }
-      }
+       for (int i = 0; i < _activeUnits.Count; i++)
+       {
+           if (_activeUnits[i] != null && 
+               _activeUnits[i].GetCurrentStats().GetStatByName("HP") <= 0)
+           {
+                RemoveFromSortedUnits(_activeUnits[i].GetName());
+               
+               if (_activeUnits[i] is not Samurai)
+               {
+                   _activeUnits[i] = null;
+               }
+           }
+       }
+   }
+   
+   public void RemoveFromSortedUnits(string nameUnit)
+   {
+       for (int i = 0; i < _sortedActiveUnitsByOrderOfAttack.Count; i++)
+       {
+           if (_sortedActiveUnitsByOrderOfAttack[i] != null && 
+               _sortedActiveUnitsByOrderOfAttack[i].GetName() == nameUnit)
+           {
+               _sortedActiveUnitsByOrderOfAttack.RemoveAt(i);
+               break;  
+           }
+       }
    }
 }

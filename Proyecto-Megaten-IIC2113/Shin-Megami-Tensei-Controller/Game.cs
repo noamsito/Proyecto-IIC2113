@@ -366,7 +366,7 @@ public class Game
     
         foreach (var unit in activeUnits)
         {
-            if (unit != null)
+            if (unit != null && unit.GetCurrentStats().GetStatByName("HP") > 0)
             {
                 _view.WriteLine($"{unitLabelNumber}-{unit.GetName()} " +
                                 $"HP:{unit.GetCurrentStats().GetStatByName("HP")}/{unit.GetBaseStats().GetStatByName("HP")} " +
@@ -411,6 +411,11 @@ public class Game
     {
         _view.WriteLine("Orden:");
         List<Unit> sortedActiveUnits = currentPlayer.GetSortedActiveUnitsByOrderOfAttack();
+
+        foreach (Unit unit in sortedActiveUnits)
+        {
+            Console.WriteLine($"{unit}");
+        }
         
         if (sortedActiveUnits.Count > 0)
         {
@@ -563,13 +568,27 @@ public class Game
                 return input; 
             }
         }
-
     }
 
-    private Unit FindTarget(int targetName, ref Player targetPlayer)
+    private Unit FindTarget(int selectedOption, ref Player targetPlayer)
     {
-        Unit target = targetPlayer.GetActiveUnits()[targetName - 1];
-        return target;
+        List<Unit> activeUnits = targetPlayer.GetActiveUnits();
+        int currentIndex = 0;
+        
+        for (int i = 0; i < activeUnits.Count; i++)
+        {
+            Unit unit = activeUnits[i];
+            if (unit != null && unit.GetCurrentStats().GetStatByName("HP") > 0)
+            {
+                currentIndex++;
+                if (currentIndex == selectedOption)
+                {
+                    return unit;
+                }
+            }
+        }
+        
+        return null; 
     }
 
     private void SamuraiAttack(ref Samurai samurai, Unit target)
