@@ -4,6 +4,7 @@ namespace Shin_Megami_Tensei;
 
 public class Team
 {
+    private List<Unit> _units;
     private Samurai _samurai;
     private List<Demon> _demons;
     private bool _valid;

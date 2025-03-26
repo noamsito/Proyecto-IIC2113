@@ -19,7 +19,14 @@ public class Stat
     {
         return _stats.TryGetValue(statName, out int value) ? value : 0;
     }
-
+    
+    public void SetStatByName(string statName, int value)
+    {
+        if (_stats.ContainsKey(statName))
+        {
+            _stats[statName] = value;
+        }
+    }
 
     public Dictionary<string, int> GetAllStats()
     {

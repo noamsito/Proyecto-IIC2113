@@ -10,7 +10,8 @@ public abstract class Unit
     protected Dictionary<string, string> Affinity;
     protected const string JSON_FILE_SAMURAI = "data/samurai.json";
     protected const string JSON_FILE_MONSTERS = "data/monsters.json";
-    protected const string JSON_FILE_SKILLS = "data/samurai.json";
+    protected const string JSON_FILE_SKILLS = "data/skills.json";
+    
     protected Stat _baseStats;
     protected Stat _currentStats;
     
@@ -42,4 +43,16 @@ public abstract class Unit
     {
         return this._skills;
     }
- }
+
+    public void ApplyDamageTaken(int damageTaken)
+    {
+        int currentHP = this._currentStats.GetStatByName("HP");
+        int newHP = currentHP - damageTaken;
+        this._currentStats.SetStatByName("HP", newHP < 0 ? 0 : newHP);
+    }
+    
+    public bool IsAlive()
+    {
+        return this._currentStats.GetStatByName("HP") > 0;
+    }
+}

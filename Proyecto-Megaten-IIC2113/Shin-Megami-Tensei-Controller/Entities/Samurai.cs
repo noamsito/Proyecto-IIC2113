@@ -83,7 +83,7 @@ public class Samurai : Unit
     {
         foreach (JsonElement skillJSON in root.EnumerateArray())
         {
-            if (skillJSON.GetProperty("name").GetString() == skill) // esta por acá el error
+            if (skillJSON.GetProperty("name").GetString() == skill) 
             {
                 string name = skillJSON.GetProperty("name").GetString();
                 string type = skillJSON.GetProperty("type").GetString();
