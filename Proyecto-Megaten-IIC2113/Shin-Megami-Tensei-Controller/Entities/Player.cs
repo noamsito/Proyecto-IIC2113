@@ -13,6 +13,7 @@ public class Player
         
     private List<Unit> _activeUnits;
     private List<Unit> _reservedUnits;
+    private List<Unit> _sortedActiveUnitsByOrderOfAttack;
     
     protected const string JSON_FILE_SAMURAI = "data/samurai.json";
     protected const string JSON_FILE_MONSTERS = "data/monsters.json";
@@ -21,8 +22,8 @@ public class Player
     public Player(string name)
     {
         this._name = name;
-        this._activeUnits = new List<Unit>();
-        this._reservedUnits = new List<Unit>();
+        this._activeUnits = new List<Unit> { null, null, null, null };
+        this._reservedUnits = new List<Unit> { null, null, null, null };
     }
 
     public void SetTeam(Team team)
@@ -78,7 +79,7 @@ public class Player
 
    public void SetTurns()
    {
-       this._fullTurns = this._activeUnits.Count;
+       this._fullTurns = this._activeUnits.Count(unit => unit != null);
        
        this._blinkingTurns = 0;
    } 
@@ -87,11 +88,11 @@ public class Player
    {
        Samurai samurai = this._team.GetSamurai();
        List<Demon> listDemons = this._team.GetDemons();
-   
-       this._activeUnits.Add(samurai);
-       foreach (var demon in listDemons.Take(3))
+       
+       this._activeUnits[0] = samurai;
+       for (int i = 0; i < listDemons.Count && i < 3; i++)
        {
-           this._activeUnits.Add(demon);
+           this._activeUnits[i + 1] = listDemons[i];
        }
    }
    
@@ -195,11 +196,11 @@ public class Player
     {
         foreach (Unit unit in this._activeUnits)
         {
-            if (unit.GetCurrentStats().GetStatByName("HP") > 0)
-            {
-                this._ableToContinue = true;
-                return;
-            }
+           if (unit != null && unit.GetCurrentStats().GetStatByName("HP") > 0)
+           {
+               this._ableToContinue = true;
+               return;
+           }
         }
     
         this._ableToContinue = false;
@@ -219,4 +220,41 @@ public class Player
     {
         return this._fullTurns == 0 && this._blinkingTurns == 0;
     }
+
+    public void SetOrderOfAttackOfActiveUnits()
+    {
+        _sortedActiveUnitsByOrderOfAttack = this._activeUnits
+            .Where(unit => unit != null)
+            .OrderByDescending(unit => unit.GetCurrentStats().GetStatByName("Spd"))
+            .ToList();
+    }
+    
+    public void SortUnitsWhenAnAttackHasBeenMade()
+    {
+        if (_sortedActiveUnitsByOrderOfAttack.Count > 0)
+        {
+            Unit firstUnit = _sortedActiveUnitsByOrderOfAttack[0];
+            
+            _sortedActiveUnitsByOrderOfAttack.RemoveAt(0);
+            _sortedActiveUnitsByOrderOfAttack.Add(firstUnit);
+        }
+    }
+    
+    public List<Unit> GetSortedActiveUnitsByOrderOfAttack()
+    {
+        return _sortedActiveUnitsByOrderOfAttack;
+    }
+
+   public void RemoveFromActiveUnitsIfDead()
+   {
+      for (int i = 0; i < _activeUnits.Count; i++)
+      {
+          if (_activeUnits[i] != null && 
+              _activeUnits[i].GetCurrentStats().GetStatByName("HP") <= 0 &&
+              _activeUnits[i] is not Samurai)
+          {
+              _activeUnits[i] = null;
+          }
+      }
+   }
 }

@@ -111,11 +111,4 @@ public class Team
        
        return false; 
    }
-
-    public List<Demon> GetSortedDemonsBySpeed()
-    { 
-        return this._demons.OrderByDescending(
-            demon => demon.GetCurrentStats().GetStatByName("Spd")
-            ).ToList();
-    }
 }
