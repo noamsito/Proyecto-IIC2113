@@ -68,19 +68,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/noam/.nuget/packages/": {}
+    "C:\\Users\\vieir\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/noam/Desktop/Universidad/Semestres/Semestre 7/Diseño detallado de software/Proyecto-IIC2113/Proyecto-Megaten-IIC2113/Shin-Megami-Tensei-Controller/Shin-Megami-Tensei-Controller.csproj",
+      "projectUniqueName": "C:\\Users\\vieir\\RiderProjects\\Proyecto-IIC2113\\Proyecto-Megaten-IIC2113\\Shin-Megami-Tensei-Controller\\Shin-Megami-Tensei-Controller.csproj",
       "projectName": "Shin-Megami-Tensei-Controller",
-      "projectPath": "/Users/noam/Desktop/Universidad/Semestres/Semestre 7/Diseño detallado de software/Proyecto-IIC2113/Proyecto-Megaten-IIC2113/Shin-Megami-Tensei-Controller/Shin-Megami-Tensei-Controller.csproj",
-      "packagesPath": "/Users/noam/.nuget/packages/",
-      "outputPath": "/Users/noam/Desktop/Universidad/Semestres/Semestre 7/Diseño detallado de software/Proyecto-IIC2113/Proyecto-Megaten-IIC2113/Shin-Megami-Tensei-Controller/obj/",
+      "projectPath": "C:\\Users\\vieir\\RiderProjects\\Proyecto-IIC2113\\Proyecto-Megaten-IIC2113\\Shin-Megami-Tensei-Controller\\Shin-Megami-Tensei-Controller.csproj",
+      "packagesPath": "C:\\Users\\vieir\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\vieir\\RiderProjects\\Proyecto-IIC2113\\Proyecto-Megaten-IIC2113\\Shin-Megami-Tensei-Controller\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/noam/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\vieir\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -92,8 +92,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/Users/noam/Desktop/Universidad/Semestres/Semestre 7/Diseño detallado de software/Proyecto-IIC2113/Proyecto-Megaten-IIC2113/Shin-Megami-Tensei-View/Shin-Megami-Tensei-View.csproj": {
-              "projectPath": "/Users/noam/Desktop/Universidad/Semestres/Semestre 7/Diseño detallado de software/Proyecto-IIC2113/Proyecto-Megaten-IIC2113/Shin-Megami-Tensei-View/Shin-Megami-Tensei-View.csproj"
+            "C:\\Users\\vieir\\RiderProjects\\Proyecto-IIC2113\\Proyecto-Megaten-IIC2113\\Shin-Megami-Tensei-View\\Shin-Megami-Tensei-View.csproj": {
+              "projectPath": "C:\\Users\\vieir\\RiderProjects\\Proyecto-IIC2113\\Proyecto-Megaten-IIC2113\\Shin-Megami-Tensei-View\\Shin-Megami-Tensei-View.csproj"
             }
           }
         }
@@ -130,26 +130,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[8.0.13, 8.0.13]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.osx-x64",
-            "version": "[8.0.13, 8.0.13]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[8.0.13, 8.0.13]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\vieir\\.dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

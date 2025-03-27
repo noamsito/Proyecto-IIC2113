@@ -226,7 +226,9 @@ public class Player
     public void SetOrderOfAttackOfActiveUnits()
     {
         _sortedActiveUnitsByOrderOfAttack = this._activeUnits
-            .Where(unit => unit != null)
+            .Where(unit => unit != null &&
+                   !(unit is Samurai && unit.GetCurrentStats().GetStatByName("HP") <= 0) &&
+                   unit.GetCurrentStats().GetStatByName("HP") > 0)
             .OrderByDescending(unit => unit.GetCurrentStats().GetStatByName("Spd"))
             .ToList();
     }
@@ -251,12 +253,12 @@ public class Player
    {
        for (int i = 0; i < _activeUnits.Count; i++)
        {
-           if (_activeUnits[i] != null && 
+           if (_activeUnits[i] != null &&
                _activeUnits[i].GetCurrentStats().GetStatByName("HP") <= 0)
            {
-                RemoveFromSortedUnits(_activeUnits[i].GetName());
-               
-               if (_activeUnits[i] is not Samurai)
+               RemoveFromSortedUnits(_activeUnits[i].GetName());
+   
+               if (!(_activeUnits[i] is Samurai))
                {
                    _activeUnits[i] = null;
                }
@@ -266,14 +268,22 @@ public class Player
    
    public void RemoveFromSortedUnits(string nameUnit)
    {
+       if (_sortedActiveUnitsByOrderOfAttack == null)
+           return;
+           
        for (int i = 0; i < _sortedActiveUnitsByOrderOfAttack.Count; i++)
        {
-           if (_sortedActiveUnitsByOrderOfAttack[i] != null && 
+           if (_sortedActiveUnitsByOrderOfAttack[i] != null &&
                _sortedActiveUnitsByOrderOfAttack[i].GetName() == nameUnit)
            {
                _sortedActiveUnitsByOrderOfAttack.RemoveAt(i);
-               break;  
+               break;
            }
        }
+   }
+
+   public List<Unit> GetValidUnits()
+   {
+       return _activeUnits.Where(unit => unit != null && unit.GetCurrentStats().GetStatByName("HP") > 0).ToList();
    }
 }
