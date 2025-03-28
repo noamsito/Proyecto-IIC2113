@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Shin-Megami-Tensei-Controller")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c0e216217a763eb399cc8b403018050596ffb58e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+46dea6f9b83d2054186e91e04dcd9ce32c6c123c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Shin-Megami-Tensei-Controller")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Shin-Megami-Tensei-Controller")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -132,4 +132,11 @@ public class Samurai : Unit
     {
         return this._skills.Count;
     }
+
+    public void ConsumeMP(int cost)
+    {
+        int currentMP = this._currentStats.GetStatByName("MP");
+        int newMP = currentMP - cost;
+        this._currentStats.SetStatByName("MP", newMP < 0 ? 0 : newMP);
+    }
 }
