@@ -1,9 +1,0 @@
-Player 1 Team
-[Samurai] Flynn (Damascus Claw,Tathlum Shot,Hamaon)
-Player 2 Team
-[Samurai] Flynn (Blast Arrow,Dia,Panic Caster,Debilitate)
-Virtue
-Nadja
-Raphael
-Zouchouten
-Dantalion
