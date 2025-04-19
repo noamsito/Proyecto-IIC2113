@@ -1,114 +1,130 @@
 ﻿using Shin_Megami_Tensei.Gadgets;
+using Shin_Megami_Tensei.String_Handlers;
 
 namespace Shin_Megami_Tensei;
-
-public class Team
-{
-    private List<Unit> _units;
-    private Samurai _samurai;
-    private List<Demon> _demons;
-    private bool _valid;
-    private bool _samuraiRepeated;
-    private const int MAX_DEMONS = 7;
-    private const int MAX_SKILLS_SAMURAI = 8;
-
-    public Team()
-    {
-        this._samurai = null;
-        this._demons = new List<Demon>();
-    }
-
-    public void AddSamurai(Samurai samurai)
-    {
-        this._samurai = samurai;
-    }
-
-    public void AddDemon(Demon newDemon)
-    {
-        this._demons.Add(newDemon);
-    }
-
-    public Samurai GetSamurai()
-    {
-        return this._samurai;
-    }
     
-    public List<Demon> GetDemons()
+    public class Team
     {
-        return this._demons;
-    }
-
-    public bool GetValidation()
-    {
-        return this._valid;
-    }
-
-    public bool GetIfSamuraiIsRepeated()
-    {
-        return this._samuraiRepeated;
-    }
+        public Samurai Samurai { get; private set; }
+        public List<Demon> Demons { get; private set; } = new List<Demon>();
+        public bool IsValid { get; private set; }
+        public bool SamuraiRepeated { get; private set; }
     
-    public void SetTeamAsInvalid()
-    {
-        this._valid = false;
-    }
-    
-    public void SetTeamAsValid()
-    {
-        this._valid = true;
-    }
-    
-    public bool HasSamurai()
-    {
-        return this._samurai != null;
-    }
-
-    public void SetSamuraiRepeated()
-    {
-        this.SetTeamAsInvalid();
-        this._samuraiRepeated = true;
-    }
-    
-    public bool HasLessThanMaximumUnits()
-    {
-        return this.HasSamurai() && this._demons.Count <= MAX_DEMONS;
-    }
-
-    public bool UnitRepeated()
-    {
-        List<string> demonNames = new List<string>();
-    
-        foreach (Demon demon in this._demons)
+        public Team()
         {
-            if (demonNames.Contains(demon.GetName()))
-            {
-                return true;
-            }
-            demonNames.Add(demon.GetName());
+            Samurai = null;
         }
     
-        return false;
-    }
-
-    public bool SamuraiWithMoreThanMaxSkills()
-    {
-        return this._samurai.GetQuantityOfSkills() > MAX_SKILLS_SAMURAI;
-    }
+        public void AddSamurai(Samurai samurai)
+        {
+            Samurai = samurai;
+        }
     
-   public bool SamuraiWithRepeatedHabilities()
-   {
-       List<string> skillNames = new List<string>();
-       
-       foreach (Skill skill in this._samurai.GetSkills())
-       {
-           string skillName = skill.GetName().ToLower().Trim();
-           if (skillNames.Contains(skillName))
-           {
-               return true; 
-           }
-           skillNames.Add(skillName);
-       }
-       
-       return false; 
-   }
-}
+        public void AddDemon(Demon newDemon)
+        {
+            Demons.Add(newDemon);
+        }
+    
+        public void SetTeamAsInvalid()
+        {
+            IsValid = false;
+        }
+    
+        public void SetTeamAsValid()
+        {
+            IsValid = true;
+        }
+    
+        public void SetSamuraiRepeated()
+        {
+            SetTeamAsInvalid();
+            SamuraiRepeated = true;
+        }
+    
+        public bool HasSamurai()
+        {
+            return Samurai != null;
+        }
+    
+        public bool HasLessThanMaximumUnits()
+        {
+            return HasSamurai() && Demons.Count <= GameConstants.MAX_DEMONS;
+        }
+    
+        public bool IsAnyDemonRepeated()
+        {
+            HashSet<string> demonNames = new HashSet<string>();
+    
+            foreach (Demon demon in Demons)
+            {
+                if (!demonNames.Add(demon.GetName()))
+                {
+                    return true;
+                }
+            }
+    
+            return false;
+        }
+    
+        public bool HasSamuraiExceededMaxSkills()
+        {
+            return Samurai.GetSkillCount() > GameConstants.MAX_SKILLS_SAMURAI;
+        }
+    
+        public bool HasSamuraiRepeatedSkills()
+        {
+            HashSet<string> skillNames = new HashSet<string>();
+    
+            foreach (Skill skill in Samurai.GetSkills())
+            {
+                string skillName = skill.Name.ToLower().Trim();
+                if (!skillNames.Add(skillName))
+                {
+                    return true;
+                }
+            }
+    
+            return false;
+        }
+        
+        public void ConvertStringToTeam(List<string> teamUnitDescriptions)
+        {
+            foreach (var unitDescription in teamUnitDescriptions)
+            {
+                if (StringHelper.IsSamuraiUnit(unitDescription))
+                {
+                    TryAddSamuraiToTeam(unitDescription);
+                }
+                else
+                {
+                    AddDemonToTeam(unitDescription);
+                }
+            }
+        }
+    
+        private void TryAddSamuraiToTeam(string samuraiDescription)
+        {
+            if (this.HasSamurai())
+            {
+                this.SetSamuraiRepeated();
+                return;
+            }
+        
+            var (samuraiName, samuraiSkills) = StringHelper.ExtractSamuraiNameAndSkills(samuraiDescription);
+            Samurai newSamurai = CreateSamuraiWithSkills(samuraiName, samuraiSkills);
+            this.AddSamurai(newSamurai);
+        }
+
+        private void AddDemonToTeam(string unit)
+        {
+            string demonName = unit.Trim();
+            Demon demon = new Demon(demonName); 
+            this.AddDemon(demon);
+        }
+
+        private Samurai CreateSamuraiWithSkills(string name, List<string> skills)
+        {
+            Samurai samurai = new Samurai(name, skills);
+            return samurai;
+        }
+    }

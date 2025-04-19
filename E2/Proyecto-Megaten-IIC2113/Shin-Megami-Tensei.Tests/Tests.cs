@@ -39,6 +39,16 @@ public class Tests
     public void TestE2_Random(string teamsFolder, string testFile)
         => RunTest(teamsFolder, testFile);
     
+    [Theory]
+    [MemberData(nameof(GetTestsAssociatedWithThisFolder), parameters: "E3-SingleTargetInstaKill")]
+    public void TestE3_SingleTargetInstaKill(string teamsFolder, string testFile)
+        => RunTest(teamsFolder, testFile);
+    
+    [Theory]
+    [MemberData(nameof(GetTestsAssociatedWithThisFolder), parameters: "E3-RandomSingleTargetInstaKill")]
+    public void TestE3_RandomSingleTargetInstaKill(string teamsFolder, string testFile)
+        => RunTest(teamsFolder, testFile);
+    
     public static IEnumerable<object[]> GetTestsAssociatedWithThisFolder(string teamsfolder)
     {
         teamsfolder = Path.Combine("data", teamsfolder);
