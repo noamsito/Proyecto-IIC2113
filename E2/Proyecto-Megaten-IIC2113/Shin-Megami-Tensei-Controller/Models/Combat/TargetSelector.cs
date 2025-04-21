@@ -8,7 +8,7 @@ public static class TargetSelector
 {
     public static string SelectEnemy(AttackTargetContext ctx)
     {
-        var enemies = ctx.Opponent.GetValidUnits();
+        var enemies = ctx.Opponent.GetValidActiveUnits();
 
         ctx.View.WriteLine($"Seleccione un objetivo para {ctx.Attacker.GetName()}");
 
@@ -29,7 +29,7 @@ public static class TargetSelector
     public static Unit ResolveTarget(Player opponent, string input)
     {
         int index = Convert.ToInt32(input) - 1;
-        return opponent.GetValidUnits()[index];
+        return opponent.GetValidActiveUnits()[index];
     }
 
     public static Unit? SelectSkillTarget(SkillTargetContext ctx)
@@ -37,7 +37,7 @@ public static class TargetSelector
         bool isTargetAlly = ctx.Skill.Target == "Ally";
         List<Unit> possibleTargets = isTargetAlly
             ? ctx.CurrentPlayer.GetActiveUnits()
-            : ctx.Opponent.GetValidUnits();
+            : ctx.Opponent.GetValidActiveUnits();
 
         for (int i = 0; i < possibleTargets.Count; i++)
         {

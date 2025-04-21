@@ -22,13 +22,14 @@ public class Player
     {
         this._name = name;
         this._activeUnits = new List<Unit> { null, null, null, null };
-        this._reservedUnits = new List<Unit> { null, null, null, null };
+        this._reservedUnits = new List<Unit>();
     }
 
     public void SetTeam(Team team)
     {
         this._team = team;
         SetActiveUnits();
+        SetReserveUnits();
     }
 
    public void SetTeamValidation()
@@ -93,6 +94,19 @@ public class Player
        for (int i = 0; i < listDemons.Count && i < 3; i++)
        {
            this._activeUnits[i + 1] = listDemons[i];
+       }
+   }
+
+   public void SetReserveUnits()
+   {
+       List<Demon> listDemons = this._team.Demons;
+
+       for (int i = 0; i < listDemons.Count; i++)
+       {
+           if (listDemons[i] != null && !_activeUnits.Contains(listDemons[i]))
+           {
+               this._reservedUnits.Add(listDemons[i]);
+           }
        }
    }
 
@@ -177,11 +191,6 @@ public class Player
        }
    }
    
-   public void TransformTurns()
-   {
-       
-   }
-   
    public void CheckIfTeamIsAbleToContinue()
    {
        if (_hasSurrendered)
@@ -228,7 +237,7 @@ public class Player
             .ToList();
     }
     
-    public void SortUnitsWhenAnAttackHasBeenMade()
+    public void ReorderUnitsWhenAttacked()
     {
         if (_sortedActiveUnitsByOrderOfAttack.Count > 0)
         {
@@ -279,22 +288,35 @@ public class Player
        }
    }
 
-   public List<Unit> GetValidUnits()
+   public void ReplaceFromSortedListWhenInvoked(string nameUnit, Demon newDemon)
+   {
+       for (int i = 0; i < _sortedActiveUnitsByOrderOfAttack.Count; i++)
+       {
+           if (_sortedActiveUnitsByOrderOfAttack[i] != null &&
+               _sortedActiveUnitsByOrderOfAttack[i].GetName() == nameUnit)
+           {
+               _sortedActiveUnitsByOrderOfAttack[i] = newDemon;
+               break;
+           }
+       }
+   }
+
+   public List<Unit> GetValidActiveUnits()
    {
        return _activeUnits.Where(unit => unit != null && unit.GetCurrentStats().GetStatByName("HP") > 0).ToList();
    }
    
-   public void DecreaseFullTurns(int amount)
+   public void ConsumeFullTurn(int amount)
    {
        _fullTurns = Math.Max(0, _fullTurns - amount);
    }
 
-   public void DecreaseBlinkingTurns(int amount)
+   public void ConsumeBlinkingTurn(int amount)
    {
        _blinkingTurns = Math.Max(0, _blinkingTurns - amount);
    }
 
-   public void IncreaseBlinkingTurns(int amount = 1)
+   public void GainBlinkingTurn(int amount)
    {
        _blinkingTurns += amount;
    }

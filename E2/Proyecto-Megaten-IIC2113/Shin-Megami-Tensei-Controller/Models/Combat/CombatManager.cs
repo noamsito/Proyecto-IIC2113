@@ -57,14 +57,19 @@ public class CombatManager
             _isNewRound = false;
         }
 
-        CombatUI.DisplayBoardState(_players, view);
-        CombatUI.DisplayTurnInfo(currentPlayer, view);
-        CombatUI.DisplaySortedUnits(currentPlayer, view);
+        CombatUI.DisplayBoardState(_players);
+        CombatUI.DisplayTurnInfo(currentPlayer);
+        CombatUI.DisplaySortedUnits(currentPlayer);
 
         Unit? activeUnit = TurnManager.GetCurrentUnit(currentPlayer);
-        CombatContext ctx = new(currentPlayer, GetOpponent(currentPlayer), view);
-
-        UnitActionManager.ExecuteAction(activeUnit, ctx);
+        CombatContext combatContext = new(currentPlayer, GetOpponent(currentPlayer), view);
+        int fullStartTurns = currentPlayer.GetFullTurns();
+        int blinkingStartTurns = currentPlayer.GetBlinkingTurns();
+        
+        var turnCtx = new TurnContext(combatContext.CurrentPlayer, combatContext.Opponent, fullStartTurns, 
+            blinkingStartTurns);
+        
+        UnitActionManager.ExecuteAction(activeUnit, combatContext, turnCtx);
 
         CheckAndHandleVictory(currentPlayer);
     }
@@ -93,14 +98,14 @@ public class CombatManager
 
         if (!currentPlayer.IsTeamAbleToContinue())
         {
-            CombatUI.DisplayWinner(opponent, view);
+            CombatUI.DisplayWinner(opponent);
             _gameWon = true;
             return;
         }
 
         if (!opponent.IsTeamAbleToContinue())
         {
-            CombatUI.DisplayWinner(currentPlayer, view);
+            CombatUI.DisplayWinner(currentPlayer);
             _gameWon = true;
             return;
         }

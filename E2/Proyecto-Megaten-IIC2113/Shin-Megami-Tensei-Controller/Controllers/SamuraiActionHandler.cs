@@ -6,7 +6,7 @@ using Shin_Megami_Tensei.Managers;
 
 public static class SamuraiActionHandler
 {
-    public static void Handle(Samurai samurai, CombatContext ctx)
+    public static void Handle(Samurai samurai, CombatContext ctx, TurnContext turnCtx)
     {
         bool actionExecuted = false;
 
@@ -19,7 +19,7 @@ public static class SamuraiActionHandler
             ctx.View.WriteLine(GameConstants.Separator);
 
             var actionCtx = new SamuraiActionContext(samurai, ctx.CurrentPlayer, ctx.Opponent, ctx.View);
-            actionExecuted = SamuraiActionExecutor.Execute(input, actionCtx);
+            actionExecuted = SamuraiActionExecutor.Execute(input, actionCtx, turnCtx);
         }
     }
 }

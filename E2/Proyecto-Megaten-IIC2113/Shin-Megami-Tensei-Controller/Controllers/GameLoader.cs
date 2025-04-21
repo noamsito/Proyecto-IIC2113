@@ -37,13 +37,13 @@ public static class GameLoader
 
         foreach (string line in lines)
         {
-            var id = StringHelper.GetPlayerIdentifierFromHeaderLine(line);
-            if (id != null)
+            var idLinePlayer = StringHelper.GetPlayerIdentifierFromHeaderLine(line);
+            if (idLinePlayer != null)
             {
                 if (current != null)
                     current.SetTeam(TeamBuilder.BuildTeamFromStringList(teamBuffer));
                 teamBuffer.Clear();
-                current = players[id];
+                current = players[idLinePlayer];
             }
             else
             {

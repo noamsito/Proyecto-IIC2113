@@ -5,11 +5,11 @@ using Shin_Megami_Tensei.Controllers;
 
 public static class UnitActionManager
 {
-    public static void ExecuteAction(Unit unit, CombatContext ctx)
+    public static void ExecuteAction(Unit unit, CombatContext combatCtx, TurnContext turnCtx)
     {
         if (unit is Samurai samurai)
-            SamuraiActionHandler.Handle(samurai, ctx);
+            SamuraiActionHandler.Handle(samurai, combatCtx, turnCtx);
         else
-            DemonActionHandler.Handle(unit, ctx);
+            DemonActionHandler.Handle(unit, combatCtx);
     }
 }

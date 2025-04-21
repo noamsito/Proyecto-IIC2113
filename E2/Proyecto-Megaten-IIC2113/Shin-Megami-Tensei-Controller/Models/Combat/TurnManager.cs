@@ -1,4 +1,5 @@
 ﻿using Shin_Megami_Tensei_View;
+using Shin_Megami_Tensei.Combat;
 
 namespace Shin_Megami_Tensei.Managers;
 
@@ -31,41 +32,57 @@ public static class TurnManager
         return player.IsPlayerOutOfTurns();
     }
 
-    public static void PassTurn(Player player)
-    {
-        if (player.GetFullTurns() > 0)
-        {
-            player.DecreaseFullTurns(1);
-            player.IncreaseBlinkingTurns(1);
-        }
-        else if (player.GetBlinkingTurns() > 0)
-        {
-            player.DecreaseBlinkingTurns(1);
-        }
-    }
-
     public static void ApplyAffinityPenalty(Player attacker, Unit target, string attackType)
     {
         attacker.UpdateTurnsBasedOnAffinity(attackType, target.GetName());
     }
 
-    public static void UpdateTurnStates(Player attacker, Player? defender, int fullStart, int blinkStart, View view)
+    public static void UpdateTurnStates(TurnContext ctx)
     {
-        int fullNow = attacker.GetFullTurns();
-        int blinkNow = attacker.GetBlinkingTurns();
+        int fullNow = ctx.Attacker.GetFullTurns();
+        int blinkNow = ctx.Attacker.GetBlinkingTurns();
 
-        int fullConsumed = fullStart - fullNow;
-        int blinkingConsumed = Math.Max(0, blinkStart - blinkNow);
-        int blinkingGained = Math.Max(0, blinkNow - blinkStart);
+        int fullConsumed = ctx.FullStart - fullNow;
+        int blinkingConsumed = Math.Max(0, ctx.BlinkStart - blinkNow);
+        int blinkingGained = Math.Max(0, blinkNow - ctx.BlinkStart);
 
-        view.WriteLine($"Se han consumido {fullConsumed} Full Turn(s) y {blinkingConsumed} Blinking Turn(s)");
-        view.WriteLine($"Se han obtenido {blinkingGained} Blinking Turn(s)");
-        view.WriteLine(GameConstants.Separator);
+        CombatUI.DisplayTurnChanges(fullConsumed, blinkingConsumed, blinkingGained);
 
-        if (defender != null)
+        ctx.Defender?.RemoveFromActiveUnitsIfDead();
+        ctx.Attacker.ReorderUnitsWhenAttacked();
+    }
+
+
+
+    public static void UpdateTurnsStandard(TurnContext ctx)
+    {
+        if (ctx.Attacker.GetBlinkingTurns() > 0)
         {
-            defender.RemoveFromActiveUnitsIfDead();
-            attacker.SortUnitsWhenAnAttackHasBeenMade();
+            ctx.Attacker.ConsumeBlinkingTurn(1);
+        }
+        else
+        {
+            ctx.Attacker.ConsumeFullTurn(1);
+            ctx.Attacker.GainBlinkingTurn(1);
+        }
+    }
+    
+    public static void ManageTurnsWhenPassedTurn(TurnContext ctx)
+    {
+        UpdateTurnsStandard(ctx);
+        UpdateTurnStates(ctx);
+    }
+
+    public static void UpdateTurnsWhenInvoked(TurnContext ctx)
+    {
+        if (ctx.Attacker.GetBlinkingTurns() > 0)
+        {
+            ctx.Attacker.ConsumeBlinkingTurn(1);
+        }
+        else
+        {
+            ctx.Attacker.ConsumeFullTurn(1);
+            ctx.Attacker.GainBlinkingTurn(1);
         }
     }
 }

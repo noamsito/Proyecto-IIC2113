@@ -7,23 +7,23 @@ public static class DemonActionExecutor
 {
     public static bool Execute(string input, DemonActionContext ctx)
     {
+        var turnCtx = new TurnContext(ctx.CurrentPlayer, ctx.Opponent, ctx.FullStart, ctx.BlinkStart);
         switch (input)
         {
             case "1":
-                return PerformAttack("Phys", ctx);
+                return PerformAttack("Phys", ctx, turnCtx);
 
             case "2":
                 ctx.View.WriteLine($"Seleccione una habilidad para que {ctx.Demon.GetName()} use");
-                return UseSkill(ctx);
+                return UseSkill(ctx, turnCtx);
 
             case "3":
                 SummonManager.MonsterSwap(ctx.CurrentPlayer, ctx.Demon, ctx.View);
-                TurnManager.UpdateTurnStates(ctx.CurrentPlayer, ctx.Opponent, ctx.FullStart, ctx.BlinkStart, ctx.View);
+                TurnManager.UpdateTurnStates(turnCtx);
                 return true;
 
             case "4":
-                TurnManager.PassTurn(ctx.CurrentPlayer);
-                TurnManager.UpdateTurnStates(ctx.CurrentPlayer, null, ctx.FullStart, ctx.BlinkStart, ctx.View);
+                TurnManager.ManageTurnsWhenPassedTurn(turnCtx);
                 return true;
 
             default:
@@ -32,33 +32,33 @@ public static class DemonActionExecutor
         }
     }
 
-    private static bool PerformAttack(string type, DemonActionContext ctx)
+    private static bool PerformAttack(string type, DemonActionContext ctx, TurnContext turnCtx)
     {
         var targetCtx = new AttackTargetContext(ctx.Demon, ctx.Opponent, ctx.View);
 
         string targetInput = TargetSelector.SelectEnemy(targetCtx);
-        int cancelNum = targetCtx.Opponent.GetValidUnits().Count + 1;
+        int cancelNum = targetCtx.Opponent.GetValidActiveUnits().Count + 1;
         if (targetInput == cancelNum.ToString()) return false;
 
         Unit target = TargetSelector.ResolveTarget(ctx.Opponent, targetInput);
 
-        CombatUI.DisplayAttack(ctx.Demon.GetName(), target.GetName(), type, ctx.View);
+        CombatUI.DisplayAttack(ctx.Demon.GetName(), target.GetName(), type);
 
         int damage = type == "Phys"
             ? AttackExecutor.ExecutePhysicalAttack(ctx.Demon, target, GameConstants.ModifierPhysDamage)
             : AttackExecutor.ExecuteGunAttack(ctx.Demon, target, GameConstants.ModifierGunDamage);
 
-        CombatUI.DisplayDamageResult(target, damage, ctx.View);
+        CombatUI.DisplayDamageResult(target, damage);
 
         TurnManager.ApplyAffinityPenalty(ctx.CurrentPlayer, target, type);
-        TurnManager.UpdateTurnStates(ctx.CurrentPlayer, ctx.Opponent, ctx.FullStart, ctx.BlinkStart, ctx.View);
+        TurnManager.UpdateTurnStates(turnCtx);
 
         return true;
     }
 
 
 
-    private static bool UseSkill(DemonActionContext ctx)
+    private static bool UseSkill(DemonActionContext ctx, TurnContext turnCtx)
     {
         Skill? skill = SkillManager.SelectSkill(ctx.View, ctx.Demon);
         if (skill == null) return false;
@@ -70,7 +70,7 @@ public static class DemonActionExecutor
         var useCtx = new SkillUseContext(ctx.Demon, target, skill, ctx.CurrentPlayer, ctx.Opponent, ctx.View);
         SkillManager.ApplySkillEffect(useCtx);
 
-        TurnManager.UpdateTurnStates(ctx.CurrentPlayer, ctx.Opponent, ctx.FullStart, ctx.BlinkStart, ctx.View);
+        TurnManager.UpdateTurnStates(turnCtx);
         return true;
     }
 

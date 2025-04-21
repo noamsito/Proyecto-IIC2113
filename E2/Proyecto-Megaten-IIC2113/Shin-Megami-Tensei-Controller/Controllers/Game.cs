@@ -13,6 +13,8 @@ public class Game
     {
         this.view = view;
         _teamsFolder = teamsFolder;
+        
+        CombatUI.Initialize(view);
     }
 
     public void Play()

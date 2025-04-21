@@ -1,65 +1,107 @@
 ﻿using Shin_Megami_Tensei_View;
+using Shin_Megami_Tensei.Combat;
+using Shin_Megami_Tensei.Gadgets;
 
 namespace Shin_Megami_Tensei.Managers;
 
 public static class SummonManager
 {
-    public static void InvokeFromReserve(Samurai samurai, Player player, View view)
+    public static void ManageInvokeAndTurns(Player player, TurnContext turnCtx, View view)
     {
-        view.WriteLine(GameConstants.Separator);
+        InvokeFromReserveSamurai(player, view);
+        
+        TurnManager.UpdateTurnsStandard(turnCtx);
+        TurnManager.UpdateTurnStates(turnCtx);
+    }
+    
+    public static void InvokeFromReserveSamurai(Player player, View view)
+    {
         view.WriteLine("Seleccione un monstruo para invocar");
-
-        var reserve = player.GetReservedUnits()
+    
+        var reserve = GetAvailableDemons(player);
+        CombatUI.DisplayInvokeOptions(reserve, view);
+    
+        string demonInput = view.ReadLine();
+        if (IsCancelOption(demonInput, reserve.Count)) return;
+    
+        Demon selectedDemon = SelectDemonFromReserve(reserve, demonInput);
+    
+        view.WriteLine(GameConstants.Separator);
+        view.WriteLine("Seleccione una posición para invocar");
+    
+        var validSlots = GetValidSlots(player, view);
+        string slotInput = view.ReadLine();
+        if (IsCancelOption(slotInput, validSlots.Count)) return;
+    
+        int slot = SelectSlot(validSlots, slotInput);
+    
+        SummonDemon(player, selectedDemon, slot, view);
+    }
+    
+    private static List<Demon> GetAvailableDemons(Player player)
+    {
+        return player.GetReservedUnits()
             .Where(unit => unit != null && unit.IsAlive())
             .Cast<Demon>()
             .ToList();
-
-        if (reserve.Count == 0)
-        {
-            view.WriteLine("No hay demonios disponibles para invocar");
-            return;
-        }
-
-        for (int i = 0; i < reserve.Count; i++)
-        {
-            var demon = reserve[i];
-            view.WriteLine($"{i + 1}-{demon.GetName()} HP:{demon.GetCurrentStats().GetStatByName("HP")}/{demon.GetBaseStats().GetStatByName("HP")} MP:{demon.GetCurrentStats().GetStatByName("MP")}/{demon.GetBaseStats().GetStatByName("MP")}");
-        }
-        view.WriteLine($"{reserve.Count + 1}-Cancelar");
-
-        string demonInput = view.ReadLine();
-        if (demonInput == $"{reserve.Count + 1}") return;
-
-        int demonIndex = Convert.ToInt32(demonInput) - 1;
-        Demon selectedDemon = reserve[demonIndex];
-
-        view.WriteLine(GameConstants.Separator);
-        view.WriteLine("Seleccione una posición para invocar");
-
+    }
+    
+    private static bool IsCancelOption(string input, int count)
+    {
+        return input == $"{count + 1}";
+    }
+    
+    private static Demon SelectDemonFromReserve(List<Demon> reserve, string input)
+    {
+        int demonIndex = Convert.ToInt32(input) - 1;
+        return reserve[demonIndex];
+    }
+    
+    private static List<int> GetValidSlots(Player player, View view)
+    {
         var activeUnits = player.GetActiveUnits();
         List<int> validSlots = new();
-
+        
         for (int i = 1; i < activeUnits.Count; i++)
         {
-            string slotStatus = activeUnits[i] == null
-                ? $"Vacío (Puesto {i + 1})"
-                : $"{activeUnits[i].GetName()} HP:{activeUnits[i].GetCurrentStats().GetStatByName("HP")}/{activeUnits[i].GetBaseStats().GetStatByName("HP")} (Puesto {i + 1})";
-
-            view.WriteLine($"{validSlots.Count + 1}-{slotStatus}");
+            if (activeUnits[i] == null)
+            {
+                view.WriteLine($"{validSlots.Count + 1}-Vacío (Puesto {i + 1})");
+            }
+            else
+            {
+                Stat currentStats = activeUnits[i].GetCurrentStats();
+                Stat baseStats = activeUnits[i].GetBaseStats();
+        
+                string slotStatus = $"{activeUnits[i].GetName()} " +
+                                    $"HP:{currentStats.GetStatByName("HP")}/{baseStats.GetStatByName("HP")} " +
+                                    $"MP:{currentStats.GetStatByName("MP")}/{baseStats.GetStatByName("MP")} (Puesto {i + 1})";
+        
+                view.WriteLine($"{validSlots.Count + 1}-{slotStatus}");
+            }
             validSlots.Add(i);
         }
-
         view.WriteLine($"{validSlots.Count + 1}-Cancelar");
-        string slotInput = view.ReadLine();
-        if (slotInput == $"{validSlots.Count + 1}") return;
-
-        int slot = validSlots[Convert.ToInt32(slotInput) - 1];
-
-        player.GetActiveUnits()[slot] = selectedDemon;
-        player.GetReservedUnits().Remove(selectedDemon);
-
+        return validSlots;
+    }
+    
+    private static int SelectSlot(List<int> validSlots, string input)
+    {
+        return validSlots[Convert.ToInt32(input) - 1];
+    }
+    
+    private static void SummonDemon(Player player, Demon newDemonAdded, int slot, View view)
+    {
+        Unit removedDemon = player.GetActiveUnits()[slot];
+        player.ReorderUnitsWhenAttacked();
+        
+        player.GetReservedUnits().Remove(newDemonAdded);
+        
+        player.GetActiveUnits()[slot] = newDemonAdded;
+        // player.ReplaceFromSortedListWhenInvoked(removedDemon.GetName(), newDemonAdded);
+    
         view.WriteLine(GameConstants.Separator);
-        view.WriteLine($"{selectedDemon.GetName()} ha sido invocado");
+        view.WriteLine($"{newDemonAdded.GetName()} ha sido invocado");
         view.WriteLine(GameConstants.Separator);
     }
 
