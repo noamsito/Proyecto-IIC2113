@@ -11,11 +11,13 @@ public class Player
     private int _fullTurns;
     private int _blinkingTurns;
     private bool _ableToContinue;
+    
+    private bool _hasSurrendered = false;
         
     private List<Unit> _activeUnits;
     private List<Unit> _reservedUnits;
     private List<Unit> _sortedActiveUnitsByOrderOfAttack;
-    
+
     public Player(string name)
     {
         this._name = name;
@@ -26,6 +28,7 @@ public class Player
     public void SetTeam(Team team)
     {
         this._team = team;
+        SetActiveUnits();
     }
 
    public void SetTeamValidation()
@@ -90,16 +93,6 @@ public class Player
        for (int i = 0; i < listDemons.Count && i < 3; i++)
        {
            this._activeUnits[i + 1] = listDemons[i];
-       }
-   }
-   
-   public void PrintActiveUnits()
-   {
-       Console.WriteLine($"Player: {this.GetName()}");
-       Console.WriteLine("Active Units:");
-       foreach (var unit in this._activeUnits)
-       {
-           Console.WriteLine($"- {unit.GetName()}");
        }
    }
 
@@ -189,19 +182,25 @@ public class Player
        
    }
    
-    public void CheckIfTeamIsAbleToContinue()
-    {
-        foreach (Unit unit in this._activeUnits)
-        {
+   public void CheckIfTeamIsAbleToContinue()
+   {
+       if (_hasSurrendered)
+       {
+           _ableToContinue = false;
+           return;
+       }
+
+       foreach (Unit unit in _activeUnits)
+       {
            if (unit != null && unit.GetCurrentStats().GetStatByName("HP") > 0)
            {
-               this._ableToContinue = true;
+               _ableToContinue = true;
                return;
            }
-        }
-    
-        this._ableToContinue = false;
-    }
+       }
+
+       _ableToContinue = false;
+   }
 
     public bool IsTeamAbleToContinue()
     {
@@ -210,8 +209,9 @@ public class Player
 
     public void Surrender()
     {
-        this._ableToContinue = false;
-    }   
+        _hasSurrendered = true;
+        _ableToContinue = false;
+    }
     
     public bool IsPlayerOutOfTurns()
     {
@@ -259,6 +259,8 @@ public class Player
                }
            }
        }
+       
+       CheckIfTeamIsAbleToContinue();
    }
    
    public void RemoveFromSortedUnits(string nameUnit)
@@ -280,5 +282,20 @@ public class Player
    public List<Unit> GetValidUnits()
    {
        return _activeUnits.Where(unit => unit != null && unit.GetCurrentStats().GetStatByName("HP") > 0).ToList();
+   }
+   
+   public void DecreaseFullTurns(int amount)
+   {
+       _fullTurns = Math.Max(0, _fullTurns - amount);
+   }
+
+   public void DecreaseBlinkingTurns(int amount)
+   {
+       _blinkingTurns = Math.Max(0, _blinkingTurns - amount);
+   }
+
+   public void IncreaseBlinkingTurns(int amount = 1)
+   {
+       _blinkingTurns += amount;
    }
 }
