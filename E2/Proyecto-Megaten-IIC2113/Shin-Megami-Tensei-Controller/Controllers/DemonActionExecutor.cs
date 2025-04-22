@@ -19,7 +19,7 @@ public static class DemonActionExecutor
 
             case "3":
                 SummonManager.MonsterSwap(ctx.CurrentPlayer, ctx.Demon, ctx.View);
-                TurnManager.UpdateTurnStates(turnCtx);
+                SummonManager.ManageTurnsWhenSummoned(turnCtx);
                 return true;
 
             case "4":

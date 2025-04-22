@@ -1,4 +1,5 @@
-﻿using System.Text.Json;
+﻿using System.Diagnostics;
+using System.Text.Json;
 using Shin_Megami_Tensei.Units;
 
 namespace Shin_Megami_Tensei;
@@ -288,7 +289,7 @@ public class Player
        }
    }
 
-   public void ReplaceFromSortedListWhenInvoked(string nameUnit, Demon newDemon)
+   public void ReplaceFromSortedListWhenInvoked(string nameUnit, Unit newDemon)
    {
        for (int i = 0; i < _sortedActiveUnitsByOrderOfAttack.Count; i++)
        {
@@ -301,17 +302,25 @@ public class Player
        }
    }
    
-   public void ReplaceFromReserveUnitsList(string nameDemonBeingRemoved, Demon demonBeginAddedToReserve)
+   public void ReplaceFromReserveUnitsList(string newName, Demon replacedDemon)
    {
        for (int i = 0; i < _reservedUnits.Count; i++)
        {
-           if (_reservedUnits[i] != null &&
-               _reservedUnits[i].GetName() == nameDemonBeingRemoved)
+           if (_reservedUnits[i] != null && _reservedUnits[i].GetName() == newName)
            {
-               _reservedUnits[i] = demonBeginAddedToReserve;
-               break;
+               _reservedUnits[i] = replacedDemon;
+               return;
            }
        }
+   }
+
+   public void ReorderReserveBasedOnJsonOrder()
+   {
+       var orderedDemons = _team.Demons
+           .Where(demon => _reservedUnits.Contains(demon))
+           .ToList();
+
+       _reservedUnits = orderedDemons.Cast<Unit>().ToList();
    }
 
    public List<Unit> GetValidActiveUnits()

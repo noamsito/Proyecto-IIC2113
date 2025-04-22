@@ -144,8 +144,14 @@ public static class CombatUI
             _view.WriteLine(GameConstants.Separator);
         }
         
-        public static void DisplayInvokeOptions(List<Demon> reserve, View view)
+        public static void DisplayInvokeOptions(List<Unit> reserve, View view)
         {
+            if (reserve.Count == 0)
+            {
+                view.WriteLine("No hay demonios disponibles para invocar");
+                return;
+            }
+            
             for (int i = 0; i < reserve.Count; i++)
             {
                 var demon = reserve[i];
@@ -154,5 +160,12 @@ public static class CombatUI
                                $"MP:{demon.GetCurrentStats().GetStatByName("MP")}/{demon.GetBaseStats().GetStatByName("MP")}");
             }        
             view.WriteLine($"{reserve.Count + 1}-Cancelar");
+        }
+
+        public static void DisplayHasBeenSummoned(Unit newDemonAdded)
+        {
+            _view.WriteLine(GameConstants.Separator);
+            _view.WriteLine($"{newDemonAdded.GetName()} ha sido invocado");
+            _view.WriteLine(GameConstants.Separator);
         }
     }

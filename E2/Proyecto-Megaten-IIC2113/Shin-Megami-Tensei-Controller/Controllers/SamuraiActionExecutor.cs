@@ -27,7 +27,8 @@ public static class SamuraiActionExecutor
                 return UseSkill(ctx, turnCtx);
 
             case "4":
-                SummonManager.ManageInvokeAndTurns(ctx.CurrentPlayer, turnCtx, ctx.View);
+                SummonManager.SummonFromReserveBySamurai(ctx.CurrentPlayer, ctx.View);
+                SummonManager.ManageTurnsWhenSummoned(turnCtx);
                 return true;
 
             case "5":

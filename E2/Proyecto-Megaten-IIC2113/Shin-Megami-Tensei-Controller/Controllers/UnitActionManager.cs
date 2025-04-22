@@ -10,6 +10,6 @@ public static class UnitActionManager
         if (unit is Samurai samurai)
             SamuraiActionHandler.Handle(samurai, combatCtx, turnCtx);
         else
-            DemonActionHandler.Handle(unit, combatCtx);
+            DemonActionHandler.Handle((Demon)unit, combatCtx);
     }
 }

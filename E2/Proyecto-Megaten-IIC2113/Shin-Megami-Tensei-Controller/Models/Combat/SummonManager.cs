@@ -6,25 +6,23 @@ namespace Shin_Megami_Tensei.Managers;
 
 public static class SummonManager
 {
-    public static void ManageInvokeAndTurns(Player player, TurnContext turnCtx, View view)
+    public static void ManageTurnsWhenSummoned(TurnContext turnCtx)
     {
-        InvokeFromReserveBySamurai(player, view);
-        
         TurnManager.UpdateTurnsStandard(turnCtx);
         TurnManager.UpdateTurnStates(turnCtx);
     }
     
-    public static void InvokeFromReserveBySamurai(Player player, View view)
+    public static void SummonFromReserveBySamurai(Player player, View view)
     {
         view.WriteLine("Seleccione un monstruo para invocar");
     
-        var reserve = GetAvailableDemons(player);
+        List<Unit> reserve = player.GetReservedUnits();
         CombatUI.DisplayInvokeOptions(reserve, view);
     
         string demonInput = view.ReadLine();
         if (IsCancelOption(demonInput, reserve.Count)) return;
     
-        Demon selectedDemon = SelectDemonFromReserve(reserve, demonInput);
+        Unit selectedDemon = SelectDemonFromReserve(reserve, demonInput);
     
         view.WriteLine(GameConstants.Separator);
         view.WriteLine("Seleccione una posición para invocar");
@@ -51,7 +49,7 @@ public static class SummonManager
         return input == $"{count + 1}";
     }
     
-    private static Demon SelectDemonFromReserve(List<Demon> reserve, string input)
+    private static Unit SelectDemonFromReserve(List<Unit> reserve, string input)
     {
         int demonIndex = Convert.ToInt32(input) - 1;
         return reserve[demonIndex];
@@ -90,66 +88,46 @@ public static class SummonManager
         return validSlots[Convert.ToInt32(input) - 1];
     }
     
-    private static void SummonDemon(Player player, Demon newDemonAddedToActiveList, int slot, View view)
+    private static void SummonDemon(Player player, Unit newDemonAddedToActiveList, int slot, View view)
     {
         Unit removedDemonFromActiveList = player.GetActiveUnits()[slot];
+        
         player.ReorderUnitsWhenAttacked();
-        
-        player.GetReservedUnits().Remove(newDemonAddedToActiveList);
-        player.GetReservedUnits().Add((Demon)removedDemonFromActiveList);
-        
         player.GetActiveUnits()[slot] = newDemonAddedToActiveList;
-        player.ReplaceFromSortedListWhenInvoked(removedDemonFromActiveList.GetName(), newDemonAddedToActiveList);
-
         player.ReplaceFromReserveUnitsList(newDemonAddedToActiveList.GetName(), (Demon)removedDemonFromActiveList);
+        player.ReorderReserveBasedOnJsonOrder();
+        player.GetReservedUnits().Remove(newDemonAddedToActiveList);
+        player.ReplaceFromSortedListWhenInvoked(removedDemonFromActiveList.GetName(), newDemonAddedToActiveList);
     
-        view.WriteLine(GameConstants.Separator);
-        view.WriteLine($"{newDemonAddedToActiveList.GetName()} ha sido invocado");
-        view.WriteLine(GameConstants.Separator);
+        CombatUI.DisplayHasBeenSummoned(newDemonAddedToActiveList);
     }
 
-    public static void MonsterSwap(Player player, Unit summoner, View view)
+    public static void MonsterSwap(Player player, Demon demonSummoned, View view)
     {
         view.WriteLine("Seleccione un monstruo para invocar");
 
-        var reserve = player.GetReservedUnits()
-            .Where(unit => unit != null && unit.IsAlive())
-            .Cast<Demon>()
-            .ToList();
-
-        if (reserve.Count == 0)
-        {
-            view.WriteLine("No hay demonios disponibles para invocar");
-            return;
-        }
-
-        for (int i = 0; i < reserve.Count; i++)
-        {
-            var demon = reserve[i];
-            view.WriteLine($"{i + 1}-{demon.GetName()} HP:{demon.GetCurrentStats().GetStatByName("HP")}/{demon.GetBaseStats().GetStatByName("HP")} " +
-                           $"MP:{demon.GetCurrentStats().GetStatByName("MP")}/{demon.GetBaseStats().GetStatByName("MP")}");
-        }
-        view.WriteLine($"{reserve.Count + 1}-Cancelar");
+        List<Unit> reserve = player.GetReservedUnits();
+        CombatUI.DisplayInvokeOptions(reserve, view);
 
         string input = view.ReadLine();
-        if (input == $"{reserve.Count + 1}") return;
+        if (IsCancelOption(input, reserve.Count)) return;
 
-        int demonIndex = Convert.ToInt32(input) - 1;
-        Demon selectedDemon = reserve[demonIndex];
+        Demon selectedDemon = (Demon)SelectDemonFromReserve(reserve, input);
 
+        int slotToReplace = FindSlotOfActiveDemon(player, demonSummoned);
+        
+        SummonDemon(player, selectedDemon, slotToReplace, view);
+    }
+
+    private static int FindSlotOfActiveDemon(Player player, Unit demon)
+    {
         var activeUnits = player.GetActiveUnits();
         for (int i = 0; i < activeUnits.Count; i++)
         {
-            if (activeUnits[i] == summoner)
-            {
-                activeUnits[i] = selectedDemon;
-                player.GetReservedUnits().Remove(selectedDemon);
-                player.GetReservedUnits().Add((Demon)summoner); ;
-            }
+            if (activeUnits[i] == demon)
+                return i;
         }
-
-        view.WriteLine(GameConstants.Separator);
-        view.WriteLine($"{selectedDemon.GetName()} ha sido invocado");
-        view.WriteLine(GameConstants.Separator);
+        return -1;
     }
+
 }

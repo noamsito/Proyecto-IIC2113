@@ -4,7 +4,7 @@ using Shin_Megami_Tensei.Combat;
 
 public static class DemonActionHandler
 {
-    public static void Handle(Unit demon, CombatContext ctx)
+    public static void Handle(Demon demon, CombatContext ctx)
     {
         bool actionExecuted = false;
 
