@@ -144,14 +144,8 @@ public static class CombatUI
             _view.WriteLine(GameConstants.Separator);
         }
         
-        public static void DisplayInvokeOptions(List<Unit> reserve, View view)
+        public static void DisplaySummonOptions(List<Unit> reserve, View view)
         {
-            if (reserve.Count == 0)
-            {
-                view.WriteLine("No hay demonios disponibles para invocar");
-                return;
-            }
-            
             for (int i = 0; i < reserve.Count; i++)
             {
                 var demon = reserve[i];

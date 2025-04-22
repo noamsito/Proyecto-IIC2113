@@ -12,15 +12,19 @@ public static class SummonManager
         TurnManager.UpdateTurnStates(turnCtx);
     }
     
-    public static void SummonFromReserveBySamurai(Player player, View view)
+    public static bool SummonFromReserveBySamurai(Player player, View view)
     {
         view.WriteLine("Seleccione un monstruo para invocar");
     
         List<Unit> reserve = player.GetReservedUnits();
-        CombatUI.DisplayInvokeOptions(reserve, view);
+        CombatUI.DisplaySummonOptions(reserve, view);
     
         string demonInput = view.ReadLine();
-        if (IsCancelOption(demonInput, reserve.Count)) return;
+        if (IsCancelOption(demonInput, reserve.Count))
+        {
+            view.WriteLine(GameConstants.Separator);
+            return false;
+        }
     
         Unit selectedDemon = SelectDemonFromReserve(reserve, demonInput);
     
@@ -29,11 +33,12 @@ public static class SummonManager
     
         var validSlots = GetValidSlots(player, view);
         string slotInput = view.ReadLine();
-        if (IsCancelOption(slotInput, validSlots.Count)) return;
+        if (IsCancelOption(slotInput, validSlots.Count)) return false;
     
         int slot = SelectSlot(validSlots, slotInput);
     
         SummonDemon(player, selectedDemon, slot, view);
+        return true;
     }
     
     private static List<Demon> GetAvailableDemons(Player player)
@@ -107,7 +112,7 @@ public static class SummonManager
         view.WriteLine("Seleccione un monstruo para invocar");
 
         List<Unit> reserve = player.GetReservedUnits();
-        CombatUI.DisplayInvokeOptions(reserve, view);
+        CombatUI.DisplaySummonOptions(reserve, view);
 
         string input = view.ReadLine();
         if (IsCancelOption(input, reserve.Count)) return;
