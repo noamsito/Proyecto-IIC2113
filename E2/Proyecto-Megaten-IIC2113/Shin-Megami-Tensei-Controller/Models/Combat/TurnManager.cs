@@ -49,7 +49,7 @@ public static class TurnManager
         CombatUI.DisplayTurnChanges(fullConsumed, blinkingConsumed, blinkingGained);
 
         ctx.Defender?.RemoveFromActiveUnitsIfDead();
-        ctx.Attacker.ReorderUnitsWhenAttacked();
+        // ctx.Attacker.ReorderUnitsWhenAttacked();
     }
 
 
@@ -71,6 +71,7 @@ public static class TurnManager
     {
         UpdateTurnsStandard(ctx);
         UpdateTurnStates(ctx);
+        ctx.Attacker.ReorderUnitsWhenAttacked();
     }
 
     public static void UpdateTurnsWhenInvoked(TurnContext ctx)

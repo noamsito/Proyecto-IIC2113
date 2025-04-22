@@ -300,6 +300,19 @@ public class Player
            }
        }
    }
+   
+   public void ReplaceFromReserveUnitsList(string nameDemonBeingRemoved, Demon demonBeginAddedToReserve)
+   {
+       for (int i = 0; i < _reservedUnits.Count; i++)
+       {
+           if (_reservedUnits[i] != null &&
+               _reservedUnits[i].GetName() == nameDemonBeingRemoved)
+           {
+               _reservedUnits[i] = demonBeginAddedToReserve;
+               break;
+           }
+       }
+   }
 
    public List<Unit> GetValidActiveUnits()
    {

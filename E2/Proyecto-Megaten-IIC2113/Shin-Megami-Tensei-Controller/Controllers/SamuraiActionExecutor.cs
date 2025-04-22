@@ -68,6 +68,7 @@ public static class SamuraiActionExecutor
 
         TurnManager.ApplyAffinityPenalty(ctx.CurrentPlayer, target, type);
         TurnManager.UpdateTurnStates(turnCtx);
+        turnCtx.Attacker.ReorderUnitsWhenAttacked();
 
         return true;
     }
@@ -86,6 +87,7 @@ public static class SamuraiActionExecutor
         SkillManager.ApplySkillEffect(useCtx);
 
         TurnManager.UpdateTurnStates(turnCtx);
+        turnCtx.Attacker.ReorderUnitsWhenAttacked();
         return true;
     }
 

@@ -52,11 +52,10 @@ public static class DemonActionExecutor
 
         TurnManager.ApplyAffinityPenalty(ctx.CurrentPlayer, target, type);
         TurnManager.UpdateTurnStates(turnCtx);
+        turnCtx.Attacker.ReorderUnitsWhenAttacked();
 
         return true;
     }
-
-
 
     private static bool UseSkill(DemonActionContext ctx, TurnContext turnCtx)
     {
@@ -71,6 +70,8 @@ public static class DemonActionExecutor
         SkillManager.ApplySkillEffect(useCtx);
 
         TurnManager.UpdateTurnStates(turnCtx);
+        turnCtx.Attacker.ReorderUnitsWhenAttacked();
+        
         return true;
     }
 
