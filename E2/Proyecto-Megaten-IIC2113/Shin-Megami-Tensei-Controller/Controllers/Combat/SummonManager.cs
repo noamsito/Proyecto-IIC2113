@@ -8,7 +8,7 @@ public static class SummonManager
 {
     public static void ManageTurnsWhenSummoned(TurnContext turnCtx)
     {
-        TurnManager.ConsumeTurnsStandard(turnCtx);
+        TurnManager.ConsumeTurnsWhenPassedTurn(turnCtx);
         TurnManager.UpdateTurnStates(turnCtx);
     }
     
@@ -41,13 +41,13 @@ public static class SummonManager
         return true;
     }
     
-    private static List<Demon> GetAvailableDemons(Player player)
-    {
-        return player.GetReservedUnits()
-            .Where(unit => unit != null && unit.IsAlive())
-            .Cast<Demon>()
-            .ToList();
-    }
+    // private static List<Demon> GetAvailableDemons(Player player)
+    // {
+    //     return player.GetReservedUnits()
+    //         .Where(unit => unit != null && unit.IsAlive())
+    //         .Cast<Demon>()
+    //         .ToList();
+    // }
     
     private static bool IsCancelOption(string input, int count)
     {
@@ -95,15 +95,16 @@ public static class SummonManager
     
     private static void SummonDemon(Player player, Unit newDemonAddedToActiveList, int slot, View view)
     {
+        Console.Write(player.GetActiveUnits()[slot]);
         Unit removedDemonFromActiveList = player.GetActiveUnits()[slot];
-        
+
         player.ReorderUnitsWhenAttacked();
         player.GetActiveUnits()[slot] = newDemonAddedToActiveList;
         player.ReplaceFromReserveUnitsList(newDemonAddedToActiveList.GetName(), (Demon)removedDemonFromActiveList);
         player.ReorderReserveBasedOnJsonOrder();
         player.GetReservedUnits().Remove(newDemonAddedToActiveList);
-        player.ReplaceFromSortedListWhenInvoked(removedDemonFromActiveList.GetName(), newDemonAddedToActiveList);
-    
+        player.ReplaceFromSortedListWhenInvoked(removedDemonFromActiveList, newDemonAddedToActiveList);
+        
         CombatUI.DisplayHasBeenSummoned(newDemonAddedToActiveList);
     }
 

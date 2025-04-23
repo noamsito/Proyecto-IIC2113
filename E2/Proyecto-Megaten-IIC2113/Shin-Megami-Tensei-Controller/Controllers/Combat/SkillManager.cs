@@ -44,9 +44,8 @@ public static class SkillManager
             case "Ice":
             case "Elec":
             case "Force":
-                Console.WriteLine("AAAAAAAAAAAAAAAAAAAAAAA");
                 HandleOffensiveSkill(ctx);
-                TurnManager.ApplyAffinityPenalty(ctx.Attacker, ctx.Target, ctx.Skill.Type);
+                // TurnManager.ApplyAffinityPenalty(ctx.Attacker, ctx.Target, ctx.Skill.Type);
                 break;
 
             case "Heal":

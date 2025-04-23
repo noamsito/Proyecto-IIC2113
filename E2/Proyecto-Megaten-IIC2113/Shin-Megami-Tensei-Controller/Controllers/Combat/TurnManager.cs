@@ -1,5 +1,6 @@
 ﻿using Shin_Megami_Tensei_View;
 using Shin_Megami_Tensei.Combat;
+using Shin_Megami_Tensei.String_Handlers;
 
 namespace Shin_Megami_Tensei.Managers;
 
@@ -24,7 +25,7 @@ public static class TurnManager
     public static Unit? GetCurrentUnit(Player player)
     {
         var sortedUnits = player.GetSortedActiveUnitsByOrderOfAttack();
-        return sortedUnits.FirstOrDefault(); // null si está vacío
+        return sortedUnits.FirstOrDefault(); 
     }
 
     public static bool IsOutOfTurns(Player player)
@@ -32,9 +33,20 @@ public static class TurnManager
         return player.IsPlayerOutOfTurns();
     }
 
-    public static void ApplyAffinityPenalty(Player attacker, Unit target, string attackType)
+    public static void ApplyAffinityPenalty(AffinityContext affinityCtx, TurnContext turnContext)
     {
-        attacker.UpdateTurnsBasedOnAffinity(attackType, target.GetName());
+        UpdateTurnsBasedOnAffinity(affinityCtx, turnContext);
+    }
+    
+    public static void UpdateTurnsBasedOnAffinity(AffinityContext affinityCtx, TurnContext turnContext)
+    {
+        string nameTarget = affinityCtx.Target.GetName();
+        string typeAttack = affinityCtx.AttackType;
+       
+        // string targetAffinity = FileHelper.FindTargetInFileForStats(typeAttack, nameTarget);
+        // ConsumeTurnsBasedOnAffinity(targetAffinity);
+       
+        ConsumeTurnsBasedOnAffinity(affinityCtx, turnContext);
     }
 
     public static void UpdateTurnStates(TurnContext ctx)
@@ -53,7 +65,7 @@ public static class TurnManager
 
 
 
-    public static void ConsumeTurnsStandard(TurnContext ctx)
+    public static void ConsumeTurnsWhenPassedTurn(TurnContext ctx)
     {
         if (ctx.Attacker.GetBlinkingTurns() > 0)
         {
@@ -68,7 +80,7 @@ public static class TurnManager
     
     public static void ManageTurnsWhenPassedTurn(TurnContext ctx)
     {
-        ConsumeTurnsStandard(ctx);
+        ConsumeTurnsWhenPassedTurn(ctx);
         UpdateTurnStates(ctx);
         ctx.Attacker.ReorderUnitsWhenAttacked();
     }
@@ -78,8 +90,9 @@ public static class TurnManager
         
     }
 
-    public static void ConsumeTurnsBasedOnAffinity(AffinityContext ctx, Player attackingPlayer)
+    public static void ConsumeTurnsBasedOnAffinity(AffinityContext ctx, TurnContext turnCtx)
     {
+        Player attackingPlayer = turnCtx.Attacker;
         string affinity = AffinityResolver.GetAffinity(ctx.Target, ctx.AttackType);
 
         switch (affinity)
@@ -116,7 +129,14 @@ public static class TurnManager
 
             case "Rs":
             case "-":
-            default:
+                if (attackingPlayer.GetBlinkingTurns() > 0)
+                {
+                    attackingPlayer.ConsumeBlinkingTurn(1);
+                }
+                else
+                {
+                    attackingPlayer.ConsumeFullTurn(1);
+                }
                 break;
         }
     }

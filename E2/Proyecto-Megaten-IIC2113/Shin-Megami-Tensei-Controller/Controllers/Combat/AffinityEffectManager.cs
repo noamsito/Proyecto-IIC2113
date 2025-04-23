@@ -6,12 +6,11 @@ namespace Shin_Megami_Tensei.Managers;
 
 public static class AffinityEffectManager
 {
-    public static int ApplyAffinityEffect(AffinityContext ctx, Player attackingPlayer)
+    public static int ApplyAffinityEffect(AffinityContext ctx, TurnContext turnCtx)
     {
         string affinity = AffinityResolver.GetAffinity(ctx.Target, ctx.AttackType);
         
         CombatUI.DisplayAffinityMessage(ctx);
-        TurnManager.ConsumeTurnsBasedOnAffinity(ctx, attackingPlayer);
 
         switch (affinity)
         {

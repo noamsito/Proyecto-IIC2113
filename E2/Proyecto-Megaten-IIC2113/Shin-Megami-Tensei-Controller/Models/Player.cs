@@ -1,5 +1,8 @@
 ﻿using System.Diagnostics;
 using System.Text.Json;
+using Shin_Megami_Tensei.Combat;
+using Shin_Megami_Tensei.Managers;
+using Shin_Megami_Tensei.String_Handlers;
 using Shin_Megami_Tensei.Units;
 
 namespace Shin_Megami_Tensei;
@@ -23,6 +26,7 @@ public class Player
     {
         this._name = name;
         this._activeUnits = new List<Unit> { null, null, null, null };
+        this._sortedActiveUnitsByOrderOfAttack = new List<Unit> { null, null, null, null };
         this._reservedUnits = new List<Unit>();
     }
 
@@ -108,87 +112,6 @@ public class Player
            {
                this._reservedUnits.Add(listDemons[i]);
            }
-       }
-   }
-
-   public void UpdateTurnsBasedOnAffinity(string typeAttack, string nameTarget)
-   {
-       string targetAffinity = this.FindTargetInFileForStats(typeAttack, nameTarget);
-       this.ConsumeTurnsBasedOnAffinity(targetAffinity);
-   }
-
-   public string FindTargetInFileForStats(string typeAttack, string nameTarget)
-   {
-       string resultOfSamuraiJson = this.SearchInJsonSamurai(typeAttack, nameTarget);
-       string resultOfDemonsJson = this.SearchInJsonDemons(typeAttack, nameTarget);
-       
-       return (resultOfSamuraiJson != null) ? resultOfSamuraiJson : resultOfDemonsJson;
-   }
-
-   public string SearchInJsonSamurai(string typeAttack, string nameTarget)
-   {
-       string jsonString = File.ReadAllText(GameConstants.JSON_FILE_SAMURAI);
-       JsonDocument document = JsonDocument.Parse(jsonString);
-       JsonElement root = document.RootElement;
-       
-       foreach (JsonElement skillJSON in root.EnumerateArray())
-       { 
-           if (skillJSON.GetProperty("name").GetString() == nameTarget) 
-           {
-               return skillJSON.GetProperty("affinity").GetProperty($"{typeAttack}").GetString(); 
-           } 
-       }
-
-       return null;
-   }
-   public string SearchInJsonDemons(string typeAttack, string nameTarget)
-   {
-       string jsonString = File.ReadAllText(GameConstants.JSON_FILE_MONSTERS);
-       JsonDocument document = JsonDocument.Parse(jsonString);
-       JsonElement root = document.RootElement;
-
-       foreach (JsonElement demonJSON in root.EnumerateArray())
-       {
-           if (demonJSON.GetProperty("name").GetString() == nameTarget)
-           {
-               return demonJSON.GetProperty("affinity").GetProperty($"{typeAttack}").GetString();
-           }
-       }
-
-       return null;
-   }
-
-   public void ConsumeTurnsBasedOnAffinity(string targetAffinity)
-   {
-       switch (targetAffinity)
-       {
-           case "Rp": 
-           case "Dr":
-               this._fullTurns = 0;
-               this._blinkingTurns = 0;
-               break;
-           case "Nu":
-               this._fullTurns = (this._fullTurns <= 2) ? 0 : (this._fullTurns - 2);
-               break;
-           // Miss
-           case "Wk":
-               
-               break;
-           case "-":
-               if (this._blinkingTurns == 0)
-               {
-                   this._fullTurns--; 
-               }
-               else
-               {
-                   this._blinkingTurns--;
-               }
-               break;
-           case "Rs":
-               break;
-           case "":
-               break;
-           
        }
    }
    
@@ -283,22 +206,31 @@ public class Player
            if (_sortedActiveUnitsByOrderOfAttack[i] != null &&
                _sortedActiveUnitsByOrderOfAttack[i].GetName() == nameUnit)
            {
-               _sortedActiveUnitsByOrderOfAttack.RemoveAt(i);
+               _sortedActiveUnitsByOrderOfAttack[i] = null;
                break;
            }
        }
    }
 
-   public void ReplaceFromSortedListWhenInvoked(string nameUnit, Unit newDemon)
+   public void ReplaceFromSortedListWhenInvoked(Unit oldDemon, Unit newDemon)
    {
        for (int i = 0; i < _sortedActiveUnitsByOrderOfAttack.Count; i++)
        {
-           if (_sortedActiveUnitsByOrderOfAttack[i] != null &&
-               _sortedActiveUnitsByOrderOfAttack[i].GetName() == nameUnit)
-           {
-               _sortedActiveUnitsByOrderOfAttack[i] = newDemon;
-               break;
-           }
+           AddTheDemonInTheAvailableSlot(i, (Demon)oldDemon, (Demon)newDemon);
+       }
+   }
+
+   public void AddTheDemonInTheAvailableSlot(int iteratorSlots, Demon oldDemon, Demon newDemon)
+   {
+       // // Console.WriteLine($"{_sortedActiveUnitsByOrderOfAttack[iteratorSlots]}");
+       if (_sortedActiveUnitsByOrderOfAttack[iteratorSlots] == null)
+       {
+           _sortedActiveUnitsByOrderOfAttack.Add(newDemon);
+       }
+
+       else if (_sortedActiveUnitsByOrderOfAttack[iteratorSlots].GetName() == oldDemon.GetName())
+       {
+           _sortedActiveUnitsByOrderOfAttack[iteratorSlots] = newDemon;
        }
    }
    

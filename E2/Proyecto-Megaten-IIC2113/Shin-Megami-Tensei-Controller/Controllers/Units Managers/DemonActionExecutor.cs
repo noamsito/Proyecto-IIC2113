@@ -49,12 +49,12 @@ public static class DemonActionExecutor
             : AttackExecutor.ExecuteGunAttack(demonCtx.Demon, target, GameConstants.ModifierGunDamage);
 
         var affinityCtx = new AffinityContext(demonCtx.Demon, target, type, baseDamage);
-        int finalDamage = AffinityEffectManager.ApplyAffinityEffect(affinityCtx, demonCtx.CurrentPlayer);
+        int finalDamage = AffinityEffectManager.ApplyAffinityEffect(affinityCtx, turnCtx);
 
         UnitActionManager.ApplyDamageTaken(target, finalDamage);
         CombatUI.DisplayDamageResult(target, finalDamage);
         
-        TurnManager.ApplyAffinityPenalty(demonCtx.CurrentPlayer, target, type);
+        TurnManager.ApplyAffinityPenalty(affinityCtx, turnCtx);
         TurnManager.UpdateTurnStates(turnCtx);
         turnCtx.Attacker.ReorderUnitsWhenAttacked();
 
@@ -74,7 +74,7 @@ public static class DemonActionExecutor
 
         int baseDamage = skill.Power;
         var affinityCtx = new AffinityContext(demonCtx.Demon, target, skill.Type, baseDamage);
-        int finalDamage = AffinityEffectManager.ApplyAffinityEffect(affinityCtx, demonCtx.CurrentPlayer);
+        int finalDamage = AffinityEffectManager.ApplyAffinityEffect(affinityCtx,  turnCtx);
 
         UnitActionManager.ApplyDamageTaken(target, finalDamage);
         CombatUI.DisplayDamageResult(target, finalDamage);

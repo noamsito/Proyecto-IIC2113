@@ -70,12 +70,12 @@ public static class SamuraiActionExecutor
             : AttackExecutor.ExecuteGunAttack(samuraiCtx.Samurai, target, GameConstants.ModifierGunDamage);
 
         var affinityCtx = new AffinityContext(samuraiCtx.Samurai, target, type, baseDamage);
-        int finalDamage = AffinityEffectManager.ApplyAffinityEffect(affinityCtx, samuraiCtx.CurrentPlayer);
+        int finalDamage = AffinityEffectManager.ApplyAffinityEffect(affinityCtx,  turnCtx);
 
         UnitActionManager.ApplyDamageTaken(target, finalDamage);
         CombatUI.DisplayDamageResult(target, finalDamage);
 
-        TurnManager.ApplyAffinityPenalty(samuraiCtx.CurrentPlayer, target, type);
+        TurnManager.ConsumeTurnsBasedOnAffinity(affinityCtx, turnCtx);
         TurnManager.UpdateTurnStates(turnCtx);
         turnCtx.Attacker.ReorderUnitsWhenAttacked();
 
@@ -98,7 +98,7 @@ public static class SamuraiActionExecutor
         int baseDamage = skill.Power;
 
         var affinityCtx = new AffinityContext(samuraiCtx.Samurai, target, skill.Type, baseDamage);
-        int finalDamage = AffinityEffectManager.ApplyAffinityEffect(affinityCtx, samuraiCtx.CurrentPlayer);
+        int finalDamage = AffinityEffectManager.ApplyAffinityEffect(affinityCtx, turnCtx);
 
         UnitActionManager.ApplyDamageTaken(target, finalDamage);
         CombatUI.DisplayDamageResult(target, finalDamage);

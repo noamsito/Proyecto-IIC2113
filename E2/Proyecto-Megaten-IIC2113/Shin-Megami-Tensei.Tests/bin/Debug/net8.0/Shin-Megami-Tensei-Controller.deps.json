@@ -26,7 +26,7 @@
       "Shin-Megami-Tensei-View/1.0.0": {
         "runtime": {
           "Shin-Megami-Tensei-View.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
