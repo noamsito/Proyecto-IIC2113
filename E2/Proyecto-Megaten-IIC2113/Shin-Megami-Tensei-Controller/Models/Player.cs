@@ -163,18 +163,12 @@ public class Player
     
     public void ReorderUnitsWhenAttacked()
     {
-        Console.WriteLine(_sortedActiveUnitsByOrderOfAttack.Count);
         if (_sortedActiveUnitsByOrderOfAttack.Count > 0)
         {
             Unit firstUnit = _sortedActiveUnitsByOrderOfAttack[0];
             
             _sortedActiveUnitsByOrderOfAttack.RemoveAt(0);
             _sortedActiveUnitsByOrderOfAttack.Add(firstUnit);
-        }
-
-        foreach (var a in _sortedActiveUnitsByOrderOfAttack)
-        {
-            Console.WriteLine(a);
         }
     }
     
@@ -220,23 +214,28 @@ public class Player
 
    public void ReplaceFromSortedListWhenInvoked(Unit oldDemon, Unit newDemon)
    {
+       bool wasFoundPreviousDemon = false;
        for (int i = 0; i < _sortedActiveUnitsByOrderOfAttack.Count; i++)
        {
-           AddTheDemonInTheAvailableSlot(i, (Demon)oldDemon, (Demon)newDemon);
+           wasFoundPreviousDemon = AddTheDemonInTheAvailableSlot(i, (Demon)oldDemon, (Demon)newDemon);
+           if (wasFoundPreviousDemon)
+           {
+               break;
+           }
        }
+       if (!wasFoundPreviousDemon) _sortedActiveUnitsByOrderOfAttack.Add(newDemon);
    }
 
-   public void AddTheDemonInTheAvailableSlot(int iteratorSlots, Demon oldDemon, Demon newDemon)
+   public bool AddTheDemonInTheAvailableSlot(int iteratorSlots, Demon oldDemon, Demon newDemon)
    {
-       if (_sortedActiveUnitsByOrderOfAttack[iteratorSlots] == null)
+       if (_sortedActiveUnitsByOrderOfAttack[iteratorSlots].GetName() == oldDemon.GetName())
        {
-           _sortedActiveUnitsByOrderOfAttack.Add(newDemon);
+           Console.WriteLine("Replace");
+           _sortedActiveUnitsByOrderOfAttack[iteratorSlots] = newDemon;
+           return true;
        }
 
-       else if (_sortedActiveUnitsByOrderOfAttack[iteratorSlots].GetName() == oldDemon.GetName())
-       {
-           _sortedActiveUnitsByOrderOfAttack[iteratorSlots] = newDemon;
-       }
+       return false;
    }
    
    public void ReplaceFromReserveUnitsList(string newName, Demon replacedDemon)

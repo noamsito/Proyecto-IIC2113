@@ -31,13 +31,13 @@ public static class SummonManager
         view.WriteLine(GameConstants.Separator);
         view.WriteLine("Seleccione una posición para invocar");
     
-        var validSlots = GetValidSlots(player, view);
+        var validSlots = GetValidSlotsFromActiveUnits(player, view);
         string slotInput = view.ReadLine();
         if (IsCancelOption(slotInput, validSlots.Count)) return false;
     
         int slot = SelectSlot(validSlots, slotInput);
     
-        SummonDemon(player, selectedDemon, slot, view);
+        SummonDemon(player, selectedDemon, slot);
         return true;
     }
     
@@ -60,7 +60,7 @@ public static class SummonManager
         return reserve[demonIndex];
     }
     
-    private static List<int> GetValidSlots(Player player, View view)
+    private static List<int> GetValidSlotsFromActiveUnits(Player player, View view)
     {
         var activeUnits = player.GetActiveUnits();
         List<int> validSlots = new();
@@ -93,16 +93,17 @@ public static class SummonManager
         return validSlots[Convert.ToInt32(input) - 1];
     }
     
-    private static void SummonDemon(Player player, Unit newDemonAddedToActiveList, int slot, View view)
+    private static void SummonDemon(Player player, Unit newDemonAddedToActiveList, int slot)
     {
-        Console.Write(player.GetActiveUnits()[slot]);
         Unit removedDemonFromActiveList = player.GetActiveUnits()[slot];
 
-        player.ReorderUnitsWhenAttacked();
         player.GetActiveUnits()[slot] = newDemonAddedToActiveList;
+        
         player.ReplaceFromReserveUnitsList(newDemonAddedToActiveList.GetName(), (Demon)removedDemonFromActiveList);
         player.ReorderReserveBasedOnJsonOrder();
         player.GetReservedUnits().Remove(newDemonAddedToActiveList);
+        
+        player.ReorderUnitsWhenAttacked();
         player.ReplaceFromSortedListWhenInvoked(removedDemonFromActiveList, newDemonAddedToActiveList);
         
         CombatUI.DisplayHasBeenSummoned(newDemonAddedToActiveList);
@@ -122,7 +123,7 @@ public static class SummonManager
 
         int slotToReplace = FindSlotOfActiveDemon(player, demonSummoned);
         
-        SummonDemon(player, selectedDemon, slotToReplace, view);
+        SummonDemon(player, selectedDemon, slotToReplace);
     }
 
     private static int FindSlotOfActiveDemon(Player player, Unit demon)
