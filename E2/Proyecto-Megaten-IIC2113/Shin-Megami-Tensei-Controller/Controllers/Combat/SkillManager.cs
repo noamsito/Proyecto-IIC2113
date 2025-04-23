@@ -44,12 +44,13 @@ public static class SkillManager
             case "Ice":
             case "Elec":
             case "Force":
+                Console.WriteLine("AAAAAAAAAAAAAAAAAAAAAAA");
                 HandleOffensiveSkill(ctx);
                 TurnManager.ApplyAffinityPenalty(ctx.Attacker, ctx.Target, ctx.Skill.Type);
                 break;
 
             case "Heal":
-                // HandleHealingSkill(ctx);
+                
                 break;
 
             case "Special":
@@ -63,12 +64,12 @@ public static class SkillManager
     private static void HandleOffensiveSkill(SkillUseContext ctx)
     {
         int damage = (int)Math.Floor(ctx.Skill.Power * GameConstants.ConstantOfDamage);
-        ctx.Target.ApplyDamageTaken(damage);
+        UnitActionManager.ApplyDamageTaken(ctx.Target, damage);
 
         ctx.View.WriteLine($"{ctx.Target.GetName()} recibe {damage} de daño");
         ctx.View.WriteLine($"{ctx.Target.GetName()} termina con HP: {ctx.Target.GetCurrentStats().GetStatByName("HP")}/{ctx.Target.GetBaseStats().GetStatByName("HP")}");
     }
-
+    
 
     private static void ConsumeMP(Unit caster, int cost)
     {

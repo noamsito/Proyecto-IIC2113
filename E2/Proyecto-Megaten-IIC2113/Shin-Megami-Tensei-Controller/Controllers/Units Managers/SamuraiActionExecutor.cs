@@ -24,7 +24,7 @@ public static class SamuraiActionExecutor
 
             case "3":
                 ctx.View.WriteLine($"Seleccione una habilidad para que {ctx.Samurai.GetName()} use");
-                return UseSkill(ctx, turnCtx);
+                return ManageUseSkill(ctx, turnCtx);
 
             case "4":
                 bool hasBeenSummoned = SummonManager.SummonFromReserveBySamurai(ctx.CurrentPlayer, ctx.View);
@@ -53,25 +53,29 @@ public static class SamuraiActionExecutor
         }
     }
 
-    private static bool PerformAttack(string type, SamuraiActionContext ctx, TurnContext turnCtx)
+    private static bool PerformAttack(string type, SamuraiActionContext samuraiCtx, TurnContext turnCtx)
     {
-        var targetCtx = new AttackTargetContext(ctx.Samurai, ctx.Opponent, ctx.View);
+        var targetCtx = new AttackTargetContext(samuraiCtx.Samurai, samuraiCtx.Opponent, samuraiCtx.View);
 
         string targetInput = TargetSelector.SelectEnemy(targetCtx);
         int cancelNum = targetCtx.Opponent.GetValidActiveUnits().Count + 1;
         if (targetInput == cancelNum.ToString()) return false;
 
-        Unit target = TargetSelector.ResolveTarget(ctx.Opponent, targetInput);
+        Unit target = TargetSelector.ResolveTarget(samuraiCtx.Opponent, targetInput);
 
-        CombatUI.DisplayAttack(ctx.Samurai.GetName(), target.GetName(), type);
+        CombatUI.DisplayAttack(samuraiCtx.Samurai.GetName(), target.GetName(), type);
 
-        int damage = type == "Phys"
-            ? AttackExecutor.ExecutePhysicalAttack(ctx.Samurai, target, GameConstants.ModifierPhysDamage)
-            : AttackExecutor.ExecuteGunAttack(ctx.Samurai, target, GameConstants.ModifierGunDamage);
+        int baseDamage = type == "Phys"
+            ? AttackExecutor.ExecutePhysicalAttack(samuraiCtx.Samurai, target, GameConstants.ModifierPhysDamage)
+            : AttackExecutor.ExecuteGunAttack(samuraiCtx.Samurai, target, GameConstants.ModifierGunDamage);
 
-        CombatUI.DisplayDamageResult(target, damage);
+        var affinityCtx = new AffinityContext(samuraiCtx.Samurai, target, type, baseDamage);
+        int finalDamage = AffinityEffectManager.ApplyAffinityEffect(affinityCtx, samuraiCtx.CurrentPlayer);
 
-        TurnManager.ApplyAffinityPenalty(ctx.CurrentPlayer, target, type);
+        UnitActionManager.ApplyDamageTaken(target, finalDamage);
+        CombatUI.DisplayDamageResult(target, finalDamage);
+
+        TurnManager.ApplyAffinityPenalty(samuraiCtx.CurrentPlayer, target, type);
         TurnManager.UpdateTurnStates(turnCtx);
         turnCtx.Attacker.ReorderUnitsWhenAttacked();
 
@@ -79,17 +83,25 @@ public static class SamuraiActionExecutor
     }
 
 
-    private static bool UseSkill(SamuraiActionContext ctx, TurnContext turnCtx)
+    private static bool ManageUseSkill(SamuraiActionContext samuraiCtx, TurnContext turnCtx)
     {
-        Skill? skill = SkillManager.SelectSkill(ctx.View, ctx.Samurai);
+        Skill? skill = SkillManager.SelectSkill(samuraiCtx.View, samuraiCtx.Samurai);
         if (skill == null) return false;
 
-        var targetCtx = new SkillTargetContext(skill, ctx.CurrentPlayer, ctx.Opponent, ctx.View);
-        Unit? target = TargetSelector.SelectSkillTarget(targetCtx);
+        var targetCtx = new SkillTargetContext(skill, samuraiCtx.CurrentPlayer, samuraiCtx.Opponent, samuraiCtx.View);
+        Player attackerPlayer = turnCtx.Attacker;
+        Unit unitAttacking = attackerPlayer.GetTeam().Samurai;
+        
+        Unit? target = TargetSelector.SelectSkillTarget(targetCtx, unitAttacking);
         if (target == null) return false;
 
-        var useCtx = new SkillUseContext(ctx.Samurai, target, skill, ctx.CurrentPlayer, ctx.Opponent, ctx.View);
-        SkillManager.ApplySkillEffect(useCtx);
+        int baseDamage = skill.Power;
+
+        var affinityCtx = new AffinityContext(samuraiCtx.Samurai, target, skill.Type, baseDamage);
+        int finalDamage = AffinityEffectManager.ApplyAffinityEffect(affinityCtx, samuraiCtx.CurrentPlayer);
+
+        UnitActionManager.ApplyDamageTaken(target, finalDamage);
+        CombatUI.DisplayDamageResult(target, finalDamage);
 
         TurnManager.UpdateTurnStates(turnCtx);
         turnCtx.Attacker.ReorderUnitsWhenAttacked();

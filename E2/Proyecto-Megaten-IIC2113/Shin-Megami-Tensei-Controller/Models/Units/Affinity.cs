@@ -8,11 +8,14 @@ public class Affinity
     {
         _values = values;
     }
-
-    public string GetReactionTo(string attackType)
+    
+    public string GetAffinityForType(string attackType)
     {
-        return _values.ContainsKey(attackType) ? _values[attackType] : "-";
-    }
+        if (_values.TryGetValue(attackType, out string affinity))
+        {
+            return string.IsNullOrWhiteSpace(affinity) ? "-" : affinity;
+        }
 
-    public Dictionary<string, string> AsDictionary() => new(_values);
+        return "-"; 
+    }
 }

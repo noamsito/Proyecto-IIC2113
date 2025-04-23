@@ -8,7 +8,6 @@ public static class AttackExecutor
         double rawDamage = str * modifier * GameConstants.ConstantOfDamage;
         int damage = (int)Math.Floor(rawDamage);
 
-        target.ApplyDamageTaken(damage);
         return damage;
     }
 
@@ -18,7 +17,6 @@ public static class AttackExecutor
         double rawDamage = skl * modifier * GameConstants.ConstantOfDamage;
         int damage = (int)Math.Floor(rawDamage);
 
-        target.ApplyDamageTaken(damage);
         return damage;
     }
 }

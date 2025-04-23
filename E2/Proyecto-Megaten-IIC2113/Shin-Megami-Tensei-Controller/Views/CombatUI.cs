@@ -1,6 +1,8 @@
 ﻿using Shin_Megami_Tensei_View;
 using Shin_Megami_Tensei;
+using Shin_Megami_Tensei.Combat;
 using Shin_Megami_Tensei.Gadgets;
+using Shin_Megami_Tensei.Managers;
 
 public static class CombatUI
 {
@@ -161,5 +163,32 @@ public static class CombatUI
             _view.WriteLine(GameConstants.Separator);
             _view.WriteLine($"{newDemonAdded.GetName()} ha sido invocado");
             _view.WriteLine(GameConstants.Separator);
+        }
+
+        public static void DisplayAffinityMessage(AffinityContext affinityCtx)
+        {
+            string affinity = AffinityResolver.GetAffinity(affinityCtx.Target, affinityCtx.AttackType);
+
+            switch (affinity)
+            {
+                case "Wk":
+                    _view.WriteLine($"{affinityCtx.Target.GetName()} es débil contra {affinityCtx.AttackType}");
+                    break;
+                case "Rs":
+                    _view.WriteLine(
+                        $"{affinityCtx.Target.GetName()} es resistente el ataque de {affinityCtx.Caster.GetName()}");
+                    break;
+                case "Nu":
+                    _view.WriteLine($"{affinityCtx.Target.GetName()} bloquea el ataque");
+                    break;
+                case "Dr":
+                    _view.WriteLine(
+                        $"{affinityCtx.Target.GetName()} absorbe el ataque y se cura {affinityCtx.BaseDamage} HP");
+                    break;
+                case "Rp":
+                    _view.WriteLine(
+                        $"{affinityCtx.Target.GetName()} refleja el ataque a {affinityCtx.Caster.GetName()}");
+                    break;
+            }
         }
     }

@@ -2,6 +2,7 @@
 using Shin_Megami_Tensei;
 using Shin_Megami_Tensei.Combat;
 using Shin_Megami_Tensei.Controllers;
+using Shin_Megami_Tensei.Gadgets;
 
 public static class UnitActionManager
 {
@@ -11,5 +12,19 @@ public static class UnitActionManager
             SamuraiActionHandler.Handle(samurai, combatCtx, turnCtx);
         else
             DemonActionHandler.Handle((Demon)unit, combatCtx);
+    }
+    
+    public static void ApplyDamageTaken(Unit unitHurt, int damage)
+    {
+        Stat currentStats= unitHurt.GetCurrentStats();
+        
+        int currentHP = currentStats.GetStatByName("HP");
+        int newHP = Math.Max(0, currentHP - damage);
+        currentStats.SetStatByName("HP", newHP);
+    }
+
+    public static void Heal(int amount)
+    {
+        
     }
 }

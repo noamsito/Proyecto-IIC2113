@@ -32,8 +32,10 @@ public static class TargetSelector
         return opponent.GetValidActiveUnits()[index];
     }
 
-    public static Unit? SelectSkillTarget(SkillTargetContext ctx)
+    public static Unit? SelectSkillTarget(SkillTargetContext ctx, Unit unitAttacking)
     {
+        ctx.View.WriteLine($"Seleccione un objetivo para {unitAttacking.GetName()}");
+        
         bool isTargetAlly = ctx.Skill.Target == "Ally";
         List<Unit> possibleTargets = isTargetAlly
             ? ctx.CurrentPlayer.GetActiveUnits()

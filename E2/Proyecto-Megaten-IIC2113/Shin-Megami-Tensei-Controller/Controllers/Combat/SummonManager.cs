@@ -8,7 +8,7 @@ public static class SummonManager
 {
     public static void ManageTurnsWhenSummoned(TurnContext turnCtx)
     {
-        TurnManager.UpdateTurnsStandard(turnCtx);
+        TurnManager.ConsumeTurnsStandard(turnCtx);
         TurnManager.UpdateTurnStates(turnCtx);
     }
     

@@ -49,12 +49,11 @@ public static class TurnManager
         CombatUI.DisplayTurnChanges(fullConsumed, blinkingConsumed, blinkingGained);
 
         ctx.Defender?.RemoveFromActiveUnitsIfDead();
-        // ctx.Attacker.ReorderUnitsWhenAttacked();
     }
 
 
 
-    public static void UpdateTurnsStandard(TurnContext ctx)
+    public static void ConsumeTurnsStandard(TurnContext ctx)
     {
         if (ctx.Attacker.GetBlinkingTurns() > 0)
         {
@@ -69,21 +68,57 @@ public static class TurnManager
     
     public static void ManageTurnsWhenPassedTurn(TurnContext ctx)
     {
-        UpdateTurnsStandard(ctx);
+        ConsumeTurnsStandard(ctx);
         UpdateTurnStates(ctx);
         ctx.Attacker.ReorderUnitsWhenAttacked();
     }
-
-    public static void UpdateTurnsWhenInvoked(TurnContext ctx)
+    
+    public static void ConsumeAllTurns()
     {
-        if (ctx.Attacker.GetBlinkingTurns() > 0)
+        
+    }
+
+    public static void ConsumeTurnsBasedOnAffinity(AffinityContext ctx, Player attackingPlayer)
+    {
+        string affinity = AffinityResolver.GetAffinity(ctx.Target, ctx.AttackType);
+
+        switch (affinity)
         {
-            ctx.Attacker.ConsumeBlinkingTurn(1);
-        }
-        else
-        {
-            ctx.Attacker.ConsumeFullTurn(1);
-            ctx.Attacker.GainBlinkingTurn(1);
+            case "Rp":
+            case "Dr":
+                ConsumeAllTurns();
+                break;
+
+            case "Nu":
+                if (attackingPlayer.GetBlinkingTurns() >= 2)
+                {
+                    attackingPlayer.ConsumeBlinkingTurn(2);
+                }
+                else
+                {
+                    int blink = attackingPlayer.GetBlinkingTurns();
+                    attackingPlayer.ConsumeBlinkingTurn(blink);
+                    attackingPlayer.ConsumeFullTurn(2 - blink);
+                }
+                break;
+
+            case "Miss":
+                if (attackingPlayer.GetBlinkingTurns() >= 1)
+                    attackingPlayer.ConsumeBlinkingTurn(1);
+                else
+                    attackingPlayer.ConsumeFullTurn(1);
+                break;
+
+            case "Wk":
+                attackingPlayer.ConsumeFullTurn(1);
+                attackingPlayer.GainBlinkingTurn(1);
+                break;
+
+            case "Rs":
+            case "-":
+            default:
+                break;
         }
     }
+
 }
