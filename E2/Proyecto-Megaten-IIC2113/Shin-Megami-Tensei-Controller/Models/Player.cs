@@ -163,12 +163,18 @@ public class Player
     
     public void ReorderUnitsWhenAttacked()
     {
+        Console.WriteLine(_sortedActiveUnitsByOrderOfAttack.Count);
         if (_sortedActiveUnitsByOrderOfAttack.Count > 0)
         {
             Unit firstUnit = _sortedActiveUnitsByOrderOfAttack[0];
             
             _sortedActiveUnitsByOrderOfAttack.RemoveAt(0);
             _sortedActiveUnitsByOrderOfAttack.Add(firstUnit);
+        }
+
+        foreach (var a in _sortedActiveUnitsByOrderOfAttack)
+        {
+            Console.WriteLine(a);
         }
     }
     
@@ -222,7 +228,6 @@ public class Player
 
    public void AddTheDemonInTheAvailableSlot(int iteratorSlots, Demon oldDemon, Demon newDemon)
    {
-       // // Console.WriteLine($"{_sortedActiveUnitsByOrderOfAttack[iteratorSlots]}");
        if (_sortedActiveUnitsByOrderOfAttack[iteratorSlots] == null)
        {
            _sortedActiveUnitsByOrderOfAttack.Add(newDemon);
