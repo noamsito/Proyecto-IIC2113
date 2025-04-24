@@ -31,7 +31,7 @@ public static class SummonManager
         view.WriteLine(GameConstants.Separator);
         view.WriteLine("Seleccione una posición para invocar");
     
-        var validSlots = GetValidSlotsFromActiveUnits(player, view);
+        var validSlots = player.GetValidSlotsFromActiveUnits(view);
         string slotInput = view.ReadLine();
         if (IsCancelOption(slotInput, validSlots.Count)) return false;
     
@@ -40,14 +40,6 @@ public static class SummonManager
         SummonDemon(player, selectedDemon, slot);
         return true;
     }
-    
-    // private static List<Demon> GetAvailableDemons(Player player)
-    // {
-    //     return player.GetReservedUnits()
-    //         .Where(unit => unit != null && unit.IsAlive())
-    //         .Cast<Demon>()
-    //         .ToList();
-    // }
     
     private static bool IsCancelOption(string input, int count)
     {
@@ -60,34 +52,6 @@ public static class SummonManager
         return reserve[demonIndex];
     }
     
-    private static List<int> GetValidSlotsFromActiveUnits(Player player, View view)
-    {
-        var activeUnits = player.GetActiveUnits();
-        List<int> validSlots = new();
-        
-        for (int i = 1; i < activeUnits.Count; i++)
-        {
-            if (activeUnits[i] == null)
-            {
-                view.WriteLine($"{validSlots.Count + 1}-Vacío (Puesto {i + 1})");
-            }
-            else
-            {
-                Stat currentStats = activeUnits[i].GetCurrentStats();
-                Stat baseStats = activeUnits[i].GetBaseStats();
-        
-                string slotStatus = $"{activeUnits[i].GetName()} " +
-                                    $"HP:{currentStats.GetStatByName("HP")}/{baseStats.GetStatByName("HP")} " +
-                                    $"MP:{currentStats.GetStatByName("MP")}/{baseStats.GetStatByName("MP")} (Puesto {i + 1})";
-        
-                view.WriteLine($"{validSlots.Count + 1}-{slotStatus}");
-            }
-            validSlots.Add(i);
-        }
-        view.WriteLine($"{validSlots.Count + 1}-Cancelar");
-        return validSlots;
-    }
-    
     private static int SelectSlot(List<int> validSlots, string input)
     {
         return validSlots[Convert.ToInt32(input) - 1];
@@ -96,16 +60,23 @@ public static class SummonManager
     private static void SummonDemon(Player player, Unit newDemonAddedToActiveList, int slot)
     {
         Unit removedDemonFromActiveList = player.GetActiveUnits()[slot];
-
+        
         player.GetActiveUnits()[slot] = newDemonAddedToActiveList;
         
         player.ReplaceFromReserveUnitsList(newDemonAddedToActiveList.GetName(), (Demon)removedDemonFromActiveList);
         player.ReorderReserveBasedOnJsonOrder();
         player.GetReservedUnits().Remove(newDemonAddedToActiveList);
+
+        if (removedDemonFromActiveList != null)
+        {
+            player.ReplaceFromSortedListWhenInvoked(removedDemonFromActiveList, newDemonAddedToActiveList);
+        }
+        else
+        {
+            player.AddDemonInTheLastSlot((Demon)newDemonAddedToActiveList);
+        }
         
         player.ReorderUnitsWhenAttacked();
-        player.ReplaceFromSortedListWhenInvoked(removedDemonFromActiveList, newDemonAddedToActiveList);
-        
         CombatUI.DisplayHasBeenSummoned(newDemonAddedToActiveList);
     }
 

@@ -1,5 +1,6 @@
 ﻿using System.Diagnostics;
 using System.Text.Json;
+using Shin_Megami_Tensei_View;
 using Shin_Megami_Tensei.Combat;
 using Shin_Megami_Tensei.Managers;
 using Shin_Megami_Tensei.String_Handlers;
@@ -196,6 +197,27 @@ public class Player
        CheckIfTeamIsAbleToContinue();
    }
    
+   public List<int> GetValidSlotsFromActiveUnits(View view)
+   {
+       var activeUnits = GetActiveUnits();
+       List<int> validSlots = new();
+        
+       for (int iterator = 1; iterator < activeUnits.Count; iterator++)
+       {
+           if (activeUnits[iterator] == null)
+           {
+               CombatUI.DisplayEmptySlot(validSlots, iterator);
+           }
+           else
+           {
+               CombatUI.DisplayDemonInSlot(validSlots, iterator, activeUnits[iterator]);
+           }
+           validSlots.Add(iterator);
+       }
+       view.WriteLine($"{validSlots.Count + 1}-Cancelar");
+       return validSlots;
+   }
+   
    public void RemoveFromSortedUnits(string nameUnit)
    {
        if (_sortedActiveUnitsByOrderOfAttack == null)
@@ -217,25 +239,21 @@ public class Player
        bool wasFoundPreviousDemon = false;
        for (int i = 0; i < _sortedActiveUnitsByOrderOfAttack.Count; i++)
        {
-           wasFoundPreviousDemon = AddTheDemonInTheAvailableSlot(i, (Demon)oldDemon, (Demon)newDemon);
-           if (wasFoundPreviousDemon)
-           {
-               break;
-           }
+           AddTheDemonInTheAvailableSlot(i, (Demon)oldDemon, (Demon)newDemon);
        }
-       if (!wasFoundPreviousDemon) _sortedActiveUnitsByOrderOfAttack.Add(newDemon);
    }
 
-   public bool AddTheDemonInTheAvailableSlot(int iteratorSlots, Demon oldDemon, Demon newDemon)
+   public void AddTheDemonInTheAvailableSlot(int iteratorSlots, Demon oldDemon, Demon newDemon)
    {
        if (_sortedActiveUnitsByOrderOfAttack[iteratorSlots].GetName() == oldDemon.GetName())
        {
-           Console.WriteLine("Replace");
            _sortedActiveUnitsByOrderOfAttack[iteratorSlots] = newDemon;
-           return true;
        }
+   }
 
-       return false;
+   public void AddDemonInTheLastSlot(Demon newDemon)
+   {
+       _sortedActiveUnitsByOrderOfAttack.Add(newDemon);
    }
    
    public void ReplaceFromReserveUnitsList(string newName, Demon replacedDemon)

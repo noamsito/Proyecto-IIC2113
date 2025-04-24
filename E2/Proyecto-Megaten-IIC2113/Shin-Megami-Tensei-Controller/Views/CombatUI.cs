@@ -191,4 +191,19 @@ public static class CombatUI
                     break;
             }
         }
-    }
+
+        public static void DisplayEmptySlot(List<int> validSlotsList, int iterator)
+        {
+            _view.WriteLine($"{validSlotsList.Count + 1}-Vacío (Puesto {iterator + 1})");
+        }
+
+        public static void DisplayDemonInSlot(List<int> validSlotsList, int iterator, Unit unit)
+        {
+            Stat currentStats = unit.GetCurrentStats();
+            Stat baseStats = unit.GetBaseStats();
+
+            _view.WriteLine($"{validSlotsList.Count + 1}-{unit.GetName()} " +
+                            $"HP:{currentStats.GetStatByName("HP")}/{baseStats.GetStatByName("HP")} " +
+                            $"MP:{currentStats.GetStatByName("MP")}/{baseStats.GetStatByName("MP")} (Puesto {iterator + 1})");
+        }
+}       
