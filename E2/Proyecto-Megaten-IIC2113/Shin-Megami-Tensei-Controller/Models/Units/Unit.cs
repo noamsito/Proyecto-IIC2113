@@ -31,12 +31,5 @@ public abstract class Unit
 
     public Affinity GetAffinity() => _affinity;
 
-    // public void ApplyDamageTaken(int damage)
-    // {
-    //     int currentHP = _currentStats.GetStatByName("HP");
-    //     int newHP = Math.Max(0, currentHP - damage);
-    //     _currentStats.SetStatByName("HP", newHP);
-    // }
-
     public bool IsAlive() => _currentStats.GetStatByName("HP") > 0;
 }

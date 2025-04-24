@@ -28,11 +28,6 @@ public static class TurnManager
         return sortedUnits.FirstOrDefault(); 
     }
 
-    public static bool IsOutOfTurns(Player player)
-    {
-        return player.IsPlayerOutOfTurns();
-    }
-
     public static void ApplyAffinityPenalty(AffinityContext affinityCtx, TurnContext turnContext)
     {
         UpdateTurnsBasedOnAffinity(affinityCtx, turnContext);

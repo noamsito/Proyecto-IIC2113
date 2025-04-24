@@ -8,54 +8,114 @@ public static class TargetSelector
 {
     public static string SelectEnemy(AttackTargetContext ctx)
     {
-        var enemies = ctx.Opponent.GetValidActiveUnits();
+        var enemies = GetValidEnemies(ctx.Opponent);
+        DisplayTargetSelectionPrompt(ctx.View, ctx.Attacker.GetName());
+        DisplayTargetOptions(ctx.View, enemies);
+        DisplayCancelOption(ctx.View, enemies.Count);
 
-        ctx.View.WriteLine($"Seleccione un objetivo para {ctx.Attacker.GetName()}");
-
-        for (int i = 0; i < enemies.Count; i++)
-        {
-            Unit unit = enemies[i];
-            string hp = $"HP:{unit.GetCurrentStats().GetStatByName("HP")}/{unit.GetBaseStats().GetStatByName("HP")} MP:{unit.GetCurrentStats().GetStatByName("MP")}/{unit.GetBaseStats().GetStatByName("MP")}";            ctx.View.WriteLine($"{i + 1}-{unit.GetName()} {hp}");
-        }
-
-        ctx.View.WriteLine($"{enemies.Count + 1}-Cancelar");
-        string input = ctx.View.ReadLine();
-        ctx.View.WriteLine(GameConstants.Separator);
+        string input = GetUserInput(ctx.View);
+        DisplaySeparator(ctx.View);
 
         return input;
     }
 
-
     public static Unit ResolveTarget(Player opponent, string input)
     {
-        int index = Convert.ToInt32(input) - 1;
-        return opponent.GetValidActiveUnits()[index];
+        int index = ConvertInputToIndex(input);
+        var validTargets = GetValidEnemies(opponent);
+        return validTargets[index];
     }
 
     public static Unit? SelectSkillTarget(SkillTargetContext ctx, Unit unitAttacking)
     {
-        ctx.View.WriteLine($"Seleccione un objetivo para {unitAttacking.GetName()}");
-        
-        bool isTargetAlly = ctx.Skill.Target == "Ally";
-        List<Unit> possibleTargets = isTargetAlly
-            ? ctx.CurrentPlayer.GetActiveUnits()
-            : ctx.Opponent.GetValidActiveUnits();
+        DisplayTargetSelectionPrompt(ctx.View, unitAttacking.GetName());
 
-        for (int i = 0; i < possibleTargets.Count; i++)
-        {
-            var unit = possibleTargets[i];
-            string hpStatus = $"HP:{unit.GetCurrentStats().GetStatByName("HP")}/{unit.GetBaseStats().GetStatByName("HP")}";
-            ctx.View.WriteLine($"{i + 1}-{unit.GetName()} {hpStatus}");
-        }
+        List<Unit> possibleTargets = GetPossibleTargets(ctx);
+        DisplayTargetOptions(ctx.View, possibleTargets);
+        DisplayCancelOption(ctx.View, possibleTargets.Count);
 
-        ctx.View.WriteLine($"{possibleTargets.Count + 1}-Cancelar");
-        string input = ctx.View.ReadLine();
+        string input = GetUserInput(ctx.View);
 
-        if (input == $"{possibleTargets.Count + 1}")
+        if (IsCancelOption(input, possibleTargets.Count))
             return null;
 
-        int index = Convert.ToInt32(input) - 1;
-        return possibleTargets[index];
+        return GetSelectedTarget(possibleTargets, input);
     }
 
+    private static List<Unit> GetValidEnemies(Player opponent)
+    {
+        return opponent.GetValidActiveUnits();
+    }
+
+    private static void DisplayTargetSelectionPrompt(View view, string attackerName)
+    {
+        view.WriteLine($"Seleccione un objetivo para {attackerName}");
+    }
+
+    private static void DisplayTargetOptions(View view, List<Unit> targets)
+    {
+        for (int i = 0; i < targets.Count; i++)
+        {
+            Unit unit = targets[i];
+            string statusInfo = FormatUnitStatus(unit);
+            view.WriteLine($"{i + 1}-{unit.GetName()} {statusInfo}");
+        }
+    }
+
+    private static string FormatUnitStatus(Unit unit)
+    {
+        int currentHP = unit.GetCurrentStats().GetStatByName("HP");
+        int maxHP = unit.GetBaseStats().GetStatByName("HP");
+        int currentMP = unit.GetCurrentStats().GetStatByName("MP");
+        int maxMP = unit.GetBaseStats().GetStatByName("MP");
+
+        return $"HP:{currentHP}/{maxHP} MP:{currentMP}/{maxMP}";
+    }
+
+    private static string FormatHpStatus(Unit unit)
+    {
+        int currentHP = unit.GetCurrentStats().GetStatByName("HP");
+        int maxHP = unit.GetBaseStats().GetStatByName("HP");
+
+        return $"HP:{currentHP}/{maxHP}";
+    }
+
+    private static void DisplayCancelOption(View view, int optionsCount)
+    {
+        view.WriteLine($"{optionsCount + 1}-Cancelar");
+    }
+
+    private static string GetUserInput(View view)
+    {
+        return view.ReadLine();
+    }
+
+    private static void DisplaySeparator(View view)
+    {
+        view.WriteLine(GameConstants.Separator);
+    }
+
+    private static int ConvertInputToIndex(string input)
+    {
+        return Convert.ToInt32(input) - 1;
+    }
+
+    private static List<Unit> GetPossibleTargets(SkillTargetContext ctx)
+    {
+        bool isTargetAlly = ctx.Skill.Target == "Ally";
+        return isTargetAlly
+            ? ctx.CurrentPlayer.GetActiveUnits()
+            : ctx.Opponent.GetValidActiveUnits();
+    }
+
+    private static bool IsCancelOption(string input, int optionsCount)
+    {
+        return input == $"{optionsCount + 1}";
+    }
+
+    private static Unit GetSelectedTarget(List<Unit> targets, string input)
+    {
+        int index = ConvertInputToIndex(input);
+        return targets[index];
+    }
 }
