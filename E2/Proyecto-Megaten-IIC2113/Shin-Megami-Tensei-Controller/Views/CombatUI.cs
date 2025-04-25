@@ -13,6 +13,16 @@ public static class CombatUI
             _view = view;
         }
 
+        public static string GetUserInput()
+        {
+            return _view.ReadLine();
+        }
+        
+        public static void DisplaySeparator()
+        {
+            _view.WriteLine(GameConstants.Separator);
+        }
+
         public static void DisplayBoardState(Dictionary<string, Player> players)
         {
             int playerNumber = 1;
@@ -65,6 +75,26 @@ public static class CombatUI
             int playerNumber = winner.GetName() == "Player 1" ? 1 : 2;
             _view.WriteLine($"Ganador: {winner.GetTeam().Samurai.GetName()} (J{playerNumber})");
         }
+        
+        public static void DisplayTargetOptions(List<Unit> targets)
+        {
+            for (int i = 0; i < targets.Count; i++)
+            {
+                Unit unit = targets[i];
+                string statusInfo = TargetSelector.FormatUnitStatus(unit);
+                _view.WriteLine($"{i + 1}-{unit.GetName()} {statusInfo}");
+            }
+        }
+        
+        public static void DisplayCancelOption(int optionsCount)
+        {
+            _view.WriteLine($"{optionsCount + 1}-Cancelar");
+        }
+        
+        public static void DisplaySkillSelectionPrompt(string unitName)
+        {
+            _view.WriteLine($"Seleccione una habilidad para que {unitName} use");
+        }
     
         public static void DisplayAttack(string attackerName, string targetName, string attackType)
         {
@@ -82,11 +112,21 @@ public static class CombatUI
             _view.WriteLine($"{attackerName} {action} {targetName}");
         }
     
-        public static void DisplayDamageResult(Unit target, int damage)
+        public static void DisplayFullDamageResult(Unit target, double damage)
         {
-            _view.WriteLine($"{target.GetName()} recibe {damage} de daño");
+            DisplayDamageTaken(target, damage);
+            DisplayFinalHP(target);
+            DisplaySeparator();
+        }
+
+        public static void DisplayDamageTaken(Unit target, double damage)
+        {
+            _view.WriteLine($"{target.GetName()} recibe {Convert.ToInt32(Math.Floor(damage))} de daño");
+        }
+
+        public static void DisplayFinalHP(Unit target)
+        {
             _view.WriteLine($"{target.GetName()} termina con HP:{target.GetCurrentStats().GetStatByName("HP")}/{target.GetBaseStats().GetStatByName("HP")}");
-            _view.WriteLine(GameConstants.Separator);
         }
     
         public static void DisplayHealing(Unit target, int amount)
@@ -96,15 +136,21 @@ public static class CombatUI
             _view.WriteLine(GameConstants.Separator);
         }
     
-        public static void DisplayAffinityMessage(string affinityType, string attackerName, string targetName)
+        public static void DisplayAffinityMessage(AffinityContext affinityCtx)
         {
+            string affinityType = AffinityResolver.GetAffinity(affinityCtx.Target, affinityCtx.AttackType);
+            string targetName = affinityCtx.Target.GetName();
+            string attackerName = affinityCtx.Caster.GetName();
+            int damage = Convert.ToInt32(Math.Floor(affinityCtx.BaseDamage));
+            
             string msg = affinityType switch
             {
                 "Wk" => $"{targetName} es débil contra el ataque de {attackerName}",
-                "Rs" => $"{targetName} es resistente al ataque de {attackerName}",
+                "Rs" => $"{targetName} es resistente el ataque de {attackerName}",
                 "Nu" => $"{targetName} bloquea el ataque de {attackerName}",
-                "Rp" => $"{targetName} devuelve el ataque de {attackerName}",
-                "Dr" => $"{targetName} absorbe el daño de {attackerName}"
+                "Rp" => $"{targetName} devuelve {damage} daño a {attackerName}",
+                "Dr" => $"{targetName} absorbe {damage} daño",
+                "-" => "",
             };
     
             if (!string.IsNullOrEmpty(msg))
@@ -126,6 +172,8 @@ public static class CombatUI
                 "Ice" => "lanza hielo a",
                 "Elec" => "lanza electricidad a",
                 "Force" => "lanza viento a",
+                "Phys" => "ataca a",
+                "Gun" => "dispara a",
                 _ => "usa " + skill.Name + " en"
             };
     
@@ -165,33 +213,6 @@ public static class CombatUI
             _view.WriteLine(GameConstants.Separator);
         }
 
-        public static void DisplayAffinityMessage(AffinityContext affinityCtx)
-        {
-            string affinity = AffinityResolver.GetAffinity(affinityCtx.Target, affinityCtx.AttackType);
-
-            switch (affinity)
-            {
-                case "Wk":
-                    _view.WriteLine($"{affinityCtx.Target.GetName()} es débil contra {affinityCtx.AttackType}");
-                    break;
-                case "Rs":
-                    _view.WriteLine(
-                        $"{affinityCtx.Target.GetName()} es resistente el ataque de {affinityCtx.Caster.GetName()}");
-                    break;
-                case "Nu":
-                    _view.WriteLine($"{affinityCtx.Target.GetName()} bloquea el ataque");
-                    break;
-                case "Dr":
-                    _view.WriteLine(
-                        $"{affinityCtx.Target.GetName()} absorbe el ataque y se cura {affinityCtx.BaseDamage} HP");
-                    break;
-                case "Rp":
-                    _view.WriteLine(
-                        $"{affinityCtx.Target.GetName()} refleja el ataque a {affinityCtx.Caster.GetName()}");
-                    break;
-            }
-        }
-
         public static void DisplayEmptySlot(List<int> validSlotsList, int iterator)
         {
             _view.WriteLine($"{validSlotsList.Count + 1}-Vacío (Puesto {iterator + 1})");
@@ -205,5 +226,26 @@ public static class CombatUI
             _view.WriteLine($"{validSlotsList.Count + 1}-{unit.GetName()} " +
                             $"HP:{currentStats.GetStatByName("HP")}/{baseStats.GetStatByName("HP")} " +
                             $"MP:{currentStats.GetStatByName("MP")}/{baseStats.GetStatByName("MP")} (Puesto {iterator + 1})");
+        }
+
+        public static void ManageDisplayAffinity(string affinityType, AffinityContext affinityCtx, double finalDamage)
+        {
+            Unit target = affinityCtx.Target;
+            Unit caster = affinityCtx.Caster;
+                
+            if (affinityType == "Rp")
+            {
+                DisplayFinalHP(caster);
+                DisplaySeparator();
+            }
+            else if (affinityType == "Nu" || affinityType == "Dr")
+            {
+                DisplayFinalHP(target);
+                DisplaySeparator();
+            }
+            else
+            {
+                DisplayFullDamageResult(target, finalDamage);
+            }
         }
 }       

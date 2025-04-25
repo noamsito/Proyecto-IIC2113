@@ -1,4 +1,5 @@
-﻿using Shin_Megami_Tensei_View;
+﻿using System.Text.RegularExpressions;
+using Shin_Megami_Tensei_View;
 using Shin_Megami_Tensei.Combat;
 using Shin_Megami_Tensei.Gadgets;
 
@@ -26,53 +27,37 @@ public static class SkillManager
         
         view.WriteLine(GameConstants.Separator);
 
-        if (selected < 0 || selected >= skills.Count || skills[selected].Cost > unit.GetCurrentStats().GetStatByName("MP"))
+        Stat currentStatUnit = unit.GetCurrentStats();
+        if (selected < 0 || selected >= skills.Count || skills[selected].Cost > currentStatUnit.GetStatByName("MP"))
             return null;
 
         return skills[selected];
     }
-
-    public static void ApplySkillEffect(SkillUseContext ctx)
-    {
-        ctx.View.WriteLine($"{ctx.Caster.GetName()} usa {ctx.Skill.Name} en {ctx.Target.GetName()}");
-
-        switch (ctx.Skill.Type)
-        {
-            case "Phys":
-            case "Gun":
-            case "Fire":
-            case "Ice":
-            case "Elec":
-            case "Force":
-                HandleOffensiveSkill(ctx);
-                // TurnManager.ApplyAffinityPenalty(ctx.Attacker, ctx.Target, ctx.Skill.Type);
-                break;
-
-            case "Heal":
-                
-                break;
-
-            case "Special":
-                // implementar Invitation o Sabbatma aquí
-                break;
-        }
-
-        ConsumeMP(ctx.Caster, ctx.Skill.Cost);
-    }
-
-    private static void HandleOffensiveSkill(SkillUseContext ctx)
-    {
-        int damage = (int)Math.Floor(ctx.Skill.Power * GameConstants.ConstantOfDamage);
-        UnitActionManager.ApplyDamageTaken(ctx.Target, damage);
-
-        ctx.View.WriteLine($"{ctx.Target.GetName()} recibe {damage} de daño");
-        ctx.View.WriteLine($"{ctx.Target.GetName()} termina con HP: {ctx.Target.GetCurrentStats().GetStatByName("HP")}/{ctx.Target.GetBaseStats().GetStatByName("HP")}");
-    }
     
-
-    private static void ConsumeMP(Unit caster, int cost)
+    public static void ConsumeMP(Unit caster, int cost)
     {
         int current = caster.GetCurrentStats().GetStatByName("MP");
         caster.GetCurrentStats().SetStatByName("MP", Math.Max(0, current - cost));
     }
+
+    public static int CalculateNumberHits(string hitsString, Player attackerPlayer)
+    {
+        var match = Regex.Match(hitsString, @"\[(\d+)-(\d+)\]");
+
+        int hits = 0;
+        
+        if (match.Success)
+        {
+            int A = int.Parse(match.Groups[1].Value);
+            int B = int.Parse(match.Groups[2].Value);
+
+            int k = attackerPlayer.GetConstantKPlayer();
+            int offset = k % (B - A + 1);
+
+            hits = offset + A;
+        }
+
+        return hits;
+    }
+    
 }

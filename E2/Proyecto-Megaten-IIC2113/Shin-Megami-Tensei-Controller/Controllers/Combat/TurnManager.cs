@@ -27,24 +27,8 @@ public static class TurnManager
         var sortedUnits = player.GetSortedActiveUnitsByOrderOfAttack();
         return sortedUnits.FirstOrDefault(); 
     }
-
-    public static void ApplyAffinityPenalty(AffinityContext affinityCtx, TurnContext turnContext)
-    {
-        UpdateTurnsBasedOnAffinity(affinityCtx, turnContext);
-    }
     
-    public static void UpdateTurnsBasedOnAffinity(AffinityContext affinityCtx, TurnContext turnContext)
-    {
-        string nameTarget = affinityCtx.Target.GetName();
-        string typeAttack = affinityCtx.AttackType;
-       
-        // string targetAffinity = FileHelper.FindTargetInFileForStats(typeAttack, nameTarget);
-        // ConsumeTurnsBasedOnAffinity(targetAffinity);
-       
-        ConsumeTurnsBasedOnAffinity(affinityCtx, turnContext);
-    }
-
-    public static void UpdateTurnStates(TurnContext ctx)
+    public static void UpdateTurnStatesForDisplay(TurnContext ctx)
     {
         int fullNow = ctx.Attacker.GetFullTurns();
         int blinkNow = ctx.Attacker.GetBlinkingTurns();
@@ -57,8 +41,6 @@ public static class TurnManager
 
         ctx.Defender?.RemoveFromActiveUnitsIfDead();
     }
-
-
 
     public static void ConsumeTurnsWhenPassedTurn(TurnContext ctx)
     {
@@ -76,13 +58,14 @@ public static class TurnManager
     public static void ManageTurnsWhenPassedTurn(TurnContext ctx)
     {
         ConsumeTurnsWhenPassedTurn(ctx);
-        UpdateTurnStates(ctx);
+        UpdateTurnStatesForDisplay(ctx);
         ctx.Attacker.ReorderUnitsWhenAttacked();
     }
     
-    public static void ConsumeAllTurns()
+    public static void ConsumeAllTurns(Player player)
     {
-        
+        player.ConsumeFullTurn(player.GetFullTurns());
+        player.ConsumeBlinkingTurn(player.GetBlinkingTurns());
     }
 
     public static void ConsumeTurnsBasedOnAffinity(AffinityContext ctx, TurnContext turnCtx)
@@ -93,8 +76,11 @@ public static class TurnManager
         switch (affinity)
         {
             case "Rp":
+                ConsumeAllTurns(attackingPlayer);
+                break;
+            
             case "Dr":
-                ConsumeAllTurns();
+                ConsumeAllTurns(attackingPlayer);
                 break;
 
             case "Nu":
@@ -118,10 +104,18 @@ public static class TurnManager
                 break;
 
             case "Wk":
-                attackingPlayer.ConsumeFullTurn(1);
-                attackingPlayer.GainBlinkingTurn(1);
+                if (attackingPlayer.GetFullTurns() > 0)
+                {
+                    attackingPlayer.ConsumeFullTurn(1);
+                    attackingPlayer.GainBlinkingTurn(1);
+                }
+                else
+                {
+                    attackingPlayer.ConsumeBlinkingTurn(1);
+                }
+                
                 break;
-
+            
             case "Rs":
             case "-":
                 if (attackingPlayer.GetBlinkingTurns() > 0)

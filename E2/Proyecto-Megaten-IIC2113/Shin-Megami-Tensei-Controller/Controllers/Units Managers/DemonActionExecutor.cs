@@ -14,8 +14,8 @@ public static class DemonActionExecutor
                 return PerformAttack("Phys", ctx, turnCtx);
 
             case "2":
-                ctx.View.WriteLine($"Seleccione una habilidad para que {ctx.Demon.GetName()} use");
-                return UseSkill(ctx, turnCtx);
+                CombatUI.DisplaySkillSelectionPrompt(ctx.Demon.GetName());
+                return ManageUseSkill(ctx, turnCtx);
 
             case "3":
                 SummonManager.MonsterSwap(ctx.CurrentPlayer, ctx.Demon, ctx.View);
@@ -39,8 +39,7 @@ public static class DemonActionExecutor
 
         DisplayAttackInformation(demonCtx.Demon, target, attackType);
 
-        var affinityCtx = ApplyAttackAndGetAffinityContext(demonCtx.Demon, target, attackType, turnCtx);
-
+        var affinityCtx = ApplyAttackAndGetAffinityContext(demonCtx.Demon, target, attackType);
         UpdateGameStateAfterAttack(affinityCtx, turnCtx);
 
         return true;
@@ -64,21 +63,17 @@ public static class DemonActionExecutor
         CombatUI.DisplayAttack(attacker.GetName(), target.GetName(), attackType);
     }
 
-    private static AffinityContext ApplyAttackAndGetAffinityContext(Unit attacker, Unit target, string attackType,
-        TurnContext turnCtx)
+    private static AffinityContext ApplyAttackAndGetAffinityContext(Unit attacker, Unit target, string attackType)
     {
-        int baseDamage = CalculateBaseDamage(attacker, target, attackType);
+        double baseDamage = CalculateBaseDamage(attacker, target, attackType);
 
         var affinityCtx = new AffinityContext(attacker, target, attackType, baseDamage);
-        int finalDamage = AffinityEffectManager.ApplyAffinityEffect(affinityCtx, turnCtx);
-
-        UnitActionManager.ApplyDamageTaken(target, finalDamage);
-        CombatUI.DisplayDamageResult(target, finalDamage);
+        AffinityEffectManager.ApplyEffectForBasicAttack(affinityCtx);
 
         return affinityCtx;
     }
 
-    private static int CalculateBaseDamage(Unit attacker, Unit target, string attackType)
+    private static double CalculateBaseDamage(Unit attacker, Unit target, string attackType)
     {
         return attackType == "Phys"
             ? AttackExecutor.ExecutePhysicalAttack(attacker, target, GameConstants.ModifierPhysDamage)
@@ -87,29 +82,23 @@ public static class DemonActionExecutor
 
     private static void UpdateGameStateAfterAttack(AffinityContext affinityCtx, TurnContext turnCtx)
     {
-        TurnManager.ApplyAffinityPenalty(affinityCtx, turnCtx);
-        TurnManager.UpdateTurnStates(turnCtx);
+        TurnManager.ConsumeTurnsBasedOnAffinity(affinityCtx, turnCtx);
+        TurnManager.UpdateTurnStatesForDisplay(turnCtx);
         turnCtx.Attacker.ReorderUnitsWhenAttacked();
     }
 
-    private static bool UseSkill(DemonActionContext demonCtx, TurnContext turnCtx)
+    private static bool ManageUseSkill(DemonActionContext demonCtx, TurnContext turnCtx)
     {
-        Skill? skill = SelectSkill(demonCtx);
+        Skill? skill = SkillManager.SelectSkill(demonCtx.View, demonCtx.Demon);
         if (skill == null) return false;
 
         Unit? target = SelectSkillTarget(skill, demonCtx);
         if (target == null) return false;
 
-        DisplaySkillUsage(demonCtx.Demon, skill, target);
-
-        ApplySkillEffectAndUpdateState(demonCtx.Demon, target, skill, turnCtx);
-
+        ApplySkillEffect(demonCtx.Demon, target, skill, turnCtx);
+        UpdateGameStateAfterSkill(turnCtx);
+        
         return true;
-    }
-
-    private static Skill? SelectSkill(DemonActionContext demonCtx)
-    {
-        return SkillManager.SelectSkill(demonCtx.View, demonCtx.Demon);
     }
 
     private static Unit? SelectSkillTarget(Skill skill, DemonActionContext demonCtx)
@@ -123,22 +112,17 @@ public static class DemonActionExecutor
 
         return TargetSelector.SelectSkillTarget(targetCtx, demonCtx.Demon);
     }
-
-    private static void DisplaySkillUsage(Unit caster, Skill skill, Unit target)
+    
+    private static void ApplySkillEffect(Unit caster, Unit target, Skill skill, TurnContext turnCtx)
     {
-        CombatUI.DisplaySkillUsage(caster, skill, target);
+        var skillCtx = new SkillUseContext(caster, target, skill, turnCtx.Attacker, turnCtx.Defender!);
+        AffinityEffectManager.ApplyEffectForSkill(skillCtx, turnCtx);
+
     }
-
-    private static void ApplySkillEffectAndUpdateState(Unit caster, Unit target, Skill skill, TurnContext turnCtx)
+    
+    private static void UpdateGameStateAfterSkill(TurnContext turnCtx)
     {
-        int baseDamage = skill.Power;
-        var affinityCtx = new AffinityContext(caster, target, skill.Type, baseDamage);
-        int finalDamage = AffinityEffectManager.ApplyAffinityEffect(affinityCtx, turnCtx);
-
-        UnitActionManager.ApplyDamageTaken(target, finalDamage);
-        CombatUI.DisplayDamageResult(target, finalDamage);
-
-        TurnManager.UpdateTurnStates(turnCtx);
+        TurnManager.UpdateTurnStatesForDisplay(turnCtx);
         turnCtx.Attacker.ReorderUnitsWhenAttacked();
     }
 }

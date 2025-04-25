@@ -10,15 +10,13 @@ public class SkillUseContext
     public Skill Skill { get; }
     public Player Attacker { get; }
     public Player Defender { get; }
-    public View View { get; }
 
-    public SkillUseContext(Unit caster, Unit target, Skill skill, Player attacker, Player defender, View view)
+    public SkillUseContext(Unit caster, Unit target, Skill skill, Player attacker, Player defender)
     {
         Caster = caster;
         Target = target;
         Skill = skill;
         Attacker = attacker;
         Defender = defender;
-        View = view;
     }
 }

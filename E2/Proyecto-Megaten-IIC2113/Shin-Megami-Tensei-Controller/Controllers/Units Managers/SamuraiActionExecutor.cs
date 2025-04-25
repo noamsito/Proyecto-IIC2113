@@ -8,37 +8,37 @@ namespace Shin_Megami_Tensei.Controllers;
 
 public static class SamuraiActionExecutor
 {
-    public static bool Execute(string input, SamuraiActionContext ctx, TurnContext turnCtx)
+    public static bool Execute(string input, SamuraiActionContext samuraiCtx, TurnContext turnCtx)
     {
-        int playerNumber = GetPlayerNumber(ctx);
-        Team currentTeam = ctx.CurrentPlayer.GetTeam();
+        int playerNumber = GetPlayerNumber(samuraiCtx);
+        Team currentTeam = samuraiCtx.CurrentPlayer.GetTeam();
         Samurai currentSamurai = currentTeam.Samurai;
 
         switch (input)
         {
             case "1":
-                return PerformAttack("Phys", ctx, turnCtx);
+                return PerformAttack("Phys", samuraiCtx, turnCtx);
 
             case "2":
-                return PerformAttack("Gun", ctx, turnCtx);
+                return PerformAttack("Gun", samuraiCtx, turnCtx);
 
             case "3":
-                DisplaySkillSelectionPrompt(ctx);
-                return ManageUseSkill(ctx, turnCtx);
+                turnCtx.Attacker.IncreaseConstantKPlayer();
+                CombatUI.DisplaySkillSelectionPrompt(samuraiCtx.Samurai.GetName());
+                return ManageUseSkill(samuraiCtx, turnCtx);
 
             case "4":
-                return HandleSummon(ctx, turnCtx);
+                return HandleSummon(samuraiCtx, turnCtx);
 
             case "5":
                 TurnManager.ManageTurnsWhenPassedTurn(turnCtx);
                 return true;
 
             case "6":
-                HandleSurrender(ctx, playerNumber, currentSamurai);
+                HandleSurrender(samuraiCtx, playerNumber, currentSamurai);
                 return true;
 
             default:
-                DisplayInvalidActionMessage(ctx);
                 return false;
         }
     }
@@ -47,12 +47,7 @@ public static class SamuraiActionExecutor
     {
         return ctx.CurrentPlayer.GetName() == "Player 1" ? 1 : 2;
     }
-
-    private static void DisplaySkillSelectionPrompt(SamuraiActionContext ctx)
-    {
-        ctx.View.WriteLine($"Seleccione una habilidad para que {ctx.Samurai.GetName()} use");
-    }
-
+    
     private static bool HandleSummon(SamuraiActionContext ctx, TurnContext turnCtx)
     {
         bool hasBeenSummoned = SummonManager.SummonFromReserveBySamurai(ctx.CurrentPlayer, ctx.View);
@@ -73,20 +68,16 @@ public static class SamuraiActionExecutor
         ctx.View.WriteLine(GameConstants.Separator);
     }
 
-    private static void DisplayInvalidActionMessage(SamuraiActionContext ctx)
-    {
-        ctx.View.WriteLine("Acción inválida.");
-    }
 
     private static bool PerformAttack(string attackType, SamuraiActionContext samuraiCtx, TurnContext turnCtx)
     {
         Unit? target = SelectAttackTarget(samuraiCtx);
         if (target == null) return false;
 
-        DisplayAttackInformation(samuraiCtx.Samurai, target, attackType);
+        CombatUI.DisplayAttack(samuraiCtx.Samurai.GetName(), target.GetName(), attackType);
 
-        var affinityCtx = ApplyAttackAndGetAffinityContext(samuraiCtx.Samurai, target, attackType, turnCtx);
-
+        var affinityCtx = ApplyAttackAndGetAffinityContext(samuraiCtx.Samurai, target, attackType);
+        AffinityEffectManager.ApplyEffectForBasicAttack(affinityCtx);
         UpdateGameStateAfterAttack(affinityCtx, turnCtx);
 
         return true;
@@ -105,60 +96,47 @@ public static class SamuraiActionExecutor
         return TargetSelector.ResolveTarget(samuraiCtx.Opponent, targetInput);
     }
 
-    private static void DisplayAttackInformation(Unit attacker, Unit target, string attackType)
+    private static AffinityContext ApplyAttackAndGetAffinityContext(Unit attacker, Unit target, string attackType)
     {
-        CombatUI.DisplayAttack(attacker.GetName(), target.GetName(), attackType);
-    }
-
-    private static AffinityContext ApplyAttackAndGetAffinityContext(Unit attacker, Unit target, string attackType,
-        TurnContext turnCtx)
-    {
-        int baseDamage = CalculateBaseDamage(attacker, target, attackType);
+        double baseDamage = CalculateBaseDamage(attacker, target, attackType);
 
         var affinityCtx = new AffinityContext(attacker, target, attackType, baseDamage);
-        int finalDamage = AffinityEffectManager.ApplyAffinityEffect(affinityCtx, turnCtx);
-
-        ApplyDamageAndDisplayResult(target, finalDamage);
-
+        
         return affinityCtx;
     }
 
-    private static int CalculateBaseDamage(Unit attacker, Unit target, string attackType)
+    private static double CalculateBaseDamage(Unit attacker, Unit target, string attackType)
     {
         return attackType == "Phys"
             ? AttackExecutor.ExecutePhysicalAttack(attacker, target, GameConstants.ModifierPhysDamage)
             : AttackExecutor.ExecuteGunAttack(attacker, target, GameConstants.ModifierGunDamage);
     }
 
-    private static void ApplyDamageAndDisplayResult(Unit target, int damage)
-    {
-        UnitActionManager.ApplyDamageTaken(target, damage);
-        CombatUI.DisplayDamageResult(target, damage);
-    }
-
     private static void UpdateGameStateAfterAttack(AffinityContext affinityCtx, TurnContext turnCtx)
     {
         TurnManager.ConsumeTurnsBasedOnAffinity(affinityCtx, turnCtx);
-        TurnManager.UpdateTurnStates(turnCtx);
+        TurnManager.UpdateTurnStatesForDisplay(turnCtx);
         turnCtx.Attacker.ReorderUnitsWhenAttacked();
     }
 
     private static bool ManageUseSkill(SamuraiActionContext samuraiCtx, TurnContext turnCtx)
     {
-        Skill? skill = SelectSkill(samuraiCtx);
+        Skill? skill = SkillManager.SelectSkill(samuraiCtx.View, samuraiCtx.Samurai);
         if (skill == null) return false;
 
         Unit? target = SelectSkillTarget(skill, samuraiCtx, turnCtx);
         if (target == null) return false;
 
-        ApplySkillEffectAndUpdateState(samuraiCtx.Samurai, target, skill, turnCtx);
-
+        int numberHits = SkillManager.CalculateNumberHits(skill.Hits, turnCtx.Attacker);
+      
+        for (int i = 0; i < numberHits; i++)
+        {
+            ApplySkillEffects(samuraiCtx.Samurai, target, skill, turnCtx);
+        } 
+        
+        UpdateGameStateAfterSkill(turnCtx);
+        
         return true;
-    }
-
-    private static Skill? SelectSkill(SamuraiActionContext samuraiCtx)
-    {
-        return SkillManager.SelectSkill(samuraiCtx.View, samuraiCtx.Samurai);
     }
 
     private static Unit? SelectSkillTarget(Skill skill, SamuraiActionContext samuraiCtx, TurnContext turnCtx)
@@ -176,26 +154,15 @@ public static class SamuraiActionExecutor
         return TargetSelector.SelectSkillTarget(targetCtx, unitAttacking);
     }
 
-    private static void ApplySkillEffectAndUpdateState(Unit caster, Unit target, Skill skill, TurnContext turnCtx)
+    private static void ApplySkillEffects(Unit caster, Unit target, Skill skill, TurnContext turnCtx)
     {
-        int baseDamage = skill.Power;
-        var affinityCtx = new AffinityContext(caster, target, skill.Type, baseDamage);
-
-        int finalDamage = CalculateSkillDamage(affinityCtx, turnCtx);
-
-        ApplyDamageAndDisplayResult(target, finalDamage);
-
-        UpdateGameStateAfterSkill(turnCtx);
-    }
-
-    private static int CalculateSkillDamage(AffinityContext affinityCtx, TurnContext turnCtx)
-    {
-        return AffinityEffectManager.ApplyAffinityEffect(affinityCtx, turnCtx);
+        var skillCtx = new SkillUseContext(caster, target, skill, turnCtx.Attacker, turnCtx.Defender);
+        AffinityEffectManager.ApplyEffectForSkill(skillCtx, turnCtx);
     }
 
     private static void UpdateGameStateAfterSkill(TurnContext turnCtx)
     {
-        TurnManager.UpdateTurnStates(turnCtx);
+        TurnManager.UpdateTurnStatesForDisplay(turnCtx);
         turnCtx.Attacker.ReorderUnitsWhenAttacked();
     }
 }

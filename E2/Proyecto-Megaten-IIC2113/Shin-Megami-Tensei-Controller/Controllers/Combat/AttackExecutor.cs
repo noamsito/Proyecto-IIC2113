@@ -2,21 +2,19 @@
 
 public static class AttackExecutor
 {
-    public static int ExecutePhysicalAttack(Unit attacker, Unit target, double modifier)
+    public static double ExecutePhysicalAttack(Unit attacker, Unit target, double modifier)
     {
         int str = attacker.GetBaseStats().GetStatByName("Str");
         double rawDamage = str * modifier * GameConstants.ConstantOfDamage;
-        int damage = (int)Math.Floor(rawDamage);
 
-        return damage;
+        return rawDamage;
     }
 
-    public static int ExecuteGunAttack(Unit attacker, Unit target, double modifier)
+    public static double ExecuteGunAttack(Unit attacker, Unit target, double modifier)
     {
         int skl = attacker.GetBaseStats().GetStatByName("Skl");
         double rawDamage = skl * modifier * GameConstants.ConstantOfDamage;
-        int damage = (int)Math.Floor(rawDamage);
 
-        return damage;
+        return rawDamage;
     }
 }

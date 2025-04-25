@@ -10,11 +10,11 @@ public static class TargetSelector
     {
         var enemies = GetValidEnemies(ctx.Opponent);
         DisplayTargetSelectionPrompt(ctx.View, ctx.Attacker.GetName());
-        DisplayTargetOptions(ctx.View, enemies);
-        DisplayCancelOption(ctx.View, enemies.Count);
+        CombatUI.DisplayTargetOptions(enemies);
+        CombatUI.DisplayCancelOption(enemies.Count);
 
-        string input = GetUserInput(ctx.View);
-        DisplaySeparator(ctx.View);
+        string input = CombatUI.GetUserInput();
+        CombatUI.DisplaySeparator();
 
         return input;
     }
@@ -26,18 +26,20 @@ public static class TargetSelector
         return validTargets[index];
     }
 
-    public static Unit? SelectSkillTarget(SkillTargetContext ctx, Unit unitAttacking)
+    public static Unit? SelectSkillTarget(SkillTargetContext skillCtx, Unit unitAttacking)
     {
-        DisplayTargetSelectionPrompt(ctx.View, unitAttacking.GetName());
+        DisplayTargetSelectionPrompt(skillCtx.View, unitAttacking.GetName());
 
-        List<Unit> possibleTargets = GetPossibleTargets(ctx);
-        DisplayTargetOptions(ctx.View, possibleTargets);
-        DisplayCancelOption(ctx.View, possibleTargets.Count);
+        List<Unit> possibleTargets = GetPossibleTargets(skillCtx);
+        CombatUI.DisplayTargetOptions(possibleTargets);
+        CombatUI.DisplayCancelOption(possibleTargets.Count);
 
-        string input = GetUserInput(ctx.View);
+        string input = GetUserInput(skillCtx.View);
 
         if (IsCancelOption(input, possibleTargets.Count))
             return null;
+        
+        skillCtx.View.WriteLine(GameConstants.Separator);
 
         return GetSelectedTarget(possibleTargets, input);
     }
@@ -52,17 +54,7 @@ public static class TargetSelector
         view.WriteLine($"Seleccione un objetivo para {attackerName}");
     }
 
-    private static void DisplayTargetOptions(View view, List<Unit> targets)
-    {
-        for (int i = 0; i < targets.Count; i++)
-        {
-            Unit unit = targets[i];
-            string statusInfo = FormatUnitStatus(unit);
-            view.WriteLine($"{i + 1}-{unit.GetName()} {statusInfo}");
-        }
-    }
-
-    private static string FormatUnitStatus(Unit unit)
+    public static string FormatUnitStatus(Unit unit)
     {
         int currentHP = unit.GetCurrentStats().GetStatByName("HP");
         int maxHP = unit.GetBaseStats().GetStatByName("HP");
@@ -72,27 +64,14 @@ public static class TargetSelector
         return $"HP:{currentHP}/{maxHP} MP:{currentMP}/{maxMP}";
     }
 
-    private static string FormatHpStatus(Unit unit)
-    {
-        int currentHP = unit.GetCurrentStats().GetStatByName("HP");
-        int maxHP = unit.GetBaseStats().GetStatByName("HP");
-
-        return $"HP:{currentHP}/{maxHP}";
-    }
-
-    private static void DisplayCancelOption(View view, int optionsCount)
-    {
-        view.WriteLine($"{optionsCount + 1}-Cancelar");
-    }
+    // private static void DisplayCancelOption(int optionsCount)
+    // {
+    //     _view.WriteLine($"{optionsCount + 1}-Cancelar");
+    // }
 
     private static string GetUserInput(View view)
     {
         return view.ReadLine();
-    }
-
-    private static void DisplaySeparator(View view)
-    {
-        view.WriteLine(GameConstants.Separator);
     }
 
     private static int ConvertInputToIndex(string input)

@@ -7,9 +7,9 @@ public class AffinityContext
     public Unit Caster { get; }
     public Unit Target { get; }
     public string AttackType { get; }
-    public int BaseDamage { get; }
+    public double BaseDamage { get; }
 
-    public AffinityContext(Unit caster, Unit target, string attackType, int baseDamage)
+    public AffinityContext(Unit caster, Unit target, string attackType, double baseDamage)
     {
         Caster = caster;
         Target = target;

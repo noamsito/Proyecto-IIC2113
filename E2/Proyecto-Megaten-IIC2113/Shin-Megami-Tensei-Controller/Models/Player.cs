@@ -16,15 +16,19 @@ public class Player
     private int _fullTurns;
     private int _blinkingTurns;
     private bool _ableToContinue;
+    private int _constOfHits = 0;
     
     private bool _hasSurrendered = false;
         
     private List<Unit> _activeUnits;
     private List<Unit> _reservedUnits;
     private List<Unit> _sortedActiveUnitsByOrderOfAttack;
+    
 
     public Player(string name)
     {
+        // PlayerData data = new PlayerData(string name);
+        
         this._name = name;
         this._activeUnits = new List<Unit> { null, null, null, null };
         this._sortedActiveUnitsByOrderOfAttack = new List<Unit> { null, null, null, null };
@@ -295,5 +299,15 @@ public class Player
    public void GainBlinkingTurn(int amount)
    {
        _blinkingTurns += amount;
+   }
+   
+   public int GetConstantKPlayer( )
+   {
+       return _constOfHits;
+   }
+   
+   public void IncreaseConstantKPlayer()
+   { 
+       _constOfHits++;
    }
 }

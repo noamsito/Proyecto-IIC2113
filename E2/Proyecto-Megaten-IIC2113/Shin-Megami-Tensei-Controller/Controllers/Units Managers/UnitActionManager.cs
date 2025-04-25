@@ -14,17 +14,24 @@ public static class UnitActionManager
             DemonActionHandler.Handle((Demon)unit, combatCtx);
     }
     
-    public static void ApplyDamageTaken(Unit unitHurt, int damage)
+    public static void ApplyDamageTaken(Unit unitHurt, double damage)
     {
-        Stat currentStats= unitHurt.GetCurrentStats();
+        Stat currentStats = unitHurt.GetCurrentStats();
         
         int currentHP = currentStats.GetStatByName("HP");
-        int newHP = Math.Max(0, currentHP - damage);
+        int newHP = Math.Max(0, currentHP - Convert.ToInt32(Math.Floor(damage)));
         currentStats.SetStatByName("HP", newHP);
     }
 
-    public static void Heal(int amount)
+    public static void Heal(Unit target, double amount)
     {
+        Stat currentStats = target.GetCurrentStats();
+        Stat baseStats = target.GetBaseStats();
         
+        int currentHP = currentStats.GetStatByName("HP");
+        int baseHP = baseStats.GetStatByName("HP");
+        
+        int newHP = Math.Min(baseHP, currentHP + Convert.ToInt32(Math.Floor(amount)));
+        currentStats.SetStatByName("HP", newHP);
     }
 }

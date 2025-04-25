@@ -9,7 +9,7 @@ public static class SummonManager
     public static void ManageTurnsWhenSummoned(TurnContext turnCtx)
     {
         TurnManager.ConsumeTurnsWhenPassedTurn(turnCtx);
-        TurnManager.UpdateTurnStates(turnCtx);
+        TurnManager.UpdateTurnStatesForDisplay(turnCtx);
     }
 
     public static bool SummonFromReserveBySamurai(Player player, View view)
