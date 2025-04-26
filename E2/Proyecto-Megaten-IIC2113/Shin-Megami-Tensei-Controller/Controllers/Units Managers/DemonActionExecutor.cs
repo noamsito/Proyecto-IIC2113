@@ -5,20 +5,22 @@ using Shin_Megami_Tensei.Managers;
 
 public static class DemonActionExecutor
 {
-    public static bool Execute(string input, DemonActionContext ctx)
+    public static bool Execute(string input, DemonActionContext demonCtx)
     {
-        var turnCtx = new TurnContext(ctx.CurrentPlayer, ctx.Opponent, ctx.FullStart, ctx.BlinkStart);
+        var turnCtx = new TurnContext(demonCtx.CurrentPlayer, demonCtx.Opponent, demonCtx.FullStart, demonCtx.BlinkStart);
         switch (input)
         {
             case "1":
-                return PerformAttack("Phys", ctx, turnCtx);
+                return PerformAttack("Phys", demonCtx, turnCtx);
 
             case "2":
-                CombatUI.DisplaySkillSelectionPrompt(ctx.Demon.GetName());
-                return ManageUseSkill(ctx, turnCtx);
+                CombatUI.DisplaySkillSelectionPrompt(demonCtx.Demon.GetName());
+                bool usedSkill = ManageUseSkill(demonCtx, turnCtx);
+                demonCtx.CurrentPlayer.IncreaseConstantKPlayer();
+                return usedSkill;
 
             case "3":
-                SummonManager.MonsterSwap(ctx.CurrentPlayer, ctx.Demon, ctx.View);
+                SummonManager.MonsterSwap(demonCtx.CurrentPlayer, demonCtx.Demon, demonCtx.View);
                 SummonManager.ManageTurnsWhenSummoned(turnCtx);
                 return true;
 
@@ -27,7 +29,7 @@ public static class DemonActionExecutor
                 return true;
 
             default:
-                ctx.View.WriteLine("Acción inválida.");
+                demonCtx.View.WriteLine("Acción inválida.");
                 return false;
         }
     }
@@ -94,8 +96,11 @@ public static class DemonActionExecutor
 
         Unit? target = SelectSkillTarget(skill, demonCtx);
         if (target == null) return false;
+        
+        int numberHits = SkillManager.CalculateNumberHits(skill.Hits, turnCtx.Attacker);
+        var skillCtx = new SkillUseContext(demonCtx.Demon, target, skill, turnCtx.Attacker, turnCtx.Defender);
 
-        ApplySkillEffect(demonCtx.Demon, target, skill, turnCtx);
+        AffinityEffectManager.ApplyEffectForSkill(skillCtx, turnCtx, numberHits);
         UpdateGameStateAfterSkill(turnCtx);
         
         return true;
@@ -111,13 +116,6 @@ public static class DemonActionExecutor
         );
 
         return TargetSelector.SelectSkillTarget(targetCtx, demonCtx.Demon);
-    }
-    
-    private static void ApplySkillEffect(Unit caster, Unit target, Skill skill, TurnContext turnCtx)
-    {
-        var skillCtx = new SkillUseContext(caster, target, skill, turnCtx.Attacker, turnCtx.Defender!);
-        AffinityEffectManager.ApplyEffectForSkill(skillCtx, turnCtx);
-
     }
     
     private static void UpdateGameStateAfterSkill(TurnContext turnCtx)

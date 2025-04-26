@@ -248,4 +248,36 @@ public static class CombatUI
                 DisplayFullDamageResult(target, finalDamage);
             }
         }
+        
+        public static void DisplayCombatUI(SkillUseContext skillCtx, AffinityContext affinityCtx, int numHits)
+        {
+            string affinityType = AffinityResolver.GetAffinity(affinityCtx.Target, affinityCtx.AttackType);
+            double finalDamage = AffinityEffectManager.GetDamageBasedOnAffinity(affinityCtx);
+
+            if (numHits == 1)
+            {
+                DisplaySkillUsage(skillCtx.Caster, skillCtx.Skill, skillCtx.Target);
+                DisplayAffinityMessage(affinityCtx);
+                ManageDisplayAffinity(affinityType, affinityCtx, finalDamage);
+            }
+            else
+            {
+                for (int i = 0; i < numHits; i++)
+                {
+                    DisplaySkillUsage(skillCtx.Caster, skillCtx.Skill, skillCtx.Target);
+                    DisplayAffinityMessage(affinityCtx);
+                    if (finalDamage > 0) DisplayDamageTaken(affinityCtx.Target, finalDamage);
+                }
+
+                if (finalDamage > 0)
+                {
+                    DisplayFinalHP(affinityCtx.Target);
+                }
+                else
+                {
+                    DisplayFinalHP(affinityCtx.Caster);
+                }
+                DisplaySeparator();
+            }
+        }
 }       

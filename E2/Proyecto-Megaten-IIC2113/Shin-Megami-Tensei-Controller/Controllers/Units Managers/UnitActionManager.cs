@@ -30,8 +30,10 @@ public static class UnitActionManager
         
         int currentHP = currentStats.GetStatByName("HP");
         int baseHP = baseStats.GetStatByName("HP");
+
+        int healHP = Math.Max(0, currentHP + Convert.ToInt32(Math.Floor(amount)));
         
-        int newHP = Math.Min(baseHP, currentHP + Convert.ToInt32(Math.Floor(amount)));
+        int newHP = Math.Min(baseHP, healHP);
         currentStats.SetStatByName("HP", newHP);
     }
 }

@@ -23,9 +23,11 @@ public static class SamuraiActionExecutor
                 return PerformAttack("Gun", samuraiCtx, turnCtx);
 
             case "3":
-                turnCtx.Attacker.IncreaseConstantKPlayer();
                 CombatUI.DisplaySkillSelectionPrompt(samuraiCtx.Samurai.GetName());
-                return ManageUseSkill(samuraiCtx, turnCtx);
+                bool usedSkill = ManageUseSkill(samuraiCtx, turnCtx);
+                turnCtx.Attacker.IncreaseConstantKPlayer();
+                
+                return usedSkill;
 
             case "4":
                 return HandleSummon(samuraiCtx, turnCtx);
@@ -128,12 +130,9 @@ public static class SamuraiActionExecutor
         if (target == null) return false;
 
         int numberHits = SkillManager.CalculateNumberHits(skill.Hits, turnCtx.Attacker);
-      
-        for (int i = 0; i < numberHits; i++)
-        {
-            ApplySkillEffects(samuraiCtx.Samurai, target, skill, turnCtx);
-        } 
-        
+        var skillCtx = new SkillUseContext(samuraiCtx.Samurai, target, skill, turnCtx.Attacker, turnCtx.Defender);
+
+        AffinityEffectManager.ApplyEffectForSkill(skillCtx, turnCtx, numberHits);
         UpdateGameStateAfterSkill(turnCtx);
         
         return true;
@@ -152,12 +151,6 @@ public static class SamuraiActionExecutor
         Unit unitAttacking = attackerPlayer.GetTeam().Samurai;
 
         return TargetSelector.SelectSkillTarget(targetCtx, unitAttacking);
-    }
-
-    private static void ApplySkillEffects(Unit caster, Unit target, Skill skill, TurnContext turnCtx)
-    {
-        var skillCtx = new SkillUseContext(caster, target, skill, turnCtx.Attacker, turnCtx.Defender);
-        AffinityEffectManager.ApplyEffectForSkill(skillCtx, turnCtx);
     }
 
     private static void UpdateGameStateAfterSkill(TurnContext turnCtx)
