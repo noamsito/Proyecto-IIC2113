@@ -269,7 +269,7 @@ public static class CombatUI
                     if (finalDamage > 0) DisplayDamageTaken(affinityCtx.Target, finalDamage);
                 }
 
-                if (finalDamage > 0)
+                if (finalDamage >= 0)
                 {
                     DisplayFinalHP(affinityCtx.Target);
                 }

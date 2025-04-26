@@ -29,17 +29,6 @@ public class Samurai : Unit
         
         _affinity = data.Affinity;
     }
-    
-    public override void SetStatsFromJson(string jsonPathFile){}
-
-    public void ConsumeMP(int cost)
-    {
-        int currentMP = _currentStats.GetStatByName("MP");
-        _currentStats.SetStatByName("MP", Math.Max(0, currentMP - cost));
-    }
-
-    public override void UpdateStatsFromJson() { }
-    public override void UpdateSkillsFromJson() { }
 
     public int GetSkillCount() => _skills.Count;
 }

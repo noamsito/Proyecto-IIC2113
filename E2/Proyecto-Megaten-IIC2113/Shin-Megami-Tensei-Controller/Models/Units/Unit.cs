@@ -16,12 +16,7 @@ public abstract class Unit
         _name = name;
         _skills = new List<Skill>();
     }
-
-    public abstract void SetStatsFromJson(string jsonPathFile);
-
-    public abstract void UpdateStatsFromJson();
-    public abstract void UpdateSkillsFromJson();
-
+    
     public string GetName() => _name;
 
     public Stat GetBaseStats() => _baseStats;

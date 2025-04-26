@@ -63,12 +63,7 @@ public static class TargetSelector
 
         return $"HP:{currentHP}/{maxHP} MP:{currentMP}/{maxMP}";
     }
-
-    // private static void DisplayCancelOption(int optionsCount)
-    // {
-    //     _view.WriteLine($"{optionsCount + 1}-Cancelar");
-    // }
-
+    
     private static string GetUserInput(View view)
     {
         return view.ReadLine();

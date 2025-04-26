@@ -27,8 +27,4 @@ public class Demon : Unit
         _skills = data.Skills;
         _affinity = data.Affinity;
     }
-
-    public override void SetStatsFromJson(string jsonPathFile) { }
-    public override void UpdateStatsFromJson() { }
-    public override void UpdateSkillsFromJson() { }
 }
