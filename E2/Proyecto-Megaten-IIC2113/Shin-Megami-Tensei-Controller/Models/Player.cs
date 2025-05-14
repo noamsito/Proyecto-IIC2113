@@ -206,7 +206,7 @@ public class Player
        var activeUnits = GetActiveUnits();
        List<int> validSlots = new();
         
-       for (int iterator = 1; iterator < activeUnits.Count; iterator++)
+       for (int iterator = 0; iterator < activeUnits.Count; iterator++)
        {
            if (activeUnits[iterator] == null || activeUnits[iterator].GetCurrentStats().GetStatByName("HP") <= 0)
            {

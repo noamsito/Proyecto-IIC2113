@@ -133,15 +133,24 @@ public static class SummonManager
 
     private static void ReplaceActiveSlot(Player player, Unit newDemon, int slot)
     {
+        if (slot != 0)
+            throw new InvalidOperationException("No se puede reemplazar al samurai en el slot 0.");
+    
         player.GetActiveUnits()[slot] = newDemon;
     }
 
+
     private static void UpdateReserveAfterSummon(Player player, Unit newDemon, Unit removedDemon)
     {
-        player.ReplaceFromReserveUnitsList(newDemon.GetName(), (Demon)removedDemon);
+        if (removedDemon != null)
+        {
+            player.ReplaceFromReserveUnitsList(newDemon.GetName(), (Demon)removedDemon);
+        }
+
         player.ReorderReserveBasedOnJsonOrder();
         player.GetReservedUnits().Remove(newDemon);
     }
+
 
     private static void UpdateSortedListAfterSummon(Player player, Unit newDemon, Unit removedDemon)
     {
@@ -154,6 +163,7 @@ public static class SummonManager
             player.AddDemonInTheLastSlot((Demon)newDemon);
         }
     }
+
 
     private static void DisplaySummonSuccess(Unit summonedDemon)
     {
