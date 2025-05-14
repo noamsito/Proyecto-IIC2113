@@ -76,10 +76,18 @@ public static class TargetSelector
 
     private static List<Unit> GetPossibleTargets(SkillTargetContext ctx)
     {
+        Player currentPlayer = ctx.CurrentPlayer;
+        Player opponent = ctx.Opponent;
+        
+        var activeUnitsCurrentPlayer = currentPlayer.GetActiveUnits();
+        var validActiveUnitsOpponents = opponent.GetValidActiveUnits();
+        
         bool isTargetAlly = ctx.Skill.Target == "Ally";
+        
+        Console.WriteLine(string.Join(", ", activeUnitsCurrentPlayer));
         return isTargetAlly
-            ? ctx.CurrentPlayer.GetActiveUnits()
-            : ctx.Opponent.GetValidActiveUnits();
+            ? activeUnitsCurrentPlayer.Where(unit => unit != null).ToList()
+            : validActiveUnitsOpponents.Where(unit => unit != null).ToList();    
     }
 
     private static bool IsCancelOption(string input, int optionsCount)

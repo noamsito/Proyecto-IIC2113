@@ -73,11 +73,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vieir\\RiderProjects\\Proyecto-IIC2113\\E2\\Proyecto-Megaten-IIC2113\\Shin-Megami-Tensei-Controller\\Shin-Megami-Tensei-Controller.csproj",
+      "projectUniqueName": "C:\\Users\\vieir\\OneDrive\\Universidad\\Semestres\\Semestre 7\\Diseño detallado de software\\Proyecto-IIC2113\\E2\\Proyecto-Megaten-IIC2113\\Shin-Megami-Tensei-Controller\\Shin-Megami-Tensei-Controller.csproj",
       "projectName": "Shin-Megami-Tensei-Controller",
-      "projectPath": "C:\\Users\\vieir\\RiderProjects\\Proyecto-IIC2113\\E2\\Proyecto-Megaten-IIC2113\\Shin-Megami-Tensei-Controller\\Shin-Megami-Tensei-Controller.csproj",
+      "projectPath": "C:\\Users\\vieir\\OneDrive\\Universidad\\Semestres\\Semestre 7\\Diseño detallado de software\\Proyecto-IIC2113\\E2\\Proyecto-Megaten-IIC2113\\Shin-Megami-Tensei-Controller\\Shin-Megami-Tensei-Controller.csproj",
       "packagesPath": "C:\\Users\\vieir\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vieir\\RiderProjects\\Proyecto-IIC2113\\E2\\Proyecto-Megaten-IIC2113\\Shin-Megami-Tensei-Controller\\obj\\",
+      "outputPath": "C:\\Users\\vieir\\OneDrive\\Universidad\\Semestres\\Semestre 7\\Diseño detallado de software\\Proyecto-IIC2113\\E2\\Proyecto-Megaten-IIC2113\\Shin-Megami-Tensei-Controller\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\vieir\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -92,8 +92,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\vieir\\RiderProjects\\Proyecto-IIC2113\\E2\\Proyecto-Megaten-IIC2113\\Shin-Megami-Tensei-View\\Shin-Megami-Tensei-View.csproj": {
-              "projectPath": "C:\\Users\\vieir\\RiderProjects\\Proyecto-IIC2113\\E2\\Proyecto-Megaten-IIC2113\\Shin-Megami-Tensei-View\\Shin-Megami-Tensei-View.csproj"
+            "C:\\Users\\vieir\\OneDrive\\Universidad\\Semestres\\Semestre 7\\Diseño detallado de software\\Proyecto-IIC2113\\E2\\Proyecto-Megaten-IIC2113\\Shin-Megami-Tensei-View\\Shin-Megami-Tensei-View.csproj": {
+              "projectPath": "C:\\Users\\vieir\\OneDrive\\Universidad\\Semestres\\Semestre 7\\Diseño detallado de software\\Proyecto-IIC2113\\E2\\Proyecto-Megaten-IIC2113\\Shin-Megami-Tensei-View\\Shin-Megami-Tensei-View.csproj"
             }
           }
         }

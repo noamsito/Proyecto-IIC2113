@@ -43,7 +43,6 @@ public static class SkillManager
     public static int CalculateNumberHits(string hitsString, Player attackerPlayer)
     {
         var match = Regex.Match(hitsString, @"(\d+)-(\d+)");
-
         int hits;
         
         if (match.Success)
@@ -61,9 +60,15 @@ public static class SkillManager
             hits = Convert.ToInt32(hitsString);
         }
         
-        Console.WriteLine(hits);
-
         return hits;
     }
-    
+
+    public static double CalculateHeal(Unit targetUnit, SkillUseContext skillCtx)
+    {
+        Skill currentSkill = skillCtx.Skill;
+        int skillPower = currentSkill.Power;
+        int baseHealth = targetUnit.GetBaseStats().GetStatByName("HP");
+        
+        return Math.Floor((skillPower / 100.0) * baseHealth);
+    }
 }

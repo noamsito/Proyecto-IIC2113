@@ -6,7 +6,7 @@ using Shin_Megami_Tensei.Managers;
 
 public static class CombatUI
 {
-        private static View? _view;
+        private static View _view;
         
         public static void Initialize(View view)
         {
@@ -112,27 +112,33 @@ public static class CombatUI
             _view.WriteLine($"{attackerName} {action} {targetName}");
         }
     
-        public static void DisplayFullDamageResult(Unit target, double damage)
+        private static void DisplayFullDamageResult(Unit target, double damage)
         {
             DisplayDamageTaken(target, damage);
             DisplayFinalHP(target);
             DisplaySeparator();
         }
 
-        public static void DisplayDamageTaken(Unit target, double damage)
+        private static void DisplayDamageTaken(Unit target, double damage)
         {
             _view.WriteLine($"{target.GetName()} recibe {Convert.ToInt32(Math.Floor(damage))} de daño");
         }
 
-        public static void DisplayFinalHP(Unit target)
+        private static void DisplayFinalHP(Unit target)
         {
-            _view.WriteLine($"{target.GetName()} termina con HP:{target.GetCurrentStats().GetStatByName("HP")}/{target.GetBaseStats().GetStatByName("HP")}");
+            int currentHP = target.GetCurrentStats().GetStatByName("HP");
+            int baseHP = target.GetBaseStats().GetStatByName("HP");
+            _view.WriteLine($"{target.GetName()} termina con HP:{currentHP}/{baseHP}");
         }
     
-        public static void DisplayHealing(Unit target, int amount)
+        public static void DisplayHealing(Unit target, double amountDamage)
         {
-            _view.WriteLine($"{target.GetName()} recibe {amount} de HP");
-            _view.WriteLine($"{target.GetName()} termina con HP:{target.GetCurrentStats().GetStatByName("HP")}/{target.GetBaseStats().GetStatByName("HP")}");
+            int currentHp = target.GetCurrentStats().GetStatByName("HP");
+            int baseHp = target.GetBaseStats().GetStatByName("HP");
+            int amountHealed = Convert.ToInt32(Math.Floor(amountDamage));
+            
+            _view.WriteLine($"{target.GetName()} recibe {amountHealed} de HP");
+            _view.WriteLine($"{target.GetName()} termina con HP:{currentHp}/{baseHp}");
             _view.WriteLine(GameConstants.Separator);
         }
     
@@ -150,7 +156,7 @@ public static class CombatUI
                 "Nu" => $"{targetName} bloquea el ataque de {attackerName}",
                 "Rp" => $"{targetName} devuelve {damage} daño a {attackerName}",
                 "Dr" => $"{targetName} absorbe {damage} daño",
-                "-" => "",
+                "-" => ""
             };
     
             if (!string.IsNullOrEmpty(msg))
@@ -174,6 +180,7 @@ public static class CombatUI
                 "Force" => "lanza viento a",
                 "Phys" => "ataca a",
                 "Gun" => "dispara a",
+                "Heal" => "cura a", 
                 _ => "usa " + skill.Name + " en"
             };
     
@@ -248,15 +255,23 @@ public static class CombatUI
                 DisplayFullDamageResult(target, finalDamage);
             }
         }
-        
-        public static void DisplayCombatUI(SkillUseContext skillCtx, AffinityContext affinityCtx, int numHits)
+
+        public static void DisplayCombatUi(SkillUseContext skillCtx, AffinityContext affinityCtx, int numHits)
         {
             string affinityType = AffinityResolver.GetAffinity(affinityCtx.Target, affinityCtx.AttackType);
             double finalDamage = AffinityEffectManager.GetDamageBasedOnAffinity(affinityCtx);
-
-            if (numHits == 1)
+            
+            Skill skillInUse = skillCtx.Skill;
+            bool isTargetAlly = skillInUse.Target == "Ally";
+                
+            DisplaySkillUsage(skillCtx.Caster, skillCtx.Skill, skillCtx.Target);
+            if (isTargetAlly)
             {
-                DisplaySkillUsage(skillCtx.Caster, skillCtx.Skill, skillCtx.Target);
+                double amountHealed = SkillManager.CalculateHeal(skillCtx.Target, skillCtx);
+                DisplayHealing(skillCtx.Target, amountHealed);
+            }
+            else if (numHits == 1)
+            {
                 DisplayAffinityMessage(affinityCtx);
                 ManageDisplayAffinity(affinityType, affinityCtx, finalDamage);
             }
@@ -264,11 +279,10 @@ public static class CombatUI
             {
                 for (int i = 0; i < numHits; i++)
                 {
-                    DisplaySkillUsage(skillCtx.Caster, skillCtx.Skill, skillCtx.Target);
                     DisplayAffinityMessage(affinityCtx);
                     if (finalDamage > 0) DisplayDamageTaken(affinityCtx.Target, finalDamage);
                 }
-
+            
                 if (finalDamage >= 0)
                 {
                     DisplayFinalHP(affinityCtx.Target);

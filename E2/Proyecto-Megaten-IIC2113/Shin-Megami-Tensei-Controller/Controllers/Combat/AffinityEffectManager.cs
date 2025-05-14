@@ -8,20 +8,33 @@ public static class AffinityEffectManager
 {
     public static void ApplyEffectForSkill(SkillUseContext skillCtx, TurnContext turnCtx, int numHits)
     {
+        Skill currentSkill = skillCtx.Skill;
+        string skillType = currentSkill.Type;
+        
         int stat = GetStatForSkill(skillCtx);
-        double baseDamage = CalculateBaseDamage(stat, skillCtx.Skill.Power);
+        double baseDamage = CalculateBaseDamage(stat, currentSkill.Power);
     
         var affinityCtx = CreateAffinityContext(skillCtx, baseDamage);
-
-        for (int i = 0; i < numHits; i++)
+        
+        if (skillType != "Heal")
         {
-            ApplyDamage(skillCtx, affinityCtx);
+            for (int i = 0; i < numHits; i++)
+            {
+                ApplyDamage(skillCtx, affinityCtx);
+            }
+        }
+        else
+        {
+            for (int i = 0; i < numHits; i++)
+            {
+                ApplyHeal(skillCtx, affinityCtx);
+            }
+            
         }
         
-        SkillManager.ConsumeMP(skillCtx.Caster, skillCtx.Skill.Cost);
+        SkillManager.ConsumeMP(skillCtx.Caster, currentSkill.Cost);
         TurnManager.ConsumeTurnsBasedOnAffinity(affinityCtx, turnCtx);
-        
-        CombatUI.DisplayCombatUI(skillCtx, affinityCtx, numHits);
+        CombatUI.DisplayCombatUi(skillCtx, affinityCtx, numHits);
     }
     
     private static int GetStatForSkill(SkillUseContext skillCtx)
@@ -43,6 +56,12 @@ public static class AffinityEffectManager
     private static AffinityContext CreateAffinityContext(SkillUseContext skillCtx, double baseDamage)
     {
         return new AffinityContext(skillCtx.Caster, skillCtx.Target, skillCtx.Skill.Type, baseDamage);
+    }
+
+    private static void ApplyHeal(SkillUseContext skillCtx, AffinityContext affinityCtx)
+    {
+        double finalHeal = SkillManager.CalculateHeal(skillCtx.Target, skillCtx);
+        UnitActionManager.Heal(affinityCtx.Target, finalHeal);
     }
     
     private static void ApplyDamage(SkillUseContext skillCtx, AffinityContext affinityCtx)
@@ -78,6 +97,7 @@ public static class AffinityEffectManager
         }
         else if (finalDamage == -1)
         {
+            Console.WriteLine("Heal");
             UnitActionManager.Heal(affinityCtx.Target, affinityCtx.BaseDamage);
         }
         else if (finalDamage == -2)
@@ -101,7 +121,7 @@ public static class AffinityEffectManager
 
         double multiplierWk = GameConstants.MULTIPLIER_WEAK_AFFINITY;
         double multiplierRs = GameConstants.MULTIPLIER_RESISTANT_AFFINITY;
-        
+
         switch (affinity)
         {
             case "Wk":
