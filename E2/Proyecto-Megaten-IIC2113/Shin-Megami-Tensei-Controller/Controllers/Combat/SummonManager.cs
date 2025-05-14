@@ -133,9 +133,6 @@ public static class SummonManager
 
     private static void ReplaceActiveSlot(Player player, Unit newDemon, int slot)
     {
-        if (slot != 0)
-            throw new InvalidOperationException("No se puede reemplazar al samurai en el slot 0.");
-    
         player.GetActiveUnits()[slot] = newDemon;
     }
 
