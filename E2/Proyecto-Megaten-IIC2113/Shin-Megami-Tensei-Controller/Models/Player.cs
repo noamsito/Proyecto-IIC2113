@@ -191,10 +191,10 @@ public class Player
            {
                RemoveFromSortedUnits(_activeUnits[i].GetName());
    
-               if (!(_activeUnits[i] is Samurai))
-               {
-                   _activeUnits[i] = null;
-               }
+               // if (!(_activeUnits[i] is Samurai))
+               // {
+               //     _activeUnits[i] = null;
+               // }
            }
        }
        
@@ -208,7 +208,7 @@ public class Player
         
        for (int iterator = 1; iterator < activeUnits.Count; iterator++)
        {
-           if (activeUnits[iterator] == null)
+           if (activeUnits[iterator] == null || activeUnits[iterator].GetCurrentStats().GetStatByName("HP") <= 0)
            {
                CombatUI.DisplayEmptySlot(validSlots, iterator);
            }
@@ -218,6 +218,7 @@ public class Player
            }
            validSlots.Add(iterator);
        }
+       
        view.WriteLine($"{validSlots.Count + 1}-Cancelar");
        return validSlots;
    }

@@ -39,10 +39,18 @@ public static class CombatUI
         {
             var units = player.GetActiveUnits();
             char label = 'A';
-    
+
             foreach (var unit in units)
             {
                 if (unit == null)
+                {
+                    _view.WriteLine($"{label}-");
+                }
+                else if (unit == player.GetTeam().Samurai)
+                {
+                    _view.WriteLine($"{label}-{unit.GetName()} HP:{unit.GetCurrentStats().GetStatByName("HP")}/{unit.GetBaseStats().GetStatByName("HP")} MP:{unit.GetCurrentStats().GetStatByName("MP")}/{unit.GetBaseStats().GetStatByName("MP")}");
+                }
+                else if (unit.GetCurrentStats().GetStatByName("HP") <= 0)
                 {
                     _view.WriteLine($"{label}-");
                 }
@@ -53,7 +61,7 @@ public static class CombatUI
                 label++;
             }
         }
-    
+
         public static void DisplayTurnInfo(Player player)
         {
             _view.WriteLine($"Full Turns: {player.GetFullTurns()}");
@@ -194,12 +202,6 @@ public static class CombatUI
             _view.WriteLine($"{revived.GetName()} termina con HP:{revived.GetCurrentStats().GetStatByName("HP")}/{revived.GetBaseStats().GetStatByName("HP")}");
             _view.WriteLine(GameConstants.Separator);
         }
-    
-        public static void DisplaySummon(Unit summoned)
-        {
-            _view.WriteLine($"{summoned.GetName()} ha sido invocado");
-            _view.WriteLine(GameConstants.Separator);
-        }
         
         public static void DisplaySummonOptions(List<Unit> reserve, View view)
         {
@@ -260,18 +262,19 @@ public static class CombatUI
         {
             string affinityType = AffinityResolver.GetAffinity(affinityCtx.Target, affinityCtx.AttackType);
             double finalDamage = AffinityEffectManager.GetDamageBasedOnAffinity(affinityCtx);
-            
+    
             Skill skillInUse = skillCtx.Skill;
             bool isTargetAlly = skillInUse.Target == "Ally";
-                
-            DisplaySkillUsage(skillCtx.Caster, skillCtx.Skill, skillCtx.Target);
+    
             if (isTargetAlly)
             {
+                DisplaySkillUsage(skillCtx.Caster, skillCtx.Skill, skillCtx.Target);
                 double amountHealed = SkillManager.CalculateHeal(skillCtx.Target, skillCtx);
                 DisplayHealing(skillCtx.Target, amountHealed);
             }
             else if (numHits == 1)
             {
+                DisplaySkillUsage(skillCtx.Caster, skillCtx.Skill, skillCtx.Target); // primero el ataque
                 DisplayAffinityMessage(affinityCtx);
                 ManageDisplayAffinity(affinityType, affinityCtx, finalDamage);
             }
@@ -279,10 +282,11 @@ public static class CombatUI
             {
                 for (int i = 0; i < numHits; i++)
                 {
+                    DisplaySkillUsage(skillCtx.Caster, skillCtx.Skill, skillCtx.Target); // debe repetirse por hit
                     DisplayAffinityMessage(affinityCtx);
                     if (finalDamage > 0) DisplayDamageTaken(affinityCtx.Target, finalDamage);
                 }
-            
+
                 if (finalDamage >= 0)
                 {
                     DisplayFinalHP(affinityCtx.Target);
