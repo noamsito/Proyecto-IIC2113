@@ -188,12 +188,14 @@ public static class CombatUI
                 "Force" => "lanza viento a",
                 "Phys" => "ataca a",
                 "Gun" => "dispara a",
-                "Heal" => "cura a", 
+                "Heal" when skill.Name is "Recarm" or "Samarecarm" or "Invitation" => "revive a",
+                "Heal" => "cura a",
                 _ => "usa " + skill.Name + " en"
             };
-    
+
             _view.WriteLine($"{caster.GetName()} {action} {target.GetName()}");
         }
+
     
         public static void DisplayRevive(Unit caster, Unit revived, int healAmount)
         {

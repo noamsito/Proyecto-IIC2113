@@ -78,17 +78,34 @@ public static class TargetSelector
     {
         Player currentPlayer = ctx.CurrentPlayer;
         Player opponent = ctx.Opponent;
-        
-        var activeUnitsCurrentPlayer = currentPlayer.GetActiveUnits();
-        var validActiveUnitsOpponents = opponent.GetValidActiveUnits();
-        
+
         bool isTargetAlly = ctx.Skill.Target == "Ally";
-        
-        Console.WriteLine(string.Join(", ", activeUnitsCurrentPlayer));
-        return isTargetAlly
-            ? activeUnitsCurrentPlayer.Where(unit => unit != null).ToList()
-            : validActiveUnitsOpponents.Where(unit => unit != null).ToList();    
+        bool isRevive = ctx.Skill.Name is "Recarm" or "Samarecarm" or "Invitation";
+
+        if (isTargetAlly)
+        {
+            if (isRevive)
+            {
+                return currentPlayer.GetActiveUnits()
+                    .Where(u => u != null && u.GetCurrentStats().GetStatByName("HP") <= 0)
+                    .Concat(
+                        currentPlayer.GetReservedUnits()
+                            .Where(u => u != null && u.GetCurrentStats().GetStatByName("HP") <= 0)
+                    )
+                    .ToList();
+            }
+
+
+            return currentPlayer.GetActiveUnits()
+                .Where(u => u != null && u.GetCurrentStats().GetStatByName("HP") > 0)
+                .ToList();
+        }
+        else
+        {
+            return opponent.GetValidActiveUnits();
+        }
     }
+
 
     private static bool IsCancelOption(string input, int optionsCount)
     {

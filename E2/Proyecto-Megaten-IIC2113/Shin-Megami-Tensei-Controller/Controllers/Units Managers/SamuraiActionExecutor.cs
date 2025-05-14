@@ -126,6 +126,8 @@ public static class SamuraiActionExecutor
         Skill? skill = SkillManager.SelectSkill(samuraiCtx.View, samuraiCtx.Samurai);
         if (skill == null) return false;
 
+        // Add a invoke skill 
+        
         Unit? target = SelectSkillTarget(skill, samuraiCtx, turnCtx);
         if (target == null) return false;
 

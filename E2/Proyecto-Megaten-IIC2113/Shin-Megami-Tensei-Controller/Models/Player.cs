@@ -193,8 +193,8 @@ public class Player
                
                if (!(_activeUnits[i] is Samurai))
                {
+                   _reservedUnits.Add(_activeUnits[i]);
                    _activeUnits[i] = null;
-                   
                }
            }
        }

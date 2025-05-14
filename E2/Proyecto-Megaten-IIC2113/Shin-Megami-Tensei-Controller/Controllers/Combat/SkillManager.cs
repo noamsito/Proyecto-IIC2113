@@ -71,4 +71,6 @@ public static class SkillManager
         
         return Math.Floor((skillPower / 100.0) * baseHealth);
     }
+    
+    
 }
