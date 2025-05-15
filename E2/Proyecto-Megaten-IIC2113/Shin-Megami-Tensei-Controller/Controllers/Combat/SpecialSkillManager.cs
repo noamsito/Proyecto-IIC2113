@@ -63,11 +63,8 @@ public static class SpecialSkillManager
         player.GetReservedUnits().Remove(selectedUnit);
         player.SetOrderOfAttackOfActiveUnits();
         player.ReorderReserveBasedOnJsonOrder();
-
-        var sortedActiveUnits = player.GetSortedActiveUnitsByOrderOfAttack();
+        player.ReorderUnitsWhenAttacked();
         
-        sortedActiveUnits[-1] = sortedActiveUnits[0];
-        sortedActiveUnits[]
         
         CombatUI.DisplayHasBeenSummoned(selectedUnit);
     }
