@@ -126,15 +126,21 @@ public static class SamuraiActionExecutor
         Skill? skill = SkillManager.SelectSkill(samuraiCtx.View, samuraiCtx.Samurai);
         if (skill == null) return false;
 
-        // Add a invoke skill 
-        
-        Unit? target = SelectSkillTarget(skill, samuraiCtx, turnCtx);
-        if (target == null) return false;
+        if (skill.Type == "Special")
+        {
+            var ctx = new SkillUseContext(samuraiCtx.Samurai, null, skill, turnCtx.Attacker, turnCtx.Defender);
+            SkillManager.UseSkill(ctx);
+        }
+        else
+        {
+            Unit? target = SelectSkillTarget(skill, samuraiCtx, turnCtx);
+            if (target == null) return false;
 
-        int numberHits = SkillManager.CalculateNumberHits(skill.Hits, turnCtx.Attacker);
-        var skillCtx = new SkillUseContext(samuraiCtx.Samurai, target, skill, turnCtx.Attacker, turnCtx.Defender);
+            int numberHits = SkillManager.CalculateNumberHits(skill.Hits, turnCtx.Attacker);
+            var skillCtx = new SkillUseContext(samuraiCtx.Samurai, target, skill, turnCtx.Attacker, turnCtx.Defender);
 
-        AffinityEffectManager.ApplyEffectForSkill(skillCtx, turnCtx, numberHits);
+            AffinityEffectManager.ApplyEffectForSkill(skillCtx, turnCtx, numberHits);
+        }
         UpdateGameStateAfterSkill(turnCtx);
         
         return true;

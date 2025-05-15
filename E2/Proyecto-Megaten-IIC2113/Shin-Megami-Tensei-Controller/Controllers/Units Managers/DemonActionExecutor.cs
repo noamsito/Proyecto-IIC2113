@@ -94,13 +94,22 @@ public static class DemonActionExecutor
         Skill? skill = SkillManager.SelectSkill(demonCtx.View, demonCtx.Demon);
         if (skill == null) return false;
 
-        Unit? target = SelectSkillTarget(skill, demonCtx);
-        if (target == null) return false;
-        
-        int numberHits = SkillManager.CalculateNumberHits(skill.Hits, turnCtx.Attacker);
-        var skillCtx = new SkillUseContext(demonCtx.Demon, target, skill, turnCtx.Attacker, turnCtx.Defender);
+        if (skill.Type == "Special")
+        {
+            var ctx = new SkillUseContext(demonCtx.Demon, null, skill, turnCtx.Attacker, turnCtx.Defender);
+            SkillManager.UseSkill(ctx);
+        }
+        else
+        {
+            Unit? target = SelectSkillTarget(skill, demonCtx);
+            if (target == null) return false;
 
-        AffinityEffectManager.ApplyEffectForSkill(skillCtx, turnCtx, numberHits);
+            int numberHits = SkillManager.CalculateNumberHits(skill.Hits, turnCtx.Attacker);
+            var skillCtx = new SkillUseContext(demonCtx.Demon, target, skill, turnCtx.Attacker, turnCtx.Defender);
+
+            AffinityEffectManager.ApplyEffectForSkill(skillCtx, turnCtx, numberHits);
+        }
+        
         UpdateGameStateAfterSkill(turnCtx);
         
         return true;

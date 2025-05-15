@@ -1,75 +1,81 @@
 using Shin_Megami_Tensei_View;
+using Shin_Megami_Tensei.Combat;
 using Shin_Megami_Tensei.Gadgets;
 
 namespace Shin_Megami_Tensei.Managers;
 
-public class SpecialSkillManager
+public static class SpecialSkillManager
 {
-    public static void UseSabbatma(Player casterPlayer, Skill skill, View view)
+    public static void UseSpecialSkill(SkillUseContext ctx)
     {
-        var aliveReserve = casterPlayer.GetReservedUnits()
+        switch (ctx.Skill.Name)
+        {
+            case "Sabbatma":
+                UseSabbatma(ctx);
+                break;
+
+            default:
+                CombatUI.DisplaySeparator();
+                CombatUI.GetUserInput(); 
+                break;
+        }
+    }
+
+    private static void UseSabbatma(SkillUseContext ctx)
+    {
+        var player = ctx.Attacker;
+        var aliveReserve = player.GetReservedUnits()
             .Where(u => u != null && u.GetCurrentStats().GetStatByName("HP") > 0)
             .ToList();
 
         if (aliveReserve.Count == 0)
         {
-            view.WriteLine("No hay unidades vivas en la reserva para invocar.");
+            CombatUI.DisplaySeparator();
+            CombatUI.DisplaySkillSelectionPrompt("No hay unidades vivas en la reserva para invocar.");
             return;
         }
 
-        view.WriteLine("Seleccione una unidad viva de la reserva para invocar:");
+        // Mostrar opciones de demonios vivos para invocar
+        CombatUI.DisplaySkillSelectionPrompt("Seleccione una unidad viva de la reserva:");
         for (int i = 0; i < aliveReserve.Count; i++)
         {
-            var unit = aliveReserve[i];
-            view.WriteLine($"{i + 1}-{unit.GetName()} HP:{unit.GetCurrentStats().GetStatByName("HP")}/{unit.GetBaseStats().GetStatByName("HP")} MP:{unit.GetCurrentStats().GetStatByName("MP")}/{unit.GetBaseStats().GetStatByName("MP")}");
+            var u = aliveReserve[i];
+            CombatUI.DisplayTargetOptions(new List<Unit> { u }); // reusar método para mostrar stats
         }
-        view.WriteLine($"{aliveReserve.Count + 1}-Cancelar");
+        CombatUI.DisplayCancelOption(aliveReserve.Count);
 
-        int selectedIndex = GetValidatedInputFromView(view, 1, aliveReserve.Count + 1) - 1;
-        if (selectedIndex == aliveReserve.Count)
-            return; // Cancelar
+        int index = int.Parse(CombatUI.GetUserInput()) - 1;
+        if (index == aliveReserve.Count) return;
 
-        Unit selectedUnit = aliveReserve[selectedIndex];
+        Unit selectedUnit = aliveReserve[index];
 
-        var validSlots = casterPlayer.GetValidSlotsFromActiveUnits(view);
+        // Mostrar opciones de slots vacíos
+        var validSlots = player.GetValidSlotsFromActiveUnits();
         if (validSlots.Count == 0)
         {
-            view.WriteLine("No hay espacios disponibles en el tablero para invocar.");
+            CombatUI.DisplaySkillSelectionPrompt("No hay espacios disponibles en el tablero.");
             return;
         }
 
-        view.WriteLine("Seleccione el puesto donde invocar a la unidad:");
+        CombatUI.DisplaySkillSelectionPrompt("Seleccione el puesto donde invocar a la unidad:");
         for (int i = 0; i < validSlots.Count; i++)
         {
             int slotIndex = validSlots[i];
-            view.WriteLine($"{i + 1}-Vacío (Puesto {slotIndex + 1})");
+            CombatUI.DisplayEmptySlot(validSlots, slotIndex);
         }
-        view.WriteLine($"{validSlots.Count + 1}-Cancelar");
+        CombatUI.DisplayCancelOption(validSlots.Count);
 
-        int slotChoiceIndex = GetValidatedInputFromView(view, 1, validSlots.Count + 1) - 1;
-        if (slotChoiceIndex == validSlots.Count)
-            return;
+        int slotChoice = int.Parse(CombatUI.GetUserInput()) - 1;
+        if (slotChoice == validSlots.Count) return;
 
-        int finalSlot = validSlots[slotChoiceIndex];
+        int finalSlot = validSlots[slotChoice];
 
-        casterPlayer.GetActiveUnits()[finalSlot] = selectedUnit;
-        casterPlayer.GetReservedUnits().Remove(selectedUnit);
-        casterPlayer.AddDemonInTheLastSlot((Demon)selectedUnit);
-        casterPlayer.ReorderReserveBasedOnJsonOrder();
+        // Ejecutar invocación
+        player.GetActiveUnits()[finalSlot] = selectedUnit;
+        player.GetReservedUnits().Remove(selectedUnit);
+        player.AddDemonInTheLastSlot((Demon)selectedUnit);
+        player.ReorderReserveBasedOnJsonOrder();
 
-        view.WriteLine($"{selectedUnit.GetName()} ha sido invocado");
+        CombatUI.DisplayHasBeenSummoned(selectedUnit);
     }
-
-    private static int GetValidatedInputFromView(View view, int min, int max)
-    {
-        while (true)
-        {
-            string input = view.ReadLine()?.Trim();
-            if (int.TryParse(input, out int option) && option >= min && option <= max)
-                return option;
-
-            view.WriteLine("Por favor, ingrese una opción válida.");
-        }
-    }
-
 }

@@ -202,7 +202,7 @@ public class Player
        CheckIfTeamIsAbleToContinue();
    }
    
-   public List<int> GetValidSlotsFromActiveUnits(View view)
+   public List<int> GetValidSlotsFromActiveUnits()
    {
        var activeUnits = GetActiveUnits();
        List<int> validSlots = new();
@@ -220,7 +220,7 @@ public class Player
            validSlots.Add(iterator);
        }
        
-       view.WriteLine($"{validSlots.Count + 1}-Cancelar");
+       CombatUI.DisplayCancelOption(validSlots.Count);
        return validSlots;
    }
    

@@ -7,6 +7,22 @@ namespace Shin_Megami_Tensei.Managers;
 
 public static class SkillManager
 {
+    public static void UseSkill(SkillUseContext ctx)
+    {
+        Skill skill = ctx.Skill;
+
+        if (skill.Type == "Special")
+        {
+            HandleSpecialSkill(ctx);
+            return;
+        }
+
+        // Aquí iría la lógica para otros tipos de habilidades como Phys, Fire, Heal, etc.
+        // Por ejemplo:
+        // if (skill.Type == "Heal") { HealHandler.UseHeal(ctx); return; }
+        // ...
+    }
+    
     public static Skill? SelectSkill(View view, Unit unit)
     {
         var skills = unit.GetSkills();
@@ -34,6 +50,20 @@ public static class SkillManager
         return skills[selected];
     }
     
+    private static void HandleSpecialSkill(SkillUseContext skillCtx)
+    {
+        string name = skillCtx.Skill.Name;
+
+        switch (name)
+        {
+            case "Sabbatma":
+                SpecialSkillManager.UseSpecialSkill(skillCtx);
+                break;
+
+            default:
+                break;
+        }
+    }
     public static void ConsumeMP(Unit caster, int cost)
     {
         int current = caster.GetCurrentStats().GetStatByName("MP");

@@ -30,8 +30,9 @@ public static class SummonManager
 
         DisplaySlotSelectionPrompt(view);
 
-        List<int> validSlots = GetValidSlots(player, view);
+        List<int> validSlots = GetValidSlots(player);
         string slotInput = GetUserInput(view);
+        
         if (IsCancelOption(slotInput, validSlots.Count))
             return false;
 
@@ -85,9 +86,9 @@ public static class SummonManager
         view.WriteLine("Seleccione una posición para invocar");
     }
 
-    private static List<int> GetValidSlots(Player player, View view)
+    private static List<int> GetValidSlots(Player player)
     {
-        return player.GetValidSlotsFromActiveUnits(view);
+        return player.GetValidSlotsFromActiveUnits();
     }
 
     private static bool IsCancelOption(string input, int count)
