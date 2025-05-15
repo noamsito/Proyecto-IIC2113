@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dZ9Xgi6PwqM=",
+  "dgSpecHash": "lJaNTJxANCg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\vieir\\RiderProjects\\Proyecto-IIC2113\\E2\\Proyecto-Megaten-IIC2113\\Shin-Megami-Tensei-Controller\\Shin-Megami-Tensei-Controller.csproj",
+  "projectFilePath": "C:\\Users\\vieir\\OneDrive\\Universidad\\Semestres\\Semestre 7\\Diseño detallado de software\\Proyecto-IIC2113\\E2\\Proyecto-Megaten-IIC2113\\Shin-Megami-Tensei-Controller\\Shin-Megami-Tensei-Controller.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vieir\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
   ],

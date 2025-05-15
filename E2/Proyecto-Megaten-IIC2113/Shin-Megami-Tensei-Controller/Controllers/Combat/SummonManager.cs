@@ -14,25 +14,26 @@ public static class SummonManager
 
     public static bool SummonFromReserveBySamurai(Player player, View view)
     {
-        DisplaySummonPrompt(view);
+        CombatUI.DisplaySummonPrompt();
 
         List<Unit> reserve = player.GetReservedUnits();
-        DisplayReserveOptions(reserve, view);
+        var aliveReserve = reserve.Where(unit => unit.GetCurrentStats().GetStatByName("HP") > 0).ToList();
 
-        string demonInput = GetUserInput(view);
-        if (IsCancelOption(demonInput, reserve.Count))
-        {
-            DisplaySeparator(view);
+        CombatUI.DisplaySummonOptions(aliveReserve);
+
+        string demonInput = CombatUI.GetUserInput();
+        CombatUI.DisplaySeparator();
+
+        if (IsCancelOption(demonInput, aliveReserve.Count))
             return false;
-        }
 
-        Unit selectedDemon = SelectDemonFromReserve(reserve, demonInput);
+        Unit selectedDemon = SelectDemonFromFilteredReserve(reserve, demonInput);
 
-        DisplaySlotSelectionPrompt(view);
+        CombatUI.DisplaySlotSelectionPrompt();
 
-        List<int> validSlots = GetValidSlots(player);
-        string slotInput = GetUserInput(view);
-        
+        List<int> validSlots = player.GetValidSlotsFromActiveUnitsAndDisplayIt();
+        string slotInput = CombatUI.GetUserInput();
+
         if (IsCancelOption(slotInput, validSlots.Count))
             return false;
 
@@ -42,53 +43,24 @@ public static class SummonManager
         return true;
     }
 
-    public static void MonsterSwap(Player player, Demon demonSummoned, View view)
+    public static void MonsterSwap(Player player, Demon demonSummoned)
     {
-        DisplaySummonPrompt(view);
+        CombatUI.DisplaySummonPrompt();
 
         List<Unit> reserve = player.GetReservedUnits();
-        DisplayReserveOptions(reserve, view);
+        var aliveReserve = reserve.Where(unit => unit.GetCurrentStats().GetStatByName("HP") > 0).ToList();
 
-        string input = GetUserInput(view);
-        if (IsCancelOption(input, reserve.Count))
+        CombatUI.DisplaySummonOptions(aliveReserve);
+
+        string input = CombatUI.GetUserInput();
+        if (IsCancelOption(input, aliveReserve.Count))
             return;
 
-        Demon selectedDemon = (Demon)SelectDemonFromReserve(reserve, input);
+        Demon selectedDemon = (Demon)SelectDemonFromFilteredReserve(reserve, input);
 
         int slotToReplace = FindSlotOfActiveDemon(player, demonSummoned);
 
         SummonDemon(player, selectedDemon, slotToReplace);
-    }
-
-    private static void DisplaySummonPrompt(View view)
-    {
-        view.WriteLine("Seleccione un monstruo para invocar");
-    }
-
-    private static void DisplayReserveOptions(List<Unit> reserve, View view)
-    {
-        CombatUI.DisplaySummonOptions(reserve, view);
-    }
-
-    private static string GetUserInput(View view)
-    {
-        return view.ReadLine();
-    }
-
-    private static void DisplaySeparator(View view)
-    {
-        view.WriteLine(GameConstants.Separator);
-    }
-
-    private static void DisplaySlotSelectionPrompt(View view)
-    {
-        DisplaySeparator(view);
-        view.WriteLine("Seleccione una posición para invocar");
-    }
-
-    private static List<int> GetValidSlots(Player player)
-    {
-        return player.GetValidSlotsFromActiveUnits();
     }
 
     private static bool IsCancelOption(string input, int count)
@@ -96,11 +68,16 @@ public static class SummonManager
         return input == $"{count + 1}";
     }
 
-    private static Unit SelectDemonFromReserve(List<Unit> reserve, string input)
+    private static Unit SelectDemonFromFilteredReserve(List<Unit> fullReserve, string input)
     {
-        int demonIndex = ParseInputToIndex(input);
-        return reserve[demonIndex];
+        var aliveReserve = fullReserve
+            .Where(unit => unit != null && unit.GetCurrentStats().GetStatByName("HP") > 0)
+            .ToList();
+
+        int index = ParseInputToIndex(input);
+        return aliveReserve[index];
     }
+
 
     private static int ParseInputToIndex(string input)
     {
@@ -124,7 +101,7 @@ public static class SummonManager
         UpdateSortedListAfterSummon(player, newDemonAddedToActiveList, removedDemonFromActiveList);
 
         player.ReorderUnitsWhenAttacked();
-        DisplaySummonSuccess(newDemonAddedToActiveList);
+        CombatUI.DisplayHasBeenSummoned(newDemonAddedToActiveList);
     }
 
     private static Unit GetDemonToReplace(Player player, int slot)
@@ -160,12 +137,6 @@ public static class SummonManager
         {
             player.AddDemonInTheLastSlot((Demon)newDemon);
         }
-    }
-
-
-    private static void DisplaySummonSuccess(Unit summonedDemon)
-    {
-        CombatUI.DisplayHasBeenSummoned(summonedDemon);
     }
 
     private static int FindSlotOfActiveDemon(Player player, Unit demon)

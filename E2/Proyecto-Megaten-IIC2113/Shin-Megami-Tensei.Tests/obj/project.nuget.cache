@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iw2m33BcoPo=",
+  "dgSpecHash": "dymMUKbdPyA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\vieir\\RiderProjects\\Proyecto-IIC2113\\E2\\Proyecto-Megaten-IIC2113\\Shin-Megami-Tensei.Tests\\Shin-Megami-Tensei.Tests.csproj",
+  "projectFilePath": "C:\\Users\\vieir\\OneDrive\\Universidad\\Semestres\\Semestre 7\\Diseño detallado de software\\Proyecto-IIC2113\\E2\\Proyecto-Megaten-IIC2113\\Shin-Megami-Tensei.Tests\\Shin-Megami-Tensei.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vieir\\.nuget\\packages\\coverlet.collector\\6.0.2\\coverlet.collector.6.0.2.nupkg.sha512",
     "C:\\Users\\vieir\\.nuget\\packages\\microsoft.codecoverage\\17.11.1\\microsoft.codecoverage.17.11.1.nupkg.sha512",

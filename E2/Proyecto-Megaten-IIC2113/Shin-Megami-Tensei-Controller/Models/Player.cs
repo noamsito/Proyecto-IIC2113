@@ -202,7 +202,7 @@ public class Player
        CheckIfTeamIsAbleToContinue();
    }
    
-   public List<int> GetValidSlotsFromActiveUnits()
+   public List<int> GetValidSlotsFromActiveUnitsAndDisplayIt()
    {
        var activeUnits = GetActiveUnits();
        List<int> validSlots = new();

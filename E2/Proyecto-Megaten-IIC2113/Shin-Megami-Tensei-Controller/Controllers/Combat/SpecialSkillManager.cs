@@ -8,6 +8,8 @@ public static class SpecialSkillManager
 {
     public static void UseSpecialSkill(SkillUseContext ctx)
     {
+        
+        
         switch (ctx.Skill.Name)
         {
             case "Sabbatma":
@@ -24,46 +26,46 @@ public static class SpecialSkillManager
     private static void UseSabbatma(SkillUseContext ctx)
     {
         var player = ctx.Attacker;
-        var aliveReserve = player.GetReservedUnits()
+        var reservedUnits = player.GetReservedUnits()
             .Where(u => u != null && u.GetCurrentStats().GetStatByName("HP") > 0)
             .ToList();
 
-        if (aliveReserve.Count == 0)
+        if (reservedUnits.Count == 0)
         {
             CombatUI.DisplaySeparator();
             CombatUI.DisplaySkillSelectionPrompt("No hay unidades vivas en la reserva para invocar.");
             return;
         }
-
-        // Mostrar opciones de demonios vivos para invocar
-        CombatUI.DisplaySkillSelectionPrompt("Seleccione una unidad viva de la reserva:");
-        for (int i = 0; i < aliveReserve.Count; i++)
+        
+        CombatUI.DisplaySummonPrompt();
+        for (int i = 0; i < reservedUnits.Count; i++)
         {
-            var u = aliveReserve[i];
-            CombatUI.DisplayTargetOptions(new List<Unit> { u }); // reusar método para mostrar stats
+            var u = reservedUnits[i];
+            CombatUI.DisplayDemonsStats(new List<Unit> { u }); 
         }
-        CombatUI.DisplayCancelOption(aliveReserve.Count);
-
+        CombatUI.DisplayCancelOption(reservedUnits.Count);
+        //bien 
+        
         int index = int.Parse(CombatUI.GetUserInput()) - 1;
-        if (index == aliveReserve.Count) return;
-
-        Unit selectedUnit = aliveReserve[index];
-
-        // Mostrar opciones de slots vacíos
-        var validSlots = player.GetValidSlotsFromActiveUnits();
+        CombatUI.DisplaySeparator();
+        
+        if (index == reservedUnits.Count) return;
+        Unit selectedUnit = reservedUnits[index];
+        
+        CombatUI.DisplaySlotSelectionPrompt();
+        var validSlots = player.GetValidSlotsFromActiveUnitsAndDisplayIt();
         if (validSlots.Count == 0)
         {
-            CombatUI.DisplaySkillSelectionPrompt("No hay espacios disponibles en el tablero.");
             return;
         }
-
-        CombatUI.DisplaySkillSelectionPrompt("Seleccione el puesto donde invocar a la unidad:");
-        for (int i = 0; i < validSlots.Count; i++)
-        {
-            int slotIndex = validSlots[i];
-            CombatUI.DisplayEmptySlot(validSlots, slotIndex);
-        }
-        CombatUI.DisplayCancelOption(validSlots.Count);
+        
+        // CombatUI.DisplaySummonOptions(reservedUnits);
+        // for (int i = 0; i < validSlots.Count; i++)
+        // {
+        //     int slotIndex = validSlots[i];
+        //     CombatUI.DisplayEmptySlot(validSlots, slotIndex);
+        // }
+        // CombatUI.DisplayCancelOption(validSlots.Count);
 
         int slotChoice = int.Parse(CombatUI.GetUserInput()) - 1;
         if (slotChoice == validSlots.Count) return;

@@ -20,7 +20,7 @@ public static class DemonActionExecutor
                 return usedSkill;
 
             case "3":
-                SummonManager.MonsterSwap(demonCtx.CurrentPlayer, demonCtx.Demon, demonCtx.View);
+                SummonManager.MonsterSwap(demonCtx.CurrentPlayer, demonCtx.Demon);
                 SummonManager.ManageTurnsWhenSummoned(turnCtx);
                 return true;
 

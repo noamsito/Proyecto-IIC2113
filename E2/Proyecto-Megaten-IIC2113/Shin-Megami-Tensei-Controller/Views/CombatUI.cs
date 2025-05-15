@@ -84,7 +84,7 @@ public static class CombatUI
             _view.WriteLine($"Ganador: {winner.GetTeam().Samurai.GetName()} (J{playerNumber})");
         }
         
-        public static void DisplayTargetOptions(List<Unit> targets)
+        public static void DisplayDemonsStats(List<Unit> targets)
         {
             for (int i = 0; i < targets.Count; i++)
             {
@@ -102,6 +102,16 @@ public static class CombatUI
         public static void DisplaySkillSelectionPrompt(string unitName)
         {
             _view.WriteLine($"Seleccione una habilidad para que {unitName} use");
+        }
+        
+        public static void DisplaySummonPrompt()
+        {
+            _view.WriteLine("Seleccione un monstruo para invocar");
+        }
+        
+        public static void DisplaySlotSelectionPrompt()
+        {
+            _view.WriteLine("Seleccione una posición para invocar");
         }
     
         public static void DisplayAttack(string attackerName, string targetName, string attackType)
@@ -205,16 +215,22 @@ public static class CombatUI
             _view.WriteLine(GameConstants.Separator);
         }
         
-        public static void DisplaySummonOptions(List<Unit> reserve, View view)
+        public static void DisplaySummonOptions(List<Unit> reserve)
         {
+            int reservedAlive = 1;
             for (int i = 0; i < reserve.Count; i++)
             {
                 var demon = reserve[i];
-                view.WriteLine($"{i + 1}-{demon.GetName()} " +
-                               $"HP:{demon.GetCurrentStats().GetStatByName("HP")}/{demon.GetBaseStats().GetStatByName("HP")} " +
-                               $"MP:{demon.GetCurrentStats().GetStatByName("MP")}/{demon.GetBaseStats().GetStatByName("MP")}");
-            }        
-            view.WriteLine($"{reserve.Count + 1}-Cancelar");
+                if (demon.GetCurrentStats().GetStatByName("HP") > 0)
+                {
+                    _view.WriteLine($"{reservedAlive}-{demon.GetName()} " +
+                                   $"HP:{demon.GetCurrentStats().GetStatByName("HP")}/{demon.GetBaseStats().GetStatByName("HP")} " +
+                                   $"MP:{demon.GetCurrentStats().GetStatByName("MP")}/{demon.GetBaseStats().GetStatByName("MP")}");
+                    reservedAlive++;
+                }
+            }
+            
+            _view.WriteLine($"{reservedAlive}-Cancelar");
         }
 
         public static void DisplayHasBeenSummoned(Unit newDemonAdded)
