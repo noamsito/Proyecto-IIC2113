@@ -41,6 +41,19 @@ public static class TurnManager
 
         ctx.Defender?.RemoveFromActiveUnitsIfDead();
     }
+    
+    public static void ManageTurnsForInvocationSkill(TurnContext turnCtx)
+    {
+        if (turnCtx.Attacker.GetBlinkingTurns() > 0)
+        {
+            turnCtx.Attacker.ConsumeBlinkingTurn(1);
+        }
+        else
+        {
+            turnCtx.Attacker.ConsumeFullTurn(1);
+        }
+    }
+
 
     public static void ConsumeTurnsWhenPassedTurn(TurnContext ctx)
     {

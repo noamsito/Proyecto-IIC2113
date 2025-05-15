@@ -128,8 +128,8 @@ public static class SamuraiActionExecutor
 
         if (skill.Type == "Special")
         {
-            var ctx = new SkillUseContext(samuraiCtx.Samurai, null, skill, turnCtx.Attacker, turnCtx.Defender);
-            SkillManager.UseSkill(ctx);
+            var skillCtx = new SkillUseContext(samuraiCtx.Samurai, null, skill, turnCtx.Attacker, turnCtx.Defender);
+            SkillManager.HandleSpecialSkill(skillCtx, turnCtx);
         }
         else
         {

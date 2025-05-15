@@ -6,26 +6,22 @@ namespace Shin_Megami_Tensei.Managers;
 
 public static class SpecialSkillManager
 {
-    public static void UseSpecialSkill(SkillUseContext ctx)
+    public static void UseSpecialSkill(SkillUseContext skillCtx)
     {
-        
-        
-        switch (ctx.Skill.Name)
+        switch (skillCtx.Skill.Name)
         {
             case "Sabbatma":
-                UseSabbatma(ctx);
+                UseSabbatma(skillCtx);
                 break;
 
             default:
-                CombatUI.DisplaySeparator();
-                CombatUI.GetUserInput(); 
                 break;
         }
     }
 
-    private static void UseSabbatma(SkillUseContext ctx)
+    private static void UseSabbatma(SkillUseContext skillCtx)
     {
-        var player = ctx.Attacker;
+        var player = skillCtx.Attacker;
         var reservedUnits = player.GetReservedUnits()
             .Where(u => u != null && u.GetCurrentStats().GetStatByName("HP") > 0)
             .ToList();
@@ -43,8 +39,7 @@ public static class SpecialSkillManager
             var u = reservedUnits[i];
             CombatUI.DisplayDemonsStats(new List<Unit> { u }); 
         }
-        CombatUI.DisplayCancelOption(reservedUnits.Count);
-        //bien 
+        CombatUI.DisplayCancelOption(reservedUnits.Count); 
         
         int index = int.Parse(CombatUI.GetUserInput()) - 1;
         CombatUI.DisplaySeparator();
@@ -59,14 +54,6 @@ public static class SpecialSkillManager
             return;
         }
         
-        // CombatUI.DisplaySummonOptions(reservedUnits);
-        // for (int i = 0; i < validSlots.Count; i++)
-        // {
-        //     int slotIndex = validSlots[i];
-        //     CombatUI.DisplayEmptySlot(validSlots, slotIndex);
-        // }
-        // CombatUI.DisplayCancelOption(validSlots.Count);
-
         int slotChoice = int.Parse(CombatUI.GetUserInput()) - 1;
         if (slotChoice == validSlots.Count) return;
 
@@ -74,10 +61,20 @@ public static class SpecialSkillManager
 
         // Ejecutar invocación
         player.GetActiveUnits()[finalSlot] = selectedUnit;
+
+        // Quitar el demonio invocado de la reserva
         player.GetReservedUnits().Remove(selectedUnit);
+
+        // Añadirlo al final del orden de ataque
         player.AddDemonInTheLastSlot((Demon)selectedUnit);
+
+        // Reordenar la reserva según orden original del JSON
         player.ReorderReserveBasedOnJsonOrder();
 
+        // Reordenar lista de ataque si aplica
+        player.ReorderUnitsWhenAttacked();
+
+        
         CombatUI.DisplayHasBeenSummoned(selectedUnit);
     }
 }

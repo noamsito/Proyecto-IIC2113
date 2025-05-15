@@ -96,8 +96,8 @@ public static class DemonActionExecutor
 
         if (skill.Type == "Special")
         {
-            var ctx = new SkillUseContext(demonCtx.Demon, null, skill, turnCtx.Attacker, turnCtx.Defender);
-            SkillManager.UseSkill(ctx);
+            var skillCtx = new SkillUseContext(demonCtx.Demon, null, skill, turnCtx.Attacker, turnCtx.Defender);
+            SkillManager.HandleSpecialSkill(skillCtx, turnCtx);
         }
         else
         {

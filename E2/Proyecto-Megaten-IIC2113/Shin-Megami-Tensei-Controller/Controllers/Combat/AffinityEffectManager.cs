@@ -37,7 +37,7 @@ public static class AffinityEffectManager
         CombatUI.DisplayCombatUi(skillCtx, affinityCtx, numHits);
     }
     
-    private static int GetStatForSkill(SkillUseContext skillCtx)
+    public static int GetStatForSkill(SkillUseContext skillCtx)
     {
         return skillCtx.Skill.Type switch
         {
@@ -47,13 +47,13 @@ public static class AffinityEffectManager
             _ => 0
         };
     }
-    
-    private static double CalculateBaseDamage(int stat, double skillPower)
+
+    public static double CalculateBaseDamage(int stat, double skillPower)
     {
         return Math.Sqrt(stat * skillPower);
     }
     
-    private static AffinityContext CreateAffinityContext(SkillUseContext skillCtx, double baseDamage)
+    public static AffinityContext CreateAffinityContext(SkillUseContext skillCtx, double baseDamage)
     {
         return new AffinityContext(skillCtx.Caster, skillCtx.Target, skillCtx.Skill.Type, baseDamage);
     }
