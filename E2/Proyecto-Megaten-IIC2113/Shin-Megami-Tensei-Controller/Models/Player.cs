@@ -107,6 +107,11 @@ public class Player
        }
    }
 
+   public void InsertDemonAtBeginningOfOrder(Demon demon)
+   {
+       _sortedActiveUnitsByOrderOfAttack.Insert(0, demon);
+   }
+   
    public void SetReserveUnits()
    {
        List<Demon> listDemons = this._team.Demons;

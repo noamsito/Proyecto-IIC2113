@@ -59,21 +59,15 @@ public static class SpecialSkillManager
 
         int finalSlot = validSlots[slotChoice];
 
-        // Ejecutar invocación
         player.GetActiveUnits()[finalSlot] = selectedUnit;
-
-        // Quitar el demonio invocado de la reserva
         player.GetReservedUnits().Remove(selectedUnit);
-
-        // Añadirlo al final del orden de ataque
-        player.AddDemonInTheLastSlot((Demon)selectedUnit);
-
-        // Reordenar la reserva según orden original del JSON
+        player.SetOrderOfAttackOfActiveUnits();
         player.ReorderReserveBasedOnJsonOrder();
 
-        // Reordenar lista de ataque si aplica
-        player.ReorderUnitsWhenAttacked();
-
+        var sortedActiveUnits = player.GetSortedActiveUnitsByOrderOfAttack();
+        
+        sortedActiveUnits[-1] = sortedActiveUnits[0];
+        sortedActiveUnits[]
         
         CombatUI.DisplayHasBeenSummoned(selectedUnit);
     }

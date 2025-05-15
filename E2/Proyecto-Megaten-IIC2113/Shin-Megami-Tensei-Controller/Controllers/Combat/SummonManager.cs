@@ -95,12 +95,10 @@ public static class SummonManager
         Unit removedDemonFromActiveList = GetDemonToReplace(player, slot);
 
         ReplaceActiveSlot(player, newDemonAddedToActiveList, slot);
-
         UpdateReserveAfterSummon(player, newDemonAddedToActiveList, removedDemonFromActiveList);
-
         UpdateSortedListAfterSummon(player, newDemonAddedToActiveList, removedDemonFromActiveList);
-
         player.ReorderUnitsWhenAttacked();
+        
         CombatUI.DisplayHasBeenSummoned(newDemonAddedToActiveList);
     }
 
