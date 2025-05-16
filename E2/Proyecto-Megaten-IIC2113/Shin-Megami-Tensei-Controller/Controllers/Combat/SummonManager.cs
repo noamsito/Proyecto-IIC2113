@@ -12,7 +12,7 @@ public static class SummonManager
         TurnManager.UpdateTurnStatesForDisplay(turnCtx);
     }
 
-    public static bool SummonFromReserveBySamurai(Player player, View view)
+    public static bool SummonFromReserveBySamurai(Player player)
     {
         CombatUI.DisplaySummonPrompt();
 
@@ -68,7 +68,7 @@ public static class SummonManager
         return input == $"{count + 1}";
     }
 
-    private static Unit SelectDemonFromFilteredReserve(List<Unit> fullReserve, string input)
+    public static Unit SelectDemonFromFilteredReserve(List<Unit> fullReserve, string input)
     {
         var aliveReserve = fullReserve
             .Where(unit => unit != null && unit.GetCurrentStats().GetStatByName("HP") > 0)
@@ -90,7 +90,7 @@ public static class SummonManager
         return validSlots[slotIndex];
     }
 
-    private static void SummonDemon(Player player, Unit newDemonAddedToActiveList, int slot)
+    public static void SummonDemon(Player player, Unit newDemonAddedToActiveList, int slot)
     {
         Unit removedDemonFromActiveList = GetDemonToReplace(player, slot);
 
@@ -102,18 +102,18 @@ public static class SummonManager
         CombatUI.DisplayHasBeenSummoned(newDemonAddedToActiveList);
     }
 
-    private static Unit GetDemonToReplace(Player player, int slot)
+    public static Unit GetDemonToReplace(Player player, int slot)
     {
         return player.GetActiveUnits()[slot];
     }
 
-    private static void ReplaceActiveSlot(Player player, Unit newDemon, int slot)
+    public static void ReplaceActiveSlot(Player player, Unit newDemon, int slot)
     {
         player.GetActiveUnits()[slot] = newDemon;
     }
 
 
-    private static void UpdateReserveAfterSummon(Player player, Unit newDemon, Unit removedDemon)
+    public static void UpdateReserveAfterSummon(Player player, Unit newDemon, Unit removedDemon)
     {
         if (removedDemon != null)
         {
@@ -125,7 +125,7 @@ public static class SummonManager
     }
 
 
-    private static void UpdateSortedListAfterSummon(Player player, Unit newDemon, Unit removedDemon)
+    public static void UpdateSortedListAfterSummon(Player player, Unit newDemon, Unit removedDemon)
     {
         if (removedDemon != null)
         {
@@ -137,7 +137,7 @@ public static class SummonManager
         }
     }
 
-    private static int FindSlotOfActiveDemon(Player player, Unit demon)
+    public static int FindSlotOfActiveDemon(Player player, Unit demon)
     {
         var activeUnits = player.GetActiveUnits();
         for (int i = 0; i < activeUnits.Count; i++)

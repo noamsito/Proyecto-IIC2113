@@ -48,22 +48,36 @@ public static class SpecialSkillManager
         Unit selectedUnit = reservedUnits[index];
         
         CombatUI.DisplaySlotSelectionPrompt();
-        var validSlots = player.GetValidSlotsFromActiveUnitsAndDisplayIt();
+        List<int> validSlots = player.GetValidSlotsFromActiveUnitsAndDisplayIt();
         if (validSlots.Count == 0)
         {
             return;
         }
         
-        int slotChoice = int.Parse(CombatUI.GetUserInput()) - 1;
+        int slotChoice = int.Parse(CombatUI.GetUserInput());
         if (slotChoice == validSlots.Count) return;
 
-        int finalSlot = validSlots[slotChoice];
+        if (skillCtx.Caster is Samurai)
+        {
+            SummonManager.SummonFromReserveBySamurai(player);
+        }
+        else
+        {
+            SummonManager.MonsterSwap(player, (Demon)skillCtx.Caster);
+        }
+        
+        //
+        // int finalSlot = validSlots[slotChoice] - 1;
+        // Unit removedDemonFromActiveList = SummonManager.GetDemonToReplace(player, finalSlot);
 
-        player.GetActiveUnits()[finalSlot] = selectedUnit;
-        player.GetReservedUnits().Remove(selectedUnit);
-        player.SetOrderOfAttackOfActiveUnits();
-        player.ReorderReserveBasedOnJsonOrder();
-        player.ReorderUnitsWhenAttacked();
+        // int casterSlot = SummonManager.FindSlotOfActiveDemon(player, skillCtx.Caster);
+
+        // player.GetActiveUnits()[finalSlot] = selectedUnit;
+        // player.GetReservedUnits().Remove(selectedUnit);
+        // player.SetOrderOfAttackOfActiveUnits();
+        // player.ReorderReserveBasedOnJsonOrder();
+        // player.ReorderUnitsWhenAttacked();
+        
         
         
         CombatUI.DisplayHasBeenSummoned(selectedUnit);

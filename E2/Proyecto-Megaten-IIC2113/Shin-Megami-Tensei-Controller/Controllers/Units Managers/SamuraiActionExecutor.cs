@@ -52,7 +52,7 @@ public static class SamuraiActionExecutor
     
     private static bool HandleSummon(SamuraiActionContext ctx, TurnContext turnCtx)
     {
-        bool hasBeenSummoned = SummonManager.SummonFromReserveBySamurai(ctx.CurrentPlayer, ctx.View);
+        bool hasBeenSummoned = SummonManager.SummonFromReserveBySamurai(ctx.CurrentPlayer);
 
         if (hasBeenSummoned)
         {
