@@ -56,27 +56,19 @@ public static class SpecialSkillManager
         
         int slotChoice = int.Parse(CombatUI.GetUserInput());
         if (slotChoice == validSlots.Count) return;
-
-        if (skillCtx.Caster is Samurai)
-        {
-            SummonManager.SummonFromReserveBySamurai(player);
-        }
-        else
-        {
-            SummonManager.MonsterSwap(player, (Demon)skillCtx.Caster);
-        }
         
-        //
-        // int finalSlot = validSlots[slotChoice] - 1;
+        int finalSlot = validSlots[slotChoice] - 1;
         // Unit removedDemonFromActiveList = SummonManager.GetDemonToReplace(player, finalSlot);
-
+        //
         // int casterSlot = SummonManager.FindSlotOfActiveDemon(player, skillCtx.Caster);
-
-        // player.GetActiveUnits()[finalSlot] = selectedUnit;
-        // player.GetReservedUnits().Remove(selectedUnit);
-        // player.SetOrderOfAttackOfActiveUnits();
-        // player.ReorderReserveBasedOnJsonOrder();
-        // player.ReorderUnitsWhenAttacked();
+    
+        // algo esta pasando con el orden de las unidades que se mezclan
+        
+        player.GetActiveUnits()[finalSlot] = selectedUnit;
+        player.GetReservedUnits().Remove(selectedUnit);
+        player.SetOrderOfAttackOfActiveUnits();
+        player.ReorderReserveBasedOnJsonOrder();
+        player.ReorderUnitsWhenAttacked();
         
         
         
