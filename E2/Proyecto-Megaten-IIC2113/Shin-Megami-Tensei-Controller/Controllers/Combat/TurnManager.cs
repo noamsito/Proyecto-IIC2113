@@ -54,7 +54,6 @@ public static class TurnManager
         }
     }
 
-
     public static void ConsumeTurnsWhenPassedTurn(TurnContext ctx)
     {
         if (ctx.Attacker.GetBlinkingTurns() > 0)
@@ -72,7 +71,7 @@ public static class TurnManager
     {
         ConsumeTurnsWhenPassedTurn(ctx);
         UpdateTurnStatesForDisplay(ctx);
-        ctx.Attacker.ReorderUnitsWhenAttacked();
+        ctx.Attacker.RearrangeSortedUnitsWhenAttacked();
     }
     
     public static void ConsumeAllTurns(Player player)

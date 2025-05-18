@@ -118,7 +118,7 @@ public static class SamuraiActionExecutor
     {
         TurnManager.ConsumeTurnsBasedOnAffinity(affinityCtx, turnCtx);
         TurnManager.UpdateTurnStatesForDisplay(turnCtx);
-        turnCtx.Attacker.ReorderUnitsWhenAttacked();
+        turnCtx.Attacker.RearrangeSortedUnitsWhenAttacked();
     }
 
     private static bool ManageUseSkill(SamuraiActionContext samuraiCtx, TurnContext turnCtx)
@@ -130,6 +130,7 @@ public static class SamuraiActionExecutor
         {
             var skillCtx = new SkillUseContext(samuraiCtx.Samurai, null, skill, turnCtx.Attacker, turnCtx.Defender);
             SkillManager.HandleSpecialSkill(skillCtx, turnCtx);
+            TurnManager.UpdateTurnStatesForDisplay(turnCtx);
         }
         else
         {
@@ -140,8 +141,8 @@ public static class SamuraiActionExecutor
             var skillCtx = new SkillUseContext(samuraiCtx.Samurai, target, skill, turnCtx.Attacker, turnCtx.Defender);
 
             AffinityEffectManager.ApplyEffectForSkill(skillCtx, turnCtx, numberHits);
+            UpdateGameStateAfterSkill(turnCtx);
         }
-        UpdateGameStateAfterSkill(turnCtx);
         
         return true;
     }
@@ -164,6 +165,6 @@ public static class SamuraiActionExecutor
     private static void UpdateGameStateAfterSkill(TurnContext turnCtx)
     {
         TurnManager.UpdateTurnStatesForDisplay(turnCtx);
-        turnCtx.Attacker.ReorderUnitsWhenAttacked();
+        turnCtx.Attacker.RearrangeSortedUnitsWhenAttacked();
     }
 }

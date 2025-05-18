@@ -86,7 +86,7 @@ public static class DemonActionExecutor
     {
         TurnManager.ConsumeTurnsBasedOnAffinity(affinityCtx, turnCtx);
         TurnManager.UpdateTurnStatesForDisplay(turnCtx);
-        turnCtx.Attacker.ReorderUnitsWhenAttacked();
+        turnCtx.Attacker.RearrangeSortedUnitsWhenAttacked();
     }
 
     private static bool ManageUseSkill(DemonActionContext demonCtx, TurnContext turnCtx)
@@ -98,6 +98,7 @@ public static class DemonActionExecutor
         {
             var skillCtx = new SkillUseContext(demonCtx.Demon, null, skill, turnCtx.Attacker, turnCtx.Defender);
             SkillManager.HandleSpecialSkill(skillCtx, turnCtx);
+            TurnManager.UpdateTurnStatesForDisplay(turnCtx);
         }
         else
         {
@@ -108,9 +109,8 @@ public static class DemonActionExecutor
             var skillCtx = new SkillUseContext(demonCtx.Demon, target, skill, turnCtx.Attacker, turnCtx.Defender);
 
             AffinityEffectManager.ApplyEffectForSkill(skillCtx, turnCtx, numberHits);
+            UpdateGameStateAfterSkill(turnCtx);
         }
-        
-        UpdateGameStateAfterSkill(turnCtx);
         
         return true;
     }
@@ -130,6 +130,6 @@ public static class DemonActionExecutor
     private static void UpdateGameStateAfterSkill(TurnContext turnCtx)
     {
         TurnManager.UpdateTurnStatesForDisplay(turnCtx);
-        turnCtx.Attacker.ReorderUnitsWhenAttacked();
+        turnCtx.Attacker.RearrangeSortedUnitsWhenAttacked();
     }
 }

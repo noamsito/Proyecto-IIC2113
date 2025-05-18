@@ -171,7 +171,7 @@ public class Player
             .ToList();
     }
     
-    public void ReorderUnitsWhenAttacked()
+    public void RearrangeSortedUnitsWhenAttacked()
     {
         if (_sortedActiveUnitsByOrderOfAttack.Count > 0)
         {
