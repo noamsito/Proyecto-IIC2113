@@ -9,27 +9,15 @@ public static class AffinityEffectManager
     public static void ApplyEffectForSkill(SkillUseContext skillCtx, TurnContext turnCtx, int numHits)
     {
         Skill currentSkill = skillCtx.Skill;
-        string skillType = currentSkill.Type;
         
         int stat = GetStatForSkill(skillCtx);
         double baseDamage = CalculateBaseDamage(stat, currentSkill.Power);
     
         var affinityCtx = CreateAffinityContext(skillCtx, baseDamage);
         
-        if (skillType != "Heal")
+        for (int i = 0; i < numHits; i++)
         {
-            for (int i = 0; i < numHits; i++)
-            {
-                ApplyDamage(skillCtx, affinityCtx);
-            }
-        }
-        else
-        {
-            for (int i = 0; i < numHits; i++)
-            {
-                ApplyHeal(skillCtx, affinityCtx);
-            }
-            
+            ApplyDamage(skillCtx, affinityCtx);
         }
         
         SkillManager.ConsumeMP(skillCtx.Caster, currentSkill.Cost);
@@ -58,7 +46,7 @@ public static class AffinityEffectManager
         return new AffinityContext(skillCtx.Caster, skillCtx.Target, skillCtx.Skill.Type, baseDamage);
     }
 
-    private static void ApplyHeal(SkillUseContext skillCtx, AffinityContext affinityCtx)
+    public static void ApplyHeal(SkillUseContext skillCtx, AffinityContext affinityCtx)
     {
         double finalHeal = SkillManager.CalculateHeal(skillCtx.Target, skillCtx);
         UnitActionManager.Heal(affinityCtx.Target, finalHeal);

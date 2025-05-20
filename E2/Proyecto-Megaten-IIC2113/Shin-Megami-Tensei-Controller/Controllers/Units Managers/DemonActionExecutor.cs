@@ -100,6 +100,16 @@ public static class DemonActionExecutor
             SkillManager.HandleSpecialSkill(skillCtx, turnCtx);
             TurnManager.UpdateTurnStatesForDisplay(turnCtx);
         }
+        else if (skill.Type == "Heal")
+        {
+            Unit? target = SelectSkillTarget(skill, demonCtx);
+            if (target == null) return false;
+            
+            var skillCtx = new SkillUseContext(demonCtx.Demon, target, skill, turnCtx.Attacker, turnCtx.Defender);
+            
+            SkillManager.HandleHealSkills(skillCtx, turnCtx);
+            UpdateGameStateAfterSkill(turnCtx);
+        }
         else
         {
             Unit? target = SelectSkillTarget(skill, demonCtx);

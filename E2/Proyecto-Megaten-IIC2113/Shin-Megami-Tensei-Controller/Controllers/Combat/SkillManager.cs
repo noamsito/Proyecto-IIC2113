@@ -51,6 +51,37 @@ public static class SkillManager
         ConsumeMP(skillCtx.Caster, skillCtx.Skill.Cost);
         TurnManager.ManageTurnsForInvocationSkill(turnCtx);
     }
+
+    public static void HandleHealSkills(SkillUseContext skillCtx, TurnContext turnCtx)
+    {
+        string skillName = skillCtx.Skill.Name;
+        Skill skill = skillCtx.Skill;
+        int numberHits = CalculateNumberHits(skill.Hits, turnCtx.Attacker);
+        int stat = AffinityEffectManager.GetStatForSkill(skillCtx);
+        
+        double baseDamage = AffinityEffectManager.CalculateBaseDamage(stat, skill.Power);
+        var affinityCtx = AffinityEffectManager.CreateAffinityContext(skillCtx, baseDamage);
+        
+        Console.WriteLine("Invitation");
+        switch (skillName)
+        {
+            case "Invitation":
+                SummonManager.SummonFromReserveBySamurai(skillCtx.Attacker);
+                break;
+
+            default:
+
+                for (int i = 0; i < numberHits; i++)
+                {
+                    AffinityEffectManager.ApplyHeal(skillCtx, affinityCtx);
+                }
+                break;
+        }
+        
+        ConsumeMP(skillCtx.Caster, skill.Cost);
+        TurnManager.ConsumeTurnsBasedOnAffinity(affinityCtx, turnCtx);
+        CombatUI.DisplayCombatUi(skillCtx, affinityCtx, numberHits);
+    }
     public static void ConsumeMP(Unit caster, int cost)
     {
         int current = caster.GetCurrentStats().GetStatByName("MP");

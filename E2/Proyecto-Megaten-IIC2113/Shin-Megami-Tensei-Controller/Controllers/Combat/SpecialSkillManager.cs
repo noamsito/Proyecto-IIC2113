@@ -18,17 +18,6 @@ public static class SpecialSkillManager
 
     private static void UseSabbatma(SkillUseContext skillCtx)
     {
-        if (skillCtx.Caster is Samurai)
-        {
-            SummonManager.SummonFromReserveBySamurai(skillCtx.Attacker);
-            foreach (var unit in skillCtx.Attacker.GetSortedActiveUnitsByOrderOfAttack())
-            {
-                Console.WriteLine(unit.GetName());
-            }
-        }
-        else
-        {
-            SummonManager.SummonFromReserveBySamurai(skillCtx.Attacker);
-        }
+        SummonManager.SummonFromReserveBySamurai(skillCtx.Attacker);
     }
 }
