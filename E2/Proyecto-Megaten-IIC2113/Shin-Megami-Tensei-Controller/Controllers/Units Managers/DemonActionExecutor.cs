@@ -96,6 +96,8 @@ public static class DemonActionExecutor
 
     private static bool ManageUseSkill(DemonActionContext demonCtx, TurnContext turnCtx)
     {
+        bool skillUsed = false;
+
         Skill? skill = SkillManager.SelectSkill(demonCtx.View, demonCtx.Demon);
         if (skill == null) return false;
 
@@ -104,6 +106,8 @@ public static class DemonActionExecutor
             var skillCtx = new SkillUseContext(demonCtx.Demon, null, skill, turnCtx.Attacker, turnCtx.Defender);
             SkillManager.HandleSpecialSkill(skillCtx, turnCtx);
             TurnManager.UpdateTurnStatesForDisplay(turnCtx);
+            skillUsed = true;
+
         }
         else if (skill.Type == "Heal")
         {
@@ -116,9 +120,9 @@ public static class DemonActionExecutor
                     return false;
                 }
             }
-            
+
             var skillCtx = new SkillUseContext(demonCtx.Demon, target, skill, turnCtx.Attacker, turnCtx.Defender);
-            SkillManager.HandleHealSkills(skillCtx, turnCtx);
+            skillUsed = SkillManager.HandleHealSkills(skillCtx, turnCtx);
         }
         else
         {
@@ -136,7 +140,7 @@ public static class DemonActionExecutor
             UpdateGameStateAfterSkill(turnCtx);
         }
         
-        return true;
+        return skillUsed;
     }
 
     private static Unit? SelectSkillTarget(Skill skill, DemonActionContext demonCtx)

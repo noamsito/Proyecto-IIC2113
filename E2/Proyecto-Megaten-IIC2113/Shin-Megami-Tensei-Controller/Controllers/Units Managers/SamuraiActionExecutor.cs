@@ -123,6 +123,8 @@ public static class SamuraiActionExecutor
 
     private static bool ManageUseSkill(SamuraiActionContext samuraiCtx, TurnContext turnCtx)
     {
+        bool skillUsed = false;
+        
         Skill? skill = SkillManager.SelectSkill(samuraiCtx.View, samuraiCtx.Samurai);
         if (skill == null) return false;
         
@@ -131,6 +133,7 @@ public static class SamuraiActionExecutor
             var skillCtx = new SkillUseContext(samuraiCtx.Samurai, null, skill, turnCtx.Attacker, turnCtx.Defender);
             SkillManager.HandleSpecialSkill(skillCtx, turnCtx);
             TurnManager.UpdateTurnStatesForDisplay(turnCtx);
+            skillUsed = true;
         }
         else if (skill.Type == "Heal")
         {
@@ -145,7 +148,7 @@ public static class SamuraiActionExecutor
             }
             
             var skillCtx = new SkillUseContext(samuraiCtx.Samurai, target, skill, turnCtx.Attacker, turnCtx.Defender);
-            SkillManager.HandleHealSkills(skillCtx, turnCtx);
+            skillUsed = SkillManager.HandleHealSkills(skillCtx, turnCtx);
         }
         else
         {
@@ -163,7 +166,7 @@ public static class SamuraiActionExecutor
             UpdateGameStateAfterSkill(turnCtx);
         }
         
-        return true;
+        return skillUsed;
     }
 
     private static Unit? SelectSkillTarget(Skill skill, SamuraiActionContext samuraiCtx, TurnContext turnCtx)

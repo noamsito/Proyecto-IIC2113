@@ -52,13 +52,14 @@ public static class SkillManager
         TurnManager.ManageTurnsForInvocationSkill(turnCtx);
     }
 
-    public static void HandleHealSkills(SkillUseContext skillCtx, TurnContext turnCtx)
+    public static bool HandleHealSkills(SkillUseContext skillCtx, TurnContext turnCtx)
     {
         string skillName = skillCtx.Skill.Name;
         Skill skill = skillCtx.Skill;
         int numberHits = CalculateNumberHits(skill.Hits, turnCtx.Attacker);
         int stat = AffinityEffectManager.GetStatForSkill(skillCtx);
         bool hasBeenRevived = false;
+        bool usedSkill;
         
         double baseDamage = AffinityEffectManager.CalculateBaseDamage(stat, skill.Power);
         var affinityCtx = AffinityEffectManager.CreateAffinityContext(skillCtx, baseDamage);
@@ -67,13 +68,7 @@ public static class SkillManager
         {
             case "Invitation":
                 affinityCtx.Target = skillCtx.Target;
-                hasBeenRevived = SummonManager.SummonBySkillInvitation(skillCtx, affinityCtx);
-                
-                if (hasBeenRevived) CombatUI.DisplayCombatUiForSkill(skillCtx, affinityCtx, numberHits);
-                else CombatUI.DisplaySeparator();
-               
-                TurnManager.ManageTurnsForInvocationSkill(turnCtx);
-                TurnManager.UpdateTurnStatesForDisplay(turnCtx);
+                usedSkill = SummonManager.SummonBySkillInvitation(skillCtx, turnCtx);
                 break;
 
             default:
@@ -81,6 +76,8 @@ public static class SkillManager
                 {
                     AffinityEffectManager.ApplyHeal(skillCtx, affinityCtx);
                 }
+
+                usedSkill = true;
                 
                 CombatUI.DisplayCombatUiForSkill(skillCtx, affinityCtx, numberHits);
                 TurnManager.ConsumeTurnsBasedOnAffinity(affinityCtx, turnCtx);
@@ -88,8 +85,13 @@ public static class SkillManager
                 turnCtx.Attacker.RearrangeSortedUnitsWhenAttacked();
                 break;
         }
+
+        if (usedSkill)
+        {
+            ConsumeMP(skillCtx.Caster, skill.Cost);
+        }
         
-        ConsumeMP(skillCtx.Caster, skill.Cost);
+        return usedSkill;
     }
     
     public static void ConsumeMP(Unit caster, int cost)

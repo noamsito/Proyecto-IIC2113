@@ -72,7 +72,7 @@ public static class SummonManager
         return true;
     }
 
-    public static bool SummonBySkillInvitation(SkillUseContext skillCtx, AffinityContext affinityCtx)
+    public static bool SummonBySkillInvitation(SkillUseContext skillCtx, TurnContext turnCtx)
     {
         Player skillCtxAttacker = skillCtx.Attacker;
         
@@ -97,7 +97,17 @@ public static class SummonManager
 
         bool resurrected = ResurrectDemonIfNeeded(selectedDemon);
 
-        return resurrected;
+        if (resurrected)
+        {
+            CombatUI.DisplaySkillUsage(skillCtx.Caster, skillCtx.Skill, skillCtx.Target);
+            double amountHealed = SkillManager.CalculateHeal(skillCtx.Target, skillCtx);
+            CombatUI.DisplayHealing(skillCtx.Target, amountHealed);
+        }
+        
+        TurnManager.ManageTurnsForInvocationSkill(turnCtx);
+        TurnManager.UpdateTurnStatesForDisplay(turnCtx);
+        
+        return true;
     }
 
     private static void DisplaySummonInterface(Player player, out List<Unit> reserve, out string demonInput)
