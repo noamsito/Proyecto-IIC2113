@@ -14,13 +14,22 @@ public static class UnitActionManager
             DemonActionHandler.Handle((Demon)unit, combatCtx);
     }
     
-    public static void ApplyDamageTaken(Unit unitHurt, double damage)
+    public static int ApplyDamageTaken(Unit unitHurt, double damage)
     {
         Stat currentStats = unitHurt.GetCurrentStats();
         
         int currentHP = currentStats.GetStatByName("HP");
         int newHP = Math.Max(0, currentHP - Convert.ToInt32(Math.Floor(damage)));
         currentStats.SetStatByName("HP", newHP);
+        
+        return newHP;
+    }
+
+    public static void PutInReserveList(Player player, Unit unitDead)
+    {
+        var reservedUnits = player.GetReservedUnits();
+        
+        reservedUnits.Add(unitDead);
     }
 
     public static void Heal(Unit target, double amount)

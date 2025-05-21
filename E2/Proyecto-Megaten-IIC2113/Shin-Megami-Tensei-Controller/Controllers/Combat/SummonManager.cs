@@ -27,7 +27,7 @@ public static class SummonManager
         if (IsCancelOption(demonInput, aliveReserve.Count))
             return false;
 
-        Unit selectedDemon = SelectDemonFromFilteredReserve(reserve, demonInput);
+        Unit selectedDemon = SelectDemonFromReserveIncludingDead(reserve, demonInput);
 
         CombatUI.DisplaySlotSelectionPrompt();
 
@@ -39,6 +39,37 @@ public static class SummonManager
 
         int slot = SelectSlot(validSlots, slotInput);
 
+        SummonDemon(player, selectedDemon, slot);
+        return true;
+    }
+
+    public static bool SummonBySkillInvitation(Player player)
+    {
+        CombatUI.DisplaySummonPrompt();
+        
+        var reserve = player.GetReservedUnits();
+        
+        CombatUI.DisplaySummonOptionsIncludingDead(reserve);
+
+        string demonInput = CombatUI.GetUserInput();
+        CombatUI.DisplaySeparator();
+
+        if (IsCancelOption(demonInput, reserve.Count))
+            return false;
+
+        Unit selectedDemon = SelectDemonFromReserveIncludingDead(reserve, demonInput);
+
+        CombatUI.DisplaySlotSelectionPrompt();
+
+        List<int> validSlots = player.GetValidSlotsFromActiveUnitsAndDisplayIt();
+        string slotInput = CombatUI.GetUserInput();
+
+        if (IsCancelOption(slotInput, validSlots.Count))
+            return false;
+
+        int slot = SelectSlot(validSlots, slotInput);
+
+        // falta el mensaje de que la unidad fue revivida
         SummonDemon(player, selectedDemon, slot);
         return true;
     }
@@ -56,7 +87,7 @@ public static class SummonManager
         if (IsCancelOption(input, aliveReserve.Count))
             return;
 
-        Demon selectedDemon = (Demon)SelectDemonFromFilteredReserve(reserve, input);
+        Demon selectedDemon = (Demon)SelectDemonFromReserveIncludingDead(reserve, input);
 
         int slotToReplace = FindSlotOfActiveDemon(player, demonSummoned);
 
@@ -68,11 +99,18 @@ public static class SummonManager
         return input == $"{count + 1}";
     }
 
-    public static Unit SelectDemonFromFilteredReserve(List<Unit> fullReserve, string input)
+    public static Unit SelectDemonFromRerseveOnlyAlive(List<Unit> fullReserve, string input)
     {
         var aliveReserve = fullReserve
             .Where(unit => unit != null && unit.GetCurrentStats().GetStatByName("HP") > 0)
             .ToList();
+
+        int index = ParseInputToIndex(input);
+        return aliveReserve[index];
+    }
+    public static Unit SelectDemonFromReserveIncludingDead(List<Unit> fullReserve, string input)
+    {
+        var aliveReserve = fullReserve.ToList();
 
         int index = ParseInputToIndex(input);
         return aliveReserve[index];

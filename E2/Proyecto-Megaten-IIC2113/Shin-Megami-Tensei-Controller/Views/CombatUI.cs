@@ -232,6 +232,21 @@ public static class CombatUI
             
             _view.WriteLine($"{reservedAlive}-Cancelar");
         }
+        public static void DisplaySummonOptionsIncludingDead(List<Unit> reserve)
+        {
+            int reservedAlive = 1;
+            for (int i = 0; i < reserve.Count; i++)
+            {
+                var demon = reserve[i];
+                _view.WriteLine($"{reservedAlive}-{demon.GetName()} " +
+                               $"HP:{demon.GetCurrentStats().GetStatByName("HP")}/{demon.GetBaseStats().GetStatByName("HP")} " +
+                               $"MP:{demon.GetCurrentStats().GetStatByName("MP")}/{demon.GetBaseStats().GetStatByName("MP")}");
+                reservedAlive++;
+            
+            }
+            
+            _view.WriteLine($"{reservedAlive}-Cancelar");
+        }
 
         public static void DisplayHasBeenSummoned(Unit newDemonAdded)
         {

@@ -40,6 +40,7 @@ public static class TurnManager
         CombatUI.DisplayTurnChanges(fullConsumed, blinkingConsumed, blinkingGained);
 
         ctx.Defender?.RemoveFromActiveUnitsIfDead();
+        ctx.Defender?.ReorderReserveBasedOnJsonOrder();
     }
     
     public static void ManageTurnsForInvocationSkill(TurnContext turnCtx)

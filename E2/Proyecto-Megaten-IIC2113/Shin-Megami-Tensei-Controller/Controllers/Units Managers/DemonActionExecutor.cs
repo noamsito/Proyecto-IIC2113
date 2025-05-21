@@ -94,6 +94,7 @@ public static class DemonActionExecutor
         Skill? skill = SkillManager.SelectSkill(demonCtx.View, demonCtx.Demon);
         if (skill == null) return false;
 
+        Console.WriteLine("Invitation");
         if (skill.Type == "Special")
         {
             var skillCtx = new SkillUseContext(demonCtx.Demon, null, skill, turnCtx.Attacker, turnCtx.Defender);

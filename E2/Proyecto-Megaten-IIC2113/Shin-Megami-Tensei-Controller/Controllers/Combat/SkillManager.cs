@@ -62,15 +62,14 @@ public static class SkillManager
         double baseDamage = AffinityEffectManager.CalculateBaseDamage(stat, skill.Power);
         var affinityCtx = AffinityEffectManager.CreateAffinityContext(skillCtx, baseDamage);
         
-        Console.WriteLine("Invitation");
         switch (skillName)
         {
             case "Invitation":
-                SummonManager.SummonFromReserveBySamurai(skillCtx.Attacker);
+                SummonManager.SummonBySkillInvitation(skillCtx.Attacker);
+                
                 break;
 
             default:
-
                 for (int i = 0; i < numberHits; i++)
                 {
                     AffinityEffectManager.ApplyHeal(skillCtx, affinityCtx);

@@ -78,6 +78,7 @@ public static class AffinityEffectManager
     {
         string affinityType = AffinityResolver.GetAffinity(affinityCtx.Target, affinityCtx.AttackType);
         double finalDamage = GetDamageBasedOnAffinity(affinityCtx);
+        int damageTaken = 0;
         
         if (finalDamage > 0)
         {
@@ -85,18 +86,17 @@ public static class AffinityEffectManager
         }
         else if (finalDamage == -1)
         {
-            Console.WriteLine("Heal");
             UnitActionManager.Heal(affinityCtx.Target, affinityCtx.BaseDamage);
         }
         else if (finalDamage == -2)
         {
-            UnitActionManager.ApplyDamageTaken(affinityCtx.Caster, affinityCtx.BaseDamage);
+            damageTaken = UnitActionManager.ApplyDamageTaken(affinityCtx.Caster, affinityCtx.BaseDamage);
         }
         else if (finalDamage == 0)
         {
-            UnitActionManager.ApplyDamageTaken(affinityCtx.Caster, finalDamage);
+            damageTaken = UnitActionManager.ApplyDamageTaken(affinityCtx.Caster, finalDamage);
         }
-
+        
         CombatUI.DisplayAffinityMessage(affinityCtx);
         CombatUI.ManageDisplayAffinity(affinityType, affinityCtx, finalDamage);
         
