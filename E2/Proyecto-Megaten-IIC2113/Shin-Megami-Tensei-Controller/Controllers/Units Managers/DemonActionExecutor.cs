@@ -17,12 +17,17 @@ public static class DemonActionExecutor
                 CombatUI.DisplaySkillSelectionPrompt(demonCtx.Demon.GetName());
                 bool usedSkill = ManageUseSkill(demonCtx, turnCtx);
                 demonCtx.CurrentPlayer.IncreaseConstantKPlayer();
+                
                 return usedSkill;
 
             case "3":
-                SummonManager.MonsterSwap(demonCtx.CurrentPlayer, demonCtx.Demon);
-                SummonManager.ManageTurnsWhenSummoned(turnCtx);
-                return true;
+                bool hasSummoned = SummonManager.MonsterSwap(demonCtx.CurrentPlayer, demonCtx.Demon);
+                if (hasSummoned)
+                {
+                    SummonManager.ManageTurnsWhenSummoned(turnCtx);
+                }
+
+                return hasSummoned;
 
             case "4":
                 TurnManager.ManageTurnsWhenPassedTurn(turnCtx);
@@ -94,7 +99,6 @@ public static class DemonActionExecutor
         Skill? skill = SkillManager.SelectSkill(demonCtx.View, demonCtx.Demon);
         if (skill == null) return false;
 
-        Console.WriteLine("Invitation");
         if (skill.Type == "Special")
         {
             var skillCtx = new SkillUseContext(demonCtx.Demon, null, skill, turnCtx.Attacker, turnCtx.Defender);
@@ -103,18 +107,27 @@ public static class DemonActionExecutor
         }
         else if (skill.Type == "Heal")
         {
-            Unit? target = SelectSkillTarget(skill, demonCtx);
-            if (target == null) return false;
+            Unit? target = null;
+            if (skill.Name != "Invitation")
+            {
+                target = SelectSkillTarget(skill, demonCtx);
+                if (target == null)
+                {
+                    return false;
+                }
+            }
             
             var skillCtx = new SkillUseContext(demonCtx.Demon, target, skill, turnCtx.Attacker, turnCtx.Defender);
-            
             SkillManager.HandleHealSkills(skillCtx, turnCtx);
-            UpdateGameStateAfterSkill(turnCtx);
         }
         else
         {
             Unit? target = SelectSkillTarget(skill, demonCtx);
-            if (target == null) return false;
+            if (target == null)
+            {
+                CombatUI.DisplaySeparator();
+                return false;
+            }
 
             int numberHits = SkillManager.CalculateNumberHits(skill.Hits, turnCtx.Attacker);
             var skillCtx = new SkillUseContext(demonCtx.Demon, target, skill, turnCtx.Attacker, turnCtx.Defender);

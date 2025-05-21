@@ -125,6 +125,7 @@ public static class SamuraiActionExecutor
     {
         Skill? skill = SkillManager.SelectSkill(samuraiCtx.View, samuraiCtx.Samurai);
         if (skill == null) return false;
+        
         if (skill.Type == "Special")
         {
             var skillCtx = new SkillUseContext(samuraiCtx.Samurai, null, skill, turnCtx.Attacker, turnCtx.Defender);
@@ -137,17 +138,23 @@ public static class SamuraiActionExecutor
             if (skill.Name != "Invitation")
             {
                 target = SelectSkillTarget(skill, samuraiCtx, turnCtx);
-                if (target == null) return false;
+                if (target == null)
+                {
+                    return false;
+                }
             }
             
             var skillCtx = new SkillUseContext(samuraiCtx.Samurai, target, skill, turnCtx.Attacker, turnCtx.Defender);
             SkillManager.HandleHealSkills(skillCtx, turnCtx);
-            UpdateGameStateAfterSkill(turnCtx);
         }
         else
         {
             Unit? target = SelectSkillTarget(skill, samuraiCtx, turnCtx);
-            if (target == null) return false;
+            if (target == null)
+            {
+                CombatUI.DisplaySeparator();
+                return false;
+            }
 
             int numberHits = SkillManager.CalculateNumberHits(skill.Hits, turnCtx.Attacker);
             var skillCtx = new SkillUseContext(samuraiCtx.Samurai, target, skill, turnCtx.Attacker, turnCtx.Defender);

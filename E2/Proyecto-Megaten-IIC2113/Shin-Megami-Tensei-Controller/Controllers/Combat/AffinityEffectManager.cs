@@ -22,7 +22,7 @@ public static class AffinityEffectManager
         
         SkillManager.ConsumeMP(skillCtx.Caster, currentSkill.Cost);
         TurnManager.ConsumeTurnsBasedOnAffinity(affinityCtx, turnCtx);
-        CombatUI.DisplayCombatUi(skillCtx, affinityCtx, numHits);
+        CombatUI.DisplayCombatUiForSkill(skillCtx, affinityCtx, numHits);
     }
     
     public static int GetStatForSkill(SkillUseContext skillCtx)

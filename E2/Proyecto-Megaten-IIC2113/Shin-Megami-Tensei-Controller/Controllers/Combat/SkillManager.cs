@@ -58,6 +58,7 @@ public static class SkillManager
         Skill skill = skillCtx.Skill;
         int numberHits = CalculateNumberHits(skill.Hits, turnCtx.Attacker);
         int stat = AffinityEffectManager.GetStatForSkill(skillCtx);
+        bool hasBeenRevived = false;
         
         double baseDamage = AffinityEffectManager.CalculateBaseDamage(stat, skill.Power);
         var affinityCtx = AffinityEffectManager.CreateAffinityContext(skillCtx, baseDamage);
@@ -65,8 +66,14 @@ public static class SkillManager
         switch (skillName)
         {
             case "Invitation":
-                SummonManager.SummonBySkillInvitation(skillCtx.Attacker);
+                affinityCtx.Target = skillCtx.Target;
+                hasBeenRevived = SummonManager.SummonBySkillInvitation(skillCtx, affinityCtx);
                 
+                if (hasBeenRevived) CombatUI.DisplayCombatUiForSkill(skillCtx, affinityCtx, numberHits);
+                else CombatUI.DisplaySeparator();
+               
+                TurnManager.ManageTurnsForInvocationSkill(turnCtx);
+                TurnManager.UpdateTurnStatesForDisplay(turnCtx);
                 break;
 
             default:
@@ -74,13 +81,17 @@ public static class SkillManager
                 {
                     AffinityEffectManager.ApplyHeal(skillCtx, affinityCtx);
                 }
+                
+                CombatUI.DisplayCombatUiForSkill(skillCtx, affinityCtx, numberHits);
+                TurnManager.ConsumeTurnsBasedOnAffinity(affinityCtx, turnCtx);
+                TurnManager.UpdateTurnStatesForDisplay(turnCtx);
+                turnCtx.Attacker.RearrangeSortedUnitsWhenAttacked();
                 break;
         }
         
         ConsumeMP(skillCtx.Caster, skill.Cost);
-        TurnManager.ConsumeTurnsBasedOnAffinity(affinityCtx, turnCtx);
-        CombatUI.DisplayCombatUi(skillCtx, affinityCtx, numberHits);
     }
+    
     public static void ConsumeMP(Unit caster, int cost)
     {
         int current = caster.GetCurrentStats().GetStatByName("MP");

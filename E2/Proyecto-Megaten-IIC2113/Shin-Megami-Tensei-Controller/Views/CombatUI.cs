@@ -202,7 +202,7 @@ public static class CombatUI
                 "Heal" => "cura a",
                 _ => "usa " + skill.Name + " en"
             };
-
+            
             _view.WriteLine($"{caster.GetName()} {action} {target.GetName()}");
         }
 
@@ -232,6 +232,12 @@ public static class CombatUI
             
             _view.WriteLine($"{reservedAlive}-Cancelar");
         }
+
+        public static void DisplayUnitHasBeenRevived(Unit unitCaster, Unit unitRevived)
+        {
+            _view.WriteLine($"{unitCaster} revive a {unitRevived}");
+        }
+        
         public static void DisplaySummonOptionsIncludingDead(List<Unit> reserve)
         {
             int reservedAlive = 1;
@@ -250,9 +256,7 @@ public static class CombatUI
 
         public static void DisplayHasBeenSummoned(Unit newDemonAdded)
         {
-            _view.WriteLine(GameConstants.Separator);
             _view.WriteLine($"{newDemonAdded.GetName()} ha sido invocado");
-            _view.WriteLine(GameConstants.Separator);
         }
 
         public static void DisplayEmptySlot(List<int> validSlotsList, int iterator)
@@ -291,7 +295,7 @@ public static class CombatUI
             }
         }
 
-        public static void DisplayCombatUi(SkillUseContext skillCtx, AffinityContext affinityCtx, int numHits)
+        public static void DisplayCombatUiForSkill(SkillUseContext skillCtx, AffinityContext affinityCtx, int numHits)
         {
             string affinityType = AffinityResolver.GetAffinity(affinityCtx.Target, affinityCtx.AttackType);
             double finalDamage = AffinityEffectManager.GetDamageBasedOnAffinity(affinityCtx);
@@ -307,7 +311,7 @@ public static class CombatUI
             }
             else if (numHits == 1)
             {
-                DisplaySkillUsage(skillCtx.Caster, skillCtx.Skill, skillCtx.Target); // primero el ataque
+                DisplaySkillUsage(skillCtx.Caster, skillCtx.Skill, skillCtx.Target); 
                 DisplayAffinityMessage(affinityCtx);
                 ManageDisplayAffinity(affinityType, affinityCtx, finalDamage);
             }
@@ -315,7 +319,7 @@ public static class CombatUI
             {
                 for (int i = 0; i < numHits; i++)
                 {
-                    DisplaySkillUsage(skillCtx.Caster, skillCtx.Skill, skillCtx.Target); // debe repetirse por hit
+                    DisplaySkillUsage(skillCtx.Caster, skillCtx.Skill, skillCtx.Target); 
                     DisplayAffinityMessage(affinityCtx);
                     if (finalDamage > 0) DisplayDamageTaken(affinityCtx.Target, finalDamage);
                 }

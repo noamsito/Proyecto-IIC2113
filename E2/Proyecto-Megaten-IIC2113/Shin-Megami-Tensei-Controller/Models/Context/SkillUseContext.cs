@@ -6,7 +6,7 @@ namespace Shin_Megami_Tensei.Combat;
 public class SkillUseContext
 {
     public Unit Caster { get; }
-    public Unit Target { get; }
+    public Unit Target { get; set;  }
     public Skill Skill { get; }
     public Player Attacker { get; }
     public Player Defender { get; }

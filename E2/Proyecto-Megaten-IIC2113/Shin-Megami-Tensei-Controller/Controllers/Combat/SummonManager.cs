@@ -27,7 +27,7 @@ public static class SummonManager
         if (IsCancelOption(demonInput, aliveReserve.Count))
             return false;
 
-        Unit selectedDemon = SelectDemonFromReserveIncludingDead(reserve, demonInput);
+        Unit selectedDemon = SelectDemonFromRerseveOnlyAlive(reserve, demonInput);
 
         CombatUI.DisplaySlotSelectionPrompt();
 
@@ -39,42 +39,13 @@ public static class SummonManager
 
         int slot = SelectSlot(validSlots, slotInput);
 
-        SummonDemon(player, selectedDemon, slot);
-        return true;
-    }
-
-    public static bool SummonBySkillInvitation(Player player)
-    {
-        CombatUI.DisplaySummonPrompt();
-        
-        var reserve = player.GetReservedUnits();
-        
-        CombatUI.DisplaySummonOptionsIncludingDead(reserve);
-
-        string demonInput = CombatUI.GetUserInput();
         CombatUI.DisplaySeparator();
-
-        if (IsCancelOption(demonInput, reserve.Count))
-            return false;
-
-        Unit selectedDemon = SelectDemonFromReserveIncludingDead(reserve, demonInput);
-
-        CombatUI.DisplaySlotSelectionPrompt();
-
-        List<int> validSlots = player.GetValidSlotsFromActiveUnitsAndDisplayIt();
-        string slotInput = CombatUI.GetUserInput();
-
-        if (IsCancelOption(slotInput, validSlots.Count))
-            return false;
-
-        int slot = SelectSlot(validSlots, slotInput);
-
-        // falta el mensaje de que la unidad fue revivida
         SummonDemon(player, selectedDemon, slot);
+        CombatUI.DisplaySeparator();
         return true;
     }
 
-    public static void MonsterSwap(Player player, Demon demonSummoned)
+    public static bool MonsterSwap(Player player, Demon demonSummoned)
     {
         CombatUI.DisplaySummonPrompt();
 
@@ -85,13 +56,86 @@ public static class SummonManager
 
         string input = CombatUI.GetUserInput();
         if (IsCancelOption(input, aliveReserve.Count))
-            return;
+        {
+            CombatUI.DisplaySeparator();
+            return false;
+        }
 
         Demon selectedDemon = (Demon)SelectDemonFromReserveIncludingDead(reserve, input);
 
         int slotToReplace = FindSlotOfActiveDemon(player, demonSummoned);
 
+        CombatUI.DisplaySeparator();
         SummonDemon(player, selectedDemon, slotToReplace);
+        CombatUI.DisplaySeparator();
+
+        return true;
+    }
+
+    public static bool SummonBySkillInvitation(SkillUseContext skillCtx, AffinityContext affinityCtx)
+    {
+        Player skillCtxAttacker = skillCtx.Attacker;
+        
+        DisplaySummonInterface(skillCtxAttacker, out var reserve, out string demonInput);
+
+        if (IsCancelOption(demonInput, reserve.Count))
+        {
+            return false;
+        }
+
+        Unit selectedDemon = SelectDemonFromReserveIncludingDead(reserve, demonInput);
+        skillCtx.Target = selectedDemon;
+
+        if (!TryGetSlotForSummon(skillCtxAttacker, out int slot))
+        {
+            CombatUI.DisplaySeparator();
+            return false;
+        }
+
+        CombatUI.DisplaySeparator();
+        SummonDemon(skillCtxAttacker, selectedDemon, slot);
+
+        bool resurrected = ResurrectDemonIfNeeded(selectedDemon);
+
+        return resurrected;
+    }
+
+    private static void DisplaySummonInterface(Player player, out List<Unit> reserve, out string demonInput)
+    {
+        CombatUI.DisplaySummonPrompt();
+
+        reserve = player.GetReservedUnits();
+
+        CombatUI.DisplaySummonOptionsIncludingDead(reserve);
+
+        demonInput = CombatUI.GetUserInput();
+        CombatUI.DisplaySeparator();
+    }
+
+    private static bool TryGetSlotForSummon(Player player, out int slot)
+    {
+        CombatUI.DisplaySlotSelectionPrompt();
+
+        List<int> validSlots = player.GetValidSlotsFromActiveUnitsAndDisplayIt();
+        string slotInput = CombatUI.GetUserInput();
+
+        bool isCanceled = IsCancelOption(slotInput, validSlots.Count);
+
+        slot = isCanceled ? 0 : SelectSlot(validSlots, slotInput);
+        return !isCanceled;
+    }
+
+    private static bool ResurrectDemonIfNeeded(Unit selectedDemon)
+    {
+        int currentHP = selectedDemon.GetCurrentStats().GetStatByName("HP");
+        if (currentHP <= 0)
+        {
+            int baseHP = selectedDemon.GetBaseStats().GetStatByName("HP");
+            selectedDemon.GetCurrentStats().SetStatByName("HP", baseHP);
+            return true;
+        }
+
+        return false;
     }
 
     private static bool IsCancelOption(string input, int count)

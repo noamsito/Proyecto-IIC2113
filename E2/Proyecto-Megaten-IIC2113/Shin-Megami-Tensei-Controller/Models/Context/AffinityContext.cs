@@ -5,7 +5,7 @@ namespace Shin_Megami_Tensei.Combat;
 public class AffinityContext
 {
     public Unit Caster { get; }
-    public Unit Target { get; }
+    public Unit Target { get; set;  }
     public string AttackType { get; }
     public double BaseDamage { get; }
 

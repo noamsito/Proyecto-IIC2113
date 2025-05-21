@@ -81,10 +81,10 @@ public static class TurnManager
         player.ConsumeBlinkingTurn(player.GetBlinkingTurns());
     }
 
-    public static void ConsumeTurnsBasedOnAffinity(AffinityContext ctx, TurnContext turnCtx)
+    public static void ConsumeTurnsBasedOnAffinity(AffinityContext affinityCtx, TurnContext turnCtx)
     {
         Player attackingPlayer = turnCtx.Attacker;
-        string affinity = AffinityResolver.GetAffinity(ctx.Target, ctx.AttackType);
+        string affinity = AffinityResolver.GetAffinity(affinityCtx.Target, affinityCtx.AttackType);
 
         switch (affinity)
         {

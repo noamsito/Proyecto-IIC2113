@@ -39,8 +39,7 @@ public static class TargetSelector
         if (IsCancelOption(input, possibleTargets.Count))
             return null;
         
-        skillCtx.View.WriteLine(GameConstants.Separator);
-
+        CombatUI.DisplaySeparator();
         return GetSelectedTarget(possibleTargets, input);
     }
 
