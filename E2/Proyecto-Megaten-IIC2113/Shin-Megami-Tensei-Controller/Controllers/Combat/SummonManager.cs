@@ -26,7 +26,9 @@ public static class SummonManager
         CombatUI.DisplaySeparator();
 
         if (IsCancelOption(demonInput, aliveReserve.Count))
+        {
             return false;
+        }
 
         Unit selectedDemon = SelectDemonFromRerseveOnlyAlive(reserve, demonInput);
 
@@ -36,7 +38,10 @@ public static class SummonManager
         string slotInput = CombatUI.GetUserInput();
 
         if (IsCancelOption(slotInput, validSlots.Count))
+        {
+            CombatUI.DisplaySeparator();
             return false;
+        }
 
         int slot = SelectSlot(validSlots, slotInput);
 
@@ -103,6 +108,10 @@ public static class SummonManager
             CombatUI.DisplaySkillUsage(skillCtx.Caster, skillCtx.Skill, skillCtx.Target);
             double amountHealed = SkillManager.CalculateHeal(skillCtx.Target, skillCtx);
             CombatUI.DisplayHealing(skillCtx.Target, amountHealed);
+        }
+        else
+        {
+            CombatUI.DisplaySeparator();
         }
         
         TurnManager.ManageTurnsForInvocationSkill(turnCtx);

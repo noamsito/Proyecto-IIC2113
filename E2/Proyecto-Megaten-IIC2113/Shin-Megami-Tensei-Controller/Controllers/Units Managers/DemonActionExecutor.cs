@@ -117,6 +117,7 @@ public static class DemonActionExecutor
                 target = SelectSkillTarget(skill, demonCtx);
                 if (target == null)
                 {
+                    CombatUI.DisplaySeparator();
                     return false;
                 }
             }
@@ -130,7 +131,8 @@ public static class DemonActionExecutor
             if (target == null)
             {
                 CombatUI.DisplaySeparator();
-                return false;
+                skillUsed = false;
+                return skillUsed;
             }
 
             int numberHits = SkillManager.CalculateNumberHits(skill.Hits, turnCtx.Attacker);
@@ -141,7 +143,7 @@ public static class DemonActionExecutor
             UpdateGameStateAfterSkill(turnCtx);
         }
 
-        return true;
+        return skillUsed;
 }
 
     private static Unit? SelectSkillTarget(Skill skill, DemonActionContext demonCtx)
