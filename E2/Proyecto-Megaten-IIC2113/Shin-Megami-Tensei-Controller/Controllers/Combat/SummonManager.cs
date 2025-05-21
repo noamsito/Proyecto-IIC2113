@@ -1,4 +1,5 @@
-﻿using Shin_Megami_Tensei_View;
+﻿using System.Diagnostics.Contracts;
+using Shin_Megami_Tensei_View;
 using Shin_Megami_Tensei.Combat;
 using Shin_Megami_Tensei.Gadgets;
 
@@ -61,10 +62,10 @@ public static class SummonManager
             return false;
         }
 
-        Demon selectedDemon = (Demon)SelectDemonFromReserveIncludingDead(reserve, input);
+        Demon selectedDemon = (Demon)SelectDemonFromReserveAlives(aliveReserve, input);
 
         int slotToReplace = FindSlotOfActiveDemon(player, demonSummoned);
-
+        
         CombatUI.DisplaySeparator();
         SummonDemon(player, selectedDemon, slotToReplace);
         CombatUI.DisplaySeparator();
@@ -83,7 +84,7 @@ public static class SummonManager
             return false;
         }
 
-        Unit selectedDemon = SelectDemonFromReserveIncludingDead(reserve, demonInput);
+        Unit selectedDemon = SelectDemonFromReserveAlives(reserve, demonInput);
         skillCtx.Target = selectedDemon;
 
         if (!TryGetSlotForSummon(skillCtxAttacker, out int slot))
@@ -162,11 +163,13 @@ public static class SummonManager
         int index = ParseInputToIndex(input);
         return aliveReserve[index];
     }
-    public static Unit SelectDemonFromReserveIncludingDead(List<Unit> fullReserve, string input)
+    public static Unit SelectDemonFromReserveAlives(List<Unit> fullReserve, string input)
     {
         var aliveReserve = fullReserve.ToList();
 
         int index = ParseInputToIndex(input);
+        Console.WriteLine(aliveReserve[index].GetName());
+        
         return aliveReserve[index];
     }
 

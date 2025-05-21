@@ -123,7 +123,7 @@ public static class SamuraiActionExecutor
 
     private static bool ManageUseSkill(SamuraiActionContext samuraiCtx, TurnContext turnCtx)
     {
-        bool skillUsed = false;
+        bool skillUsed = true;
         
         Skill? skill = SkillManager.SelectSkill(samuraiCtx.View, samuraiCtx.Samurai);
         if (skill == null) return false;

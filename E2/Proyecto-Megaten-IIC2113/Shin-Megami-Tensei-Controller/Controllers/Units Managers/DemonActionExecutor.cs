@@ -96,7 +96,7 @@ public static class DemonActionExecutor
 
     private static bool ManageUseSkill(DemonActionContext demonCtx, TurnContext turnCtx)
     {
-        bool skillUsed = false;
+        bool skillUsed = true;
 
         Skill? skill = SkillManager.SelectSkill(demonCtx.View, demonCtx.Demon);
         if (skill == null) return false;
@@ -136,12 +136,13 @@ public static class DemonActionExecutor
             int numberHits = SkillManager.CalculateNumberHits(skill.Hits, turnCtx.Attacker);
             var skillCtx = new SkillUseContext(demonCtx.Demon, target, skill, turnCtx.Attacker, turnCtx.Defender);
 
+            skillUsed = true;
             AffinityEffectManager.ApplyEffectForSkill(skillCtx, turnCtx, numberHits);
             UpdateGameStateAfterSkill(turnCtx);
         }
-        
-        return skillUsed;
-    }
+
+        return true;
+}
 
     private static Unit? SelectSkillTarget(Skill skill, DemonActionContext demonCtx)
     {
