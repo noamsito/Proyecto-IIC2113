@@ -21,35 +21,47 @@ public static class SkillManager
             }
         }
 
-        view.WriteLine($"{displayIndex}-Cancelar");
+        view.WriteLine($"{displayIndex}-Cancelar"); 
+        
         string input = view.ReadLine();
+        
         int selected = Convert.ToInt32(input) - 1;
         
         view.WriteLine(GameConstants.Separator);
+        Console.WriteLine(input);
+        Console.WriteLine(selected);
+        Console.WriteLine(skills.Count);
 
         Stat currentStatUnit = unit.GetCurrentStats();
         if (selected < 0 || selected >= skills.Count || skills[selected].Cost > currentStatUnit.GetStatByName("MP"))
             return null;
 
+        Console.WriteLine(skills[selected]);
         return skills[selected];
     }
     
-    public static void HandleSpecialSkill(SkillUseContext skillCtx, TurnContext turnCtx)
+    public static bool HandleSpecialSkill(SkillUseContext skillCtx, TurnContext turnCtx)
     {
         string name = skillCtx.Skill.Name;
-
+        bool usedSkill = true;
+        
         switch (name)
         {
             case "Sabbatma":
-                SpecialSkillManager.UseSpecialSkill(skillCtx);
+                usedSkill = SpecialSkillManager.UseSpecialSkill(skillCtx);
                 break;
 
             default:
                 break;
         }
 
-        ConsumeMP(skillCtx.Caster, skillCtx.Skill.Cost);
-        TurnManager.ManageTurnsForInvocationSkill(turnCtx);
+        if (usedSkill)
+        {
+            ConsumeMP(skillCtx.Caster, skillCtx.Skill.Cost);
+            TurnManager.ManageTurnsForInvocationSkill(turnCtx);
+        }
+
+        return usedSkill;
     }
 
     public static bool HandleHealSkills(SkillUseContext skillCtx, TurnContext turnCtx)
@@ -104,6 +116,9 @@ public static class SkillManager
     {
         var match = Regex.Match(hitsString, @"(\d+)-(\d+)");
         int hits;
+        
+        Console.WriteLine(match.Groups[1].Value);
+        Console.WriteLine(match.Groups[2].Value);
         
         if (match.Success)
         {

@@ -16,7 +16,7 @@ public static class DemonActionExecutor
             case "2":
                 CombatUI.DisplaySkillSelectionPrompt(demonCtx.Demon.GetName());
                 bool usedSkill = ManageUseSkill(demonCtx, turnCtx);
-                demonCtx.CurrentPlayer.IncreaseConstantKPlayer();
+                if (usedSkill) demonCtx.CurrentPlayer.IncreaseConstantKPlayer();
                 
                 return usedSkill;
 
@@ -104,10 +104,8 @@ public static class DemonActionExecutor
         if (skill.Type == "Special")
         {
             var skillCtx = new SkillUseContext(demonCtx.Demon, null, skill, turnCtx.Attacker, turnCtx.Defender);
-            SkillManager.HandleSpecialSkill(skillCtx, turnCtx);
-            TurnManager.UpdateTurnStatesForDisplay(turnCtx);
-            skillUsed = true;
-
+            skillUsed = SkillManager.HandleSpecialSkill(skillCtx, turnCtx);
+            if (skillUsed) TurnManager.UpdateTurnStatesForDisplay(turnCtx);
         }
         else if (skill.Type == "Heal")
         {

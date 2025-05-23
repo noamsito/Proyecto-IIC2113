@@ -25,7 +25,7 @@ public static class SamuraiActionExecutor
             case "3":
                 CombatUI.DisplaySkillSelectionPrompt(samuraiCtx.Samurai.GetName());
                 bool usedSkill = ManageUseSkill(samuraiCtx, turnCtx);
-                turnCtx.Attacker.IncreaseConstantKPlayer();
+                if (usedSkill) turnCtx.Attacker.IncreaseConstantKPlayer();
                 
                 return usedSkill;
 
@@ -131,9 +131,8 @@ public static class SamuraiActionExecutor
         if (skill.Type == "Special")
         {
             var skillCtx = new SkillUseContext(samuraiCtx.Samurai, null, skill, turnCtx.Attacker, turnCtx.Defender);
-            SkillManager.HandleSpecialSkill(skillCtx, turnCtx);
-            TurnManager.UpdateTurnStatesForDisplay(turnCtx);
-            skillUsed = true;
+            skillUsed = SkillManager.HandleSpecialSkill(skillCtx, turnCtx);
+            if (skillUsed) TurnManager.UpdateTurnStatesForDisplay(turnCtx);
         }
         else if (skill.Type == "Heal")
         {
@@ -143,6 +142,7 @@ public static class SamuraiActionExecutor
                 target = SelectSkillTarget(skill, samuraiCtx, turnCtx);
                 if (target == null)
                 {
+                    CombatUI.DisplaySeparator();
                     return false;
                 }
             }

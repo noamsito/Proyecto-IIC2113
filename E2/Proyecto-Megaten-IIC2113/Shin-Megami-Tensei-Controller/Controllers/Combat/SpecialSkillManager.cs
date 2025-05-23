@@ -6,18 +6,21 @@ namespace Shin_Megami_Tensei.Managers;
 
 public static class SpecialSkillManager
 {
-    public static void UseSpecialSkill(SkillUseContext skillCtx)
+    public static bool UseSpecialSkill(SkillUseContext skillCtx)
     {
+        bool usedSkill = true;
         switch (skillCtx.Skill.Name)
         {
             case "Sabbatma":
-                UseSabbatma(skillCtx);
+                usedSkill = UseSabbatma(skillCtx);
                 break;
         }
+        
+        return usedSkill;
     }
 
-    private static void UseSabbatma(SkillUseContext skillCtx)
+    private static bool UseSabbatma(SkillUseContext skillCtx)
     {
-        SummonManager.SummonFromReserveBySamurai(skillCtx.Attacker);
+        return SummonManager.SummonFromReserveBySamurai(skillCtx.Attacker);
     }
 }
