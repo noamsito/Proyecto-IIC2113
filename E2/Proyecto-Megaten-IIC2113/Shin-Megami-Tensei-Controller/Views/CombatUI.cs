@@ -62,6 +62,16 @@ public static class CombatUI
             }
         }
 
+        public static void DisplayUnitsGiven(List<Unit> deadUnits)
+        {
+            for (int i = 0; i < deadUnits.Count; i++)
+            {
+                Unit unit = deadUnits[i];
+                string statusInfo = TargetSelector.FormatUnitStatus(unit);
+                _view.WriteLine($"{i + 1}-{unit.GetName()} {statusInfo}");
+            }
+        }
+
         public static void DisplayTurnInfo(Player player)
         {
             _view.WriteLine($"Full Turns: {player.GetFullTurns()}");
@@ -305,21 +315,18 @@ public static class CombatUI
     
             if (isTargetAlly)
             {
-                Console.WriteLine("ALLY AAAAAAAAAAAAAAAAAAAAAAAAAAAA");
                 DisplaySkillUsage(skillCtx.Caster, skillCtx.Skill, skillCtx.Target);
                 double amountHealed = SkillManager.CalculateHeal(skillCtx.Target, skillCtx);
                 DisplayHealing(skillCtx.Target, amountHealed);
             }
             else if (numHits == 1)
             {
-                Console.WriteLine("NUM HITS 1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
                 DisplaySkillUsage(skillCtx.Caster, skillCtx.Skill, skillCtx.Target); 
                 DisplayAffinityMessage(affinityCtx);
                 ManageDisplayAffinity(affinityType, affinityCtx, finalDamage);
             }
             else
             {
-                Console.WriteLine("HAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");
                 for (int i = 0; i < numHits; i++)
                 {
                     DisplaySkillUsage(skillCtx.Caster, skillCtx.Skill, skillCtx.Target); 

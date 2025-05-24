@@ -96,53 +96,75 @@ public static class DemonActionExecutor
 
     private static bool ManageUseSkill(DemonActionContext demonCtx, TurnContext turnCtx)
     {
-        bool skillUsed = true;
-
         Skill? skill = SkillManager.SelectSkill(demonCtx.View, demonCtx.Demon);
         if (skill == null) return false;
 
-        if (skill.Type == "Special")
+        switch (skill.Type)
         {
-            var skillCtx = new SkillUseContext(demonCtx.Demon, null, skill, turnCtx.Attacker, turnCtx.Defender);
-            skillUsed = SkillManager.HandleSpecialSkill(skillCtx, turnCtx);
-            if (skillUsed) TurnManager.UpdateTurnStatesForDisplay(turnCtx);
+            case "Special":
+                return HandleSpecialSkill(skill, demonCtx, turnCtx);
+
+            case "Heal":
+                return HandleHealSkill(skill, demonCtx, turnCtx);
+
+            default:
+                return HandleDamageSkill(skill, demonCtx, turnCtx);
         }
-        else if (skill.Type == "Heal")
+    }
+
+    private static bool HandleSpecialSkill(Skill skill, DemonActionContext demonCtx, TurnContext turnCtx)
+    {
+        var skillCtx = CreateSkillContext(demonCtx.Demon, null, skill, turnCtx);
+        bool skillUsed = SkillManager.HandleSpecialSkill(skillCtx, turnCtx);
+
+        if (skillUsed)
         {
-            Unit? target = null;
-            if (skill.Name != "Invitation")
-            {
-                target = SelectSkillTarget(skill, demonCtx);
-                if (target == null)
-                {
-                    CombatUI.DisplaySeparator();
-                    return false;
-                }
-            }
-
-            var skillCtx = new SkillUseContext(demonCtx.Demon, target, skill, turnCtx.Attacker, turnCtx.Defender);
-            skillUsed = SkillManager.HandleHealSkills(skillCtx, turnCtx);
-        }
-        else
-        {
-            Unit? target = SelectSkillTarget(skill, demonCtx);
-            if (target == null)
-            {
-                CombatUI.DisplaySeparator();
-                skillUsed = false;
-                return skillUsed;
-            }
-
-            int numberHits = SkillManager.CalculateNumberHits(skill.Hits, turnCtx.Attacker);
-            var skillCtx = new SkillUseContext(demonCtx.Demon, target, skill, turnCtx.Attacker, turnCtx.Defender);
-
-            skillUsed = true;
-            AffinityEffectManager.ApplyEffectForSkill(skillCtx, turnCtx, numberHits);
-            UpdateGameStateAfterSkill(turnCtx);
+            TurnManager.UpdateTurnStatesForDisplay(turnCtx);
         }
 
         return skillUsed;
-}
+    }
+
+    private static bool HandleHealSkill(Skill skill, DemonActionContext demonCtx, TurnContext turnCtx)
+    {
+        Unit? target = null;
+
+        if (skill.Name != "Invitation")
+        {
+            target = SelectSkillTarget(skill, demonCtx);
+            if (target == null)
+            {
+                CombatUI.DisplaySeparator();
+                return false;
+            }
+        }
+
+        var skillCtx = CreateSkillContext(demonCtx.Demon, target, skill, turnCtx);
+        return SkillManager.HandleHealSkills(skillCtx, turnCtx);
+    }
+
+    private static bool HandleDamageSkill(Skill skill, DemonActionContext demonCtx, TurnContext turnCtx)
+    {
+        Unit? target = SelectSkillTarget(skill, demonCtx);
+        if (target == null)
+        {
+            CombatUI.DisplaySeparator();
+            return false;
+        }
+
+        var skillCtx = CreateSkillContext(demonCtx.Demon, target, skill, turnCtx);
+        int numberHits = SkillManager.CalculateNumberHits(skill.Hits, turnCtx.Attacker);
+
+        AffinityEffectManager.ApplyEffectForSkill(skillCtx, turnCtx, numberHits);
+        UpdateGameStateAfterSkill(turnCtx);
+
+        return true;
+    }
+
+    private static SkillUseContext CreateSkillContext(Unit caster, Unit? target, Skill skill, TurnContext turnCtx)
+    {
+        return new SkillUseContext(caster, target, skill, turnCtx.Attacker, turnCtx.Defender);
+    }
 
     private static Unit? SelectSkillTarget(Skill skill, DemonActionContext demonCtx)
     {

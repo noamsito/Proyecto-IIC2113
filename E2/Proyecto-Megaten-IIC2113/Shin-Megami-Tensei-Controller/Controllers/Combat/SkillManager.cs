@@ -10,15 +10,16 @@ public static class SkillManager
     public static Skill? SelectSkill(View view, Unit unit)
     {
         var skills = unit.GetSkills();
+        var skillListsWithValidMP = skills
+            .Where(skill => skill.Cost <= unit.GetCurrentStats().GetStatByName("MP"))
+            .ToList();
+        
         int displayIndex = 1;
 
-        foreach (var skill in skills)
+        foreach (var skill in skillListsWithValidMP)
         {
-            if (skill.Cost <= unit.GetCurrentStats().GetStatByName("MP"))
-            {
-                view.WriteLine($"{displayIndex}-{skill.Name} MP:{skill.Cost}");
-                displayIndex++;
-            }
+            view.WriteLine($"{displayIndex}-{skill.Name} MP:{skill.Cost}");
+            displayIndex++;
         }
 
         view.WriteLine($"{displayIndex}-Cancelar"); 
@@ -28,16 +29,13 @@ public static class SkillManager
         int selected = Convert.ToInt32(input) - 1;
         
         view.WriteLine(GameConstants.Separator);
-        Console.WriteLine(input);
-        Console.WriteLine(selected);
-        Console.WriteLine(skills.Count);
-
+        
         Stat currentStatUnit = unit.GetCurrentStats();
-        if (selected < 0 || selected >= skills.Count || skills[selected].Cost > currentStatUnit.GetStatByName("MP"))
+        if (selected < 0 || selected >= skillListsWithValidMP.Count || 
+            skillListsWithValidMP[selected].Cost > currentStatUnit.GetStatByName("MP"))
             return null;
 
-        Console.WriteLine(skills[selected]);
-        return skills[selected];
+        return skillListsWithValidMP[selected];
     }
     
     public static bool HandleSpecialSkill(SkillUseContext skillCtx, TurnContext turnCtx)
@@ -82,11 +80,21 @@ public static class SkillManager
                 affinityCtx.Target = skillCtx.Target;
                 usedSkill = SummonManager.SummonBySkillInvitation(skillCtx, turnCtx);
                 break;
+            
+            case "Recarm":
+                affinityCtx.Target = skillCtx.Target;
+                usedSkill = HandleRecarmSkill(skillCtx);
+                
+                TurnManager.ConsumeTurnsBasedOnAffinity(affinityCtx, turnCtx);
+                TurnManager.UpdateTurnStatesForDisplay(turnCtx);
+                turnCtx.Attacker.RearrangeSortedUnitsWhenAttacked();
+                
+                break;
 
             default:
                 for (int i = 0; i < numberHits; i++)
                 {
-                    AffinityEffectManager.ApplyHeal(skillCtx, affinityCtx);
+                    AffinityEffectManager.ApplyHeal(skillCtx);
                 }
 
                 usedSkill = true;
@@ -104,6 +112,28 @@ public static class SkillManager
         }
         
         return usedSkill;
+    }
+    
+    private static bool HandleRecarmSkill(SkillUseContext skillCtx)
+    {
+        Player attackerPlayer = skillCtx.Attacker;
+        Unit unitCaster = skillCtx.Caster;
+        Unit unitTarget = skillCtx.Target;
+        Skill skillUsing = skillCtx.Skill;
+
+        List<Unit> activeUnitsList = attackerPlayer.GetActiveUnits();
+        
+        CombatUI.DisplaySkillUsage(unitCaster, skillUsing, unitTarget);
+        double amountHealed = CalculateHalfHp(unitTarget, skillCtx); 
+        AffinityEffectManager.ApplyHalfHeal(skillCtx);
+        
+        if (activeUnitsList.Contains(unitTarget))
+        {
+            attackerPlayer.AddUnitInSortedList(unitTarget);
+        }        
+        
+        CombatUI.DisplayHealing(unitTarget, amountHealed);
+        return true;
     }
     
     public static void ConsumeMP(Unit caster, int cost)
@@ -146,6 +176,11 @@ public static class SkillManager
         
         return Math.Floor((skillPower / 100.0) * baseHealth);
     }
-    
-    
+
+    public static double CalculateHalfHp(Unit targetUnit, SkillUseContext skillCtx)
+    {
+        int baseHealth = targetUnit.GetBaseStats().GetStatByName("HP");
+        
+        return Math.Floor(baseHealth / 2.0);
+    }
 }

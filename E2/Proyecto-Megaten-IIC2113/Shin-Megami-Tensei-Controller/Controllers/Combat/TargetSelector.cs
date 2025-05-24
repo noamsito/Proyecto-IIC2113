@@ -10,7 +10,7 @@ public static class TargetSelector
     {
         var enemies = GetValidEnemies(ctx.Opponent);
         DisplayTargetSelectionPrompt(ctx.View, ctx.Attacker.GetName());
-        CombatUI.DisplayDemonsStats(enemies);
+        CombatUI.DisplayUnitsGiven(enemies);
         CombatUI.DisplayCancelOption(enemies.Count);
 
         string input = CombatUI.GetUserInput();
@@ -31,7 +31,7 @@ public static class TargetSelector
         DisplayTargetSelectionPrompt(skillCtx.View, unitAttacking.GetName());
 
         List<Unit> possibleTargets = GetPossibleTargets(skillCtx);
-        CombatUI.DisplayDemonsStats(possibleTargets);
+        CombatUI.DisplayUnitsGiven(possibleTargets);
         CombatUI.DisplayCancelOption(possibleTargets.Count);
 
         string input = GetUserInput(skillCtx.View);
@@ -104,7 +104,6 @@ public static class TargetSelector
             return opponent.GetValidActiveUnits();
         }
     }
-
 
     private static bool IsCancelOption(string input, int optionsCount)
     {

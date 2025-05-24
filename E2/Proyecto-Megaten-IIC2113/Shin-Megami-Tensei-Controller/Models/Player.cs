@@ -27,8 +27,6 @@ public class Player
 
     public Player(string name)
     {
-        // PlayerData data = new PlayerData(string name);
-        
         this._name = name;
         this._activeUnits = new List<Unit> { null, null, null, null };
         this._sortedActiveUnitsByOrderOfAttack = new List<Unit> { null, null, null, null };
@@ -107,11 +105,6 @@ public class Player
        }
    }
 
-   public void InsertDemonAtBeginningOfOrder(Demon demon)
-   {
-       _sortedActiveUnitsByOrderOfAttack.Insert(0, demon);
-   }
-   
    public void SetReserveUnits()
    {
        List<Demon> listDemons = this._team.Demons;
@@ -155,7 +148,7 @@ public class Player
         _hasSurrendered = true;
         _ableToContinue = false;
     }
-    
+
     public bool IsPlayerOutOfTurns()
     {
         return this._fullTurns == 0 && this._blinkingTurns == 0;
@@ -286,6 +279,11 @@ public class Player
            .ToList();
 
        _reservedUnits = orderedDemons.Cast<Unit>().ToList();
+   }
+
+   public void AddUnitInSortedList(Unit newUnit)
+   {
+       _sortedActiveUnitsByOrderOfAttack.Add(newUnit);
    }
 
    public List<Unit> GetValidActiveUnits()

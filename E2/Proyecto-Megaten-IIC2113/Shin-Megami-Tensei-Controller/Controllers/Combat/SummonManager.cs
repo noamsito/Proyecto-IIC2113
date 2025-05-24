@@ -119,6 +119,7 @@ public static class SummonManager
         
         return true;
     }
+    
 
     private static void DisplaySummonInterface(Player player, out List<Unit> reserve, out string demonInput)
     {

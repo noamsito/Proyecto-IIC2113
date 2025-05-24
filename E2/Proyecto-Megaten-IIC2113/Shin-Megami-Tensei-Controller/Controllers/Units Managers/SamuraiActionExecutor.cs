@@ -123,50 +123,80 @@ public static class SamuraiActionExecutor
 
     private static bool ManageUseSkill(SamuraiActionContext samuraiCtx, TurnContext turnCtx)
     {
-        bool skillUsed = true;
-        
         Skill? skill = SkillManager.SelectSkill(samuraiCtx.View, samuraiCtx.Samurai);
         if (skill == null) return false;
-        
+
+        return ExecuteSkill(skill, samuraiCtx, turnCtx);
+    }
+
+    private static bool ExecuteSkill(Skill skill, SamuraiActionContext samuraiCtx, TurnContext turnCtx)
+    {
         if (skill.Type == "Special")
         {
-            var skillCtx = new SkillUseContext(samuraiCtx.Samurai, null, skill, turnCtx.Attacker, turnCtx.Defender);
-            skillUsed = SkillManager.HandleSpecialSkill(skillCtx, turnCtx);
-            if (skillUsed) TurnManager.UpdateTurnStatesForDisplay(turnCtx);
+            return HandleSpecialSkill(skill, samuraiCtx, turnCtx);
         }
         else if (skill.Type == "Heal")
         {
-            Unit? target = null;
-            if (skill.Name != "Invitation")
-            {
-                target = SelectSkillTarget(skill, samuraiCtx, turnCtx);
-                if (target == null)
-                {
-                    CombatUI.DisplaySeparator();
-                    return false;
-                }
-            }
-            
-            var skillCtx = new SkillUseContext(samuraiCtx.Samurai, target, skill, turnCtx.Attacker, turnCtx.Defender);
-            skillUsed = SkillManager.HandleHealSkills(skillCtx, turnCtx);
+            return HandleHealSkill(skill, samuraiCtx, turnCtx);
         }
         else
         {
-            Unit? target = SelectSkillTarget(skill, samuraiCtx, turnCtx);
+            return HandleDamageSkill(skill, samuraiCtx, turnCtx);
+        }
+    }
+
+    private static bool HandleSpecialSkill(Skill skill, SamuraiActionContext samuraiCtx, TurnContext turnCtx)
+    {
+        var skillCtx = CreateSkillContext(samuraiCtx.Samurai, null, skill, turnCtx);
+        bool skillUsed = SkillManager.HandleSpecialSkill(skillCtx, turnCtx);
+
+        if (skillUsed)
+        {
+            TurnManager.UpdateTurnStatesForDisplay(turnCtx);
+        }
+
+        return skillUsed;
+    }
+
+    private static bool HandleHealSkill(Skill skill, SamuraiActionContext samuraiCtx, TurnContext turnCtx)
+    {
+        Unit? target = null;
+
+        if (skill.Name != "Invitation")
+        {
+            target = SelectSkillTarget(skill, samuraiCtx, turnCtx);
             if (target == null)
             {
                 CombatUI.DisplaySeparator();
                 return false;
             }
-
-            int numberHits = SkillManager.CalculateNumberHits(skill.Hits, turnCtx.Attacker);
-            var skillCtx = new SkillUseContext(samuraiCtx.Samurai, target, skill, turnCtx.Attacker, turnCtx.Defender);
-
-            AffinityEffectManager.ApplyEffectForSkill(skillCtx, turnCtx, numberHits);
-            UpdateGameStateAfterSkill(turnCtx);
         }
-        
-        return skillUsed;
+
+        var skillCtx = CreateSkillContext(samuraiCtx.Samurai, target, skill, turnCtx);
+        return SkillManager.HandleHealSkills(skillCtx, turnCtx);
+    }
+
+    private static bool HandleDamageSkill(Skill skill, SamuraiActionContext samuraiCtx, TurnContext turnCtx)
+    {
+        Unit? target = SelectSkillTarget(skill, samuraiCtx, turnCtx);
+        if (target == null)
+        {
+            CombatUI.DisplaySeparator();
+            return false;
+        }
+
+        var skillCtx = CreateSkillContext(samuraiCtx.Samurai, target, skill, turnCtx);
+        int numberHits = SkillManager.CalculateNumberHits(skill.Hits, turnCtx.Attacker);
+
+        AffinityEffectManager.ApplyEffectForSkill(skillCtx, turnCtx, numberHits);
+        UpdateGameStateAfterSkill(turnCtx);
+
+        return true;
+    }
+
+    private static SkillUseContext CreateSkillContext(Unit caster, Unit? target, Skill skill, TurnContext turnCtx)
+    {
+        return new SkillUseContext(caster, target, skill, turnCtx.Attacker, turnCtx.Defender);
     }
 
     private static Unit? SelectSkillTarget(Skill skill, SamuraiActionContext samuraiCtx, TurnContext turnCtx)

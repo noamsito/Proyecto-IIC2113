@@ -46,10 +46,16 @@ public static class AffinityEffectManager
         return new AffinityContext(skillCtx.Caster, skillCtx.Target, skillCtx.Skill.Type, baseDamage);
     }
 
-    public static void ApplyHeal(SkillUseContext skillCtx, AffinityContext affinityCtx)
+    public static void ApplyHeal(SkillUseContext skillCtx)
     {
         double finalHeal = SkillManager.CalculateHeal(skillCtx.Target, skillCtx);
-        UnitActionManager.Heal(affinityCtx.Target, finalHeal);
+        UnitActionManager.Heal(skillCtx.Target, finalHeal);
+    }
+    
+    public static void ApplyHalfHeal(SkillUseContext skillCtx)
+    {
+        double finalHeal = SkillManager.CalculateHalfHp(skillCtx.Target, skillCtx);
+        UnitActionManager.Heal(skillCtx.Target, finalHeal);
     }
     
     private static void ApplyDamage(SkillUseContext skillCtx, AffinityContext affinityCtx)
