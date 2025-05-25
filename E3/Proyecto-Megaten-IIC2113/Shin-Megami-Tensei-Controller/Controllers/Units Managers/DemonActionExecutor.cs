@@ -8,6 +8,9 @@ public static class DemonActionExecutor
     public static bool Execute(string input, DemonActionContext demonCtx)
     {
         var turnCtx = new TurnContext(demonCtx.CurrentPlayer, demonCtx.Opponent, demonCtx.FullStart, demonCtx.BlinkStart);
+        Player currentPlayer = demonCtx.CurrentPlayer;
+        PlayerTurnManager turnManager = currentPlayer.TurnManager;
+        
         switch (input)
         {
             case "1":
@@ -16,7 +19,7 @@ public static class DemonActionExecutor
             case "2":
                 CombatUI.DisplaySkillSelectionPrompt(demonCtx.Demon.GetName());
                 bool usedSkill = ManageUseSkill(demonCtx, turnCtx);
-                if (usedSkill) demonCtx.CurrentPlayer.IncreaseConstantKPlayer();
+                if (usedSkill) turnManager.IncreaseConstantKPlayer();
                 
                 return usedSkill;
 
@@ -55,9 +58,11 @@ public static class DemonActionExecutor
     private static Unit? SelectAttackTarget(DemonActionContext demonCtx)
     {
         var targetCtx = new AttackTargetContext(demonCtx.Demon, demonCtx.Opponent, demonCtx.View);
-
+        Player currentPlayer = demonCtx.CurrentPlayer;
+        PlayerUnitManager unitManager = currentPlayer.UnitManager;
+        
         string targetInput = TargetSelector.SelectEnemy(targetCtx);
-        int cancelNum = targetCtx.Opponent.GetValidActiveUnits().Count + 1;
+        int cancelNum = unitManager.GetValidActiveUnits().Count + 1;
 
         if (targetInput == cancelNum.ToString())
             return null;
@@ -89,9 +94,12 @@ public static class DemonActionExecutor
 
     private static void UpdateGameStateAfterAttack(AffinityContext affinityCtx, TurnContext turnCtx)
     {
+        Player currentPlayer = turnCtx.Attacker;
+        PlayerUnitManager unitManager = currentPlayer.UnitManager;
+        
         TurnManager.ConsumeTurnsBasedOnAffinity(affinityCtx, turnCtx);
         TurnManager.UpdateTurnStatesForDisplay(turnCtx);
-        turnCtx.Attacker.RearrangeSortedUnitsWhenAttacked();
+        unitManager.RearrangeSortedUnitsWhenAttacked();
     }
 
     private static bool ManageUseSkill(DemonActionContext demonCtx, TurnContext turnCtx)

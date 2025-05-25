@@ -5,14 +5,17 @@ namespace Shin_Megami_Tensei.Managers;
 
 public class CombatManager
 {
-    public View view;
+    private readonly View _view;
     private readonly Dictionary<string, Player> _players;
     private bool _gameWon;
     private bool _isNewRound;
 
+    private const string Player1Key = "Player 1";
+    private const string Player2Key = "Player 2";
+
     public CombatManager(View view, Dictionary<string, Player> players)
     {
-        this.view = view;
+        _view = view;
         _players = players;
         _gameWon = false;
         _isNewRound = true;
@@ -20,24 +23,27 @@ public class CombatManager
 
     public void StartCombat()
     {
-        SetInitialTurns();
-        PlayCombatRounds();
+        InitializePlayersForCombat();
+        ExecuteCombatLoop();
     }
 
-    private void SetInitialTurns()
+    private void InitializePlayersForCombat()
     {
         foreach (var player in _players.Values)
-            player.SetTurns();
+        {
+            PlayerTurnManager turnManager = player.TurnManager;
+            turnManager.SetTurns();
+        }
     }
 
-    private void PlayCombatRounds()
+    private void ExecuteCombatLoop()
     {
-        Player currentPlayer = _players["Player 1"];
-        
-        view.WriteLine(GameConstants.Separator);
+        Player currentPlayer = _players[Player1Key];
+
+        _view.WriteLine(GameConstants.Separator);
         while (!_gameWon)
         {
-            HandleRound(ref currentPlayer);
+            ProcessPlayerTurn(currentPlayer);
 
             if (ShouldSwitchPlayer(currentPlayer))
             {
@@ -47,67 +53,104 @@ public class CombatManager
         }
     }
 
-    private void HandleRound(ref Player currentPlayer)
+    private void ProcessPlayerTurn(Player currentPlayer)
     {
         int playerNumber = GetPlayerNumber(currentPlayer);
 
+        HandleNewRoundIfNeeded(currentPlayer, playerNumber);
+        DisplayGameState(currentPlayer);
+
+        ExecuteUnitAction(currentPlayer);
+        CheckForVictory(currentPlayer);
+    }
+
+    private void HandleNewRoundIfNeeded(Player currentPlayer, int playerNumber)
+    {
         if (_isNewRound)
         {
-            TurnManager.PrepareNewRound(currentPlayer, view, playerNumber);
+            TurnManager.PrepareNewRound(currentPlayer, _view, playerNumber);
             _isNewRound = false;
         }
+    }
 
+    private void DisplayGameState(Player currentPlayer)
+    {
         CombatUI.DisplayBoardState(_players);
         CombatUI.DisplayTurnInfo(currentPlayer);
         CombatUI.DisplaySortedUnits(currentPlayer);
-
-        Unit? activeUnit = TurnManager.GetCurrentUnit(currentPlayer);
-        CombatContext combatContext = new(currentPlayer, GetOpponent(currentPlayer), view);
-        int fullStartTurns = currentPlayer.GetFullTurns();
-        int blinkingStartTurns = currentPlayer.GetBlinkingTurns();
-        
-        var turnCtx = new TurnContext(combatContext.CurrentPlayer, combatContext.Opponent, fullStartTurns, 
-            blinkingStartTurns);
-        
-        UnitActionManager.ExecuteAction(activeUnit, combatContext, turnCtx);
-
-        CheckAndHandleVictory(currentPlayer);
     }
-    
+
+    private void ExecuteUnitAction(Player currentPlayer)
+    {
+        Unit? activeUnit = TurnManager.GetCurrentUnit(currentPlayer);
+        CombatContext combatContext = CreateCombatContext(currentPlayer);
+        TurnContext turnContext = CreateTurnContext(combatContext, currentPlayer);
+
+        UnitActionManager.ExecuteAction(activeUnit, combatContext, turnContext);
+    }
+
+    private CombatContext CreateCombatContext(Player currentPlayer)
+    {
+        return new CombatContext(currentPlayer, GetOpponent(currentPlayer), _view);
+    }
+
+    private TurnContext CreateTurnContext(CombatContext combatContext, Player currentPlayer)
+    {
+        PlayerTurnManager turnManagerCurrentPlayer = currentPlayer.TurnManager;
+        
+        int fullStartTurns = turnManagerCurrentPlayer.GetFullTurns();
+        int blinkingStartTurns = turnManagerCurrentPlayer.GetBlinkingTurns();
+
+        return new TurnContext(
+            combatContext.CurrentPlayer,
+            combatContext.Opponent,
+            fullStartTurns,
+            blinkingStartTurns
+        );
+    }
+
     private int GetPlayerNumber(Player player)
     {
-        return player.GetName() == "Player 1" ? 1 : 2;
+        return player.GetName() == Player1Key ? 1 : 2;
     }
 
     private bool ShouldSwitchPlayer(Player currentPlayer)
     {
-        return currentPlayer.IsPlayerOutOfTurns();
+        return currentPlayer.TurnManager.IsPlayerOutOfTurns();
     }
 
     public Player GetOpponent(Player currentPlayer)
     {
-        return currentPlayer.GetName() == "Player 1" ? _players["Player 2"] : _players["Player 1"];
+        return currentPlayer.GetName() == Player1Key ? _players[Player2Key] : _players[Player1Key];
     }
-    
-    private void CheckAndHandleVictory(Player currentPlayer)
+
+    private void CheckForVictory(Player currentPlayer)
     {
         Player opponent = GetOpponent(currentPlayer);
 
-        currentPlayer.CheckIfTeamIsAbleToContinue();
-        opponent.CheckIfTeamIsAbleToContinue();
+        UpdateTeamsStatus(currentPlayer, opponent);
 
-        if (!currentPlayer.IsTeamAbleToContinue())
+        if (!currentPlayer.CombatState.IsTeamAbleToContinue())
         {
-            CombatUI.DisplayWinner(opponent);
-            _gameWon = true;
+            AnnounceWinner(opponent);
             return;
         }
 
-        if (!opponent.IsTeamAbleToContinue())
+        if (!opponent.CombatState.IsTeamAbleToContinue())
         {
-            CombatUI.DisplayWinner(currentPlayer);
-            _gameWon = true;
-            return;
+            AnnounceWinner(currentPlayer);
         }
+    }
+
+    private void UpdateTeamsStatus(Player currentPlayer, Player opponent)
+    {
+        currentPlayer.CombatState.CheckIfTeamIsAbleToContinue();
+        opponent.CombatState.CheckIfTeamIsAbleToContinue();
+    }
+
+    private void AnnounceWinner(Player winner)
+    {
+        CombatUI.DisplayWinner(winner);
+        _gameWon = true;
     }
 }

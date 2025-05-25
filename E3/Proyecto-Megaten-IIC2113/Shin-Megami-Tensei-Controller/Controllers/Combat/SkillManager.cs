@@ -64,9 +64,12 @@ public static class SkillManager
 
     public static bool HandleHealSkills(SkillUseContext skillCtx, TurnContext turnCtx)
     {
+        Player attackerPlayer = skillCtx.Attacker;
+        PlayerUnitManager playerUnitManager = attackerPlayer.UnitManager;
+        
         string skillName = skillCtx.Skill.Name;
         Skill skill = skillCtx.Skill;
-        int numberHits = CalculateNumberHits(skill.Hits, turnCtx.Attacker);
+        int numberHits = CalculateNumberHits(skill.Hits, skillCtx.Attacker);
         int stat = AffinityEffectManager.GetStatForSkill(skillCtx);
         bool hasBeenRevived = false;
         bool usedSkill;
@@ -87,7 +90,7 @@ public static class SkillManager
                 
                 TurnManager.ConsumeTurnsBasedOnAffinity(affinityCtx, turnCtx);
                 TurnManager.UpdateTurnStatesForDisplay(turnCtx);
-                turnCtx.Attacker.RearrangeSortedUnitsWhenAttacked();
+                playerUnitManager.RearrangeSortedUnitsWhenAttacked();
                 
                 break;
 
@@ -102,7 +105,7 @@ public static class SkillManager
                 CombatUI.DisplayCombatUiForSkill(skillCtx, affinityCtx, numberHits);
                 TurnManager.ConsumeTurnsBasedOnAffinity(affinityCtx, turnCtx);
                 TurnManager.UpdateTurnStatesForDisplay(turnCtx);
-                turnCtx.Attacker.RearrangeSortedUnitsWhenAttacked();
+                playerUnitManager.RearrangeSortedUnitsWhenAttacked();
                 break;
         }
 
@@ -117,11 +120,12 @@ public static class SkillManager
     private static bool HandleRecarmSkill(SkillUseContext skillCtx)
     {
         Player attackerPlayer = skillCtx.Attacker;
+        PlayerUnitManager playerUnitManager = attackerPlayer.UnitManager;
         Unit unitCaster = skillCtx.Caster;
         Unit unitTarget = skillCtx.Target;
         Skill skillUsing = skillCtx.Skill;
 
-        List<Unit> activeUnitsList = attackerPlayer.GetActiveUnits();
+        List<Unit> activeUnitsList = playerUnitManager.GetActiveUnits();
         
         CombatUI.DisplaySkillUsage(unitCaster, skillUsing, unitTarget);
         double amountHealed = CalculateHalfHp(unitTarget, skillCtx); 
@@ -129,7 +133,7 @@ public static class SkillManager
         
         if (activeUnitsList.Contains(unitTarget))
         {
-            attackerPlayer.AddUnitInSortedList(unitTarget);
+            playerUnitManager.AddUnitInSortedList(unitTarget);
         }        
         
         CombatUI.DisplayHealing(unitTarget, amountHealed);
@@ -144,6 +148,7 @@ public static class SkillManager
 
     public static int CalculateNumberHits(string hitsString, Player attackerPlayer)
     {
+        PlayerUnitManager playerUnitManager = attackerPlayer.UnitManager;
         var match = Regex.Match(hitsString, @"(\d+)-(\d+)");
         int hits;
         

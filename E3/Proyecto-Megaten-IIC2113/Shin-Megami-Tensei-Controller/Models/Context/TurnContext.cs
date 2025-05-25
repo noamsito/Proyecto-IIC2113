@@ -16,9 +16,9 @@ public class TurnContext
         Defender = defender;
         FullStart = fullStart;
         BlinkStart = blinkStart;
-
-        FullNow = attacker.GetFullTurns();
-        BlinkNow = attacker.GetBlinkingTurns();
+        
+        FullNow = attacker.TurnManager.GetFullTurns();
+        BlinkNow = attacker.TurnManager.GetBlinkingTurns();
     }
 
     public int GetFullConsumed() => FullStart - FullNow;

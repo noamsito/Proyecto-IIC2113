@@ -19,7 +19,7 @@ public class ActionContext
         Opponent = opponent;
         View = view;
 
-        FullStart = currentPlayer.GetFullTurns();
-        BlinkStart = currentPlayer.GetBlinkingTurns();
+        FullStart = currentPlayer.TurnManager.GetFullTurns();
+        BlinkStart = currentPlayer.TurnManager.GetBlinkingTurns();
     }
 }

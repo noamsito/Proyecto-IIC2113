@@ -5,32 +5,41 @@ namespace Shin_Megami_Tensei;
 
 public class Game
 {
-    public readonly View view;
+    private readonly View _view;
     private readonly string _teamsFolder;
     private Dictionary<string, Player> _players;
 
     public Game(View view, string teamsFolder)
     {
-        this.view = view;
+        _view = view;
         _teamsFolder = teamsFolder;
-        
+
         CombatUI.Initialize(view);
     }
 
     public void Play()
     {
-        _players = GameLoader.LoadTeamsFromFile(view, _teamsFolder);
-        ValidateTeams();
+        _players = GameLoader.LoadTeamsFromFile(_view, _teamsFolder);
 
-        if (AreTeamsValid())
+        if (!ValidateAndCheckTeams())
         {
-            var combatManager = new CombatManager(view, _players);
-            combatManager.StartCombat();
+            _view.WriteLine("Archivo de equipos inválido");
+            return;
         }
-        else
-        {
-            view.WriteLine("Archivo de equipos inválido");
-        }
+
+        StartCombat();
+    }
+
+    private bool ValidateAndCheckTeams()
+    {
+        ValidateTeams();
+        return AreTeamsValid();
+    }
+
+    private void StartCombat()
+    {
+        var combatManager = new CombatManager(_view, _players);
+        combatManager.StartCombat();
     }
 
     private void ValidateTeams()
