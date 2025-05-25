@@ -3,6 +3,7 @@ using Shin_Megami_Tensei;
 using Shin_Megami_Tensei.Combat;
 using Shin_Megami_Tensei.Controllers;
 using Shin_Megami_Tensei.Gadgets;
+using Shin_Megami_Tensei.Managers;
 
 public static class UnitActionManager
 {
@@ -27,7 +28,8 @@ public static class UnitActionManager
 
     public static void PutInReserveList(Player player, Unit unitDead)
     {
-        var reservedUnits = player.GetReservedUnits();
+        PlayerUnitManager unitManagerPlayer = player.UnitManager;
+        var reservedUnits = unitManagerPlayer.GetReservedUnits();
         
         reservedUnits.Add(unitDead);
     }

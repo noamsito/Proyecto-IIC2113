@@ -1,37 +1,39 @@
 ﻿using Shin_Megami_Tensei_View;
 using Shin_Megami_Tensei.Combat;
+using Shin_Megami_Tensei.Gadgets;
 using Shin_Megami_Tensei.String_Handlers;
 
 namespace Shin_Megami_Tensei.Managers;
 
 public static class TurnManager
 {
-    public static void SetInitialTurns(IEnumerable<Player> players)
-    {
-        foreach (var player in players)
-        {
-            player.SetTurns();
-        }
-    }
-
     public static void PrepareNewRound(Player player, View view, int playerNumber)
     {
-        player.SetTurns();
-        player.SetOrderOfAttackOfActiveUnits();
+        PlayerTurnManager turnManagerPlayer = player.TurnManager;
+        PlayerUnitManager unitManagerPlayer = player.UnitManager;
+        
+        turnManagerPlayer.SetTurns();
+        unitManagerPlayer.SetOrderOfAttackOfActiveUnits();
         view.WriteLine($"Ronda de {player.GetTeam().Samurai.GetName()} (J{playerNumber})");
         view.WriteLine(GameConstants.Separator);
     }
 
     public static Unit? GetCurrentUnit(Player player)
     {
-        var sortedUnits = player.GetSortedActiveUnitsByOrderOfAttack();
+        PlayerUnitManager unitManagerPlayer = player.UnitManager;
+
+        var sortedUnits = unitManagerPlayer.GetSortedActiveUnitsByOrderOfAttack();
         return sortedUnits.FirstOrDefault(); 
     }
     
     public static void UpdateTurnStatesForDisplay(TurnContext ctx)
     {
-        int fullNow = ctx.Attacker.GetFullTurns();
-        int blinkNow = ctx.Attacker.GetBlinkingTurns();
+        PlayerTurnManager turnManagerPlayer = ctx.Attacker.TurnManager;
+        PlayerUnitManager unitManagerOpponent = ctx.Defender.UnitManager;
+        PlayerTeamManager teamManagerOpponent = ctx.Defender.TeamManager;
+        
+        int fullNow = turnManagerPlayer.GetFullTurns();
+        int blinkNow = turnManagerPlayer.GetBlinkingTurns();
 
         int fullConsumed = ctx.FullStart - fullNow;
         int blinkingConsumed = Math.Max(0, ctx.BlinkStart - blinkNow);
@@ -39,51 +41,81 @@ public static class TurnManager
 
         CombatUI.DisplayTurnChanges(fullConsumed, blinkingConsumed, blinkingGained);
 
-        ctx.Defender?.RemoveFromActiveUnitsIfDead();
-        ctx.Defender?.ReorderReserveBasedOnJsonOrder();
+        unitManagerOpponent.RemoveFromActiveUnitsIfDead();
+        teamManagerOpponent.ReorderReserveBasedOnJsonOrder();
     }
     
     public static void ManageTurnsForInvocationSkill(TurnContext turnCtx)
     {
-        if (turnCtx.Attacker.GetBlinkingTurns() > 0)
+        PlayerTurnManager turnManagerPlayer = turnCtx.Attacker.TurnManager;
+        
+        if (turnManagerPlayer.GetBlinkingTurns() > 0)
         {
-            turnCtx.Attacker.ConsumeBlinkingTurn(1);
+            turnManagerPlayer.ConsumeBlinkingTurn(1);
         }
         else
         {
-            turnCtx.Attacker.ConsumeFullTurn(1);
+            turnManagerPlayer.ConsumeFullTurn(1);
         }
     }
 
-    public static void ConsumeTurnsWhenPassedTurn(TurnContext ctx)
+    public static void ConsumeTurnsWhenPassedTurn(TurnContext turnCtx)
     {
-        if (ctx.Attacker.GetBlinkingTurns() > 0)
+        PlayerTurnManager turnManagerPlayer = turnCtx.Attacker.TurnManager;
+        
+        if (turnManagerPlayer.GetBlinkingTurns() > 0)
         {
-            ctx.Attacker.ConsumeBlinkingTurn(1);
+            turnManagerPlayer.ConsumeBlinkingTurn(1);
         }
         else
         {
-            ctx.Attacker.ConsumeFullTurn(1);
-            ctx.Attacker.GainBlinkingTurn(1);
+            turnManagerPlayer.ConsumeFullTurn(1);
+            turnManagerPlayer.GainBlinkingTurn(1);
         }
     }
     
-    public static void ManageTurnsWhenPassedTurn(TurnContext ctx)
+    public static void ConsumeTurn(TurnContext turnCtx)
     {
-        ConsumeTurnsWhenPassedTurn(ctx);
-        UpdateTurnStatesForDisplay(ctx);
-        ctx.Attacker.RearrangeSortedUnitsWhenAttacked();
+        int fullTurnsToConsume = 1;
+        
+        if (turnCtx.Attacker.TurnManager.GetFullTurns() > 0)
+        {
+            turnCtx.Attacker.TurnManager.ConsumeFullTurn(fullTurnsToConsume);
+        }
+        else if (turnCtx.Attacker.TurnManager.GetBlinkingTurns() > 0)
+        {
+            turnCtx.Attacker.TurnManager.ConsumeBlinkingTurn(fullTurnsToConsume);
+        }
+    }
+
+    public static void ConsumeTurnsForHealSkill(Skill skill, TurnContext turnCtx)
+    {
+        
+    }
+
+    
+    public static void ManageTurnsWhenPassedTurn(TurnContext turnCtx)
+    {
+        PlayerUnitManager unitManagerPlayer = turnCtx.Attacker.UnitManager;
+        
+        ConsumeTurnsWhenPassedTurn(turnCtx);
+        UpdateTurnStatesForDisplay(turnCtx);
+        unitManagerPlayer.RearrangeSortedUnitsWhenAttacked();
     }
     
     public static void ConsumeAllTurns(Player player)
     {
-        player.ConsumeFullTurn(player.GetFullTurns());
-        player.ConsumeBlinkingTurn(player.GetBlinkingTurns());
+        PlayerTurnManager turnManagerPlayer = player.TurnManager;
+        
+        turnManagerPlayer.ConsumeFullTurn(turnManagerPlayer.GetFullTurns());
+        turnManagerPlayer.ConsumeBlinkingTurn(turnManagerPlayer.GetBlinkingTurns());
     }
 
     public static void ConsumeTurnsBasedOnAffinity(AffinityContext affinityCtx, TurnContext turnCtx)
     {
         Player attackingPlayer = turnCtx.Attacker;
+        PlayerTurnManager turnManagerPlayer = attackingPlayer.TurnManager;
+        
         string affinity = AffinityResolver.GetAffinity(affinityCtx.Target, affinityCtx.AttackType);
 
         switch (affinity)
@@ -97,47 +129,47 @@ public static class TurnManager
                 break;
 
             case "Nu":
-                if (attackingPlayer.GetBlinkingTurns() >= 2)
+                if (turnManagerPlayer.GetBlinkingTurns() >= 2)
                 {
-                    attackingPlayer.ConsumeBlinkingTurn(2);
+                    turnManagerPlayer.ConsumeBlinkingTurn(2);
                 }
                 else
                 {
-                    int blink = attackingPlayer.GetBlinkingTurns();
-                    attackingPlayer.ConsumeBlinkingTurn(blink);
-                    attackingPlayer.ConsumeFullTurn(2 - blink);
+                    int blink = turnManagerPlayer.GetBlinkingTurns();
+                    turnManagerPlayer.ConsumeBlinkingTurn(blink);
+                    turnManagerPlayer.ConsumeFullTurn(2 - blink);
                 }
                 break;
 
             case "Miss":
-                if (attackingPlayer.GetBlinkingTurns() >= 1)
-                    attackingPlayer.ConsumeBlinkingTurn(1);
+                if (turnManagerPlayer.GetBlinkingTurns() >= 1)
+                    turnManagerPlayer.ConsumeBlinkingTurn(1);
                 else
-                    attackingPlayer.ConsumeFullTurn(1);
+                    turnManagerPlayer.ConsumeFullTurn(1);
                 break;
 
             case "Wk":
-                if (attackingPlayer.GetFullTurns() > 0)
+                if (turnManagerPlayer.GetFullTurns() > 0)
                 {
-                    attackingPlayer.ConsumeFullTurn(1);
-                    attackingPlayer.GainBlinkingTurn(1);
+                    turnManagerPlayer.ConsumeFullTurn(1);
+                    turnManagerPlayer.GainBlinkingTurn(1);
                 }
                 else
                 {
-                    attackingPlayer.ConsumeBlinkingTurn(1);
+                    turnManagerPlayer.ConsumeBlinkingTurn(1);
                 }
                 
                 break;
             
             case "Rs":
             case "-":
-                if (attackingPlayer.GetBlinkingTurns() > 0)
+                if (turnManagerPlayer.GetBlinkingTurns() > 0)
                 {
-                    attackingPlayer.ConsumeBlinkingTurn(1);
+                    turnManagerPlayer.ConsumeBlinkingTurn(1);
                 }
                 else
                 {
-                    attackingPlayer.ConsumeFullTurn(1);
+                    turnManagerPlayer.ConsumeFullTurn(1);
                 }
                 break;
         }

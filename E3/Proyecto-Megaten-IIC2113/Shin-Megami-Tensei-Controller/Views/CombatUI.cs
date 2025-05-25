@@ -37,7 +37,8 @@ public static class CombatUI
     
         public static void DisplayActiveUnits(Player player)
         {
-            var units = player.GetActiveUnits();
+            PlayerUnitManager unitManagerPlayer = player.UnitManager;
+            var units = unitManagerPlayer.GetActiveUnits();
             char label = 'A';
 
             foreach (var unit in units)
@@ -74,15 +75,20 @@ public static class CombatUI
 
         public static void DisplayTurnInfo(Player player)
         {
-            _view.WriteLine($"Full Turns: {player.GetFullTurns()}");
-            _view.WriteLine($"Blinking Turns: {player.GetBlinkingTurns()}");
+            PlayerTurnManager turnManagerPlayer = player.TurnManager;
+            
+            _view.WriteLine($"Full Turns: {turnManagerPlayer.GetFullTurns()}");
+            _view.WriteLine($"Blinking Turns: {turnManagerPlayer.GetBlinkingTurns()}");
             _view.WriteLine(GameConstants.Separator);
         }
     
         public static void DisplaySortedUnits(Player player)
         {
+            PlayerUnitManager unitManagerPlayer = player.UnitManager;   
+            var units = unitManagerPlayer.GetSortedActiveUnitsByOrderOfAttack(); 
+            
             _view.WriteLine("Orden:");
-            var units = player.GetSortedActiveUnitsByOrderOfAttack();
+            
             for (int i = 0; i < units.Count; i++)
                 _view.WriteLine($"{i + 1}-{units[i].GetName()}");
             _view.WriteLine(GameConstants.Separator);
@@ -152,7 +158,7 @@ public static class CombatUI
             _view.WriteLine($"{target.GetName()} recibe {Convert.ToInt32(Math.Floor(damage))} de daño");
         }
 
-        private static void DisplayFinalHP(Unit target)
+        public static void DisplayFinalHP(Unit target)
         {
             int currentHP = target.GetCurrentStats().GetStatByName("HP");
             int baseHP = target.GetBaseStats().GetStatByName("HP");
@@ -316,7 +322,7 @@ public static class CombatUI
             if (isTargetAlly)
             {
                 DisplaySkillUsage(skillCtx.Caster, skillCtx.Skill, skillCtx.Target);
-                double amountHealed = SkillManager.CalculateHeal(skillCtx.Target, skillCtx);
+                double amountHealed = HealSkillsManager.CalculateHeal(skillCtx.Target, skillCtx);
                 DisplayHealing(skillCtx.Target, amountHealed);
             }
             else if (numHits == 1)

@@ -23,9 +23,11 @@ public static class SamuraiActionExecutor
                 return PerformAttack("Gun", samuraiCtx, turnCtx);
 
             case "3":
+                PlayerTurnManager turnManager = turnCtx.Attacker.TurnManager;
+                
                 CombatUI.DisplaySkillSelectionPrompt(samuraiCtx.Samurai.GetName());
                 bool usedSkill = ManageUseSkill(samuraiCtx, turnCtx);
-                if (usedSkill) turnCtx.Attacker.IncreaseConstantKPlayer();
+                if (usedSkill) turnManager.IncreaseConstantKPlayer();
                 
                 return usedSkill;
 
@@ -89,8 +91,11 @@ public static class SamuraiActionExecutor
     {
         var targetCtx = new AttackTargetContext(samuraiCtx.Samurai, samuraiCtx.Opponent, samuraiCtx.View);
 
+        Player opponentPlayer = targetCtx.Opponent;
+        PlayerUnitManager unitManager = opponentPlayer.UnitManager;
+        
         string targetInput = TargetSelector.SelectEnemy(targetCtx);
-        int cancelNum = targetCtx.Opponent.GetValidActiveUnits().Count + 1;
+        int cancelNum = unitManager.GetValidActiveUnits().Count + 1;
 
         if (targetInput == cancelNum.ToString())
             return null;
@@ -116,9 +121,12 @@ public static class SamuraiActionExecutor
 
     private static void UpdateGameStateAfterAttack(AffinityContext affinityCtx, TurnContext turnCtx)
     {
+        Player attackerPlayer = turnCtx.Attacker;
+        PlayerUnitManager unitManagerAttacker = attackerPlayer.UnitManager;
+        
         TurnManager.ConsumeTurnsBasedOnAffinity(affinityCtx, turnCtx);
         TurnManager.UpdateTurnStatesForDisplay(turnCtx);
-        turnCtx.Attacker.RearrangeSortedUnitsWhenAttacked();
+        unitManagerAttacker.RearrangeSortedUnitsWhenAttacked();
     }
 
     private static bool ManageUseSkill(SamuraiActionContext samuraiCtx, TurnContext turnCtx)
@@ -131,17 +139,14 @@ public static class SamuraiActionExecutor
 
     private static bool ExecuteSkill(Skill skill, SamuraiActionContext samuraiCtx, TurnContext turnCtx)
     {
-        if (skill.Type == "Special")
+        switch (skill.Type)
         {
-            return HandleSpecialSkill(skill, samuraiCtx, turnCtx);
-        }
-        else if (skill.Type == "Heal")
-        {
-            return HandleHealSkill(skill, samuraiCtx, turnCtx);
-        }
-        else
-        {
-            return HandleDamageSkill(skill, samuraiCtx, turnCtx);
+            case "Special":
+                return HandleSpecialSkill(skill, samuraiCtx, turnCtx);
+            case "Heal":
+                return HandleHealSkill(skill, samuraiCtx, turnCtx);
+            default:
+                return HandleDamageSkill(skill, samuraiCtx, turnCtx);
         }
     }
 
@@ -150,10 +155,7 @@ public static class SamuraiActionExecutor
         var skillCtx = CreateSkillContext(samuraiCtx.Samurai, null, skill, turnCtx);
         bool skillUsed = SkillManager.HandleSpecialSkill(skillCtx, turnCtx);
 
-        if (skillUsed)
-        {
-            TurnManager.UpdateTurnStatesForDisplay(turnCtx);
-        }
+        if (skillUsed) TurnManager.UpdateTurnStatesForDisplay(turnCtx);
 
         return skillUsed;
     }
@@ -161,8 +163,9 @@ public static class SamuraiActionExecutor
     private static bool HandleHealSkill(Skill skill, SamuraiActionContext samuraiCtx, TurnContext turnCtx)
     {
         Unit? target = null;
-
-        if (skill.Name != "Invitation")
+        var skillNamesNeedSelectTarget = GameConstants._skillsThatNeedSelectObjective;
+        
+        if (!skillNamesNeedSelectTarget.Contains(skill.Name))
         {
             target = SelectSkillTarget(skill, samuraiCtx, turnCtx);
             if (target == null)
@@ -216,7 +219,10 @@ public static class SamuraiActionExecutor
 
     private static void UpdateGameStateAfterSkill(TurnContext turnCtx)
     {
+        Player attackerPlayer = turnCtx.Attacker;
+        PlayerUnitManager unitManagerAttacker = attackerPlayer.UnitManager;
+        
         TurnManager.UpdateTurnStatesForDisplay(turnCtx);
-        turnCtx.Attacker.RearrangeSortedUnitsWhenAttacked();
+        unitManagerAttacker.RearrangeSortedUnitsWhenAttacked();
     }
 }

@@ -6,8 +6,6 @@ public class Player
 {
     private const string Player1Name = "Player 1";
     private const string Player2Name = "Player 2";
-
-    private int _KConstOfHits = 0;
     
     private readonly string _name;
     private Team _team;
@@ -56,7 +54,6 @@ public class Player
     }
 
     public bool HasSurrendered() => _hasSurrendered;
-    public int GetConstantKPlayer() => _KConstOfHits;
 
     public bool IsPlayer1() => _name == Player1Name;
     public bool IsPlayer2() => _name == Player2Name;

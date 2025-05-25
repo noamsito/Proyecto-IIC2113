@@ -16,4 +16,23 @@ public static class GameConstants
     public const int MAX_SKILLS_SAMURAI = 8;
     public const double MULTIPLIER_WEAK_AFFINITY = 1.5;
     public const double MULTIPLIER_RESISTANT_AFFINITY = 2.0;
+    
+    public static readonly List<string> _skillsThatNeedSelectObjective = new List<string>
+    {
+        "Invitation",
+        "Media"
+    };
+
+    public static readonly List<string> _stringForMultiTarget = new List<string>
+    {
+        "All",
+        "Party",
+        "Multi"
+    };
+    
+    public static readonly List<string> _reviveSkillsNames = new List<string>
+    {
+        "Recarm",
+        "Recarmdra",
+    };
 }

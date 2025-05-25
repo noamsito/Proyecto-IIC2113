@@ -48,13 +48,13 @@ public static class AffinityEffectManager
 
     public static void ApplyHeal(SkillUseContext skillCtx)
     {
-        double finalHeal = SkillManager.CalculateHeal(skillCtx.Target, skillCtx);
+        double finalHeal = HealSkillsManager.CalculateHeal(skillCtx.Target, skillCtx);
         UnitActionManager.Heal(skillCtx.Target, finalHeal);
     }
     
     public static void ApplyHalfHeal(SkillUseContext skillCtx)
     {
-        double finalHeal = SkillManager.CalculateHalfHp(skillCtx.Target, skillCtx);
+        double finalHeal = HealSkillsManager.CalculateHalfHp(skillCtx.Target, skillCtx);
         UnitActionManager.Heal(skillCtx.Target, finalHeal);
     }
     

@@ -5,6 +5,7 @@ public class PlayerTurnManager
     private readonly Player _player;
     private int _fullTurns;
     private int _blinkingTurns;
+    private int _KConstOfHits = 0;
 
     public PlayerTurnManager(Player player)
     {
@@ -39,10 +40,10 @@ public class PlayerTurnManager
         _blinkingTurns += amount;
     }
     
+    public int GetConstantKPlayer() => _KConstOfHits;
+    
     public void IncreaseConstantKPlayer()
     {
-        // No podemos incrementar directamente el valor devuelto por GetConstantKPlayer()
-        // Necesitamos un método setter en la clase Player
-        _player.IncreaseConstantKPlayer();
+        _KConstOfHits++;
     }
 }

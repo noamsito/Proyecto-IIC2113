@@ -58,11 +58,14 @@ public static class DemonActionExecutor
     private static Unit? SelectAttackTarget(DemonActionContext demonCtx)
     {
         var targetCtx = new AttackTargetContext(demonCtx.Demon, demonCtx.Opponent, demonCtx.View);
-        Player currentPlayer = demonCtx.CurrentPlayer;
-        PlayerUnitManager unitManager = currentPlayer.UnitManager;
+        Player opponentPlayer = demonCtx.Opponent;
+        PlayerUnitManager unitManager = opponentPlayer.UnitManager;
         
         string targetInput = TargetSelector.SelectEnemy(targetCtx);
         int cancelNum = unitManager.GetValidActiveUnits().Count + 1;
+        
+        Console.WriteLine(unitManager);
+        Console.WriteLine(cancelNum);
 
         if (targetInput == cancelNum.ToString())
             return null;
@@ -188,7 +191,10 @@ public static class DemonActionExecutor
     
     private static void UpdateGameStateAfterSkill(TurnContext turnCtx)
     {
+        Player currentPlayer = turnCtx.Attacker;
+        PlayerUnitManager unitManager = currentPlayer.UnitManager;
+        
         TurnManager.UpdateTurnStatesForDisplay(turnCtx);
-        turnCtx.Attacker.RearrangeSortedUnitsWhenAttacked();
+        unitManager.RearrangeSortedUnitsWhenAttacked();
     }
 }

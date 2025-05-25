@@ -10,6 +10,7 @@ public static class TargetSelector
     {
         var enemies = GetValidEnemies(ctx.Opponent);
         DisplayTargetSelectionPrompt(ctx.View, ctx.Attacker.GetName());
+        
         CombatUI.DisplayUnitsGiven(enemies);
         CombatUI.DisplayCancelOption(enemies.Count);
 
@@ -45,7 +46,9 @@ public static class TargetSelector
 
     private static List<Unit> GetValidEnemies(Player opponent)
     {
-        return opponent.GetValidActiveUnits();
+        PlayerUnitManager playerUnitManager = opponent.UnitManager;
+
+        return playerUnitManager.GetValidActiveUnits();
     }
 
     private static void DisplayTargetSelectionPrompt(View view, string attackerName)
@@ -77,6 +80,9 @@ public static class TargetSelector
     {
         Player currentPlayer = ctx.CurrentPlayer;
         Player opponent = ctx.Opponent;
+        
+        PlayerUnitManager playerUnitManager = currentPlayer.UnitManager;
+        PlayerUnitManager opponentUnitManager = opponent.UnitManager;
 
         bool isTargetAlly = ctx.Skill.Target == "Ally";
         bool isRevive = ctx.Skill.Name is "Recarm" or "Samarecarm" or "Invitation";
@@ -85,23 +91,23 @@ public static class TargetSelector
         {
             if (isRevive)
             {
-                return currentPlayer.GetActiveUnits()
+                return playerUnitManager.GetActiveUnits()
                     .Where(u => u != null && u.GetCurrentStats().GetStatByName("HP") <= 0)
                     .Concat(
-                        currentPlayer.GetReservedUnits()
+                        playerUnitManager.GetReservedUnits()
                             .Where(u => u != null && u.GetCurrentStats().GetStatByName("HP") <= 0)
                     )
                     .ToList();
             }
 
 
-            return currentPlayer.GetActiveUnits()
+            return playerUnitManager.GetActiveUnits()
                 .Where(u => u != null && u.GetCurrentStats().GetStatByName("HP") > 0)
                 .ToList();
         }
         else
         {
-            return opponent.GetValidActiveUnits();
+            return opponentUnitManager.GetValidActiveUnits();
         }
     }
 
