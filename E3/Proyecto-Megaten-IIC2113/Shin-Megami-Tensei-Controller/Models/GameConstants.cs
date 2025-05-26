@@ -17,10 +17,13 @@ public static class GameConstants
     public const double MULTIPLIER_WEAK_AFFINITY = 1.5;
     public const double MULTIPLIER_RESISTANT_AFFINITY = 2.0;
     
-    public static readonly List<string> _skillsThatNeedSelectObjective = new List<string>
+    public static readonly List<string> _skillsThatDontNeedSelectObjective = new List<string>
     {
         "Invitation",
-        "Media"
+        "Media",
+        "Mediarama",
+        "Mediarahan",
+        "Recarmdra",
     };
 
     public static readonly List<string> _stringForMultiTarget = new List<string>

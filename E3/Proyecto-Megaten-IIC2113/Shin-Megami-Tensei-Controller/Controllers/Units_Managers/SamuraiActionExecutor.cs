@@ -163,7 +163,7 @@ public static class SamuraiActionExecutor
     private static bool HandleHealSkill(Skill skill, SamuraiActionContext samuraiCtx, TurnContext turnCtx)
     {
         Unit? target = null;
-        var skillNamesNeedSelectTarget = GameConstants._skillsThatNeedSelectObjective;
+        var skillNamesNeedSelectTarget = GameConstants._skillsThatDontNeedSelectObjective;
         
         if (!skillNamesNeedSelectTarget.Contains(skill.Name))
         {

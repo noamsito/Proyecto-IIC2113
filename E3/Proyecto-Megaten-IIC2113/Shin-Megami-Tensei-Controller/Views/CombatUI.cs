@@ -165,7 +165,18 @@ public static class CombatUI
             _view.WriteLine($"{target.GetName()} termina con HP:{currentHP}/{baseHP}");
         }
     
-        public static void DisplayHealing(Unit target, double amountDamage)
+        public static void DisplayHealingForMultiTargets(Unit caster, Unit target, double amountDamage)
+        {
+            int currentHp = target.GetCurrentStats().GetStatByName("HP");
+            int baseHp = target.GetBaseStats().GetStatByName("HP");
+            int amountHealed = Convert.ToInt32(Math.Floor(amountDamage));
+            
+            _view.WriteLine($"{caster.GetName()} cura a {target.GetName()}");
+            _view.WriteLine($"{target.GetName()} recibe {amountHealed} de HP");
+            _view.WriteLine($"{target.GetName()} termina con HP:{currentHp}/{baseHp}");
+        }
+        
+        public static void DisplayHealingForSingleTarget(Unit target, double amountDamage)
         {
             int currentHp = target.GetCurrentStats().GetStatByName("HP");
             int baseHp = target.GetBaseStats().GetStatByName("HP");
@@ -173,7 +184,6 @@ public static class CombatUI
             
             _view.WriteLine($"{target.GetName()} recibe {amountHealed} de HP");
             _view.WriteLine($"{target.GetName()} termina con HP:{currentHp}/{baseHp}");
-            _view.WriteLine(GameConstants.Separator);
         }
     
         public static void DisplayAffinityMessage(AffinityContext affinityCtx)
@@ -223,14 +233,13 @@ public static class CombatUI
         }
 
     
-        public static void DisplayRevive(Unit caster, Unit revived, double healAmount)
+        public static void DisplayReviveForMultiTargets(Unit caster, Unit revived, double healAmount)
         {
             int amountHealed = Convert.ToInt32(Math.Floor(healAmount));
             
             _view.WriteLine($"{caster.GetName()} revive a {revived.GetName()}");
             _view.WriteLine($"{revived.GetName()} recibe {amountHealed} de HP");
             _view.WriteLine($"{revived.GetName()} termina con HP:{revived.GetCurrentStats().GetStatByName("HP")}/{revived.GetBaseStats().GetStatByName("HP")}");
-            _view.WriteLine(GameConstants.Separator);
         }
         
         public static void DisplaySummonOptions(List<Unit> reserve)
@@ -325,7 +334,8 @@ public static class CombatUI
             {
                 DisplaySkillUsage(skillCtx.Caster, skillCtx.Skill, skillCtx.Target);
                 double amountHealed = HealSkillsManager.CalculateHeal(skillCtx.Target, skillCtx);
-                DisplayHealing(skillCtx.Target, amountHealed);
+                DisplayHealingForSingleTarget(skillCtx.Target, amountHealed);
+                DisplaySeparator();
             }
             else if (numHits == 1)
             {
@@ -351,6 +361,18 @@ public static class CombatUI
                     DisplayFinalHP(affinityCtx.Caster);
                 }
                 DisplaySeparator();
+            }
+        }
+
+        public static void DisplaySpecificForHealSkill(SkillUseContext skillCtx)
+        {
+            Unit unitCaster = skillCtx.Caster;
+            
+            switch (skillCtx.Skill.Name)
+            {
+                case "Recarmdra":
+                    DisplayFinalHP(unitCaster);
+                    break;
             }
         }
 }       

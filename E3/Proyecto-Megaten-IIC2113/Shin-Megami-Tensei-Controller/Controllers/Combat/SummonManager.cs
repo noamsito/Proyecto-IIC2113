@@ -111,7 +111,8 @@ public static class SummonManager
         {
             CombatUI.DisplaySkillUsage(skillCtx.Caster, skillCtx.Skill, skillCtx.Target);
             double amountHealed = HealSkillsManager.CalculateHeal(skillCtx.Target, skillCtx);
-            CombatUI.DisplayHealing(skillCtx.Target, amountHealed);
+            CombatUI.DisplayHealingForSingleTarget(skillCtx.Target, amountHealed);
+            CombatUI.DisplaySeparator();
         }
         else
         {

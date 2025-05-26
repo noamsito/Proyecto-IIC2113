@@ -139,8 +139,9 @@ public static class DemonActionExecutor
     private static bool HandleHealSkill(Skill skill, DemonActionContext demonCtx, TurnContext turnCtx)
     {
         Unit? target = null;
-
-        if (skill.Name != "Invitation")
+        var skillNamesNeedSelectTarget = GameConstants._skillsThatDontNeedSelectObjective;
+        
+        if (!skillNamesNeedSelectTarget.Contains(skill.Name))
         {
             target = SelectSkillTarget(skill, demonCtx);
             if (target == null)

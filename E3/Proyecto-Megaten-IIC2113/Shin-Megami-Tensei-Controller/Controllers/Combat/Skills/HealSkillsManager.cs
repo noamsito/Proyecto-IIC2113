@@ -8,25 +8,67 @@ public static class HealSkillsManager
     public static bool HandleMultiTargetHealSkill(SkillUseContext skillCtx, TurnContext turnCtx)
     {
         Skill skill = skillCtx.Skill;
-        Unit caster = skillCtx.Caster;
         
-        Player currentPlayer = skillCtx.Attacker;
-        Player opponent = skillCtx.Defender;
-        
-        double healAmount = CalculateHeal(caster, skillCtx);
-        bool isReviveSkill = GameConstants._reviveSkillsNames.Contains(skill.Name);
+        // bool isReviveSkill = GameConstants._reviveSkillsNames.Contains(skill.Name);
         
         List<Unit> targets = GetTargetsForMultiHealSkill(skillCtx);
         
+        // foreach (Unit target in targets)
+        // { 
+        //     Console.WriteLine(target.GetName());
+        // }
+        
         foreach (Unit target in targets)
         { 
-            ApplyHealEffect(skillCtx, target, healAmount, isReviveSkill);
+            double healAmount = CalculateHeal(target, skillCtx);
+            Console.WriteLine(target.GetName());
+            ApplyHealEffect(skillCtx, target, healAmount);
         }
+
+        ApplySpecificEffectsForMultiHealSkill(skillCtx);
+        CombatUI.DisplaySpecificForHealSkill(skillCtx);
         
         TurnManager.ConsumeTurnsForHealSkill(skill, turnCtx);
         TurnManager.ConsumeTurn(turnCtx);
         
+        CombatUI.DisplaySeparator();
         return true;
+    }
+    
+    private static void ApplyHealEffect(SkillUseContext skillCtx, Unit target, double healAmount)
+    {
+        Unit caster = skillCtx.Caster;
+        int hpBeforeHeal = target.GetCurrentStats().GetStatByName("HP");
+        bool isTargetDead = hpBeforeHeal <= 0;
+        bool isReviveSkill = GameConstants._reviveSkillsNames.Contains(skillCtx.Skill.Name);
+        
+        if ((isReviveSkill && isTargetDead) || (!isReviveSkill && !isTargetDead))
+        {
+            UnitActionManager.ApplyHealToUnit(target, healAmount);
+            int hpAfterHeal = target.GetCurrentStats().GetStatByName("HP");
+            int healedAmount = hpAfterHeal - hpBeforeHeal;
+
+            if (isReviveSkill && isTargetDead)
+            {
+                CombatUI.DisplayReviveForMultiTargets(caster, target, healedAmount);
+            }
+            else
+            {
+                CombatUI.DisplayHealingForMultiTargets(caster, target, healAmount);
+            }
+        }
+    }
+
+    private static void ApplySpecificEffectsForMultiHealSkill(SkillUseContext skillCtx)
+    {
+        switch (skillCtx.Skill.Name)
+        {
+            case "Recarmdra":
+                Unit unitCaster = skillCtx.Caster;
+                unitCaster.GetCurrentStats().SetStatByName("HP", 0);
+                
+                break;
+        }
     }
     
     private static List<Unit> GetTargetsForMultiHealSkill(SkillUseContext skillCtx)
@@ -35,18 +77,13 @@ public static class HealSkillsManager
         Unit caster = skillCtx.Caster;
         
         Player attackerPlayer = skillCtx.Attacker;
-        Player defenderPlayer = skillCtx.Defender;
         
         List<Unit> targets = new List<Unit>();
         
         switch (skill.Target)
         {
-            case "All":
-                AddAllUnitsToTargets(attackerPlayer, ref targets, caster);
-                break;
-                
             case "Party":
-                AddPartyUnitsToTargets(attackerPlayer, ref targets, caster);
+                AddAllUnitsToTargets(attackerPlayer, ref targets, caster);
                 break;
         }
         
@@ -57,11 +94,13 @@ public static class HealSkillsManager
     {
         foreach (var unit in player.UnitManager.GetActiveUnits())
         {
-            if (unit != null && IsUnitAlive(unit))
+            if (unit != null && unit != caster && IsUnitAlive(unit))
             {
                 targets.Add(unit);
             }
         }
+        
+        targets.Add(caster);
     }
     
     private static bool IsUnitAlive(Unit unit)
@@ -86,6 +125,8 @@ public static class HealSkillsManager
                 targets.Add(unit);
             }
         }
+        
+        targets.Add(caster);
     }
     
     public static bool IsMultiTargetHealSkill(Skill skill)
@@ -165,7 +206,8 @@ public static class HealSkillsManager
     
         if (activeUnitsList.Contains(unitTarget)) playerUnitManager.AddUnitInSortedList(skillCtx.Target);
     
-        CombatUI.DisplayHealing(skillCtx.Target, amountHealed);
+        CombatUI.DisplayHealingForSingleTarget(skillCtx.Target, amountHealed);
+        CombatUI.DisplaySeparator();
         return true;
     }
     
@@ -179,6 +221,7 @@ public static class HealSkillsManager
     public static double CalculateHeal(Unit targetUnit, SkillUseContext skillCtx)
     {
         Skill currentSkill = skillCtx.Skill;
+        
         int skillPower = currentSkill.Power;
         int baseHealth = targetUnit.GetBaseStats().GetStatByName("HP");
         
@@ -192,34 +235,4 @@ public static class HealSkillsManager
         return Math.Floor(baseHealth / 2.0);
     }
     
-    private static void ApplyHealEffect(SkillUseContext skillCtx, Unit target, double healAmount, bool isReviveSkill)
-    {
-        Skill skill = skillCtx.Skill;
-        Unit caster = skillCtx.Caster;
-        // Unit target = skillCtx.Target;
-        
-        CombatUI.DisplaySkillUsage(caster, skill, target);
-        
-        int hpBeforeHeal = target.GetCurrentStats().GetStatByName("HP");
-        bool isTargetDead = hpBeforeHeal <= 0;
-        
-        if ((isReviveSkill && isTargetDead) || (!isReviveSkill && !isTargetDead))
-        {
-            UnitActionManager.ApplyHealToUnit(target, healAmount);
-            
-            int hpAfterHeal = target.GetCurrentStats().GetStatByName("HP");
-            int healedAmount = hpAfterHeal - hpBeforeHeal;
-            
-            if (isReviveSkill && isTargetDead)
-            {
-                CombatUI.DisplayRevive(caster, target, healAmount);
-            }
-            else
-            {
-                CombatUI.DisplayHealing(target, healAmount);
-            }
-            
-            // CombatUI.DisplayFinalHP(target);
-        }
-    }
 }

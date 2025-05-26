@@ -77,14 +77,16 @@ public static class TurnManager
     public static void ConsumeTurn(TurnContext turnCtx)
     {
         int fullTurnsToConsume = 1;
+        Player playerAttacker = turnCtx.Attacker;
+        PlayerTurnManager turnManagerPlayer = playerAttacker.TurnManager;
         
-        if (turnCtx.Attacker.TurnManager.GetFullTurns() > 0)
+        if (turnManagerPlayer.GetBlinkingTurns() > 0)
         {
-            turnCtx.Attacker.TurnManager.ConsumeFullTurn(fullTurnsToConsume);
+            turnManagerPlayer.ConsumeBlinkingTurn(fullTurnsToConsume);
         }
-        else if (turnCtx.Attacker.TurnManager.GetBlinkingTurns() > 0)
+        else if (turnManagerPlayer.GetFullTurns() > 0)
         {
-            turnCtx.Attacker.TurnManager.ConsumeBlinkingTurn(fullTurnsToConsume);
+            turnManagerPlayer.ConsumeFullTurn(fullTurnsToConsume);
         }
     }
 
