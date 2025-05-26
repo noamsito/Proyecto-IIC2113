@@ -62,11 +62,6 @@ public static class HealSkillsManager
 
                 unitManagerPlayer.RemoveFromActiveUnitsIfDead();
                 
-                // foreach (var unit in unitManagerPlayer.GetSortedActiveUnitsByOrderOfAttack())
-                // {
-                //     Console.WriteLine(unit.GetName());
-                // }
-                
                 break;
         }
     }
