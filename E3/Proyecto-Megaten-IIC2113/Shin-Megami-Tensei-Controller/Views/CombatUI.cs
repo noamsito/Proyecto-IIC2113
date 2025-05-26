@@ -223,10 +223,12 @@ public static class CombatUI
         }
 
     
-        public static void DisplayRevive(Unit caster, Unit revived, int healAmount)
+        public static void DisplayRevive(Unit caster, Unit revived, double healAmount)
         {
+            int amountHealed = Convert.ToInt32(Math.Floor(healAmount));
+            
             _view.WriteLine($"{caster.GetName()} revive a {revived.GetName()}");
-            _view.WriteLine($"{revived.GetName()} recibe {healAmount} de HP");
+            _view.WriteLine($"{revived.GetName()} recibe {amountHealed} de HP");
             _view.WriteLine($"{revived.GetName()} termina con HP:{revived.GetCurrentStats().GetStatByName("HP")}/{revived.GetBaseStats().GetStatByName("HP")}");
             _view.WriteLine(GameConstants.Separator);
         }

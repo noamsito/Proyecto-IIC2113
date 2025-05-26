@@ -49,13 +49,13 @@ public static class AffinityEffectManager
     public static void ApplyHeal(SkillUseContext skillCtx)
     {
         double finalHeal = HealSkillsManager.CalculateHeal(skillCtx.Target, skillCtx);
-        UnitActionManager.Heal(skillCtx.Target, finalHeal);
+        UnitActionManager.ApplyHealToUnit(skillCtx.Target, finalHeal);
     }
     
     public static void ApplyHalfHeal(SkillUseContext skillCtx)
     {
         double finalHeal = HealSkillsManager.CalculateHalfHp(skillCtx.Target, skillCtx);
-        UnitActionManager.Heal(skillCtx.Target, finalHeal);
+        UnitActionManager.ApplyHealToUnit(skillCtx.Target, finalHeal);
     }
     
     private static void ApplyDamage(SkillUseContext skillCtx, AffinityContext affinityCtx)
@@ -68,7 +68,7 @@ public static class AffinityEffectManager
         }
         else if (finalDamage == -1)
         {
-            UnitActionManager.Heal(affinityCtx.Target, affinityCtx.BaseDamage);
+            UnitActionManager.ApplyHealToUnit(affinityCtx.Target, affinityCtx.BaseDamage);
         }
         else if (finalDamage == -2)
         {
@@ -92,7 +92,7 @@ public static class AffinityEffectManager
         }
         else if (finalDamage == -1)
         {
-            UnitActionManager.Heal(affinityCtx.Target, affinityCtx.BaseDamage);
+            UnitActionManager.ApplyHealToUnit(affinityCtx.Target, affinityCtx.BaseDamage);
         }
         else if (finalDamage == -2)
         {

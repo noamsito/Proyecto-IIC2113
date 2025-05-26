@@ -19,19 +19,12 @@ public static class HealSkillsManager
         List<Unit> targets = GetTargetsForMultiHealSkill(skillCtx);
         
         foreach (Unit target in targets)
-        {
-            if (target != caster)
-            {
-                ApplyHealEffect(skillCtx, target, healAmount, isReviveSkill);
-            }
-        }
-        
-        if (skill.Target == "Party" || skill.Target == "All")
-        {
-            ApplyHealEffect(skillCtx, caster, healAmount, isReviveSkill);
+        { 
+            ApplyHealEffect(skillCtx, target, healAmount, isReviveSkill);
         }
         
         TurnManager.ConsumeTurnsForHealSkill(skill, turnCtx);
+        TurnManager.ConsumeTurn(turnCtx);
         
         return true;
     }
@@ -49,22 +42,22 @@ public static class HealSkillsManager
         switch (skill.Target)
         {
             case "All":
-                AddHealthyUnitsToTargets(attackerPlayer, targets, caster);
+                AddAllUnitsToTargets(attackerPlayer, ref targets, caster);
                 break;
                 
             case "Party":
-                AddAllUnitsToTargets(attackerPlayer, targets, caster);
+                AddPartyUnitsToTargets(attackerPlayer, ref targets, caster);
                 break;
         }
         
         return targets;
     }
     
-    private static void AddHealthyUnitsToTargets(Player player, List<Unit> targets, Unit caster)
+    private static void AddPartyUnitsToTargets(Player player, ref List<Unit> targets, Unit caster)
     {
         foreach (var unit in player.UnitManager.GetActiveUnits())
         {
-            if (unit != null && unit != caster && IsUnitAlive(unit))
+            if (unit != null && IsUnitAlive(unit))
             {
                 targets.Add(unit);
             }
@@ -76,7 +69,7 @@ public static class HealSkillsManager
         return unit.GetCurrentStats().GetStatByName("HP") > 0;
     }
     
-    private static void AddAllUnitsToTargets(Player player, List<Unit> targets, Unit caster)
+    private static void AddAllUnitsToTargets(Player player, ref List<Unit> targets, Unit caster)
     {
         foreach (var unit in player.UnitManager.GetActiveUnits())
         {
@@ -203,6 +196,7 @@ public static class HealSkillsManager
     {
         Skill skill = skillCtx.Skill;
         Unit caster = skillCtx.Caster;
+        // Unit target = skillCtx.Target;
         
         CombatUI.DisplaySkillUsage(caster, skill, target);
         
@@ -211,21 +205,21 @@ public static class HealSkillsManager
         
         if ((isReviveSkill && isTargetDead) || (!isReviveSkill && !isTargetDead))
         {
-            UnitActionManager.Heal(target, healAmount);
+            UnitActionManager.ApplyHealToUnit(target, healAmount);
             
             int hpAfterHeal = target.GetCurrentStats().GetStatByName("HP");
             int healedAmount = hpAfterHeal - hpBeforeHeal;
             
             if (isReviveSkill && isTargetDead)
             {
-                CombatUI.DisplayRevive(caster, target, healedAmount);
+                CombatUI.DisplayRevive(caster, target, healAmount);
             }
             else
             {
-                CombatUI.DisplayHealing(target, healedAmount);
+                CombatUI.DisplayHealing(target, healAmount);
             }
             
-            CombatUI.DisplayFinalHP(target);
+            // CombatUI.DisplayFinalHP(target);
         }
     }
 }

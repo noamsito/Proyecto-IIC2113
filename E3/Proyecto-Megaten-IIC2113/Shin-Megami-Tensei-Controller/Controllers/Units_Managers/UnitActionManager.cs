@@ -34,7 +34,7 @@ public static class UnitActionManager
         reservedUnits.Add(unitDead);
     }
 
-    public static void Heal(Unit target, double amount)
+    public static void ApplyHealToUnit(Unit target, double amount)
     {
         Stat currentStats = target.GetCurrentStats();
         Stat baseStats = target.GetBaseStats();

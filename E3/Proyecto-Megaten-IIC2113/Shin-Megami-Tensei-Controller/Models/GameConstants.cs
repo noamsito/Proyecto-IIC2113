@@ -32,7 +32,6 @@ public static class GameConstants
     
     public static readonly List<string> _reviveSkillsNames = new List<string>
     {
-        "Recarm",
         "Recarmdra",
     };
 }

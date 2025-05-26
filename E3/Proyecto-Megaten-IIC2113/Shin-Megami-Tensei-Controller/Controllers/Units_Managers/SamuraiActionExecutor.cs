@@ -176,7 +176,16 @@ public static class SamuraiActionExecutor
         }
 
         var skillCtx = CreateSkillContext(samuraiCtx.Samurai, target, skill, turnCtx);
-        return SkillManager.HandleHealSkills(skillCtx, turnCtx);
+        bool skillUsed = SkillManager.HandleHealSkills(skillCtx, turnCtx);
+        
+        if (skillUsed)
+        {
+            SkillManager.ConsumeMP(skillCtx.Caster, skill.Cost);
+            TurnManager.UpdateTurnStatesForDisplay(turnCtx);
+            turnCtx.Attacker.UnitManager.RearrangeSortedUnitsWhenAttacked();
+        }
+
+        return skillUsed;
     }
 
     private static bool HandleDamageSkill(Skill skill, SamuraiActionContext samuraiCtx, TurnContext turnCtx)
