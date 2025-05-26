@@ -45,7 +45,7 @@ public static class TurnManager
         teamManagerOpponent.ReorderReserveBasedOnJsonOrder();
     }
     
-    public static void ManageTurnsForInvocationSkill(TurnContext turnCtx)
+    public static void UpdateTurnsForInvocationSkill(TurnContext turnCtx)
     {
         PlayerTurnManager turnManagerPlayer = turnCtx.Attacker.TurnManager;
         

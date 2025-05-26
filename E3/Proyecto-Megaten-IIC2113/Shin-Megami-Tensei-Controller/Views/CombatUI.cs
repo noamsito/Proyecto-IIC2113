@@ -88,9 +88,17 @@ public static class CombatUI
             var units = unitManagerPlayer.GetSortedActiveUnitsByOrderOfAttack(); 
             
             _view.WriteLine("Orden:");
+
+            int count = 0;
+            foreach (var unit in units)
+            {
+                if (unit is not null)
+                {
+                    count++;
+                    _view.WriteLine($"{count}-{unit.GetName()}");
+                }
+            }
             
-            for (int i = 0; i < units.Count; i++)
-                _view.WriteLine($"{i + 1}-{units[i].GetName()}");
             _view.WriteLine(GameConstants.Separator);
         }
     

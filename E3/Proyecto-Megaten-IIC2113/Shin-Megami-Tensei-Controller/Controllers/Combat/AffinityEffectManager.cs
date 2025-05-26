@@ -96,11 +96,11 @@ public static class AffinityEffectManager
         }
         else if (finalDamage == -2)
         {
-            damageTaken = UnitActionManager.ApplyDamageTaken(affinityCtx.Caster, affinityCtx.BaseDamage);
+            UnitActionManager.ApplyDamageTaken(affinityCtx.Caster, affinityCtx.BaseDamage);
         }
         else if (finalDamage == 0)
         {
-            damageTaken = UnitActionManager.ApplyDamageTaken(affinityCtx.Caster, finalDamage);
+            UnitActionManager.ApplyDamageTaken(affinityCtx.Caster, finalDamage);
         }
         
         CombatUI.DisplayAffinityMessage(affinityCtx);

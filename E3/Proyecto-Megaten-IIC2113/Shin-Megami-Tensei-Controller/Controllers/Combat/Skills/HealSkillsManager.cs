@@ -59,9 +59,8 @@ public static class HealSkillsManager
                 PlayerUnitManager unitManagerPlayer = skillCtx.Attacker.UnitManager;
                 Unit unitCaster = skillCtx.Caster;
                 unitCaster.GetCurrentStats().SetStatByName("HP", 0);
-
-                unitManagerPlayer.RemoveFromActiveUnitsIfDead();
                 
+                unitManagerPlayer.RemoveFromActiveUnitsIfDead();
                 break;
         }
     }
@@ -162,8 +161,6 @@ public static class HealSkillsManager
                 usedSkill = HandleRecarmSkill(skillCtx);
                 
                 TurnManager.ConsumeTurnsBasedOnAffinity(affinityCtx, turnCtx);
-                TurnManager.UpdateTurnStatesForDisplay(turnCtx);
-                playerUnitManager.RearrangeSortedUnitsWhenAttacked();
                 
                 break;
 
@@ -177,14 +174,7 @@ public static class HealSkillsManager
                 
                 CombatUI.DisplayCombatUiForSkill(skillCtx, affinityCtx, numberHits);
                 TurnManager.ConsumeTurnsBasedOnAffinity(affinityCtx, turnCtx);
-                TurnManager.UpdateTurnStatesForDisplay(turnCtx);
-                playerUnitManager.RearrangeSortedUnitsWhenAttacked();
                 break;
-        }
-
-        if (usedSkill)
-        {
-            SkillManager.ConsumeMP(skillCtx.Caster, skill.Cost);
         }
         
         return usedSkill;

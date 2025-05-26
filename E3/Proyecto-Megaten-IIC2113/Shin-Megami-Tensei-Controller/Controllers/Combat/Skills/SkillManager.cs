@@ -70,7 +70,7 @@ public static class SkillManager
         if (usedSkill)
         {
             ConsumeMP(skillCtx.Caster, skillCtx.Skill.Cost);
-            TurnManager.ManageTurnsForInvocationSkill(turnCtx);
+            TurnManager.UpdateTurnsForInvocationSkill(turnCtx);
         }
 
         return usedSkill;
