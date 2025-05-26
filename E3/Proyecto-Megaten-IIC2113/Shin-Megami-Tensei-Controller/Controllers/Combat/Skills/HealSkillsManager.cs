@@ -8,20 +8,11 @@ public static class HealSkillsManager
     public static bool HandleMultiTargetHealSkill(SkillUseContext skillCtx, TurnContext turnCtx)
     {
         Skill skill = skillCtx.Skill;
-        
-        // bool isReviveSkill = GameConstants._reviveSkillsNames.Contains(skill.Name);
-        
         List<Unit> targets = GetTargetsForMultiHealSkill(skillCtx);
-        
-        // foreach (Unit target in targets)
-        // { 
-        //     Console.WriteLine(target.GetName());
-        // }
         
         foreach (Unit target in targets)
         { 
             double healAmount = CalculateHeal(target, skillCtx);
-            Console.WriteLine(target.GetName());
             ApplyHealEffect(skillCtx, target, healAmount);
         }
 
@@ -40,15 +31,16 @@ public static class HealSkillsManager
         Unit caster = skillCtx.Caster;
         int hpBeforeHeal = target.GetCurrentStats().GetStatByName("HP");
         bool isTargetDead = hpBeforeHeal <= 0;
-        bool isReviveSkill = GameConstants._reviveSkillsNames.Contains(skillCtx.Skill.Name);
+        bool isReviveSkill = GameConstants._reviveOnlySkillsNames.Contains(skillCtx.Skill.Name);
+        bool isReviveAndHealSkill = GameConstants._reviveAndHealSkillsNames.Contains(skillCtx.Skill.Name);
         
-        if ((isReviveSkill && isTargetDead) || (!isReviveSkill && !isTargetDead))
+        if ((isReviveSkill && isTargetDead) || (!isReviveSkill && !isTargetDead) || isReviveAndHealSkill)
         {
             UnitActionManager.ApplyHealToUnit(target, healAmount);
             int hpAfterHeal = target.GetCurrentStats().GetStatByName("HP");
             int healedAmount = hpAfterHeal - hpBeforeHeal;
 
-            if (isReviveSkill && isTargetDead)
+            if ((isReviveSkill && isTargetDead) || (isReviveAndHealSkill && isTargetDead))
             {
                 CombatUI.DisplayReviveForMultiTargets(caster, target, healedAmount);
             }
@@ -64,8 +56,16 @@ public static class HealSkillsManager
         switch (skillCtx.Skill.Name)
         {
             case "Recarmdra":
+                PlayerUnitManager unitManagerPlayer = skillCtx.Attacker.UnitManager;
                 Unit unitCaster = skillCtx.Caster;
                 unitCaster.GetCurrentStats().SetStatByName("HP", 0);
+
+                unitManagerPlayer.RemoveFromActiveUnitsIfDead();
+                
+                // foreach (var unit in unitManagerPlayer.GetSortedActiveUnitsByOrderOfAttack())
+                // {
+                //     Console.WriteLine(unit.GetName());
+                // }
                 
                 break;
         }
@@ -83,7 +83,7 @@ public static class HealSkillsManager
         switch (skill.Target)
         {
             case "Party":
-                AddAllUnitsToTargets(attackerPlayer, ref targets, caster);
+                AddAllUnitsToTargets(skillCtx, ref targets);
                 break;
         }
         
@@ -108,9 +108,13 @@ public static class HealSkillsManager
         return unit.GetCurrentStats().GetStatByName("HP") > 0;
     }
     
-    private static void AddAllUnitsToTargets(Player player, ref List<Unit> targets, Unit caster)
+    private static void AddAllUnitsToTargets(SkillUseContext skillCtx, ref List<Unit> targets)
     {
-        foreach (var unit in player.UnitManager.GetActiveUnits())
+        PlayerUnitManager playerUnitManaer = skillCtx.Attacker.UnitManager;
+        Unit caster = skillCtx.Caster;
+        Skill skill = skillCtx.Skill;
+        
+        foreach (var unit in playerUnitManaer.GetActiveUnits())
         {
             if (unit != null && unit != caster)
             {
@@ -118,7 +122,7 @@ public static class HealSkillsManager
             }
         }
         
-        foreach (var unit in player.UnitManager.GetReservedUnits())
+        foreach (var unit in playerUnitManaer.GetReservedUnits())
         {
             if (unit != null)
             {
@@ -126,7 +130,8 @@ public static class HealSkillsManager
             }
         }
         
-        targets.Add(caster);
+        
+        if (!GameConstants._healsThatDontApplyToCaster.Contains(skill.Name)) targets.Add(caster);
     }
     
     public static bool IsMultiTargetHealSkill(Skill skill)

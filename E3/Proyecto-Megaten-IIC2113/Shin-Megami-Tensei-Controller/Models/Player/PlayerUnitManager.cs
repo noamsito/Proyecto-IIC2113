@@ -113,7 +113,7 @@ public class PlayerUnitManager
     {
         for (int i = 0; i < _activeUnits.Count; i++)
         {
-            if (IsUnitDeadOrInvalid(_activeUnits[i]))
+            if (IsUnitDeadOrInvalid(_activeUnits[i]) )
             {
                 ProcessDeadUnit(i);
             }
@@ -127,7 +127,7 @@ public class PlayerUnitManager
         return unit != null && unit.GetCurrentStats().GetStatByName(HP_STAT_NAME) <= 0;
     }
 
-    private void ProcessDeadUnit(int unitIndex)
+    public void ProcessDeadUnit(int unitIndex)
     {
         RemoveFromSortedUnits(_activeUnits[unitIndex].GetName());
 

@@ -32,8 +32,18 @@ public static class GameConstants
         "Party",
         "Multi"
     };
+
+    public static readonly List<string> _reviveOnlySkillsNames = new List<string>
+    {
+        // "Recarmdra",
+    };
     
-    public static readonly List<string> _reviveSkillsNames = new List<string>
+    public static readonly List<string> _reviveAndHealSkillsNames = new List<string>
+    {
+        "Recarmdra",
+    };
+
+    public static readonly List<string> _healsThatDontApplyToCaster = new List<string>
     {
         "Recarmdra",
     };
