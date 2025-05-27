@@ -179,24 +179,30 @@ public static class TurnManager
 
     public static List<Unit> GetTargetsForMultiTargetSkill(SkillUseContext skillCtx)
     {
-        Skill skill = skillCtx.Skill;
-        Unit caster = skillCtx.Caster;
-        
         Player attackerPlayer = skillCtx.Attacker;
-        
         List<Unit> targets = new List<Unit>();
         
-        switch (skill.Target)
-        {
-            case "Party":
-                AddAllUnitsToTargets(skillCtx, ref targets);
-                break;
-        }
+        ManageIfTargetsAreAlliesOrEnemies(skillCtx, ref targets);
         
         return targets;
     }
+
+    private static void ManageIfTargetsAreAlliesOrEnemies(SkillUseContext skillCtx, ref List<Unit> targets)
+    {
+        Skill skill = skillCtx.Skill;
+
+        switch (skill.Target)
+        {
+            case "Party":
+                if () AddAllAlliesUnitsToTargets(skillCtx, ref targets);
+                break;
+            case "All":
+                
+                break;
+        }
+    }
     
-    private static void AddAllUnitsToTargets(SkillUseContext skillCtx, ref List<Unit> targets)
+    private static void AddAllAlliesUnitsToTargets(SkillUseContext skillCtx, ref List<Unit> targets)
     {
         PlayerUnitManager playerUnitManaer = skillCtx.Attacker.UnitManager;
         Unit caster = skillCtx.Caster;
@@ -221,4 +227,39 @@ public static class TurnManager
         
         if (!GameConstants._healsThatDontApplyToCaster.Contains(skill.Name)) targets.Add(caster);
     }
+    
+    private static void AddAllEnemiesUnitsToTargets(SkillUseContext skillCtx, ref List<Unit> targets)
+    {
+        Player defenderPlayer = skillCtx.Defender;
+        PlayerUnitManager unitManagerDefender = defenderPlayer.UnitManager;
+        
+        foreach (var unit in unitManagerDefender.GetActiveUnits())
+        {
+            if (unit != null)
+            {
+                targets.Add(unit);
+            }
+        }
+        
+        foreach (var unit in unitManagerDefender.GetReservedUnits())
+        {
+            if (unit != null)
+            {
+                targets.Add(unit);
+            }
+        }
+    }
+    
+    private static void AddActiveEnemiesToTargets(SkillUseContext skillCtx, ref List<Unit> targets)
+    {
+        Player defenderPlayer = skillCtx.Defender;
+        PlayerUnitManager unitManagerDefender = defenderPlayer.UnitManager;
+        
+        foreach (var unit in unitManagerDefender.GetActiveUnits())
+        {
+            if (unit != null && unit.IsAlive())
+            {
+                targets.Add(unit);
+            }
+        }
 }

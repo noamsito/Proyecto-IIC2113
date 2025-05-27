@@ -5,22 +5,21 @@ namespace Shin_Megami_Tensei.Managers;
 
 public class DamageSkillsManager
 {
-    public static bool HandleMultiTargetDamageSkill(SkillUseContext skillCtx, TurnContext turnCtx, int numberHits)
+    public static bool HandleMultiTargetDamageSkill(SkillUseContext skillCtx, TurnContext turnCtx)
     {
-        Skill skill = skillCtx.Skill;
         List<Unit> targets = TurnManager.GetTargetsForMultiTargetSkill(skillCtx);
         
         foreach (Unit target in targets)
         { 
-            AffinityEffectManager.ApplyEffectForSkill(skillCtx, turnCtx, numberHits);
+            AffinityEffectManager.ApplyEffectForMultiTargetSkill(skillCtx, turnCtx, target);
         }
         
         return true;
     }
 
-    public static bool HandleSingleTargetDamageSkill(SkillUseContext skillCtx, TurnContext turnCtx, int numberHits)
+    public static bool HandleSingleTargetDamageSkill(SkillUseContext skillCtx, TurnContext turnCtx)
     {
-        AffinityEffectManager.ApplyEffectForSkill(skillCtx, turnCtx, numberHits);
+        AffinityEffectManager.ApplyEffectForSingleTargetSkill(skillCtx, turnCtx);
         return true;
     }
 }

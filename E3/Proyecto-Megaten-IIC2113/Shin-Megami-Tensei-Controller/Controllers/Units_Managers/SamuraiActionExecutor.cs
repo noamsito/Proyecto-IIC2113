@@ -206,13 +206,12 @@ public static class SamuraiActionExecutor
         }
 
         var skillCtx = CreateSkillContext(samuraiCtx.Samurai, target, skill, turnCtx);
-        int numberHits = SkillManager.CalculateNumberHits(skill.Hits, turnCtx.Attacker);
-
+        
         // Apply the skill management para multi y single target
-        bool skillUsed = SkillManager.HandleDamageSkills(skillCtx, turnCtx, numberHits);
+        bool skillUsed = SkillManager.HandleDamageSkills(skillCtx, turnCtx);
         UpdateGameStateAfterSkill(turnCtx);
 
-        return true;
+        return skillUsed;
     }
 
     private static SkillUseContext CreateSkillContext(Unit caster, Unit? target, Skill skill, TurnContext turnCtx)

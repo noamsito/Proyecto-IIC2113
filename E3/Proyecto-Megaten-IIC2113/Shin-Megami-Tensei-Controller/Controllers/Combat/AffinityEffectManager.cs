@@ -6,24 +6,42 @@ namespace Shin_Megami_Tensei.Managers;
 
 public static class AffinityEffectManager
 {
-    public static void ApplyEffectForSkill(SkillUseContext skillCtx, TurnContext turnCtx, int numHits)
+    public static void ApplyEffectForSingleTargetSkill(SkillUseContext skillCtx, TurnContext turnCtx)
     {
-        Skill currentSkill = skillCtx.Skill;
+        Skill skill = skillCtx.Skill;
+        int numHits = SkillManager.CalculateNumberHits(skill.Hits, turnCtx.Attacker);
         
         int stat = GetStatForSkill(skillCtx);
-        double baseDamage = CalculateBaseDamage(stat, currentSkill.Power);
+        double baseDamage = CalculateBaseDamage(stat, skill.Power);
     
         var affinityCtx = CreateAffinityContext(skillCtx, baseDamage);
         
-        // Hay que modificar ApplyDamage para que reciba los targets y ademas skillCtx
-        // Propuesta: sacar las condiciones que hay dentro de ApplyDamage, aplicarla a esta funcion
-        // y crear otra funcion en concreto para aplicar el daño y asi no tener que hacer una gran refactorizacion
         for (int i = 0; i < numHits; i++)
         {
-            ApplyDamage(skillCtx, affinityCtx);
+            ManageTargetDamage(skillCtx, affinityCtx);
         }
         
-        SkillManager.ConsumeMP(skillCtx.Caster, currentSkill.Cost);
+        SkillManager.ConsumeMP(skillCtx.Caster, skill.Cost);
+        TurnManager.ConsumeTurnsBasedOnAffinity(affinityCtx, turnCtx);
+        CombatUI.DisplayCombatUiForSkill(skillCtx, affinityCtx, numHits);
+    }
+    public static void ApplyEffectForMultiTargetSkill(SkillUseContext skillCtx, TurnContext turnCtx, Unit target)
+    {
+        Skill skill = skillCtx.Skill;
+        int numHits = SkillManager.CalculateNumberHits(skill.Hits, turnCtx.Attacker);
+        
+        int stat = GetStatForSkill(skillCtx);
+        double baseDamage = CalculateBaseDamage(stat, skill.Power);
+    
+        var affinityCtx = CreateAffinityContext(skillCtx, baseDamage);
+        
+        for (int i = 0; i < numHits; i++)
+        {
+            double finalDamage = GetDamageBasedOnAffinity(affinityCtx);
+            UnitActionManager.ApplyDamageTaken(target, finalDamage);
+        }
+        
+        SkillManager.ConsumeMP(skillCtx.Caster, skill.Cost);
         TurnManager.ConsumeTurnsBasedOnAffinity(affinityCtx, turnCtx);
         CombatUI.DisplayCombatUiForSkill(skillCtx, affinityCtx, numHits);
     }
@@ -61,7 +79,7 @@ public static class AffinityEffectManager
         UnitActionManager.ApplyHealToUnit(skillCtx.Target, finalHeal);
     }
     
-    private static void ApplyDamage(SkillUseContext skillCtx, AffinityContext affinityCtx)
+    private static void ManageTargetDamage(SkillUseContext skillCtx, AffinityContext affinityCtx)
     {
         double finalDamage = GetDamageBasedOnAffinity(affinityCtx);
         

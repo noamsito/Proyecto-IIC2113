@@ -86,14 +86,16 @@ public static class SkillManager
         return HealSkillsManager.HandleSingleTargetHealSkill(skillCtx, turnCtx);
     }
 
-    public static bool HandleDamageSkills(SkillUseContext skillCtx, TurnContext turnCtx, int numberHits)
+    public static bool HandleDamageSkills(SkillUseContext skillCtx, TurnContext turnCtx)
     {
+        Skill skill = skillCtx.Skill;
+        
         if (IsSkillMultiTarget(skillCtx.Skill))
         {
-            return DamageSkillsManager.HandleMultiTargetDamageSkill(skillCtx, turnCtx, numberHits);
+            return DamageSkillsManager.HandleMultiTargetDamageSkill(skillCtx, turnCtx);
         }
 
-        return DamageSkillsManager.HandleSingleTargetDamageSkill(skillCtx, turnCtx, numberHits);
+        return DamageSkillsManager.HandleSingleTargetDamageSkill(skillCtx, turnCtx);
     }
     
     public static void ConsumeMP(Unit caster, int cost)
