@@ -15,6 +15,9 @@ public static class AffinityEffectManager
     
         var affinityCtx = CreateAffinityContext(skillCtx, baseDamage);
         
+        // Hay que modificar ApplyDamage para que reciba los targets y ademas skillCtx
+        // Propuesta: sacar las condiciones que hay dentro de ApplyDamage, aplicarla a esta funcion
+        // y crear otra funcion en concreto para aplicar el daño y asi no tener que hacer una gran refactorizacion
         for (int i = 0; i < numHits; i++)
         {
             ApplyDamage(skillCtx, affinityCtx);

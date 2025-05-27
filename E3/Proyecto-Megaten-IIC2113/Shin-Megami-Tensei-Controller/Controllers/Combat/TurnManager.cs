@@ -177,4 +177,48 @@ public static class TurnManager
         }
     }
 
+    public static List<Unit> GetTargetsForMultiTargetSkill(SkillUseContext skillCtx)
+    {
+        Skill skill = skillCtx.Skill;
+        Unit caster = skillCtx.Caster;
+        
+        Player attackerPlayer = skillCtx.Attacker;
+        
+        List<Unit> targets = new List<Unit>();
+        
+        switch (skill.Target)
+        {
+            case "Party":
+                AddAllUnitsToTargets(skillCtx, ref targets);
+                break;
+        }
+        
+        return targets;
+    }
+    
+    private static void AddAllUnitsToTargets(SkillUseContext skillCtx, ref List<Unit> targets)
+    {
+        PlayerUnitManager playerUnitManaer = skillCtx.Attacker.UnitManager;
+        Unit caster = skillCtx.Caster;
+        Skill skill = skillCtx.Skill;
+        
+        foreach (var unit in playerUnitManaer.GetActiveUnits())
+        {
+            if (unit != null && unit != caster)
+            {
+                targets.Add(unit);
+            }
+        }
+        
+        foreach (var unit in playerUnitManaer.GetReservedUnits())
+        {
+            if (unit != null)
+            {
+                targets.Add(unit);
+            }
+        }
+        
+        
+        if (!GameConstants._healsThatDontApplyToCaster.Contains(skill.Name)) targets.Add(caster);
+    }
 }

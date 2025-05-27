@@ -8,7 +8,7 @@ public static class HealSkillsManager
     public static bool HandleMultiTargetHealSkill(SkillUseContext skillCtx, TurnContext turnCtx)
     {
         Skill skill = skillCtx.Skill;
-        List<Unit> targets = GetTargetsForMultiHealSkill(skillCtx);
+        List<Unit> targets = TurnManager.GetTargetsForMultiTargetSkill(skillCtx);
         
         foreach (Unit target in targets)
         { 
@@ -65,72 +65,9 @@ public static class HealSkillsManager
         }
     }
     
-    private static List<Unit> GetTargetsForMultiHealSkill(SkillUseContext skillCtx)
-    {
-        Skill skill = skillCtx.Skill;
-        Unit caster = skillCtx.Caster;
-        
-        Player attackerPlayer = skillCtx.Attacker;
-        
-        List<Unit> targets = new List<Unit>();
-        
-        switch (skill.Target)
-        {
-            case "Party":
-                AddAllUnitsToTargets(skillCtx, ref targets);
-                break;
-        }
-        
-        return targets;
-    }
-    
-    private static void AddPartyUnitsToTargets(Player player, ref List<Unit> targets, Unit caster)
-    {
-        foreach (var unit in player.UnitManager.GetActiveUnits())
-        {
-            if (unit != null && unit != caster && IsUnitAlive(unit))
-            {
-                targets.Add(unit);
-            }
-        }
-        
-        targets.Add(caster);
-    }
-    
     private static bool IsUnitAlive(Unit unit)
     {
         return unit.GetCurrentStats().GetStatByName("HP") > 0;
-    }
-    
-    private static void AddAllUnitsToTargets(SkillUseContext skillCtx, ref List<Unit> targets)
-    {
-        PlayerUnitManager playerUnitManaer = skillCtx.Attacker.UnitManager;
-        Unit caster = skillCtx.Caster;
-        Skill skill = skillCtx.Skill;
-        
-        foreach (var unit in playerUnitManaer.GetActiveUnits())
-        {
-            if (unit != null && unit != caster)
-            {
-                targets.Add(unit);
-            }
-        }
-        
-        foreach (var unit in playerUnitManaer.GetReservedUnits())
-        {
-            if (unit != null)
-            {
-                targets.Add(unit);
-            }
-        }
-        
-        
-        if (!GameConstants._healsThatDontApplyToCaster.Contains(skill.Name)) targets.Add(caster);
-    }
-    
-    public static bool IsMultiTargetHealSkill(Skill skill)
-    {
-        return GameConstants._stringForMultiTarget.Contains(skill.Target);
     }
     
     public static bool HandleSingleTargetHealSkill(SkillUseContext skillCtx, TurnContext turnCtx)

@@ -176,7 +176,7 @@ public static class DemonActionExecutor
         var skillCtx = CreateSkillContext(demonCtx.Demon, target, skill, turnCtx);
         int numberHits = SkillManager.CalculateNumberHits(skill.Hits, turnCtx.Attacker);
 
-        AffinityEffectManager.ApplyEffectForSkill(skillCtx, turnCtx, numberHits);
+        bool skillUsed = SkillManager.HandleDamageSkills(skillCtx, turnCtx, numberHits);
         UpdateGameStateAfterSkill(turnCtx);
 
         return true;

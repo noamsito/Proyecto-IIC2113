@@ -78,12 +78,22 @@ public static class SkillManager
 
     public static bool HandleHealSkills(SkillUseContext skillCtx, TurnContext turnCtx)
     {
-        if (HealSkillsManager.IsMultiTargetHealSkill(skillCtx.Skill))
+        if (IsSkillMultiTarget(skillCtx.Skill))
         {
             return HealSkillsManager.HandleMultiTargetHealSkill(skillCtx, turnCtx);
         }
 
         return HealSkillsManager.HandleSingleTargetHealSkill(skillCtx, turnCtx);
+    }
+
+    public static bool HandleDamageSkills(SkillUseContext skillCtx, TurnContext turnCtx, int numberHits)
+    {
+        if (IsSkillMultiTarget(skillCtx.Skill))
+        {
+            return DamageSkillsManager.HandleMultiTargetDamageSkill(skillCtx, turnCtx, numberHits);
+        }
+
+        return DamageSkillsManager.HandleSingleTargetDamageSkill(skillCtx, turnCtx, numberHits);
     }
     
     public static void ConsumeMP(Unit caster, int cost)
@@ -114,5 +124,10 @@ public static class SkillManager
         }
         
         return hits;
+    }
+    
+    public static bool IsSkillMultiTarget(Skill skill)
+    {
+        return GameConstants._stringForMultiTarget.Contains(skill.Target);
     }
 }

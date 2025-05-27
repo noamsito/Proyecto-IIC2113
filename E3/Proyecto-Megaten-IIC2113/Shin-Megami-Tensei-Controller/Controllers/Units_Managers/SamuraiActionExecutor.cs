@@ -190,17 +190,26 @@ public static class SamuraiActionExecutor
 
     private static bool HandleDamageSkill(Skill skill, SamuraiActionContext samuraiCtx, TurnContext turnCtx)
     {
-        Unit? target = SelectSkillTarget(skill, samuraiCtx, turnCtx);
-        if (target == null)
+        Unit? target = null;
+        var skillNamesNeedSelectTarget = GameConstants._skillsThatDontNeedSelectObjective;
+        
+        if (!skillNamesNeedSelectTarget.Contains(skill.Name) ||
+            skill.Target != "All")
         {
-            CombatUI.DisplaySeparator();
-            return false;
+            target = SelectSkillTarget(skill, samuraiCtx, turnCtx);
+            
+            if (target == null)
+            {
+                CombatUI.DisplaySeparator();
+                return false;
+            }
         }
 
         var skillCtx = CreateSkillContext(samuraiCtx.Samurai, target, skill, turnCtx);
         int numberHits = SkillManager.CalculateNumberHits(skill.Hits, turnCtx.Attacker);
 
-        AffinityEffectManager.ApplyEffectForSkill(skillCtx, turnCtx, numberHits);
+        // Apply the skill management para multi y single target
+        bool skillUsed = SkillManager.HandleDamageSkills(skillCtx, turnCtx, numberHits);
         UpdateGameStateAfterSkill(turnCtx);
 
         return true;
