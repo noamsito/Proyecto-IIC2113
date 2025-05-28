@@ -14,6 +14,8 @@ public class DamageSkillsManager
             AffinityEffectManager.ApplyEffectForMultiTargetSkill(skillCtx, turnCtx, target);
         }
         
+        CombatUI.DisplaySeparator();
+        
         return true;
     }
 

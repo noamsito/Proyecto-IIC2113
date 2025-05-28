@@ -398,16 +398,16 @@ public static class CombatUI
 
         public static void DisplayWeakMessage(Unit target, Unit attacker)
         {
-            Console.WriteLine($"{target.GetName()} es débil contra el ataque de {attacker.GetName()}");
+            _view.WriteLine($"{target.GetName()} es débil contra el ataque de {attacker.GetName()}");
         }
 
         public static void DisplayBlockMessage(Unit target, Unit attacker)
         {
-            Console.WriteLine($"{target.GetName()} bloquea el ataque de {attacker.GetName()}");
+            _view.WriteLine($"{target.GetName()} bloquea el ataque de {attacker.GetName()}");
         }
 
         public static void DisplayResistMessage(Unit target, Unit attacker)
         {
-            Console.WriteLine($"{target.GetName()} es resistente el ataque de {attacker.GetName()}");
+            _view.WriteLine($"{target.GetName()} es resistente el ataque de {attacker.GetName()}");
         }
 }       

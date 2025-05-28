@@ -43,20 +43,10 @@ public static class AffinityEffectManager
         {
             CombatUI.DisplaySkillUsage(specificSkillCtxForTarget.Caster, skill, target);
             success = GetSuccessSkillsLightAndDark(affinityCtx, specificSkillCtxForTarget);
-            // if (success)
-            // {
-            //     CombatUI.DisplayUnitEliminated(target);
-            // }
-            // else
-            // {
-            //     CombatUI.DisplayHasMissed(specificSkillCtxForTarget.Caster);
-            // }
-            
             CombatUI.DisplayFinalHP(target);
+            
+            TurnManager.ConsumeTurnsBasedOnAffinity(affinityCtx, turnCtx);
         }
-        
-        // SkillManager.ConsumeMP(skillCtx.Caster, skill.Cost);
-        // TurnManager.ConsumeTurnsBasedOnAffinity(affinityCtx, turnCtx);
     }
     
     public static int GetStatForSkill(SkillUseContext skillCtx)
@@ -178,8 +168,6 @@ public static class AffinityEffectManager
         int lckTarget = skillCtx.Target.GetCurrentStats().GetStatByName("Lck");
         double skillPower = skillCtx.Skill.Power;
         double hpToKill = 0;
-        
-        Console.WriteLine(affinityType);
         
         switch (affinityType)
         {

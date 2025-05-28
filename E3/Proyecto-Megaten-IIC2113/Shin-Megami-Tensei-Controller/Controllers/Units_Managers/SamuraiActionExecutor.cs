@@ -206,9 +206,14 @@ public static class SamuraiActionExecutor
         }
 
         var skillCtx = SkillUseContext.CreateSkillContext(samuraiCtx.Samurai, target, skill, turnCtx);
-        
         bool skillUsed = SkillManager.HandleDamageSkills(skillCtx, turnCtx);
-        UpdateGameStateAfterSkill(turnCtx);
+
+        if (skillUsed)
+        {
+            SkillManager.ConsumeMP(skillCtx.Caster, skill.Cost);
+            TurnManager.UpdateTurnStatesForDisplay(turnCtx);
+            turnCtx.Attacker.UnitManager.RearrangeSortedUnitsWhenAttacked();
+        }
 
         return skillUsed;
     }
