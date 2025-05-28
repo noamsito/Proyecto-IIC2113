@@ -88,8 +88,6 @@ public static class SkillManager
 
     public static bool HandleDamageSkills(SkillUseContext skillCtx, TurnContext turnCtx)
     {
-        Skill skill = skillCtx.Skill;
-        
         if (IsSkillMultiTarget(skillCtx.Skill))
         {
             return DamageSkillsManager.HandleMultiTargetDamageSkill(skillCtx, turnCtx);

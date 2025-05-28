@@ -19,4 +19,9 @@ public class SkillUseContext
         Attacker = attacker;
         Defender = defender;
     }
+    
+    public static SkillUseContext CreateSkillContext(Unit caster, Unit? target, Skill skill, TurnContext turnCtx)
+    {
+        return new SkillUseContext(caster, target, skill, turnCtx.Attacker, turnCtx.Defender);
+    }
 }

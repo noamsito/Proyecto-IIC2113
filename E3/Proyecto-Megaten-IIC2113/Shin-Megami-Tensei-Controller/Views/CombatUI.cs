@@ -232,6 +232,8 @@ public static class CombatUI
                 "Force" => "lanza viento a",
                 "Phys" => "ataca a",
                 "Gun" => "dispara a",
+                "Light" => "ataca con luz a",
+                "Dark" => "ataca con oscuridad a",
                 "Heal" when skill.Name is "Recarm" or "Samarecarm" or "Invitation" => "revive a",
                 "Heal" => "cura a",
                 _ => "usa " + skill.Name + " en"
@@ -382,5 +384,30 @@ public static class CombatUI
                     DisplayFinalHP(unitCaster);
                     break;
             }
+        }
+
+        public static void DisplayUnitEliminated(Unit unit)
+        {
+            _view.WriteLine($"{unit.GetName()} ha sido eliminado");
+        }
+
+        public static void DisplayHasMissed(Unit unit)
+        {
+            _view.WriteLine($"{unit.GetName()} ha fallado el ataque");
+        }
+
+        public static void DisplayWeakMessage(Unit target, Unit attacker)
+        {
+            Console.WriteLine($"{target.GetName()} es débil contra el ataque de {attacker.GetName()}");
+        }
+
+        public static void DisplayBlockMessage(Unit target, Unit attacker)
+        {
+            Console.WriteLine($"{target.GetName()} bloquea el ataque de {attacker.GetName()}");
+        }
+
+        public static void DisplayResistMessage(Unit target, Unit attacker)
+        {
+            Console.WriteLine($"{target.GetName()} es resistente el ataque de {attacker.GetName()}");
         }
 }       

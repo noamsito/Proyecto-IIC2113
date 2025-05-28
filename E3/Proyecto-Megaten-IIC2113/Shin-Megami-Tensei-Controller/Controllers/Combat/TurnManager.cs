@@ -179,7 +179,6 @@ public static class TurnManager
 
     public static List<Unit> GetTargetsForMultiTargetSkill(SkillUseContext skillCtx)
     {
-        Player attackerPlayer = skillCtx.Attacker;
         List<Unit> targets = new List<Unit>();
         
         ManageIfTargetsAreAlliesOrEnemies(skillCtx, ref targets);
@@ -190,16 +189,26 @@ public static class TurnManager
     private static void ManageIfTargetsAreAlliesOrEnemies(SkillUseContext skillCtx, ref List<Unit> targets)
     {
         Skill skill = skillCtx.Skill;
-
+        bool isHealSkill = skill.Type == "Heal";
+        
         switch (skill.Target)
         {
             case "Party":
-                if () AddAllAlliesUnitsToTargets(skillCtx, ref targets);
+                if (isHealSkill)
+                    AddAllAlliesUnitsToTargets(skillCtx, ref targets);
                 break;
             case "All":
-                
+                if (isHealSkill)
+                {
+                    AddAllAlliesUnitsToTargets(skillCtx, ref targets);
+                }
+                else
+                {
+                    AddAllEnemiesUnitsToTargets(skillCtx, ref targets);
+                }
                 break;
         }
+
     }
     
     private static void AddAllAlliesUnitsToTargets(SkillUseContext skillCtx, ref List<Unit> targets)
@@ -249,12 +258,12 @@ public static class TurnManager
             }
         }
     }
-    
+
     private static void AddActiveEnemiesToTargets(SkillUseContext skillCtx, ref List<Unit> targets)
     {
         Player defenderPlayer = skillCtx.Defender;
         PlayerUnitManager unitManagerDefender = defenderPlayer.UnitManager;
-        
+
         foreach (var unit in unitManagerDefender.GetActiveUnits())
         {
             if (unit != null && unit.IsAlive())
@@ -262,4 +271,5 @@ public static class TurnManager
                 targets.Add(unit);
             }
         }
+    }
 }

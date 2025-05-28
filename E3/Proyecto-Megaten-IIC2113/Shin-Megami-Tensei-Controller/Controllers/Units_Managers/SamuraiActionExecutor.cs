@@ -152,7 +152,7 @@ public static class SamuraiActionExecutor
 
     private static bool HandleSpecialSkill(Skill skill, SamuraiActionContext samuraiCtx, TurnContext turnCtx)
     {
-        var skillCtx = CreateSkillContext(samuraiCtx.Samurai, null, skill, turnCtx);
+        var skillCtx = SkillUseContext.CreateSkillContext(samuraiCtx.Samurai, null, skill, turnCtx);
         bool skillUsed = SkillManager.HandleSpecialSkill(skillCtx, turnCtx);
 
         if (skillUsed) TurnManager.UpdateTurnStatesForDisplay(turnCtx);
@@ -175,7 +175,7 @@ public static class SamuraiActionExecutor
             }
         }
 
-        var skillCtx = CreateSkillContext(samuraiCtx.Samurai, target, skill, turnCtx);
+        var skillCtx = SkillUseContext.CreateSkillContext(samuraiCtx.Samurai, target, skill, turnCtx);
         bool skillUsed = SkillManager.HandleHealSkills(skillCtx, turnCtx);
         
         if (skillUsed)
@@ -205,18 +205,12 @@ public static class SamuraiActionExecutor
             }
         }
 
-        var skillCtx = CreateSkillContext(samuraiCtx.Samurai, target, skill, turnCtx);
+        var skillCtx = SkillUseContext.CreateSkillContext(samuraiCtx.Samurai, target, skill, turnCtx);
         
-        // Apply the skill management para multi y single target
         bool skillUsed = SkillManager.HandleDamageSkills(skillCtx, turnCtx);
         UpdateGameStateAfterSkill(turnCtx);
 
         return skillUsed;
-    }
-
-    private static SkillUseContext CreateSkillContext(Unit caster, Unit? target, Skill skill, TurnContext turnCtx)
-    {
-        return new SkillUseContext(caster, target, skill, turnCtx.Attacker, turnCtx.Defender);
     }
 
     private static Unit? SelectSkillTarget(Skill skill, SamuraiActionContext samuraiCtx, TurnContext turnCtx)
