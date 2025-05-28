@@ -217,7 +217,7 @@ public static class SamuraiActionExecutor
 
         return skillUsed;
     }
-
+ 
     private static Unit? SelectSkillTarget(Skill skill, SamuraiActionContext samuraiCtx, TurnContext turnCtx)
     {
         var targetCtx = new SkillTargetContext(

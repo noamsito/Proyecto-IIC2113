@@ -42,7 +42,7 @@ public static class AffinityEffectManager
         for (int i = 0; i < numHits; i++)
         {
             CombatUI.DisplaySkillUsage(specificSkillCtxForTarget.Caster, skill, target);
-            success = GetSuccessSkillsLightAndDark(affinityCtx, specificSkillCtxForTarget);
+            GetSuccessSkillsLightAndDark(affinityCtx, specificSkillCtxForTarget);
             CombatUI.DisplayFinalHP(target);
             
             TurnManager.ConsumeTurnsBasedOnAffinity(affinityCtx, turnCtx);
