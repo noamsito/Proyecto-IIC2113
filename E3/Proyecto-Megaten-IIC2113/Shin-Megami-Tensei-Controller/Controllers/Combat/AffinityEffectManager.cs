@@ -219,5 +219,6 @@ public static class AffinityEffectManager
                 CombatUI.DisplayHasMissed(affinityCtx.Caster);
                 break;
         }
+        // CombatUI.DisplayFinalHP(affinityCtx.Target);
     }
 }

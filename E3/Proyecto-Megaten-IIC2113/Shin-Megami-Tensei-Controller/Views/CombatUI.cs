@@ -410,4 +410,19 @@ public static class CombatUI
         {
             _view.WriteLine($"{target.GetName()} es resistente el ataque de {attacker.GetName()}");
         }
+        
+        public static void DisplayDamageReceived(Unit target, int damage)
+        {
+            _view.WriteLine($"{target.GetName()} recibe {damage} de daño");
+        }
+
+        public static void DisplayDrainMessage(Unit target, int amount)
+        {
+            _view.WriteLine($"{target.GetName()} absorbe {amount} daño");
+        }
+
+        public static void DisplayRepelMessage(Unit target, Unit caster, int damage)
+        {
+            _view.WriteLine($"{target.GetName()} devuelve {damage} daño a {caster.GetName()}");
+        }
 }       

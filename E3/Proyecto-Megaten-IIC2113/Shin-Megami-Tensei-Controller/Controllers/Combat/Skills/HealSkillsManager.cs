@@ -70,9 +70,6 @@ public static class HealSkillsManager
     
     public static bool HandleSingleTargetHealSkill(SkillUseContext skillCtx, TurnContext turnCtx)
     {
-        Player attackerPlayer = skillCtx.Attacker;
-        PlayerUnitManager playerUnitManager = attackerPlayer.UnitManager;
-        
         string skillName = skillCtx.Skill.Name;
         Skill skill = skillCtx.Skill;
         int numberHits = SkillManager.CalculateNumberHits(skill.Hits, skillCtx.Attacker);

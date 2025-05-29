@@ -7,6 +7,27 @@ public class DamageSkillsManager
 {
     public static bool HandleMultiTargetDamageSkill(SkillUseContext skillCtx, TurnContext turnCtx)
     {
+        Skill skill = skillCtx.Skill;
+        
+        switch (skill.Target)
+        {
+            case "All":
+                MultiTargetSkillManager.HandleMultiTargetOffensiveSkill(skillCtx, turnCtx);
+                break;
+                
+            case "Multi":
+                MultiTargetSkillManager.HandleMultiTargetSkill(skillCtx, turnCtx);
+                break;
+                
+            default:
+                return HandleMultiTargetDamageSkillLegacy(skillCtx, turnCtx);
+        }
+        
+        return true;
+    }
+
+    private static bool HandleMultiTargetDamageSkillLegacy(SkillUseContext skillCtx, TurnContext turnCtx)
+    {
         List<Unit> targets = TurnManager.GetTargetsForMultiTargetSkill(skillCtx);
         
         foreach (Unit target in targets)
@@ -33,6 +54,7 @@ public class DamageSkillsManager
     private static Unit GetTargetWithHighestPriorityAffinity(
         SkillUseContext skillCtx, List<Unit> targets)
     {
+        Unit repelOrDrainTarget = null;
         Unit nullTarget        = null;
         Unit missTarget        = null;
         Unit resistTarget      = null;
@@ -47,7 +69,8 @@ public class DamageSkillsManager
             {
                 case "Rp":
                 case "Dr":
-                    return target;
+                    if (repelOrDrainTarget == null) repelOrDrainTarget = target;
+                    break;
 
                 case "Nu":
                     if (nullTarget == null) nullTarget = target;
@@ -68,10 +91,11 @@ public class DamageSkillsManager
             }
         }
 
+        if (repelOrDrainTarget != null) return repelOrDrainTarget;
         if (nullTarget   != null) return nullTarget;
         if (missTarget   != null) return missTarget;
-        if (resistTarget != null) return resistTarget;
         if (weakTarget   != null) return weakTarget;
+        if (resistTarget != null) return resistTarget;
 
         return targets[0];
     }
