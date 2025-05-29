@@ -1,11 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7jVUyK1LH1A=",
+  "dgSpecHash": "Ln/Rv7Bex2c=",
   "success": true,
-  "projectFilePath": "/Users/noam/Desktop/Universidad/Semestres/Semestre 7/Diseño detallado de software/Proyecto-IIC2113/E3/Proyecto-Megaten-IIC2113/Shin-Megami-Tensei-View/Shin-Megami-Tensei-View.csproj",
-  "expectedPackageFiles": [
-    "/Users/noam/.nuget/packages/microsoft.netcore.app.ref/8.0.13/microsoft.netcore.app.ref.8.0.13.nupkg.sha512",
-    "/Users/noam/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.13/microsoft.aspnetcore.app.ref.8.0.13.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\vieir\\OneDrive\\Universidad\\Semestres\\Semestre 7\\Diseño detallado de software\\Proyecto-IIC2113\\E3\\Proyecto-Megaten-IIC2113\\Shin-Megami-Tensei-View\\Shin-Megami-Tensei-View.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
