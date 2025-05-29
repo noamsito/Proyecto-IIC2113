@@ -22,7 +22,6 @@ public static class AffinityEffectManager
             ManageTargetDamage(skillCtx, affinityCtx);
         }
         
-        SkillManager.ConsumeMP(skillCtx.Caster, skill.Cost);
         TurnManager.ConsumeTurnsBasedOnAffinity(affinityCtx, turnCtx);
         CombatUI.DisplayCombatUiForSkill(skillCtx, affinityCtx, numHits);
     }
@@ -30,22 +29,19 @@ public static class AffinityEffectManager
     {
         Skill skill = skillCtx.Skill;
         SkillUseContext specificSkillCtxForTarget = SkillUseContext.CreateSkillContext(skillCtx.Caster, target, skill, turnCtx);
-        
+    
         int numHits = SkillManager.CalculateNumberHits(skill.Hits, turnCtx.Attacker);
-        
+    
         int stat = GetStatForSkill(specificSkillCtxForTarget);
         double baseDamage = CalculateBaseDamage(stat, skill.Power);
-        
+    
         var affinityCtx = CreateAffinityContext(specificSkillCtxForTarget, baseDamage);
-        bool success = true;
-        
+    
         for (int i = 0; i < numHits; i++)
         {
             CombatUI.DisplaySkillUsage(specificSkillCtxForTarget.Caster, skill, target);
             GetSuccessSkillsLightAndDark(affinityCtx, specificSkillCtxForTarget);
             CombatUI.DisplayFinalHP(target);
-            
-            TurnManager.ConsumeTurnsBasedOnAffinity(affinityCtx, turnCtx);
         }
     }
     
@@ -160,7 +156,7 @@ public static class AffinityEffectManager
         }
     }
 
-    public static bool GetSuccessSkillsLightAndDark(AffinityContext affinityCtx, SkillUseContext skillCtx)
+    public static void GetSuccessSkillsLightAndDark(AffinityContext affinityCtx, SkillUseContext skillCtx)
     {
         string affinityType = AffinityResolver.GetAffinity(affinityCtx.Target, affinityCtx.AttackType);
         
@@ -178,11 +174,11 @@ public static class AffinityEffectManager
                                   .GetStatByName("HP");
                 UnitActionManager.ApplyDamageTaken(affinityCtx.Target, hpToKill);
                 CombatUI.DisplayUnitEliminated(affinityCtx.Target);
-                return true;
+                break;
 
             case "Nu":
                 CombatUI.DisplayBlockMessage(affinityCtx.Target, affinityCtx.Caster);
-                return true;
+                break;
 
             case "Rs": 
                 if ((lckCaster + skillPower) >= (2 * lckTarget))
@@ -193,11 +189,11 @@ public static class AffinityEffectManager
                         .GetStatByName("HP");
                     UnitActionManager.ApplyDamageTaken(affinityCtx.Target, hpToKill); 
                     CombatUI.DisplayUnitEliminated(affinityCtx.Target);
-                    return true;
+                    break;
                 }
 
                 CombatUI.DisplayHasMissed(affinityCtx.Caster);
-                return false;
+                break;
 
             case "Rp":
                 hpToKill = affinityCtx.Target
@@ -205,11 +201,10 @@ public static class AffinityEffectManager
                     .GetStatByName("HP");
                 UnitActionManager.ApplyDamageTaken(affinityCtx.Caster, hpToKill); 
                 CombatUI.DisplayHasMissed(affinityCtx.Caster);
-                return false;
+                break;
 
             case "Dr":
-                return false;
-
+                break;
             default:
                 if (lckCaster + skillPower >= lckTarget)
                 {
@@ -218,11 +213,11 @@ public static class AffinityEffectManager
                         .GetStatByName("HP");
                     UnitActionManager.ApplyDamageTaken(affinityCtx.Target, hpToKill);
                     CombatUI.DisplayUnitEliminated(affinityCtx.Target);
-                    return true;
+                    break;
                 }
                 
                 CombatUI.DisplayHasMissed(affinityCtx.Caster);
-                return false;
+                break;
         }
     }
 }

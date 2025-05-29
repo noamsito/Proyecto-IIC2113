@@ -7,7 +7,6 @@ public static class HealSkillsManager
 {
     public static bool HandleMultiTargetHealSkill(SkillUseContext skillCtx, TurnContext turnCtx)
     {
-        Skill skill = skillCtx.Skill;
         List<Unit> targets = TurnManager.GetTargetsForMultiTargetSkill(skillCtx);
         
         foreach (Unit target in targets)
@@ -19,7 +18,6 @@ public static class HealSkillsManager
         ApplySpecificEffectsForMultiHealSkill(skillCtx);
         CombatUI.DisplaySpecificForHealSkill(skillCtx);
         
-        TurnManager.ConsumeTurnsForHealSkill(skill, turnCtx);
         TurnManager.ConsumeTurn(turnCtx);
         
         CombatUI.DisplaySeparator();

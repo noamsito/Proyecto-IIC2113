@@ -90,11 +90,6 @@ public static class TurnManager
         }
     }
 
-    public static void ConsumeTurnsForHealSkill(Skill skill, TurnContext turnCtx)
-    {
-        
-    }
-
     
     public static void ManageTurnsWhenPassedTurn(TurnContext turnCtx)
     {
@@ -244,7 +239,7 @@ public static class TurnManager
         
         foreach (var unit in unitManagerDefender.GetActiveUnits())
         {
-            if (unit != null)
+            if (unit != null && unit.IsAlive())
             {
                 targets.Add(unit);
             }
@@ -252,7 +247,7 @@ public static class TurnManager
         
         foreach (var unit in unitManagerDefender.GetReservedUnits())
         {
-            if (unit != null)
+            if (unit != null && unit.IsAlive())
             {
                 targets.Add(unit);
             }

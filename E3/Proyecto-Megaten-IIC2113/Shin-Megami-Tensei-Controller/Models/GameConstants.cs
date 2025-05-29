@@ -24,7 +24,8 @@ public static class GameConstants
         "Mediarama",
         "Mediarahan",
         "Recarmdra",
-        "Judgement Light"
+        "Judgement Light",
+        "Mahama"
     };
 
     public static readonly List<string> _stringForMultiTarget = new List<string>

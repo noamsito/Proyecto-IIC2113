@@ -165,9 +165,9 @@ public static class SamuraiActionExecutor
         Unit? target = null;
         var skillNamesNeedSelectTarget = GameConstants._skillsThatDontNeedSelectObjective;
         
-        if (!skillNamesNeedSelectTarget.Contains(skill.Name))
+        if (skill.Target != "All" && skill.Target != "Party" && !skillNamesNeedSelectTarget.Contains(skill.Name))
         {
-            target = SelectSkillTarget(skill, samuraiCtx, turnCtx);
+            target = SelectSkillTarget(skill, samuraiCtx);
             if (target == null)
             {
                 CombatUI.DisplaySeparator();
@@ -191,12 +191,10 @@ public static class SamuraiActionExecutor
     private static bool HandleDamageSkill(Skill skill, SamuraiActionContext samuraiCtx, TurnContext turnCtx)
     {
         Unit? target = null;
-        var skillNamesNeedSelectTarget = GameConstants._skillsThatDontNeedSelectObjective;
         
-        if (!skillNamesNeedSelectTarget.Contains(skill.Name) ||
-            skill.Target != "All")
+        if (skill.Target != "All" && skill.Target != "Party")
         {
-            target = SelectSkillTarget(skill, samuraiCtx, turnCtx);
+            target = SelectSkillTarget(skill, samuraiCtx);
             
             if (target == null)
             {
@@ -218,7 +216,7 @@ public static class SamuraiActionExecutor
         return skillUsed;
     }
  
-    private static Unit? SelectSkillTarget(Skill skill, SamuraiActionContext samuraiCtx, TurnContext turnCtx)
+    private static Unit? SelectSkillTarget(Skill skill, SamuraiActionContext samuraiCtx)
     {
         var targetCtx = new SkillTargetContext(
             skill,
@@ -227,10 +225,7 @@ public static class SamuraiActionExecutor
             samuraiCtx.View
         );
 
-        Player attackerPlayer = turnCtx.Attacker;
-        Unit unitAttacking = attackerPlayer.GetTeam().Samurai;
-
-        return TargetSelector.SelectSkillTarget(targetCtx, unitAttacking);
+        return TargetSelector.SelectSkillTarget(targetCtx, samuraiCtx.Samurai);
     }
 
     private static void UpdateGameStateAfterSkill(TurnContext turnCtx)

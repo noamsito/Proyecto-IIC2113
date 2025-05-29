@@ -166,17 +166,29 @@ public static class DemonActionExecutor
 
     private static bool HandleDamageSkill(Skill skill, DemonActionContext demonCtx, TurnContext turnCtx)
     {
-        Unit? target = SelectSkillTarget(skill, demonCtx);
-        if (target == null)
+        Unit? target = null;
+        var skillNamesNeedSelectTarget = GameConstants._skillsThatDontNeedSelectObjective;
+
+        if (skill.Target != "All" && skill.Target != "Party" && !skillNamesNeedSelectTarget.Contains(skill.Name))
         {
-            CombatUI.DisplaySeparator();
-            return false;
+            target = SelectSkillTarget(skill, demonCtx);
+            
+            if (target == null)
+            {
+                CombatUI.DisplaySeparator();
+                return false;
+            }
         }
 
-        var skillCtx = CreateSkillContext(demonCtx.Demon, target, skill, turnCtx);
-
+        var skillCtx = SkillUseContext.CreateSkillContext(demonCtx.Demon, target, skill, turnCtx);
         bool skillUsed = SkillManager.HandleDamageSkills(skillCtx, turnCtx);
-        UpdateGameStateAfterSkill(turnCtx);
+
+        if (skillUsed)
+        {
+            SkillManager.ConsumeMP(skillCtx.Caster, skill.Cost);
+            TurnManager.UpdateTurnStatesForDisplay(turnCtx);
+            turnCtx.Attacker.UnitManager.RearrangeSortedUnitsWhenAttacked();
+        }
 
         return skillUsed;
     }
