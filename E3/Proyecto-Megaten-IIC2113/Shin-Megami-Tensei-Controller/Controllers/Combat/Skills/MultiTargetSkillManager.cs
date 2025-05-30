@@ -17,6 +17,7 @@ public static class MultiTargetSkillManager
         List<AffinityContext> allAffinityContexts = new List<AffinityContext>();
         List<Unit> repelTargets = new List<Unit>();
         double totalRepelDamage = 0;
+        Unit lastRepelTarget = null;
 
         foreach (Unit target in targets)
         {
@@ -31,18 +32,26 @@ public static class MultiTargetSkillManager
                 {
                     repelTargets.Add(target);
                     totalRepelDamage += repelDamage;
+                    lastRepelTarget = target;
                 }
             }
         }
 
-        if (repelTargets.Count > 0)
+        if (repelTargets.Count > 0 && (skill.Type != "Light" && skill.Type != "Dark"))
         {
             UnitActionManager.ApplyDamageTaken(skillCtx.Caster, totalRepelDamage);
             CombatUI.DisplayFinalHP(skillCtx.Caster);
         }
 
-        string highestPriorityAffinity = GetHighestPriorityAffinity(allAffinityContexts);
-        ConsumeTurnsForMultiTarget(highestPriorityAffinity, turnCtx);
+        if (allAffinityContexts.Count > 0)
+        {
+            Unit targetWithHighestPriority = AffinityEffectManager.GetTargetWithHighestPriorityAffinity(skillCtx, targets);
+            int stat = AffinityEffectManager.GetStatForSkill(skillCtx);
+            double baseDamage = AffinityEffectManager.CalculateBaseDamage(stat, skillCtx.Skill.Power);
+            var affinityCtx = new AffinityContext(skillCtx.Caster, targetWithHighestPriority, skillCtx.Skill.Type, baseDamage);
+         
+            TurnManager.ConsumeTurnsBasedOnAffinity(affinityCtx, turnCtx);
+        }
         
         CombatUI.DisplaySeparator();
     }
@@ -59,7 +68,6 @@ public static class MultiTargetSkillManager
         List<Unit> repelTargets = new List<Unit>();
         double totalRepelDamage = 0;
 
-        // Agrupar hits por target para mostrar correctamente
         var hitsPerTarget = new Dictionary<Unit, int>();
         for (int hit = 0; hit < numHits; hit++)
         {
@@ -69,7 +77,6 @@ public static class MultiTargetSkillManager
             hitsPerTarget[target]++;
         }
 
-        // Procesar cada target con sus hits correspondientes
         foreach (var kvp in hitsPerTarget)
         {
             Unit target = kvp.Key;
@@ -89,20 +96,24 @@ public static class MultiTargetSkillManager
                 }
             }
             
-            // Mostrar HP final después de todos los hits a este target
             CombatUI.DisplayFinalHP(target);
         }
 
-        // Mostrar HP final del atacante solo una vez si hubo repel
-        if (repelTargets.Count > 0)
+        if (repelTargets.Count > 0 && (skill.Type != "Light" && skill.Type != "Dark"))
         {
             UnitActionManager.ApplyDamageTaken(skillCtx.Caster, totalRepelDamage);
             CombatUI.DisplayFinalHP(skillCtx.Caster);
         }
 
-        // Consumir turnos
-        string highestPriorityAffinity = GetHighestPriorityAffinity(allAffinityContexts);
-        ConsumeTurnsForMultiTarget(highestPriorityAffinity, turnCtx);
+        if (allAffinityContexts.Count > 0)
+        {
+            Unit targetWithHighestPriority = AffinityEffectManager.GetTargetWithHighestPriorityAffinity(skillCtx, targets);
+            int stat = AffinityEffectManager.GetStatForSkill(skillCtx);
+            double baseDamage = AffinityEffectManager.CalculateBaseDamage(stat, skillCtx.Skill.Power);
+            var affinityCtx = new AffinityContext(skillCtx.Caster, targetWithHighestPriority, skillCtx.Skill.Type, baseDamage);
+         
+            TurnManager.ConsumeTurnsBasedOnAffinity(affinityCtx, turnCtx);
+        }
         
         CombatUI.DisplaySeparator();
     }
@@ -116,14 +127,11 @@ public static class MultiTargetSkillManager
         isRepel = false;
         repelDamage = 0;
 
-        // Mostrar uso de habilidad
         DisplaySkillUsage(skillCtx.Caster, skillCtx.Skill, skillCtx.Target);
 
-        string affinity = AffinityResolver.GetAffinity(skillCtx.Target, skillCtx.Skill.Type);
-        
         if (skillCtx.Skill.Type == "Light" || skillCtx.Skill.Type == "Dark")
         {
-            HandleLightDarkSkill(affinityCtx, skillCtx);
+            HandleLightDarkSkill(affinityCtx, skillCtx, out isRepel);
         }
         else
         {
@@ -166,42 +174,82 @@ public static class MultiTargetSkillManager
                 
             case "Rp":
                 isRepel = true;
-                repelDamage = affinityCtx.BaseDamage;
-                CombatUI.DisplayRepelMessage(affinityCtx.Target, affinityCtx.Caster, (int)Math.Floor(affinityCtx.BaseDamage));
+                repelDamage = Math.Floor(affinityCtx.BaseDamage);
+                CombatUI.DisplayRepelMessage(affinityCtx.Target, affinityCtx.Caster, (int)repelDamage);
                 break;
                 
-            default: // Neutral
+            default:
                 UnitActionManager.ApplyDamageTaken(affinityCtx.Target, finalDamage);
                 CombatUI.DisplayDamageReceived(affinityCtx.Target, (int)Math.Floor(finalDamage));
                 break;
         }
+    }
+    private static void HandleLightDarkSkill(AffinityContext affinityCtx, SkillUseContext skillCtx, out bool isRepel)
+    {
+        string affinity = AffinityResolver.GetAffinity(affinityCtx.Target, affinityCtx.AttackType);
+        int lckCaster = skillCtx.Caster.GetCurrentStats().GetStatByName("Lck");
+        int lckTarget = skillCtx.Target.GetCurrentStats().GetStatByName("Lck");
+        double skillPower = skillCtx.Skill.Power;
         
-        CombatUI.DisplayFinalHP(affinityCtx.Target);
+        isRepel = false;
+        
+        switch (affinity)
+        {
+            case "Wk":
+                CombatUI.DisplayWeakMessage(affinityCtx.Target, affinityCtx.Caster);
+                KillTarget(affinityCtx.Target);
+                CombatUI.DisplayUnitEliminated(affinityCtx.Target);
+                break;
+
+            case "Nu":
+                CombatUI.DisplayBlockMessage(affinityCtx.Target, affinityCtx.Caster);
+                break;
+
+            case "Rs":
+                if ((lckCaster + skillPower) >= (2 * lckTarget))
+                {
+                    CombatUI.DisplayResistMessage(affinityCtx.Target, affinityCtx.Caster);
+                    KillTarget(affinityCtx.Target);
+                    CombatUI.DisplayUnitEliminated(affinityCtx.Target);
+                }
+                else
+                {
+                    CombatUI.DisplayHasMissed(affinityCtx.Caster);
+                }
+                break;
+
+            case "Rp":
+                isRepel = true;
+                KillTarget(affinityCtx.Caster);
+                CombatUI.DisplayHasMissed(affinityCtx.Caster);
+                break;
+
+            case "Dr":
+                break;
+                
+            default:
+                if (lckCaster + skillPower >= lckTarget)
+                {
+                    KillTarget(affinityCtx.Target);
+                    CombatUI.DisplayUnitEliminated(affinityCtx.Target);
+                }
+                else
+                {
+                    CombatUI.DisplayHasMissed(affinityCtx.Caster);
+                }
+                break;
+        }
     }
 
-    private static void HandleLightDarkSkill(AffinityContext affinityCtx, SkillUseContext skillCtx)
+    private static void KillTarget(Unit target)
     {
-        AffinityEffectManager.GetSuccessSkillsLightAndDark(affinityCtx, skillCtx);
-        // Siempre mostrar HP final después de un ataque Light/Dark
-        CombatUI.DisplayFinalHP(affinityCtx.Target);
+        double hpToKill = target.GetCurrentStats().GetStatByName("HP");
+        UnitActionManager.ApplyDamageTaken(target, hpToKill);
     }
 
     private static void DisplaySkillUsage(Unit caster, Skill skill, Unit target)
     {
         CombatUI.DisplaySkillUsage(caster, skill, target);
-    }
-
-    private static string GetAttackVerbForSkillType(string skillType)
-    {
-        return skillType switch
-        {
-            "Phys" => "ataca",
-            "Gun" => "dispara",
-            "Light" => "ataca con luz",
-            "Dark" => "ataca con oscuridad",
-            "Almighty" => "lanza un ataque todo poderoso",
-            _ => "lanza" // Fire, Ice, Elec, Force
-        };
     }
 
     private static List<Unit> GetTargetsInCorrectOrder(SkillUseContext skillCtx, TurnContext turnCtx)
@@ -211,27 +259,14 @@ public static class MultiTargetSkillManager
         switch (skillCtx.Skill.Target)
         {
             case "All":
-                // 1. Unidades en el tablero del oponente (izquierda a derecha)
                 AddOpponentActiveUnits(skillCtx, orderedTargets);
-                
-                // 2. Unidades en la reserva del oponente (orden del archivo)
                 AddOpponentReserveUnits(skillCtx, orderedTargets);
-                
-                // 3. Unidades en el tablero del jugador (izquierda a derecha, excluyendo caster)
-                AddPlayerActiveUnitsExceptCaster(skillCtx, orderedTargets);
-                
-                // 4. Unidades en la reserva del jugador (orden del archivo)
-                AddPlayerReserveUnits(skillCtx, orderedTargets);
-                
-                // 5. La unidad que utilizó la habilidad
-                orderedTargets.Add(skillCtx.Caster);
                 break;
                 
             case "Multi":
                 return GetMultiTargetsUsingAlgorithm(skillCtx, turnCtx);
         }
         
-        // Filtrar solo unidades que pueden recibir el efecto
         return orderedTargets.Where(unit => ShouldReceiveEffect(unit, skillCtx.Skill)).ToList();
     }
 
@@ -256,7 +291,7 @@ public static class MultiTargetSkillManager
         {
             selectedTargets.Add(activeEnemies[currentIndex]);
             
-            if (h < hits - 1) // No mover en el último hit
+            if (h < hits - 1)
             {
                 if (directionLeft)
                 {
@@ -295,121 +330,9 @@ public static class MultiTargetSkillManager
             }
         }
     }
-
-    private static void AddPlayerActiveUnitsExceptCaster(SkillUseContext skillCtx, List<Unit> targets)
-    {
-        var activeUnits = skillCtx.Attacker.UnitManager.GetActiveUnits();
-        foreach (var unit in activeUnits)
-        {
-            if (unit != null && unit != skillCtx.Caster && unit.IsAlive())
-            {
-                targets.Add(unit);
-            }
-        }
-    }
-
-    private static void AddPlayerReserveUnits(SkillUseContext skillCtx, List<Unit> targets)
-    {
-        var reserveUnits = skillCtx.Attacker.UnitManager.GetReservedUnits();
-        foreach (var unit in reserveUnits)
-        {
-            if (unit != null && unit.IsAlive())
-            {
-                targets.Add(unit);
-            }
-        }
-    }
-
+    
     private static bool ShouldReceiveEffect(Unit unit, Skill skill)
     {
         return unit.IsAlive();
-    }
-
-    private static string GetHighestPriorityAffinity(List<AffinityContext> contexts)
-    {
-        // Prioridad: Repel/Drain > Null > Miss > Weak > Neutral/Resist
-        var priorities = new Dictionary<string, int>
-        {
-            {"Rp", 1}, {"Dr", 1},
-            {"Nu", 2},
-            {"Miss", 3},
-            {"Wk", 4},
-            {"-", 5}, {"Rs", 5}
-        };
-
-        string highestAffinity = "-";
-        int highestPriority = int.MaxValue;
-
-        foreach (var ctx in contexts)
-        {
-            string affinity = AffinityResolver.GetAffinity(ctx.Target, ctx.AttackType);
-            
-            if (priorities.ContainsKey(affinity) && priorities[affinity] < highestPriority)
-            {
-                highestPriority = priorities[affinity];
-                highestAffinity = affinity;
-            }
-        }
-
-        return highestAffinity;
-    }
-
-    private static void ConsumeTurnsForMultiTarget(string affinity, TurnContext turnCtx)
-    {
-        Player attackingPlayer = turnCtx.Attacker;
-        PlayerTurnManager turnManagerPlayer = attackingPlayer.TurnManager;
-        
-        switch (affinity)
-        {
-            case "Rp":
-            case "Dr":
-                TurnManager.ConsumeAllTurns(attackingPlayer);
-                break;
-            
-            case "Nu":
-                if (turnManagerPlayer.GetBlinkingTurns() >= 2)
-                {
-                    turnManagerPlayer.ConsumeBlinkingTurn(2);
-                }
-                else
-                {
-                    int blink = turnManagerPlayer.GetBlinkingTurns();
-                    turnManagerPlayer.ConsumeBlinkingTurn(blink);
-                    turnManagerPlayer.ConsumeFullTurn(2 - blink);
-                }
-                break;
-
-            case "Miss":
-                if (turnManagerPlayer.GetBlinkingTurns() >= 1)
-                    turnManagerPlayer.ConsumeBlinkingTurn(1);
-                else
-                    turnManagerPlayer.ConsumeFullTurn(1);
-                break;
-
-            case "Wk":
-                if (turnManagerPlayer.GetFullTurns() > 0)
-                {
-                    turnManagerPlayer.ConsumeFullTurn(1);
-                    turnManagerPlayer.GainBlinkingTurn(1);
-                }
-                else
-                {
-                    turnManagerPlayer.ConsumeBlinkingTurn(1);
-                }
-                break;
-            
-            case "Rs":
-            case "-":
-            default:
-                if (turnManagerPlayer.GetBlinkingTurns() > 0)
-                {
-                    turnManagerPlayer.ConsumeBlinkingTurn(1);
-                }
-                else
-                {
-                    turnManagerPlayer.ConsumeFullTurn(1);
-                }
-                break;
-        }
     }
 }

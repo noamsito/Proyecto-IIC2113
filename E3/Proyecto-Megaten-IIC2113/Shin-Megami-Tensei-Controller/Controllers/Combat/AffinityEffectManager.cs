@@ -219,6 +219,51 @@ public static class AffinityEffectManager
                 CombatUI.DisplayHasMissed(affinityCtx.Caster);
                 break;
         }
-        // CombatUI.DisplayFinalHP(affinityCtx.Target);
     }
+    
+    public static Unit GetTargetWithHighestPriorityAffinity(
+    SkillUseContext skillCtx,
+    List<Unit>      targets)
+    {
+        Unit repelOrDrain = null;   // Rp o Dr
+        Unit nullBlock    = null;   // Nu
+        Unit weak         = null;   // Wk
+        Unit other        = null;   // Miss, Rs o neutral "-"
+
+        foreach (Unit t in targets)
+        {
+            string affinity = AffinityResolver.GetAffinity(t, skillCtx.Skill.Type);
+
+            switch (affinity)
+            {
+                case "Rp":
+                case "Dr":
+                    if (repelOrDrain == null) repelOrDrain = t;
+                    break;
+
+                case "Nu":
+                    if (nullBlock == null) nullBlock = t;
+                    break;
+
+                case "Wk":
+                    if (weak == null) weak = t;
+                    break;
+
+                case "Miss":
+                case "Rs":
+                case "-":      // neutral
+                    if (other == null) other = t;
+                    break;
+            }
+        }
+
+        if (repelOrDrain != null) return repelOrDrain;
+        if (nullBlock    != null) return nullBlock;
+        if (weak         != null) return weak;
+        if (other        != null) return other;
+
+        // fallback defensivo
+        return targets[0];
+    }
+
 }

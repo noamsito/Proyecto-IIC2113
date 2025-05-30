@@ -234,6 +234,7 @@ public static class CombatUI
                 "Gun" => "dispara a",
                 "Light" => "ataca con luz a",
                 "Dark" => "ataca con oscuridad a",
+                "Almighty" => "lanza un ataque todo poderoso a",
                 "Heal" when skill.Name is "Recarm" or "Samarecarm" or "Invitation" => "revive a",
                 "Heal" => "cura a",
                 _ => "usa " + skill.Name + " en"

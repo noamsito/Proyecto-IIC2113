@@ -149,7 +149,6 @@ public static class CombatActionExecutor
         
         if (skillUsed)
         {
-            // HealSkillsManager no consume MP, lo consumimos aquí
             SkillManager.ConsumeMP(skillCtx.Caster, skillCtx.Skill.Cost);
             UpdateGameStateAfterSkill(turnCtx);
         }
@@ -161,10 +160,10 @@ public static class CombatActionExecutor
     {
         Unit? target = null;
 
-        if (skill.Target != "All" && skill.Target != "Party")
+        if (skill.Target != "All" && skill.Target != "Party" && skill.Target != "Multi")
         {
             target = SelectSkillTarget(skill, caster, currentPlayer, opponent, view);
-            
+        
             if (target == null)
             {
                 CombatUI.DisplaySeparator();
@@ -187,10 +186,13 @@ public static class CombatActionExecutor
     private static bool RequiresTargetSelection(Skill skill)
     {
         var skillNamesNeedSelectTarget = GameConstants._skillsThatDontNeedSelectObjective;
-        
+    
         if (skill.Name == "Invitation")
             return false;
-            
+        
+        if (skill.Target == "Multi")
+            return false;
+        
         return !skillNamesNeedSelectTarget.Contains(skill.Name) || 
                (skill.Target != "All" && skill.Target != "Party");
     }
