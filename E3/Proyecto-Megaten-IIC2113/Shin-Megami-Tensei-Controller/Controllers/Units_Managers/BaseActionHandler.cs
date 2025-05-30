@@ -3,10 +3,6 @@ using Shin_Megami_Tensei.Combat;
 
 namespace Shin_Megami_Tensei.Controllers;
 
-/// <summary>
-/// Handler base que centraliza la lógica común de manejo de acciones
-/// Elimina la duplicación entre SamuraiActionHandler y DemonActionHandler
-/// </summary>
 public static class BaseActionHandler
 {
     public static void HandleUnitAction<T>(

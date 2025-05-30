@@ -32,7 +32,6 @@ public static class MultiTargetSkillManager
                 {
                     repelTargets.Add(target);
                     totalRepelDamage += repelDamage;
-                    lastRepelTarget = target;
                 }
             }
         }
@@ -55,6 +54,7 @@ public static class MultiTargetSkillManager
         
         CombatUI.DisplaySeparator();
     }
+
 
     public static void HandleMultiTargetSkill(SkillUseContext skillCtx, TurnContext turnCtx)
     {
@@ -183,6 +183,8 @@ public static class MultiTargetSkillManager
                 CombatUI.DisplayDamageReceived(affinityCtx.Target, (int)Math.Floor(finalDamage));
                 break;
         }
+        
+        if (affinity != "Rp") CombatUI.DisplayFinalHP(affinityCtx.Target);
     }
     private static void HandleLightDarkSkill(AffinityContext affinityCtx, SkillUseContext skillCtx, out bool isRepel)
     {

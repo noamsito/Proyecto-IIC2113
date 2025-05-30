@@ -6,10 +6,6 @@ using Shin_Megami_Tensei.String_Handlers;
 
 namespace Shin_Megami_Tensei.Controllers;
 
-/// <summary>
-/// Ejecutor de acciones específico para Samurais
-/// Utiliza CombatActionExecutor para la lógica común y solo maneja la lógica específica de Samurai
-/// </summary>
 public static class SamuraiActionExecutor
 {
     public static bool Execute(string input, Samurai samurai, CombatContext combatCtx, TurnContext turnCtx)

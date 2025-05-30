@@ -5,10 +5,6 @@ using Shin_Megami_Tensei.Controllers;
 using Shin_Megami_Tensei.Gadgets;
 using Shin_Megami_Tensei.Managers;
 
-/// <summary>
-/// Gestor de acciones de unidades refactorizado
-/// Utiliza polimorfismo y la nueva arquitectura de handlers
-/// </summary>
 public static class UnitActionManager
 {
     public static void ExecuteAction(Unit unit, CombatContext combatCtx, TurnContext turnCtx)
@@ -26,14 +22,8 @@ public static class UnitActionManager
         }
     }
     
-    public static int ApplyDamageTaken(Unit unitHurt, double damage)
+    public static void ApplyDamageTaken(Unit unitHurt, double damage)
     {
-        if (unitHurt == null) 
-            throw new ArgumentNullException(nameof(unitHurt));
-        
-        if (damage < 0) 
-            throw new ArgumentException("El daño no puede ser negativo", nameof(damage));
-
         Stat currentStats = unitHurt.GetCurrentStats();
         
         int currentHP = currentStats.GetStatByName("HP");
@@ -41,8 +31,6 @@ public static class UnitActionManager
         int newHP = Math.Max(0, currentHP - damageToApply);
         
         currentStats.SetStatByName("HP", newHP);
-        
-        return newHP;
     }
 
     public static void PutInReserveList(Player player, Unit unitDead)

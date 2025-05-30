@@ -5,9 +5,6 @@ using Shin_Megami_Tensei.Managers;
 
 namespace Shin_Megami_Tensei.Controllers;
 
-/// <summary>
-/// Clase base que centraliza la lógica común de combate para Samurais y Demonios
-/// </summary>
 public static class CombatActionExecutor
 {
     #region Attack Methods
