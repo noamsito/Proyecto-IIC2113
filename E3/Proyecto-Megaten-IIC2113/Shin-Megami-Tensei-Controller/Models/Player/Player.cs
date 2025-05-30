@@ -11,7 +11,6 @@ public class Player
     private Team _team;
     private bool _hasSurrendered = false;
     
-    
     public PlayerTeamManager TeamManager { get; private set; }
     public PlayerTurnManager TurnManager { get; private set; }
     public PlayerUnitManager UnitManager { get; private set; }
