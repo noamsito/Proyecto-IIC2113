@@ -95,12 +95,10 @@ public static class MultiTargetSkillManager
                     totalRepelDamage += repelDamage;
                 }
             }
-            
-            CombatUI.DisplayFinalHP(target);
         }
 
         if (repelTargets.Count > 0 && (skill.Type != "Light" && skill.Type != "Dark"))
-        {
+        {   
             UnitActionManager.ApplyDamageTaken(skillCtx.Caster, totalRepelDamage);
             CombatUI.DisplayFinalHP(skillCtx.Caster);
         }
@@ -117,6 +115,8 @@ public static class MultiTargetSkillManager
         
         CombatUI.DisplaySeparator();
     }
+
+
 
     private static AffinityContext ProcessSingleTargetHit(SkillUseContext skillCtx, out bool isRepel, out double repelDamage)
     {
@@ -186,6 +186,7 @@ public static class MultiTargetSkillManager
         
         if (affinity != "Rp") CombatUI.DisplayFinalHP(affinityCtx.Target);
     }
+    
     private static void HandleLightDarkSkill(AffinityContext affinityCtx, SkillUseContext skillCtx, out bool isRepel)
     {
         string affinity = AffinityResolver.GetAffinity(affinityCtx.Target, affinityCtx.AttackType);
@@ -279,7 +280,9 @@ public static class MultiTargetSkillManager
         
         if (activeEnemies.Count == 0) return new List<Unit>();
 
-        int K = turnCtx.Attacker.TurnManager.GetConstantKPlayer();
+        int rawK = turnCtx.Attacker.TurnManager.GetConstantKPlayer();
+        int K = rawK > 0 ? rawK - 1 : 0;
+
         int A = activeEnemies.Count;
         int hits = SkillManager.CalculateNumberHits(skillCtx.Skill.Hits, turnCtx.Attacker);
         
