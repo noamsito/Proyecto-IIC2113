@@ -62,7 +62,6 @@ public class CombatManager
 
         bool actionWasExecuted = ExecuteUnitAction(currentPlayer);
         
-        // Si la unidad estaba muerta y no se ejecutó acción, consumir turno manualmente
         if (!actionWasExecuted)
         {
             ConsumeCurrentTurn(currentPlayer);

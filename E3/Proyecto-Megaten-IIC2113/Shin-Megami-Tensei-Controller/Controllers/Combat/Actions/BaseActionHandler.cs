@@ -12,7 +12,7 @@ public static class BaseActionHandler
         while (!actionWasExecuted)
         {
             DisplaySamuraiMenu(samurai.GetName());
-            string playerInput = GetPlayerInput();
+            string playerInput = CombatUI.GetUserInputWithSeparator();
             
             if (IsValidSamuraiInput(playerInput))
             {
@@ -28,7 +28,7 @@ public static class BaseActionHandler
         while (!actionWasExecuted)
         {
             DisplayDemonMenu(demon.GetName());
-            string playerInput = GetPlayerInput();
+            string playerInput = CombatUI.GetUserInputWithSeparator();
             
             if (IsValidDemonInput(playerInput))
             {
@@ -45,11 +45,6 @@ public static class BaseActionHandler
     private static void DisplayDemonMenu(string unitName)
     {
         ActionMenuProvider.DisplayDemonMenu(unitName);
-    }
-
-    private static string GetPlayerInput()
-    {
-        return CombatUI.GetUserInputWithSeparator();
     }
 
     private static bool IsValidSamuraiInput(string input)
