@@ -7,12 +7,13 @@ namespace Shin_Megami_Tensei.Managers;
 
 public static class SkillManager
 {
-    public static Skill? SelectSkill(View view, Unit unit)
+    public static Skill? SelectSkill(Unit unit)
     {
         var skillListsWithValidMP = GetSkillsWithValidMP(unit);
-        DisplaySkills(view, skillListsWithValidMP);
-    
-        int selected = GetSelectedSkillIndex(view);
+        CombatUI.DisplaySkills(skillListsWithValidMP);
+
+        string input = CombatUI.GetUserInputWithSeparator();
+        int selected = GetSelectedSkillIndex(input);
     
         return ValidateAndSelectSkill(skillListsWithValidMP, selected, unit);
     }
@@ -24,23 +25,8 @@ public static class SkillManager
             .ToList();
     }
     
-    private static void DisplaySkills(View view, List<Skill> skills)
+    private static int GetSelectedSkillIndex(string input)
     {
-        int displayIndex = 1;
-    
-        foreach (var skill in skills)
-        {
-            view.WriteLine($"{displayIndex}-{skill.Name} MP:{skill.Cost}");
-            displayIndex++;
-        }
-    
-        view.WriteLine($"{displayIndex}-Cancelar");
-    }
-    
-    private static int GetSelectedSkillIndex(View view)
-    {
-        string input = view.ReadLine();
-        view.WriteLine(GameConstants.Separator);
         return Convert.ToInt32(input) - 1;
     }
     

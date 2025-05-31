@@ -18,12 +18,11 @@ public static class AffinityEffectManager
         var affinityCtx = CreateAffinityContext(skillCtx, baseDamage);
         
         bool isLightDarkSkill = (skill.Type == "Light" || skill.Type == "Dark");
-        bool isDrainSkill = (skill.Type == "Almighty" && (
-            skill.Name.Contains("Drain") || 
+        bool isDrainSkill = (skill.Type == "Almighty" && 
             skill.Name == "Life Drain" || 
             skill.Name == "Spirit Drain" || 
             skill.Name == "Energy Drain" ||
-            skill.Name == "Serpent of Sheol"));
+            skill.Name == "Serpent of Sheol");
         
         if (isLightDarkSkill)
         {
@@ -308,13 +307,14 @@ public static class AffinityEffectManager
     }
     
     public static Unit GetTargetWithHighestPriorityAffinity(
-    SkillUseContext skillCtx,
-    List<Unit>      targets)
+        SkillUseContext skillCtx,
+        List<Unit>      targets)
     {
         Unit repelOrDrain = null;
-        Unit nullBlock    = null;
-        Unit weak         = null;
-        Unit other        = null;
+        Unit nullBlock = null;
+        Unit miss = null;
+        Unit weak = null;
+        Unit other = null;
 
         foreach (Unit t in targets)
         {
@@ -331,13 +331,16 @@ public static class AffinityEffectManager
                     if (nullBlock == null) nullBlock = t;
                     break;
 
+                case "Miss":
+                    if (miss == null) miss = t;
+                    break;
+
                 case "Wk":
                     if (weak == null) weak = t;
                     break;
 
-                case "Miss":
                 case "Rs":
-                case "-":       
+                case "-":
                     if (other == null) other = t;
                     break;
             }
@@ -345,6 +348,7 @@ public static class AffinityEffectManager
 
         if (repelOrDrain != null) return repelOrDrain;
         if (nullBlock    != null) return nullBlock;
+        if (miss         != null) return miss;
         if (weak         != null) return weak;
         if (other        != null) return other;
 

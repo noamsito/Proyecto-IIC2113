@@ -174,7 +174,7 @@ public static class SummonManager
 
     private static string GetPlayerInputWithSeparator()
     {
-        return CombatUI.GetUserInput();
+        return CombatUI.GetUserInputWithSeparator();
     }
 
     private static Unit SelectDemonFromLivingReserve(Player currentPlayer, string playerInput)

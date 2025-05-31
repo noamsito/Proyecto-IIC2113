@@ -5,20 +5,41 @@ namespace Shin_Megami_Tensei.Controllers;
 
 public static class DemonActionExecutor
 {
-    public static bool Execute(string input, Demon demon, CombatContext combatCtx, TurnContext turnCtx)
+    private const string ATTACK_OPTION = "1";
+    private const string SKILL_OPTION = "2";
+    private const string SUMMON_OPTION = "3";
+    private const string PASS_TURN_OPTION = "4";
+
+    public static bool Execute(string playerInput, Demon demon, CombatContext combatContext, TurnContext turnContext)
     {
-        return input switch
+        return playerInput switch
         {
-            "1" => CombatActionExecutor.ExecuteAttack(
-                demon, combatCtx.Opponent, combatCtx.View, "Phys", turnCtx),
-            
-            "2" => CombatActionExecutor.ExecuteSkill(
-                demon, combatCtx.CurrentPlayer, combatCtx.Opponent, combatCtx.View, turnCtx),
-            
-            "3" => CombatActionExecutor.ExecuteSummon(
-                combatCtx.CurrentPlayer, demon, turnCtx, isSamurai: false),
-            
-            "4" => CombatActionExecutor.ExecutePassTurn(turnCtx),
+            ATTACK_OPTION => ExecutePhysicalAttack(demon, combatContext, turnContext),
+            SKILL_OPTION => ExecuteSkillAction(demon, combatContext, turnContext),
+            SUMMON_OPTION => ExecuteSummonAction(demon, combatContext, turnContext),
+            PASS_TURN_OPTION => ExecutePassTurnAction(turnContext),
+            _ => false
         };
+    }
+
+    private static bool ExecutePhysicalAttack(Demon demon, CombatContext combatContext, TurnContext turnContext)
+    {
+        var attackContext = new AttackTargetContext(demon, combatContext.Opponent, "Phys");
+        return CombatActionExecutor.ExecuteAttack(attackContext, turnContext);
+    }
+
+    private static bool ExecuteSkillAction(Demon demon, CombatContext combatContext, TurnContext turnContext)
+    {
+        return CombatActionExecutor.ExecuteSkill(demon, combatContext, turnContext);
+    }
+
+    private static bool ExecuteSummonAction(Demon demon, CombatContext combatContext, TurnContext turnContext)
+    {
+        return CombatActionExecutor.ExecuteSummon(combatContext.CurrentPlayer, demon, turnContext, SummonType.Demon);
+    }
+
+    private static bool ExecutePassTurnAction(TurnContext turnContext)
+    {
+        return CombatActionExecutor.ExecutePassTurn(turnContext);
     }
 }

@@ -263,7 +263,8 @@ public static class MultiTargetSkillManager
         {
             case "All":
                 AddOpponentActiveUnits(skillCtx, orderedTargets);
-                AddOpponentReserveUnits(skillCtx, orderedTargets);
+                // AddOpponentReserveUnits(skillCtx, orderedTargets);
+                Console.WriteLine("aaaaaaaaaaaaaaaaaaaaaaaaaaa");
                 break;
                 
             case "Multi":
@@ -277,7 +278,7 @@ public static class MultiTargetSkillManager
     {
         PlayerUnitManager opponentUnitManager = skillCtx.Defender.UnitManager;
         
-        var activeSlots = opponentUnitManager.GetActiveUnits(); // [A, B, C, D]
+        var activeSlots = opponentUnitManager.GetActiveUnits();
         var activeEnemies = activeSlots
             .Where(unit => unit != null && unit.IsAlive())
             .ToList();

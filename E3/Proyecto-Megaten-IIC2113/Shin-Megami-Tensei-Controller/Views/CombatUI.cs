@@ -13,7 +13,7 @@ public static class CombatUI
             _view = view;
         }
 
-        public static string GetUserInput()
+        public static string GetUserInputWithSeparator()
         {
             string input = _view.ReadLine();
             DisplaySeparator();
@@ -389,6 +389,19 @@ public static class CombatUI
                     DisplayFinalHP(unitCaster);
                     break;
             }
+        }
+
+        public static void DisplaySkills(List<Skill> skills)
+        {
+            int displayIndex = 1;
+
+            foreach (var skill in skills)
+            {
+                _view.WriteLine($"{displayIndex}-{skill.Name} MP:{skill.Cost}");
+                displayIndex++;
+            }
+    
+            _view.WriteLine($"{displayIndex}-Cancelar");
         }
 
         public static void DisplayUnitEliminated(Unit unit)

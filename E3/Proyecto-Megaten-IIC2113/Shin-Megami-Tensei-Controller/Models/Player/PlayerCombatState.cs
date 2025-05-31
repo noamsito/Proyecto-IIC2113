@@ -68,7 +68,7 @@ public class PlayerCombatState
     
     public string GetPlayerInputWithSeparator()
     {
-        return CombatUI.GetUserInput();
+        return CombatUI.GetUserInputWithSeparator();
     }
 
     public List<int> GetValidSlotsFromActiveUnitsAndDisplayIt()

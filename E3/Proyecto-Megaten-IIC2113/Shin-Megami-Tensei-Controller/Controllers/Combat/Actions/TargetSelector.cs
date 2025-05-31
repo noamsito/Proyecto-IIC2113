@@ -8,8 +8,9 @@ public static class TargetSelector
 {
     private const int CANCEL_OPTION_OFFSET = 1;
 
-    public static string SelectEnemy(AttackTargetContext attackContext, Player opponent)
+    public static string SelectEnemy(AttackTargetContext attackContext)
     {
+        Player opponent = attackContext.Opponent;
         PlayerCombatState combatState = opponent.CombatState;
         var availableEnemies = GetAvailableEnemies(attackContext.Opponent);
         

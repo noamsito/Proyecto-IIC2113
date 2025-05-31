@@ -6,12 +6,12 @@ public class AttackTargetContext
 {
     public Unit Attacker { get; }
     public Player Opponent { get; }
-    public View View { get; }
+    public string AttackType { get; }
 
-    public AttackTargetContext(Unit attacker, Player opponent, View view)
+    public AttackTargetContext(Unit attacker, Player opponent, string attackType)
     {
         Attacker = attacker;
         Opponent = opponent;
-        View = view;
+        AttackType = attackType;
     }
 }

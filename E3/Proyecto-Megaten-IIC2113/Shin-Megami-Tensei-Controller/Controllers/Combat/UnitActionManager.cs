@@ -17,8 +17,6 @@ public static class UnitActionManager
             case Demon demon:
                 DemonActionHandler.Handle(demon, combatCtx, turnCtx);
                 break;
-            default:
-                throw new ArgumentException($"Tipo de unidad no soportado: {unit.GetType()}");
         }
     }
     
