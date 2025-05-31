@@ -29,15 +29,15 @@ public static class TargetSelector
 
     public static Unit? SelectSkillTarget(SkillTargetContext skillContext, Unit attackingUnit)
     {
-        PlayerCombatState combatState = skillContext.CurrentPlayer.CombatState;;
+        PlayerCombatState playerCombatState = skillContext.CurrentPlayer.CombatState;;
         ShowTargetSelectionMenu(attackingUnit.GetName());
 
         var possibleTargets = DeterminePossibleTargets(skillContext);
         DisplayTargetsAndCancelOption(possibleTargets);
 
-        string playerInput = combatState.GetPlayerInputWithSeparator();
+        string playerInput = playerCombatState.GetPlayerInputWithSeparator();
 
-        if (IsPlayerCancellingAction(playerInput, possibleTargets.Count))
+        if (playerCombatState.IsPlayerCancelling(playerInput, possibleTargets.Count))
             return null;
         
         return SelectTargetFromList(possibleTargets, playerInput);

@@ -7,17 +7,6 @@ namespace Shin_Megami_Tensei.Managers;
 
 public static class TurnManager
 {
-    public static void PrepareNewRound(Player player, int playerNumber)
-    {
-        Samurai samurai = player.GetTeam().Samurai;
-        PlayerTurnManager turnManagerPlayer = player.TurnManager;
-        PlayerUnitManager unitManagerPlayer = player.UnitManager;
-        
-        turnManagerPlayer.SetTurns();
-        unitManagerPlayer.SetOrderOfAttackOfActiveUnits();
-        CombatUI.DisplayRoundPlayer(samurai, playerNumber);
-    }
-
     public static Unit? GetCurrentUnit(Player player)
     {
         PlayerUnitManager unitManagerPlayer = player.UnitManager;
@@ -169,88 +158,6 @@ public static class TurnManager
                     turnManagerPlayer.ConsumeFullTurn(1);
                 }
                 break;
-        }
-    }
-
-    public static List<Unit> GetTargetsForMultiTargetSkill(SkillUseContext skillCtx)
-    {
-        List<Unit> targets = new List<Unit>();
-        
-        ManageIfTargetsAreAlliesOrEnemies(skillCtx, ref targets);
-        
-        return targets;
-    }
-
-    private static void ManageIfTargetsAreAlliesOrEnemies(SkillUseContext skillCtx, ref List<Unit> targets)
-    {
-        Skill skill = skillCtx.Skill;
-        bool isHealSkill = skill.Type == "Heal";
-        
-        switch (skill.Target)
-        {
-            case "Party":
-                if (isHealSkill)
-                    AddAllAlliesUnitsToTargets(skillCtx, ref targets);
-                break;
-            case "All":
-                if (isHealSkill)
-                {
-                    AddAllAlliesUnitsToTargets(skillCtx, ref targets);
-                }
-                else
-                {
-                    AddAllEnemiesUnitsToTargets(skillCtx, ref targets);
-                }
-                break;
-        }
-
-    }
-    
-    private static void AddAllAlliesUnitsToTargets(SkillUseContext skillCtx, ref List<Unit> targets)
-    {
-        PlayerUnitManager playerUnitManaer = skillCtx.Attacker.UnitManager;
-        Unit caster = skillCtx.Caster;
-        Skill skill = skillCtx.Skill;
-        
-        foreach (var unit in playerUnitManaer.GetActiveUnits())
-        {
-            if (unit != null && unit != caster)
-            {
-                targets.Add(unit);
-            }
-        }
-        
-        foreach (var unit in playerUnitManaer.GetReservedUnits())
-        {
-            if (unit != null)
-            {
-                targets.Add(unit);
-            }
-        }
-        
-        
-        if (!GameConstants._healsThatDontApplyToCaster.Contains(skill.Name)) targets.Add(caster);
-    }
-    
-    private static void AddAllEnemiesUnitsToTargets(SkillUseContext skillCtx, ref List<Unit> targets)
-    {
-        Player defenderPlayer = skillCtx.Defender;
-        PlayerUnitManager unitManagerDefender = defenderPlayer.UnitManager;
-        
-        foreach (var unit in unitManagerDefender.GetActiveUnits())
-        {
-            if (unit != null && unit.IsAlive())
-            {
-                targets.Add(unit);
-            }
-        }
-        
-        foreach (var unit in unitManagerDefender.GetReservedUnits())
-        {
-            if (unit != null && unit.IsAlive())
-            {
-                targets.Add(unit);
-            }
         }
     }
 }

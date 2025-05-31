@@ -74,7 +74,7 @@ public class CombatManager
     {
         if (_isNewRound)
         {
-            TurnManager.PrepareNewRound(currentPlayer, playerNumber);
+            PrepareNewRound(currentPlayer, playerNumber);
             _isNewRound = false;
         }
     }
@@ -92,14 +92,14 @@ public class CombatManager
         
         if (activeUnit == null || !IsUnitAlive(activeUnit))
         {
-            return false; // No se ejecutó acción porque la unidad está muerta
+            return false;
         }
 
         CombatContext combatContext = CreateCombatContext(currentPlayer);
         TurnContext turnContext = CreateTurnContext(combatContext, currentPlayer);
 
         UnitActionManager.ExecuteAction(activeUnit, combatContext, turnContext);
-        return true; // Se ejecutó acción exitosamente
+        return true;
     }
 
     private void ConsumeCurrentTurn(Player currentPlayer)
@@ -186,5 +186,16 @@ public class CombatManager
     {
         CombatUI.DisplayWinner(winner);
         _gameWon = true;
+    }
+    
+    public static void PrepareNewRound(Player player, int playerNumber)
+    {
+        Samurai samurai = player.GetTeam().Samurai;
+        PlayerTurnManager turnManagerPlayer = player.TurnManager;
+        PlayerUnitManager unitManagerPlayer = player.UnitManager;
+        
+        turnManagerPlayer.SetTurns();
+        unitManagerPlayer.SetOrderOfAttackOfActiveUnits();
+        CombatUI.DisplayRoundPlayer(samurai, playerNumber);
     }
 }

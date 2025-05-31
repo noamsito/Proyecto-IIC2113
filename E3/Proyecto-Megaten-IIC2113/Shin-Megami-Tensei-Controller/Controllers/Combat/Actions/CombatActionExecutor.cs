@@ -49,19 +49,17 @@ public static class CombatActionExecutor
 
     private static AttackTargetResult SelectAttackTarget(AttackTargetContext attackContext)
     {
+        Player opponent = attackContext.Opponent;
+        PlayerCombatState playerCombatState = opponent.CombatState;
+        int optionsCount = opponent.UnitManager.GetValidActiveUnits().Count;
+        
         string targetInput = TargetSelector.SelectEnemy(attackContext);
         
-        if (IsPlayerCancellingSelection(targetInput, attackContext.Opponent))
+        if (playerCombatState.IsPlayerCancelling(targetInput, optionsCount))
             return AttackTargetResult.Cancelled();
 
         var selectedTarget = TargetSelector.ResolveTarget(attackContext.Opponent, targetInput);
         return AttackTargetResult.Selected(selectedTarget);
-    }
-
-    private static bool IsPlayerCancellingSelection(string input, Player opponent)
-    {
-        int cancelOptionNumber = opponent.UnitManager.GetValidActiveUnits().Count + 1;
-        return input == cancelOptionNumber.ToString();
     }
 
     private static void DisplayAndProcessAttack(AttackData attackData, TurnContext turnContext)

@@ -28,7 +28,7 @@ public class DamageSkillsManager
 
     private static bool HandleMultiTargetDamageSkillLegacy(SkillUseContext skillCtx, TurnContext turnCtx)
     {
-        List<Unit> targets = TurnManager.GetTargetsForMultiTargetSkill(skillCtx);
+        List<Unit> targets = SkillManager.GetTargetsForMultiTargetSkill(skillCtx);
         
         foreach (Unit target in targets)
         { 

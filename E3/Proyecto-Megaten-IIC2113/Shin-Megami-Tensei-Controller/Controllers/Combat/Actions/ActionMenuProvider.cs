@@ -1,6 +1,4 @@
-﻿// Métodos que necesitarían agregarse a ActionMenuProvider.cs
-
-public static class ActionMenuProvider
+﻿public static class ActionMenuProvider
 {
     public static void DisplaySamuraiMenu(string unitName)
     {

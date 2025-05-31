@@ -1,120 +1,168 @@
 ﻿using Shin_Megami_Tensei_View;
 using Shin_Megami_Tensei.Combat;
+using Shin_Megami_Tensei.Data;
 using Shin_Megami_Tensei.Gadgets;
 
 namespace Shin_Megami_Tensei.Managers;
 
 public static class MultiTargetSkillManager
 {
+    private const string LIGHT_SKILL_TYPE = "Light";
+    private const string DARK_SKILL_TYPE = "Dark";
+
     public static void HandleMultiTargetOffensiveSkill(SkillUseContext skillCtx, TurnContext turnCtx)
     {
-        Skill skill = skillCtx.Skill;
-        List<Unit> targets = GetTargetsInCorrectOrder(skillCtx, turnCtx);
+        var targets = GetTargetsInCorrectOrder(skillCtx, turnCtx);
+        var skillExecutionData = CreateSkillExecutionData(skillCtx, turnCtx, targets);
         
-        if (targets.Count == 0) return;
+        if (ShouldSkipExecution(targets)) return;
 
-        int numHits = SkillManager.CalculateNumberHits(skill.Hits, turnCtx.Attacker);
-        List<AffinityContext> allAffinityContexts = new List<AffinityContext>();
-        List<Unit> repelTargets = new List<Unit>();
-        double totalRepelDamage = 0;
-        Unit lastRepelTarget = null;
-
-        foreach (Unit target in targets)
-        {
-            var specificSkillCtx = SkillUseContext.CreateSkillContext(skillCtx.Caster, target, skill, turnCtx);
-            
-            for (int hit = 0; hit < numHits; hit++)
-            {
-                var affinityCtx = ProcessSingleTargetHit(specificSkillCtx, out bool isRepel, out double repelDamage);
-                allAffinityContexts.Add(affinityCtx);
-                
-                if (isRepel)
-                {
-                    repelTargets.Add(target);
-                    totalRepelDamage += repelDamage;
-                }
-            }
-        }
-
-        if (repelTargets.Count > 0 && (skill.Type != "Light" && skill.Type != "Dark"))
-        {
-            UnitActionManager.ApplyDamageTaken(skillCtx.Caster, totalRepelDamage);
-            CombatUI.DisplayFinalHP(skillCtx.Caster);
-        }
-
-        if (allAffinityContexts.Count > 0)
-        {
-            Unit targetWithHighestPriority = AffinityEffectManager.GetTargetWithHighestPriorityAffinity(skillCtx, targets);
-            int stat = AffinityEffectManager.GetStatForSkill(skillCtx);
-            double baseDamage = AffinityEffectManager.CalculateBaseDamage(stat, skillCtx.Skill.Power);
-            var affinityCtx = new AffinityContext(skillCtx.Caster, targetWithHighestPriority, skillCtx.Skill.Type, baseDamage);
-         
-            TurnManager.ConsumeTurnsBasedOnAffinity(affinityCtx, turnCtx);
-        }
-        
+        var hitResults = ExecuteHitsOnTargets(skillExecutionData, targets);
+        ProcessRepelDamageIfNeeded(skillExecutionData, hitResults);
+        ProcessTurnConsumption(skillExecutionData, targets, hitResults);
         CombatUI.DisplaySeparator();
     }
 
     public static void HandleMultiTargetSkill(SkillUseContext skillCtx, TurnContext turnCtx)
     {
-        Skill skill = skillCtx.Skill;
-        List<Unit> targets = GetMultiTargetsUsingAlgorithm(skillCtx, turnCtx);
+        var targets = GetMultiTargetsUsingAlgorithm(skillCtx, turnCtx);
+        var skillExecutionData = CreateSkillExecutionData(skillCtx, turnCtx, targets);
         
-        if (targets.Count == 0) return;
+        if (ShouldSkipExecution(targets)) return;
 
-        int numHits = SkillManager.CalculateNumberHits(skill.Hits, turnCtx.Attacker);
-        List<AffinityContext> allAffinityContexts = new List<AffinityContext>();
-        List<Unit> repelTargets = new List<Unit>();
-        double totalRepelDamage = 0;
-
-        var hitsPerTarget = new Dictionary<Unit, int>();
-        for (int hit = 0; hit < numHits; hit++)
-        {
-            Unit target = targets[hit % targets.Count];
-            if (!hitsPerTarget.ContainsKey(target))
-                hitsPerTarget[target] = 0;
-            hitsPerTarget[target]++;
-        }
-
-        foreach (var kvp in hitsPerTarget)
-        {
-            Unit target = kvp.Key;
-            int hits = kvp.Value;
-            
-            var specificSkillCtx = SkillUseContext.CreateSkillContext(skillCtx.Caster, target, skill, turnCtx);
-            
-            for (int hit = 0; hit < hits; hit++)
-            {
-                var affinityCtx = ProcessSingleTargetHit(specificSkillCtx, out bool isRepel, out double repelDamage);
-                allAffinityContexts.Add(affinityCtx);
-                
-                if (isRepel)
-                {
-                    repelTargets.Add(target);
-                    totalRepelDamage += repelDamage;
-                }
-            }
-        }
-
-        if (repelTargets.Count > 0 && (skill.Type != "Light" && skill.Type != "Dark"))
-        {   
-            UnitActionManager.ApplyDamageTaken(skillCtx.Caster, totalRepelDamage);
-            CombatUI.DisplayFinalHP(skillCtx.Caster);
-        }
-
-        if (allAffinityContexts.Count > 0)
-        {
-            Unit targetWithHighestPriority = AffinityEffectManager.GetTargetWithHighestPriorityAffinity(skillCtx, targets);
-            int stat = AffinityEffectManager.GetStatForSkill(skillCtx);
-            double baseDamage = AffinityEffectManager.CalculateBaseDamage(stat, skillCtx.Skill.Power);
-            var affinityCtx = new AffinityContext(skillCtx.Caster, targetWithHighestPriority, skillCtx.Skill.Type, baseDamage);
-         
-            TurnManager.ConsumeTurnsBasedOnAffinity(affinityCtx, turnCtx);
-        }
-        
+        var hitsDistribution = CalculateHitsDistribution(skillExecutionData.NumberOfHits, targets);
+        var hitResults = ExecuteDistributedHitsOnTargets(skillExecutionData, hitsDistribution);
+        ProcessRepelDamageIfNeeded(skillExecutionData, hitResults);
+        ProcessTurnConsumption(skillExecutionData, targets, hitResults);
         CombatUI.DisplaySeparator();
     }
-    
+
+    private static SkillExecutionData CreateSkillExecutionData(SkillUseContext skillCtx, TurnContext turnCtx, List<Unit> targets)
+    {
+        var numberOfHits = SkillManager.CalculateNumberHits(skillCtx.Skill.Hits, turnCtx.Attacker);
+        return new SkillExecutionData(skillCtx, turnCtx, numberOfHits);
+    }
+
+    private static bool ShouldSkipExecution(List<Unit> targets)
+    {
+        return targets.Count == 0;
+    }
+
+    private static HitExecutionResults ExecuteHitsOnTargets(SkillExecutionData executionData, List<Unit> targets)
+    {
+        var hitResults = new HitExecutionResults();
+
+        foreach (Unit target in targets)
+        {
+            var targetSpecificContext = CreateTargetSpecificContext(executionData, target);
+            ExecuteMultipleHitsOnSingleTarget(targetSpecificContext, executionData.NumberOfHits, hitResults);
+        }
+
+        return hitResults;
+    }
+
+    private static Dictionary<Unit, int> CalculateHitsDistribution(int totalHits, List<Unit> targets)
+    {
+        var hitsPerTarget = new Dictionary<Unit, int>();
+        
+        for (int hitIndex = 0; hitIndex < totalHits; hitIndex++)
+        {
+            Unit targetForThisHit = targets[hitIndex % targets.Count];
+            if (!hitsPerTarget.ContainsKey(targetForThisHit))
+                hitsPerTarget[targetForThisHit] = 0;
+            hitsPerTarget[targetForThisHit]++;
+        }
+
+        return hitsPerTarget;
+    }
+
+    private static HitExecutionResults ExecuteDistributedHitsOnTargets(SkillExecutionData executionData, Dictionary<Unit, int> hitsDistribution)
+    {
+        var hitResults = new HitExecutionResults();
+
+        foreach (var targetHitPair in hitsDistribution)
+        {
+            Unit target = targetHitPair.Key;
+            int hitsForThisTarget = targetHitPair.Value;
+            
+            var targetSpecificContext = CreateTargetSpecificContext(executionData, target);
+            ExecuteMultipleHitsOnSingleTarget(targetSpecificContext, hitsForThisTarget, hitResults);
+        }
+
+        return hitResults;
+    }
+
+    private static SkillUseContext CreateTargetSpecificContext(SkillExecutionData executionData, Unit target)
+    {
+        return SkillUseContext.CreateSkillContext(
+            executionData.SkillContext.Caster, 
+            target, 
+            executionData.Skill, 
+            executionData.TurnContext
+        );
+    }
+
+    private static void ExecuteMultipleHitsOnSingleTarget(SkillUseContext targetContext, int numberOfHits, HitExecutionResults hitResults)
+    {
+        for (int hitIndex = 0; hitIndex < numberOfHits; hitIndex++)
+        {
+            var affinityContext = ProcessSingleTargetHit(targetContext, out bool isRepelHit, out double repelDamageAmount);
+            hitResults.AllAffinityContexts.Add(affinityContext);
+            
+            if (isRepelHit)
+            {
+                hitResults.RepelTargets.Add(targetContext.Target);
+                hitResults.TotalRepelDamage += repelDamageAmount;
+            }
+        }
+    }
+
+    private static void ProcessRepelDamageIfNeeded(SkillExecutionData executionData, HitExecutionResults hitResults)
+    {
+        if (HasRepelTargetsAndNotLightDarkSkill(hitResults.RepelTargets, executionData.Skill))
+        {
+            ApplyRepelDamageToCaster(executionData.SkillContext.Caster, hitResults.TotalRepelDamage);
+        }
+    }
+
+    private static bool HasRepelTargetsAndNotLightDarkSkill(List<Unit> repelTargets, Skill skill)
+    {
+        return repelTargets.Count > 0 && !IsLightOrDarkSkill(skill);
+    }
+
+    private static bool IsLightOrDarkSkill(Skill skill)
+    {
+        return skill.Type == LIGHT_SKILL_TYPE || skill.Type == DARK_SKILL_TYPE;
+    }
+
+    private static void ApplyRepelDamageToCaster(Unit caster, double totalRepelDamage)
+    {
+        UnitActionManager.ApplyDamageTaken(caster, totalRepelDamage);
+        CombatUI.DisplayFinalHP(caster);
+    }
+
+    private static void ProcessTurnConsumption(SkillExecutionData executionData, List<Unit> targets, HitExecutionResults hitResults)
+    {
+        if (ShouldProcessTurnConsumption(hitResults.AllAffinityContexts))
+        {
+            var turnAffinityContext = CreateTurnAffinityContext(executionData, targets);
+            TurnManager.ConsumeTurnsBasedOnAffinity(turnAffinityContext, executionData.TurnContext);
+        }
+    }
+
+    private static bool ShouldProcessTurnConsumption(List<AffinityContext> allAffinityContexts)
+    {
+        return allAffinityContexts.Count > 0;
+    }
+
+    private static AffinityContext CreateTurnAffinityContext(SkillExecutionData executionData, List<Unit> targets)
+    {
+        var targetWithHighestPriority = AffinityEffectManager.GetTargetWithHighestPriorityAffinity(executionData.SkillContext, targets);
+        var casterStat = AffinityEffectManager.GetStatForSkill(executionData.SkillContext);
+        var baseDamageAmount = AffinityEffectManager.CalculateBaseDamage(casterStat, executionData.Skill.Power);
+        
+        return new AffinityContext(executionData.SkillContext.Caster, targetWithHighestPriority, executionData.Skill.Type, baseDamageAmount);
+    }
 
     private static AffinityContext ProcessSingleTargetHit(SkillUseContext skillCtx, out bool isRepel, out double repelDamage)
     {
@@ -324,18 +372,6 @@ public static class MultiTargetSkillManager
         }
     }
 
-    private static void AddOpponentReserveUnits(SkillUseContext skillCtx, List<Unit> targets)
-    {
-        var reserveUnits = skillCtx.Defender.UnitManager.GetReservedUnits();
-        foreach (var unit in reserveUnits)
-        {
-            if (unit != null && unit.IsAlive())
-            {
-                targets.Add(unit);
-            }
-        }
-    }
-    
     private static bool ShouldReceiveEffect(Unit unit, Skill skill)
     {
         return unit.IsAlive();

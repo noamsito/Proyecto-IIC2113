@@ -1,6 +1,7 @@
 ﻿using System.Net.Http.Headers;
 using Shin_Megami_Tensei_View;
 using Shin_Megami_Tensei.Combat;
+using Shin_Megami_Tensei.Data;
 using Shin_Megami_Tensei.Gadgets;
 
 namespace Shin_Megami_Tensei.Managers;
@@ -244,68 +245,115 @@ public static class AffinityEffectManager
     public static void GetSuccessSkillsLightAndDark(AffinityContext affinityCtx, SkillUseContext skillCtx)
     {
         string affinityType = AffinityResolver.GetAffinity(affinityCtx.Target, affinityCtx.AttackType);
-        
-        int lckCaster = skillCtx.Caster.GetCurrentStats().GetStatByName("Lck");
-        int lckTarget = skillCtx.Target.GetCurrentStats().GetStatByName("Lck");
-        double skillPower = skillCtx.Skill.Power;
-        double hpToKill = 0;
+        var skillData = ExtractSkillCalculationData(skillCtx);
         
         switch (affinityType)
         {
             case "Wk":
-                CombatUI.DisplayWeakMessage(affinityCtx.Target, affinityCtx.Caster);
-                hpToKill = affinityCtx.Target
-                                  .GetCurrentStats()
-                                  .GetStatByName("HP");
-                UnitActionManager.ApplyDamageTaken(affinityCtx.Target, hpToKill);
-                CombatUI.DisplayUnitEliminated(affinityCtx.Target);
+                ProcessWeakAffinity(affinityCtx);
                 break;
-
             case "Nu":
-                CombatUI.DisplayBlockMessage(affinityCtx.Target, affinityCtx.Caster);
+                ProcessNullAffinity(affinityCtx);
                 break;
-
-            case "Rs": 
-                if ((lckCaster + skillPower) >= (2 * lckTarget))
-                {
-                    CombatUI.DisplayResistMessage(affinityCtx.Target, affinityCtx.Caster);
-                    hpToKill = affinityCtx.Target
-                        .GetCurrentStats()
-                        .GetStatByName("HP");
-                    UnitActionManager.ApplyDamageTaken(affinityCtx.Target, hpToKill); 
-                    CombatUI.DisplayUnitEliminated(affinityCtx.Target);
-                    break;
-                }
-
-                CombatUI.DisplayHasMissed(affinityCtx.Caster);
+            case "Rs":
+                ProcessResistAffinity(affinityCtx, skillData);
                 break;
-
             case "Rp":
-                hpToKill = affinityCtx.Target
-                    .GetCurrentStats()
-                    .GetStatByName("HP");
-                UnitActionManager.ApplyDamageTaken(affinityCtx.Caster, hpToKill); 
-                CombatUI.DisplayHasMissed(affinityCtx.Caster);
+                ProcessRepelAffinity(affinityCtx);
                 break;
-
             case "Dr":
                 break;
             default:
-                if (lckCaster + skillPower >= lckTarget)
-                {
-                    hpToKill = affinityCtx.Target
-                        .GetCurrentStats()
-                        .GetStatByName("HP");
-                    UnitActionManager.ApplyDamageTaken(affinityCtx.Target, hpToKill);
-                    CombatUI.DisplayUnitEliminated(affinityCtx.Target);
-                    break;
-                }
-                
-                CombatUI.DisplayHasMissed(affinityCtx.Caster);
+                ProcessNeutralAffinity(affinityCtx, skillData);
                 break;
         }
     }
-    
+
+    private static SkillCalculationData ExtractSkillCalculationData(SkillUseContext skillCtx)
+    {
+        int casterLuck = skillCtx.Caster.GetCurrentStats().GetStatByName("Lck");
+        int targetLuck = skillCtx.Target.GetCurrentStats().GetStatByName("Lck");
+        double skillPower = skillCtx.Skill.Power;
+        
+        return new SkillCalculationData(casterLuck, targetLuck, skillPower);
+    }
+
+    private static void ProcessWeakAffinity(AffinityContext affinityCtx)
+    {
+        CombatUI.DisplayWeakMessage(affinityCtx.Target, affinityCtx.Caster);
+        KillTargetUnit(affinityCtx.Target);
+        CombatUI.DisplayUnitEliminated(affinityCtx.Target);
+    }
+
+    private static void ProcessNullAffinity(AffinityContext affinityCtx)
+    {
+        CombatUI.DisplayBlockMessage(affinityCtx.Target, affinityCtx.Caster);
+    }
+
+    private static void ProcessResistAffinity(AffinityContext affinityCtx, SkillCalculationData skillData)
+    {
+        if (IsSkillSuccessfulAgainstResist(skillData))
+        {
+            ProcessSuccessfulResistAttack(affinityCtx);
+        }
+        else
+        {
+            ProcessMissedAttack(affinityCtx.Caster);
+        }
+    }
+
+    private static void ProcessRepelAffinity(AffinityContext affinityCtx)
+    {
+        KillTargetUnit(affinityCtx.Caster);
+        CombatUI.DisplayHasMissed(affinityCtx.Caster);
+    }
+
+    private static void ProcessNeutralAffinity(AffinityContext affinityCtx, SkillCalculationData skillData)
+    {
+        if (IsSkillSuccessfulAgainstNeutral(skillData))
+        {
+            ProcessSuccessfulNeutralAttack(affinityCtx);
+        }
+        else
+        {
+            ProcessMissedAttack(affinityCtx.Caster);
+        }
+    }
+
+    private static bool IsSkillSuccessfulAgainstResist(SkillCalculationData skillData)
+    {
+        return (skillData.CasterLuck + skillData.SkillPower) >= (2 * skillData.TargetLuck);
+    }
+
+    private static bool IsSkillSuccessfulAgainstNeutral(SkillCalculationData skillData)
+    {
+        return skillData.CasterLuck + skillData.SkillPower >= skillData.TargetLuck;
+    }
+
+    private static void ProcessSuccessfulResistAttack(AffinityContext affinityCtx)
+    {
+        CombatUI.DisplayResistMessage(affinityCtx.Target, affinityCtx.Caster);
+        KillTargetUnit(affinityCtx.Target);
+        CombatUI.DisplayUnitEliminated(affinityCtx.Target);
+    }
+
+    private static void ProcessSuccessfulNeutralAttack(AffinityContext affinityCtx)
+    {
+        KillTargetUnit(affinityCtx.Target);
+        CombatUI.DisplayUnitEliminated(affinityCtx.Target);
+    }
+
+    private static void ProcessMissedAttack(Unit caster)
+    {
+        CombatUI.DisplayHasMissed(caster);
+    }
+
+    private static void KillTargetUnit(Unit target)
+    {
+        double currentHP = target.GetCurrentStats().GetStatByName("HP");
+        UnitActionManager.ApplyDamageTaken(target, currentHP);
+    }
+
     public static Unit GetTargetWithHighestPriorityAffinity(
         SkillUseContext skillCtx,
         List<Unit>      targets)
