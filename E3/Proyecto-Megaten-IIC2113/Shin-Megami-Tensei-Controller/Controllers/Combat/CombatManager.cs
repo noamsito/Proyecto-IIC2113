@@ -60,7 +60,14 @@ public class CombatManager
         HandleNewRoundIfNeeded(currentPlayer, playerNumber);
         DisplayGameState(currentPlayer);
 
-        ExecuteUnitAction(currentPlayer);
+        bool actionWasExecuted = ExecuteUnitAction(currentPlayer);
+        
+        // Si la unidad estaba muerta y no se ejecutó acción, consumir turno manualmente
+        if (!actionWasExecuted)
+        {
+            ConsumeCurrentTurn(currentPlayer);
+        }
+        
         CheckForVictory(currentPlayer);
     }
 
@@ -80,13 +87,41 @@ public class CombatManager
         CombatUI.DisplaySortedUnits(currentPlayer);
     }
 
-    private void ExecuteUnitAction(Player currentPlayer)
+    private bool ExecuteUnitAction(Player currentPlayer)
     {
         Unit? activeUnit = TurnManager.GetCurrentUnit(currentPlayer);
+        
+        if (activeUnit == null || !IsUnitAlive(activeUnit))
+        {
+            return false; // No se ejecutó acción porque la unidad está muerta
+        }
+
         CombatContext combatContext = CreateCombatContext(currentPlayer);
         TurnContext turnContext = CreateTurnContext(combatContext, currentPlayer);
 
         UnitActionManager.ExecuteAction(activeUnit, combatContext, turnContext);
+        return true; // Se ejecutó acción exitosamente
+    }
+
+    private void ConsumeCurrentTurn(Player currentPlayer)
+    {
+        PlayerTurnManager turnManager = currentPlayer.TurnManager;
+        
+        if (turnManager.GetBlinkingTurns() > 0)
+        {
+            turnManager.ConsumeBlinkingTurn(1);
+        }
+        else if (turnManager.GetFullTurns() > 0)
+        {
+            turnManager.ConsumeFullTurn(1);
+        }
+        
+        currentPlayer.UnitManager.RearrangeSortedUnitsWhenAttacked();
+    }
+
+    private bool IsUnitAlive(Unit unit)
+    {
+        return unit.GetCurrentStats().GetStatByName("HP") > 0;
     }
 
     private CombatContext CreateCombatContext(Player currentPlayer)
