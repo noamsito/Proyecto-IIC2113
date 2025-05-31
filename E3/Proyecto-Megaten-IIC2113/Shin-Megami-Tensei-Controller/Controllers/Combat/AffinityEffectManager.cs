@@ -14,17 +14,112 @@ public static class AffinityEffectManager
         
         int stat = GetStatForSkill(skillCtx);
         double baseDamage = CalculateBaseDamage(stat, skill.Power);
-    
+        
         var affinityCtx = CreateAffinityContext(skillCtx, baseDamage);
         
-        for (int i = 0; i < numHits; i++)
-        {
-            ManageTargetDamage(skillCtx, affinityCtx);
-        }
+        bool isLightDarkSkill = (skill.Type == "Light" || skill.Type == "Dark");
+        bool isDrainSkill = (skill.Type == "Almighty" && (
+            skill.Name.Contains("Drain") || 
+            skill.Name == "Life Drain" || 
+            skill.Name == "Spirit Drain" || 
+            skill.Name == "Energy Drain" ||
+            skill.Name == "Serpent of Sheol"));
         
+        if (isLightDarkSkill)
+        {
+            for (int i = 0; i < numHits; i++)
+            {
+                CombatUI.DisplaySkillUsage(skillCtx.Caster, skill, skillCtx.Target);
+                GetSuccessSkillsLightAndDark(affinityCtx, skillCtx);
+                CombatUI.DisplayFinalHP(skillCtx.Target);
+            }
+            
+            CombatUI.DisplaySeparator();
+        }
+        else if (isDrainSkill)
+        {
+            for (int i = 0; i < numHits; i++)
+            {
+                HandleDrainSkill(skillCtx, affinityCtx);
+            }
+        }
+        else
+        {
+            for (int i = 0; i < numHits; i++)
+            {
+                ManageTargetDamage(skillCtx, affinityCtx);
+            }
+            
+            CombatUI.DisplayCombatUiForSkill(skillCtx, affinityCtx, numHits);
+        }
+
         TurnManager.ConsumeTurnsBasedOnAffinity(affinityCtx, turnCtx);
-        CombatUI.DisplayCombatUiForSkill(skillCtx, affinityCtx, numHits);
     }
+
+    private static void HandleDrainSkill(SkillUseContext skillCtx, AffinityContext affinityCtx)
+    {
+        CombatUI.DisplaySkillUsage(skillCtx.Caster, skillCtx.Skill, skillCtx.Target);
+        
+        string skillName = skillCtx.Skill.Name;
+        double baseDamage = affinityCtx.BaseDamage;
+        
+        if (skillName == "Life Drain")
+        {
+            // Solo drena HP
+            HandleHPDrain(skillCtx.Caster, skillCtx.Target, baseDamage);
+        }
+        else if (skillName == "Spirit Drain")
+        {
+            // Solo drena MP
+            HandleMPDrain(skillCtx.Caster, skillCtx.Target, baseDamage);
+        }
+        else if (skillName == "Energy Drain" || skillName == "Serpent of Sheol")
+        {
+            // Drena HP y MP
+            HandleHPDrain(skillCtx.Caster, skillCtx.Target, baseDamage);
+            HandleMPDrain(skillCtx.Caster, skillCtx.Target, baseDamage);
+        }
+    }
+
+    private static void HandleHPDrain(Unit caster, Unit target, double damage)
+    {
+        int targetCurrentHP = target.GetCurrentStats().GetStatByName("HP");
+        int actualDrain = Math.Min((int)Math.Floor(damage), targetCurrentHP);
+        
+        // Drenar HP del target
+        UnitActionManager.ApplyDamageTaken(target, actualDrain);
+        
+        // Curar HP al caster
+        UnitActionManager.ApplyHealToUnit(caster, actualDrain);
+        
+        // Mostrar mensajes
+        CombatUI.DisplayDrainHPMessage(target, actualDrain);
+        CombatUI.DisplayFinalHP(target);
+        CombatUI.DisplayFinalHP(caster);
+    }
+
+    private static void HandleMPDrain(Unit caster, Unit target, double damage)
+    {
+        int targetCurrentMP = target.GetCurrentStats().GetStatByName("MP");
+        int actualDrain = Math.Min((int)Math.Floor(damage), targetCurrentMP);
+        
+        // Drenar MP del target
+        int currentMP = target.GetCurrentStats().GetStatByName("MP");
+        target.GetCurrentStats().SetStatByName("MP", Math.Max(0, currentMP - actualDrain));
+        
+        // Restaurar MP al caster
+        int casterCurrentMP = caster.GetCurrentStats().GetStatByName("MP");
+        int casterMaxMP = caster.GetBaseStats().GetStatByName("MP");
+        int newCasterMP = Math.Min(casterMaxMP, casterCurrentMP + actualDrain);
+        caster.GetCurrentStats().SetStatByName("MP", newCasterMP);
+        
+        // Mostrar mensajes
+        CombatUI.DisplayDrainMPMessage(target, actualDrain);
+        CombatUI.DisplayFinalMP(target);
+        CombatUI.DisplayFinalMP(caster);
+        CombatUI.DisplaySeparator();
+    }
+    
     public static void ApplyEffectForMultiTargetSkill(SkillUseContext skillCtx, TurnContext turnCtx, Unit target)
     {
         Skill skill = skillCtx.Skill;

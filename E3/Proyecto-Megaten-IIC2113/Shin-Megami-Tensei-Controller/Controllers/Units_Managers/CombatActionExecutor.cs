@@ -7,8 +7,6 @@ namespace Shin_Megami_Tensei.Controllers;
 
 public static class CombatActionExecutor
 {
-    #region Attack Methods
-    
     public static bool ExecuteAttack(Unit attacker, Player opponent, View view, string attackType, TurnContext turnCtx)
     {
         Unit? target = SelectAttackTarget(attacker, opponent, view);
@@ -56,10 +54,6 @@ public static class CombatActionExecutor
         TurnManager.UpdateTurnStatesForDisplay(turnCtx);
         turnCtx.Attacker.UnitManager.RearrangeSortedUnitsWhenAttacked();
     }
-
-    #endregion
-
-    #region Skill Methods
 
     public static bool ExecuteSkill(Unit caster, Player currentPlayer, Player opponent, View view, TurnContext turnCtx)
     {
@@ -212,9 +206,6 @@ public static class CombatActionExecutor
         turnCtx.Attacker.UnitManager.RearrangeSortedUnitsWhenAttacked();
     }
 
-    #endregion
-
-    #region Summoning Methods
 
     public static bool ExecuteSummon(Player currentPlayer, Unit currentUnit, TurnContext turnCtx, bool isSamurai = false)
     {
@@ -230,9 +221,6 @@ public static class CombatActionExecutor
         return hasSummoned;
     }
 
-    #endregion
-
-    #region Turn Management
 
     public static bool ExecutePassTurn(TurnContext turnCtx)
     {
@@ -240,5 +228,4 @@ public static class CombatActionExecutor
         return true;
     }
 
-    #endregion
 }

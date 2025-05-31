@@ -32,10 +32,6 @@ public static class BaseActionHandler
         do
         {
             input = view.ReadLine();
-            if (!ActionMenuProvider.IsValidInput(unitType, input))
-            {
-                view.WriteLine("Entrada inválida. Intente nuevamente.");
-            }
         } 
         while (!ActionMenuProvider.IsValidInput(unitType, input));
 

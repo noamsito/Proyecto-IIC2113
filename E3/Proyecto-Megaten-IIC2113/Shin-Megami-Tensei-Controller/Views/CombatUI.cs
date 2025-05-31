@@ -362,7 +362,7 @@ public static class CombatUI
                     DisplayAffinityMessage(affinityCtx);
                     if (finalDamage > 0) DisplayDamageTaken(affinityCtx.Target, finalDamage);
                 }
-
+                
                 if (finalDamage >= 0)
                 {
                     DisplayFinalHP(affinityCtx.Target);
@@ -371,6 +371,7 @@ public static class CombatUI
                 {
                     DisplayFinalHP(affinityCtx.Caster);
                 }
+                
                 DisplaySeparator();
             }
         }
@@ -425,5 +426,22 @@ public static class CombatUI
         public static void DisplayRepelMessage(Unit target, Unit caster, int damage)
         {
             _view.WriteLine($"{target.GetName()} devuelve {damage} daño a {caster.GetName()}");
+        }
+        
+        public static void DisplayDrainHPMessage(Unit target, int drainAmount)
+        {
+            Console.WriteLine($"El ataque drena {drainAmount} HP de {target.GetName()}");
+        }
+
+        public static void DisplayDrainMPMessage(Unit target, int drainAmount)
+        {
+            Console.WriteLine($"El ataque drena {drainAmount} MP de {target.GetName()}");
+        }
+
+        public static void DisplayFinalMP(Unit unit)
+        {
+            int currentMP = unit.GetCurrentStats().GetStatByName("MP");
+            int maxMP = unit.GetBaseStats().GetStatByName("MP");
+            Console.WriteLine($"{unit.GetName()} termina con MP:{currentMP}/{maxMP}");
         }
 }       

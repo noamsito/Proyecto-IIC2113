@@ -55,7 +55,6 @@ public static class MultiTargetSkillManager
         CombatUI.DisplaySeparator();
     }
 
-
     public static void HandleMultiTargetSkill(SkillUseContext skillCtx, TurnContext turnCtx)
     {
         Skill skill = skillCtx.Skill;
@@ -115,8 +114,7 @@ public static class MultiTargetSkillManager
         
         CombatUI.DisplaySeparator();
     }
-
-
+    
 
     private static AffinityContext ProcessSingleTargetHit(SkillUseContext skillCtx, out bool isRepel, out double repelDamage)
     {
@@ -242,6 +240,8 @@ public static class MultiTargetSkillManager
                 }
                 break;
         }
+        
+        if (affinity != "Rp") CombatUI.DisplayFinalHP(affinityCtx.Target);
     }
 
     private static void KillTarget(Unit target)
@@ -274,62 +274,57 @@ public static class MultiTargetSkillManager
     }
 
     private static List<Unit> GetMultiTargetsUsingAlgorithm(SkillUseContext skillCtx, TurnContext turnCtx)
-{
-    PlayerUnitManager opponentUnitManager = skillCtx.Defender.UnitManager;
-    
-    // Obtener unidades activas en el orden correcto del tablero (índice 0 = más a la izquierda)
-    var activeSlots = opponentUnitManager.GetActiveUnits(); // [A, B, C, D]
-    var activeEnemies = activeSlots
-        .Where(unit => unit != null && unit.IsAlive())
-        .ToList();
-    
-    if (activeEnemies.Count == 0) return new List<Unit>();
-
-    // K es el número de habilidades usadas ANTES de esta habilidad
-    // Como se incrementa DESPUÉS en CombatActionExecutor, aquí K ya tiene el valor correcto
-    int K = turnCtx.Attacker.TurnManager.GetConstantKPlayer();
-    int A = activeEnemies.Count;
-    int hits = SkillManager.CalculateNumberHits(skillCtx.Skill.Hits, turnCtx.Attacker);
-    
-    // Debug para verificar valores
-    Console.WriteLine($"DEBUG: K (Player Defender): {turnCtx.Defender.TurnManager.GetConstantKPlayer()}");
-    Console.WriteLine($"DEBUG: K={K}, A={A}, hits={hits}");
-    Console.WriteLine($"DEBUG: enemigos={string.Join(",", activeEnemies.Select(e => e.GetName()))}");
-
-    int i = K % A;
-    // CORRECCIÓN SEGÚN TESTCASES: derecha si i es par, izquierda si i es impar
-    bool directionLeft = (i % 2 != 0);
-    
-    Console.WriteLine($"DEBUG: i={i}, directionLeft={directionLeft}");
-
-    List<Unit> selectedTargets = new List<Unit>();
-    int currentIndex = i;
-    
-    // Agregar punto de partida
-    selectedTargets.Add(activeEnemies[currentIndex]);
-    Console.WriteLine($"DEBUG: punto de partida: índice {currentIndex} = {activeEnemies[currentIndex].GetName()}");
-    
-    // Moverse hits-1 veces en la dirección determinada
-    for (int h = 1; h < hits; h++)
     {
-        if (directionLeft)
-        {
-            currentIndex = (currentIndex - 1 + A) % A;
-            Console.WriteLine($"DEBUG: movimiento {h} izquierda: índice {currentIndex} = {activeEnemies[currentIndex].GetName()}");
-        }
-        else
-        {
-            currentIndex = (currentIndex + 1) % A;
-            Console.WriteLine($"DEBUG: movimiento {h} derecha: índice {currentIndex} = {activeEnemies[currentIndex].GetName()}");
-        }
+        PlayerUnitManager opponentUnitManager = skillCtx.Defender.UnitManager;
+        
+        var activeSlots = opponentUnitManager.GetActiveUnits(); // [A, B, C, D]
+        var activeEnemies = activeSlots
+            .Where(unit => unit != null && unit.IsAlive())
+            .ToList();
+        
+        if (activeEnemies.Count == 0) return new List<Unit>();
+
+        int K = turnCtx.Attacker.TurnManager.GetConstantKPlayer();
+        int A = activeEnemies.Count;
+        int hits = SkillManager.CalculateNumberHits(skillCtx.Skill.Hits, turnCtx.Attacker);
+        
+        // Debug para verificar valores
+        Console.WriteLine($"DEBUG: K (Player Defender): {turnCtx.Defender.TurnManager.GetConstantKPlayer()}");
+        Console.WriteLine($"DEBUG: K={K}, A={A}, hits={hits}");
+        Console.WriteLine($"DEBUG: enemigos={string.Join(",", activeEnemies.Select(e => e.GetName()))}");
+
+        int i = K % A;
+        // CORRECCIÓN SEGÚN TESTCASES: derecha si i es par, izquierda si i es impar
+        bool directionLeft = (i % 2 != 0);
+        
+        Console.WriteLine($"DEBUG: i={i}, directionLeft={directionLeft}");
+
+        List<Unit> selectedTargets = new List<Unit>();
+        int currentIndex = i;
         
         selectedTargets.Add(activeEnemies[currentIndex]);
+        Console.WriteLine($"DEBUG: punto de partida: índice {currentIndex} = {activeEnemies[currentIndex].GetName()}");
+        
+        for (int h = 1; h < hits; h++)
+        {
+            if (directionLeft)
+            {
+                currentIndex = (currentIndex - 1 + A) % A;
+                Console.WriteLine($"DEBUG: movimiento {h} izquierda: índice {currentIndex} = {activeEnemies[currentIndex].GetName()}");
+            }
+            else
+            {
+                currentIndex = (currentIndex + 1) % A;
+                Console.WriteLine($"DEBUG: movimiento {h} derecha: índice {currentIndex} = {activeEnemies[currentIndex].GetName()}");
+            }
+            
+            selectedTargets.Add(activeEnemies[currentIndex]);
+        }
+        
+        Console.WriteLine($"DEBUG: targets seleccionados: {string.Join(",", selectedTargets.Select(e => e.GetName()))}");
+        
+        return selectedTargets;
     }
-    
-    Console.WriteLine($"DEBUG: targets seleccionados: {string.Join(",", selectedTargets.Select(e => e.GetName()))}");
-    
-    return selectedTargets;
-}
 
     private static void AddOpponentActiveUnits(SkillUseContext skillCtx, List<Unit> targets)
     {
