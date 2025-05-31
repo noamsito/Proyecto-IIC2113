@@ -15,7 +15,9 @@ public static class CombatUI
 
         public static string GetUserInput()
         {
-            return _view.ReadLine();
+            string input = _view.ReadLine();
+            DisplaySeparator();
+            return input;
         }
         
         public static void DisplaySeparator()
@@ -137,6 +139,11 @@ public static class CombatUI
         {
             _view.WriteLine("Seleccione una posición para invocar");
         }
+        
+        public static void DisplaySelectTarget(string attackerName)
+        {
+            _view.WriteLine($"Seleccione un objetivo para {attackerName}");
+        }
     
         public static void DisplayAttack(string attackerName, string targetName, string attackType)
         {
@@ -153,6 +160,7 @@ public static class CombatUI
     
             _view.WriteLine($"{attackerName} {action} {targetName}");
         }
+    
     
         private static void DisplayFullDamageResult(Unit target, double damage)
         {
@@ -271,11 +279,6 @@ public static class CombatUI
             _view.WriteLine($"{reservedAlive}-Cancelar");
         }
 
-        public static void DisplayUnitHasBeenRevived(Unit unitCaster, Unit unitRevived)
-        {
-            _view.WriteLine($"{unitCaster} revive a {unitRevived}");
-        }
-        
         public static void DisplaySummonOptionsIncludingDead(List<Unit> reserve)
         {
             int reservedAlive = 1;

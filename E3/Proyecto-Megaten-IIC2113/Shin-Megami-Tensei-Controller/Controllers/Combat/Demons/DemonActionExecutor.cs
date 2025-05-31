@@ -19,14 +19,6 @@ public static class DemonActionExecutor
                 combatCtx.CurrentPlayer, demon, turnCtx, isSamurai: false),
             
             "4" => CombatActionExecutor.ExecutePassTurn(turnCtx),
-            
-            _ => HandleInvalidAction(combatCtx.View)
         };
-    }
-
-    private static bool HandleInvalidAction(View view)
-    {
-        view.WriteLine("Acción inválida.");
-        return false;
     }
 }

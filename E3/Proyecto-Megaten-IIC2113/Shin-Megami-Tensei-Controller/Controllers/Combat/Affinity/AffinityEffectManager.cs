@@ -65,17 +65,14 @@ public static class AffinityEffectManager
         
         if (skillName == "Life Drain")
         {
-            // Solo drena HP
             HandleHPDrain(skillCtx.Caster, skillCtx.Target, baseDamage);
         }
         else if (skillName == "Spirit Drain")
         {
-            // Solo drena MP
             HandleMPDrain(skillCtx.Caster, skillCtx.Target, baseDamage);
         }
         else if (skillName == "Energy Drain" || skillName == "Serpent of Sheol")
         {
-            // Drena HP y MP
             HandleHPDrain(skillCtx.Caster, skillCtx.Target, baseDamage);
             HandleMPDrain(skillCtx.Caster, skillCtx.Target, baseDamage);
         }
@@ -86,13 +83,10 @@ public static class AffinityEffectManager
         int targetCurrentHP = target.GetCurrentStats().GetStatByName("HP");
         int actualDrain = Math.Min((int)Math.Floor(damage), targetCurrentHP);
         
-        // Drenar HP del target
         UnitActionManager.ApplyDamageTaken(target, actualDrain);
         
-        // Curar HP al caster
         UnitActionManager.ApplyHealToUnit(caster, actualDrain);
         
-        // Mostrar mensajes
         CombatUI.DisplayDrainHPMessage(target, actualDrain);
         CombatUI.DisplayFinalHP(target);
         CombatUI.DisplayFinalHP(caster);
@@ -103,17 +97,14 @@ public static class AffinityEffectManager
         int targetCurrentMP = target.GetCurrentStats().GetStatByName("MP");
         int actualDrain = Math.Min((int)Math.Floor(damage), targetCurrentMP);
         
-        // Drenar MP del target
         int currentMP = target.GetCurrentStats().GetStatByName("MP");
         target.GetCurrentStats().SetStatByName("MP", Math.Max(0, currentMP - actualDrain));
         
-        // Restaurar MP al caster
         int casterCurrentMP = caster.GetCurrentStats().GetStatByName("MP");
         int casterMaxMP = caster.GetBaseStats().GetStatByName("MP");
         int newCasterMP = Math.Min(casterMaxMP, casterCurrentMP + actualDrain);
         caster.GetCurrentStats().SetStatByName("MP", newCasterMP);
         
-        // Mostrar mensajes
         CombatUI.DisplayDrainMPMessage(target, actualDrain);
         CombatUI.DisplayFinalMP(target);
         CombatUI.DisplayFinalMP(caster);
@@ -320,10 +311,10 @@ public static class AffinityEffectManager
     SkillUseContext skillCtx,
     List<Unit>      targets)
     {
-        Unit repelOrDrain = null;   // Rp o Dr
-        Unit nullBlock    = null;   // Nu
-        Unit weak         = null;   // Wk
-        Unit other        = null;   // Miss, Rs o neutral "-"
+        Unit repelOrDrain = null;
+        Unit nullBlock    = null;
+        Unit weak         = null;
+        Unit other        = null;
 
         foreach (Unit t in targets)
         {
@@ -346,7 +337,7 @@ public static class AffinityEffectManager
 
                 case "Miss":
                 case "Rs":
-                case "-":      // neutral
+                case "-":       
                     if (other == null) other = t;
                     break;
             }
@@ -357,7 +348,6 @@ public static class AffinityEffectManager
         if (weak         != null) return weak;
         if (other        != null) return other;
 
-        // fallback defensivo
         return targets[0];
     }
 

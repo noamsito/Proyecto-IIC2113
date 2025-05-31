@@ -253,18 +253,4 @@ public static class TurnManager
             }
         }
     }
-
-    private static void AddActiveEnemiesToTargets(SkillUseContext skillCtx, ref List<Unit> targets)
-    {
-        Player defenderPlayer = skillCtx.Defender;
-        PlayerUnitManager unitManagerDefender = defenderPlayer.UnitManager;
-
-        foreach (var unit in unitManagerDefender.GetActiveUnits())
-        {
-            if (unit != null && unit.IsAlive())
-            {
-                targets.Add(unit);
-            }
-        }
-    }
 }

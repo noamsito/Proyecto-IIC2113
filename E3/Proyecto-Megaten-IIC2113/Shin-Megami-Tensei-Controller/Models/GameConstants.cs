@@ -37,7 +37,7 @@ public static class GameConstants
 
     public static readonly List<string> _reviveOnlySkillsNames = new List<string>
     {
-        // "Recarmdra",
+        
     };
     
     public static readonly List<string> _reviveAndHealSkillsNames = new List<string>
@@ -49,6 +49,4 @@ public static class GameConstants
     {
         "Recarmdra",
     };
-    
-    // public static readonly List<string> _damageSkill
 }

@@ -26,7 +26,7 @@ public static class CombatActionExecutor
         var targetCtx = new AttackTargetContext(attacker, opponent, view);
         PlayerUnitManager unitManager = opponent.UnitManager;
         
-        string targetInput = TargetSelector.SelectEnemy(targetCtx);
+        string targetInput = TargetSelector.SelectEnemy(targetCtx, opponent);
         int cancelNum = unitManager.GetValidActiveUnits().Count + 1;
 
         if (targetInput == cancelNum.ToString())
@@ -92,8 +92,6 @@ public static class CombatActionExecutor
 
         if (skillUsed)
         {
-            // SkillManager.HandleSpecialSkill consume MP y turnos, pero no muestra los cambios
-            // Solo mostramos los turnos consumidos sin reordenar (ya se hizo en SummonManager)
             DisplayTurnChangesOnly(turnCtx);
         }
 
@@ -113,10 +111,8 @@ public static class CombatActionExecutor
         int blinkingConsumed = Math.Max(0, turnCtx.BlinkStart - blinkNow);
         int blinkingGained = Math.Max(0, blinkNow - turnCtx.BlinkStart);
 
-        // Solo mostrar los cambios de turnos, sin reordenar unidades
         CombatUI.DisplayTurnChanges(fullConsumed, blinkingConsumed, blinkingGained);
 
-        // Limpiar unidades muertas y reordenar reserva (sin tocar sorted units)
         unitManagerOpponent.RemoveFromActiveUnitsIfDead();
         teamManagerOpponent.ReorderReserveBasedOnJsonOrder();
     }
@@ -130,7 +126,6 @@ public static class CombatActionExecutor
             target = SelectSkillTarget(skill, caster, currentPlayer, opponent, view);
             if (target == null)
             {
-                CombatUI.DisplaySeparator();
                 return false;
             }
         }
@@ -157,7 +152,6 @@ public static class CombatActionExecutor
         
             if (target == null)
             {
-                CombatUI.DisplaySeparator();
                 return false;
             }
         }
@@ -192,12 +186,6 @@ public static class CombatActionExecutor
     {
         var targetCtx = new SkillTargetContext(skill, currentPlayer, opponent, view);
         return TargetSelector.SelectSkillTarget(targetCtx, caster);
-    }
-
-    private static void ConsumeSkillResources(SkillUseContext skillCtx, TurnContext turnCtx)
-    {
-        SkillManager.ConsumeMP(skillCtx.Caster, skillCtx.Skill.Cost);
-        UpdateGameStateAfterSkill(turnCtx);
     }
 
     private static void UpdateGameStateAfterSkill(TurnContext turnCtx)

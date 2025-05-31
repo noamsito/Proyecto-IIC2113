@@ -33,28 +33,8 @@ public static class UnitActionManager
         currentStats.SetStatByName("HP", newHP);
     }
 
-    public static void PutInReserveList(Player player, Unit unitDead)
-    {
-        if (player == null) 
-            throw new ArgumentNullException(nameof(player));
-        
-        if (unitDead == null) 
-            throw new ArgumentNullException(nameof(unitDead));
-
-        PlayerUnitManager unitManagerPlayer = player.UnitManager;
-        var reservedUnits = unitManagerPlayer.GetReservedUnits();
-        
-        reservedUnits.Add(unitDead);
-    }
-
     public static void ApplyHealToUnit(Unit target, double amount)
     {
-        if (target == null) 
-            throw new ArgumentNullException(nameof(target));
-        
-        if (amount < 0) 
-            throw new ArgumentException("La cantidad de curación no puede ser negativa", nameof(amount));
-
         Stat currentStats = target.GetCurrentStats();
         Stat baseStats = target.GetBaseStats();
         

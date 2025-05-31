@@ -20,6 +20,11 @@ public class PlayerCombatState
     {
         _ableToContinue = false;
     }
+    
+    public bool IsPlayerCancelling(string input, int optionsCount)
+    {
+        return input == $"{optionsCount + 1}";
+    }
 
     public void UpdateTeamContinuationStatus()
     {
@@ -59,6 +64,11 @@ public class PlayerCombatState
     public void IncreaseHitCounter()
     {
         _hitCounter++;
+    }
+    
+    public string GetPlayerInputWithSeparator()
+    {
+        return CombatUI.GetUserInput();
     }
 
     public List<int> GetValidSlotsFromActiveUnitsAndDisplayIt()

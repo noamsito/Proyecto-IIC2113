@@ -26,11 +26,6 @@ public static class ActionMenuProvider
     {
         view.WriteLine($"Seleccione una acción para {unitName}");
         
-        if (!_menus.ContainsKey(unitType))
-        {
-            throw new ArgumentException($"Tipo de unidad no soportado: {unitType}");
-        }
-        
         var menu = _menus[unitType];
         foreach (string option in menu.Options)
         {
@@ -48,8 +43,6 @@ public static class ActionMenuProvider
         return _menus[unitType].ValidInputs.Contains(input);
     }
 
-    private record ActionMenu(string[] Options, string[] ValidInputs);
-    
     public enum UnitType
     {
         Samurai,

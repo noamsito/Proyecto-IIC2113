@@ -115,9 +115,7 @@ public static class HealSkillsManager
     private static bool HandleRecarmSkill(SkillUseContext skillCtx)
     {
         Player attackerPlayer = skillCtx.Attacker;
-        Unit unitCaster = skillCtx.Caster;
         Unit unitTarget = skillCtx.Target;
-        Skill skillUsing = skillCtx.Skill;
         
         PlayerUnitManager playerUnitManager = attackerPlayer.UnitManager;
         
