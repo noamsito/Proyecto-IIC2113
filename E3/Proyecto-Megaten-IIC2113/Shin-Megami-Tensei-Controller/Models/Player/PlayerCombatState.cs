@@ -57,14 +57,6 @@ public class PlayerCombatState
 
         _ableToContinue = false;
     }
-
-    
-    public int GetHitCounter() => _hitCounter;
-
-    public void IncreaseHitCounter()
-    {
-        _hitCounter++;
-    }
     
     public string GetPlayerInputWithSeparator()
     {

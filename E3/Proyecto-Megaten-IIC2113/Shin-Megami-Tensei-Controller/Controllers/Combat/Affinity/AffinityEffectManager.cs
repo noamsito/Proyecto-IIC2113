@@ -160,7 +160,7 @@ public static class AffinityEffectManager
     
     public static void ApplyHalfHeal(SkillUseContext skillCtx)
     {
-        double finalHeal = HealSkillsManager.CalculateHalfHp(skillCtx.Target, skillCtx);
+        double finalHeal = HealSkillsManager.CalculateHalfHp(skillCtx.Target);
         UnitActionManager.ApplyHealToUnit(skillCtx.Target, finalHeal);
     }
     

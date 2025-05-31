@@ -121,11 +121,6 @@ public static class TargetSelector
         return unit.GetCurrentStats().GetStatByName("HP") > 0;
     }
 
-    private static bool IsPlayerCancellingAction(string input, int totalOptions)
-    {
-        return input == $"{totalOptions + CANCEL_OPTION_OFFSET}";
-    }
-
     private static Unit SelectTargetFromList(List<Unit> targets, string playerInput)
     {
         int targetIndex = ConvertToZeroBasedIndex(playerInput);

@@ -65,27 +65,58 @@ public static class CombatUI
             PlayerUnitManager unitManagerPlayer = player.UnitManager;
             var units = unitManagerPlayer.GetActiveUnits();
             char label = 'A';
-
+        
             foreach (var unit in units)
             {
-                if (unit == null)
-                {
-                    _view.WriteLine($"{label}-");
-                }
-                else if (unit == player.GetTeam().Samurai)
-                {
-                    _view.WriteLine($"{label}-{unit.GetName()} HP:{unit.GetCurrentStats().GetStatByName("HP")}/{unit.GetBaseStats().GetStatByName("HP")} MP:{unit.GetCurrentStats().GetStatByName("MP")}/{unit.GetBaseStats().GetStatByName("MP")}");
-                }
-                else if (unit.GetCurrentStats().GetStatByName("HP") <= 0)
-                {
-                    _view.WriteLine($"{label}-");
-                }
-                else
-                {
-                    _view.WriteLine($"{label}-{unit.GetName()} HP:{unit.GetCurrentStats().GetStatByName("HP")}/{unit.GetBaseStats().GetStatByName("HP")} MP:{unit.GetCurrentStats().GetStatByName("MP")}/{unit.GetBaseStats().GetStatByName("MP")}");
-                }
+                DisplayUnitInfo(unit, player, label);
                 label++;
             }
+        }
+        
+        private static void DisplayUnitInfo(Unit unit, Player player, char label)
+        {
+            if (unit == null)
+            {
+                PrintEmptySlot(label);
+            }
+            else if (IsSamurai(unit, player))
+            {
+                PrintUnitStats(label, unit);
+            }
+            else if (IsUnitDead(unit))
+            {
+                PrintEmptySlot(label);
+            }
+            else
+            {
+                PrintUnitStats(label, unit);
+            }
+        }
+        
+        private static bool IsSamurai(Unit unit, Player player)
+        {
+            return unit == player.GetTeam().Samurai;
+        }
+        
+        private static bool IsUnitDead(Unit unit)
+        {
+            return unit.GetCurrentStats().GetStatByName("HP") <= 0;
+        }
+        
+        private static void PrintEmptySlot(char label)
+        {
+            _view.WriteLine($"{label}-");
+        }
+        
+        private static void PrintUnitStats(char label, Unit unit)
+        {
+            var currentStats = unit.GetCurrentStats();
+            var baseStats = unit.GetBaseStats();
+            int hp = currentStats.GetStatByName("HP");
+            int maxHp = baseStats.GetStatByName("HP");
+            int mp = currentStats.GetStatByName("MP");
+            int maxMp = baseStats.GetStatByName("MP");
+            _view.WriteLine($"{label}-{unit.GetName()} HP:{hp}/{maxHp} MP:{mp}/{maxMp}");
         }
 
         public static void DisplayUnitsGiven(List<Unit> deadUnits)
@@ -139,16 +170,6 @@ public static class CombatUI
             _view.WriteLine($"Ganador: {winner.GetTeam().Samurai.GetName()} (J{playerNumber})");
         }
         
-        public static void DisplayDemonsStats(List<Unit> targets)
-        {
-            for (int i = 0; i < targets.Count; i++)
-            {
-                Unit unit = targets[i];
-                string statusInfo = TargetSelector.FormatUnitStatus(unit);
-                _view.WriteLine($"{i + 1}-{unit.GetName()} {statusInfo}");
-            }
-        }
-        
         public static void DisplayCancelOption(int optionsCount)
         {
             _view.WriteLine($"{optionsCount + 1}-Cancelar");
@@ -189,8 +210,12 @@ public static class CombatUI
     
             _view.WriteLine($"{attackerName} {action} {targetName}");
         }
-    
-    
+
+        private static int ConvertUnitToIntForDisplay(double number)
+        {
+            return Convert.ToInt32(Math.Floor(number));
+        }
+        
         private static void DisplayFullDamageResult(Unit target, double damage)
         {
             DisplayDamageTaken(target, damage);
@@ -200,7 +225,7 @@ public static class CombatUI
 
         private static void DisplayDamageTaken(Unit target, double damage)
         {
-            _view.WriteLine($"{target.GetName()} recibe {Convert.ToInt32(Math.Floor(damage))} de daño");
+            _view.WriteLine($"{target.GetName()} recibe {ConvertUnitToIntForDisplay(damage)} de daño");
         }
 
         public static void DisplayFinalHP(Unit target)
@@ -214,7 +239,7 @@ public static class CombatUI
         {
             int currentHp = target.GetCurrentStats().GetStatByName("HP");
             int baseHp = target.GetBaseStats().GetStatByName("HP");
-            int amountHealed = Convert.ToInt32(Math.Floor(amountDamage));
+            int amountHealed = ConvertUnitToIntForDisplay(amountDamage);
             
             _view.WriteLine($"{caster.GetName()} cura a {target.GetName()}");
             _view.WriteLine($"{target.GetName()} recibe {amountHealed} de HP");
@@ -225,7 +250,7 @@ public static class CombatUI
         {
             int currentHp = target.GetCurrentStats().GetStatByName("HP");
             int baseHp = target.GetBaseStats().GetStatByName("HP");
-            int amountHealed = Convert.ToInt32(Math.Floor(amountDamage));
+            int amountHealed = ConvertUnitToIntForDisplay(amountDamage);
             
             _view.WriteLine($"{target.GetName()} recibe {amountHealed} de HP");
             _view.WriteLine($"{target.GetName()} termina con HP:{currentHp}/{baseHp}");
@@ -236,8 +261,7 @@ public static class CombatUI
             string affinityType = AffinityResolver.GetAffinity(affinityCtx.Target, affinityCtx.AttackType);
             string targetName = affinityCtx.Target.GetName();
             string attackerName = affinityCtx.Caster.GetName();
-            int damage = Convert.ToInt32(Math.Floor(affinityCtx.BaseDamage));
-            
+            int damage = ConvertUnitToIntForDisplay(affinityCtx.BaseDamage);
             string msg = affinityType switch
             {
                 "Wk" => $"{targetName} es débil contra el ataque de {attackerName}",
@@ -247,7 +271,7 @@ public static class CombatUI
                 "Dr" => $"{targetName} absorbe {damage} daño",
                 "-" => ""
             };
-    
+                
             if (!string.IsNullOrEmpty(msg))
                 _view.WriteLine(msg);
         }
@@ -283,7 +307,7 @@ public static class CombatUI
     
         public static void DisplayReviveForMultiTargets(Unit caster, Unit revived, double healAmount)
         {
-            int amountHealed = Convert.ToInt32(Math.Floor(healAmount));
+            int amountHealed = ConvertUnitToIntForDisplay(healAmount);
             
             _view.WriteLine($"{caster.GetName()} revive a {revived.GetName()}");
             _view.WriteLine($"{revived.GetName()} recibe {amountHealed} de HP");

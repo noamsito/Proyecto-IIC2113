@@ -133,7 +133,7 @@ public static class HealSkillsManager
     
     private static double HealHalfTotalHp(SkillUseContext skillCtx)
     {
-        double amountHealed = CalculateHalfHp(skillCtx.Target, skillCtx);
+        double amountHealed = CalculateHalfHp(skillCtx.Target);
         AffinityEffectManager.ApplyHalfHeal(skillCtx);
         return amountHealed;
     }
@@ -148,7 +148,7 @@ public static class HealSkillsManager
         return Math.Floor((skillPower / 100.0) * baseHealth);
     }
 
-    public static double CalculateHalfHp(Unit targetUnit, SkillUseContext skillCtx)
+    public static double CalculateHalfHp(Unit targetUnit)
     {
         int baseHealth = targetUnit.GetBaseStats().GetStatByName("HP");
         

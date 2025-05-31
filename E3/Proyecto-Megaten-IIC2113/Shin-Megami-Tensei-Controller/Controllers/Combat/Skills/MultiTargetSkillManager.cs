@@ -13,7 +13,7 @@ public static class MultiTargetSkillManager
     public static void HandleMultiTargetOffensiveSkill(SkillUseContext skillCtx, TurnContext turnCtx)
     {
         var targets = GetTargetsInCorrectOrder(skillCtx, turnCtx);
-        var skillExecutionData = CreateSkillExecutionData(skillCtx, turnCtx, targets);
+        var skillExecutionData = CreateSkillExecutionData(skillCtx, turnCtx);
         
         if (ShouldSkipExecution(targets)) return;
 
@@ -26,7 +26,7 @@ public static class MultiTargetSkillManager
     public static void HandleMultiTargetSkill(SkillUseContext skillCtx, TurnContext turnCtx)
     {
         var targets = GetMultiTargetsUsingAlgorithm(skillCtx, turnCtx);
-        var skillExecutionData = CreateSkillExecutionData(skillCtx, turnCtx, targets);
+        var skillExecutionData = CreateSkillExecutionData(skillCtx, turnCtx);
         
         if (ShouldSkipExecution(targets)) return;
 
@@ -37,7 +37,7 @@ public static class MultiTargetSkillManager
         CombatUI.DisplaySeparator();
     }
 
-    private static SkillExecutionData CreateSkillExecutionData(SkillUseContext skillCtx, TurnContext turnCtx, List<Unit> targets)
+    private static SkillExecutionData CreateSkillExecutionData(SkillUseContext skillCtx, TurnContext turnCtx)
     {
         var numberOfHits = SkillManager.CalculateNumberHits(skillCtx.Skill.Hits, turnCtx.Attacker);
         return new SkillExecutionData(skillCtx, turnCtx, numberOfHits);
@@ -317,7 +317,7 @@ public static class MultiTargetSkillManager
                 return GetMultiTargetsUsingAlgorithm(skillCtx, turnCtx);
         }
         
-        return orderedTargets.Where(unit => ShouldReceiveEffect(unit, skillCtx.Skill)).ToList();
+        return orderedTargets.Where(unit => ShouldReceiveEffect(unit)).ToList();
     }
 
     private static List<Unit> GetMultiTargetsUsingAlgorithm(SkillUseContext skillCtx, TurnContext turnCtx)
@@ -372,7 +372,7 @@ public static class MultiTargetSkillManager
         }
     }
 
-    private static bool ShouldReceiveEffect(Unit unit, Skill skill)
+    private static bool ShouldReceiveEffect(Unit unit)
     {
         return unit.IsAlive();
     }

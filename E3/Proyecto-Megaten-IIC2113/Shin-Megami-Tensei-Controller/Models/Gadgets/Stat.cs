@@ -27,9 +27,4 @@ public class Stat
             _stats[statName] = value;
         }
     }
-
-    public Dictionary<string, int> GetAllStats()
-    {
-        return new Dictionary<string, int>(_stats);
-    }
 }
