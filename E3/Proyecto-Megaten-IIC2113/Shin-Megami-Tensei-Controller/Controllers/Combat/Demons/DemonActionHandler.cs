@@ -5,15 +5,8 @@ using Shin_Megami_Tensei.Controllers;
 
 public static class DemonActionHandler
 {
-    public static void Handle(Demon demon, CombatContext ctx, TurnContext turnCtx)
+    public static void Handle(Demon demon, CombatContext combatContext, TurnContext turnContext)
     {
-        BaseActionHandler.HandleUnitAction(
-            demon, 
-            ctx, 
-            turnCtx,
-            ActionMenuProvider.UnitType.Demon,
-            (input, unit, combatCtx, turnContext) => 
-                DemonActionExecutor.Execute(input, unit, combatCtx, turnContext)
-        );
+        BaseActionHandler.HandleDemonAction(demon, combatContext, turnContext);
     }
 }

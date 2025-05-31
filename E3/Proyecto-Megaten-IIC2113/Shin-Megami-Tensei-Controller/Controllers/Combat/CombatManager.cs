@@ -68,7 +68,7 @@ public class CombatManager
     {
         if (_isNewRound)
         {
-            TurnManager.PrepareNewRound(currentPlayer, _view, playerNumber);
+            TurnManager.PrepareNewRound(currentPlayer, playerNumber);
             _isNewRound = false;
         }
     }

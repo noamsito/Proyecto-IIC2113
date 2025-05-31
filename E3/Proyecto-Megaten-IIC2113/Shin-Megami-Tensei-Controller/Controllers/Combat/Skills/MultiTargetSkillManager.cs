@@ -263,8 +263,6 @@ public static class MultiTargetSkillManager
         {
             case "All":
                 AddOpponentActiveUnits(skillCtx, orderedTargets);
-                // AddOpponentReserveUnits(skillCtx, orderedTargets);
-                Console.WriteLine("aaaaaaaaaaaaaaaaaaaaaaaaaaa");
                 break;
                 
             case "Multi":

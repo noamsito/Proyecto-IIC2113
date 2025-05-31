@@ -7,15 +7,15 @@ namespace Shin_Megami_Tensei.Managers;
 
 public static class TurnManager
 {
-    public static void PrepareNewRound(Player player, View view, int playerNumber)
+    public static void PrepareNewRound(Player player, int playerNumber)
     {
+        Samurai samurai = player.GetTeam().Samurai;
         PlayerTurnManager turnManagerPlayer = player.TurnManager;
         PlayerUnitManager unitManagerPlayer = player.UnitManager;
         
         turnManagerPlayer.SetTurns();
         unitManagerPlayer.SetOrderOfAttackOfActiveUnits();
-        view.WriteLine($"Ronda de {player.GetTeam().Samurai.GetName()} (J{playerNumber})");
-        view.WriteLine(GameConstants.Separator);
+        CombatUI.DisplayRoundPlayer(samurai, playerNumber);
     }
 
     public static Unit? GetCurrentUnit(Player player)

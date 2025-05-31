@@ -1,51 +1,17 @@
-﻿using Shin_Megami_Tensei_View;
-
-namespace Shin_Megami_Tensei.Controllers;
+﻿// Métodos que necesitarían agregarse a ActionMenuProvider.cs
 
 public static class ActionMenuProvider
 {
-    private static readonly Dictionary<UnitType, ActionMenu> _menus = new()
+    public static void DisplaySamuraiMenu(string unitName)
     {
-        {
-            UnitType.Samurai,
-            new ActionMenu(
-                new[] { "1: Atacar", "2: Disparar", "3: Usar Habilidad", "4: Invocar", "5: Pasar Turno", "6: Rendirse" },
-                new[] { "1", "2", "3", "4", "5", "6" }
-            )
-        },
-        {
-            UnitType.Demon,
-            new ActionMenu(
-                new[] { "1: Atacar", "2: Usar Habilidad", "3: Invocar", "4: Pasar Turno" },
-                new[] { "1", "2", "3", "4" }
-            )
-        }
-    };
-
-    public static void DisplayMenu(UnitType unitType, string unitName, View view)
-    {
-        view.WriteLine($"Seleccione una acción para {unitName}");
-        
-        var menu = _menus[unitType];
-        foreach (string option in menu.Options)
-        {
-            view.WriteLine(option);
-        }
+        CombatUI.DisplayActionSelection(unitName);
+        CombatUI.DisplaySamuraiOptions();
     }
 
-    public static bool IsValidInput(UnitType unitType, string input)
+    public static void DisplayDemonMenu(string unitName)
     {
-        if (!_menus.ContainsKey(unitType))
-        {
-            return false;
-        }
-        
-        return _menus[unitType].ValidInputs.Contains(input);
-    }
-
-    public enum UnitType
-    {
-        Samurai,
-        Demon
+        CombatUI.DisplayActionSelection(unitName);
+        CombatUI.DisplayDemonOptions();
     }
 }
+

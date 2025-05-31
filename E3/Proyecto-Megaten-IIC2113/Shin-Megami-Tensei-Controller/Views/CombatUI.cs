@@ -25,6 +25,29 @@ public static class CombatUI
             _view.WriteLine(GameConstants.Separator);
         }
 
+        public static void DisplayActionSelection(string unitName)
+        {
+            _view.WriteLine($"Seleccione una acción para {unitName}");
+        }
+
+        public static void DisplaySamuraiOptions()
+        {
+            _view.WriteLine("1: Atacar");
+            _view.WriteLine("2: Disparar");
+            _view.WriteLine("3: Usar Habilidad");
+            _view.WriteLine("4: Invocar");
+            _view.WriteLine("5: Pasar Turno");
+            _view.WriteLine("6: Rendirse");
+        }
+
+        public static void DisplayDemonOptions()
+        {
+            _view.WriteLine("1: Atacar");
+            _view.WriteLine("2: Usar Habilidad");
+            _view.WriteLine("3: Invocar");
+            _view.WriteLine("4: Pasar Turno");
+        }
+        
         public static void DisplayBoardState(Dictionary<string, Player> players)
         {
             int playerNumber = 1;
@@ -81,6 +104,12 @@ public static class CombatUI
             
             _view.WriteLine($"Full Turns: {turnManagerPlayer.GetFullTurns()}");
             _view.WriteLine($"Blinking Turns: {turnManagerPlayer.GetBlinkingTurns()}");
+            _view.WriteLine(GameConstants.Separator);
+        }
+
+        public static void DisplayRoundPlayer(Samurai samurai, int playerNumber)
+        {
+            _view.WriteLine($"Ronda de {samurai.GetName()} (J{playerNumber})");
             _view.WriteLine(GameConstants.Separator);
         }
     

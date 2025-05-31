@@ -4,15 +4,8 @@ using Shin_Megami_Tensei.Controllers;
 
 public static class SamuraiActionHandler
 {
-    public static void Handle(Samurai samurai, CombatContext ctx, TurnContext turnCtx)
+    public static void Handle(Samurai samurai, CombatContext combatContext, TurnContext turnContext)
     {
-        BaseActionHandler.HandleUnitAction(
-            samurai, 
-            ctx, 
-            turnCtx,
-            ActionMenuProvider.UnitType.Samurai,
-            (input, unit, combatCtx, turnContext) => 
-                SamuraiActionExecutor.Execute(input, unit, combatCtx, turnContext)
-        );
+        BaseActionHandler.HandleSamuraiAction(samurai, combatContext, turnContext);
     }
 }
