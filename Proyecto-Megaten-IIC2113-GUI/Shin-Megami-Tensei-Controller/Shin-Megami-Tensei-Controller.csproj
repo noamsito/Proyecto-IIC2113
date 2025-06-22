@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net8.0</TargetFramework>
+        <RootNamespace>Shin_Megami_Tensei</RootNamespace>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Shin-Megami-Tensei-View\Shin-Megami-Tensei-View.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="Shin-Megami-Tensei-GUI">
+        <HintPath>..\Shin-Megami-Tensei-View\GuiLib\Shin-Megami-Tensei-GUI.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Avalonia" Version="11.3.0" />
+      <PackageReference Include="Avalonia.Desktop" Version="11.3.0" />
+      <PackageReference Include="Avalonia.Fonts.Inter" Version="11.3.0" />
+      <PackageReference Include="Avalonia.Themes.Fluent" Version="11.3.0" />
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,15 @@
+Player 1 Team
+[Samurai] Nahobino (Megidola,Zan,Mana Bonus,Tarukaja,Sabbatma,Null Phys,Mazio)
+Heimdall
+Dwarf
+Knocker
+Momunofu
+Shax
+Player 2 Team
+[Samurai] Kyouji (Megidolaon,Tarukaja,Fatal Sword)
+Kikuri-Hime
+Strix
+Nozuchi
+Gurulu
+Susano-o
+Kuebiko

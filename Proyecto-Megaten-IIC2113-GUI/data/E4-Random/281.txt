@@ -1,0 +1,12 @@
+Player 1 Team
+[Samurai] Kyouji (Deadly Wind,Ally Retaliate,Recarm,Drain Phys)
+Nidhoggr
+Harpy
+Player 2 Team
+[Samurai] Nanashi (Great Logos,Repel Gun,Repel Phys,Haste Lesson,Drain Gun,Blast Arrow,Mazan,Heal Pleroma)
+Basilisk
+Ometeotl
+Valkyrie
+Manticore
+Amaterasu
+Corpse

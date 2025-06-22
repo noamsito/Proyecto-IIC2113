@@ -1,0 +1,914 @@
+Elige un archivo para cargar los equipos
+0: 001.txt
+1: 002.txt
+2: 003.txt
+3: 004.txt
+4: 005.txt
+5: 006.txt
+6: 007.txt
+7: 008.txt
+8: 009.txt
+9: 010.txt
+10: 011.txt
+11: 012.txt
+12: 013.txt
+13: 014.txt
+14: 015.txt
+15: 016.txt
+16: 017.txt
+17: 018.txt
+18: 019.txt
+19: 020.txt
+20: 021.txt
+21: 022.txt
+22: 023.txt
+23: 024.txt
+24: 025.txt
+25: 026.txt
+26: 027.txt
+27: 028.txt
+28: 029.txt
+29: 030.txt
+30: 031.txt
+31: 032.txt
+32: 033.txt
+33: 034.txt
+34: 035.txt
+35: 036.txt
+36: 037.txt
+37: 038.txt
+38: 039.txt
+39: 040.txt
+40: 041.txt
+41: 042.txt
+42: 043.txt
+43: 044.txt
+44: 045.txt
+45: 046.txt
+46: 047.txt
+47: 048.txt
+48: 049.txt
+49: 050.txt
+50: 051.txt
+51: 052.txt
+52: 053.txt
+53: 054.txt
+54: 055.txt
+55: 056.txt
+56: 057.txt
+57: 058.txt
+58: 059.txt
+59: 060.txt
+60: 061.txt
+61: 062.txt
+62: 063.txt
+63: 064.txt
+64: 065.txt
+65: 066.txt
+66: 067.txt
+67: 068.txt
+68: 069.txt
+69: 070.txt
+70: 071.txt
+71: 072.txt
+72: 073.txt
+73: 074.txt
+74: 075.txt
+75: 076.txt
+76: 077.txt
+77: 078.txt
+78: 079.txt
+79: 080.txt
+80: 081.txt
+81: 082.txt
+82: 083.txt
+83: 084.txt
+84: 085.txt
+85: 086.txt
+86: 087.txt
+87: 088.txt
+88: 089.txt
+89: 090.txt
+90: 091.txt
+91: 092.txt
+92: 093.txt
+93: 094.txt
+94: 095.txt
+INPUT: 14
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:971/971 MP:527/527
+B-Ippon-Datara HP:256/256 MP:56/56
+C-Strix HP:189/189 MP:85/85
+D-Quicksilver HP:203/203 MP:90/90
+Equipo de Shujinko (J2)
+A-Shujinko HP:1317/1317 MP:625/625
+B-Agathion HP:104/104 MP:99/99
+C-Moh Shuvuu HP:127/127 MP:122/122
+D-
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Quicksilver
+3-Ippon-Datara
+4-Strix
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Flynn use
+1-Hades Blast MP:32
+2-Heaven's Bow MP:26
+3-Mazan MP:11
+4-Mahama MP:18
+5-Mamudo MP:18
+6-Cancelar
+INPUT: 2
+----------------------------------------
+Flynn dispara a Shujinko
+Shujinko es resistente el ataque de Flynn
+Shujinko recibe 73 de daño
+Shujinko termina con HP:1244/1317
+Flynn dispara a Agathion
+Agathion es resistente el ataque de Flynn
+Agathion recibe 73 de daño
+Agathion termina con HP:31/104
+Flynn dispara a Moh Shuvuu
+Moh Shuvuu es resistente el ataque de Flynn
+Moh Shuvuu recibe 73 de daño
+Moh Shuvuu termina con HP:54/127
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:971/971 MP:501/527
+B-Ippon-Datara HP:256/256 MP:56/56
+C-Strix HP:189/189 MP:85/85
+D-Quicksilver HP:203/203 MP:90/90
+Equipo de Shujinko (J2)
+A-Shujinko HP:1244/1317 MP:625/625
+B-Agathion HP:31/104 MP:99/99
+C-Moh Shuvuu HP:54/127 MP:122/122
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Quicksilver
+2-Ippon-Datara
+3-Strix
+4-Flynn
+----------------------------------------
+Seleccione una acción para Quicksilver
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Quicksilver use
+1-Mazio MP:11
+2-Panic Caster MP:10
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Quicksilver lanza electricidad a Shujinko
+Shujinko recibe 37 de daño
+Shujinko termina con HP:1207/1317
+Quicksilver lanza electricidad a Agathion
+Agathion recibe 37 de daño
+Agathion termina con HP:0/104
+Quicksilver lanza electricidad a Moh Shuvuu
+Moh Shuvuu recibe 37 de daño
+Moh Shuvuu termina con HP:17/127
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:971/971 MP:501/527
+B-Ippon-Datara HP:256/256 MP:56/56
+C-Strix HP:189/189 MP:85/85
+D-Quicksilver HP:203/203 MP:79/90
+Equipo de Shujinko (J2)
+A-Shujinko HP:1207/1317 MP:625/625
+B-
+C-Moh Shuvuu HP:17/127 MP:122/122
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Ippon-Datara
+2-Strix
+3-Flynn
+4-Quicksilver
+----------------------------------------
+Seleccione una acción para Ippon-Datara
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Ippon-Datara use
+1-Fang Breaker MP:12
+2-Tarukaja MP:15
+3-Maragi MP:11
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Ippon-Datara lanza fuego a Shujinko
+Shujinko recibe 34 de daño
+Shujinko termina con HP:1173/1317
+Ippon-Datara lanza fuego a Moh Shuvuu
+Moh Shuvuu es débil contra el ataque de Ippon-Datara
+Moh Shuvuu recibe 51 de daño
+Moh Shuvuu termina con HP:0/127
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:971/971 MP:501/527
+B-Ippon-Datara HP:256/256 MP:45/56
+C-Strix HP:189/189 MP:85/85
+D-Quicksilver HP:203/203 MP:79/90
+Equipo de Shujinko (J2)
+A-Shujinko HP:1173/1317 MP:625/625
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Strix
+2-Flynn
+3-Quicksilver
+4-Ippon-Datara
+----------------------------------------
+Seleccione una acción para Strix
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Strix use
+1-Spirit Drain MP:5
+2-Bouncing Claw MP:4
+3-Tarunda MP:15
+4-Mabufu MP:11
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Strix lanza hielo a Shujinko
+Shujinko recibe 37 de daño
+Shujinko termina con HP:1136/1317
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:971/971 MP:501/527
+B-Ippon-Datara HP:256/256 MP:45/56
+C-Strix HP:189/189 MP:74/85
+D-Quicksilver HP:203/203 MP:79/90
+Equipo de Shujinko (J2)
+A-Shujinko HP:1136/1317 MP:625/625
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Quicksilver
+3-Ippon-Datara
+4-Strix
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Flynn use
+1-Hades Blast MP:32
+2-Heaven's Bow MP:26
+3-Mazan MP:11
+4-Mahama MP:18
+5-Mamudo MP:18
+6-Cancelar
+INPUT: 3
+----------------------------------------
+Flynn lanza viento a Shujinko
+Shujinko recibe 92 de daño
+Shujinko termina con HP:1044/1317
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Shujinko (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:971/971 MP:490/527
+B-Ippon-Datara HP:256/256 MP:45/56
+C-Strix HP:189/189 MP:74/85
+D-Quicksilver HP:203/203 MP:79/90
+Equipo de Shujinko (J2)
+A-Shujinko HP:1044/1317 MP:625/625
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Shujinko
+----------------------------------------
+Seleccione una acción para Shujinko
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Shujinko
+1-Flynn HP:971/971 MP:490/527
+2-Ippon-Datara HP:256/256 MP:45/56
+3-Strix HP:189/189 MP:74/85
+4-Quicksilver HP:203/203 MP:79/90
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Shujinko ataca a Flynn
+Flynn recibe 187 de daño
+Flynn termina con HP:784/971
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:784/971 MP:490/527
+B-Ippon-Datara HP:256/256 MP:45/56
+C-Strix HP:189/189 MP:74/85
+D-Quicksilver HP:203/203 MP:79/90
+Equipo de Shujinko (J2)
+A-Shujinko HP:1044/1317 MP:625/625
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Quicksilver
+3-Ippon-Datara
+4-Strix
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Flynn use
+1-Hades Blast MP:32
+2-Heaven's Bow MP:26
+3-Mazan MP:11
+4-Mahama MP:18
+5-Mamudo MP:18
+6-Cancelar
+INPUT: 4
+----------------------------------------
+Flynn ataca con luz a Shujinko
+Shujinko bloquea el ataque de Flynn
+Shujinko termina con HP:1044/1317
+----------------------------------------
+Se han consumido 2 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:784/971 MP:472/527
+B-Ippon-Datara HP:256/256 MP:45/56
+C-Strix HP:189/189 MP:74/85
+D-Quicksilver HP:203/203 MP:79/90
+Equipo de Shujinko (J2)
+A-Shujinko HP:1044/1317 MP:625/625
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Quicksilver
+2-Ippon-Datara
+3-Strix
+4-Flynn
+----------------------------------------
+Seleccione una acción para Quicksilver
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Quicksilver
+1-Shujinko HP:1044/1317 MP:625/625
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Quicksilver ataca a Shujinko
+Shujinko es resistente el ataque de Quicksilver
+Shujinko recibe 7 de daño
+Shujinko termina con HP:1037/1317
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:784/971 MP:472/527
+B-Ippon-Datara HP:256/256 MP:45/56
+C-Strix HP:189/189 MP:74/85
+D-Quicksilver HP:203/203 MP:79/90
+Equipo de Shujinko (J2)
+A-Shujinko HP:1037/1317 MP:625/625
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Ippon-Datara
+2-Strix
+3-Flynn
+4-Quicksilver
+----------------------------------------
+Seleccione una acción para Ippon-Datara
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ippon-Datara
+1-Shujinko HP:1037/1317 MP:625/625
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Ippon-Datara ataca a Shujinko
+Shujinko es resistente el ataque de Ippon-Datara
+Shujinko recibe 8 de daño
+Shujinko termina con HP:1029/1317
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Shujinko (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:784/971 MP:472/527
+B-Ippon-Datara HP:256/256 MP:45/56
+C-Strix HP:189/189 MP:74/85
+D-Quicksilver HP:203/203 MP:79/90
+Equipo de Shujinko (J2)
+A-Shujinko HP:1029/1317 MP:625/625
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Shujinko
+----------------------------------------
+Seleccione una acción para Shujinko
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Shujinko
+1-Flynn HP:784/971 MP:472/527
+2-Ippon-Datara HP:256/256 MP:45/56
+3-Strix HP:189/189 MP:74/85
+4-Quicksilver HP:203/203 MP:79/90
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Shujinko ataca a Flynn
+Flynn recibe 187 de daño
+Flynn termina con HP:597/971
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:597/971 MP:472/527
+B-Ippon-Datara HP:256/256 MP:45/56
+C-Strix HP:189/189 MP:74/85
+D-Quicksilver HP:203/203 MP:79/90
+Equipo de Shujinko (J2)
+A-Shujinko HP:1029/1317 MP:625/625
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Quicksilver
+3-Ippon-Datara
+4-Strix
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Flynn use
+1-Hades Blast MP:32
+2-Heaven's Bow MP:26
+3-Mazan MP:11
+4-Mahama MP:18
+5-Mamudo MP:18
+6-Cancelar
+INPUT: 5
+----------------------------------------
+Flynn ataca con oscuridad a Shujinko
+Shujinko bloquea el ataque de Flynn
+Shujinko termina con HP:1029/1317
+----------------------------------------
+Se han consumido 2 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:597/971 MP:454/527
+B-Ippon-Datara HP:256/256 MP:45/56
+C-Strix HP:189/189 MP:74/85
+D-Quicksilver HP:203/203 MP:79/90
+Equipo de Shujinko (J2)
+A-Shujinko HP:1029/1317 MP:625/625
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Quicksilver
+2-Ippon-Datara
+3-Strix
+4-Flynn
+----------------------------------------
+Seleccione una acción para Quicksilver
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Quicksilver
+1-Shujinko HP:1029/1317 MP:625/625
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Quicksilver ataca a Shujinko
+Shujinko es resistente el ataque de Quicksilver
+Shujinko recibe 7 de daño
+Shujinko termina con HP:1022/1317
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:597/971 MP:454/527
+B-Ippon-Datara HP:256/256 MP:45/56
+C-Strix HP:189/189 MP:74/85
+D-Quicksilver HP:203/203 MP:79/90
+Equipo de Shujinko (J2)
+A-Shujinko HP:1022/1317 MP:625/625
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Ippon-Datara
+2-Strix
+3-Flynn
+4-Quicksilver
+----------------------------------------
+Seleccione una acción para Ippon-Datara
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ippon-Datara
+1-Shujinko HP:1022/1317 MP:625/625
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Ippon-Datara ataca a Shujinko
+Shujinko es resistente el ataque de Ippon-Datara
+Shujinko recibe 8 de daño
+Shujinko termina con HP:1014/1317
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Shujinko (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:597/971 MP:454/527
+B-Ippon-Datara HP:256/256 MP:45/56
+C-Strix HP:189/189 MP:74/85
+D-Quicksilver HP:203/203 MP:79/90
+Equipo de Shujinko (J2)
+A-Shujinko HP:1014/1317 MP:625/625
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Shujinko
+----------------------------------------
+Seleccione una acción para Shujinko
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Shujinko
+1-Flynn HP:597/971 MP:454/527
+2-Ippon-Datara HP:256/256 MP:45/56
+3-Strix HP:189/189 MP:74/85
+4-Quicksilver HP:203/203 MP:79/90
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Shujinko ataca a Flynn
+Flynn recibe 187 de daño
+Flynn termina con HP:410/971
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:410/971 MP:454/527
+B-Ippon-Datara HP:256/256 MP:45/56
+C-Strix HP:189/189 MP:74/85
+D-Quicksilver HP:203/203 MP:79/90
+Equipo de Shujinko (J2)
+A-Shujinko HP:1014/1317 MP:625/625
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Quicksilver
+3-Ippon-Datara
+4-Strix
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Flynn use
+1-Hades Blast MP:32
+2-Heaven's Bow MP:26
+3-Mazan MP:11
+4-Mahama MP:18
+5-Mamudo MP:18
+6-Cancelar
+INPUT: 1
+----------------------------------------
+Flynn ataca a Shujinko
+Shujinko es resistente el ataque de Flynn
+Shujinko recibe 84 de daño
+Shujinko termina con HP:930/1317
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:410/971 MP:422/527
+B-Ippon-Datara HP:256/256 MP:45/56
+C-Strix HP:189/189 MP:74/85
+D-Quicksilver HP:203/203 MP:79/90
+Equipo de Shujinko (J2)
+A-Shujinko HP:930/1317 MP:625/625
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Quicksilver
+2-Ippon-Datara
+3-Strix
+4-Flynn
+----------------------------------------
+Seleccione una acción para Quicksilver
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Quicksilver
+1-Shujinko HP:930/1317 MP:625/625
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Quicksilver ataca a Shujinko
+Shujinko es resistente el ataque de Quicksilver
+Shujinko recibe 7 de daño
+Shujinko termina con HP:923/1317
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:410/971 MP:422/527
+B-Ippon-Datara HP:256/256 MP:45/56
+C-Strix HP:189/189 MP:74/85
+D-Quicksilver HP:203/203 MP:79/90
+Equipo de Shujinko (J2)
+A-Shujinko HP:923/1317 MP:625/625
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Ippon-Datara
+2-Strix
+3-Flynn
+4-Quicksilver
+----------------------------------------
+Seleccione una acción para Ippon-Datara
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ippon-Datara
+1-Shujinko HP:923/1317 MP:625/625
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Ippon-Datara ataca a Shujinko
+Shujinko es resistente el ataque de Ippon-Datara
+Shujinko recibe 8 de daño
+Shujinko termina con HP:915/1317
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:410/971 MP:422/527
+B-Ippon-Datara HP:256/256 MP:45/56
+C-Strix HP:189/189 MP:74/85
+D-Quicksilver HP:203/203 MP:79/90
+Equipo de Shujinko (J2)
+A-Shujinko HP:915/1317 MP:625/625
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Strix
+2-Flynn
+3-Quicksilver
+4-Ippon-Datara
+----------------------------------------
+Seleccione una acción para Strix
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Strix
+1-Shujinko HP:915/1317 MP:625/625
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Strix ataca a Shujinko
+Shujinko es resistente el ataque de Strix
+Shujinko recibe 7 de daño
+Shujinko termina con HP:908/1317
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Shujinko (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:410/971 MP:422/527
+B-Ippon-Datara HP:256/256 MP:45/56
+C-Strix HP:189/189 MP:74/85
+D-Quicksilver HP:203/203 MP:79/90
+Equipo de Shujinko (J2)
+A-Shujinko HP:908/1317 MP:625/625
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Shujinko
+----------------------------------------
+Seleccione una acción para Shujinko
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 6
+----------------------------------------
+Shujinko (J2) se rinde
+----------------------------------------
+Ganador: Flynn (J1)

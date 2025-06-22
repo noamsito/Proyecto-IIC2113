@@ -1,0 +1,15 @@
+Player 1 Team
+[Samurai] Shujinko (Rakukaja,Drain Electric,Drain Phys,Gather Spirit Energy,Resist Ice)
+Balor
+Dybbuk
+Hathor
+Fenrir
+Player 2 Team
+[Samurai] Makoto (Resist Dark)
+Ukano Mitama
+Hachiman
+Yomotsu Shikome
+Kuebiko
+Israfel
+Omoikane
+Kwancha

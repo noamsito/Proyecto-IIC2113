@@ -1,0 +1,87 @@
+Elige un archivo para cargar los equipos
+0: 001.txt
+1: 002.txt
+2: 003.txt
+3: 004.txt
+INPUT: 3
+----------------------------------------
+Ronda de Kei (J1)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:760/760 MP:398/398
+B-
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:597/597 MP:347/347
+B-Kanbari HP:350/350 MP:68/68
+C-Tuofei HP:239/239 MP:121/121
+D-Obariyon HP:196/196 MP:88/88
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kei
+----------------------------------------
+Seleccione una acción para Kei
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Kei use
+1-Bind Voice MP:15
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Kei intenta paralizar a Joker
+Kei ha fallado el ataque
+Kei intenta paralizar a Kanbari
+Kanbari es débil contra el ataque de Kei
+Kanbari ha sido paralizado, no podrá moverse
+Kei intenta paralizar a Tuofei
+Kei ha fallado el ataque
+Kei intenta paralizar a Obariyon
+Obariyon bloquea el ataque de Kei
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Joker (J2)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:760/760 MP:383/398
+B-
+C-
+D-
+Equipo de Joker (J2)
+A-Joker HP:597/597 MP:347/347
+B-Kanbari HP:350/350 MP:68/68
+C-Tuofei HP:239/239 MP:121/121
+D-Obariyon HP:196/196 MP:88/88
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Joker
+2-Tuofei
+3-Kanbari
+4-Obariyon
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 6
+----------------------------------------
+Joker (J2) se rinde
+----------------------------------------
+Ganador: Kei (J1)

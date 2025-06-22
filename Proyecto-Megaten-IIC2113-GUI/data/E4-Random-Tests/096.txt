@@ -1,0 +1,5664 @@
+Elige un archivo para cargar los equipos
+0: 001.txt
+1: 002.txt
+2: 003.txt
+3: 004.txt
+4: 005.txt
+5: 006.txt
+6: 007.txt
+7: 008.txt
+8: 009.txt
+9: 010.txt
+10: 011.txt
+11: 012.txt
+12: 013.txt
+13: 014.txt
+14: 015.txt
+15: 016.txt
+16: 017.txt
+17: 018.txt
+18: 019.txt
+19: 020.txt
+20: 021.txt
+21: 022.txt
+22: 023.txt
+23: 024.txt
+24: 025.txt
+25: 026.txt
+26: 027.txt
+27: 028.txt
+28: 029.txt
+29: 030.txt
+30: 031.txt
+31: 032.txt
+32: 033.txt
+33: 034.txt
+34: 035.txt
+35: 036.txt
+36: 037.txt
+37: 038.txt
+38: 039.txt
+39: 040.txt
+40: 041.txt
+41: 042.txt
+42: 043.txt
+43: 044.txt
+44: 045.txt
+45: 046.txt
+46: 047.txt
+47: 048.txt
+48: 049.txt
+49: 050.txt
+50: 051.txt
+51: 052.txt
+52: 053.txt
+53: 054.txt
+54: 055.txt
+55: 056.txt
+56: 057.txt
+57: 058.txt
+58: 059.txt
+59: 060.txt
+60: 061.txt
+61: 062.txt
+62: 063.txt
+63: 064.txt
+64: 065.txt
+65: 066.txt
+66: 067.txt
+67: 068.txt
+68: 069.txt
+69: 070.txt
+70: 071.txt
+71: 072.txt
+72: 073.txt
+73: 074.txt
+74: 075.txt
+75: 076.txt
+76: 077.txt
+77: 078.txt
+78: 079.txt
+79: 080.txt
+80: 081.txt
+81: 082.txt
+82: 083.txt
+83: 084.txt
+84: 085.txt
+85: 086.txt
+86: 087.txt
+87: 088.txt
+88: 089.txt
+89: 090.txt
+90: 091.txt
+91: 092.txt
+92: 093.txt
+93: 094.txt
+94: 095.txt
+95: 096.txt
+96: 097.txt
+97: 098.txt
+98: 099.txt
+99: 100.txt
+100: 101.txt
+101: 102.txt
+102: 103.txt
+103: 104.txt
+104: 105.txt
+105: 106.txt
+106: 107.txt
+107: 108.txt
+108: 109.txt
+109: 110.txt
+110: 111.txt
+111: 112.txt
+112: 113.txt
+113: 114.txt
+114: 115.txt
+115: 116.txt
+116: 117.txt
+117: 118.txt
+118: 119.txt
+119: 120.txt
+120: 121.txt
+121: 122.txt
+122: 123.txt
+123: 124.txt
+124: 125.txt
+125: 126.txt
+126: 127.txt
+127: 128.txt
+128: 129.txt
+129: 130.txt
+130: 131.txt
+131: 132.txt
+132: 133.txt
+133: 134.txt
+134: 135.txt
+135: 136.txt
+136: 137.txt
+137: 138.txt
+138: 139.txt
+139: 140.txt
+140: 141.txt
+141: 142.txt
+142: 143.txt
+143: 144.txt
+144: 145.txt
+145: 146.txt
+146: 147.txt
+147: 148.txt
+148: 149.txt
+149: 150.txt
+150: 151.txt
+151: 152.txt
+152: 153.txt
+153: 154.txt
+154: 155.txt
+155: 156.txt
+156: 157.txt
+157: 158.txt
+158: 159.txt
+159: 160.txt
+160: 161.txt
+161: 162.txt
+162: 163.txt
+163: 164.txt
+164: 165.txt
+165: 166.txt
+166: 167.txt
+167: 168.txt
+168: 169.txt
+169: 170.txt
+170: 171.txt
+171: 172.txt
+172: 173.txt
+173: 174.txt
+174: 175.txt
+175: 176.txt
+176: 177.txt
+177: 178.txt
+178: 179.txt
+179: 180.txt
+180: 181.txt
+181: 182.txt
+182: 183.txt
+183: 184.txt
+184: 185.txt
+185: 186.txt
+186: 187.txt
+187: 188.txt
+188: 189.txt
+189: 190.txt
+190: 191.txt
+191: 192.txt
+192: 193.txt
+193: 194.txt
+194: 195.txt
+195: 196.txt
+196: 197.txt
+197: 198.txt
+198: 199.txt
+199: 200.txt
+200: 201.txt
+201: 202.txt
+202: 203.txt
+203: 204.txt
+204: 205.txt
+205: 206.txt
+206: 207.txt
+207: 208.txt
+208: 209.txt
+209: 210.txt
+210: 211.txt
+211: 212.txt
+212: 213.txt
+213: 214.txt
+214: 215.txt
+215: 216.txt
+216: 217.txt
+217: 218.txt
+218: 219.txt
+219: 220.txt
+220: 221.txt
+221: 222.txt
+222: 223.txt
+223: 224.txt
+224: 225.txt
+225: 226.txt
+226: 227.txt
+227: 228.txt
+228: 229.txt
+229: 230.txt
+230: 231.txt
+231: 232.txt
+232: 233.txt
+233: 234.txt
+234: 235.txt
+235: 236.txt
+236: 237.txt
+237: 238.txt
+238: 239.txt
+239: 240.txt
+240: 241.txt
+241: 242.txt
+242: 243.txt
+243: 244.txt
+244: 245.txt
+245: 246.txt
+246: 247.txt
+247: 248.txt
+248: 249.txt
+249: 250.txt
+250: 251.txt
+251: 252.txt
+252: 253.txt
+253: 254.txt
+254: 255.txt
+255: 256.txt
+256: 257.txt
+257: 258.txt
+258: 259.txt
+259: 260.txt
+260: 261.txt
+261: 262.txt
+262: 263.txt
+263: 264.txt
+264: 265.txt
+265: 266.txt
+266: 267.txt
+267: 268.txt
+268: 269.txt
+269: 270.txt
+270: 271.txt
+271: 272.txt
+272: 273.txt
+273: 274.txt
+274: 275.txt
+275: 276.txt
+276: 277.txt
+277: 278.txt
+278: 279.txt
+279: 280.txt
+280: 281.txt
+281: 282.txt
+282: 283.txt
+283: 284.txt
+284: 285.txt
+285: 286.txt
+286: 287.txt
+287: 288.txt
+288: 289.txt
+289: 290.txt
+290: 291.txt
+291: 292.txt
+292: 293.txt
+293: 294.txt
+294: 295.txt
+295: 296.txt
+296: 297.txt
+297: 298.txt
+298: 299.txt
+299: 300.txt
+300: 301.txt
+301: 302.txt
+302: 303.txt
+303: 304.txt
+304: 305.txt
+305: 306.txt
+306: 307.txt
+307: 308.txt
+308: 309.txt
+309: 310.txt
+310: 311.txt
+311: 312.txt
+312: 313.txt
+313: 314.txt
+314: 315.txt
+315: 316.txt
+316: 317.txt
+317: 318.txt
+318: 319.txt
+319: 320.txt
+320: 321.txt
+321: 322.txt
+322: 323.txt
+323: 324.txt
+324: 325.txt
+325: 326.txt
+326: 327.txt
+327: 328.txt
+328: 329.txt
+329: 330.txt
+330: 331.txt
+331: 332.txt
+332: 333.txt
+333: 334.txt
+334: 335.txt
+335: 336.txt
+336: 337.txt
+337: 338.txt
+338: 339.txt
+339: 340.txt
+340: 341.txt
+341: 342.txt
+342: 343.txt
+343: 344.txt
+344: 345.txt
+345: 346.txt
+346: 347.txt
+347: 348.txt
+348: 349.txt
+349: 350.txt
+350: 351.txt
+351: 352.txt
+352: 353.txt
+353: 354.txt
+354: 355.txt
+355: 356.txt
+356: 357.txt
+357: 358.txt
+358: 359.txt
+359: 360.txt
+360: 361.txt
+361: 362.txt
+362: 363.txt
+363: 364.txt
+364: 365.txt
+365: 366.txt
+366: 367.txt
+367: 368.txt
+368: 369.txt
+369: 370.txt
+370: 371.txt
+371: 372.txt
+372: 373.txt
+373: 374.txt
+374: 375.txt
+375: 376.txt
+376: 377.txt
+377: 378.txt
+378: 379.txt
+379: 380.txt
+380: 381.txt
+381: 382.txt
+382: 383.txt
+383: 384.txt
+384: 385.txt
+385: 386.txt
+386: 387.txt
+387: 388.txt
+388: 389.txt
+389: 390.txt
+390: 391.txt
+391: 392.txt
+392: 393.txt
+393: 394.txt
+394: 395.txt
+395: 396.txt
+396: 397.txt
+397: 398.txt
+398: 399.txt
+399: 400.txt
+400: 401.txt
+401: 402.txt
+402: 403.txt
+403: 404.txt
+404: 405.txt
+405: 406.txt
+406: 407.txt
+407: 408.txt
+408: 409.txt
+409: 410.txt
+410: 411.txt
+411: 412.txt
+412: 413.txt
+413: 414.txt
+414: 415.txt
+415: 416.txt
+416: 417.txt
+417: 418.txt
+418: 419.txt
+419: 420.txt
+420: 421.txt
+421: 422.txt
+422: 423.txt
+423: 424.txt
+424: 425.txt
+425: 426.txt
+426: 427.txt
+427: 428.txt
+428: 429.txt
+429: 430.txt
+430: 431.txt
+431: 432.txt
+432: 433.txt
+433: 434.txt
+434: 435.txt
+435: 436.txt
+436: 437.txt
+437: 438.txt
+438: 439.txt
+439: 440.txt
+440: 441.txt
+441: 442.txt
+442: 443.txt
+443: 444.txt
+444: 445.txt
+445: 446.txt
+446: 447.txt
+447: 448.txt
+448: 449.txt
+449: 450.txt
+450: 451.txt
+451: 452.txt
+452: 453.txt
+453: 454.txt
+454: 455.txt
+455: 456.txt
+456: 457.txt
+457: 458.txt
+458: 459.txt
+459: 460.txt
+460: 461.txt
+461: 462.txt
+462: 463.txt
+463: 464.txt
+464: 465.txt
+465: 466.txt
+466: 467.txt
+467: 468.txt
+468: 469.txt
+469: 470.txt
+470: 471.txt
+471: 472.txt
+472: 473.txt
+473: 474.txt
+474: 475.txt
+475: 476.txt
+476: 477.txt
+477: 478.txt
+478: 479.txt
+479: 480.txt
+480: 481.txt
+481: 482.txt
+482: 483.txt
+483: 484.txt
+484: 485.txt
+485: 486.txt
+486: 487.txt
+487: 488.txt
+488: 489.txt
+489: 490.txt
+490: 491.txt
+491: 492.txt
+492: 493.txt
+493: 494.txt
+494: 495.txt
+495: 496.txt
+496: 497.txt
+497: 498.txt
+498: 499.txt
+499: 500.txt
+INPUT: 95
+----------------------------------------
+Ronda de Nanashi (J1)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:140/140 MP:411/411
+B-Xi Wangmu HP:418/418 MP:405/405
+C-Raphael HP:623/623 MP:279/279
+D-Dwarf HP:146/146 MP:26/26
+Equipo de Tamaki (J2)
+A-Tamaki HP:999/999 MP:542/542
+B-Take-Mikazuchi HP:615/615 MP:121/121
+C-Asherah HP:433/433 MP:195/195
+D-Vodyanik HP:76/76 MP:79/79
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Raphael
+2-Xi Wangmu
+3-Nanashi
+4-Dwarf
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Raphael
+1-Tamaki HP:999/999 MP:542/542
+2-Take-Mikazuchi HP:615/615 MP:121/121
+3-Asherah HP:433/433 MP:195/195
+4-Vodyanik HP:76/76 MP:79/79
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Raphael ataca a Tamaki
+Tamaki es resistente el ataque de Raphael
+Tamaki recibe 26 de daño
+Tamaki termina con HP:973/999
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:140/140 MP:411/411
+B-Xi Wangmu HP:418/418 MP:405/405
+C-Raphael HP:623/623 MP:279/279
+D-Dwarf HP:146/146 MP:26/26
+Equipo de Tamaki (J2)
+A-Tamaki HP:973/999 MP:542/542
+B-Take-Mikazuchi HP:615/615 MP:121/121
+C-Asherah HP:433/433 MP:195/195
+D-Vodyanik HP:76/76 MP:79/79
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Xi Wangmu
+2-Nanashi
+3-Dwarf
+4-Raphael
+----------------------------------------
+Seleccione una acción para Xi Wangmu
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Xi Wangmu use
+1-Makarakarn MP:50
+2-Myriad Arrows MP:30
+3-Invitation MP:45
+4-Megaton Press MP:17
+5-Doping MP:45
+6-Cancelar
+INPUT: 2
+----------------------------------------
+Xi Wangmu dispara a Tamaki
+Tamaki es resistente el ataque de Xi Wangmu
+Tamaki recibe 75 de daño
+Tamaki termina con HP:898/999
+Xi Wangmu dispara a Take-Mikazuchi
+Take-Mikazuchi recibe 150 de daño
+Take-Mikazuchi termina con HP:465/615
+Take-Mikazuchi contra ataca a Xi Wangmu
+Xi Wangmu recibe 75 de daño
+Xi Wangmu termina con HP:343/418
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:140/140 MP:411/411
+B-Xi Wangmu HP:343/418 MP:375/405
+C-Raphael HP:623/623 MP:279/279
+D-Dwarf HP:146/146 MP:26/26
+Equipo de Tamaki (J2)
+A-Tamaki HP:898/999 MP:542/542
+B-Take-Mikazuchi HP:465/615 MP:121/121
+C-Asherah HP:433/433 MP:195/195
+D-Vodyanik HP:76/76 MP:79/79
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Nanashi
+2-Dwarf
+3-Raphael
+4-Xi Wangmu
+----------------------------------------
+Seleccione una acción para Nanashi
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Nanashi
+1-Tamaki HP:898/999 MP:542/542
+2-Take-Mikazuchi HP:465/615 MP:121/121
+3-Asherah HP:433/433 MP:195/195
+4-Vodyanik HP:76/76 MP:79/79
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Nanashi
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:140/140 MP:411/411
+B-Xi Wangmu HP:343/418 MP:375/405
+C-Raphael HP:623/623 MP:279/279
+D-Dwarf HP:146/146 MP:26/26
+Equipo de Tamaki (J2)
+A-Tamaki HP:898/999 MP:542/542
+B-Take-Mikazuchi HP:465/615 MP:121/121
+C-Asherah HP:433/433 MP:195/195
+D-Vodyanik HP:76/76 MP:79/79
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Dwarf
+2-Raphael
+3-Xi Wangmu
+4-Nanashi
+----------------------------------------
+Seleccione una acción para Dwarf
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:140/140 MP:411/411
+B-Xi Wangmu HP:343/418 MP:375/405
+C-Raphael HP:623/623 MP:279/279
+D-Dwarf HP:146/146 MP:26/26
+Equipo de Tamaki (J2)
+A-Tamaki HP:898/999 MP:542/542
+B-Take-Mikazuchi HP:465/615 MP:121/121
+C-Asherah HP:433/433 MP:195/195
+D-Vodyanik HP:76/76 MP:79/79
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Raphael
+2-Xi Wangmu
+3-Nanashi
+4-Dwarf
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Kushinada-Hime HP:240/240 MP:232/232
+2-Night Stalker HP:254/254 MP:103/103
+3-Shiisaa HP:125/125 MP:45/45
+4-Anzu HP:596/596 MP:118/118
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Night Stalker ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:140/140 MP:411/411
+B-Xi Wangmu HP:343/418 MP:375/405
+C-Night Stalker HP:254/254 MP:103/103
+D-Dwarf HP:146/146 MP:26/26
+Equipo de Tamaki (J2)
+A-Tamaki HP:898/999 MP:542/542
+B-Take-Mikazuchi HP:465/615 MP:121/121
+C-Asherah HP:433/433 MP:195/195
+D-Vodyanik HP:76/76 MP:79/79
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Xi Wangmu
+2-Nanashi
+3-Dwarf
+4-Night Stalker
+----------------------------------------
+Seleccione una acción para Xi Wangmu
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Tamaki (J2)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:140/140 MP:411/411
+B-Xi Wangmu HP:343/418 MP:375/405
+C-Night Stalker HP:254/254 MP:103/103
+D-Dwarf HP:146/146 MP:26/26
+Equipo de Tamaki (J2)
+A-Tamaki HP:898/999 MP:542/542
+B-Take-Mikazuchi HP:465/615 MP:121/121
+C-Asherah HP:433/433 MP:195/195
+D-Vodyanik HP:76/76 MP:79/79
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Take-Mikazuchi
+2-Asherah
+3-Tamaki
+4-Vodyanik
+----------------------------------------
+Seleccione una acción para Take-Mikazuchi
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Kin-Ki HP:601/601 MP:118/118
+2-Pixie HP:80/80 MP:76/76
+3-Corpse HP:426/426 MP:85/85
+4-Airavata HP:500/500 MP:172/172
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Take-Mikazuchi
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Take-Mikazuchi
+1-Nanashi HP:140/140 MP:411/411
+2-Xi Wangmu HP:343/418 MP:375/405
+3-Night Stalker HP:254/254 MP:103/103
+4-Dwarf HP:146/146 MP:26/26
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Take-Mikazuchi
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:140/140 MP:411/411
+B-Xi Wangmu HP:343/418 MP:375/405
+C-Night Stalker HP:254/254 MP:103/103
+D-Dwarf HP:146/146 MP:26/26
+Equipo de Tamaki (J2)
+A-Tamaki HP:898/999 MP:542/542
+B-Take-Mikazuchi HP:465/615 MP:121/121
+C-Asherah HP:433/433 MP:195/195
+D-Vodyanik HP:76/76 MP:79/79
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Asherah
+2-Tamaki
+3-Vodyanik
+4-Take-Mikazuchi
+----------------------------------------
+Seleccione una acción para Asherah
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Asherah use
+1-Diarama MP:9
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Asherah
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Asherah use
+1-Diarama MP:9
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Asherah
+1-Tamaki HP:898/999 MP:542/542
+2-Take-Mikazuchi HP:465/615 MP:121/121
+3-Asherah HP:433/433 MP:195/195
+4-Vodyanik HP:76/76 MP:79/79
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Asherah
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Asherah
+1-Nanashi HP:140/140 MP:411/411
+2-Xi Wangmu HP:343/418 MP:375/405
+3-Night Stalker HP:254/254 MP:103/103
+4-Dwarf HP:146/146 MP:26/26
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Asherah
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Asherah
+1-Nanashi HP:140/140 MP:411/411
+2-Xi Wangmu HP:343/418 MP:375/405
+3-Night Stalker HP:254/254 MP:103/103
+4-Dwarf HP:146/146 MP:26/26
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Asherah ataca a Night Stalker
+Night Stalker recibe 35 de daño
+Night Stalker termina con HP:219/254
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:140/140 MP:411/411
+B-Xi Wangmu HP:343/418 MP:375/405
+C-Night Stalker HP:219/254 MP:103/103
+D-Dwarf HP:146/146 MP:26/26
+Equipo de Tamaki (J2)
+A-Tamaki HP:898/999 MP:542/542
+B-Take-Mikazuchi HP:465/615 MP:121/121
+C-Asherah HP:433/433 MP:195/195
+D-Vodyanik HP:76/76 MP:79/79
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Tamaki
+2-Vodyanik
+3-Take-Mikazuchi
+4-Asherah
+----------------------------------------
+Seleccione una acción para Tamaki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Kin-Ki HP:601/601 MP:118/118
+2-Pixie HP:80/80 MP:76/76
+3-Corpse HP:426/426 MP:85/85
+4-Airavata HP:500/500 MP:172/172
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una posición para invocar
+1-Take-Mikazuchi HP:465/615 MP:121/121 (Puesto 2)
+2-Asherah HP:433/433 MP:195/195 (Puesto 3)
+3-Vodyanik HP:76/76 MP:79/79 (Puesto 4)
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Tamaki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Tamaki
+1-Nanashi HP:140/140 MP:411/411
+2-Xi Wangmu HP:343/418 MP:375/405
+3-Night Stalker HP:219/254 MP:103/103
+4-Dwarf HP:146/146 MP:26/26
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Tamaki dispara a Dwarf
+Dwarf recibe 15 de daño
+Dwarf termina con HP:131/146
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:140/140 MP:411/411
+B-Xi Wangmu HP:343/418 MP:375/405
+C-Night Stalker HP:219/254 MP:103/103
+D-Dwarf HP:131/146 MP:26/26
+Equipo de Tamaki (J2)
+A-Tamaki HP:898/999 MP:542/542
+B-Take-Mikazuchi HP:465/615 MP:121/121
+C-Asherah HP:433/433 MP:195/195
+D-Vodyanik HP:76/76 MP:79/79
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Vodyanik
+2-Take-Mikazuchi
+3-Asherah
+4-Tamaki
+----------------------------------------
+Seleccione una acción para Vodyanik
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Vodyanik use
+1-Mazio MP:11
+2-Bouncing Claw MP:4
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Vodyanik
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:140/140 MP:411/411
+B-Xi Wangmu HP:343/418 MP:375/405
+C-Night Stalker HP:219/254 MP:103/103
+D-Dwarf HP:131/146 MP:26/26
+Equipo de Tamaki (J2)
+A-Tamaki HP:898/999 MP:542/542
+B-Take-Mikazuchi HP:465/615 MP:121/121
+C-Asherah HP:433/433 MP:195/195
+D-Vodyanik HP:76/76 MP:79/79
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Take-Mikazuchi
+2-Asherah
+3-Tamaki
+4-Vodyanik
+----------------------------------------
+Seleccione una acción para Take-Mikazuchi
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Take-Mikazuchi use
+1-Ziodyne MP:14
+2-Berserker God MP:12
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Take-Mikazuchi
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:140/140 MP:411/411
+B-Xi Wangmu HP:343/418 MP:375/405
+C-Night Stalker HP:219/254 MP:103/103
+D-Dwarf HP:131/146 MP:26/26
+Equipo de Tamaki (J2)
+A-Tamaki HP:898/999 MP:542/542
+B-Take-Mikazuchi HP:465/615 MP:121/121
+C-Asherah HP:433/433 MP:195/195
+D-Vodyanik HP:76/76 MP:79/79
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Asherah
+2-Tamaki
+3-Vodyanik
+4-Take-Mikazuchi
+----------------------------------------
+Seleccione una acción para Asherah
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Asherah
+1-Nanashi HP:140/140 MP:411/411
+2-Xi Wangmu HP:343/418 MP:375/405
+3-Night Stalker HP:219/254 MP:103/103
+4-Dwarf HP:131/146 MP:26/26
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Asherah ataca a Night Stalker
+Night Stalker recibe 35 de daño
+Night Stalker termina con HP:184/254
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Nanashi (J1)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:140/140 MP:411/411
+B-Xi Wangmu HP:343/418 MP:375/405
+C-Night Stalker HP:184/254 MP:103/103
+D-Dwarf HP:131/146 MP:26/26
+Equipo de Tamaki (J2)
+A-Tamaki HP:898/999 MP:542/542
+B-Take-Mikazuchi HP:465/615 MP:121/121
+C-Asherah HP:433/433 MP:195/195
+D-Vodyanik HP:76/76 MP:79/79
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Xi Wangmu
+2-Nanashi
+3-Night Stalker
+4-Dwarf
+----------------------------------------
+Seleccione una acción para Xi Wangmu
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Xi Wangmu use
+1-Makarakarn MP:50
+2-Myriad Arrows MP:30
+3-Invitation MP:45
+4-Megaton Press MP:17
+5-Doping MP:45
+6-Cancelar
+INPUT: 5
+----------------------------------------
+El HP máximo de Nanashi ha aumentado en 42
+Nanashi termina con HP:140/182
+El HP máximo de Night Stalker ha aumentado en 76
+Night Stalker termina con HP:184/330
+El HP máximo de Dwarf ha aumentado en 43
+Dwarf termina con HP:131/189
+El HP máximo de Xi Wangmu ha aumentado en 125
+Xi Wangmu termina con HP:343/543
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:140/182 MP:411/411
+B-Xi Wangmu HP:343/543 MP:330/405
+C-Night Stalker HP:184/330 MP:103/103
+D-Dwarf HP:131/189 MP:26/26
+Equipo de Tamaki (J2)
+A-Tamaki HP:898/999 MP:542/542
+B-Take-Mikazuchi HP:465/615 MP:121/121
+C-Asherah HP:433/433 MP:195/195
+D-Vodyanik HP:76/76 MP:79/79
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Nanashi
+2-Night Stalker
+3-Dwarf
+4-Xi Wangmu
+----------------------------------------
+Seleccione una acción para Nanashi
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Nanashi
+1-Tamaki HP:898/999 MP:542/542
+2-Take-Mikazuchi HP:465/615 MP:121/121
+3-Asherah HP:433/433 MP:195/195
+4-Vodyanik HP:76/76 MP:79/79
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Nanashi ataca a Asherah
+Asherah recibe 92 de daño
+Asherah termina con HP:341/433
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:140/182 MP:411/411
+B-Xi Wangmu HP:343/543 MP:330/405
+C-Night Stalker HP:184/330 MP:103/103
+D-Dwarf HP:131/189 MP:26/26
+Equipo de Tamaki (J2)
+A-Tamaki HP:898/999 MP:542/542
+B-Take-Mikazuchi HP:465/615 MP:121/121
+C-Asherah HP:341/433 MP:195/195
+D-Vodyanik HP:76/76 MP:79/79
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Night Stalker
+2-Dwarf
+3-Xi Wangmu
+4-Nanashi
+----------------------------------------
+Seleccione una acción para Night Stalker
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:140/182 MP:411/411
+B-Xi Wangmu HP:343/543 MP:330/405
+C-Night Stalker HP:184/330 MP:103/103
+D-Dwarf HP:131/189 MP:26/26
+Equipo de Tamaki (J2)
+A-Tamaki HP:898/999 MP:542/542
+B-Take-Mikazuchi HP:465/615 MP:121/121
+C-Asherah HP:341/433 MP:195/195
+D-Vodyanik HP:76/76 MP:79/79
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Dwarf
+2-Xi Wangmu
+3-Nanashi
+4-Night Stalker
+----------------------------------------
+Seleccione una acción para Dwarf
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:140/182 MP:411/411
+B-Xi Wangmu HP:343/543 MP:330/405
+C-Night Stalker HP:184/330 MP:103/103
+D-Dwarf HP:131/189 MP:26/26
+Equipo de Tamaki (J2)
+A-Tamaki HP:898/999 MP:542/542
+B-Take-Mikazuchi HP:465/615 MP:121/121
+C-Asherah HP:341/433 MP:195/195
+D-Vodyanik HP:76/76 MP:79/79
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Xi Wangmu
+2-Nanashi
+3-Night Stalker
+4-Dwarf
+----------------------------------------
+Seleccione una acción para Xi Wangmu
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Xi Wangmu use
+1-Makarakarn MP:50
+2-Myriad Arrows MP:30
+3-Invitation MP:45
+4-Megaton Press MP:17
+5-Doping MP:45
+6-Cancelar
+INPUT: 5
+----------------------------------------
+Nanashi no puede aumentar más su HP máximo
+Nanashi termina con HP:140/182
+Night Stalker no puede aumentar más su HP máximo
+Night Stalker termina con HP:184/330
+Dwarf no puede aumentar más su HP máximo
+Dwarf termina con HP:131/189
+Xi Wangmu no puede aumentar más su HP máximo
+Xi Wangmu termina con HP:343/543
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Tamaki (J2)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:140/182 MP:411/411
+B-Xi Wangmu HP:343/543 MP:285/405
+C-Night Stalker HP:184/330 MP:103/103
+D-Dwarf HP:131/189 MP:26/26
+Equipo de Tamaki (J2)
+A-Tamaki HP:898/999 MP:542/542
+B-Take-Mikazuchi HP:465/615 MP:121/121
+C-Asherah HP:341/433 MP:195/195
+D-Vodyanik HP:76/76 MP:79/79
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Take-Mikazuchi
+2-Asherah
+3-Tamaki
+4-Vodyanik
+----------------------------------------
+Seleccione una acción para Take-Mikazuchi
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Take-Mikazuchi
+1-Nanashi HP:140/182 MP:411/411
+2-Xi Wangmu HP:343/543 MP:285/405
+3-Night Stalker HP:184/330 MP:103/103
+4-Dwarf HP:131/189 MP:26/26
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Take-Mikazuchi ataca a Night Stalker
+Night Stalker recibe 46 de daño
+Night Stalker termina con HP:138/330
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:140/182 MP:411/411
+B-Xi Wangmu HP:343/543 MP:285/405
+C-Night Stalker HP:138/330 MP:103/103
+D-Dwarf HP:131/189 MP:26/26
+Equipo de Tamaki (J2)
+A-Tamaki HP:898/999 MP:542/542
+B-Take-Mikazuchi HP:465/615 MP:121/121
+C-Asherah HP:341/433 MP:195/195
+D-Vodyanik HP:76/76 MP:79/79
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Asherah
+2-Tamaki
+3-Vodyanik
+4-Take-Mikazuchi
+----------------------------------------
+Seleccione una acción para Asherah
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Kin-Ki HP:601/601 MP:118/118
+2-Pixie HP:80/80 MP:76/76
+3-Corpse HP:426/426 MP:85/85
+4-Airavata HP:500/500 MP:172/172
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Kin-Ki ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:140/182 MP:411/411
+B-Xi Wangmu HP:343/543 MP:285/405
+C-Night Stalker HP:138/330 MP:103/103
+D-Dwarf HP:131/189 MP:26/26
+Equipo de Tamaki (J2)
+A-Tamaki HP:898/999 MP:542/542
+B-Take-Mikazuchi HP:465/615 MP:121/121
+C-Kin-Ki HP:601/601 MP:118/118
+D-Vodyanik HP:76/76 MP:79/79
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Tamaki
+2-Vodyanik
+3-Take-Mikazuchi
+4-Kin-Ki
+----------------------------------------
+Seleccione una acción para Tamaki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:140/182 MP:411/411
+B-Xi Wangmu HP:343/543 MP:285/405
+C-Night Stalker HP:138/330 MP:103/103
+D-Dwarf HP:131/189 MP:26/26
+Equipo de Tamaki (J2)
+A-Tamaki HP:898/999 MP:542/542
+B-Take-Mikazuchi HP:465/615 MP:121/121
+C-Kin-Ki HP:601/601 MP:118/118
+D-Vodyanik HP:76/76 MP:79/79
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Vodyanik
+2-Take-Mikazuchi
+3-Kin-Ki
+4-Tamaki
+----------------------------------------
+Seleccione una acción para Vodyanik
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Vodyanik use
+1-Mazio MP:11
+2-Bouncing Claw MP:4
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Vodyanik
+1-Nanashi HP:140/182 MP:411/411
+2-Xi Wangmu HP:343/543 MP:285/405
+3-Night Stalker HP:138/330 MP:103/103
+4-Dwarf HP:131/189 MP:26/26
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Vodyanik ataca a Night Stalker
+Night Stalker recibe 29 de daño
+Night Stalker termina con HP:109/330
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:140/182 MP:411/411
+B-Xi Wangmu HP:343/543 MP:285/405
+C-Night Stalker HP:109/330 MP:103/103
+D-Dwarf HP:131/189 MP:26/26
+Equipo de Tamaki (J2)
+A-Tamaki HP:898/999 MP:542/542
+B-Take-Mikazuchi HP:465/615 MP:121/121
+C-Kin-Ki HP:601/601 MP:118/118
+D-Vodyanik HP:76/76 MP:75/79
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Take-Mikazuchi
+2-Kin-Ki
+3-Tamaki
+4-Vodyanik
+----------------------------------------
+Seleccione una acción para Take-Mikazuchi
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Take-Mikazuchi use
+1-Ziodyne MP:14
+2-Berserker God MP:12
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Take-Mikazuchi
+1-Nanashi HP:140/182 MP:411/411
+2-Xi Wangmu HP:343/543 MP:285/405
+3-Night Stalker HP:109/330 MP:103/103
+4-Dwarf HP:131/189 MP:26/26
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Take-Mikazuchi lanza electricidad a Dwarf
+Dwarf recibe 105 de daño
+Dwarf termina con HP:26/189
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Nanashi (J1)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:140/182 MP:411/411
+B-Xi Wangmu HP:343/543 MP:285/405
+C-Night Stalker HP:109/330 MP:103/103
+D-Dwarf HP:26/189 MP:26/26
+Equipo de Tamaki (J2)
+A-Tamaki HP:898/999 MP:542/542
+B-Take-Mikazuchi HP:465/615 MP:107/121
+C-Kin-Ki HP:601/601 MP:118/118
+D-Vodyanik HP:76/76 MP:75/79
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Xi Wangmu
+2-Nanashi
+3-Night Stalker
+4-Dwarf
+----------------------------------------
+Seleccione una acción para Xi Wangmu
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Raphael HP:623/623 MP:279/279
+2-Kushinada-Hime HP:240/240 MP:232/232
+3-Shiisaa HP:125/125 MP:45/45
+4-Anzu HP:596/596 MP:118/118
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Shiisaa ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:140/182 MP:411/411
+B-Shiisaa HP:125/125 MP:45/45
+C-Night Stalker HP:109/330 MP:103/103
+D-Dwarf HP:26/189 MP:26/26
+Equipo de Tamaki (J2)
+A-Tamaki HP:898/999 MP:542/542
+B-Take-Mikazuchi HP:465/615 MP:107/121
+C-Kin-Ki HP:601/601 MP:118/118
+D-Vodyanik HP:76/76 MP:75/79
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Nanashi
+2-Night Stalker
+3-Dwarf
+4-Shiisaa
+----------------------------------------
+Seleccione una acción para Nanashi
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Nanashi use
+1-Trisagion MP:22
+2-Taunt MP:20
+3-Zandyne MP:14
+4-Tarukaja MP:15
+5-Agilao MP:8
+6-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione un objetivo para Nanashi
+1-Tamaki HP:898/999 MP:542/542
+2-Take-Mikazuchi HP:465/615 MP:107/121
+3-Kin-Ki HP:601/601 MP:118/118
+4-Vodyanik HP:76/76 MP:75/79
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Nanashi lanza viento a Take-Mikazuchi
+Take-Mikazuchi es débil contra el ataque de Nanashi
+Take-Mikazuchi recibe 101 de daño
+Take-Mikazuchi termina con HP:364/615
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:140/182 MP:397/411
+B-Shiisaa HP:125/125 MP:45/45
+C-Night Stalker HP:109/330 MP:103/103
+D-Dwarf HP:26/189 MP:26/26
+Equipo de Tamaki (J2)
+A-Tamaki HP:898/999 MP:542/542
+B-Take-Mikazuchi HP:364/615 MP:107/121
+C-Kin-Ki HP:601/601 MP:118/118
+D-Vodyanik HP:76/76 MP:75/79
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 2
+----------------------------------------
+Orden:
+1-Night Stalker
+2-Dwarf
+3-Shiisaa
+4-Nanashi
+----------------------------------------
+Seleccione una acción para Night Stalker
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Night Stalker use
+1-Damascus Claw MP:7
+2-Dormina MP:4
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Night Stalker
+1-Tamaki HP:898/999 MP:542/542
+2-Take-Mikazuchi HP:364/615 MP:107/121
+3-Kin-Ki HP:601/601 MP:118/118
+4-Vodyanik HP:76/76 MP:75/79
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Night Stalker ataca a Take-Mikazuchi
+Take-Mikazuchi recibe 63 de daño
+Take-Mikazuchi contra ataca a Night Stalker
+Night Stalker recibe 31 de daño
+Night Stalker ataca a Take-Mikazuchi
+Take-Mikazuchi recibe 63 de daño
+Take-Mikazuchi termina con HP:238/615
+Take-Mikazuchi contra ataca a Night Stalker
+Night Stalker recibe 31 de daño
+Night Stalker termina con HP:47/330
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:140/182 MP:397/411
+B-Shiisaa HP:125/125 MP:45/45
+C-Night Stalker HP:47/330 MP:96/103
+D-Dwarf HP:26/189 MP:26/26
+Equipo de Tamaki (J2)
+A-Tamaki HP:898/999 MP:542/542
+B-Take-Mikazuchi HP:238/615 MP:107/121
+C-Kin-Ki HP:601/601 MP:118/118
+D-Vodyanik HP:76/76 MP:75/79
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Dwarf
+2-Shiisaa
+3-Nanashi
+4-Night Stalker
+----------------------------------------
+Seleccione una acción para Dwarf
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:140/182 MP:397/411
+B-Shiisaa HP:125/125 MP:45/45
+C-Night Stalker HP:47/330 MP:96/103
+D-Dwarf HP:26/189 MP:26/26
+Equipo de Tamaki (J2)
+A-Tamaki HP:898/999 MP:542/542
+B-Take-Mikazuchi HP:238/615 MP:107/121
+C-Kin-Ki HP:601/601 MP:118/118
+D-Vodyanik HP:76/76 MP:75/79
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Shiisaa
+2-Nanashi
+3-Night Stalker
+4-Dwarf
+----------------------------------------
+Seleccione una acción para Shiisaa
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:140/182 MP:397/411
+B-Shiisaa HP:125/125 MP:45/45
+C-Night Stalker HP:47/330 MP:96/103
+D-Dwarf HP:26/189 MP:26/26
+Equipo de Tamaki (J2)
+A-Tamaki HP:898/999 MP:542/542
+B-Take-Mikazuchi HP:238/615 MP:107/121
+C-Kin-Ki HP:601/601 MP:118/118
+D-Vodyanik HP:76/76 MP:75/79
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Nanashi
+2-Night Stalker
+3-Dwarf
+4-Shiisaa
+----------------------------------------
+Seleccione una acción para Nanashi
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Xi Wangmu HP:343/543 MP:285/405
+2-Raphael HP:623/623 MP:279/279
+3-Kushinada-Hime HP:240/240 MP:232/232
+4-Anzu HP:596/596 MP:118/118
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una posición para invocar
+1-Shiisaa HP:125/125 MP:45/45 (Puesto 2)
+2-Night Stalker HP:47/330 MP:96/103 (Puesto 3)
+3-Dwarf HP:26/189 MP:26/26 (Puesto 4)
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Raphael ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:140/182 MP:397/411
+B-Shiisaa HP:125/125 MP:45/45
+C-Raphael HP:623/623 MP:279/279
+D-Dwarf HP:26/189 MP:26/26
+Equipo de Tamaki (J2)
+A-Tamaki HP:898/999 MP:542/542
+B-Take-Mikazuchi HP:238/615 MP:107/121
+C-Kin-Ki HP:601/601 MP:118/118
+D-Vodyanik HP:76/76 MP:75/79
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Raphael
+2-Dwarf
+3-Shiisaa
+4-Nanashi
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:140/182 MP:397/411
+B-Shiisaa HP:125/125 MP:45/45
+C-Raphael HP:623/623 MP:279/279
+D-Dwarf HP:26/189 MP:26/26
+Equipo de Tamaki (J2)
+A-Tamaki HP:898/999 MP:542/542
+B-Take-Mikazuchi HP:238/615 MP:107/121
+C-Kin-Ki HP:601/601 MP:118/118
+D-Vodyanik HP:76/76 MP:75/79
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Dwarf
+2-Shiisaa
+3-Nanashi
+4-Raphael
+----------------------------------------
+Seleccione una acción para Dwarf
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Dwarf
+1-Tamaki HP:898/999 MP:542/542
+2-Take-Mikazuchi HP:238/615 MP:107/121
+3-Kin-Ki HP:601/601 MP:118/118
+4-Vodyanik HP:76/76 MP:75/79
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Dwarf ataca a Take-Mikazuchi
+Take-Mikazuchi recibe 7 de daño
+Take-Mikazuchi termina con HP:231/615
+Take-Mikazuchi contra ataca a Dwarf
+Dwarf recibe 3 de daño
+Dwarf termina con HP:23/189
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Tamaki (J2)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:140/182 MP:397/411
+B-Shiisaa HP:125/125 MP:45/45
+C-Raphael HP:623/623 MP:279/279
+D-Dwarf HP:23/189 MP:26/26
+Equipo de Tamaki (J2)
+A-Tamaki HP:898/999 MP:542/542
+B-Take-Mikazuchi HP:231/615 MP:107/121
+C-Kin-Ki HP:601/601 MP:118/118
+D-Vodyanik HP:76/76 MP:75/79
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Take-Mikazuchi
+2-Kin-Ki
+3-Tamaki
+4-Vodyanik
+----------------------------------------
+Seleccione una acción para Take-Mikazuchi
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:140/182 MP:397/411
+B-Shiisaa HP:125/125 MP:45/45
+C-Raphael HP:623/623 MP:279/279
+D-Dwarf HP:23/189 MP:26/26
+Equipo de Tamaki (J2)
+A-Tamaki HP:898/999 MP:542/542
+B-Take-Mikazuchi HP:231/615 MP:107/121
+C-Kin-Ki HP:601/601 MP:118/118
+D-Vodyanik HP:76/76 MP:75/79
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Kin-Ki
+2-Tamaki
+3-Vodyanik
+4-Take-Mikazuchi
+----------------------------------------
+Seleccione una acción para Kin-Ki
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Kin-Ki
+1-Nanashi HP:140/182 MP:397/411
+2-Shiisaa HP:125/125 MP:45/45
+3-Raphael HP:623/623 MP:279/279
+4-Dwarf HP:23/189 MP:26/26
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Kin-Ki ataca a Raphael
+Raphael recibe 37 de daño
+Raphael termina con HP:586/623
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:140/182 MP:397/411
+B-Shiisaa HP:125/125 MP:45/45
+C-Raphael HP:586/623 MP:279/279
+D-Dwarf HP:23/189 MP:26/26
+Equipo de Tamaki (J2)
+A-Tamaki HP:898/999 MP:542/542
+B-Take-Mikazuchi HP:231/615 MP:107/121
+C-Kin-Ki HP:601/601 MP:118/118
+D-Vodyanik HP:76/76 MP:75/79
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Tamaki
+2-Vodyanik
+3-Take-Mikazuchi
+4-Kin-Ki
+----------------------------------------
+Seleccione una acción para Tamaki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Tamaki
+1-Nanashi HP:140/182 MP:397/411
+2-Shiisaa HP:125/125 MP:45/45
+3-Raphael HP:586/623 MP:279/279
+4-Dwarf HP:23/189 MP:26/26
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Tamaki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Tamaki
+1-Nanashi HP:140/182 MP:397/411
+2-Shiisaa HP:125/125 MP:45/45
+3-Raphael HP:586/623 MP:279/279
+4-Dwarf HP:23/189 MP:26/26
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Tamaki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Tamaki
+1-Nanashi HP:140/182 MP:397/411
+2-Shiisaa HP:125/125 MP:45/45
+3-Raphael HP:586/623 MP:279/279
+4-Dwarf HP:23/189 MP:26/26
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Tamaki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Asherah HP:341/433 MP:195/195
+2-Pixie HP:80/80 MP:76/76
+3-Corpse HP:426/426 MP:85/85
+4-Airavata HP:500/500 MP:172/172
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una posición para invocar
+1-Take-Mikazuchi HP:231/615 MP:107/121 (Puesto 2)
+2-Kin-Ki HP:601/601 MP:118/118 (Puesto 3)
+3-Vodyanik HP:76/76 MP:75/79 (Puesto 4)
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Pixie ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:140/182 MP:397/411
+B-Shiisaa HP:125/125 MP:45/45
+C-Raphael HP:586/623 MP:279/279
+D-Dwarf HP:23/189 MP:26/26
+Equipo de Tamaki (J2)
+A-Tamaki HP:898/999 MP:542/542
+B-Take-Mikazuchi HP:231/615 MP:107/121
+C-Pixie HP:80/80 MP:76/76
+D-Vodyanik HP:76/76 MP:75/79
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Vodyanik
+2-Take-Mikazuchi
+3-Pixie
+4-Tamaki
+----------------------------------------
+Seleccione una acción para Vodyanik
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Vodyanik use
+1-Mazio MP:11
+2-Bouncing Claw MP:4
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Vodyanik
+1-Nanashi HP:140/182 MP:397/411
+2-Shiisaa HP:125/125 MP:45/45
+3-Raphael HP:586/623 MP:279/279
+4-Dwarf HP:23/189 MP:26/26
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Vodyanik ataca a Shiisaa
+Shiisaa recibe 29 de daño
+Shiisaa contra ataca a Vodyanik
+Vodyanik recibe 7 de daño
+Vodyanik ataca a Shiisaa
+Shiisaa recibe 29 de daño
+Shiisaa contra ataca a Vodyanik
+Vodyanik recibe 7 de daño
+Vodyanik ataca a Shiisaa
+Shiisaa recibe 29 de daño
+Shiisaa termina con HP:38/125
+Shiisaa contra ataca a Vodyanik
+Vodyanik recibe 7 de daño
+Vodyanik termina con HP:55/76
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:140/182 MP:397/411
+B-Shiisaa HP:38/125 MP:45/45
+C-Raphael HP:586/623 MP:279/279
+D-Dwarf HP:23/189 MP:26/26
+Equipo de Tamaki (J2)
+A-Tamaki HP:898/999 MP:542/542
+B-Take-Mikazuchi HP:231/615 MP:107/121
+C-Pixie HP:80/80 MP:76/76
+D-Vodyanik HP:55/76 MP:71/79
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Take-Mikazuchi
+2-Pixie
+3-Tamaki
+4-Vodyanik
+----------------------------------------
+Seleccione una acción para Take-Mikazuchi
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Take-Mikazuchi use
+1-Ziodyne MP:14
+2-Berserker God MP:12
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Take-Mikazuchi
+1-Nanashi HP:140/182 MP:397/411
+2-Shiisaa HP:38/125 MP:45/45
+3-Raphael HP:586/623 MP:279/279
+4-Dwarf HP:23/189 MP:26/26
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Take-Mikazuchi
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Take-Mikazuchi use
+1-Ziodyne MP:14
+2-Berserker God MP:12
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Take-Mikazuchi
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Asherah HP:341/433 MP:195/195
+2-Kin-Ki HP:601/601 MP:118/118
+3-Corpse HP:426/426 MP:85/85
+4-Airavata HP:500/500 MP:172/172
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Asherah ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:140/182 MP:397/411
+B-Shiisaa HP:38/125 MP:45/45
+C-Raphael HP:586/623 MP:279/279
+D-Dwarf HP:23/189 MP:26/26
+Equipo de Tamaki (J2)
+A-Tamaki HP:898/999 MP:542/542
+B-Asherah HP:341/433 MP:195/195
+C-Pixie HP:80/80 MP:76/76
+D-Vodyanik HP:55/76 MP:71/79
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Pixie
+2-Tamaki
+3-Vodyanik
+4-Asherah
+----------------------------------------
+Seleccione una acción para Pixie
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Take-Mikazuchi HP:231/615 MP:107/121
+2-Kin-Ki HP:601/601 MP:118/118
+3-Corpse HP:426/426 MP:85/85
+4-Airavata HP:500/500 MP:172/172
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Pixie
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Take-Mikazuchi HP:231/615 MP:107/121
+2-Kin-Ki HP:601/601 MP:118/118
+3-Corpse HP:426/426 MP:85/85
+4-Airavata HP:500/500 MP:172/172
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Corpse ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:140/182 MP:397/411
+B-Shiisaa HP:38/125 MP:45/45
+C-Raphael HP:586/623 MP:279/279
+D-Dwarf HP:23/189 MP:26/26
+Equipo de Tamaki (J2)
+A-Tamaki HP:898/999 MP:542/542
+B-Asherah HP:341/433 MP:195/195
+C-Corpse HP:426/426 MP:85/85
+D-Vodyanik HP:55/76 MP:71/79
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Tamaki
+2-Vodyanik
+3-Asherah
+4-Corpse
+----------------------------------------
+Seleccione una acción para Tamaki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:140/182 MP:397/411
+B-Shiisaa HP:38/125 MP:45/45
+C-Raphael HP:586/623 MP:279/279
+D-Dwarf HP:23/189 MP:26/26
+Equipo de Tamaki (J2)
+A-Tamaki HP:898/999 MP:542/542
+B-Asherah HP:341/433 MP:195/195
+C-Corpse HP:426/426 MP:85/85
+D-Vodyanik HP:55/76 MP:71/79
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Vodyanik
+2-Asherah
+3-Corpse
+4-Tamaki
+----------------------------------------
+Seleccione una acción para Vodyanik
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Vodyanik
+1-Nanashi HP:140/182 MP:397/411
+2-Shiisaa HP:38/125 MP:45/45
+3-Raphael HP:586/623 MP:279/279
+4-Dwarf HP:23/189 MP:26/26
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Vodyanik ataca a Nanashi
+Nanashi recibe 6 de daño
+Nanashi termina con HP:134/182
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Nanashi (J1)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:134/182 MP:397/411
+B-Shiisaa HP:38/125 MP:45/45
+C-Raphael HP:586/623 MP:279/279
+D-Dwarf HP:23/189 MP:26/26
+Equipo de Tamaki (J2)
+A-Tamaki HP:898/999 MP:542/542
+B-Asherah HP:341/433 MP:195/195
+C-Corpse HP:426/426 MP:85/85
+D-Vodyanik HP:55/76 MP:71/79
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Raphael
+2-Nanashi
+3-Shiisaa
+4-Dwarf
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Xi Wangmu HP:343/543 MP:285/405
+2-Kushinada-Hime HP:240/240 MP:232/232
+3-Night Stalker HP:47/330 MP:96/103
+4-Anzu HP:596/596 MP:118/118
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Night Stalker ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:134/182 MP:397/411
+B-Shiisaa HP:38/125 MP:45/45
+C-Night Stalker HP:47/330 MP:96/103
+D-Dwarf HP:23/189 MP:26/26
+Equipo de Tamaki (J2)
+A-Tamaki HP:898/999 MP:542/542
+B-Asherah HP:341/433 MP:195/195
+C-Corpse HP:426/426 MP:85/85
+D-Vodyanik HP:55/76 MP:71/79
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Nanashi
+2-Shiisaa
+3-Dwarf
+4-Night Stalker
+----------------------------------------
+Seleccione una acción para Nanashi
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Xi Wangmu HP:343/543 MP:285/405
+2-Raphael HP:586/623 MP:279/279
+3-Kushinada-Hime HP:240/240 MP:232/232
+4-Anzu HP:596/596 MP:118/118
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una posición para invocar
+1-Shiisaa HP:38/125 MP:45/45 (Puesto 2)
+2-Night Stalker HP:47/330 MP:96/103 (Puesto 3)
+3-Dwarf HP:23/189 MP:26/26 (Puesto 4)
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Kushinada-Hime ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:134/182 MP:397/411
+B-Shiisaa HP:38/125 MP:45/45
+C-Kushinada-Hime HP:240/240 MP:232/232
+D-Dwarf HP:23/189 MP:26/26
+Equipo de Tamaki (J2)
+A-Tamaki HP:898/999 MP:542/542
+B-Asherah HP:341/433 MP:195/195
+C-Corpse HP:426/426 MP:85/85
+D-Vodyanik HP:55/76 MP:71/79
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Shiisaa
+2-Dwarf
+3-Kushinada-Hime
+4-Nanashi
+----------------------------------------
+Seleccione una acción para Shiisaa
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:134/182 MP:397/411
+B-Shiisaa HP:38/125 MP:45/45
+C-Kushinada-Hime HP:240/240 MP:232/232
+D-Dwarf HP:23/189 MP:26/26
+Equipo de Tamaki (J2)
+A-Tamaki HP:898/999 MP:542/542
+B-Asherah HP:341/433 MP:195/195
+C-Corpse HP:426/426 MP:85/85
+D-Vodyanik HP:55/76 MP:71/79
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Dwarf
+2-Kushinada-Hime
+3-Nanashi
+4-Shiisaa
+----------------------------------------
+Seleccione una acción para Dwarf
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:134/182 MP:397/411
+B-Shiisaa HP:38/125 MP:45/45
+C-Kushinada-Hime HP:240/240 MP:232/232
+D-Dwarf HP:23/189 MP:26/26
+Equipo de Tamaki (J2)
+A-Tamaki HP:898/999 MP:542/542
+B-Asherah HP:341/433 MP:195/195
+C-Corpse HP:426/426 MP:85/85
+D-Vodyanik HP:55/76 MP:71/79
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kushinada-Hime
+2-Nanashi
+3-Shiisaa
+4-Dwarf
+----------------------------------------
+Seleccione una acción para Kushinada-Hime
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Kushinada-Hime use
+1-Me Patra MP:15
+2-Silent Prayer MP:15
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Kushinada-Hime
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Xi Wangmu HP:343/543 MP:285/405
+2-Raphael HP:586/623 MP:279/279
+3-Night Stalker HP:47/330 MP:96/103
+4-Anzu HP:596/596 MP:118/118
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Anzu ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:134/182 MP:397/411
+B-Shiisaa HP:38/125 MP:45/45
+C-Anzu HP:596/596 MP:118/118
+D-Dwarf HP:23/189 MP:26/26
+Equipo de Tamaki (J2)
+A-Tamaki HP:898/999 MP:542/542
+B-Asherah HP:341/433 MP:195/195
+C-Corpse HP:426/426 MP:85/85
+D-Vodyanik HP:55/76 MP:71/79
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Nanashi
+2-Shiisaa
+3-Dwarf
+4-Anzu
+----------------------------------------
+Seleccione una acción para Nanashi
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:134/182 MP:397/411
+B-Shiisaa HP:38/125 MP:45/45
+C-Anzu HP:596/596 MP:118/118
+D-Dwarf HP:23/189 MP:26/26
+Equipo de Tamaki (J2)
+A-Tamaki HP:898/999 MP:542/542
+B-Asherah HP:341/433 MP:195/195
+C-Corpse HP:426/426 MP:85/85
+D-Vodyanik HP:55/76 MP:71/79
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Shiisaa
+2-Dwarf
+3-Anzu
+4-Nanashi
+----------------------------------------
+Seleccione una acción para Shiisaa
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Shiisaa
+1-Tamaki HP:898/999 MP:542/542
+2-Asherah HP:341/433 MP:195/195
+3-Corpse HP:426/426 MP:85/85
+4-Vodyanik HP:55/76 MP:71/79
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Shiisaa ataca a Vodyanik
+Vodyanik recibe 15 de daño
+Vodyanik termina con HP:40/76
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Tamaki (J2)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:134/182 MP:397/411
+B-Shiisaa HP:38/125 MP:45/45
+C-Anzu HP:596/596 MP:118/118
+D-Dwarf HP:23/189 MP:26/26
+Equipo de Tamaki (J2)
+A-Tamaki HP:898/999 MP:542/542
+B-Asherah HP:341/433 MP:195/195
+C-Corpse HP:426/426 MP:85/85
+D-Vodyanik HP:40/76 MP:71/79
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Asherah
+2-Corpse
+3-Tamaki
+4-Vodyanik
+----------------------------------------
+Seleccione una acción para Asherah
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Asherah use
+1-Diarama MP:9
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Asherah
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Asherah use
+1-Diarama MP:9
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Asherah
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Asherah
+1-Nanashi HP:134/182 MP:397/411
+2-Shiisaa HP:38/125 MP:45/45
+3-Anzu HP:596/596 MP:118/118
+4-Dwarf HP:23/189 MP:26/26
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Asherah ataca a Dwarf
+Dwarf recibe 35 de daño
+Dwarf termina con HP:0/146
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:134/182 MP:397/411
+B-Shiisaa HP:38/125 MP:45/45
+C-Anzu HP:596/596 MP:118/118
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:898/999 MP:542/542
+B-Asherah HP:341/433 MP:195/195
+C-Corpse HP:426/426 MP:85/85
+D-Vodyanik HP:40/76 MP:71/79
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Corpse
+2-Tamaki
+3-Vodyanik
+4-Asherah
+----------------------------------------
+Seleccione una acción para Corpse
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Take-Mikazuchi HP:231/615 MP:107/121
+2-Kin-Ki HP:601/601 MP:118/118
+3-Pixie HP:80/80 MP:76/76
+4-Airavata HP:500/500 MP:172/172
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Pixie ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:134/182 MP:397/411
+B-Shiisaa HP:38/125 MP:45/45
+C-Anzu HP:596/596 MP:118/118
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:898/999 MP:542/542
+B-Asherah HP:341/433 MP:195/195
+C-Pixie HP:80/80 MP:76/76
+D-Vodyanik HP:40/76 MP:71/79
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Tamaki
+2-Vodyanik
+3-Asherah
+4-Pixie
+----------------------------------------
+Seleccione una acción para Tamaki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Tamaki
+1-Nanashi HP:134/182 MP:397/411
+2-Shiisaa HP:38/125 MP:45/45
+3-Anzu HP:596/596 MP:118/118
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Tamaki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Tamaki use
+1-Bufudyne MP:14
+2-Hamaon MP:10
+3-Deadly Wind MP:22
+4-Makarakowas MP:35
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione un objetivo para Tamaki
+1-Nanashi HP:134/182 MP:397/411
+2-Shiisaa HP:38/125 MP:45/45
+3-Anzu HP:596/596 MP:118/118
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Tamaki lanza viento a Shiisaa
+Shiisaa es resistente el ataque de Tamaki
+Shiisaa recibe 38 de daño
+Shiisaa termina con HP:0/125
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:134/182 MP:397/411
+B-
+C-Anzu HP:596/596 MP:118/118
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:898/999 MP:520/542
+B-Asherah HP:341/433 MP:195/195
+C-Pixie HP:80/80 MP:76/76
+D-Vodyanik HP:40/76 MP:71/79
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Vodyanik
+2-Asherah
+3-Pixie
+4-Tamaki
+----------------------------------------
+Seleccione una acción para Vodyanik
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:134/182 MP:397/411
+B-
+C-Anzu HP:596/596 MP:118/118
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:898/999 MP:520/542
+B-Asherah HP:341/433 MP:195/195
+C-Pixie HP:80/80 MP:76/76
+D-Vodyanik HP:40/76 MP:71/79
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Asherah
+2-Pixie
+3-Tamaki
+4-Vodyanik
+----------------------------------------
+Seleccione una acción para Asherah
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Asherah use
+1-Diarama MP:9
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Asherah
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Take-Mikazuchi HP:231/615 MP:107/121
+2-Kin-Ki HP:601/601 MP:118/118
+3-Corpse HP:426/426 MP:85/85
+4-Airavata HP:500/500 MP:172/172
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Asherah
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Asherah
+1-Nanashi HP:134/182 MP:397/411
+2-Anzu HP:596/596 MP:118/118
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Asherah ataca a Nanashi
+Nanashi recibe 35 de daño
+Nanashi termina con HP:99/182
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:99/182 MP:397/411
+B-
+C-Anzu HP:596/596 MP:118/118
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:898/999 MP:520/542
+B-Asherah HP:341/433 MP:195/195
+C-Pixie HP:80/80 MP:76/76
+D-Vodyanik HP:40/76 MP:71/79
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Pixie
+2-Tamaki
+3-Vodyanik
+4-Asherah
+----------------------------------------
+Seleccione una acción para Pixie
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Pixie
+1-Nanashi HP:99/182 MP:397/411
+2-Anzu HP:596/596 MP:118/118
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Pixie
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Pixie use
+1-Dia MP:5
+2-Zan MP:5
+3-Mazan MP:11
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Pixie
+1-Tamaki HP:898/999 MP:520/542
+2-Asherah HP:341/433 MP:195/195
+3-Pixie HP:80/80 MP:76/76
+4-Vodyanik HP:40/76 MP:71/79
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Pixie
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:99/182 MP:397/411
+B-
+C-Anzu HP:596/596 MP:118/118
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:898/999 MP:520/542
+B-Asherah HP:341/433 MP:195/195
+C-Pixie HP:80/80 MP:76/76
+D-Vodyanik HP:40/76 MP:71/79
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Tamaki
+2-Vodyanik
+3-Asherah
+4-Pixie
+----------------------------------------
+Seleccione una acción para Tamaki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Tamaki use
+1-Bufudyne MP:14
+2-Hamaon MP:10
+3-Deadly Wind MP:22
+4-Makarakowas MP:35
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione un objetivo para Tamaki
+1-Nanashi HP:99/182 MP:397/411
+2-Anzu HP:596/596 MP:118/118
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Tamaki lanza viento a Nanashi
+Nanashi recibe 77 de daño
+Nanashi termina con HP:22/182
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Nanashi (J1)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:22/182 MP:397/411
+B-
+C-Anzu HP:596/596 MP:118/118
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:898/999 MP:498/542
+B-Asherah HP:341/433 MP:195/195
+C-Pixie HP:80/80 MP:76/76
+D-Vodyanik HP:40/76 MP:71/79
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Anzu
+2-Nanashi
+----------------------------------------
+Seleccione una acción para Anzu
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Anzu use
+1-Zionga MP:8
+2-Nihil Claw MP:11
+3-Me Patra MP:15
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Anzu
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Anzu
+1-Tamaki HP:898/999 MP:498/542
+2-Asherah HP:341/433 MP:195/195
+3-Pixie HP:80/80 MP:76/76
+4-Vodyanik HP:40/76 MP:71/79
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Anzu
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Anzu
+1-Tamaki HP:898/999 MP:498/542
+2-Asherah HP:341/433 MP:195/195
+3-Pixie HP:80/80 MP:76/76
+4-Vodyanik HP:40/76 MP:71/79
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Anzu
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Xi Wangmu HP:343/543 MP:285/405
+2-Raphael HP:586/623 MP:279/279
+3-Kushinada-Hime HP:240/240 MP:232/232
+4-Night Stalker HP:47/330 MP:96/103
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Xi Wangmu ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:22/182 MP:397/411
+B-
+C-Xi Wangmu HP:343/543 MP:285/405
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:898/999 MP:498/542
+B-Asherah HP:341/433 MP:195/195
+C-Pixie HP:80/80 MP:76/76
+D-Vodyanik HP:40/76 MP:71/79
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Nanashi
+2-Xi Wangmu
+----------------------------------------
+Seleccione una acción para Nanashi
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:22/182 MP:397/411
+B-
+C-Xi Wangmu HP:343/543 MP:285/405
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:898/999 MP:498/542
+B-Asherah HP:341/433 MP:195/195
+C-Pixie HP:80/80 MP:76/76
+D-Vodyanik HP:40/76 MP:71/79
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Xi Wangmu
+2-Nanashi
+----------------------------------------
+Seleccione una acción para Xi Wangmu
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Xi Wangmu
+1-Tamaki HP:898/999 MP:498/542
+2-Asherah HP:341/433 MP:195/195
+3-Pixie HP:80/80 MP:76/76
+4-Vodyanik HP:40/76 MP:71/79
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Xi Wangmu ataca a Asherah
+Asherah recibe 44 de daño
+Asherah termina con HP:297/433
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Tamaki (J2)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:22/182 MP:397/411
+B-
+C-Xi Wangmu HP:343/543 MP:285/405
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:898/999 MP:498/542
+B-Asherah HP:297/433 MP:195/195
+C-Pixie HP:80/80 MP:76/76
+D-Vodyanik HP:40/76 MP:71/79
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Asherah
+2-Tamaki
+3-Pixie
+4-Vodyanik
+----------------------------------------
+Seleccione una acción para Asherah
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Asherah use
+1-Diarama MP:9
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Asherah
+1-Tamaki HP:898/999 MP:498/542
+2-Asherah HP:297/433 MP:195/195
+3-Pixie HP:80/80 MP:76/76
+4-Vodyanik HP:40/76 MP:71/79
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Asherah cura a Asherah
+Asherah recibe 216 de HP
+Asherah termina con HP:433/433
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:22/182 MP:397/411
+B-
+C-Xi Wangmu HP:343/543 MP:285/405
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:898/999 MP:498/542
+B-Asherah HP:433/433 MP:186/195
+C-Pixie HP:80/80 MP:76/76
+D-Vodyanik HP:40/76 MP:71/79
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Tamaki
+2-Pixie
+3-Vodyanik
+4-Asherah
+----------------------------------------
+Seleccione una acción para Tamaki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Tamaki
+1-Nanashi HP:22/182 MP:397/411
+2-Xi Wangmu HP:343/543 MP:285/405
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Tamaki dispara a Nanashi
+Nanashi devuelve 15 daño a Tamaki
+Tamaki termina con HP:883/999
+----------------------------------------
+Se han consumido 3 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Nanashi (J1)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:22/182 MP:397/411
+B-
+C-Xi Wangmu HP:343/543 MP:285/405
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:883/999 MP:498/542
+B-Asherah HP:433/433 MP:186/195
+C-Pixie HP:80/80 MP:76/76
+D-Vodyanik HP:40/76 MP:71/79
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Xi Wangmu
+2-Nanashi
+----------------------------------------
+Seleccione una acción para Xi Wangmu
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Xi Wangmu use
+1-Makarakarn MP:50
+2-Myriad Arrows MP:30
+3-Invitation MP:45
+4-Megaton Press MP:17
+5-Doping MP:45
+6-Cancelar
+INPUT: 2
+----------------------------------------
+Xi Wangmu dispara a Tamaki
+Tamaki es resistente el ataque de Xi Wangmu
+Tamaki recibe 75 de daño
+Tamaki termina con HP:808/999
+Xi Wangmu dispara a Asherah
+Asherah recibe 150 de daño
+Asherah termina con HP:283/433
+Xi Wangmu dispara a Pixie
+Pixie recibe 150 de daño
+Pixie termina con HP:0/80
+Xi Wangmu dispara a Vodyanik
+Vodyanik recibe 150 de daño
+Vodyanik termina con HP:0/76
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:22/182 MP:397/411
+B-
+C-Xi Wangmu HP:343/543 MP:255/405
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:808/999 MP:498/542
+B-Asherah HP:283/433 MP:186/195
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Nanashi
+2-Xi Wangmu
+----------------------------------------
+Seleccione una acción para Nanashi
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Nanashi
+1-Tamaki HP:808/999 MP:498/542
+2-Asherah HP:283/433 MP:186/195
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Nanashi
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Nanashi
+1-Tamaki HP:808/999 MP:498/542
+2-Asherah HP:283/433 MP:186/195
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Nanashi
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Nanashi use
+1-Trisagion MP:22
+2-Taunt MP:20
+3-Zandyne MP:14
+4-Tarukaja MP:15
+5-Agilao MP:8
+6-Cancelar
+INPUT: 6
+----------------------------------------
+Seleccione una acción para Nanashi
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Nanashi use
+1-Trisagion MP:22
+2-Taunt MP:20
+3-Zandyne MP:14
+4-Tarukaja MP:15
+5-Agilao MP:8
+6-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Nanashi
+1-Tamaki HP:808/999 MP:498/542
+2-Asherah HP:283/433 MP:186/195
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Nanashi lanza fuego a Asherah
+Asherah devuelve 81 daño a Nanashi
+Nanashi termina con HP:0/140
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Tamaki (J2)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:375/411
+B-
+C-Xi Wangmu HP:343/543 MP:255/405
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:808/999 MP:498/542
+B-Asherah HP:283/433 MP:186/195
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Asherah
+2-Tamaki
+----------------------------------------
+Seleccione una acción para Asherah
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:375/411
+B-
+C-Xi Wangmu HP:343/543 MP:255/405
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:808/999 MP:498/542
+B-Asherah HP:283/433 MP:186/195
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Tamaki
+2-Asherah
+----------------------------------------
+Seleccione una acción para Tamaki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Tamaki
+1-Xi Wangmu HP:343/543 MP:255/405
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Tamaki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Tamaki use
+1-Bufudyne MP:14
+2-Hamaon MP:10
+3-Deadly Wind MP:22
+4-Makarakowas MP:35
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Tamaki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Tamaki use
+1-Bufudyne MP:14
+2-Hamaon MP:10
+3-Deadly Wind MP:22
+4-Makarakowas MP:35
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Tamaki
+1-Xi Wangmu HP:343/543 MP:255/405
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Tamaki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Tamaki
+1-Xi Wangmu HP:343/543 MP:255/405
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Tamaki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Tamaki
+1-Xi Wangmu HP:343/543 MP:255/405
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Tamaki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Tamaki use
+1-Bufudyne MP:14
+2-Hamaon MP:10
+3-Deadly Wind MP:22
+4-Makarakowas MP:35
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Tamaki
+1-Xi Wangmu HP:343/543 MP:255/405
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Tamaki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Tamaki use
+1-Bufudyne MP:14
+2-Hamaon MP:10
+3-Deadly Wind MP:22
+4-Makarakowas MP:35
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione un objetivo para Tamaki
+1-Xi Wangmu HP:343/543 MP:255/405
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Tamaki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Take-Mikazuchi HP:231/615 MP:107/121
+2-Kin-Ki HP:601/601 MP:118/118
+3-Corpse HP:426/426 MP:85/85
+4-Airavata HP:500/500 MP:172/172
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una posición para invocar
+1-Asherah HP:283/433 MP:186/195 (Puesto 2)
+2-Vacío (Puesto 3)
+3-Vacío (Puesto 4)
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Tamaki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:375/411
+B-
+C-Xi Wangmu HP:343/543 MP:255/405
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:808/999 MP:498/542
+B-Asherah HP:283/433 MP:186/195
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Asherah
+2-Tamaki
+----------------------------------------
+Seleccione una acción para Asherah
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:375/411
+B-
+C-Xi Wangmu HP:343/543 MP:255/405
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:808/999 MP:498/542
+B-Asherah HP:283/433 MP:186/195
+C-
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Tamaki
+2-Asherah
+----------------------------------------
+Seleccione una acción para Tamaki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Tamaki
+1-Xi Wangmu HP:343/543 MP:255/405
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Tamaki dispara a Xi Wangmu
+Xi Wangmu recibe 15 de daño
+Xi Wangmu termina con HP:328/543
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Nanashi (J1)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:375/411
+B-
+C-Xi Wangmu HP:328/543 MP:255/405
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:808/999 MP:498/542
+B-Asherah HP:283/433 MP:186/195
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Xi Wangmu
+----------------------------------------
+Seleccione una acción para Xi Wangmu
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:375/411
+B-
+C-Xi Wangmu HP:328/543 MP:255/405
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:808/999 MP:498/542
+B-Asherah HP:283/433 MP:186/195
+C-
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Xi Wangmu
+----------------------------------------
+Seleccione una acción para Xi Wangmu
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Xi Wangmu use
+1-Makarakarn MP:50
+2-Myriad Arrows MP:30
+3-Invitation MP:45
+4-Megaton Press MP:17
+5-Doping MP:45
+6-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Raphael HP:586/623 MP:279/279
+2-Dwarf HP:0/146 MP:26/26
+3-Kushinada-Hime HP:240/240 MP:232/232
+4-Night Stalker HP:47/330 MP:96/103
+5-Shiisaa HP:0/125 MP:45/45
+6-Anzu HP:596/596 MP:118/118
+7-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una posición para invocar
+1-Vacío (Puesto 2)
+2-Xi Wangmu HP:328/543 MP:255/405 (Puesto 3)
+3-Vacío (Puesto 4)
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Xi Wangmu
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Xi Wangmu use
+1-Makarakarn MP:50
+2-Myriad Arrows MP:30
+3-Invitation MP:45
+4-Megaton Press MP:17
+5-Doping MP:45
+6-Cancelar
+INPUT: 4
+----------------------------------------
+Xi Wangmu ataca a Tamaki
+Tamaki es resistente el ataque de Xi Wangmu
+Tamaki recibe 49 de daño
+Tamaki termina con HP:759/999
+Xi Wangmu ataca a Asherah
+Asherah recibe 99 de daño
+Asherah termina con HP:184/433
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Tamaki (J2)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:375/411
+B-
+C-Xi Wangmu HP:328/543 MP:238/405
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:759/999 MP:498/542
+B-Asherah HP:184/433 MP:186/195
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Asherah
+2-Tamaki
+----------------------------------------
+Seleccione una acción para Asherah
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Take-Mikazuchi HP:231/615 MP:107/121
+2-Kin-Ki HP:601/601 MP:118/118
+3-Corpse HP:426/426 MP:85/85
+4-Airavata HP:500/500 MP:172/172
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Asherah
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Asherah use
+1-Diarama MP:9
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Asherah
+1-Tamaki HP:759/999 MP:498/542
+2-Asherah HP:184/433 MP:186/195
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Asherah
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Take-Mikazuchi HP:231/615 MP:107/121
+2-Kin-Ki HP:601/601 MP:118/118
+3-Corpse HP:426/426 MP:85/85
+4-Airavata HP:500/500 MP:172/172
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Airavata ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:375/411
+B-
+C-Xi Wangmu HP:328/543 MP:238/405
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:759/999 MP:498/542
+B-Airavata HP:500/500 MP:172/172
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Tamaki
+2-Airavata
+----------------------------------------
+Seleccione una acción para Tamaki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Tamaki
+1-Xi Wangmu HP:328/543 MP:238/405
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Tamaki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:375/411
+B-
+C-Xi Wangmu HP:328/543 MP:238/405
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:759/999 MP:498/542
+B-Airavata HP:500/500 MP:172/172
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Airavata
+2-Tamaki
+----------------------------------------
+Seleccione una acción para Airavata
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Airavata
+1-Xi Wangmu HP:328/543 MP:238/405
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Airavata ataca a Xi Wangmu
+Xi Wangmu recibe 31 de daño
+Xi Wangmu termina con HP:297/543
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Nanashi (J1)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:375/411
+B-
+C-Xi Wangmu HP:297/543 MP:238/405
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:759/999 MP:498/542
+B-Airavata HP:500/500 MP:172/172
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Xi Wangmu
+----------------------------------------
+Seleccione una acción para Xi Wangmu
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Raphael HP:586/623 MP:279/279
+2-Kushinada-Hime HP:240/240 MP:232/232
+3-Night Stalker HP:47/330 MP:96/103
+4-Anzu HP:596/596 MP:118/118
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Xi Wangmu
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Xi Wangmu use
+1-Makarakarn MP:50
+2-Myriad Arrows MP:30
+3-Invitation MP:45
+4-Megaton Press MP:17
+5-Doping MP:45
+6-Cancelar
+INPUT: 2
+----------------------------------------
+Xi Wangmu dispara a Tamaki
+Tamaki es resistente el ataque de Xi Wangmu
+Tamaki recibe 75 de daño
+Xi Wangmu dispara a Tamaki
+Tamaki es resistente el ataque de Xi Wangmu
+Tamaki recibe 75 de daño
+Tamaki termina con HP:609/999
+Xi Wangmu dispara a Airavata
+Airavata bloquea el ataque de Xi Wangmu
+Xi Wangmu dispara a Airavata
+Airavata bloquea el ataque de Xi Wangmu
+Airavata termina con HP:500/500
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Tamaki (J2)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:375/411
+B-
+C-Xi Wangmu HP:297/543 MP:208/405
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:609/999 MP:498/542
+B-Airavata HP:500/500 MP:172/172
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Airavata
+2-Tamaki
+----------------------------------------
+Seleccione una acción para Airavata
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:375/411
+B-
+C-Xi Wangmu HP:297/543 MP:208/405
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:609/999 MP:498/542
+B-Airavata HP:500/500 MP:172/172
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Tamaki
+2-Airavata
+----------------------------------------
+Seleccione una acción para Tamaki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Take-Mikazuchi HP:231/615 MP:107/121
+2-Asherah HP:184/433 MP:186/195
+3-Kin-Ki HP:601/601 MP:118/118
+4-Corpse HP:426/426 MP:85/85
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una posición para invocar
+1-Airavata HP:500/500 MP:172/172 (Puesto 2)
+2-Vacío (Puesto 3)
+3-Vacío (Puesto 4)
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Corpse ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:375/411
+B-
+C-Xi Wangmu HP:297/543 MP:208/405
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:609/999 MP:498/542
+B-Airavata HP:500/500 MP:172/172
+C-
+D-Corpse HP:426/426 MP:85/85
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Airavata
+2-Corpse
+3-Tamaki
+----------------------------------------
+Seleccione una acción para Airavata
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Airavata use
+1-Trafuri MP:5
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Airavata
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Take-Mikazuchi HP:231/615 MP:107/121
+2-Asherah HP:184/433 MP:186/195
+3-Kin-Ki HP:601/601 MP:118/118
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Kin-Ki ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:375/411
+B-
+C-Xi Wangmu HP:297/543 MP:208/405
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:609/999 MP:498/542
+B-Kin-Ki HP:601/601 MP:118/118
+C-
+D-Corpse HP:426/426 MP:85/85
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Corpse
+2-Tamaki
+3-Kin-Ki
+----------------------------------------
+Seleccione una acción para Corpse
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Corpse use
+1-Binding Claw MP:11
+2-Life Drain MP:5
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Corpse
+1-Xi Wangmu HP:297/543 MP:208/405
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Corpse lanza un ataque todo poderoso a Xi Wangmu
+El ataque drena 32 HP de Xi Wangmu
+Xi Wangmu termina con HP:265/543
+Corpse termina con HP:426/426
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Nanashi (J1)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:375/411
+B-
+C-Xi Wangmu HP:265/543 MP:208/405
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:609/999 MP:498/542
+B-Kin-Ki HP:601/601 MP:118/118
+C-
+D-Corpse HP:426/426 MP:80/85
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Xi Wangmu
+----------------------------------------
+Seleccione una acción para Xi Wangmu
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Xi Wangmu
+1-Tamaki HP:609/999 MP:498/542
+2-Kin-Ki HP:601/601 MP:118/118
+3-Corpse HP:426/426 MP:80/85
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Xi Wangmu
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Raphael HP:586/623 MP:279/279
+2-Kushinada-Hime HP:240/240 MP:232/232
+3-Night Stalker HP:47/330 MP:96/103
+4-Anzu HP:596/596 MP:118/118
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Xi Wangmu
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:375/411
+B-
+C-Xi Wangmu HP:265/543 MP:208/405
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:609/999 MP:498/542
+B-Kin-Ki HP:601/601 MP:118/118
+C-
+D-Corpse HP:426/426 MP:80/85
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Xi Wangmu
+----------------------------------------
+Seleccione una acción para Xi Wangmu
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Xi Wangmu use
+1-Makarakarn MP:50
+2-Myriad Arrows MP:30
+3-Invitation MP:45
+4-Megaton Press MP:17
+5-Doping MP:45
+6-Cancelar
+INPUT: 1
+----------------------------------------
+Xi Wangmu devolverá ataques mágicos por una ronda
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Tamaki (J2)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:375/411
+B-
+C-Xi Wangmu HP:265/543 MP:158/405
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:609/999 MP:498/542
+B-Kin-Ki HP:601/601 MP:118/118
+C-
+D-Corpse HP:426/426 MP:80/85
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kin-Ki
+2-Corpse
+3-Tamaki
+----------------------------------------
+Seleccione una acción para Kin-Ki
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:375/411
+B-
+C-Xi Wangmu HP:265/543 MP:158/405
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:609/999 MP:498/542
+B-Kin-Ki HP:601/601 MP:118/118
+C-
+D-Corpse HP:426/426 MP:80/85
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Corpse
+2-Tamaki
+3-Kin-Ki
+----------------------------------------
+Seleccione una acción para Corpse
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Corpse
+1-Xi Wangmu HP:265/543 MP:158/405
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Corpse
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:375/411
+B-
+C-Xi Wangmu HP:265/543 MP:158/405
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:609/999 MP:498/542
+B-Kin-Ki HP:601/601 MP:118/118
+C-
+D-Corpse HP:426/426 MP:80/85
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Tamaki
+2-Kin-Ki
+3-Corpse
+----------------------------------------
+Seleccione una acción para Tamaki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:375/411
+B-
+C-Xi Wangmu HP:265/543 MP:158/405
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:609/999 MP:498/542
+B-Kin-Ki HP:601/601 MP:118/118
+C-
+D-Corpse HP:426/426 MP:80/85
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Kin-Ki
+2-Corpse
+3-Tamaki
+----------------------------------------
+Seleccione una acción para Kin-Ki
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:375/411
+B-
+C-Xi Wangmu HP:265/543 MP:158/405
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:609/999 MP:498/542
+B-Kin-Ki HP:601/601 MP:118/118
+C-
+D-Corpse HP:426/426 MP:80/85
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Corpse
+2-Tamaki
+3-Kin-Ki
+----------------------------------------
+Seleccione una acción para Corpse
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:375/411
+B-
+C-Xi Wangmu HP:265/543 MP:158/405
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:609/999 MP:498/542
+B-Kin-Ki HP:601/601 MP:118/118
+C-
+D-Corpse HP:426/426 MP:80/85
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Tamaki
+2-Kin-Ki
+3-Corpse
+----------------------------------------
+Seleccione una acción para Tamaki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Tamaki
+1-Xi Wangmu HP:265/543 MP:158/405
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Tamaki dispara a Xi Wangmu
+Xi Wangmu recibe 15 de daño
+Xi Wangmu termina con HP:250/543
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Nanashi (J1)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:375/411
+B-
+C-Xi Wangmu HP:250/543 MP:158/405
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:609/999 MP:498/542
+B-Kin-Ki HP:601/601 MP:118/118
+C-
+D-Corpse HP:426/426 MP:80/85
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Xi Wangmu
+----------------------------------------
+Seleccione una acción para Xi Wangmu
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Xi Wangmu
+1-Tamaki HP:609/999 MP:498/542
+2-Kin-Ki HP:601/601 MP:118/118
+3-Corpse HP:426/426 MP:80/85
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Xi Wangmu
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Xi Wangmu
+1-Tamaki HP:609/999 MP:498/542
+2-Kin-Ki HP:601/601 MP:118/118
+3-Corpse HP:426/426 MP:80/85
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Xi Wangmu
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Raphael HP:586/623 MP:279/279
+2-Kushinada-Hime HP:240/240 MP:232/232
+3-Night Stalker HP:47/330 MP:96/103
+4-Anzu HP:596/596 MP:118/118
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Xi Wangmu
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Xi Wangmu use
+1-Makarakarn MP:50
+2-Myriad Arrows MP:30
+3-Invitation MP:45
+4-Megaton Press MP:17
+5-Doping MP:45
+6-Cancelar
+INPUT: 1
+----------------------------------------
+Xi Wangmu devolverá ataques mágicos por una ronda
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Tamaki (J2)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:375/411
+B-
+C-Xi Wangmu HP:250/543 MP:108/405
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:609/999 MP:498/542
+B-Kin-Ki HP:601/601 MP:118/118
+C-
+D-Corpse HP:426/426 MP:80/85
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kin-Ki
+2-Corpse
+3-Tamaki
+----------------------------------------
+Seleccione una acción para Kin-Ki
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Kin-Ki use
+1-Zionga MP:8
+2-Fang Breaker MP:12
+3-Charge MP:9
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Kin-Ki ha cargado su siguiente ataque físico o disparo a más del doble
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:375/411
+B-
+C-Xi Wangmu HP:250/543 MP:108/405
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:609/999 MP:498/542
+B-Kin-Ki HP:601/601 MP:109/118
+C-
+D-Corpse HP:426/426 MP:80/85
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Corpse
+2-Tamaki
+3-Kin-Ki
+----------------------------------------
+Seleccione una acción para Corpse
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Corpse
+1-Xi Wangmu HP:250/543 MP:108/405
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Corpse
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:375/411
+B-
+C-Xi Wangmu HP:250/543 MP:108/405
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:609/999 MP:498/542
+B-Kin-Ki HP:601/601 MP:109/118
+C-
+D-Corpse HP:426/426 MP:80/85
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Tamaki
+2-Kin-Ki
+3-Corpse
+----------------------------------------
+Seleccione una acción para Tamaki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Tamaki
+1-Xi Wangmu HP:250/543 MP:108/405
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Tamaki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Take-Mikazuchi HP:231/615 MP:107/121
+2-Asherah HP:184/433 MP:186/195
+3-Airavata HP:500/500 MP:172/172
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una posición para invocar
+1-Kin-Ki HP:601/601 MP:109/118 (Puesto 2)
+2-Vacío (Puesto 3)
+3-Corpse HP:426/426 MP:80/85 (Puesto 4)
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Take-Mikazuchi ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:375/411
+B-
+C-Xi Wangmu HP:250/543 MP:108/405
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:609/999 MP:498/542
+B-Kin-Ki HP:601/601 MP:109/118
+C-
+D-Take-Mikazuchi HP:231/615 MP:107/121
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kin-Ki
+2-Take-Mikazuchi
+3-Tamaki
+----------------------------------------
+Seleccione una acción para Kin-Ki
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:375/411
+B-
+C-Xi Wangmu HP:250/543 MP:108/405
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:609/999 MP:498/542
+B-Kin-Ki HP:601/601 MP:109/118
+C-
+D-Take-Mikazuchi HP:231/615 MP:107/121
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Take-Mikazuchi
+2-Tamaki
+3-Kin-Ki
+----------------------------------------
+Seleccione una acción para Take-Mikazuchi
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Nanashi (J1)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:375/411
+B-
+C-Xi Wangmu HP:250/543 MP:108/405
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:609/999 MP:498/542
+B-Kin-Ki HP:601/601 MP:109/118
+C-
+D-Take-Mikazuchi HP:231/615 MP:107/121
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Xi Wangmu
+----------------------------------------
+Seleccione una acción para Xi Wangmu
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:375/411
+B-
+C-Xi Wangmu HP:250/543 MP:108/405
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:609/999 MP:498/542
+B-Kin-Ki HP:601/601 MP:109/118
+C-
+D-Take-Mikazuchi HP:231/615 MP:107/121
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Xi Wangmu
+----------------------------------------
+Seleccione una acción para Xi Wangmu
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Xi Wangmu
+1-Tamaki HP:609/999 MP:498/542
+2-Kin-Ki HP:601/601 MP:109/118
+3-Take-Mikazuchi HP:231/615 MP:107/121
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Xi Wangmu ataca a Kin-Ki
+Kin-Ki es resistente el ataque de Xi Wangmu
+Kin-Ki recibe 22 de daño
+Kin-Ki termina con HP:579/601
+Kin-Ki contra ataca a Xi Wangmu
+Xi Wangmu recibe 11 de daño
+Xi Wangmu termina con HP:239/543
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Tamaki (J2)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:375/411
+B-
+C-Xi Wangmu HP:239/543 MP:108/405
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:609/999 MP:498/542
+B-Kin-Ki HP:579/601 MP:109/118
+C-
+D-Take-Mikazuchi HP:231/615 MP:107/121
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Take-Mikazuchi
+2-Kin-Ki
+3-Tamaki
+----------------------------------------
+Seleccione una acción para Take-Mikazuchi
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Take-Mikazuchi
+1-Xi Wangmu HP:239/543 MP:108/405
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Take-Mikazuchi
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Take-Mikazuchi use
+1-Ziodyne MP:14
+2-Berserker God MP:12
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Take-Mikazuchi
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Take-Mikazuchi
+1-Xi Wangmu HP:239/543 MP:108/405
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Take-Mikazuchi ataca a Xi Wangmu
+Xi Wangmu recibe 46 de daño
+Xi Wangmu termina con HP:193/543
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:375/411
+B-
+C-Xi Wangmu HP:193/543 MP:108/405
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:609/999 MP:498/542
+B-Kin-Ki HP:579/601 MP:109/118
+C-
+D-Take-Mikazuchi HP:231/615 MP:107/121
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kin-Ki
+2-Tamaki
+3-Take-Mikazuchi
+----------------------------------------
+Seleccione una acción para Kin-Ki
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:375/411
+B-
+C-Xi Wangmu HP:193/543 MP:108/405
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:609/999 MP:498/542
+B-Kin-Ki HP:579/601 MP:109/118
+C-
+D-Take-Mikazuchi HP:231/615 MP:107/121
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Tamaki
+2-Take-Mikazuchi
+3-Kin-Ki
+----------------------------------------
+Seleccione una acción para Tamaki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Tamaki
+1-Xi Wangmu HP:193/543 MP:108/405
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Tamaki dispara a Xi Wangmu
+Xi Wangmu recibe 15 de daño
+Xi Wangmu termina con HP:178/543
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:375/411
+B-
+C-Xi Wangmu HP:178/543 MP:108/405
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:609/999 MP:498/542
+B-Kin-Ki HP:579/601 MP:109/118
+C-
+D-Take-Mikazuchi HP:231/615 MP:107/121
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Take-Mikazuchi
+2-Kin-Ki
+3-Tamaki
+----------------------------------------
+Seleccione una acción para Take-Mikazuchi
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Take-Mikazuchi use
+1-Ziodyne MP:14
+2-Berserker God MP:12
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Take-Mikazuchi
+1-Xi Wangmu HP:178/543 MP:108/405
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Take-Mikazuchi
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Take-Mikazuchi
+1-Xi Wangmu HP:178/543 MP:108/405
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Take-Mikazuchi
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Asherah HP:184/433 MP:186/195
+2-Corpse HP:426/426 MP:80/85
+3-Airavata HP:500/500 MP:172/172
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Airavata ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:375/411
+B-
+C-Xi Wangmu HP:178/543 MP:108/405
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:609/999 MP:498/542
+B-Kin-Ki HP:579/601 MP:109/118
+C-
+D-Airavata HP:500/500 MP:172/172
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Kin-Ki
+2-Tamaki
+3-Airavata
+----------------------------------------
+Seleccione una acción para Kin-Ki
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Kin-Ki use
+1-Zionga MP:8
+2-Fang Breaker MP:12
+3-Charge MP:9
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Kin-Ki
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Kin-Ki
+1-Xi Wangmu HP:178/543 MP:108/405
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Kin-Ki
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Kin-Ki use
+1-Zionga MP:8
+2-Fang Breaker MP:12
+3-Charge MP:9
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Kin-Ki
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Kin-Ki use
+1-Zionga MP:8
+2-Fang Breaker MP:12
+3-Charge MP:9
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Kin-Ki ha cargado su siguiente ataque físico o disparo a más del doble
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Nanashi (J1)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:375/411
+B-
+C-Xi Wangmu HP:178/543 MP:108/405
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:609/999 MP:498/542
+B-Kin-Ki HP:579/601 MP:100/118
+C-
+D-Airavata HP:500/500 MP:172/172
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Xi Wangmu
+----------------------------------------
+Seleccione una acción para Xi Wangmu
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Xi Wangmu
+1-Tamaki HP:609/999 MP:498/542
+2-Kin-Ki HP:579/601 MP:100/118
+3-Airavata HP:500/500 MP:172/172
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Xi Wangmu ataca a Tamaki
+Tamaki es resistente el ataque de Xi Wangmu
+Tamaki recibe 22 de daño
+Tamaki termina con HP:587/999
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Tamaki (J2)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:375/411
+B-
+C-Xi Wangmu HP:178/543 MP:108/405
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:587/999 MP:498/542
+B-Kin-Ki HP:579/601 MP:100/118
+C-
+D-Airavata HP:500/500 MP:172/172
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Airavata
+2-Kin-Ki
+3-Tamaki
+----------------------------------------
+Seleccione una acción para Airavata
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:375/411
+B-
+C-Xi Wangmu HP:178/543 MP:108/405
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:587/999 MP:498/542
+B-Kin-Ki HP:579/601 MP:100/118
+C-
+D-Airavata HP:500/500 MP:172/172
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Kin-Ki
+2-Tamaki
+3-Airavata
+----------------------------------------
+Seleccione una acción para Kin-Ki
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:375/411
+B-
+C-Xi Wangmu HP:178/543 MP:108/405
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:587/999 MP:498/542
+B-Kin-Ki HP:579/601 MP:100/118
+C-
+D-Airavata HP:500/500 MP:172/172
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Tamaki
+2-Airavata
+3-Kin-Ki
+----------------------------------------
+Seleccione una acción para Tamaki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Tamaki use
+1-Bufudyne MP:14
+2-Hamaon MP:10
+3-Deadly Wind MP:22
+4-Makarakowas MP:35
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione un objetivo para Tamaki
+1-Xi Wangmu HP:178/543 MP:108/405
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Tamaki lanza viento a Xi Wangmu
+Xi Wangmu recibe 77 de daño
+Xi Wangmu termina con HP:101/543
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:375/411
+B-
+C-Xi Wangmu HP:101/543 MP:108/405
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:587/999 MP:476/542
+B-Kin-Ki HP:579/601 MP:100/118
+C-
+D-Airavata HP:500/500 MP:172/172
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Airavata
+2-Kin-Ki
+3-Tamaki
+----------------------------------------
+Seleccione una acción para Airavata
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Take-Mikazuchi HP:231/615 MP:107/121
+2-Asherah HP:184/433 MP:186/195
+3-Corpse HP:426/426 MP:80/85
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Take-Mikazuchi ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:375/411
+B-
+C-Xi Wangmu HP:101/543 MP:108/405
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:587/999 MP:476/542
+B-Kin-Ki HP:579/601 MP:100/118
+C-
+D-Take-Mikazuchi HP:231/615 MP:107/121
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Kin-Ki
+2-Tamaki
+3-Take-Mikazuchi
+----------------------------------------
+Seleccione una acción para Kin-Ki
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Asherah HP:184/433 MP:186/195
+2-Corpse HP:426/426 MP:80/85
+3-Airavata HP:500/500 MP:172/172
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Asherah ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Nanashi (J1)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:375/411
+B-
+C-Xi Wangmu HP:101/543 MP:108/405
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:587/999 MP:476/542
+B-Asherah HP:184/433 MP:186/195
+C-
+D-Take-Mikazuchi HP:231/615 MP:107/121
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Xi Wangmu
+----------------------------------------
+Seleccione una acción para Xi Wangmu
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Raphael HP:586/623 MP:279/279
+2-Kushinada-Hime HP:240/240 MP:232/232
+3-Night Stalker HP:47/330 MP:96/103
+4-Anzu HP:596/596 MP:118/118
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Night Stalker ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:375/411
+B-
+C-Night Stalker HP:47/330 MP:96/103
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:587/999 MP:476/542
+B-Asherah HP:184/433 MP:186/195
+C-
+D-Take-Mikazuchi HP:231/615 MP:107/121
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Night Stalker
+----------------------------------------
+Seleccione una acción para Night Stalker
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Night Stalker use
+1-Damascus Claw MP:7
+2-Dormina MP:4
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Night Stalker
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Tamaki (J2)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:375/411
+B-
+C-Night Stalker HP:47/330 MP:96/103
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:587/999 MP:476/542
+B-Asherah HP:184/433 MP:186/195
+C-
+D-Take-Mikazuchi HP:231/615 MP:107/121
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Take-Mikazuchi
+2-Asherah
+3-Tamaki
+----------------------------------------
+Seleccione una acción para Take-Mikazuchi
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Kin-Ki HP:579/601 MP:100/118
+2-Corpse HP:426/426 MP:80/85
+3-Airavata HP:500/500 MP:172/172
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Kin-Ki ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:375/411
+B-
+C-Night Stalker HP:47/330 MP:96/103
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:587/999 MP:476/542
+B-Asherah HP:184/433 MP:186/195
+C-
+D-Kin-Ki HP:579/601 MP:100/118
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Asherah
+2-Tamaki
+3-Kin-Ki
+----------------------------------------
+Seleccione una acción para Asherah
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:375/411
+B-
+C-Night Stalker HP:47/330 MP:96/103
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:587/999 MP:476/542
+B-Asherah HP:184/433 MP:186/195
+C-
+D-Kin-Ki HP:579/601 MP:100/118
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Tamaki
+2-Kin-Ki
+3-Asherah
+----------------------------------------
+Seleccione una acción para Tamaki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:375/411
+B-
+C-Night Stalker HP:47/330 MP:96/103
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:587/999 MP:476/542
+B-Asherah HP:184/433 MP:186/195
+C-
+D-Kin-Ki HP:579/601 MP:100/118
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Kin-Ki
+2-Asherah
+3-Tamaki
+----------------------------------------
+Seleccione una acción para Kin-Ki
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:375/411
+B-
+C-Night Stalker HP:47/330 MP:96/103
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:587/999 MP:476/542
+B-Asherah HP:184/433 MP:186/195
+C-
+D-Kin-Ki HP:579/601 MP:100/118
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Asherah
+2-Tamaki
+3-Kin-Ki
+----------------------------------------
+Seleccione una acción para Asherah
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:375/411
+B-
+C-Night Stalker HP:47/330 MP:96/103
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:587/999 MP:476/542
+B-Asherah HP:184/433 MP:186/195
+C-
+D-Kin-Ki HP:579/601 MP:100/118
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Tamaki
+2-Kin-Ki
+3-Asherah
+----------------------------------------
+Seleccione una acción para Tamaki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Nanashi (J1)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:375/411
+B-
+C-Night Stalker HP:47/330 MP:96/103
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:587/999 MP:476/542
+B-Asherah HP:184/433 MP:186/195
+C-
+D-Kin-Ki HP:579/601 MP:100/118
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Night Stalker
+----------------------------------------
+Seleccione una acción para Night Stalker
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Night Stalker use
+1-Damascus Claw MP:7
+2-Dormina MP:4
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Night Stalker
+1-Tamaki HP:587/999 MP:476/542
+2-Asherah HP:184/433 MP:186/195
+3-Kin-Ki HP:579/601 MP:100/118
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Night Stalker ataca a Asherah
+Asherah recibe 63 de daño
+Night Stalker ataca a Asherah
+Asherah recibe 63 de daño
+Night Stalker ataca a Asherah
+Asherah recibe 63 de daño
+Asherah termina con HP:0/433
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Tamaki (J2)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:375/411
+B-
+C-Night Stalker HP:47/330 MP:89/103
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:587/999 MP:476/542
+B-
+C-
+D-Kin-Ki HP:579/601 MP:100/118
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kin-Ki
+2-Tamaki
+----------------------------------------
+Seleccione una acción para Kin-Ki
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Take-Mikazuchi HP:231/615 MP:107/121
+2-Corpse HP:426/426 MP:80/85
+3-Airavata HP:500/500 MP:172/172
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Kin-Ki
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Kin-Ki use
+1-Zionga MP:8
+2-Fang Breaker MP:12
+3-Charge MP:9
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Kin-Ki
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Kin-Ki use
+1-Zionga MP:8
+2-Fang Breaker MP:12
+3-Charge MP:9
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Kin-Ki
+1-Night Stalker HP:47/330 MP:89/103
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Kin-Ki ataca a Night Stalker
+Night Stalker recibe 185 de daño
+Night Stalker termina con HP:0/254
+El ataque de Night Stalker ha disminuido
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ganador: Tamaki (J2)

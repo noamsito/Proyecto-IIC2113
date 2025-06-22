@@ -1,0 +1,10 @@
+Player 1 Team
+[Samurai] Yu (Repel Electric,Resist Gun,Null Gun,Shock)
+Victor
+Rukh
+Loki
+Fuxi
+Daphne
+Vivian
+Player 2 Team
+[Samurai] Kei (Zan,Mahama,Riot Gun,Stigma Attack,Rakunda,Critical Wave,Drain Ice)

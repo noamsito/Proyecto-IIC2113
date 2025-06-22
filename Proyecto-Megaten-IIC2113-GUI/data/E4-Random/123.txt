@@ -1,0 +1,14 @@
+Player 1 Team
+[Samurai] Aleph (Taunt,Dia,Scratch Dance,Resist Elec,Titanomachia,Ally Counter)
+Nata Taishi
+Pachacamac
+Myrmecoleon
+Marici
+Player 2 Team
+[Samurai] Demi-Fiend (Mazanma,Wind Breath,Trisagion,Life Surge,Needle Shot,Taunt,Hama,Hades Blast)
+Dantalion
+Trumpeter
+Salamander
+Dwarf
+Chagrin
+Marici

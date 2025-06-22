@@ -1,0 +1,14 @@
+Player 1 Team
+[Samurai] Aleph (Mana Gain)
+Yaksa
+Pale Rider
+Aniel
+Brigid
+Vodyanik
+Gnome
+Xi Wangmu
+Player 2 Team
+[Samurai] Flynn (Desperate Hit,Life Gain,Bufula)
+Rukh
+Master Therion
+Azumi

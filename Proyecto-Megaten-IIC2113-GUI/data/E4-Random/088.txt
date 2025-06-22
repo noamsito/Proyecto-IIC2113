@@ -1,0 +1,9 @@
+Player 1 Team
+[Samurai] Itsuki (Resist Dark,Resist Elec,Defender's Gaze,Null Dark,Mediarahan,Megido)
+Berserker
+Ananta
+Sylph
+Girimekhala
+Player 2 Team
+[Samurai] Nanashi (Judgement Light,Mana Bonus,High Force Pleroma,Null Ice,Blast Arrow,Megaton Press)
+Tlaloc

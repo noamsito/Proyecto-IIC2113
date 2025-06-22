@@ -1,0 +1,213 @@
+Elige un archivo para cargar los equipos
+0: 001.txt
+1: 002.txt
+2: 003.txt
+3: 004.txt
+4: 005.txt
+5: 006.txt
+6: 007.txt
+7: 008.txt
+8: 009.txt
+9: 010.txt
+10: 011.txt
+11: 012.txt
+12: 013.txt
+13: 014.txt
+14: 015.txt
+15: 016.txt
+16: 017.txt
+INPUT: 10
+----------------------------------------
+Ronda de Demi-Fiend (J1)
+----------------------------------------
+Equipo de Demi-Fiend (J1)
+A-Demi-Fiend HP:1227/1227 MP:834/834
+B-
+C-
+D-
+Equipo de Makoto (J2)
+A-Makoto HP:597/597 MP:347/347
+B-Nebiros HP:249/249 MP:242/242
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Demi-Fiend
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Demi-Fiend use
+1-Occult Flash MP:30
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Demi-Fiend ataca a Makoto
+Makoto es resistente el ataque de Demi-Fiend
+Makoto recibe 90 de daño
+Demi-Fiend lanza un ataque todo poderoso a Makoto
+Makoto ha sido eliminado
+Makoto termina con HP:0/597
+Demi-Fiend ataca a Nebiros
+Nebiros bloquea el ataque de Demi-Fiend
+Nebiros termina con HP:249/249
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Makoto (J2)
+----------------------------------------
+Equipo de Demi-Fiend (J1)
+A-Demi-Fiend HP:1227/1227 MP:804/834
+B-
+C-
+D-
+Equipo de Makoto (J2)
+A-Makoto HP:0/597 MP:347/347
+B-Nebiros HP:249/249 MP:242/242
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Nebiros
+----------------------------------------
+Seleccione una acción para Nebiros
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Nebiros
+1-Demi-Fiend HP:1227/1227 MP:804/834
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Nebiros ataca a Demi-Fiend
+Demi-Fiend bloquea el ataque de Nebiros
+Demi-Fiend termina con HP:1227/1227
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Demi-Fiend (J1)
+----------------------------------------
+Equipo de Demi-Fiend (J1)
+A-Demi-Fiend HP:1227/1227 MP:804/834
+B-
+C-
+D-
+Equipo de Makoto (J2)
+A-Makoto HP:0/597 MP:347/347
+B-Nebiros HP:249/249 MP:242/242
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Demi-Fiend
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Demi-Fiend use
+1-Occult Flash MP:30
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Demi-Fiend ataca a Nebiros
+Nebiros bloquea el ataque de Demi-Fiend
+Nebiros termina con HP:249/249
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Makoto (J2)
+----------------------------------------
+Equipo de Demi-Fiend (J1)
+A-Demi-Fiend HP:1227/1227 MP:774/834
+B-
+C-
+D-
+Equipo de Makoto (J2)
+A-Makoto HP:0/597 MP:347/347
+B-Nebiros HP:249/249 MP:242/242
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Nebiros
+----------------------------------------
+Seleccione una acción para Nebiros
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Nebiros
+1-Demi-Fiend HP:1227/1227 MP:774/834
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Nebiros ataca a Demi-Fiend
+Demi-Fiend bloquea el ataque de Nebiros
+Demi-Fiend termina con HP:1227/1227
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Demi-Fiend (J1)
+----------------------------------------
+Equipo de Demi-Fiend (J1)
+A-Demi-Fiend HP:1227/1227 MP:774/834
+B-
+C-
+D-
+Equipo de Makoto (J2)
+A-Makoto HP:0/597 MP:347/347
+B-Nebiros HP:249/249 MP:242/242
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Demi-Fiend
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 6
+----------------------------------------
+Demi-Fiend (J1) se rinde
+----------------------------------------
+Ganador: Makoto (J2)

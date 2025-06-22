@@ -1,0 +1,4 @@
+Player 1 Team
+[Samurai] Aleph (Riot Gun,Defender's Gaze,Null Gun,Gun Pleroma)
+Player 2 Team
+[Samurai] Yu (Life Bonus,Null Force,Mamudoon,Mana Surge,Makarakowas,Stigma Attack,Repel Ice)

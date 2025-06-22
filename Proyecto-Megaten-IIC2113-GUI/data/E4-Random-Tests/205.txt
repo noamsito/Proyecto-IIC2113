@@ -1,0 +1,7785 @@
+Elige un archivo para cargar los equipos
+0: 001.txt
+1: 002.txt
+2: 003.txt
+3: 004.txt
+4: 005.txt
+5: 006.txt
+6: 007.txt
+7: 008.txt
+8: 009.txt
+9: 010.txt
+10: 011.txt
+11: 012.txt
+12: 013.txt
+13: 014.txt
+14: 015.txt
+15: 016.txt
+16: 017.txt
+17: 018.txt
+18: 019.txt
+19: 020.txt
+20: 021.txt
+21: 022.txt
+22: 023.txt
+23: 024.txt
+24: 025.txt
+25: 026.txt
+26: 027.txt
+27: 028.txt
+28: 029.txt
+29: 030.txt
+30: 031.txt
+31: 032.txt
+32: 033.txt
+33: 034.txt
+34: 035.txt
+35: 036.txt
+36: 037.txt
+37: 038.txt
+38: 039.txt
+39: 040.txt
+40: 041.txt
+41: 042.txt
+42: 043.txt
+43: 044.txt
+44: 045.txt
+45: 046.txt
+46: 047.txt
+47: 048.txt
+48: 049.txt
+49: 050.txt
+50: 051.txt
+51: 052.txt
+52: 053.txt
+53: 054.txt
+54: 055.txt
+55: 056.txt
+56: 057.txt
+57: 058.txt
+58: 059.txt
+59: 060.txt
+60: 061.txt
+61: 062.txt
+62: 063.txt
+63: 064.txt
+64: 065.txt
+65: 066.txt
+66: 067.txt
+67: 068.txt
+68: 069.txt
+69: 070.txt
+70: 071.txt
+71: 072.txt
+72: 073.txt
+73: 074.txt
+74: 075.txt
+75: 076.txt
+76: 077.txt
+77: 078.txt
+78: 079.txt
+79: 080.txt
+80: 081.txt
+81: 082.txt
+82: 083.txt
+83: 084.txt
+84: 085.txt
+85: 086.txt
+86: 087.txt
+87: 088.txt
+88: 089.txt
+89: 090.txt
+90: 091.txt
+91: 092.txt
+92: 093.txt
+93: 094.txt
+94: 095.txt
+95: 096.txt
+96: 097.txt
+97: 098.txt
+98: 099.txt
+99: 100.txt
+100: 101.txt
+101: 102.txt
+102: 103.txt
+103: 104.txt
+104: 105.txt
+105: 106.txt
+106: 107.txt
+107: 108.txt
+108: 109.txt
+109: 110.txt
+110: 111.txt
+111: 112.txt
+112: 113.txt
+113: 114.txt
+114: 115.txt
+115: 116.txt
+116: 117.txt
+117: 118.txt
+118: 119.txt
+119: 120.txt
+120: 121.txt
+121: 122.txt
+122: 123.txt
+123: 124.txt
+124: 125.txt
+125: 126.txt
+126: 127.txt
+127: 128.txt
+128: 129.txt
+129: 130.txt
+130: 131.txt
+131: 132.txt
+132: 133.txt
+133: 134.txt
+134: 135.txt
+135: 136.txt
+136: 137.txt
+137: 138.txt
+138: 139.txt
+139: 140.txt
+140: 141.txt
+141: 142.txt
+142: 143.txt
+143: 144.txt
+144: 145.txt
+145: 146.txt
+146: 147.txt
+147: 148.txt
+148: 149.txt
+149: 150.txt
+150: 151.txt
+151: 152.txt
+152: 153.txt
+153: 154.txt
+154: 155.txt
+155: 156.txt
+156: 157.txt
+157: 158.txt
+158: 159.txt
+159: 160.txt
+160: 161.txt
+161: 162.txt
+162: 163.txt
+163: 164.txt
+164: 165.txt
+165: 166.txt
+166: 167.txt
+167: 168.txt
+168: 169.txt
+169: 170.txt
+170: 171.txt
+171: 172.txt
+172: 173.txt
+173: 174.txt
+174: 175.txt
+175: 176.txt
+176: 177.txt
+177: 178.txt
+178: 179.txt
+179: 180.txt
+180: 181.txt
+181: 182.txt
+182: 183.txt
+183: 184.txt
+184: 185.txt
+185: 186.txt
+186: 187.txt
+187: 188.txt
+188: 189.txt
+189: 190.txt
+190: 191.txt
+191: 192.txt
+192: 193.txt
+193: 194.txt
+194: 195.txt
+195: 196.txt
+196: 197.txt
+197: 198.txt
+198: 199.txt
+199: 200.txt
+200: 201.txt
+201: 202.txt
+202: 203.txt
+203: 204.txt
+204: 205.txt
+205: 206.txt
+206: 207.txt
+207: 208.txt
+208: 209.txt
+209: 210.txt
+210: 211.txt
+211: 212.txt
+212: 213.txt
+213: 214.txt
+214: 215.txt
+215: 216.txt
+216: 217.txt
+217: 218.txt
+218: 219.txt
+219: 220.txt
+220: 221.txt
+221: 222.txt
+222: 223.txt
+223: 224.txt
+224: 225.txt
+225: 226.txt
+226: 227.txt
+227: 228.txt
+228: 229.txt
+229: 230.txt
+230: 231.txt
+231: 232.txt
+232: 233.txt
+233: 234.txt
+234: 235.txt
+235: 236.txt
+236: 237.txt
+237: 238.txt
+238: 239.txt
+239: 240.txt
+240: 241.txt
+241: 242.txt
+242: 243.txt
+243: 244.txt
+244: 245.txt
+245: 246.txt
+246: 247.txt
+247: 248.txt
+248: 249.txt
+249: 250.txt
+250: 251.txt
+251: 252.txt
+252: 253.txt
+253: 254.txt
+254: 255.txt
+255: 256.txt
+256: 257.txt
+257: 258.txt
+258: 259.txt
+259: 260.txt
+260: 261.txt
+261: 262.txt
+262: 263.txt
+263: 264.txt
+264: 265.txt
+265: 266.txt
+266: 267.txt
+267: 268.txt
+268: 269.txt
+269: 270.txt
+270: 271.txt
+271: 272.txt
+272: 273.txt
+273: 274.txt
+274: 275.txt
+275: 276.txt
+276: 277.txt
+277: 278.txt
+278: 279.txt
+279: 280.txt
+280: 281.txt
+281: 282.txt
+282: 283.txt
+283: 284.txt
+284: 285.txt
+285: 286.txt
+286: 287.txt
+287: 288.txt
+288: 289.txt
+289: 290.txt
+290: 291.txt
+291: 292.txt
+292: 293.txt
+293: 294.txt
+294: 295.txt
+295: 296.txt
+296: 297.txt
+297: 298.txt
+298: 299.txt
+299: 300.txt
+300: 301.txt
+301: 302.txt
+302: 303.txt
+303: 304.txt
+304: 305.txt
+305: 306.txt
+306: 307.txt
+307: 308.txt
+308: 309.txt
+309: 310.txt
+310: 311.txt
+311: 312.txt
+312: 313.txt
+313: 314.txt
+314: 315.txt
+315: 316.txt
+316: 317.txt
+317: 318.txt
+318: 319.txt
+319: 320.txt
+320: 321.txt
+321: 322.txt
+322: 323.txt
+323: 324.txt
+324: 325.txt
+325: 326.txt
+326: 327.txt
+327: 328.txt
+328: 329.txt
+329: 330.txt
+330: 331.txt
+331: 332.txt
+332: 333.txt
+333: 334.txt
+334: 335.txt
+335: 336.txt
+336: 337.txt
+337: 338.txt
+338: 339.txt
+339: 340.txt
+340: 341.txt
+341: 342.txt
+342: 343.txt
+343: 344.txt
+344: 345.txt
+345: 346.txt
+346: 347.txt
+347: 348.txt
+348: 349.txt
+349: 350.txt
+350: 351.txt
+351: 352.txt
+352: 353.txt
+353: 354.txt
+354: 355.txt
+355: 356.txt
+356: 357.txt
+357: 358.txt
+358: 359.txt
+359: 360.txt
+360: 361.txt
+361: 362.txt
+362: 363.txt
+363: 364.txt
+364: 365.txt
+365: 366.txt
+366: 367.txt
+367: 368.txt
+368: 369.txt
+369: 370.txt
+370: 371.txt
+371: 372.txt
+372: 373.txt
+373: 374.txt
+374: 375.txt
+375: 376.txt
+376: 377.txt
+377: 378.txt
+378: 379.txt
+379: 380.txt
+380: 381.txt
+381: 382.txt
+382: 383.txt
+383: 384.txt
+384: 385.txt
+385: 386.txt
+386: 387.txt
+387: 388.txt
+388: 389.txt
+389: 390.txt
+390: 391.txt
+391: 392.txt
+392: 393.txt
+393: 394.txt
+394: 395.txt
+395: 396.txt
+396: 397.txt
+397: 398.txt
+398: 399.txt
+399: 400.txt
+400: 401.txt
+401: 402.txt
+402: 403.txt
+403: 404.txt
+404: 405.txt
+405: 406.txt
+406: 407.txt
+407: 408.txt
+408: 409.txt
+409: 410.txt
+410: 411.txt
+411: 412.txt
+412: 413.txt
+413: 414.txt
+414: 415.txt
+415: 416.txt
+416: 417.txt
+417: 418.txt
+418: 419.txt
+419: 420.txt
+420: 421.txt
+421: 422.txt
+422: 423.txt
+423: 424.txt
+424: 425.txt
+425: 426.txt
+426: 427.txt
+427: 428.txt
+428: 429.txt
+429: 430.txt
+430: 431.txt
+431: 432.txt
+432: 433.txt
+433: 434.txt
+434: 435.txt
+435: 436.txt
+436: 437.txt
+437: 438.txt
+438: 439.txt
+439: 440.txt
+440: 441.txt
+441: 442.txt
+442: 443.txt
+443: 444.txt
+444: 445.txt
+445: 446.txt
+446: 447.txt
+447: 448.txt
+448: 449.txt
+449: 450.txt
+450: 451.txt
+451: 452.txt
+452: 453.txt
+453: 454.txt
+454: 455.txt
+455: 456.txt
+456: 457.txt
+457: 458.txt
+458: 459.txt
+459: 460.txt
+460: 461.txt
+461: 462.txt
+462: 463.txt
+463: 464.txt
+464: 465.txt
+465: 466.txt
+466: 467.txt
+467: 468.txt
+468: 469.txt
+469: 470.txt
+470: 471.txt
+471: 472.txt
+472: 473.txt
+473: 474.txt
+474: 475.txt
+475: 476.txt
+476: 477.txt
+477: 478.txt
+478: 479.txt
+479: 480.txt
+480: 481.txt
+481: 482.txt
+482: 483.txt
+483: 484.txt
+484: 485.txt
+485: 486.txt
+486: 487.txt
+487: 488.txt
+488: 489.txt
+489: 490.txt
+490: 491.txt
+491: 492.txt
+492: 493.txt
+493: 494.txt
+494: 495.txt
+495: 496.txt
+496: 497.txt
+497: 498.txt
+498: 499.txt
+499: 500.txt
+INPUT: 204
+----------------------------------------
+Ronda de Kei (J1)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:912/912 MP:398/398
+B-Oni HP:218/218 MP:43/43
+C-Tlaltecuhtli HP:530/530 MP:104/104
+D-Wild Hunt HP:596/596 MP:153/153
+Equipo de Itsuki (J2)
+A-Itsuki HP:1136/1136 MP:413/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Wild Hunt
+2-Tlaltecuhtli
+3-Kei
+4-Oni
+----------------------------------------
+Seleccione una acción para Wild Hunt
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cherub HP:567/567 MP:255/255
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Wild Hunt
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Wild Hunt
+1-Itsuki HP:1136/1136 MP:413/413
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Wild Hunt
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Wild Hunt
+1-Itsuki HP:1136/1136 MP:413/413
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Wild Hunt ataca a Itsuki
+Itsuki devuelve 44 daño a Wild Hunt
+Wild Hunt termina con HP:552/596
+----------------------------------------
+Se han consumido 4 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Itsuki (J2)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:912/912 MP:398/398
+B-Oni HP:218/218 MP:43/43
+C-Tlaltecuhtli HP:530/530 MP:104/104
+D-Wild Hunt HP:552/596 MP:153/153
+Equipo de Itsuki (J2)
+A-Itsuki HP:1136/1136 MP:413/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Itsuki
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Itsuki
+1-Kei HP:912/912 MP:398/398
+2-Oni HP:218/218 MP:43/43
+3-Tlaltecuhtli HP:530/530 MP:104/104
+4-Wild Hunt HP:552/596 MP:153/153
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Itsuki dispara a Kei
+Kei es resistente el ataque de Itsuki
+Kei recibe 30 de daño
+Kei termina con HP:882/912
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kei (J1)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:882/912 MP:398/398
+B-Oni HP:218/218 MP:43/43
+C-Tlaltecuhtli HP:530/530 MP:104/104
+D-Wild Hunt HP:552/596 MP:153/153
+Equipo de Itsuki (J2)
+A-Itsuki HP:1136/1136 MP:413/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Wild Hunt
+2-Tlaltecuhtli
+3-Kei
+4-Oni
+----------------------------------------
+Seleccione una acción para Wild Hunt
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Wild Hunt use
+1-Blast Arrow MP:16
+2-Dream Fist MP:9
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Wild Hunt dispara a Itsuki
+Itsuki recibe 88 de daño
+Itsuki termina con HP:1048/1136
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:882/912 MP:398/398
+B-Oni HP:218/218 MP:43/43
+C-Tlaltecuhtli HP:530/530 MP:104/104
+D-Wild Hunt HP:552/596 MP:137/153
+Equipo de Itsuki (J2)
+A-Itsuki HP:1048/1136 MP:413/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Tlaltecuhtli
+2-Kei
+3-Oni
+4-Wild Hunt
+----------------------------------------
+Seleccione una acción para Tlaltecuhtli
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cherub HP:567/567 MP:255/255
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Tlaltecuhtli
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Tlaltecuhtli
+1-Itsuki HP:1048/1136 MP:413/413
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Tlaltecuhtli ataca a Itsuki
+Itsuki devuelve 27 daño a Tlaltecuhtli
+Tlaltecuhtli termina con HP:503/530
+----------------------------------------
+Se han consumido 3 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Itsuki (J2)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:882/912 MP:398/398
+B-Oni HP:218/218 MP:43/43
+C-Tlaltecuhtli HP:503/530 MP:104/104
+D-Wild Hunt HP:552/596 MP:137/153
+Equipo de Itsuki (J2)
+A-Itsuki HP:1048/1136 MP:413/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Itsuki
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:882/912 MP:398/398
+B-Oni HP:218/218 MP:43/43
+C-Tlaltecuhtli HP:503/530 MP:104/104
+D-Wild Hunt HP:552/596 MP:137/153
+Equipo de Itsuki (J2)
+A-Itsuki HP:1048/1136 MP:413/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Itsuki
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kei (J1)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:882/912 MP:398/398
+B-Oni HP:218/218 MP:43/43
+C-Tlaltecuhtli HP:503/530 MP:104/104
+D-Wild Hunt HP:552/596 MP:137/153
+Equipo de Itsuki (J2)
+A-Itsuki HP:1048/1136 MP:413/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Wild Hunt
+2-Tlaltecuhtli
+3-Kei
+4-Oni
+----------------------------------------
+Seleccione una acción para Wild Hunt
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Wild Hunt use
+1-Blast Arrow MP:16
+2-Dream Fist MP:9
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Wild Hunt dispara a Itsuki
+Itsuki recibe 88 de daño
+Itsuki termina con HP:960/1136
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:882/912 MP:398/398
+B-Oni HP:218/218 MP:43/43
+C-Tlaltecuhtli HP:503/530 MP:104/104
+D-Wild Hunt HP:552/596 MP:121/153
+Equipo de Itsuki (J2)
+A-Itsuki HP:960/1136 MP:413/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Tlaltecuhtli
+2-Kei
+3-Oni
+4-Wild Hunt
+----------------------------------------
+Seleccione una acción para Tlaltecuhtli
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cherub HP:567/567 MP:255/255
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Cherub ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:882/912 MP:398/398
+B-Oni HP:218/218 MP:43/43
+C-Cherub HP:567/567 MP:255/255
+D-Wild Hunt HP:552/596 MP:121/153
+Equipo de Itsuki (J2)
+A-Itsuki HP:960/1136 MP:413/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Kei
+2-Oni
+3-Wild Hunt
+4-Cherub
+----------------------------------------
+Seleccione una acción para Kei
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Kei
+1-Itsuki HP:960/1136 MP:413/413
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Kei dispara a Itsuki
+Itsuki recibe 15 de daño
+Itsuki termina con HP:945/1136
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:882/912 MP:398/398
+B-Oni HP:218/218 MP:43/43
+C-Cherub HP:567/567 MP:255/255
+D-Wild Hunt HP:552/596 MP:121/153
+Equipo de Itsuki (J2)
+A-Itsuki HP:945/1136 MP:413/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Oni
+2-Wild Hunt
+3-Cherub
+4-Kei
+----------------------------------------
+Seleccione una acción para Oni
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Oni use
+1-Critical Wave MP:10
+2-Taunt MP:20
+3-Fang Breaker MP:12
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Oni
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:882/912 MP:398/398
+B-Oni HP:218/218 MP:43/43
+C-Cherub HP:567/567 MP:255/255
+D-Wild Hunt HP:552/596 MP:121/153
+Equipo de Itsuki (J2)
+A-Itsuki HP:945/1136 MP:413/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Wild Hunt
+2-Cherub
+3-Kei
+4-Oni
+----------------------------------------
+Seleccione una acción para Wild Hunt
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:882/912 MP:398/398
+B-Oni HP:218/218 MP:43/43
+C-Cherub HP:567/567 MP:255/255
+D-Wild Hunt HP:552/596 MP:121/153
+Equipo de Itsuki (J2)
+A-Itsuki HP:945/1136 MP:413/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Cherub
+2-Kei
+3-Oni
+4-Wild Hunt
+----------------------------------------
+Seleccione una acción para Cherub
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Cherub
+1-Itsuki HP:945/1136 MP:413/413
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Cherub
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Tlaltecuhtli HP:503/530 MP:104/104
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Tlaltecuhtli ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:882/912 MP:398/398
+B-Oni HP:218/218 MP:43/43
+C-Tlaltecuhtli HP:503/530 MP:104/104
+D-Wild Hunt HP:552/596 MP:121/153
+Equipo de Itsuki (J2)
+A-Itsuki HP:945/1136 MP:413/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Kei
+2-Oni
+3-Wild Hunt
+4-Tlaltecuhtli
+----------------------------------------
+Seleccione una acción para Kei
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Kei use
+1-Concentrate MP:11
+2-Agilao MP:8
+3-Tetrakarn MP:50
+4-Mudoon MP:10
+5-Mudo MP:6
+6-Desperate Hit MP:40
+7-Zionga MP:8
+8-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione un objetivo para Kei
+1-Itsuki HP:945/1136 MP:413/413
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Kei
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Itsuki (J2)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:882/912 MP:398/398
+B-Oni HP:218/218 MP:43/43
+C-Tlaltecuhtli HP:503/530 MP:104/104
+D-Wild Hunt HP:552/596 MP:121/153
+Equipo de Itsuki (J2)
+A-Itsuki HP:945/1136 MP:413/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Itsuki
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:882/912 MP:398/398
+B-Oni HP:218/218 MP:43/43
+C-Tlaltecuhtli HP:503/530 MP:104/104
+D-Wild Hunt HP:552/596 MP:121/153
+Equipo de Itsuki (J2)
+A-Itsuki HP:945/1136 MP:413/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Itsuki
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Itsuki
+1-Kei HP:882/912 MP:398/398
+2-Oni HP:218/218 MP:43/43
+3-Tlaltecuhtli HP:503/530 MP:104/104
+4-Wild Hunt HP:552/596 MP:121/153
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Itsuki
+1-Kei HP:882/912 MP:398/398
+2-Oni HP:218/218 MP:43/43
+3-Tlaltecuhtli HP:503/530 MP:104/104
+4-Wild Hunt HP:552/596 MP:121/153
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Itsuki dispara a Wild Hunt
+Wild Hunt recibe 61 de daño
+Wild Hunt termina con HP:491/596
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kei (J1)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:882/912 MP:398/398
+B-Oni HP:218/218 MP:43/43
+C-Tlaltecuhtli HP:503/530 MP:104/104
+D-Wild Hunt HP:491/596 MP:121/153
+Equipo de Itsuki (J2)
+A-Itsuki HP:945/1136 MP:413/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Wild Hunt
+2-Tlaltecuhtli
+3-Kei
+4-Oni
+----------------------------------------
+Seleccione una acción para Wild Hunt
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Wild Hunt
+1-Itsuki HP:945/1136 MP:413/413
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Wild Hunt ataca a Itsuki
+Itsuki devuelve 44 daño a Wild Hunt
+Wild Hunt termina con HP:447/596
+----------------------------------------
+Se han consumido 4 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Itsuki (J2)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:882/912 MP:398/398
+B-Oni HP:218/218 MP:43/43
+C-Tlaltecuhtli HP:503/530 MP:104/104
+D-Wild Hunt HP:447/596 MP:121/153
+Equipo de Itsuki (J2)
+A-Itsuki HP:945/1136 MP:413/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Itsuki
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Itsuki
+1-Kei HP:882/912 MP:398/398
+2-Oni HP:218/218 MP:43/43
+3-Tlaltecuhtli HP:503/530 MP:104/104
+4-Wild Hunt HP:447/596 MP:121/153
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Itsuki ataca a Oni
+Oni recibe 45 de daño
+Oni termina con HP:173/218
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kei (J1)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:882/912 MP:398/398
+B-Oni HP:173/218 MP:43/43
+C-Tlaltecuhtli HP:503/530 MP:104/104
+D-Wild Hunt HP:447/596 MP:121/153
+Equipo de Itsuki (J2)
+A-Itsuki HP:945/1136 MP:413/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Wild Hunt
+2-Tlaltecuhtli
+3-Kei
+4-Oni
+----------------------------------------
+Seleccione una acción para Wild Hunt
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Wild Hunt
+1-Itsuki HP:945/1136 MP:413/413
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Wild Hunt
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Wild Hunt use
+1-Blast Arrow MP:16
+2-Dream Fist MP:9
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Wild Hunt
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Wild Hunt
+1-Itsuki HP:945/1136 MP:413/413
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Wild Hunt
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Wild Hunt use
+1-Blast Arrow MP:16
+2-Dream Fist MP:9
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Wild Hunt dispara a Itsuki
+Itsuki recibe 88 de daño
+Itsuki termina con HP:857/1136
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:882/912 MP:398/398
+B-Oni HP:173/218 MP:43/43
+C-Tlaltecuhtli HP:503/530 MP:104/104
+D-Wild Hunt HP:447/596 MP:105/153
+Equipo de Itsuki (J2)
+A-Itsuki HP:857/1136 MP:413/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Tlaltecuhtli
+2-Kei
+3-Oni
+4-Wild Hunt
+----------------------------------------
+Seleccione una acción para Tlaltecuhtli
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Tlaltecuhtli
+1-Itsuki HP:857/1136 MP:413/413
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Tlaltecuhtli ataca a Itsuki
+Itsuki devuelve 27 daño a Tlaltecuhtli
+Tlaltecuhtli termina con HP:476/530
+----------------------------------------
+Se han consumido 3 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Itsuki (J2)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:882/912 MP:398/398
+B-Oni HP:173/218 MP:43/43
+C-Tlaltecuhtli HP:476/530 MP:104/104
+D-Wild Hunt HP:447/596 MP:105/153
+Equipo de Itsuki (J2)
+A-Itsuki HP:857/1136 MP:413/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Itsuki
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Itsuki
+1-Kei HP:882/912 MP:398/398
+2-Oni HP:173/218 MP:43/43
+3-Tlaltecuhtli HP:476/530 MP:104/104
+4-Wild Hunt HP:447/596 MP:105/153
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Itsuki dispara a Tlaltecuhtli
+Tlaltecuhtli recibe 61 de daño
+Tlaltecuhtli termina con HP:415/530
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kei (J1)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:882/912 MP:398/398
+B-Oni HP:173/218 MP:43/43
+C-Tlaltecuhtli HP:415/530 MP:104/104
+D-Wild Hunt HP:447/596 MP:105/153
+Equipo de Itsuki (J2)
+A-Itsuki HP:857/1136 MP:413/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Wild Hunt
+2-Tlaltecuhtli
+3-Kei
+4-Oni
+----------------------------------------
+Seleccione una acción para Wild Hunt
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cherub HP:567/567 MP:255/255
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Wild Hunt
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cherub HP:567/567 MP:255/255
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Wild Hunt
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cherub HP:567/567 MP:255/255
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Cherub ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:882/912 MP:398/398
+B-Oni HP:173/218 MP:43/43
+C-Tlaltecuhtli HP:415/530 MP:104/104
+D-Cherub HP:567/567 MP:255/255
+Equipo de Itsuki (J2)
+A-Itsuki HP:857/1136 MP:413/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Tlaltecuhtli
+2-Kei
+3-Oni
+4-Cherub
+----------------------------------------
+Seleccione una acción para Tlaltecuhtli
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Tlaltecuhtli use
+1-Megido MP:25
+2-Mazionga MP:20
+3-Agidyne MP:14
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Tlaltecuhtli lanza electricidad a Itsuki
+Itsuki absorbe 88 daño
+Itsuki termina con HP:945/1136
+----------------------------------------
+Se han consumido 3 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Itsuki (J2)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:882/912 MP:398/398
+B-Oni HP:173/218 MP:43/43
+C-Tlaltecuhtli HP:415/530 MP:84/104
+D-Cherub HP:567/567 MP:255/255
+Equipo de Itsuki (J2)
+A-Itsuki HP:945/1136 MP:413/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Itsuki
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Itsuki
+1-Kei HP:882/912 MP:398/398
+2-Oni HP:173/218 MP:43/43
+3-Tlaltecuhtli HP:415/530 MP:84/104
+4-Cherub HP:567/567 MP:255/255
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Itsuki dispara a Kei
+Kei es resistente el ataque de Itsuki
+Kei recibe 30 de daño
+Kei termina con HP:852/912
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kei (J1)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:852/912 MP:398/398
+B-Oni HP:173/218 MP:43/43
+C-Tlaltecuhtli HP:415/530 MP:84/104
+D-Cherub HP:567/567 MP:255/255
+Equipo de Itsuki (J2)
+A-Itsuki HP:945/1136 MP:413/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Cherub
+2-Tlaltecuhtli
+3-Kei
+4-Oni
+----------------------------------------
+Seleccione una acción para Cherub
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Wild Hunt HP:447/596 MP:105/153
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Cherub
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:852/912 MP:398/398
+B-Oni HP:173/218 MP:43/43
+C-Tlaltecuhtli HP:415/530 MP:84/104
+D-Cherub HP:567/567 MP:255/255
+Equipo de Itsuki (J2)
+A-Itsuki HP:945/1136 MP:413/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Tlaltecuhtli
+2-Kei
+3-Oni
+4-Cherub
+----------------------------------------
+Seleccione una acción para Tlaltecuhtli
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Tlaltecuhtli
+1-Itsuki HP:945/1136 MP:413/413
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Tlaltecuhtli
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Tlaltecuhtli
+1-Itsuki HP:945/1136 MP:413/413
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Tlaltecuhtli
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Tlaltecuhtli
+1-Itsuki HP:945/1136 MP:413/413
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Tlaltecuhtli
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Tlaltecuhtli use
+1-Megido MP:25
+2-Mazionga MP:20
+3-Agidyne MP:14
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione un objetivo para Tlaltecuhtli
+1-Itsuki HP:945/1136 MP:413/413
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Tlaltecuhtli
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Tlaltecuhtli
+1-Itsuki HP:945/1136 MP:413/413
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Tlaltecuhtli ataca a Itsuki
+Itsuki devuelve 27 daño a Tlaltecuhtli
+Tlaltecuhtli termina con HP:388/530
+----------------------------------------
+Se han consumido 3 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Itsuki (J2)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:852/912 MP:398/398
+B-Oni HP:173/218 MP:43/43
+C-Tlaltecuhtli HP:388/530 MP:84/104
+D-Cherub HP:567/567 MP:255/255
+Equipo de Itsuki (J2)
+A-Itsuki HP:945/1136 MP:413/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Itsuki
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Itsuki use
+1-Riot Gun MP:30
+2-Zionga MP:8
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Itsuki
+1-Kei HP:852/912 MP:398/398
+2-Oni HP:173/218 MP:43/43
+3-Tlaltecuhtli HP:388/530 MP:84/104
+4-Cherub HP:567/567 MP:255/255
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Itsuki dispara a Cherub
+Cherub es resistente el ataque de Itsuki
+Cherub recibe 76 de daño
+Cherub termina con HP:491/567
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kei (J1)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:852/912 MP:398/398
+B-Oni HP:173/218 MP:43/43
+C-Tlaltecuhtli HP:388/530 MP:84/104
+D-Cherub HP:491/567 MP:255/255
+Equipo de Itsuki (J2)
+A-Itsuki HP:945/1136 MP:383/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Cherub
+2-Tlaltecuhtli
+3-Kei
+4-Oni
+----------------------------------------
+Seleccione una acción para Cherub
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:852/912 MP:398/398
+B-Oni HP:173/218 MP:43/43
+C-Tlaltecuhtli HP:388/530 MP:84/104
+D-Cherub HP:491/567 MP:255/255
+Equipo de Itsuki (J2)
+A-Itsuki HP:945/1136 MP:383/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Tlaltecuhtli
+2-Kei
+3-Oni
+4-Cherub
+----------------------------------------
+Seleccione una acción para Tlaltecuhtli
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Wild Hunt HP:447/596 MP:105/153
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Tlaltecuhtli
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Wild Hunt HP:447/596 MP:105/153
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Tlaltecuhtli
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Tlaltecuhtli use
+1-Megido MP:25
+2-Mazionga MP:20
+3-Agidyne MP:14
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Tlaltecuhtli
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Wild Hunt HP:447/596 MP:105/153
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Tlaltecuhtli
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Tlaltecuhtli use
+1-Megido MP:25
+2-Mazionga MP:20
+3-Agidyne MP:14
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione un objetivo para Tlaltecuhtli
+1-Itsuki HP:945/1136 MP:383/413
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Tlaltecuhtli
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Wild Hunt HP:447/596 MP:105/153
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Wild Hunt ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:852/912 MP:398/398
+B-Oni HP:173/218 MP:43/43
+C-Wild Hunt HP:447/596 MP:105/153
+D-Cherub HP:491/567 MP:255/255
+Equipo de Itsuki (J2)
+A-Itsuki HP:945/1136 MP:383/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kei
+2-Oni
+3-Cherub
+4-Wild Hunt
+----------------------------------------
+Seleccione una acción para Kei
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:852/912 MP:398/398
+B-Oni HP:173/218 MP:43/43
+C-Wild Hunt HP:447/596 MP:105/153
+D-Cherub HP:491/567 MP:255/255
+Equipo de Itsuki (J2)
+A-Itsuki HP:945/1136 MP:383/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Oni
+2-Cherub
+3-Wild Hunt
+4-Kei
+----------------------------------------
+Seleccione una acción para Oni
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:852/912 MP:398/398
+B-Oni HP:173/218 MP:43/43
+C-Wild Hunt HP:447/596 MP:105/153
+D-Cherub HP:491/567 MP:255/255
+Equipo de Itsuki (J2)
+A-Itsuki HP:945/1136 MP:383/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Cherub
+2-Wild Hunt
+3-Kei
+4-Oni
+----------------------------------------
+Seleccione una acción para Cherub
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Cherub use
+1-Tarukaja MP:15
+2-Megidola MP:40
+3-Heaven's Bow MP:26
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Cherub lanza un ataque todo poderoso a Itsuki
+Itsuki recibe 135 de daño
+Itsuki termina con HP:810/1136
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:852/912 MP:398/398
+B-Oni HP:173/218 MP:43/43
+C-Wild Hunt HP:447/596 MP:105/153
+D-Cherub HP:491/567 MP:215/255
+Equipo de Itsuki (J2)
+A-Itsuki HP:810/1136 MP:383/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Wild Hunt
+2-Kei
+3-Oni
+4-Cherub
+----------------------------------------
+Seleccione una acción para Wild Hunt
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:852/912 MP:398/398
+B-Oni HP:173/218 MP:43/43
+C-Wild Hunt HP:447/596 MP:105/153
+D-Cherub HP:491/567 MP:215/255
+Equipo de Itsuki (J2)
+A-Itsuki HP:810/1136 MP:383/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Kei
+2-Oni
+3-Cherub
+4-Wild Hunt
+----------------------------------------
+Seleccione una acción para Kei
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Itsuki (J2)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:852/912 MP:398/398
+B-Oni HP:173/218 MP:43/43
+C-Wild Hunt HP:447/596 MP:105/153
+D-Cherub HP:491/567 MP:215/255
+Equipo de Itsuki (J2)
+A-Itsuki HP:810/1136 MP:383/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Itsuki
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Itsuki
+1-Kei HP:852/912 MP:398/398
+2-Oni HP:173/218 MP:43/43
+3-Wild Hunt HP:447/596 MP:105/153
+4-Cherub HP:491/567 MP:215/255
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Itsuki dispara a Kei
+Kei es resistente el ataque de Itsuki
+Kei recibe 30 de daño
+Kei termina con HP:822/912
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kei (J1)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:822/912 MP:398/398
+B-Oni HP:173/218 MP:43/43
+C-Wild Hunt HP:447/596 MP:105/153
+D-Cherub HP:491/567 MP:215/255
+Equipo de Itsuki (J2)
+A-Itsuki HP:810/1136 MP:383/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Cherub
+2-Wild Hunt
+3-Kei
+4-Oni
+----------------------------------------
+Seleccione una acción para Cherub
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Tlaltecuhtli HP:388/530 MP:84/104
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Tlaltecuhtli ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:822/912 MP:398/398
+B-Oni HP:173/218 MP:43/43
+C-Wild Hunt HP:447/596 MP:105/153
+D-Tlaltecuhtli HP:388/530 MP:84/104
+Equipo de Itsuki (J2)
+A-Itsuki HP:810/1136 MP:383/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Wild Hunt
+2-Kei
+3-Oni
+4-Tlaltecuhtli
+----------------------------------------
+Seleccione una acción para Wild Hunt
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Wild Hunt
+1-Itsuki HP:810/1136 MP:383/413
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Wild Hunt
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:822/912 MP:398/398
+B-Oni HP:173/218 MP:43/43
+C-Wild Hunt HP:447/596 MP:105/153
+D-Tlaltecuhtli HP:388/530 MP:84/104
+Equipo de Itsuki (J2)
+A-Itsuki HP:810/1136 MP:383/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kei
+2-Oni
+3-Tlaltecuhtli
+4-Wild Hunt
+----------------------------------------
+Seleccione una acción para Kei
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cherub HP:491/567 MP:215/255
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una posición para invocar
+1-Oni HP:173/218 MP:43/43 (Puesto 2)
+2-Wild Hunt HP:447/596 MP:105/153 (Puesto 3)
+3-Tlaltecuhtli HP:388/530 MP:84/104 (Puesto 4)
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Kei
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Kei use
+1-Concentrate MP:11
+2-Agilao MP:8
+3-Tetrakarn MP:50
+4-Mudoon MP:10
+5-Mudo MP:6
+6-Desperate Hit MP:40
+7-Zionga MP:8
+8-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione un objetivo para Kei
+1-Itsuki HP:810/1136 MP:383/413
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Kei
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Kei
+1-Itsuki HP:810/1136 MP:383/413
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Kei dispara a Itsuki
+Itsuki recibe 15 de daño
+Itsuki termina con HP:795/1136
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:822/912 MP:398/398
+B-Oni HP:173/218 MP:43/43
+C-Wild Hunt HP:447/596 MP:105/153
+D-Tlaltecuhtli HP:388/530 MP:84/104
+Equipo de Itsuki (J2)
+A-Itsuki HP:795/1136 MP:383/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Oni
+2-Tlaltecuhtli
+3-Wild Hunt
+4-Kei
+----------------------------------------
+Seleccione una acción para Oni
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Oni use
+1-Critical Wave MP:10
+2-Taunt MP:20
+3-Fang Breaker MP:12
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Oni ataca a Itsuki
+Itsuki devuelve 41 daño a Oni
+Oni termina con HP:132/218
+----------------------------------------
+Se han consumido 2 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Itsuki (J2)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:822/912 MP:398/398
+B-Oni HP:132/218 MP:33/43
+C-Wild Hunt HP:447/596 MP:105/153
+D-Tlaltecuhtli HP:388/530 MP:84/104
+Equipo de Itsuki (J2)
+A-Itsuki HP:795/1136 MP:383/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Itsuki
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Itsuki
+1-Kei HP:822/912 MP:398/398
+2-Oni HP:132/218 MP:33/43
+3-Wild Hunt HP:447/596 MP:105/153
+4-Tlaltecuhtli HP:388/530 MP:84/104
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Itsuki ataca a Tlaltecuhtli
+Tlaltecuhtli es resistente el ataque de Itsuki
+Tlaltecuhtli recibe 22 de daño
+Tlaltecuhtli termina con HP:366/530
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kei (J1)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:822/912 MP:398/398
+B-Oni HP:132/218 MP:33/43
+C-Wild Hunt HP:447/596 MP:105/153
+D-Tlaltecuhtli HP:366/530 MP:84/104
+Equipo de Itsuki (J2)
+A-Itsuki HP:795/1136 MP:383/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Wild Hunt
+2-Tlaltecuhtli
+3-Kei
+4-Oni
+----------------------------------------
+Seleccione una acción para Wild Hunt
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:822/912 MP:398/398
+B-Oni HP:132/218 MP:33/43
+C-Wild Hunt HP:447/596 MP:105/153
+D-Tlaltecuhtli HP:366/530 MP:84/104
+Equipo de Itsuki (J2)
+A-Itsuki HP:795/1136 MP:383/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Tlaltecuhtli
+2-Kei
+3-Oni
+4-Wild Hunt
+----------------------------------------
+Seleccione una acción para Tlaltecuhtli
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cherub HP:491/567 MP:215/255
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Tlaltecuhtli
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Tlaltecuhtli
+1-Itsuki HP:795/1136 MP:383/413
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Tlaltecuhtli ataca a Itsuki
+Itsuki devuelve 27 daño a Tlaltecuhtli
+Tlaltecuhtli termina con HP:339/530
+----------------------------------------
+Se han consumido 3 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Itsuki (J2)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:822/912 MP:398/398
+B-Oni HP:132/218 MP:33/43
+C-Wild Hunt HP:447/596 MP:105/153
+D-Tlaltecuhtli HP:339/530 MP:84/104
+Equipo de Itsuki (J2)
+A-Itsuki HP:795/1136 MP:383/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Itsuki
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Itsuki
+1-Kei HP:822/912 MP:398/398
+2-Oni HP:132/218 MP:33/43
+3-Wild Hunt HP:447/596 MP:105/153
+4-Tlaltecuhtli HP:339/530 MP:84/104
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Itsuki ataca a Oni
+Oni recibe 45 de daño
+Oni termina con HP:87/218
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kei (J1)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:822/912 MP:398/398
+B-Oni HP:87/218 MP:33/43
+C-Wild Hunt HP:447/596 MP:105/153
+D-Tlaltecuhtli HP:339/530 MP:84/104
+Equipo de Itsuki (J2)
+A-Itsuki HP:795/1136 MP:383/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Wild Hunt
+2-Tlaltecuhtli
+3-Kei
+4-Oni
+----------------------------------------
+Seleccione una acción para Wild Hunt
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Wild Hunt
+1-Itsuki HP:795/1136 MP:383/413
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Wild Hunt
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:822/912 MP:398/398
+B-Oni HP:87/218 MP:33/43
+C-Wild Hunt HP:447/596 MP:105/153
+D-Tlaltecuhtli HP:339/530 MP:84/104
+Equipo de Itsuki (J2)
+A-Itsuki HP:795/1136 MP:383/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Tlaltecuhtli
+2-Kei
+3-Oni
+4-Wild Hunt
+----------------------------------------
+Seleccione una acción para Tlaltecuhtli
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cherub HP:491/567 MP:215/255
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Tlaltecuhtli
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Tlaltecuhtli use
+1-Megido MP:25
+2-Mazionga MP:20
+3-Agidyne MP:14
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Tlaltecuhtli
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cherub HP:491/567 MP:215/255
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Cherub ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:822/912 MP:398/398
+B-Oni HP:87/218 MP:33/43
+C-Wild Hunt HP:447/596 MP:105/153
+D-Cherub HP:491/567 MP:215/255
+Equipo de Itsuki (J2)
+A-Itsuki HP:795/1136 MP:383/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kei
+2-Oni
+3-Wild Hunt
+4-Cherub
+----------------------------------------
+Seleccione una acción para Kei
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Kei
+1-Itsuki HP:795/1136 MP:383/413
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Kei
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:822/912 MP:398/398
+B-Oni HP:87/218 MP:33/43
+C-Wild Hunt HP:447/596 MP:105/153
+D-Cherub HP:491/567 MP:215/255
+Equipo de Itsuki (J2)
+A-Itsuki HP:795/1136 MP:383/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Oni
+2-Wild Hunt
+3-Cherub
+4-Kei
+----------------------------------------
+Seleccione una acción para Oni
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Tlaltecuhtli HP:339/530 MP:84/104
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Oni
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Oni use
+1-Critical Wave MP:10
+2-Taunt MP:20
+3-Fang Breaker MP:12
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione un objetivo para Oni
+1-Itsuki HP:795/1136 MP:383/413
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Oni ataca a Itsuki
+Itsuki devuelve 45 daño a Oni
+Oni termina con HP:42/218
+El ataque de Oni ha disminuido
+----------------------------------------
+Se han consumido 2 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Itsuki (J2)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:822/912 MP:398/398
+B-Oni HP:42/218 MP:21/43
+C-Wild Hunt HP:447/596 MP:105/153
+D-Cherub HP:491/567 MP:215/255
+Equipo de Itsuki (J2)
+A-Itsuki HP:795/1136 MP:383/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Itsuki
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Itsuki use
+1-Riot Gun MP:30
+2-Zionga MP:8
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Itsuki
+1-Kei HP:822/912 MP:398/398
+2-Oni HP:42/218 MP:21/43
+3-Wild Hunt HP:447/596 MP:105/153
+4-Cherub HP:491/567 MP:215/255
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Itsuki lanza electricidad a Wild Hunt
+Wild Hunt recibe 93 de daño
+Wild Hunt termina con HP:354/596
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kei (J1)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:822/912 MP:398/398
+B-Oni HP:42/218 MP:21/43
+C-Wild Hunt HP:354/596 MP:105/153
+D-Cherub HP:491/567 MP:215/255
+Equipo de Itsuki (J2)
+A-Itsuki HP:795/1136 MP:375/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Cherub
+2-Wild Hunt
+3-Kei
+4-Oni
+----------------------------------------
+Seleccione una acción para Cherub
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:822/912 MP:398/398
+B-Oni HP:42/218 MP:21/43
+C-Wild Hunt HP:354/596 MP:105/153
+D-Cherub HP:491/567 MP:215/255
+Equipo de Itsuki (J2)
+A-Itsuki HP:795/1136 MP:375/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Wild Hunt
+2-Kei
+3-Oni
+4-Cherub
+----------------------------------------
+Seleccione una acción para Wild Hunt
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Wild Hunt use
+1-Blast Arrow MP:16
+2-Dream Fist MP:9
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Wild Hunt
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:822/912 MP:398/398
+B-Oni HP:42/218 MP:21/43
+C-Wild Hunt HP:354/596 MP:105/153
+D-Cherub HP:491/567 MP:215/255
+Equipo de Itsuki (J2)
+A-Itsuki HP:795/1136 MP:375/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kei
+2-Oni
+3-Cherub
+4-Wild Hunt
+----------------------------------------
+Seleccione una acción para Kei
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Kei
+1-Itsuki HP:795/1136 MP:375/413
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Kei
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Kei
+1-Itsuki HP:795/1136 MP:375/413
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Kei
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Tlaltecuhtli HP:339/530 MP:84/104
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Kei
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Kei
+1-Itsuki HP:795/1136 MP:375/413
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Kei dispara a Itsuki
+Itsuki recibe 15 de daño
+Itsuki termina con HP:780/1136
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:822/912 MP:398/398
+B-Oni HP:42/218 MP:21/43
+C-Wild Hunt HP:354/596 MP:105/153
+D-Cherub HP:491/567 MP:215/255
+Equipo de Itsuki (J2)
+A-Itsuki HP:780/1136 MP:375/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Oni
+2-Cherub
+3-Wild Hunt
+4-Kei
+----------------------------------------
+Seleccione una acción para Oni
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:822/912 MP:398/398
+B-Oni HP:42/218 MP:21/43
+C-Wild Hunt HP:354/596 MP:105/153
+D-Cherub HP:491/567 MP:215/255
+Equipo de Itsuki (J2)
+A-Itsuki HP:780/1136 MP:375/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Cherub
+2-Wild Hunt
+3-Kei
+4-Oni
+----------------------------------------
+Seleccione una acción para Cherub
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Tlaltecuhtli HP:339/530 MP:84/104
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Tlaltecuhtli ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:822/912 MP:398/398
+B-Oni HP:42/218 MP:21/43
+C-Wild Hunt HP:354/596 MP:105/153
+D-Tlaltecuhtli HP:339/530 MP:84/104
+Equipo de Itsuki (J2)
+A-Itsuki HP:780/1136 MP:375/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Wild Hunt
+2-Kei
+3-Oni
+4-Tlaltecuhtli
+----------------------------------------
+Seleccione una acción para Wild Hunt
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Wild Hunt
+1-Itsuki HP:780/1136 MP:375/413
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Wild Hunt
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Wild Hunt use
+1-Blast Arrow MP:16
+2-Dream Fist MP:9
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Wild Hunt
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:822/912 MP:398/398
+B-Oni HP:42/218 MP:21/43
+C-Wild Hunt HP:354/596 MP:105/153
+D-Tlaltecuhtli HP:339/530 MP:84/104
+Equipo de Itsuki (J2)
+A-Itsuki HP:780/1136 MP:375/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Kei
+2-Oni
+3-Tlaltecuhtli
+4-Wild Hunt
+----------------------------------------
+Seleccione una acción para Kei
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Kei use
+1-Concentrate MP:11
+2-Agilao MP:8
+3-Tetrakarn MP:50
+4-Mudoon MP:10
+5-Mudo MP:6
+6-Desperate Hit MP:40
+7-Zionga MP:8
+8-Cancelar
+INPUT: 8
+----------------------------------------
+Seleccione una acción para Kei
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Itsuki (J2)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:822/912 MP:398/398
+B-Oni HP:42/218 MP:21/43
+C-Wild Hunt HP:354/596 MP:105/153
+D-Tlaltecuhtli HP:339/530 MP:84/104
+Equipo de Itsuki (J2)
+A-Itsuki HP:780/1136 MP:375/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Itsuki
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Itsuki
+1-Kei HP:822/912 MP:398/398
+2-Oni HP:42/218 MP:21/43
+3-Wild Hunt HP:354/596 MP:105/153
+4-Tlaltecuhtli HP:339/530 MP:84/104
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Itsuki dispara a Oni
+Oni recibe 61 de daño
+Oni termina con HP:0/218
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kei (J1)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:822/912 MP:398/398
+B-
+C-Wild Hunt HP:354/596 MP:105/153
+D-Tlaltecuhtli HP:339/530 MP:84/104
+Equipo de Itsuki (J2)
+A-Itsuki HP:780/1136 MP:375/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Wild Hunt
+2-Tlaltecuhtli
+3-Kei
+----------------------------------------
+Seleccione una acción para Wild Hunt
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cherub HP:491/567 MP:215/255
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Wild Hunt
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:822/912 MP:398/398
+B-
+C-Wild Hunt HP:354/596 MP:105/153
+D-Tlaltecuhtli HP:339/530 MP:84/104
+Equipo de Itsuki (J2)
+A-Itsuki HP:780/1136 MP:375/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Tlaltecuhtli
+2-Kei
+3-Wild Hunt
+----------------------------------------
+Seleccione una acción para Tlaltecuhtli
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Tlaltecuhtli
+1-Itsuki HP:780/1136 MP:375/413
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Tlaltecuhtli ataca a Itsuki
+Itsuki devuelve 27 daño a Tlaltecuhtli
+Tlaltecuhtli termina con HP:312/530
+----------------------------------------
+Se han consumido 2 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Itsuki (J2)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:822/912 MP:398/398
+B-
+C-Wild Hunt HP:354/596 MP:105/153
+D-Tlaltecuhtli HP:312/530 MP:84/104
+Equipo de Itsuki (J2)
+A-Itsuki HP:780/1136 MP:375/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Itsuki
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Itsuki use
+1-Riot Gun MP:30
+2-Zionga MP:8
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Itsuki
+1-Kei HP:822/912 MP:398/398
+2-Wild Hunt HP:354/596 MP:105/153
+3-Tlaltecuhtli HP:312/530 MP:84/104
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Itsuki ataca a Kei
+Kei es resistente el ataque de Itsuki
+Kei recibe 22 de daño
+Kei termina con HP:800/912
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kei (J1)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:800/912 MP:398/398
+B-
+C-Wild Hunt HP:354/596 MP:105/153
+D-Tlaltecuhtli HP:312/530 MP:84/104
+Equipo de Itsuki (J2)
+A-Itsuki HP:780/1136 MP:375/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Wild Hunt
+2-Tlaltecuhtli
+3-Kei
+----------------------------------------
+Seleccione una acción para Wild Hunt
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:800/912 MP:398/398
+B-
+C-Wild Hunt HP:354/596 MP:105/153
+D-Tlaltecuhtli HP:312/530 MP:84/104
+Equipo de Itsuki (J2)
+A-Itsuki HP:780/1136 MP:375/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Tlaltecuhtli
+2-Kei
+3-Wild Hunt
+----------------------------------------
+Seleccione una acción para Tlaltecuhtli
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cherub HP:491/567 MP:215/255
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Tlaltecuhtli
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Tlaltecuhtli
+1-Itsuki HP:780/1136 MP:375/413
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Tlaltecuhtli ataca a Itsuki
+Itsuki devuelve 27 daño a Tlaltecuhtli
+Tlaltecuhtli termina con HP:285/530
+----------------------------------------
+Se han consumido 2 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Itsuki (J2)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:800/912 MP:398/398
+B-
+C-Wild Hunt HP:354/596 MP:105/153
+D-Tlaltecuhtli HP:285/530 MP:84/104
+Equipo de Itsuki (J2)
+A-Itsuki HP:780/1136 MP:375/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Itsuki
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Itsuki
+1-Kei HP:800/912 MP:398/398
+2-Wild Hunt HP:354/596 MP:105/153
+3-Tlaltecuhtli HP:285/530 MP:84/104
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Itsuki
+1-Kei HP:800/912 MP:398/398
+2-Wild Hunt HP:354/596 MP:105/153
+3-Tlaltecuhtli HP:285/530 MP:84/104
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Itsuki ataca a Kei
+Kei es resistente el ataque de Itsuki
+Kei recibe 22 de daño
+Kei termina con HP:778/912
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kei (J1)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:778/912 MP:398/398
+B-
+C-Wild Hunt HP:354/596 MP:105/153
+D-Tlaltecuhtli HP:285/530 MP:84/104
+Equipo de Itsuki (J2)
+A-Itsuki HP:780/1136 MP:375/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Wild Hunt
+2-Tlaltecuhtli
+3-Kei
+----------------------------------------
+Seleccione una acción para Wild Hunt
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cherub HP:491/567 MP:215/255
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Wild Hunt
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Wild Hunt
+1-Itsuki HP:780/1136 MP:375/413
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Wild Hunt
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:778/912 MP:398/398
+B-
+C-Wild Hunt HP:354/596 MP:105/153
+D-Tlaltecuhtli HP:285/530 MP:84/104
+Equipo de Itsuki (J2)
+A-Itsuki HP:780/1136 MP:375/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Tlaltecuhtli
+2-Kei
+3-Wild Hunt
+----------------------------------------
+Seleccione una acción para Tlaltecuhtli
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Tlaltecuhtli use
+1-Megido MP:25
+2-Mazionga MP:20
+3-Agidyne MP:14
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Tlaltecuhtli lanza un ataque todo poderoso a Itsuki
+Itsuki recibe 101 de daño
+Itsuki termina con HP:679/1136
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:778/912 MP:398/398
+B-
+C-Wild Hunt HP:354/596 MP:105/153
+D-Tlaltecuhtli HP:285/530 MP:59/104
+Equipo de Itsuki (J2)
+A-Itsuki HP:679/1136 MP:375/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kei
+2-Wild Hunt
+3-Tlaltecuhtli
+----------------------------------------
+Seleccione una acción para Kei
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:778/912 MP:398/398
+B-
+C-Wild Hunt HP:354/596 MP:105/153
+D-Tlaltecuhtli HP:285/530 MP:59/104
+Equipo de Itsuki (J2)
+A-Itsuki HP:679/1136 MP:375/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Wild Hunt
+2-Tlaltecuhtli
+3-Kei
+----------------------------------------
+Seleccione una acción para Wild Hunt
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Wild Hunt
+1-Itsuki HP:679/1136 MP:375/413
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Wild Hunt ataca a Itsuki
+Itsuki devuelve 44 daño a Wild Hunt
+Wild Hunt termina con HP:310/596
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Itsuki (J2)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:778/912 MP:398/398
+B-
+C-Wild Hunt HP:310/596 MP:105/153
+D-Tlaltecuhtli HP:285/530 MP:59/104
+Equipo de Itsuki (J2)
+A-Itsuki HP:679/1136 MP:375/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Itsuki
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Itsuki
+1-Kei HP:778/912 MP:398/398
+2-Wild Hunt HP:310/596 MP:105/153
+3-Tlaltecuhtli HP:285/530 MP:59/104
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Itsuki
+1-Kei HP:778/912 MP:398/398
+2-Wild Hunt HP:310/596 MP:105/153
+3-Tlaltecuhtli HP:285/530 MP:59/104
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Itsuki ataca a Tlaltecuhtli
+Tlaltecuhtli es resistente el ataque de Itsuki
+Tlaltecuhtli recibe 22 de daño
+Tlaltecuhtli termina con HP:263/530
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kei (J1)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:778/912 MP:398/398
+B-
+C-Wild Hunt HP:310/596 MP:105/153
+D-Tlaltecuhtli HP:263/530 MP:59/104
+Equipo de Itsuki (J2)
+A-Itsuki HP:679/1136 MP:375/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Wild Hunt
+2-Tlaltecuhtli
+3-Kei
+----------------------------------------
+Seleccione una acción para Wild Hunt
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Wild Hunt
+1-Itsuki HP:679/1136 MP:375/413
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Wild Hunt
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:778/912 MP:398/398
+B-
+C-Wild Hunt HP:310/596 MP:105/153
+D-Tlaltecuhtli HP:263/530 MP:59/104
+Equipo de Itsuki (J2)
+A-Itsuki HP:679/1136 MP:375/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Tlaltecuhtli
+2-Kei
+3-Wild Hunt
+----------------------------------------
+Seleccione una acción para Tlaltecuhtli
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Tlaltecuhtli
+1-Itsuki HP:679/1136 MP:375/413
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Tlaltecuhtli ataca a Itsuki
+Itsuki devuelve 27 daño a Tlaltecuhtli
+Tlaltecuhtli termina con HP:236/530
+----------------------------------------
+Se han consumido 2 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Itsuki (J2)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:778/912 MP:398/398
+B-
+C-Wild Hunt HP:310/596 MP:105/153
+D-Tlaltecuhtli HP:236/530 MP:59/104
+Equipo de Itsuki (J2)
+A-Itsuki HP:679/1136 MP:375/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Itsuki
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Itsuki
+1-Kei HP:778/912 MP:398/398
+2-Wild Hunt HP:310/596 MP:105/153
+3-Tlaltecuhtli HP:236/530 MP:59/104
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Itsuki
+1-Kei HP:778/912 MP:398/398
+2-Wild Hunt HP:310/596 MP:105/153
+3-Tlaltecuhtli HP:236/530 MP:59/104
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Itsuki dispara a Kei
+Kei es resistente el ataque de Itsuki
+Kei recibe 30 de daño
+Kei termina con HP:748/912
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kei (J1)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:748/912 MP:398/398
+B-
+C-Wild Hunt HP:310/596 MP:105/153
+D-Tlaltecuhtli HP:236/530 MP:59/104
+Equipo de Itsuki (J2)
+A-Itsuki HP:679/1136 MP:375/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Wild Hunt
+2-Tlaltecuhtli
+3-Kei
+----------------------------------------
+Seleccione una acción para Wild Hunt
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Wild Hunt use
+1-Blast Arrow MP:16
+2-Dream Fist MP:9
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Wild Hunt dispara a Itsuki
+Itsuki recibe 88 de daño
+Itsuki termina con HP:591/1136
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:748/912 MP:398/398
+B-
+C-Wild Hunt HP:310/596 MP:89/153
+D-Tlaltecuhtli HP:236/530 MP:59/104
+Equipo de Itsuki (J2)
+A-Itsuki HP:591/1136 MP:375/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Tlaltecuhtli
+2-Kei
+3-Wild Hunt
+----------------------------------------
+Seleccione una acción para Tlaltecuhtli
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cherub HP:491/567 MP:215/255
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Tlaltecuhtli
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:748/912 MP:398/398
+B-
+C-Wild Hunt HP:310/596 MP:89/153
+D-Tlaltecuhtli HP:236/530 MP:59/104
+Equipo de Itsuki (J2)
+A-Itsuki HP:591/1136 MP:375/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Kei
+2-Wild Hunt
+3-Tlaltecuhtli
+----------------------------------------
+Seleccione una acción para Kei
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Kei
+1-Itsuki HP:591/1136 MP:375/413
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Kei
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Kei use
+1-Concentrate MP:11
+2-Agilao MP:8
+3-Tetrakarn MP:50
+4-Mudoon MP:10
+5-Mudo MP:6
+6-Desperate Hit MP:40
+7-Zionga MP:8
+8-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione un objetivo para Kei
+1-Itsuki HP:591/1136 MP:375/413
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Kei
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Kei
+1-Itsuki HP:591/1136 MP:375/413
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Kei
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Kei
+1-Itsuki HP:591/1136 MP:375/413
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Kei ataca a Itsuki
+Itsuki devuelve 19 daño a Kei
+Kei termina con HP:729/912
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Itsuki (J2)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:729/912 MP:398/398
+B-
+C-Wild Hunt HP:310/596 MP:89/153
+D-Tlaltecuhtli HP:236/530 MP:59/104
+Equipo de Itsuki (J2)
+A-Itsuki HP:591/1136 MP:375/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Itsuki
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:729/912 MP:398/398
+B-
+C-Wild Hunt HP:310/596 MP:89/153
+D-Tlaltecuhtli HP:236/530 MP:59/104
+Equipo de Itsuki (J2)
+A-Itsuki HP:591/1136 MP:375/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Itsuki
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kei (J1)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:729/912 MP:398/398
+B-
+C-Wild Hunt HP:310/596 MP:89/153
+D-Tlaltecuhtli HP:236/530 MP:59/104
+Equipo de Itsuki (J2)
+A-Itsuki HP:591/1136 MP:375/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Wild Hunt
+2-Tlaltecuhtli
+3-Kei
+----------------------------------------
+Seleccione una acción para Wild Hunt
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Wild Hunt use
+1-Blast Arrow MP:16
+2-Dream Fist MP:9
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Wild Hunt
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cherub HP:491/567 MP:215/255
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Cherub ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:729/912 MP:398/398
+B-
+C-Cherub HP:491/567 MP:215/255
+D-Tlaltecuhtli HP:236/530 MP:59/104
+Equipo de Itsuki (J2)
+A-Itsuki HP:591/1136 MP:375/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Tlaltecuhtli
+2-Kei
+3-Cherub
+----------------------------------------
+Seleccione una acción para Tlaltecuhtli
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Wild Hunt HP:310/596 MP:89/153
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Wild Hunt ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:729/912 MP:398/398
+B-
+C-Cherub HP:491/567 MP:215/255
+D-Wild Hunt HP:310/596 MP:89/153
+Equipo de Itsuki (J2)
+A-Itsuki HP:591/1136 MP:375/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kei
+2-Cherub
+3-Wild Hunt
+----------------------------------------
+Seleccione una acción para Kei
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Kei
+1-Itsuki HP:591/1136 MP:375/413
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Kei
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Kei
+1-Itsuki HP:591/1136 MP:375/413
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Kei ataca a Itsuki
+Itsuki devuelve 19 daño a Kei
+Kei termina con HP:710/912
+----------------------------------------
+Se han consumido 2 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Itsuki (J2)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:710/912 MP:398/398
+B-
+C-Cherub HP:491/567 MP:215/255
+D-Wild Hunt HP:310/596 MP:89/153
+Equipo de Itsuki (J2)
+A-Itsuki HP:591/1136 MP:375/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Itsuki
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Itsuki use
+1-Riot Gun MP:30
+2-Zionga MP:8
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Itsuki
+1-Kei HP:710/912 MP:398/398
+2-Cherub HP:491/567 MP:215/255
+3-Wild Hunt HP:310/596 MP:89/153
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Itsuki dispara a Cherub
+Cherub es resistente el ataque de Itsuki
+Cherub recibe 76 de daño
+Cherub termina con HP:415/567
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kei (J1)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:710/912 MP:398/398
+B-
+C-Cherub HP:415/567 MP:215/255
+D-Wild Hunt HP:310/596 MP:89/153
+Equipo de Itsuki (J2)
+A-Itsuki HP:591/1136 MP:345/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Cherub
+2-Wild Hunt
+3-Kei
+----------------------------------------
+Seleccione una acción para Cherub
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Cherub use
+1-Tarukaja MP:15
+2-Megidola MP:40
+3-Heaven's Bow MP:26
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Cherub lanza un ataque todo poderoso a Itsuki
+Itsuki recibe 135 de daño
+Itsuki termina con HP:456/1136
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:710/912 MP:398/398
+B-
+C-Cherub HP:415/567 MP:175/255
+D-Wild Hunt HP:310/596 MP:89/153
+Equipo de Itsuki (J2)
+A-Itsuki HP:456/1136 MP:345/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Wild Hunt
+2-Kei
+3-Cherub
+----------------------------------------
+Seleccione una acción para Wild Hunt
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Tlaltecuhtli HP:236/530 MP:59/104
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Wild Hunt
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:710/912 MP:398/398
+B-
+C-Cherub HP:415/567 MP:175/255
+D-Wild Hunt HP:310/596 MP:89/153
+Equipo de Itsuki (J2)
+A-Itsuki HP:456/1136 MP:345/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Kei
+2-Cherub
+3-Wild Hunt
+----------------------------------------
+Seleccione una acción para Kei
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Kei
+1-Itsuki HP:456/1136 MP:345/413
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Kei
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:710/912 MP:398/398
+B-
+C-Cherub HP:415/567 MP:175/255
+D-Wild Hunt HP:310/596 MP:89/153
+Equipo de Itsuki (J2)
+A-Itsuki HP:456/1136 MP:345/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Cherub
+2-Wild Hunt
+3-Kei
+----------------------------------------
+Seleccione una acción para Cherub
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Cherub use
+1-Tarukaja MP:15
+2-Megidola MP:40
+3-Heaven's Bow MP:26
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Cherub lanza un ataque todo poderoso a Itsuki
+Itsuki recibe 135 de daño
+Itsuki termina con HP:321/1136
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Itsuki (J2)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:710/912 MP:398/398
+B-
+C-Cherub HP:415/567 MP:135/255
+D-Wild Hunt HP:310/596 MP:89/153
+Equipo de Itsuki (J2)
+A-Itsuki HP:321/1136 MP:345/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Itsuki
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Itsuki
+1-Kei HP:710/912 MP:398/398
+2-Cherub HP:415/567 MP:135/255
+3-Wild Hunt HP:310/596 MP:89/153
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Itsuki ataca a Cherub
+Cherub recibe 45 de daño
+Cherub termina con HP:370/567
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kei (J1)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:710/912 MP:398/398
+B-
+C-Cherub HP:370/567 MP:135/255
+D-Wild Hunt HP:310/596 MP:89/153
+Equipo de Itsuki (J2)
+A-Itsuki HP:321/1136 MP:345/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Cherub
+2-Wild Hunt
+3-Kei
+----------------------------------------
+Seleccione una acción para Cherub
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Tlaltecuhtli HP:236/530 MP:59/104
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Tlaltecuhtli ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:710/912 MP:398/398
+B-
+C-Tlaltecuhtli HP:236/530 MP:59/104
+D-Wild Hunt HP:310/596 MP:89/153
+Equipo de Itsuki (J2)
+A-Itsuki HP:321/1136 MP:345/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Wild Hunt
+2-Kei
+3-Tlaltecuhtli
+----------------------------------------
+Seleccione una acción para Wild Hunt
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cherub HP:370/567 MP:135/255
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Cherub ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:710/912 MP:398/398
+B-
+C-Tlaltecuhtli HP:236/530 MP:59/104
+D-Cherub HP:370/567 MP:135/255
+Equipo de Itsuki (J2)
+A-Itsuki HP:321/1136 MP:345/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kei
+2-Tlaltecuhtli
+3-Cherub
+----------------------------------------
+Seleccione una acción para Kei
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Wild Hunt HP:310/596 MP:89/153
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una posición para invocar
+1-Vacío (Puesto 2)
+2-Tlaltecuhtli HP:236/530 MP:59/104 (Puesto 3)
+3-Cherub HP:370/567 MP:135/255 (Puesto 4)
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Wild Hunt ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:710/912 MP:398/398
+B-
+C-Tlaltecuhtli HP:236/530 MP:59/104
+D-Wild Hunt HP:310/596 MP:89/153
+Equipo de Itsuki (J2)
+A-Itsuki HP:321/1136 MP:345/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Tlaltecuhtli
+2-Wild Hunt
+3-Kei
+----------------------------------------
+Seleccione una acción para Tlaltecuhtli
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cherub HP:370/567 MP:135/255
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Cherub ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:710/912 MP:398/398
+B-
+C-Cherub HP:370/567 MP:135/255
+D-Wild Hunt HP:310/596 MP:89/153
+Equipo de Itsuki (J2)
+A-Itsuki HP:321/1136 MP:345/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Wild Hunt
+2-Kei
+3-Cherub
+----------------------------------------
+Seleccione una acción para Wild Hunt
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Wild Hunt use
+1-Blast Arrow MP:16
+2-Dream Fist MP:9
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Wild Hunt
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Wild Hunt use
+1-Blast Arrow MP:16
+2-Dream Fist MP:9
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Wild Hunt
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Wild Hunt use
+1-Blast Arrow MP:16
+2-Dream Fist MP:9
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Wild Hunt
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Wild Hunt
+1-Itsuki HP:321/1136 MP:345/413
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Wild Hunt
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Wild Hunt use
+1-Blast Arrow MP:16
+2-Dream Fist MP:9
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Wild Hunt
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Wild Hunt
+1-Itsuki HP:321/1136 MP:345/413
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Wild Hunt ataca a Itsuki
+Itsuki devuelve 44 daño a Wild Hunt
+Wild Hunt termina con HP:266/596
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Itsuki (J2)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:710/912 MP:398/398
+B-
+C-Cherub HP:370/567 MP:135/255
+D-Wild Hunt HP:266/596 MP:89/153
+Equipo de Itsuki (J2)
+A-Itsuki HP:321/1136 MP:345/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Itsuki
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:710/912 MP:398/398
+B-
+C-Cherub HP:370/567 MP:135/255
+D-Wild Hunt HP:266/596 MP:89/153
+Equipo de Itsuki (J2)
+A-Itsuki HP:321/1136 MP:345/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Itsuki
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Itsuki use
+1-Riot Gun MP:30
+2-Zionga MP:8
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Itsuki use
+1-Riot Gun MP:30
+2-Zionga MP:8
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Itsuki use
+1-Riot Gun MP:30
+2-Zionga MP:8
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Itsuki
+1-Kei HP:710/912 MP:398/398
+2-Cherub HP:370/567 MP:135/255
+3-Wild Hunt HP:266/596 MP:89/153
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Itsuki ataca a Kei
+Kei es resistente el ataque de Itsuki
+Kei recibe 22 de daño
+Kei termina con HP:688/912
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kei (J1)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:688/912 MP:398/398
+B-
+C-Cherub HP:370/567 MP:135/255
+D-Wild Hunt HP:266/596 MP:89/153
+Equipo de Itsuki (J2)
+A-Itsuki HP:321/1136 MP:345/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Cherub
+2-Wild Hunt
+3-Kei
+----------------------------------------
+Seleccione una acción para Cherub
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:688/912 MP:398/398
+B-
+C-Cherub HP:370/567 MP:135/255
+D-Wild Hunt HP:266/596 MP:89/153
+Equipo de Itsuki (J2)
+A-Itsuki HP:321/1136 MP:345/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Wild Hunt
+2-Kei
+3-Cherub
+----------------------------------------
+Seleccione una acción para Wild Hunt
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Tlaltecuhtli HP:236/530 MP:59/104
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Tlaltecuhtli ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:688/912 MP:398/398
+B-
+C-Cherub HP:370/567 MP:135/255
+D-Tlaltecuhtli HP:236/530 MP:59/104
+Equipo de Itsuki (J2)
+A-Itsuki HP:321/1136 MP:345/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kei
+2-Cherub
+3-Tlaltecuhtli
+----------------------------------------
+Seleccione una acción para Kei
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Kei
+1-Itsuki HP:321/1136 MP:345/413
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Kei
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Kei
+1-Itsuki HP:321/1136 MP:345/413
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Kei
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Kei use
+1-Concentrate MP:11
+2-Agilao MP:8
+3-Tetrakarn MP:50
+4-Mudoon MP:10
+5-Mudo MP:6
+6-Desperate Hit MP:40
+7-Zionga MP:8
+8-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione un objetivo para Kei
+1-Itsuki HP:321/1136 MP:345/413
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Kei
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Wild Hunt HP:266/596 MP:89/153
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una posición para invocar
+1-Vacío (Puesto 2)
+2-Cherub HP:370/567 MP:135/255 (Puesto 3)
+3-Tlaltecuhtli HP:236/530 MP:59/104 (Puesto 4)
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Wild Hunt ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:688/912 MP:398/398
+B-Wild Hunt HP:266/596 MP:89/153
+C-Cherub HP:370/567 MP:135/255
+D-Tlaltecuhtli HP:236/530 MP:59/104
+Equipo de Itsuki (J2)
+A-Itsuki HP:321/1136 MP:345/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Cherub
+2-Tlaltecuhtli
+3-Wild Hunt
+4-Kei
+----------------------------------------
+Seleccione una acción para Cherub
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:688/912 MP:398/398
+B-Wild Hunt HP:266/596 MP:89/153
+C-Cherub HP:370/567 MP:135/255
+D-Tlaltecuhtli HP:236/530 MP:59/104
+Equipo de Itsuki (J2)
+A-Itsuki HP:321/1136 MP:345/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Tlaltecuhtli
+2-Wild Hunt
+3-Kei
+4-Cherub
+----------------------------------------
+Seleccione una acción para Tlaltecuhtli
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Tlaltecuhtli use
+1-Megido MP:25
+2-Mazionga MP:20
+3-Agidyne MP:14
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Tlaltecuhtli lanza electricidad a Itsuki
+Itsuki absorbe 88 daño
+Itsuki termina con HP:409/1136
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Itsuki (J2)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:688/912 MP:398/398
+B-Wild Hunt HP:266/596 MP:89/153
+C-Cherub HP:370/567 MP:135/255
+D-Tlaltecuhtli HP:236/530 MP:39/104
+Equipo de Itsuki (J2)
+A-Itsuki HP:409/1136 MP:345/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Itsuki
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Itsuki
+1-Kei HP:688/912 MP:398/398
+2-Wild Hunt HP:266/596 MP:89/153
+3-Cherub HP:370/567 MP:135/255
+4-Tlaltecuhtli HP:236/530 MP:39/104
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Itsuki
+1-Kei HP:688/912 MP:398/398
+2-Wild Hunt HP:266/596 MP:89/153
+3-Cherub HP:370/567 MP:135/255
+4-Tlaltecuhtli HP:236/530 MP:39/104
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Itsuki
+1-Kei HP:688/912 MP:398/398
+2-Wild Hunt HP:266/596 MP:89/153
+3-Cherub HP:370/567 MP:135/255
+4-Tlaltecuhtli HP:236/530 MP:39/104
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Itsuki dispara a Cherub
+Cherub es resistente el ataque de Itsuki
+Cherub recibe 30 de daño
+Cherub termina con HP:340/567
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kei (J1)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:688/912 MP:398/398
+B-Wild Hunt HP:266/596 MP:89/153
+C-Cherub HP:340/567 MP:135/255
+D-Tlaltecuhtli HP:236/530 MP:39/104
+Equipo de Itsuki (J2)
+A-Itsuki HP:409/1136 MP:345/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Cherub
+2-Wild Hunt
+3-Tlaltecuhtli
+4-Kei
+----------------------------------------
+Seleccione una acción para Cherub
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Cherub
+1-Itsuki HP:409/1136 MP:345/413
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Cherub
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Cherub use
+1-Tarukaja MP:15
+2-Megidola MP:40
+3-Heaven's Bow MP:26
+4-Cancelar
+INPUT: 1
+----------------------------------------
+El ataque de Kei ha aumentado
+El ataque de Wild Hunt ha aumentado
+El ataque de Tlaltecuhtli ha aumentado
+El ataque de Cherub ha aumentado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:688/912 MP:398/398
+B-Wild Hunt HP:266/596 MP:89/153
+C-Cherub HP:340/567 MP:120/255
+D-Tlaltecuhtli HP:236/530 MP:39/104
+Equipo de Itsuki (J2)
+A-Itsuki HP:409/1136 MP:345/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Wild Hunt
+2-Tlaltecuhtli
+3-Kei
+4-Cherub
+----------------------------------------
+Seleccione una acción para Wild Hunt
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Wild Hunt use
+1-Blast Arrow MP:16
+2-Dream Fist MP:9
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Wild Hunt
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Wild Hunt
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Wild Hunt
+1-Itsuki HP:409/1136 MP:345/413
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Wild Hunt ataca a Itsuki
+Itsuki devuelve 44 daño a Wild Hunt
+Wild Hunt termina con HP:222/596
+----------------------------------------
+Se han consumido 3 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Itsuki (J2)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:688/912 MP:398/398
+B-Wild Hunt HP:222/596 MP:89/153
+C-Cherub HP:340/567 MP:120/255
+D-Tlaltecuhtli HP:236/530 MP:39/104
+Equipo de Itsuki (J2)
+A-Itsuki HP:409/1136 MP:345/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Itsuki
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Itsuki
+1-Kei HP:688/912 MP:398/398
+2-Wild Hunt HP:222/596 MP:89/153
+3-Cherub HP:340/567 MP:120/255
+4-Tlaltecuhtli HP:236/530 MP:39/104
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Itsuki
+1-Kei HP:688/912 MP:398/398
+2-Wild Hunt HP:222/596 MP:89/153
+3-Cherub HP:340/567 MP:120/255
+4-Tlaltecuhtli HP:236/530 MP:39/104
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Itsuki ataca a Kei
+Kei es resistente el ataque de Itsuki
+Kei recibe 22 de daño
+Kei termina con HP:666/912
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kei (J1)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:666/912 MP:398/398
+B-Wild Hunt HP:222/596 MP:89/153
+C-Cherub HP:340/567 MP:120/255
+D-Tlaltecuhtli HP:236/530 MP:39/104
+Equipo de Itsuki (J2)
+A-Itsuki HP:409/1136 MP:345/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Cherub
+2-Wild Hunt
+3-Tlaltecuhtli
+4-Kei
+----------------------------------------
+Seleccione una acción para Cherub
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Cherub
+1-Itsuki HP:409/1136 MP:345/413
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Cherub ataca a Itsuki
+Itsuki devuelve 47 daño a Cherub
+Cherub termina con HP:293/567
+----------------------------------------
+Se han consumido 4 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Itsuki (J2)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:666/912 MP:398/398
+B-Wild Hunt HP:222/596 MP:89/153
+C-Cherub HP:293/567 MP:120/255
+D-Tlaltecuhtli HP:236/530 MP:39/104
+Equipo de Itsuki (J2)
+A-Itsuki HP:409/1136 MP:345/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Itsuki
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Itsuki
+1-Kei HP:666/912 MP:398/398
+2-Wild Hunt HP:222/596 MP:89/153
+3-Cherub HP:293/567 MP:120/255
+4-Tlaltecuhtli HP:236/530 MP:39/104
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Itsuki dispara a Wild Hunt
+Wild Hunt recibe 61 de daño
+Wild Hunt termina con HP:161/596
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kei (J1)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:666/912 MP:398/398
+B-Wild Hunt HP:161/596 MP:89/153
+C-Cherub HP:293/567 MP:120/255
+D-Tlaltecuhtli HP:236/530 MP:39/104
+Equipo de Itsuki (J2)
+A-Itsuki HP:409/1136 MP:345/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Cherub
+2-Wild Hunt
+3-Tlaltecuhtli
+4-Kei
+----------------------------------------
+Seleccione una acción para Cherub
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Cherub
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Cherub
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Cherub use
+1-Tarukaja MP:15
+2-Megidola MP:40
+3-Heaven's Bow MP:26
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Cherub
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Cherub use
+1-Tarukaja MP:15
+2-Megidola MP:40
+3-Heaven's Bow MP:26
+4-Cancelar
+INPUT: 1
+----------------------------------------
+El ataque de Kei ha aumentado
+El ataque de Wild Hunt ha aumentado
+El ataque de Tlaltecuhtli ha aumentado
+El ataque de Cherub ha aumentado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:666/912 MP:398/398
+B-Wild Hunt HP:161/596 MP:89/153
+C-Cherub HP:293/567 MP:105/255
+D-Tlaltecuhtli HP:236/530 MP:39/104
+Equipo de Itsuki (J2)
+A-Itsuki HP:409/1136 MP:345/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Wild Hunt
+2-Tlaltecuhtli
+3-Kei
+4-Cherub
+----------------------------------------
+Seleccione una acción para Wild Hunt
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Wild Hunt
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:666/912 MP:398/398
+B-Wild Hunt HP:161/596 MP:89/153
+C-Cherub HP:293/567 MP:105/255
+D-Tlaltecuhtli HP:236/530 MP:39/104
+Equipo de Itsuki (J2)
+A-Itsuki HP:409/1136 MP:345/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Tlaltecuhtli
+2-Kei
+3-Cherub
+4-Wild Hunt
+----------------------------------------
+Seleccione una acción para Tlaltecuhtli
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Tlaltecuhtli
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:666/912 MP:398/398
+B-Wild Hunt HP:161/596 MP:89/153
+C-Cherub HP:293/567 MP:105/255
+D-Tlaltecuhtli HP:236/530 MP:39/104
+Equipo de Itsuki (J2)
+A-Itsuki HP:409/1136 MP:345/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kei
+2-Cherub
+3-Wild Hunt
+4-Tlaltecuhtli
+----------------------------------------
+Seleccione una acción para Kei
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:666/912 MP:398/398
+B-Wild Hunt HP:161/596 MP:89/153
+C-Cherub HP:293/567 MP:105/255
+D-Tlaltecuhtli HP:236/530 MP:39/104
+Equipo de Itsuki (J2)
+A-Itsuki HP:409/1136 MP:345/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Cherub
+2-Wild Hunt
+3-Tlaltecuhtli
+4-Kei
+----------------------------------------
+Seleccione una acción para Cherub
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Cherub
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Cherub
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Cherub
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:666/912 MP:398/398
+B-Wild Hunt HP:161/596 MP:89/153
+C-Cherub HP:293/567 MP:105/255
+D-Tlaltecuhtli HP:236/530 MP:39/104
+Equipo de Itsuki (J2)
+A-Itsuki HP:409/1136 MP:345/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Wild Hunt
+2-Tlaltecuhtli
+3-Kei
+4-Cherub
+----------------------------------------
+Seleccione una acción para Wild Hunt
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Wild Hunt use
+1-Blast Arrow MP:16
+2-Dream Fist MP:9
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Wild Hunt dispara a Itsuki
+Itsuki recibe 132 de daño
+Itsuki termina con HP:277/1136
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Itsuki (J2)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:666/912 MP:398/398
+B-Wild Hunt HP:161/596 MP:73/153
+C-Cherub HP:293/567 MP:105/255
+D-Tlaltecuhtli HP:236/530 MP:39/104
+Equipo de Itsuki (J2)
+A-Itsuki HP:277/1136 MP:345/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Itsuki
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Itsuki
+1-Kei HP:666/912 MP:398/398
+2-Wild Hunt HP:161/596 MP:73/153
+3-Cherub HP:293/567 MP:105/255
+4-Tlaltecuhtli HP:236/530 MP:39/104
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Itsuki ataca a Kei
+Kei es resistente el ataque de Itsuki
+Kei recibe 22 de daño
+Kei termina con HP:644/912
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kei (J1)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:644/912 MP:398/398
+B-Wild Hunt HP:161/596 MP:73/153
+C-Cherub HP:293/567 MP:105/255
+D-Tlaltecuhtli HP:236/530 MP:39/104
+Equipo de Itsuki (J2)
+A-Itsuki HP:277/1136 MP:345/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Cherub
+2-Wild Hunt
+3-Tlaltecuhtli
+4-Kei
+----------------------------------------
+Seleccione una acción para Cherub
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Cherub
+1-Itsuki HP:277/1136 MP:345/413
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Cherub ataca a Itsuki
+Itsuki devuelve 47 daño a Cherub
+Cherub termina con HP:246/567
+----------------------------------------
+Se han consumido 4 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Itsuki (J2)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:644/912 MP:398/398
+B-Wild Hunt HP:161/596 MP:73/153
+C-Cherub HP:246/567 MP:105/255
+D-Tlaltecuhtli HP:236/530 MP:39/104
+Equipo de Itsuki (J2)
+A-Itsuki HP:277/1136 MP:345/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Itsuki
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Itsuki
+1-Kei HP:644/912 MP:398/398
+2-Wild Hunt HP:161/596 MP:73/153
+3-Cherub HP:246/567 MP:105/255
+4-Tlaltecuhtli HP:236/530 MP:39/104
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Itsuki ataca a Tlaltecuhtli
+Tlaltecuhtli es resistente el ataque de Itsuki
+Tlaltecuhtli recibe 22 de daño
+Tlaltecuhtli termina con HP:214/530
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kei (J1)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:644/912 MP:398/398
+B-Wild Hunt HP:161/596 MP:73/153
+C-Cherub HP:246/567 MP:105/255
+D-Tlaltecuhtli HP:214/530 MP:39/104
+Equipo de Itsuki (J2)
+A-Itsuki HP:277/1136 MP:345/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Cherub
+2-Wild Hunt
+3-Tlaltecuhtli
+4-Kei
+----------------------------------------
+Seleccione una acción para Cherub
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:644/912 MP:398/398
+B-Wild Hunt HP:161/596 MP:73/153
+C-Cherub HP:246/567 MP:105/255
+D-Tlaltecuhtli HP:214/530 MP:39/104
+Equipo de Itsuki (J2)
+A-Itsuki HP:277/1136 MP:345/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Wild Hunt
+2-Tlaltecuhtli
+3-Kei
+4-Cherub
+----------------------------------------
+Seleccione una acción para Wild Hunt
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Wild Hunt
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:644/912 MP:398/398
+B-Wild Hunt HP:161/596 MP:73/153
+C-Cherub HP:246/567 MP:105/255
+D-Tlaltecuhtli HP:214/530 MP:39/104
+Equipo de Itsuki (J2)
+A-Itsuki HP:277/1136 MP:345/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Tlaltecuhtli
+2-Kei
+3-Cherub
+4-Wild Hunt
+----------------------------------------
+Seleccione una acción para Tlaltecuhtli
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:644/912 MP:398/398
+B-Wild Hunt HP:161/596 MP:73/153
+C-Cherub HP:246/567 MP:105/255
+D-Tlaltecuhtli HP:214/530 MP:39/104
+Equipo de Itsuki (J2)
+A-Itsuki HP:277/1136 MP:345/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Kei
+2-Cherub
+3-Wild Hunt
+4-Tlaltecuhtli
+----------------------------------------
+Seleccione una acción para Kei
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Kei use
+1-Concentrate MP:11
+2-Agilao MP:8
+3-Tetrakarn MP:50
+4-Mudoon MP:10
+5-Mudo MP:6
+6-Desperate Hit MP:40
+7-Zionga MP:8
+8-Cancelar
+INPUT: 7
+----------------------------------------
+Seleccione un objetivo para Kei
+1-Itsuki HP:277/1136 MP:345/413
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Kei
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:644/912 MP:398/398
+B-Wild Hunt HP:161/596 MP:73/153
+C-Cherub HP:246/567 MP:105/255
+D-Tlaltecuhtli HP:214/530 MP:39/104
+Equipo de Itsuki (J2)
+A-Itsuki HP:277/1136 MP:345/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Cherub
+2-Wild Hunt
+3-Tlaltecuhtli
+4-Kei
+----------------------------------------
+Seleccione una acción para Cherub
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Cherub
+1-Itsuki HP:277/1136 MP:345/413
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Cherub ataca a Itsuki
+Itsuki devuelve 47 daño a Cherub
+Cherub termina con HP:199/567
+----------------------------------------
+Se han consumido 2 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Itsuki (J2)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:644/912 MP:398/398
+B-Wild Hunt HP:161/596 MP:73/153
+C-Cherub HP:199/567 MP:105/255
+D-Tlaltecuhtli HP:214/530 MP:39/104
+Equipo de Itsuki (J2)
+A-Itsuki HP:277/1136 MP:345/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Itsuki
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Itsuki
+1-Kei HP:644/912 MP:398/398
+2-Wild Hunt HP:161/596 MP:73/153
+3-Cherub HP:199/567 MP:105/255
+4-Tlaltecuhtli HP:214/530 MP:39/104
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Itsuki ataca a Cherub
+Cherub recibe 45 de daño
+Cherub termina con HP:154/567
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kei (J1)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:644/912 MP:398/398
+B-Wild Hunt HP:161/596 MP:73/153
+C-Cherub HP:154/567 MP:105/255
+D-Tlaltecuhtli HP:214/530 MP:39/104
+Equipo de Itsuki (J2)
+A-Itsuki HP:277/1136 MP:345/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Cherub
+2-Wild Hunt
+3-Tlaltecuhtli
+4-Kei
+----------------------------------------
+Seleccione una acción para Cherub
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Cherub
+1-Itsuki HP:277/1136 MP:345/413
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Cherub
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Cherub
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:644/912 MP:398/398
+B-Wild Hunt HP:161/596 MP:73/153
+C-Cherub HP:154/567 MP:105/255
+D-Tlaltecuhtli HP:214/530 MP:39/104
+Equipo de Itsuki (J2)
+A-Itsuki HP:277/1136 MP:345/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Wild Hunt
+2-Tlaltecuhtli
+3-Kei
+4-Cherub
+----------------------------------------
+Seleccione una acción para Wild Hunt
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Wild Hunt
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Wild Hunt
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Wild Hunt
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:644/912 MP:398/398
+B-Wild Hunt HP:161/596 MP:73/153
+C-Cherub HP:154/567 MP:105/255
+D-Tlaltecuhtli HP:214/530 MP:39/104
+Equipo de Itsuki (J2)
+A-Itsuki HP:277/1136 MP:345/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Tlaltecuhtli
+2-Kei
+3-Cherub
+4-Wild Hunt
+----------------------------------------
+Seleccione una acción para Tlaltecuhtli
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Tlaltecuhtli use
+1-Megido MP:25
+2-Mazionga MP:20
+3-Agidyne MP:14
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Tlaltecuhtli lanza electricidad a Itsuki
+Itsuki absorbe 88 daño
+Itsuki termina con HP:365/1136
+----------------------------------------
+Se han consumido 3 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Itsuki (J2)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:644/912 MP:398/398
+B-Wild Hunt HP:161/596 MP:73/153
+C-Cherub HP:154/567 MP:105/255
+D-Tlaltecuhtli HP:214/530 MP:19/104
+Equipo de Itsuki (J2)
+A-Itsuki HP:365/1136 MP:345/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Itsuki
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Itsuki
+1-Kei HP:644/912 MP:398/398
+2-Wild Hunt HP:161/596 MP:73/153
+3-Cherub HP:154/567 MP:105/255
+4-Tlaltecuhtli HP:214/530 MP:19/104
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Itsuki ataca a Tlaltecuhtli
+Tlaltecuhtli es resistente el ataque de Itsuki
+Tlaltecuhtli recibe 22 de daño
+Tlaltecuhtli termina con HP:192/530
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kei (J1)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:644/912 MP:398/398
+B-Wild Hunt HP:161/596 MP:73/153
+C-Cherub HP:154/567 MP:105/255
+D-Tlaltecuhtli HP:192/530 MP:19/104
+Equipo de Itsuki (J2)
+A-Itsuki HP:365/1136 MP:345/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Cherub
+2-Wild Hunt
+3-Tlaltecuhtli
+4-Kei
+----------------------------------------
+Seleccione una acción para Cherub
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Cherub
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Cherub
+1-Itsuki HP:365/1136 MP:345/413
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Cherub ataca a Itsuki
+Itsuki devuelve 47 daño a Cherub
+Cherub termina con HP:107/567
+----------------------------------------
+Se han consumido 4 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Itsuki (J2)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:644/912 MP:398/398
+B-Wild Hunt HP:161/596 MP:73/153
+C-Cherub HP:107/567 MP:105/255
+D-Tlaltecuhtli HP:192/530 MP:19/104
+Equipo de Itsuki (J2)
+A-Itsuki HP:365/1136 MP:345/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Itsuki
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:644/912 MP:398/398
+B-Wild Hunt HP:161/596 MP:73/153
+C-Cherub HP:107/567 MP:105/255
+D-Tlaltecuhtli HP:192/530 MP:19/104
+Equipo de Itsuki (J2)
+A-Itsuki HP:365/1136 MP:345/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Itsuki
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kei (J1)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:644/912 MP:398/398
+B-Wild Hunt HP:161/596 MP:73/153
+C-Cherub HP:107/567 MP:105/255
+D-Tlaltecuhtli HP:192/530 MP:19/104
+Equipo de Itsuki (J2)
+A-Itsuki HP:365/1136 MP:345/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Cherub
+2-Wild Hunt
+3-Tlaltecuhtli
+4-Kei
+----------------------------------------
+Seleccione una acción para Cherub
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Cherub
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Cherub
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:644/912 MP:398/398
+B-Wild Hunt HP:161/596 MP:73/153
+C-Cherub HP:107/567 MP:105/255
+D-Tlaltecuhtli HP:192/530 MP:19/104
+Equipo de Itsuki (J2)
+A-Itsuki HP:365/1136 MP:345/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Wild Hunt
+2-Tlaltecuhtli
+3-Kei
+4-Cherub
+----------------------------------------
+Seleccione una acción para Wild Hunt
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Wild Hunt
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:644/912 MP:398/398
+B-Wild Hunt HP:161/596 MP:73/153
+C-Cherub HP:107/567 MP:105/255
+D-Tlaltecuhtli HP:192/530 MP:19/104
+Equipo de Itsuki (J2)
+A-Itsuki HP:365/1136 MP:345/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Tlaltecuhtli
+2-Kei
+3-Cherub
+4-Wild Hunt
+----------------------------------------
+Seleccione una acción para Tlaltecuhtli
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Tlaltecuhtli
+1-Itsuki HP:365/1136 MP:345/413
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Tlaltecuhtli ataca a Itsuki
+Itsuki devuelve 27 daño a Tlaltecuhtli
+Tlaltecuhtli termina con HP:165/530
+----------------------------------------
+Se han consumido 3 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Itsuki (J2)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:644/912 MP:398/398
+B-Wild Hunt HP:161/596 MP:73/153
+C-Cherub HP:107/567 MP:105/255
+D-Tlaltecuhtli HP:165/530 MP:19/104
+Equipo de Itsuki (J2)
+A-Itsuki HP:365/1136 MP:345/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Itsuki
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Itsuki use
+1-Riot Gun MP:30
+2-Zionga MP:8
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Itsuki
+1-Kei HP:644/912 MP:398/398
+2-Wild Hunt HP:161/596 MP:73/153
+3-Cherub HP:107/567 MP:105/255
+4-Tlaltecuhtli HP:165/530 MP:19/104
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Itsuki ataca a Cherub
+Cherub recibe 45 de daño
+Cherub termina con HP:62/567
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kei (J1)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:644/912 MP:398/398
+B-Wild Hunt HP:161/596 MP:73/153
+C-Cherub HP:62/567 MP:105/255
+D-Tlaltecuhtli HP:165/530 MP:19/104
+Equipo de Itsuki (J2)
+A-Itsuki HP:365/1136 MP:345/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Cherub
+2-Wild Hunt
+3-Tlaltecuhtli
+4-Kei
+----------------------------------------
+Seleccione una acción para Cherub
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:644/912 MP:398/398
+B-Wild Hunt HP:161/596 MP:73/153
+C-Cherub HP:62/567 MP:105/255
+D-Tlaltecuhtli HP:165/530 MP:19/104
+Equipo de Itsuki (J2)
+A-Itsuki HP:365/1136 MP:345/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Wild Hunt
+2-Tlaltecuhtli
+3-Kei
+4-Cherub
+----------------------------------------
+Seleccione una acción para Wild Hunt
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Wild Hunt
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Wild Hunt
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Wild Hunt
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Wild Hunt
+1-Itsuki HP:365/1136 MP:345/413
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Wild Hunt
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Wild Hunt
+1-Itsuki HP:365/1136 MP:345/413
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Wild Hunt ataca a Itsuki
+Itsuki devuelve 44 daño a Wild Hunt
+Wild Hunt termina con HP:117/596
+----------------------------------------
+Se han consumido 3 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Itsuki (J2)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:644/912 MP:398/398
+B-Wild Hunt HP:117/596 MP:73/153
+C-Cherub HP:62/567 MP:105/255
+D-Tlaltecuhtli HP:165/530 MP:19/104
+Equipo de Itsuki (J2)
+A-Itsuki HP:365/1136 MP:345/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Itsuki
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Itsuki
+1-Kei HP:644/912 MP:398/398
+2-Wild Hunt HP:117/596 MP:73/153
+3-Cherub HP:62/567 MP:105/255
+4-Tlaltecuhtli HP:165/530 MP:19/104
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:644/912 MP:398/398
+B-Wild Hunt HP:117/596 MP:73/153
+C-Cherub HP:62/567 MP:105/255
+D-Tlaltecuhtli HP:165/530 MP:19/104
+Equipo de Itsuki (J2)
+A-Itsuki HP:365/1136 MP:345/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Itsuki
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Itsuki
+1-Kei HP:644/912 MP:398/398
+2-Wild Hunt HP:117/596 MP:73/153
+3-Cherub HP:62/567 MP:105/255
+4-Tlaltecuhtli HP:165/530 MP:19/104
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Itsuki dispara a Cherub
+Cherub es resistente el ataque de Itsuki
+Cherub recibe 30 de daño
+Cherub termina con HP:32/567
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kei (J1)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:644/912 MP:398/398
+B-Wild Hunt HP:117/596 MP:73/153
+C-Cherub HP:32/567 MP:105/255
+D-Tlaltecuhtli HP:165/530 MP:19/104
+Equipo de Itsuki (J2)
+A-Itsuki HP:365/1136 MP:345/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Cherub
+2-Wild Hunt
+3-Tlaltecuhtli
+4-Kei
+----------------------------------------
+Seleccione una acción para Cherub
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Cherub
+1-Itsuki HP:365/1136 MP:345/413
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Cherub
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Cherub
+1-Itsuki HP:365/1136 MP:345/413
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Cherub
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Cherub
+1-Itsuki HP:365/1136 MP:345/413
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Cherub ataca a Itsuki
+Itsuki devuelve 47 daño a Cherub
+Cherub termina con HP:0/567
+----------------------------------------
+Se han consumido 4 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Itsuki (J2)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:644/912 MP:398/398
+B-Wild Hunt HP:117/596 MP:73/153
+C-
+D-Tlaltecuhtli HP:165/530 MP:19/104
+Equipo de Itsuki (J2)
+A-Itsuki HP:365/1136 MP:345/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Itsuki
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Itsuki
+1-Kei HP:644/912 MP:398/398
+2-Wild Hunt HP:117/596 MP:73/153
+3-Tlaltecuhtli HP:165/530 MP:19/104
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Itsuki ataca a Kei
+Kei es resistente el ataque de Itsuki
+Kei recibe 22 de daño
+Kei termina con HP:622/912
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kei (J1)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:622/912 MP:398/398
+B-Wild Hunt HP:117/596 MP:73/153
+C-
+D-Tlaltecuhtli HP:165/530 MP:19/104
+Equipo de Itsuki (J2)
+A-Itsuki HP:365/1136 MP:345/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Wild Hunt
+2-Tlaltecuhtli
+3-Kei
+----------------------------------------
+Seleccione una acción para Wild Hunt
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:622/912 MP:398/398
+B-Wild Hunt HP:117/596 MP:73/153
+C-
+D-Tlaltecuhtli HP:165/530 MP:19/104
+Equipo de Itsuki (J2)
+A-Itsuki HP:365/1136 MP:345/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Tlaltecuhtli
+2-Kei
+3-Wild Hunt
+----------------------------------------
+Seleccione una acción para Tlaltecuhtli
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Tlaltecuhtli
+1-Itsuki HP:365/1136 MP:345/413
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Tlaltecuhtli ataca a Itsuki
+Itsuki devuelve 27 daño a Tlaltecuhtli
+Tlaltecuhtli termina con HP:138/530
+----------------------------------------
+Se han consumido 2 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Itsuki (J2)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:622/912 MP:398/398
+B-Wild Hunt HP:117/596 MP:73/153
+C-
+D-Tlaltecuhtli HP:138/530 MP:19/104
+Equipo de Itsuki (J2)
+A-Itsuki HP:365/1136 MP:345/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Itsuki
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Itsuki
+1-Kei HP:622/912 MP:398/398
+2-Wild Hunt HP:117/596 MP:73/153
+3-Tlaltecuhtli HP:138/530 MP:19/104
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Itsuki use
+1-Riot Gun MP:30
+2-Zionga MP:8
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Itsuki
+1-Kei HP:622/912 MP:398/398
+2-Wild Hunt HP:117/596 MP:73/153
+3-Tlaltecuhtli HP:138/530 MP:19/104
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:622/912 MP:398/398
+B-Wild Hunt HP:117/596 MP:73/153
+C-
+D-Tlaltecuhtli HP:138/530 MP:19/104
+Equipo de Itsuki (J2)
+A-Itsuki HP:365/1136 MP:345/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Itsuki
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kei (J1)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:622/912 MP:398/398
+B-Wild Hunt HP:117/596 MP:73/153
+C-
+D-Tlaltecuhtli HP:138/530 MP:19/104
+Equipo de Itsuki (J2)
+A-Itsuki HP:365/1136 MP:345/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Wild Hunt
+2-Tlaltecuhtli
+3-Kei
+----------------------------------------
+Seleccione una acción para Wild Hunt
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Wild Hunt
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Wild Hunt
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Wild Hunt use
+1-Blast Arrow MP:16
+2-Dream Fist MP:9
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Wild Hunt dispara a Itsuki
+Itsuki recibe 132 de daño
+Itsuki termina con HP:233/1136
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:622/912 MP:398/398
+B-Wild Hunt HP:117/596 MP:57/153
+C-
+D-Tlaltecuhtli HP:138/530 MP:19/104
+Equipo de Itsuki (J2)
+A-Itsuki HP:233/1136 MP:345/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Tlaltecuhtli
+2-Kei
+3-Wild Hunt
+----------------------------------------
+Seleccione una acción para Tlaltecuhtli
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Tlaltecuhtli
+1-Itsuki HP:233/1136 MP:345/413
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Tlaltecuhtli
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Tlaltecuhtli
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:622/912 MP:398/398
+B-Wild Hunt HP:117/596 MP:57/153
+C-
+D-Tlaltecuhtli HP:138/530 MP:19/104
+Equipo de Itsuki (J2)
+A-Itsuki HP:233/1136 MP:345/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Kei
+2-Wild Hunt
+3-Tlaltecuhtli
+----------------------------------------
+Seleccione una acción para Kei
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:622/912 MP:398/398
+B-Wild Hunt HP:117/596 MP:57/153
+C-
+D-Tlaltecuhtli HP:138/530 MP:19/104
+Equipo de Itsuki (J2)
+A-Itsuki HP:233/1136 MP:345/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Wild Hunt
+2-Tlaltecuhtli
+3-Kei
+----------------------------------------
+Seleccione una acción para Wild Hunt
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Wild Hunt
+1-Itsuki HP:233/1136 MP:345/413
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Wild Hunt ataca a Itsuki
+Itsuki devuelve 44 daño a Wild Hunt
+Wild Hunt termina con HP:73/596
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Itsuki (J2)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:622/912 MP:398/398
+B-Wild Hunt HP:73/596 MP:57/153
+C-
+D-Tlaltecuhtli HP:138/530 MP:19/104
+Equipo de Itsuki (J2)
+A-Itsuki HP:233/1136 MP:345/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Itsuki
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:622/912 MP:398/398
+B-Wild Hunt HP:73/596 MP:57/153
+C-
+D-Tlaltecuhtli HP:138/530 MP:19/104
+Equipo de Itsuki (J2)
+A-Itsuki HP:233/1136 MP:345/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Itsuki
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kei (J1)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:622/912 MP:398/398
+B-Wild Hunt HP:73/596 MP:57/153
+C-
+D-Tlaltecuhtli HP:138/530 MP:19/104
+Equipo de Itsuki (J2)
+A-Itsuki HP:233/1136 MP:345/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Wild Hunt
+2-Tlaltecuhtli
+3-Kei
+----------------------------------------
+Seleccione una acción para Wild Hunt
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Wild Hunt
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:622/912 MP:398/398
+B-Wild Hunt HP:73/596 MP:57/153
+C-
+D-Tlaltecuhtli HP:138/530 MP:19/104
+Equipo de Itsuki (J2)
+A-Itsuki HP:233/1136 MP:345/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Tlaltecuhtli
+2-Kei
+3-Wild Hunt
+----------------------------------------
+Seleccione una acción para Tlaltecuhtli
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Tlaltecuhtli
+1-Itsuki HP:233/1136 MP:345/413
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Tlaltecuhtli ataca a Itsuki
+Itsuki devuelve 27 daño a Tlaltecuhtli
+Tlaltecuhtli termina con HP:111/530
+----------------------------------------
+Se han consumido 2 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Itsuki (J2)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:622/912 MP:398/398
+B-Wild Hunt HP:73/596 MP:57/153
+C-
+D-Tlaltecuhtli HP:111/530 MP:19/104
+Equipo de Itsuki (J2)
+A-Itsuki HP:233/1136 MP:345/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Itsuki
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Itsuki
+1-Kei HP:622/912 MP:398/398
+2-Wild Hunt HP:73/596 MP:57/153
+3-Tlaltecuhtli HP:111/530 MP:19/104
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Itsuki ataca a Kei
+Kei es resistente el ataque de Itsuki
+Kei recibe 22 de daño
+Kei termina con HP:600/912
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kei (J1)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:600/912 MP:398/398
+B-Wild Hunt HP:73/596 MP:57/153
+C-
+D-Tlaltecuhtli HP:111/530 MP:19/104
+Equipo de Itsuki (J2)
+A-Itsuki HP:233/1136 MP:345/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Wild Hunt
+2-Tlaltecuhtli
+3-Kei
+----------------------------------------
+Seleccione una acción para Wild Hunt
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Wild Hunt
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Wild Hunt
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Wild Hunt
+1-Itsuki HP:233/1136 MP:345/413
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Wild Hunt ataca a Itsuki
+Itsuki devuelve 44 daño a Wild Hunt
+Wild Hunt termina con HP:29/596
+----------------------------------------
+Se han consumido 3 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Itsuki (J2)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:600/912 MP:398/398
+B-Wild Hunt HP:29/596 MP:57/153
+C-
+D-Tlaltecuhtli HP:111/530 MP:19/104
+Equipo de Itsuki (J2)
+A-Itsuki HP:233/1136 MP:345/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Itsuki
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Itsuki use
+1-Riot Gun MP:30
+2-Zionga MP:8
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Itsuki
+1-Kei HP:600/912 MP:398/398
+2-Wild Hunt HP:29/596 MP:57/153
+3-Tlaltecuhtli HP:111/530 MP:19/104
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Itsuki dispara a Wild Hunt
+Wild Hunt recibe 153 de daño
+Wild Hunt termina con HP:0/596
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kei (J1)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:600/912 MP:398/398
+B-
+C-
+D-Tlaltecuhtli HP:111/530 MP:19/104
+Equipo de Itsuki (J2)
+A-Itsuki HP:233/1136 MP:315/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Tlaltecuhtli
+2-Kei
+----------------------------------------
+Seleccione una acción para Tlaltecuhtli
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kei (J1)
+A-Kei HP:600/912 MP:398/398
+B-
+C-
+D-Tlaltecuhtli HP:111/530 MP:19/104
+Equipo de Itsuki (J2)
+A-Itsuki HP:233/1136 MP:315/413
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Kei
+2-Tlaltecuhtli
+----------------------------------------
+Seleccione una acción para Kei
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Kei
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Kei
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Kei use
+1-Concentrate MP:11
+2-Agilao MP:8
+3-Tetrakarn MP:50
+4-Mudoon MP:10
+5-Mudo MP:6
+6-Desperate Hit MP:40
+7-Zionga MP:8
+8-Cancelar
+INPUT: 7
+----------------------------------------
+Seleccione un objetivo para Kei
+1-Itsuki HP:233/1136 MP:315/413
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Kei
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Kei use
+1-Concentrate MP:11
+2-Agilao MP:8
+3-Tetrakarn MP:50
+4-Mudoon MP:10
+5-Mudo MP:6
+6-Desperate Hit MP:40
+7-Zionga MP:8
+8-Cancelar
+INPUT: 6
+----------------------------------------
+Kei lanza un ataque todo poderoso a Itsuki
+Itsuki recibe 111 de daño
+Kei lanza un ataque todo poderoso a Itsuki
+Itsuki recibe 111 de daño
+Kei lanza un ataque todo poderoso a Itsuki
+Itsuki recibe 111 de daño
+Itsuki termina con HP:0/1136
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ganador: Kei (J1)

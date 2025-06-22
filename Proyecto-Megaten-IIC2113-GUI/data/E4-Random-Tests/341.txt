@@ -1,0 +1,7785 @@
+Elige un archivo para cargar los equipos
+0: 001.txt
+1: 002.txt
+2: 003.txt
+3: 004.txt
+4: 005.txt
+5: 006.txt
+6: 007.txt
+7: 008.txt
+8: 009.txt
+9: 010.txt
+10: 011.txt
+11: 012.txt
+12: 013.txt
+13: 014.txt
+14: 015.txt
+15: 016.txt
+16: 017.txt
+17: 018.txt
+18: 019.txt
+19: 020.txt
+20: 021.txt
+21: 022.txt
+22: 023.txt
+23: 024.txt
+24: 025.txt
+25: 026.txt
+26: 027.txt
+27: 028.txt
+28: 029.txt
+29: 030.txt
+30: 031.txt
+31: 032.txt
+32: 033.txt
+33: 034.txt
+34: 035.txt
+35: 036.txt
+36: 037.txt
+37: 038.txt
+38: 039.txt
+39: 040.txt
+40: 041.txt
+41: 042.txt
+42: 043.txt
+43: 044.txt
+44: 045.txt
+45: 046.txt
+46: 047.txt
+47: 048.txt
+48: 049.txt
+49: 050.txt
+50: 051.txt
+51: 052.txt
+52: 053.txt
+53: 054.txt
+54: 055.txt
+55: 056.txt
+56: 057.txt
+57: 058.txt
+58: 059.txt
+59: 060.txt
+60: 061.txt
+61: 062.txt
+62: 063.txt
+63: 064.txt
+64: 065.txt
+65: 066.txt
+66: 067.txt
+67: 068.txt
+68: 069.txt
+69: 070.txt
+70: 071.txt
+71: 072.txt
+72: 073.txt
+73: 074.txt
+74: 075.txt
+75: 076.txt
+76: 077.txt
+77: 078.txt
+78: 079.txt
+79: 080.txt
+80: 081.txt
+81: 082.txt
+82: 083.txt
+83: 084.txt
+84: 085.txt
+85: 086.txt
+86: 087.txt
+87: 088.txt
+88: 089.txt
+89: 090.txt
+90: 091.txt
+91: 092.txt
+92: 093.txt
+93: 094.txt
+94: 095.txt
+95: 096.txt
+96: 097.txt
+97: 098.txt
+98: 099.txt
+99: 100.txt
+100: 101.txt
+101: 102.txt
+102: 103.txt
+103: 104.txt
+104: 105.txt
+105: 106.txt
+106: 107.txt
+107: 108.txt
+108: 109.txt
+109: 110.txt
+110: 111.txt
+111: 112.txt
+112: 113.txt
+113: 114.txt
+114: 115.txt
+115: 116.txt
+116: 117.txt
+117: 118.txt
+118: 119.txt
+119: 120.txt
+120: 121.txt
+121: 122.txt
+122: 123.txt
+123: 124.txt
+124: 125.txt
+125: 126.txt
+126: 127.txt
+127: 128.txt
+128: 129.txt
+129: 130.txt
+130: 131.txt
+131: 132.txt
+132: 133.txt
+133: 134.txt
+134: 135.txt
+135: 136.txt
+136: 137.txt
+137: 138.txt
+138: 139.txt
+139: 140.txt
+140: 141.txt
+141: 142.txt
+142: 143.txt
+143: 144.txt
+144: 145.txt
+145: 146.txt
+146: 147.txt
+147: 148.txt
+148: 149.txt
+149: 150.txt
+150: 151.txt
+151: 152.txt
+152: 153.txt
+153: 154.txt
+154: 155.txt
+155: 156.txt
+156: 157.txt
+157: 158.txt
+158: 159.txt
+159: 160.txt
+160: 161.txt
+161: 162.txt
+162: 163.txt
+163: 164.txt
+164: 165.txt
+165: 166.txt
+166: 167.txt
+167: 168.txt
+168: 169.txt
+169: 170.txt
+170: 171.txt
+171: 172.txt
+172: 173.txt
+173: 174.txt
+174: 175.txt
+175: 176.txt
+176: 177.txt
+177: 178.txt
+178: 179.txt
+179: 180.txt
+180: 181.txt
+181: 182.txt
+182: 183.txt
+183: 184.txt
+184: 185.txt
+185: 186.txt
+186: 187.txt
+187: 188.txt
+188: 189.txt
+189: 190.txt
+190: 191.txt
+191: 192.txt
+192: 193.txt
+193: 194.txt
+194: 195.txt
+195: 196.txt
+196: 197.txt
+197: 198.txt
+198: 199.txt
+199: 200.txt
+200: 201.txt
+201: 202.txt
+202: 203.txt
+203: 204.txt
+204: 205.txt
+205: 206.txt
+206: 207.txt
+207: 208.txt
+208: 209.txt
+209: 210.txt
+210: 211.txt
+211: 212.txt
+212: 213.txt
+213: 214.txt
+214: 215.txt
+215: 216.txt
+216: 217.txt
+217: 218.txt
+218: 219.txt
+219: 220.txt
+220: 221.txt
+221: 222.txt
+222: 223.txt
+223: 224.txt
+224: 225.txt
+225: 226.txt
+226: 227.txt
+227: 228.txt
+228: 229.txt
+229: 230.txt
+230: 231.txt
+231: 232.txt
+232: 233.txt
+233: 234.txt
+234: 235.txt
+235: 236.txt
+236: 237.txt
+237: 238.txt
+238: 239.txt
+239: 240.txt
+240: 241.txt
+241: 242.txt
+242: 243.txt
+243: 244.txt
+244: 245.txt
+245: 246.txt
+246: 247.txt
+247: 248.txt
+248: 249.txt
+249: 250.txt
+250: 251.txt
+251: 252.txt
+252: 253.txt
+253: 254.txt
+254: 255.txt
+255: 256.txt
+256: 257.txt
+257: 258.txt
+258: 259.txt
+259: 260.txt
+260: 261.txt
+261: 262.txt
+262: 263.txt
+263: 264.txt
+264: 265.txt
+265: 266.txt
+266: 267.txt
+267: 268.txt
+268: 269.txt
+269: 270.txt
+270: 271.txt
+271: 272.txt
+272: 273.txt
+273: 274.txt
+274: 275.txt
+275: 276.txt
+276: 277.txt
+277: 278.txt
+278: 279.txt
+279: 280.txt
+280: 281.txt
+281: 282.txt
+282: 283.txt
+283: 284.txt
+284: 285.txt
+285: 286.txt
+286: 287.txt
+287: 288.txt
+288: 289.txt
+289: 290.txt
+290: 291.txt
+291: 292.txt
+292: 293.txt
+293: 294.txt
+294: 295.txt
+295: 296.txt
+296: 297.txt
+297: 298.txt
+298: 299.txt
+299: 300.txt
+300: 301.txt
+301: 302.txt
+302: 303.txt
+303: 304.txt
+304: 305.txt
+305: 306.txt
+306: 307.txt
+307: 308.txt
+308: 309.txt
+309: 310.txt
+310: 311.txt
+311: 312.txt
+312: 313.txt
+313: 314.txt
+314: 315.txt
+315: 316.txt
+316: 317.txt
+317: 318.txt
+318: 319.txt
+319: 320.txt
+320: 321.txt
+321: 322.txt
+322: 323.txt
+323: 324.txt
+324: 325.txt
+325: 326.txt
+326: 327.txt
+327: 328.txt
+328: 329.txt
+329: 330.txt
+330: 331.txt
+331: 332.txt
+332: 333.txt
+333: 334.txt
+334: 335.txt
+335: 336.txt
+336: 337.txt
+337: 338.txt
+338: 339.txt
+339: 340.txt
+340: 341.txt
+341: 342.txt
+342: 343.txt
+343: 344.txt
+344: 345.txt
+345: 346.txt
+346: 347.txt
+347: 348.txt
+348: 349.txt
+349: 350.txt
+350: 351.txt
+351: 352.txt
+352: 353.txt
+353: 354.txt
+354: 355.txt
+355: 356.txt
+356: 357.txt
+357: 358.txt
+358: 359.txt
+359: 360.txt
+360: 361.txt
+361: 362.txt
+362: 363.txt
+363: 364.txt
+364: 365.txt
+365: 366.txt
+366: 367.txt
+367: 368.txt
+368: 369.txt
+369: 370.txt
+370: 371.txt
+371: 372.txt
+372: 373.txt
+373: 374.txt
+374: 375.txt
+375: 376.txt
+376: 377.txt
+377: 378.txt
+378: 379.txt
+379: 380.txt
+380: 381.txt
+381: 382.txt
+382: 383.txt
+383: 384.txt
+384: 385.txt
+385: 386.txt
+386: 387.txt
+387: 388.txt
+388: 389.txt
+389: 390.txt
+390: 391.txt
+391: 392.txt
+392: 393.txt
+393: 394.txt
+394: 395.txt
+395: 396.txt
+396: 397.txt
+397: 398.txt
+398: 399.txt
+399: 400.txt
+400: 401.txt
+401: 402.txt
+402: 403.txt
+403: 404.txt
+404: 405.txt
+405: 406.txt
+406: 407.txt
+407: 408.txt
+408: 409.txt
+409: 410.txt
+410: 411.txt
+411: 412.txt
+412: 413.txt
+413: 414.txt
+414: 415.txt
+415: 416.txt
+416: 417.txt
+417: 418.txt
+418: 419.txt
+419: 420.txt
+420: 421.txt
+421: 422.txt
+422: 423.txt
+423: 424.txt
+424: 425.txt
+425: 426.txt
+426: 427.txt
+427: 428.txt
+428: 429.txt
+429: 430.txt
+430: 431.txt
+431: 432.txt
+432: 433.txt
+433: 434.txt
+434: 435.txt
+435: 436.txt
+436: 437.txt
+437: 438.txt
+438: 439.txt
+439: 440.txt
+440: 441.txt
+441: 442.txt
+442: 443.txt
+443: 444.txt
+444: 445.txt
+445: 446.txt
+446: 447.txt
+447: 448.txt
+448: 449.txt
+449: 450.txt
+450: 451.txt
+451: 452.txt
+452: 453.txt
+453: 454.txt
+454: 455.txt
+455: 456.txt
+456: 457.txt
+457: 458.txt
+458: 459.txt
+459: 460.txt
+460: 461.txt
+461: 462.txt
+462: 463.txt
+463: 464.txt
+464: 465.txt
+465: 466.txt
+466: 467.txt
+467: 468.txt
+468: 469.txt
+469: 470.txt
+470: 471.txt
+471: 472.txt
+472: 473.txt
+473: 474.txt
+474: 475.txt
+475: 476.txt
+476: 477.txt
+477: 478.txt
+478: 479.txt
+479: 480.txt
+480: 481.txt
+481: 482.txt
+482: 483.txt
+483: 484.txt
+484: 485.txt
+485: 486.txt
+486: 487.txt
+487: 488.txt
+488: 489.txt
+489: 490.txt
+490: 491.txt
+491: 492.txt
+492: 493.txt
+493: 494.txt
+494: 495.txt
+495: 496.txt
+496: 497.txt
+497: 498.txt
+498: 499.txt
+499: 500.txt
+INPUT: 340
+----------------------------------------
+Ronda de Yu (J1)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:597/597 MP:347/347
+B-Anat HP:511/511 MP:229/229
+C-Yamato-Takeru HP:705/705 MP:320/320
+D-Pale Rider HP:693/693 MP:310/310
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1227/1227 MP:834/834
+B-Huang Di HP:672/672 MP:301/301
+C-Black Maria HP:348/348 MP:337/337
+D-Dominion HP:287/287 MP:278/278
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Yamato-Takeru
+2-Pale Rider
+3-Yu
+4-Anat
+----------------------------------------
+Seleccione una acción para Yamato-Takeru
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Slime HP:92/92 MP:36/36
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Slime ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:597/597 MP:347/347
+B-Anat HP:511/511 MP:229/229
+C-Slime HP:92/92 MP:36/36
+D-Pale Rider HP:693/693 MP:310/310
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1227/1227 MP:834/834
+B-Huang Di HP:672/672 MP:301/301
+C-Black Maria HP:348/348 MP:337/337
+D-Dominion HP:287/287 MP:278/278
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Pale Rider
+2-Yu
+3-Anat
+4-Slime
+----------------------------------------
+Seleccione una acción para Pale Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Pale Rider use
+1-Pandemic Bomb MP:11
+2-Death's Door MP:10
+3-Deadly Wind MP:22
+4-Debilitate MP:50
+5-Cancelar
+INPUT: 4
+----------------------------------------
+El ataque de Demi-Fiend ha disminuido
+La defensa de Demi-Fiend ha disminuido
+El ataque de Huang Di ha disminuido
+La defensa de Huang Di ha disminuido
+El ataque de Black Maria ha disminuido
+La defensa de Black Maria ha disminuido
+El ataque de Dominion ha disminuido
+La defensa de Dominion ha disminuido
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:597/597 MP:347/347
+B-Anat HP:511/511 MP:229/229
+C-Slime HP:92/92 MP:36/36
+D-Pale Rider HP:693/693 MP:260/310
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1227/1227 MP:834/834
+B-Huang Di HP:672/672 MP:301/301
+C-Black Maria HP:348/348 MP:337/337
+D-Dominion HP:287/287 MP:278/278
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Yu
+2-Anat
+3-Slime
+4-Pale Rider
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Yu use
+1-Serpent of Sheol MP:45
+2-Judgement MP:45
+3-Hamaon MP:10
+4-Rakukaja MP:15
+5-Agi MP:5
+6-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione un objetivo para Yu
+1-Demi-Fiend HP:1227/1227 MP:834/834
+2-Huang Di HP:672/672 MP:301/301
+3-Black Maria HP:348/348 MP:337/337
+4-Dominion HP:287/287 MP:278/278
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Yu lanza fuego a Demi-Fiend
+Demi-Fiend bloquea el ataque de Yu
+Demi-Fiend termina con HP:1227/1227
+----------------------------------------
+Se han consumido 2 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:597/597 MP:342/347
+B-Anat HP:511/511 MP:229/229
+C-Slime HP:92/92 MP:36/36
+D-Pale Rider HP:693/693 MP:260/310
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1227/1227 MP:834/834
+B-Huang Di HP:672/672 MP:301/301
+C-Black Maria HP:348/348 MP:337/337
+D-Dominion HP:287/287 MP:278/278
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Anat
+2-Slime
+3-Pale Rider
+4-Yu
+----------------------------------------
+Seleccione una acción para Anat
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Anat use
+1-Mortal Jihad MP:13
+2-Tarukaja MP:15
+3-Cancelar
+INPUT: 2
+----------------------------------------
+El ataque de Yu ha aumentado
+El ataque de Slime ha aumentado
+El ataque de Pale Rider ha aumentado
+El ataque de Anat ha aumentado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Demi-Fiend (J2)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:597/597 MP:342/347
+B-Anat HP:511/511 MP:214/229
+C-Slime HP:92/92 MP:36/36
+D-Pale Rider HP:693/693 MP:260/310
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1227/1227 MP:834/834
+B-Huang Di HP:672/672 MP:301/301
+C-Black Maria HP:348/348 MP:337/337
+D-Dominion HP:287/287 MP:278/278
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Demi-Fiend
+2-Huang Di
+3-Black Maria
+4-Dominion
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:597/597 MP:342/347
+B-Anat HP:511/511 MP:214/229
+C-Slime HP:92/92 MP:36/36
+D-Pale Rider HP:693/693 MP:260/310
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1227/1227 MP:834/834
+B-Huang Di HP:672/672 MP:301/301
+C-Black Maria HP:348/348 MP:337/337
+D-Dominion HP:287/287 MP:278/278
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Huang Di
+2-Black Maria
+3-Dominion
+4-Demi-Fiend
+----------------------------------------
+Seleccione una acción para Huang Di
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Huang Di use
+1-Judgement MP:45
+2-Mediarahan MP:40
+3-Amrita MP:20
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Huang Di lanza un ataque todo poderoso a Yu
+Yu recibe 106 de daño
+Yu termina con HP:491/597
+Huang Di lanza un ataque todo poderoso a Anat
+Anat recibe 106 de daño
+Anat termina con HP:405/511
+Huang Di lanza un ataque todo poderoso a Slime
+Slime recibe 106 de daño
+Slime termina con HP:0/92
+Huang Di lanza un ataque todo poderoso a Pale Rider
+Pale Rider recibe 106 de daño
+Pale Rider termina con HP:587/693
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:491/597 MP:342/347
+B-Anat HP:405/511 MP:214/229
+C-
+D-Pale Rider HP:587/693 MP:260/310
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1227/1227 MP:834/834
+B-Huang Di HP:672/672 MP:256/301
+C-Black Maria HP:348/348 MP:337/337
+D-Dominion HP:287/287 MP:278/278
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Black Maria
+2-Dominion
+3-Demi-Fiend
+4-Huang Di
+----------------------------------------
+Seleccione una acción para Black Maria
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Black Maria
+1-Yu HP:491/597 MP:342/347
+2-Anat HP:405/511 MP:214/229
+3-Pale Rider HP:587/693 MP:260/310
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Black Maria ataca a Anat
+Anat es resistente el ataque de Black Maria
+Anat recibe 16 de daño
+Anat termina con HP:389/511
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:491/597 MP:342/347
+B-Anat HP:389/511 MP:214/229
+C-
+D-Pale Rider HP:587/693 MP:260/310
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1227/1227 MP:834/834
+B-Huang Di HP:672/672 MP:256/301
+C-Black Maria HP:348/348 MP:337/337
+D-Dominion HP:287/287 MP:278/278
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Dominion
+2-Demi-Fiend
+3-Huang Di
+4-Black Maria
+----------------------------------------
+Seleccione una acción para Dominion
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Dominion use
+1-Mazionga MP:20
+2-Megido MP:25
+3-Recarmdra MP:2
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Dominion cura a Demi-Fiend
+Demi-Fiend recibe 613 de HP
+Demi-Fiend termina con HP:1227/1227
+Dominion cura a Huang Di
+Huang Di recibe 336 de HP
+Huang Di termina con HP:672/672
+Dominion cura a Black Maria
+Black Maria recibe 174 de HP
+Black Maria termina con HP:348/348
+Dominion cura a Kuda
+Kuda recibe 133 de HP
+Kuda termina con HP:266/266
+Dominion cura a Cu Chulainn
+Cu Chulainn recibe 210 de HP
+Cu Chulainn termina con HP:420/420
+Dominion cura a Dzelarhons
+Dzelarhons recibe 63 de HP
+Dzelarhons termina con HP:127/127
+Dominion termina con HP:0/287
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:491/597 MP:342/347
+B-Anat HP:389/511 MP:214/229
+C-
+D-Pale Rider HP:587/693 MP:260/310
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1227/1227 MP:834/834
+B-Huang Di HP:672/672 MP:256/301
+C-Black Maria HP:348/348 MP:337/337
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Demi-Fiend
+2-Huang Di
+3-Black Maria
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Yu HP:491/597 MP:342/347
+2-Anat HP:389/511 MP:214/229
+3-Pale Rider HP:587/693 MP:260/310
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Kuda HP:266/266 MP:118/118
+2-Cu Chulainn HP:420/420 MP:189/189
+3-Dzelarhons HP:127/127 MP:134/134
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una posición para invocar
+1-Huang Di HP:672/672 MP:256/301 (Puesto 2)
+2-Black Maria HP:348/348 MP:337/337 (Puesto 3)
+3-Vacío (Puesto 4)
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Kuda ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:491/597 MP:342/347
+B-Anat HP:389/511 MP:214/229
+C-
+D-Pale Rider HP:587/693 MP:260/310
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1227/1227 MP:834/834
+B-Kuda HP:266/266 MP:118/118
+C-Black Maria HP:348/348 MP:337/337
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Kuda
+2-Black Maria
+3-Demi-Fiend
+----------------------------------------
+Seleccione una acción para Kuda
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Yu (J1)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:491/597 MP:342/347
+B-Anat HP:389/511 MP:214/229
+C-
+D-Pale Rider HP:587/693 MP:260/310
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1227/1227 MP:834/834
+B-Kuda HP:266/266 MP:118/118
+C-Black Maria HP:348/348 MP:337/337
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Pale Rider
+2-Yu
+3-Anat
+----------------------------------------
+Seleccione una acción para Pale Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:491/597 MP:342/347
+B-Anat HP:389/511 MP:214/229
+C-
+D-Pale Rider HP:587/693 MP:260/310
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1227/1227 MP:834/834
+B-Kuda HP:266/266 MP:118/118
+C-Black Maria HP:348/348 MP:337/337
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Yu
+2-Anat
+3-Pale Rider
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Yamato-Takeru HP:705/705 MP:320/320
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:491/597 MP:342/347
+B-Anat HP:389/511 MP:214/229
+C-
+D-Pale Rider HP:587/693 MP:260/310
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1227/1227 MP:834/834
+B-Kuda HP:266/266 MP:118/118
+C-Black Maria HP:348/348 MP:337/337
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Anat
+2-Pale Rider
+3-Yu
+----------------------------------------
+Seleccione una acción para Anat
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Anat
+1-Demi-Fiend HP:1227/1227 MP:834/834
+2-Kuda HP:266/266 MP:118/118
+3-Black Maria HP:348/348 MP:337/337
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Anat ataca a Black Maria
+Black Maria recibe 66 de daño
+Black Maria termina con HP:282/348
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:491/597 MP:342/347
+B-Anat HP:389/511 MP:214/229
+C-
+D-Pale Rider HP:587/693 MP:260/310
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1227/1227 MP:834/834
+B-Kuda HP:266/266 MP:118/118
+C-Black Maria HP:282/348 MP:337/337
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Pale Rider
+2-Yu
+3-Anat
+----------------------------------------
+Seleccione una acción para Pale Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:491/597 MP:342/347
+B-Anat HP:389/511 MP:214/229
+C-
+D-Pale Rider HP:587/693 MP:260/310
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1227/1227 MP:834/834
+B-Kuda HP:266/266 MP:118/118
+C-Black Maria HP:282/348 MP:337/337
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Yu
+2-Anat
+3-Pale Rider
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Yu use
+1-Serpent of Sheol MP:45
+2-Judgement MP:45
+3-Hamaon MP:10
+4-Rakukaja MP:15
+5-Agi MP:5
+6-Cancelar
+INPUT: 6
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Yamato-Takeru HP:705/705 MP:320/320
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una posición para invocar
+1-Anat HP:389/511 MP:214/229 (Puesto 2)
+2-Vacío (Puesto 3)
+3-Pale Rider HP:587/693 MP:260/310 (Puesto 4)
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Yamato-Takeru ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Demi-Fiend (J2)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:491/597 MP:342/347
+B-Anat HP:389/511 MP:214/229
+C-
+D-Yamato-Takeru HP:705/705 MP:320/320
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1227/1227 MP:834/834
+B-Kuda HP:266/266 MP:118/118
+C-Black Maria HP:282/348 MP:337/337
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Demi-Fiend
+2-Black Maria
+3-Kuda
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Yu HP:491/597 MP:342/347
+2-Anat HP:389/511 MP:214/229
+3-Yamato-Takeru HP:705/705 MP:320/320
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Demi-Fiend dispara a Yu
+Yu absorbe 114 daño
+Yu termina con HP:597/597
+----------------------------------------
+Se han consumido 3 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Yu (J1)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:597/597 MP:342/347
+B-Anat HP:389/511 MP:214/229
+C-
+D-Yamato-Takeru HP:705/705 MP:320/320
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1227/1227 MP:834/834
+B-Kuda HP:266/266 MP:118/118
+C-Black Maria HP:282/348 MP:337/337
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Yamato-Takeru
+2-Yu
+3-Anat
+----------------------------------------
+Seleccione una acción para Yamato-Takeru
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Yamato-Takeru
+1-Demi-Fiend HP:1227/1227 MP:834/834
+2-Kuda HP:266/266 MP:118/118
+3-Black Maria HP:282/348 MP:337/337
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Yamato-Takeru ataca a Black Maria
+Black Maria recibe 77 de daño
+Black Maria termina con HP:205/348
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:597/597 MP:342/347
+B-Anat HP:389/511 MP:214/229
+C-
+D-Yamato-Takeru HP:705/705 MP:320/320
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1227/1227 MP:834/834
+B-Kuda HP:266/266 MP:118/118
+C-Black Maria HP:205/348 MP:337/337
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Yu
+2-Anat
+3-Yamato-Takeru
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Yu use
+1-Serpent of Sheol MP:45
+2-Judgement MP:45
+3-Hamaon MP:10
+4-Rakukaja MP:15
+5-Agi MP:5
+6-Cancelar
+INPUT: 6
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Yu
+1-Demi-Fiend HP:1227/1227 MP:834/834
+2-Kuda HP:266/266 MP:118/118
+3-Black Maria HP:205/348 MP:337/337
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Yu ataca a Kuda
+Kuda recibe 61 de daño
+Kuda termina con HP:205/266
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:597/597 MP:342/347
+B-Anat HP:389/511 MP:214/229
+C-
+D-Yamato-Takeru HP:705/705 MP:320/320
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1227/1227 MP:834/834
+B-Kuda HP:205/266 MP:118/118
+C-Black Maria HP:205/348 MP:337/337
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Anat
+2-Yamato-Takeru
+3-Yu
+----------------------------------------
+Seleccione una acción para Anat
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Anat
+1-Demi-Fiend HP:1227/1227 MP:834/834
+2-Kuda HP:205/266 MP:118/118
+3-Black Maria HP:205/348 MP:337/337
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Anat ataca a Black Maria
+Black Maria recibe 66 de daño
+Black Maria termina con HP:139/348
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Demi-Fiend (J2)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:597/597 MP:342/347
+B-Anat HP:389/511 MP:214/229
+C-
+D-Yamato-Takeru HP:705/705 MP:320/320
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1227/1227 MP:834/834
+B-Kuda HP:205/266 MP:118/118
+C-Black Maria HP:139/348 MP:337/337
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Demi-Fiend
+2-Black Maria
+3-Kuda
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Yu HP:597/597 MP:342/347
+2-Anat HP:389/511 MP:214/229
+3-Yamato-Takeru HP:705/705 MP:320/320
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Demi-Fiend ataca a Yamato-Takeru
+Yamato-Takeru recibe 147 de daño
+Yamato-Takeru termina con HP:558/705
+Anat contra ataca a Demi-Fiend
+Demi-Fiend recibe 73 de daño
+Demi-Fiend termina con HP:1154/1227
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:597/597 MP:342/347
+B-Anat HP:389/511 MP:214/229
+C-
+D-Yamato-Takeru HP:558/705 MP:320/320
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1154/1227 MP:834/834
+B-Kuda HP:205/266 MP:118/118
+C-Black Maria HP:139/348 MP:337/337
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Black Maria
+2-Kuda
+3-Demi-Fiend
+----------------------------------------
+Seleccione una acción para Black Maria
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:597/597 MP:342/347
+B-Anat HP:389/511 MP:214/229
+C-
+D-Yamato-Takeru HP:558/705 MP:320/320
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1154/1227 MP:834/834
+B-Kuda HP:205/266 MP:118/118
+C-Black Maria HP:139/348 MP:337/337
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Kuda
+2-Demi-Fiend
+3-Black Maria
+----------------------------------------
+Seleccione una acción para Kuda
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Kuda use
+1-Mabufula MP:20
+2-Tetanus Cut MP:11
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Kuda
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Kuda
+1-Yu HP:597/597 MP:342/347
+2-Anat HP:389/511 MP:214/229
+3-Yamato-Takeru HP:558/705 MP:320/320
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Kuda ataca a Yamato-Takeru
+Yamato-Takeru recibe 20 de daño
+Yamato-Takeru termina con HP:538/705
+Anat contra ataca a Kuda
+Kuda recibe 10 de daño
+Kuda termina con HP:195/266
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:597/597 MP:342/347
+B-Anat HP:389/511 MP:214/229
+C-
+D-Yamato-Takeru HP:538/705 MP:320/320
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1154/1227 MP:834/834
+B-Kuda HP:195/266 MP:118/118
+C-Black Maria HP:139/348 MP:337/337
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Demi-Fiend
+2-Black Maria
+3-Kuda
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Demi-Fiend use
+1-Agidyne MP:14
+2-Samarecarm MP:40
+3-Javelin Rain MP:21
+4-Bufudyne MP:14
+5-Zio MP:5
+6-Luster Candy MP:50
+7-Maragion MP:20
+8-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Dominion HP:0/287 MP:276/278
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Yu HP:597/597 MP:342/347
+2-Anat HP:389/511 MP:214/229
+3-Yamato-Takeru HP:538/705 MP:320/320
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Demi-Fiend dispara a Anat
+Anat recibe 99 de daño
+Anat termina con HP:290/511
+Yamato-Takeru contra ataca a Demi-Fiend
+Demi-Fiend recibe 49 de daño
+Demi-Fiend termina con HP:1105/1227
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Yu (J1)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:597/597 MP:342/347
+B-Anat HP:290/511 MP:214/229
+C-
+D-Yamato-Takeru HP:538/705 MP:320/320
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1105/1227 MP:834/834
+B-Kuda HP:195/266 MP:118/118
+C-Black Maria HP:139/348 MP:337/337
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Yamato-Takeru
+2-Yu
+3-Anat
+----------------------------------------
+Seleccione una acción para Yamato-Takeru
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Pale Rider HP:587/693 MP:260/310
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Yamato-Takeru
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Pale Rider HP:587/693 MP:260/310
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Pale Rider ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:597/597 MP:342/347
+B-Anat HP:290/511 MP:214/229
+C-
+D-Pale Rider HP:587/693 MP:260/310
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1105/1227 MP:834/834
+B-Kuda HP:195/266 MP:118/118
+C-Black Maria HP:139/348 MP:337/337
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Yu
+2-Anat
+3-Pale Rider
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:597/597 MP:342/347
+B-Anat HP:290/511 MP:214/229
+C-
+D-Pale Rider HP:587/693 MP:260/310
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1105/1227 MP:834/834
+B-Kuda HP:195/266 MP:118/118
+C-Black Maria HP:139/348 MP:337/337
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Anat
+2-Pale Rider
+3-Yu
+----------------------------------------
+Seleccione una acción para Anat
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Anat use
+1-Mortal Jihad MP:13
+2-Tarukaja MP:15
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Anat
+1-Demi-Fiend HP:1105/1227 MP:834/834
+2-Kuda HP:195/266 MP:118/118
+3-Black Maria HP:139/348 MP:337/337
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Anat ataca a Black Maria
+Black Maria recibe 201 de daño
+Black Maria termina con HP:0/348
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:597/597 MP:342/347
+B-Anat HP:290/511 MP:201/229
+C-
+D-Pale Rider HP:587/693 MP:260/310
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1105/1227 MP:834/834
+B-Kuda HP:195/266 MP:118/118
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Pale Rider
+2-Yu
+3-Anat
+----------------------------------------
+Seleccione una acción para Pale Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Pale Rider
+1-Demi-Fiend HP:1105/1227 MP:834/834
+2-Kuda HP:195/266 MP:118/118
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Pale Rider ataca a Kuda
+Kuda recibe 73 de daño
+Kuda termina con HP:122/266
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Demi-Fiend (J2)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:597/597 MP:342/347
+B-Anat HP:290/511 MP:201/229
+C-
+D-Pale Rider HP:587/693 MP:260/310
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1105/1227 MP:834/834
+B-Kuda HP:122/266 MP:118/118
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Demi-Fiend
+2-Kuda
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Huang Di HP:672/672 MP:256/301
+2-Cu Chulainn HP:420/420 MP:189/189
+3-Dzelarhons HP:127/127 MP:134/134
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Huang Di HP:672/672 MP:256/301
+2-Cu Chulainn HP:420/420 MP:189/189
+3-Dzelarhons HP:127/127 MP:134/134
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una posición para invocar
+1-Kuda HP:122/266 MP:118/118 (Puesto 2)
+2-Vacío (Puesto 3)
+3-Vacío (Puesto 4)
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Dzelarhons ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:597/597 MP:342/347
+B-Anat HP:290/511 MP:201/229
+C-
+D-Pale Rider HP:587/693 MP:260/310
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1105/1227 MP:834/834
+B-Kuda HP:122/266 MP:118/118
+C-Dzelarhons HP:127/127 MP:134/134
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Kuda
+2-Dzelarhons
+3-Demi-Fiend
+----------------------------------------
+Seleccione una acción para Kuda
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Kuda use
+1-Mabufula MP:20
+2-Tetanus Cut MP:11
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Kuda lanza hielo a Yu
+Yu es resistente el ataque de Kuda
+Yu recibe 30 de daño
+Yu termina con HP:567/597
+Kuda lanza hielo a Anat
+Anat es débil contra el ataque de Kuda
+Anat recibe 91 de daño
+Anat termina con HP:199/511
+Kuda lanza hielo a Pale Rider
+Pale Rider es resistente el ataque de Kuda
+Pale Rider recibe 30 de daño
+Pale Rider termina con HP:557/693
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:567/597 MP:342/347
+B-Anat HP:199/511 MP:201/229
+C-
+D-Pale Rider HP:557/693 MP:260/310
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1105/1227 MP:834/834
+B-Kuda HP:122/266 MP:98/118
+C-Dzelarhons HP:127/127 MP:134/134
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 2
+----------------------------------------
+Orden:
+1-Dzelarhons
+2-Demi-Fiend
+3-Kuda
+----------------------------------------
+Seleccione una acción para Dzelarhons
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Huang Di HP:672/672 MP:256/301
+2-Cu Chulainn HP:420/420 MP:189/189
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Dzelarhons
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:567/597 MP:342/347
+B-Anat HP:199/511 MP:201/229
+C-
+D-Pale Rider HP:557/693 MP:260/310
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1105/1227 MP:834/834
+B-Kuda HP:122/266 MP:98/118
+C-Dzelarhons HP:127/127 MP:134/134
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Demi-Fiend
+2-Kuda
+3-Dzelarhons
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Demi-Fiend use
+1-Agidyne MP:14
+2-Samarecarm MP:40
+3-Javelin Rain MP:21
+4-Bufudyne MP:14
+5-Zio MP:5
+6-Luster Candy MP:50
+7-Maragion MP:20
+8-Cancelar
+INPUT: 8
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Demi-Fiend use
+1-Agidyne MP:14
+2-Samarecarm MP:40
+3-Javelin Rain MP:21
+4-Bufudyne MP:14
+5-Zio MP:5
+6-Luster Candy MP:50
+7-Maragion MP:20
+8-Cancelar
+INPUT: 7
+----------------------------------------
+Demi-Fiend lanza fuego a Yu
+Yu es resistente el ataque de Demi-Fiend
+Yu recibe 83 de daño
+Yu termina con HP:484/597
+Demi-Fiend lanza fuego a Anat
+Anat recibe 166 de daño
+Anat termina con HP:33/511
+Demi-Fiend lanza fuego a Pale Rider
+Pale Rider recibe 166 de daño
+Pale Rider termina con HP:391/693
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Yu (J1)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:484/597 MP:342/347
+B-Anat HP:33/511 MP:201/229
+C-
+D-Pale Rider HP:391/693 MP:260/310
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1105/1227 MP:814/834
+B-Kuda HP:122/266 MP:98/118
+C-Dzelarhons HP:127/127 MP:134/134
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Pale Rider
+2-Yu
+3-Anat
+----------------------------------------
+Seleccione una acción para Pale Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Pale Rider
+1-Demi-Fiend HP:1105/1227 MP:814/834
+2-Kuda HP:122/266 MP:98/118
+3-Dzelarhons HP:127/127 MP:134/134
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Pale Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:484/597 MP:342/347
+B-Anat HP:33/511 MP:201/229
+C-
+D-Pale Rider HP:391/693 MP:260/310
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1105/1227 MP:814/834
+B-Kuda HP:122/266 MP:98/118
+C-Dzelarhons HP:127/127 MP:134/134
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Yu
+2-Anat
+3-Pale Rider
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Yu
+1-Demi-Fiend HP:1105/1227 MP:814/834
+2-Kuda HP:122/266 MP:98/118
+3-Dzelarhons HP:127/127 MP:134/134
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Yu dispara a Kuda
+Kuda es débil contra el ataque de Yu
+Kuda recibe 136 de daño
+Kuda termina con HP:0/266
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:484/597 MP:342/347
+B-Anat HP:33/511 MP:201/229
+C-
+D-Pale Rider HP:391/693 MP:260/310
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1105/1227 MP:814/834
+B-
+C-Dzelarhons HP:127/127 MP:134/134
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 2
+----------------------------------------
+Orden:
+1-Anat
+2-Pale Rider
+3-Yu
+----------------------------------------
+Seleccione una acción para Anat
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Anat
+1-Demi-Fiend HP:1105/1227 MP:814/834
+2-Dzelarhons HP:127/127 MP:134/134
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Anat ataca a Dzelarhons
+Dzelarhons recibe 53 de daño
+Dzelarhons termina con HP:74/127
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:484/597 MP:342/347
+B-Anat HP:33/511 MP:201/229
+C-
+D-Pale Rider HP:391/693 MP:260/310
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1105/1227 MP:814/834
+B-
+C-Dzelarhons HP:74/127 MP:134/134
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Pale Rider
+2-Yu
+3-Anat
+----------------------------------------
+Seleccione una acción para Pale Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Pale Rider use
+1-Pandemic Bomb MP:11
+2-Death's Door MP:10
+3-Deadly Wind MP:22
+4-Debilitate MP:50
+5-Cancelar
+INPUT: 4
+----------------------------------------
+El ataque de Demi-Fiend ha disminuido
+La defensa de Demi-Fiend ha disminuido
+El ataque de Dzelarhons ha disminuido
+La defensa de Dzelarhons ha disminuido
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:484/597 MP:342/347
+B-Anat HP:33/511 MP:201/229
+C-
+D-Pale Rider HP:391/693 MP:210/310
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1105/1227 MP:814/834
+B-
+C-Dzelarhons HP:74/127 MP:134/134
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Yu
+2-Anat
+3-Pale Rider
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Yu
+1-Demi-Fiend HP:1105/1227 MP:814/834
+2-Dzelarhons HP:74/127 MP:134/134
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Yu
+1-Demi-Fiend HP:1105/1227 MP:814/834
+2-Dzelarhons HP:74/127 MP:134/134
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Yu ataca a Dzelarhons
+Dzelarhons recibe 76 de daño
+Dzelarhons termina con HP:0/127
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Demi-Fiend (J2)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:484/597 MP:342/347
+B-Anat HP:33/511 MP:201/229
+C-
+D-Pale Rider HP:391/693 MP:210/310
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1105/1227 MP:814/834
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Demi-Fiend
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Huang Di HP:672/672 MP:256/301
+2-Cu Chulainn HP:420/420 MP:189/189
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una posición para invocar
+1-Vacío (Puesto 2)
+2-Vacío (Puesto 3)
+3-Vacío (Puesto 4)
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Cu Chulainn ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:484/597 MP:342/347
+B-Anat HP:33/511 MP:201/229
+C-
+D-Pale Rider HP:391/693 MP:210/310
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1105/1227 MP:814/834
+B-
+C-
+D-Cu Chulainn HP:420/420 MP:189/189
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Cu Chulainn
+2-Demi-Fiend
+----------------------------------------
+Seleccione una acción para Cu Chulainn
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Huang Di HP:672/672 MP:256/301
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Cu Chulainn
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Cu Chulainn use
+1-Floral Gust MP:35
+2-Grand Tack MP:11
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Cu Chulainn lanza viento a Anat
+Anat recibe 131 de daño
+Anat termina con HP:0/511
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Yu (J1)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:484/597 MP:342/347
+B-
+C-
+D-Pale Rider HP:391/693 MP:210/310
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1105/1227 MP:814/834
+B-
+C-
+D-Cu Chulainn HP:420/420 MP:154/189
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Pale Rider
+2-Yu
+----------------------------------------
+Seleccione una acción para Pale Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Yamato-Takeru HP:538/705 MP:320/320
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Pale Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Pale Rider
+1-Demi-Fiend HP:1105/1227 MP:814/834
+2-Cu Chulainn HP:420/420 MP:154/189
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Pale Rider ataca a Demi-Fiend
+Demi-Fiend absorbe 58 daño
+Demi-Fiend termina con HP:1163/1227
+----------------------------------------
+Se han consumido 2 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Demi-Fiend (J2)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:484/597 MP:342/347
+B-
+C-
+D-Pale Rider HP:391/693 MP:210/310
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1163/1227 MP:814/834
+B-
+C-
+D-Cu Chulainn HP:420/420 MP:154/189
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Demi-Fiend
+2-Cu Chulainn
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Yu HP:484/597 MP:342/347
+2-Pale Rider HP:391/693 MP:210/310
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Yu HP:484/597 MP:342/347
+2-Pale Rider HP:391/693 MP:210/310
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Demi-Fiend ataca a Yu
+Yu es resistente el ataque de Demi-Fiend
+Yu recibe 63 de daño
+Yu termina con HP:421/597
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:421/597 MP:342/347
+B-
+C-
+D-Pale Rider HP:391/693 MP:210/310
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1163/1227 MP:814/834
+B-
+C-
+D-Cu Chulainn HP:420/420 MP:154/189
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Cu Chulainn
+2-Demi-Fiend
+----------------------------------------
+Seleccione una acción para Cu Chulainn
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Huang Di HP:672/672 MP:256/301
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Cu Chulainn
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Huang Di HP:672/672 MP:256/301
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Cu Chulainn
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Cu Chulainn
+1-Yu HP:421/597 MP:342/347
+2-Pale Rider HP:391/693 MP:210/310
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Cu Chulainn
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:421/597 MP:342/347
+B-
+C-
+D-Pale Rider HP:391/693 MP:210/310
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1163/1227 MP:814/834
+B-
+C-
+D-Cu Chulainn HP:420/420 MP:154/189
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Demi-Fiend
+2-Cu Chulainn
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Yu (J1)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:421/597 MP:342/347
+B-
+C-
+D-Pale Rider HP:391/693 MP:210/310
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1163/1227 MP:814/834
+B-
+C-
+D-Cu Chulainn HP:420/420 MP:154/189
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Pale Rider
+2-Yu
+----------------------------------------
+Seleccione una acción para Pale Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:421/597 MP:342/347
+B-
+C-
+D-Pale Rider HP:391/693 MP:210/310
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1163/1227 MP:814/834
+B-
+C-
+D-Cu Chulainn HP:420/420 MP:154/189
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Yu
+2-Pale Rider
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Yu
+1-Demi-Fiend HP:1163/1227 MP:814/834
+2-Cu Chulainn HP:420/420 MP:154/189
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Yu use
+1-Serpent of Sheol MP:45
+2-Judgement MP:45
+3-Hamaon MP:10
+4-Rakukaja MP:15
+5-Agi MP:5
+6-Cancelar
+INPUT: 1
+----------------------------------------
+Yu lanza un ataque todo poderoso a Demi-Fiend
+El ataque drena 232 HP de Demi-Fiend
+Demi-Fiend termina con HP:931/1227
+El ataque drena 232 MP de Demi-Fiend
+Demi-Fiend termina con MP:582/834
+Yu lanza un ataque todo poderoso a Cu Chulainn
+El ataque drena 232 HP de Cu Chulainn
+Cu Chulainn termina con HP:188/420
+Yu termina con HP:597/597
+El ataque drena 154 MP de Cu Chulainn
+Cu Chulainn termina con MP:0/189
+Yu termina con MP:347/347
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:597/597 MP:347/347
+B-
+C-
+D-Pale Rider HP:391/693 MP:210/310
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:931/1227 MP:582/834
+B-
+C-
+D-Cu Chulainn HP:188/420 MP:0/189
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Pale Rider
+2-Yu
+----------------------------------------
+Seleccione una acción para Pale Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Pale Rider use
+1-Pandemic Bomb MP:11
+2-Death's Door MP:10
+3-Deadly Wind MP:22
+4-Debilitate MP:50
+5-Cancelar
+INPUT: 4
+----------------------------------------
+El ataque de Demi-Fiend ha disminuido
+La defensa de Demi-Fiend ha disminuido
+El ataque de Cu Chulainn ha disminuido
+La defensa de Cu Chulainn ha disminuido
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Demi-Fiend (J2)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:597/597 MP:347/347
+B-
+C-
+D-Pale Rider HP:391/693 MP:160/310
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:931/1227 MP:582/834
+B-
+C-
+D-Cu Chulainn HP:188/420 MP:0/189
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Demi-Fiend
+2-Cu Chulainn
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Demi-Fiend use
+1-Agidyne MP:14
+2-Samarecarm MP:40
+3-Javelin Rain MP:21
+4-Bufudyne MP:14
+5-Zio MP:5
+6-Luster Candy MP:50
+7-Maragion MP:20
+8-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Black Maria HP:0/348 MP:337/337
+2-Dominion HP:0/287 MP:276/278
+3-Kuda HP:0/266 MP:98/118
+4-Dzelarhons HP:0/127 MP:134/134
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Demi-Fiend revive a Dzelarhons
+Dzelarhons recibe 127 de HP
+Dzelarhons termina con HP:127/127
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:597/597 MP:347/347
+B-
+C-
+D-Pale Rider HP:391/693 MP:160/310
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:931/1227 MP:542/834
+B-
+C-
+D-Cu Chulainn HP:188/420 MP:0/189
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Cu Chulainn
+2-Demi-Fiend
+----------------------------------------
+Seleccione una acción para Cu Chulainn
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:597/597 MP:347/347
+B-
+C-
+D-Pale Rider HP:391/693 MP:160/310
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:931/1227 MP:542/834
+B-
+C-
+D-Cu Chulainn HP:188/420 MP:0/189
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Demi-Fiend
+2-Cu Chulainn
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Yu (J1)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:597/597 MP:347/347
+B-
+C-
+D-Pale Rider HP:391/693 MP:160/310
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:931/1227 MP:542/834
+B-
+C-
+D-Cu Chulainn HP:188/420 MP:0/189
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Pale Rider
+2-Yu
+----------------------------------------
+Seleccione una acción para Pale Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Pale Rider
+1-Demi-Fiend HP:931/1227 MP:542/834
+2-Cu Chulainn HP:188/420 MP:0/189
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Pale Rider ataca a Cu Chulainn
+Cu Chulainn es resistente el ataque de Pale Rider
+Cu Chulainn recibe 45 de daño
+Cu Chulainn termina con HP:143/420
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:597/597 MP:347/347
+B-
+C-
+D-Pale Rider HP:391/693 MP:160/310
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:931/1227 MP:542/834
+B-
+C-
+D-Cu Chulainn HP:143/420 MP:0/189
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Yu
+2-Pale Rider
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Yu
+1-Demi-Fiend HP:931/1227 MP:542/834
+2-Cu Chulainn HP:143/420 MP:0/189
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Yamato-Takeru HP:538/705 MP:320/320
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Yu
+1-Demi-Fiend HP:931/1227 MP:542/834
+2-Cu Chulainn HP:143/420 MP:0/189
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Yu dispara a Demi-Fiend
+Demi-Fiend recibe 159 de daño
+Demi-Fiend termina con HP:772/1227
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Demi-Fiend (J2)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:597/597 MP:347/347
+B-
+C-
+D-Pale Rider HP:391/693 MP:160/310
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:772/1227 MP:542/834
+B-
+C-
+D-Cu Chulainn HP:143/420 MP:0/189
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Demi-Fiend
+2-Cu Chulainn
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Huang Di HP:672/672 MP:256/301
+2-Dzelarhons HP:127/127 MP:134/134
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una posición para invocar
+1-Vacío (Puesto 2)
+2-Vacío (Puesto 3)
+3-Cu Chulainn HP:143/420 MP:0/189 (Puesto 4)
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Dzelarhons ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:597/597 MP:347/347
+B-
+C-
+D-Pale Rider HP:391/693 MP:160/310
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:772/1227 MP:542/834
+B-Dzelarhons HP:127/127 MP:134/134
+C-
+D-Cu Chulainn HP:143/420 MP:0/189
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Cu Chulainn
+2-Dzelarhons
+3-Demi-Fiend
+----------------------------------------
+Seleccione una acción para Cu Chulainn
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Cu Chulainn
+1-Yu HP:597/597 MP:347/347
+2-Pale Rider HP:391/693 MP:160/310
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Cu Chulainn
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Huang Di HP:672/672 MP:256/301
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Cu Chulainn
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Huang Di HP:672/672 MP:256/301
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Huang Di ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:597/597 MP:347/347
+B-
+C-
+D-Pale Rider HP:391/693 MP:160/310
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:772/1227 MP:542/834
+B-Dzelarhons HP:127/127 MP:134/134
+C-
+D-Huang Di HP:672/672 MP:256/301
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Dzelarhons
+2-Demi-Fiend
+3-Huang Di
+----------------------------------------
+Seleccione una acción para Dzelarhons
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Dzelarhons use
+1-Agilao MP:8
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Dzelarhons
+1-Yu HP:597/597 MP:347/347
+2-Pale Rider HP:391/693 MP:160/310
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Dzelarhons lanza fuego a Pale Rider
+Pale Rider recibe 62 de daño
+Pale Rider termina con HP:329/693
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Yu (J1)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:597/597 MP:347/347
+B-
+C-
+D-Pale Rider HP:329/693 MP:160/310
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:772/1227 MP:542/834
+B-Dzelarhons HP:127/127 MP:126/134
+C-
+D-Huang Di HP:672/672 MP:256/301
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Pale Rider
+2-Yu
+----------------------------------------
+Seleccione una acción para Pale Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:597/597 MP:347/347
+B-
+C-
+D-Pale Rider HP:329/693 MP:160/310
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:772/1227 MP:542/834
+B-Dzelarhons HP:127/127 MP:126/134
+C-
+D-Huang Di HP:672/672 MP:256/301
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Yu
+2-Pale Rider
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Yu
+1-Demi-Fiend HP:772/1227 MP:542/834
+2-Dzelarhons HP:127/127 MP:126/134
+3-Huang Di HP:672/672 MP:256/301
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Yu ataca a Demi-Fiend
+Demi-Fiend absorbe 49 daño
+Demi-Fiend termina con HP:821/1227
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Demi-Fiend (J2)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:597/597 MP:347/347
+B-
+C-
+D-Pale Rider HP:329/693 MP:160/310
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:821/1227 MP:542/834
+B-Dzelarhons HP:127/127 MP:126/134
+C-
+D-Huang Di HP:672/672 MP:256/301
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Demi-Fiend
+2-Huang Di
+3-Dzelarhons
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cu Chulainn HP:143/420 MP:0/189
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Yu HP:597/597 MP:347/347
+2-Pale Rider HP:329/693 MP:160/310
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:597/597 MP:347/347
+B-
+C-
+D-Pale Rider HP:329/693 MP:160/310
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:821/1227 MP:542/834
+B-Dzelarhons HP:127/127 MP:126/134
+C-
+D-Huang Di HP:672/672 MP:256/301
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Huang Di
+2-Dzelarhons
+3-Demi-Fiend
+----------------------------------------
+Seleccione una acción para Huang Di
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Huang Di use
+1-Judgement MP:45
+2-Mediarahan MP:40
+3-Amrita MP:20
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Huang Di lanza un ataque todo poderoso a Yu
+Yu recibe 106 de daño
+Yu termina con HP:491/597
+Huang Di lanza un ataque todo poderoso a Pale Rider
+Pale Rider recibe 106 de daño
+Pale Rider termina con HP:223/693
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:491/597 MP:347/347
+B-
+C-
+D-Pale Rider HP:223/693 MP:160/310
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:821/1227 MP:542/834
+B-Dzelarhons HP:127/127 MP:126/134
+C-
+D-Huang Di HP:672/672 MP:211/301
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Dzelarhons
+2-Demi-Fiend
+3-Huang Di
+----------------------------------------
+Seleccione una acción para Dzelarhons
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cu Chulainn HP:143/420 MP:0/189
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Cu Chulainn ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:491/597 MP:347/347
+B-
+C-
+D-Pale Rider HP:223/693 MP:160/310
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:821/1227 MP:542/834
+B-Cu Chulainn HP:143/420 MP:0/189
+C-
+D-Huang Di HP:672/672 MP:211/301
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Demi-Fiend
+2-Huang Di
+3-Cu Chulainn
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Yu HP:491/597 MP:347/347
+2-Pale Rider HP:223/693 MP:160/310
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Demi-Fiend dispara a Pale Rider
+Pale Rider recibe 71 de daño
+Pale Rider termina con HP:152/693
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:491/597 MP:347/347
+B-
+C-
+D-Pale Rider HP:152/693 MP:160/310
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:821/1227 MP:542/834
+B-Cu Chulainn HP:143/420 MP:0/189
+C-
+D-Huang Di HP:672/672 MP:211/301
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Huang Di
+2-Cu Chulainn
+3-Demi-Fiend
+----------------------------------------
+Seleccione una acción para Huang Di
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Huang Di
+1-Yu HP:491/597 MP:347/347
+2-Pale Rider HP:152/693 MP:160/310
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Huang Di ataca a Pale Rider
+Pale Rider recibe 49 de daño
+Pale Rider termina con HP:103/693
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Yu (J1)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:491/597 MP:347/347
+B-
+C-
+D-Pale Rider HP:103/693 MP:160/310
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:821/1227 MP:542/834
+B-Cu Chulainn HP:143/420 MP:0/189
+C-
+D-Huang Di HP:672/672 MP:211/301
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Pale Rider
+2-Yu
+----------------------------------------
+Seleccione una acción para Pale Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Pale Rider use
+1-Pandemic Bomb MP:11
+2-Death's Door MP:10
+3-Deadly Wind MP:22
+4-Debilitate MP:50
+5-Cancelar
+INPUT: 4
+----------------------------------------
+El ataque de Demi-Fiend ha disminuido
+La defensa de Demi-Fiend ha disminuido
+El ataque de Cu Chulainn ha disminuido
+La defensa de Cu Chulainn ha disminuido
+El ataque de Huang Di ha disminuido
+La defensa de Huang Di ha disminuido
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:491/597 MP:347/347
+B-
+C-
+D-Pale Rider HP:103/693 MP:110/310
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:821/1227 MP:542/834
+B-Cu Chulainn HP:143/420 MP:0/189
+C-
+D-Huang Di HP:672/672 MP:211/301
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Yu
+2-Pale Rider
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Yu
+1-Demi-Fiend HP:821/1227 MP:542/834
+2-Cu Chulainn HP:143/420 MP:0/189
+3-Huang Di HP:672/672 MP:211/301
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Yu ataca a Huang Di
+Huang Di recibe 92 de daño
+Huang Di termina con HP:580/672
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Demi-Fiend (J2)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:491/597 MP:347/347
+B-
+C-
+D-Pale Rider HP:103/693 MP:110/310
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:821/1227 MP:542/834
+B-Cu Chulainn HP:143/420 MP:0/189
+C-
+D-Huang Di HP:580/672 MP:211/301
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Demi-Fiend
+2-Huang Di
+3-Cu Chulainn
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Dzelarhons HP:127/127 MP:126/134
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una posición para invocar
+1-Cu Chulainn HP:143/420 MP:0/189 (Puesto 2)
+2-Vacío (Puesto 3)
+3-Huang Di HP:580/672 MP:211/301 (Puesto 4)
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Yu HP:491/597 MP:347/347
+2-Pale Rider HP:103/693 MP:110/310
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Demi-Fiend dispara a Pale Rider
+Pale Rider recibe 71 de daño
+Pale Rider termina con HP:32/693
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:491/597 MP:347/347
+B-
+C-
+D-Pale Rider HP:32/693 MP:110/310
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:821/1227 MP:542/834
+B-Cu Chulainn HP:143/420 MP:0/189
+C-
+D-Huang Di HP:580/672 MP:211/301
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Huang Di
+2-Cu Chulainn
+3-Demi-Fiend
+----------------------------------------
+Seleccione una acción para Huang Di
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Huang Di
+1-Yu HP:491/597 MP:347/347
+2-Pale Rider HP:32/693 MP:110/310
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Huang Di ataca a Yu
+Yu es resistente el ataque de Huang Di
+Yu recibe 21 de daño
+Yu termina con HP:470/597
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:470/597 MP:347/347
+B-
+C-
+D-Pale Rider HP:32/693 MP:110/310
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:821/1227 MP:542/834
+B-Cu Chulainn HP:143/420 MP:0/189
+C-
+D-Huang Di HP:580/672 MP:211/301
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Cu Chulainn
+2-Demi-Fiend
+3-Huang Di
+----------------------------------------
+Seleccione una acción para Cu Chulainn
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Cu Chulainn
+1-Yu HP:470/597 MP:347/347
+2-Pale Rider HP:32/693 MP:110/310
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Cu Chulainn ataca a Yu
+Yu es resistente el ataque de Cu Chulainn
+Yu recibe 12 de daño
+Yu termina con HP:458/597
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Yu (J1)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:458/597 MP:347/347
+B-
+C-
+D-Pale Rider HP:32/693 MP:110/310
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:821/1227 MP:542/834
+B-Cu Chulainn HP:143/420 MP:0/189
+C-
+D-Huang Di HP:580/672 MP:211/301
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Pale Rider
+2-Yu
+----------------------------------------
+Seleccione una acción para Pale Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Pale Rider use
+1-Pandemic Bomb MP:11
+2-Death's Door MP:10
+3-Deadly Wind MP:22
+4-Debilitate MP:50
+5-Cancelar
+INPUT: 4
+----------------------------------------
+El ataque de Demi-Fiend ha disminuido
+La defensa de Demi-Fiend ha disminuido
+El ataque de Cu Chulainn ha disminuido
+La defensa de Cu Chulainn ha disminuido
+El ataque de Huang Di ha disminuido
+La defensa de Huang Di ha disminuido
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:458/597 MP:347/347
+B-
+C-
+D-Pale Rider HP:32/693 MP:60/310
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:821/1227 MP:542/834
+B-Cu Chulainn HP:143/420 MP:0/189
+C-
+D-Huang Di HP:580/672 MP:211/301
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Yu
+2-Pale Rider
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Yu
+1-Demi-Fiend HP:821/1227 MP:542/834
+2-Cu Chulainn HP:143/420 MP:0/189
+3-Huang Di HP:580/672 MP:211/301
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Yu ataca a Cu Chulainn
+Cu Chulainn es resistente el ataque de Yu
+Cu Chulainn recibe 53 de daño
+Cu Chulainn termina con HP:90/420
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Demi-Fiend (J2)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:458/597 MP:347/347
+B-
+C-
+D-Pale Rider HP:32/693 MP:60/310
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:821/1227 MP:542/834
+B-Cu Chulainn HP:90/420 MP:0/189
+C-
+D-Huang Di HP:580/672 MP:211/301
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Demi-Fiend
+2-Huang Di
+3-Cu Chulainn
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Yu HP:458/597 MP:347/347
+2-Pale Rider HP:32/693 MP:60/310
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Demi-Fiend ataca a Yu
+Yu es resistente el ataque de Demi-Fiend
+Yu recibe 52 de daño
+Yu termina con HP:406/597
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:406/597 MP:347/347
+B-
+C-
+D-Pale Rider HP:32/693 MP:60/310
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:821/1227 MP:542/834
+B-Cu Chulainn HP:90/420 MP:0/189
+C-
+D-Huang Di HP:580/672 MP:211/301
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Huang Di
+2-Cu Chulainn
+3-Demi-Fiend
+----------------------------------------
+Seleccione una acción para Huang Di
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Dzelarhons HP:127/127 MP:126/134
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Huang Di
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Huang Di use
+1-Judgement MP:45
+2-Mediarahan MP:40
+3-Amrita MP:20
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Huang Di lanza un ataque todo poderoso a Yu
+Yu recibe 75 de daño
+Yu termina con HP:331/597
+Huang Di lanza un ataque todo poderoso a Pale Rider
+Pale Rider recibe 75 de daño
+Pale Rider termina con HP:0/693
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:331/597 MP:347/347
+B-
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:821/1227 MP:542/834
+B-Cu Chulainn HP:90/420 MP:0/189
+C-
+D-Huang Di HP:580/672 MP:166/301
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Cu Chulainn
+2-Demi-Fiend
+3-Huang Di
+----------------------------------------
+Seleccione una acción para Cu Chulainn
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Cu Chulainn
+1-Yu HP:331/597 MP:347/347
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Cu Chulainn
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Cu Chulainn use
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Cu Chulainn
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Dzelarhons HP:127/127 MP:126/134
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Cu Chulainn
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Cu Chulainn
+1-Yu HP:331/597 MP:347/347
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Cu Chulainn
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Cu Chulainn
+1-Yu HP:331/597 MP:347/347
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Cu Chulainn
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Cu Chulainn use
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Cu Chulainn
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Cu Chulainn use
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Cu Chulainn
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Cu Chulainn use
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Cu Chulainn
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Cu Chulainn use
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Cu Chulainn
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Cu Chulainn
+1-Yu HP:331/597 MP:347/347
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Cu Chulainn
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Cu Chulainn
+1-Yu HP:331/597 MP:347/347
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Cu Chulainn ataca a Yu
+Yu es resistente el ataque de Cu Chulainn
+Yu recibe 10 de daño
+Yu termina con HP:321/597
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Yu (J1)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:321/597 MP:347/347
+B-
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:821/1227 MP:542/834
+B-Cu Chulainn HP:90/420 MP:0/189
+C-
+D-Huang Di HP:580/672 MP:166/301
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Yu
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Yu
+1-Demi-Fiend HP:821/1227 MP:542/834
+2-Cu Chulainn HP:90/420 MP:0/189
+3-Huang Di HP:580/672 MP:166/301
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Yu
+1-Demi-Fiend HP:821/1227 MP:542/834
+2-Cu Chulainn HP:90/420 MP:0/189
+3-Huang Di HP:580/672 MP:166/301
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Yu dispara a Demi-Fiend
+Demi-Fiend recibe 159 de daño
+Demi-Fiend termina con HP:662/1227
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Demi-Fiend (J2)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:321/597 MP:347/347
+B-
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:662/1227 MP:542/834
+B-Cu Chulainn HP:90/420 MP:0/189
+C-
+D-Huang Di HP:580/672 MP:166/301
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Demi-Fiend
+2-Huang Di
+3-Cu Chulainn
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Yu HP:321/597 MP:347/347
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Yu HP:321/597 MP:347/347
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Yu HP:321/597 MP:347/347
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Demi-Fiend dispara a Yu
+Yu absorbe 114 daño
+Yu termina con HP:435/597
+----------------------------------------
+Se han consumido 3 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Yu (J1)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:435/597 MP:347/347
+B-
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:662/1227 MP:542/834
+B-Cu Chulainn HP:90/420 MP:0/189
+C-
+D-Huang Di HP:580/672 MP:166/301
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Yu
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:435/597 MP:347/347
+B-
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:662/1227 MP:542/834
+B-Cu Chulainn HP:90/420 MP:0/189
+C-
+D-Huang Di HP:580/672 MP:166/301
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Yu
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Yu use
+1-Serpent of Sheol MP:45
+2-Judgement MP:45
+3-Hamaon MP:10
+4-Rakukaja MP:15
+5-Agi MP:5
+6-Cancelar
+INPUT: 1
+----------------------------------------
+Yu lanza un ataque todo poderoso a Demi-Fiend
+El ataque drena 232 HP de Demi-Fiend
+Demi-Fiend termina con HP:430/1227
+El ataque drena 232 MP de Demi-Fiend
+Demi-Fiend termina con MP:310/834
+Yu lanza un ataque todo poderoso a Cu Chulainn
+El ataque drena 90 HP de Cu Chulainn
+Cu Chulainn termina con HP:0/420
+El ataque drena 0 MP de Cu Chulainn
+Cu Chulainn termina con MP:0/189
+Yu lanza un ataque todo poderoso a Huang Di
+El ataque drena 232 HP de Huang Di
+Huang Di termina con HP:348/672
+Yu termina con HP:597/597
+El ataque drena 166 MP de Huang Di
+Huang Di termina con MP:0/301
+Yu termina con MP:347/347
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Demi-Fiend (J2)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:597/597 MP:347/347
+B-
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:430/1227 MP:310/834
+B-
+C-
+D-Huang Di HP:348/672 MP:0/301
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Demi-Fiend
+2-Huang Di
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Dzelarhons HP:127/127 MP:126/134
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Yu HP:597/597 MP:347/347
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Demi-Fiend ataca a Yu
+Yu es resistente el ataque de Demi-Fiend
+Yu recibe 52 de daño
+Yu termina con HP:545/597
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:545/597 MP:347/347
+B-
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:430/1227 MP:310/834
+B-
+C-
+D-Huang Di HP:348/672 MP:0/301
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Huang Di
+2-Demi-Fiend
+----------------------------------------
+Seleccione una acción para Huang Di
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:545/597 MP:347/347
+B-
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:430/1227 MP:310/834
+B-
+C-
+D-Huang Di HP:348/672 MP:0/301
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Demi-Fiend
+2-Huang Di
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Yu (J1)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:545/597 MP:347/347
+B-
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:430/1227 MP:310/834
+B-
+C-
+D-Huang Di HP:348/672 MP:0/301
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Yu
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Yu
+1-Demi-Fiend HP:430/1227 MP:310/834
+2-Huang Di HP:348/672 MP:0/301
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Yu ataca a Demi-Fiend
+Demi-Fiend absorbe 49 daño
+Demi-Fiend termina con HP:479/1227
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Demi-Fiend (J2)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:545/597 MP:347/347
+B-
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:479/1227 MP:310/834
+B-
+C-
+D-Huang Di HP:348/672 MP:0/301
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Demi-Fiend
+2-Huang Di
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Demi-Fiend use
+1-Agidyne MP:14
+2-Samarecarm MP:40
+3-Javelin Rain MP:21
+4-Bufudyne MP:14
+5-Zio MP:5
+6-Luster Candy MP:50
+7-Maragion MP:20
+8-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Yu HP:545/597 MP:347/347
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:545/597 MP:347/347
+B-
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:479/1227 MP:310/834
+B-
+C-
+D-Huang Di HP:348/672 MP:0/301
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Huang Di
+2-Demi-Fiend
+----------------------------------------
+Seleccione una acción para Huang Di
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Huang Di
+1-Yu HP:545/597 MP:347/347
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Huang Di ataca a Yu
+Yu es resistente el ataque de Huang Di
+Yu recibe 17 de daño
+Yu termina con HP:528/597
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:528/597 MP:347/347
+B-
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:479/1227 MP:310/834
+B-
+C-
+D-Huang Di HP:348/672 MP:0/301
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Demi-Fiend
+2-Huang Di
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Yu HP:528/597 MP:347/347
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Demi-Fiend ataca a Yu
+Yu es resistente el ataque de Demi-Fiend
+Yu recibe 52 de daño
+Yu termina con HP:476/597
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Yu (J1)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:476/597 MP:347/347
+B-
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:479/1227 MP:310/834
+B-
+C-
+D-Huang Di HP:348/672 MP:0/301
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Yu
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Yamato-Takeru HP:538/705 MP:320/320
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Yu
+1-Demi-Fiend HP:479/1227 MP:310/834
+2-Huang Di HP:348/672 MP:0/301
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Yu dispara a Demi-Fiend
+Demi-Fiend recibe 159 de daño
+Demi-Fiend termina con HP:320/1227
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Demi-Fiend (J2)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:476/597 MP:347/347
+B-
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:320/1227 MP:310/834
+B-
+C-
+D-Huang Di HP:348/672 MP:0/301
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Demi-Fiend
+2-Huang Di
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Yu HP:476/597 MP:347/347
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Yu HP:476/597 MP:347/347
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Dzelarhons HP:127/127 MP:126/134
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Dzelarhons HP:127/127 MP:126/134
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:476/597 MP:347/347
+B-
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:320/1227 MP:310/834
+B-
+C-
+D-Huang Di HP:348/672 MP:0/301
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Huang Di
+2-Demi-Fiend
+----------------------------------------
+Seleccione una acción para Huang Di
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:476/597 MP:347/347
+B-
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:320/1227 MP:310/834
+B-
+C-
+D-Huang Di HP:348/672 MP:0/301
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Demi-Fiend
+2-Huang Di
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:476/597 MP:347/347
+B-
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:320/1227 MP:310/834
+B-
+C-
+D-Huang Di HP:348/672 MP:0/301
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Huang Di
+2-Demi-Fiend
+----------------------------------------
+Seleccione una acción para Huang Di
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Huang Di
+1-Yu HP:476/597 MP:347/347
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Huang Di ataca a Yu
+Yu es resistente el ataque de Huang Di
+Yu recibe 17 de daño
+Yu termina con HP:459/597
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Yu (J1)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:459/597 MP:347/347
+B-
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:320/1227 MP:310/834
+B-
+C-
+D-Huang Di HP:348/672 MP:0/301
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Yu
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:459/597 MP:347/347
+B-
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:320/1227 MP:310/834
+B-
+C-
+D-Huang Di HP:348/672 MP:0/301
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Yu
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Yu
+1-Demi-Fiend HP:320/1227 MP:310/834
+2-Huang Di HP:348/672 MP:0/301
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Yu dispara a Huang Di
+Huang Di recibe 159 de daño
+Huang Di termina con HP:189/672
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Demi-Fiend (J2)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:459/597 MP:347/347
+B-
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:320/1227 MP:310/834
+B-
+C-
+D-Huang Di HP:189/672 MP:0/301
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Demi-Fiend
+2-Huang Di
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Demi-Fiend use
+1-Agidyne MP:14
+2-Samarecarm MP:40
+3-Javelin Rain MP:21
+4-Bufudyne MP:14
+5-Zio MP:5
+6-Luster Candy MP:50
+7-Maragion MP:20
+8-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Yu HP:459/597 MP:347/347
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Demi-Fiend lanza electricidad a Yu
+Yu es resistente el ataque de Demi-Fiend
+Yu recibe 48 de daño
+Yu termina con HP:411/597
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:411/597 MP:347/347
+B-
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:320/1227 MP:305/834
+B-
+C-
+D-Huang Di HP:189/672 MP:0/301
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Huang Di
+2-Demi-Fiend
+----------------------------------------
+Seleccione una acción para Huang Di
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:411/597 MP:347/347
+B-
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:320/1227 MP:305/834
+B-
+C-
+D-Huang Di HP:189/672 MP:0/301
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Demi-Fiend
+2-Huang Di
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Yu HP:411/597 MP:347/347
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Yu HP:411/597 MP:347/347
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Yu (J1)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:411/597 MP:347/347
+B-
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:320/1227 MP:305/834
+B-
+C-
+D-Huang Di HP:189/672 MP:0/301
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Yu
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Yu use
+1-Serpent of Sheol MP:45
+2-Judgement MP:45
+3-Hamaon MP:10
+4-Rakukaja MP:15
+5-Agi MP:5
+6-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione un objetivo para Yu
+1-Demi-Fiend HP:320/1227 MP:305/834
+2-Huang Di HP:189/672 MP:0/301
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Yu lanza fuego a Demi-Fiend
+Demi-Fiend bloquea el ataque de Yu
+Demi-Fiend termina con HP:320/1227
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Demi-Fiend (J2)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:411/597 MP:342/347
+B-
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:320/1227 MP:305/834
+B-
+C-
+D-Huang Di HP:189/672 MP:0/301
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Demi-Fiend
+2-Huang Di
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Yu HP:411/597 MP:342/347
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Demi-Fiend ataca a Yu
+Yu es resistente el ataque de Demi-Fiend
+Yu recibe 52 de daño
+Yu termina con HP:359/597
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:359/597 MP:342/347
+B-
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:320/1227 MP:305/834
+B-
+C-
+D-Huang Di HP:189/672 MP:0/301
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Huang Di
+2-Demi-Fiend
+----------------------------------------
+Seleccione una acción para Huang Di
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Dzelarhons HP:127/127 MP:126/134
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Dzelarhons ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:359/597 MP:342/347
+B-
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:320/1227 MP:305/834
+B-
+C-
+D-Dzelarhons HP:127/127 MP:126/134
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Demi-Fiend
+2-Dzelarhons
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Yu HP:359/597 MP:342/347
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Demi-Fiend dispara a Yu
+Yu absorbe 114 daño
+Yu termina con HP:473/597
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Yu (J1)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:473/597 MP:342/347
+B-
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:320/1227 MP:305/834
+B-
+C-
+D-Dzelarhons HP:127/127 MP:126/134
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Yu
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Yamato-Takeru HP:538/705 MP:320/320
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una posición para invocar
+1-Vacío (Puesto 2)
+2-Vacío (Puesto 3)
+3-Vacío (Puesto 4)
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Yamato-Takeru ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:473/597 MP:342/347
+B-
+C-Yamato-Takeru HP:538/705 MP:320/320
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:320/1227 MP:305/834
+B-
+C-
+D-Dzelarhons HP:127/127 MP:126/134
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Yamato-Takeru
+2-Yu
+----------------------------------------
+Seleccione una acción para Yamato-Takeru
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Yamato-Takeru
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Yamato-Takeru
+1-Demi-Fiend HP:320/1227 MP:305/834
+2-Dzelarhons HP:127/127 MP:126/134
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Yamato-Takeru ataca a Demi-Fiend
+Demi-Fiend absorbe 62 daño
+Demi-Fiend termina con HP:382/1227
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Demi-Fiend (J2)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:473/597 MP:342/347
+B-
+C-Yamato-Takeru HP:538/705 MP:320/320
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:382/1227 MP:305/834
+B-
+C-
+D-Dzelarhons HP:127/127 MP:126/134
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Demi-Fiend
+2-Dzelarhons
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Yu HP:473/597 MP:342/347
+2-Yamato-Takeru HP:538/705 MP:320/320
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Yu HP:473/597 MP:342/347
+2-Yamato-Takeru HP:538/705 MP:320/320
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Yu HP:473/597 MP:342/347
+2-Yamato-Takeru HP:538/705 MP:320/320
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Yu HP:473/597 MP:342/347
+2-Yamato-Takeru HP:538/705 MP:320/320
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Demi-Fiend dispara a Yamato-Takeru
+Yamato-Takeru recibe 71 de daño
+Yamato-Takeru termina con HP:467/705
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:473/597 MP:342/347
+B-
+C-Yamato-Takeru HP:467/705 MP:320/320
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:382/1227 MP:305/834
+B-
+C-
+D-Dzelarhons HP:127/127 MP:126/134
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Dzelarhons
+2-Demi-Fiend
+----------------------------------------
+Seleccione una acción para Dzelarhons
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:473/597 MP:342/347
+B-
+C-Yamato-Takeru HP:467/705 MP:320/320
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:382/1227 MP:305/834
+B-
+C-
+D-Dzelarhons HP:127/127 MP:126/134
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Demi-Fiend
+2-Dzelarhons
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Yu HP:473/597 MP:342/347
+2-Yamato-Takeru HP:467/705 MP:320/320
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Demi-Fiend ataca a Yu
+Yu es resistente el ataque de Demi-Fiend
+Yu recibe 52 de daño
+Yu termina con HP:421/597
+Yamato-Takeru contra ataca a Demi-Fiend
+Demi-Fiend recibe 26 de daño
+Demi-Fiend termina con HP:356/1227
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Yu (J1)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:421/597 MP:342/347
+B-
+C-Yamato-Takeru HP:467/705 MP:320/320
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:356/1227 MP:305/834
+B-
+C-
+D-Dzelarhons HP:127/127 MP:126/134
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Yamato-Takeru
+2-Yu
+----------------------------------------
+Seleccione una acción para Yamato-Takeru
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Yamato-Takeru
+1-Demi-Fiend HP:356/1227 MP:305/834
+2-Dzelarhons HP:127/127 MP:126/134
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Yamato-Takeru ataca a Demi-Fiend
+Demi-Fiend absorbe 62 daño
+Demi-Fiend termina con HP:418/1227
+----------------------------------------
+Se han consumido 2 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Demi-Fiend (J2)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:421/597 MP:342/347
+B-
+C-Yamato-Takeru HP:467/705 MP:320/320
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:418/1227 MP:305/834
+B-
+C-
+D-Dzelarhons HP:127/127 MP:126/134
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Demi-Fiend
+2-Dzelarhons
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Yu HP:421/597 MP:342/347
+2-Yamato-Takeru HP:467/705 MP:320/320
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Demi-Fiend ataca a Yu
+Yu es resistente el ataque de Demi-Fiend
+Yu recibe 52 de daño
+Yu termina con HP:369/597
+Yamato-Takeru contra ataca a Demi-Fiend
+Demi-Fiend recibe 26 de daño
+Demi-Fiend termina con HP:392/1227
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:369/597 MP:342/347
+B-
+C-Yamato-Takeru HP:467/705 MP:320/320
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:392/1227 MP:305/834
+B-
+C-
+D-Dzelarhons HP:127/127 MP:126/134
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Dzelarhons
+2-Demi-Fiend
+----------------------------------------
+Seleccione una acción para Dzelarhons
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Dzelarhons
+1-Yu HP:369/597 MP:342/347
+2-Yamato-Takeru HP:467/705 MP:320/320
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Dzelarhons ataca a Yu
+Yu es resistente el ataque de Dzelarhons
+Yu recibe 6 de daño
+Yu termina con HP:363/597
+Yamato-Takeru contra ataca a Dzelarhons
+Dzelarhons recibe 3 de daño
+Dzelarhons termina con HP:124/127
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Yu (J1)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:363/597 MP:342/347
+B-
+C-Yamato-Takeru HP:467/705 MP:320/320
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:392/1227 MP:305/834
+B-
+C-
+D-Dzelarhons HP:124/127 MP:126/134
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Yamato-Takeru
+2-Yu
+----------------------------------------
+Seleccione una acción para Yamato-Takeru
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Yamato-Takeru
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Yamato-Takeru
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:363/597 MP:342/347
+B-
+C-Yamato-Takeru HP:467/705 MP:320/320
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:392/1227 MP:305/834
+B-
+C-
+D-Dzelarhons HP:124/127 MP:126/134
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Yu
+2-Yamato-Takeru
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:363/597 MP:342/347
+B-
+C-Yamato-Takeru HP:467/705 MP:320/320
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:392/1227 MP:305/834
+B-
+C-
+D-Dzelarhons HP:124/127 MP:126/134
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Yamato-Takeru
+2-Yu
+----------------------------------------
+Seleccione una acción para Yamato-Takeru
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Yamato-Takeru use
+1-Berserker God MP:12
+2-Floral Gust MP:35
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Yamato-Takeru
+1-Demi-Fiend HP:392/1227 MP:305/834
+2-Dzelarhons HP:124/127 MP:126/134
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Yamato-Takeru ataca a Demi-Fiend
+Demi-Fiend absorbe 158 daño
+Demi-Fiend termina con HP:550/1227
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Demi-Fiend (J2)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:363/597 MP:342/347
+B-
+C-Yamato-Takeru HP:467/705 MP:308/320
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:550/1227 MP:305/834
+B-
+C-
+D-Dzelarhons HP:124/127 MP:126/134
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Demi-Fiend
+2-Dzelarhons
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:363/597 MP:342/347
+B-
+C-Yamato-Takeru HP:467/705 MP:308/320
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:550/1227 MP:305/834
+B-
+C-
+D-Dzelarhons HP:124/127 MP:126/134
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Dzelarhons
+2-Demi-Fiend
+----------------------------------------
+Seleccione una acción para Dzelarhons
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:363/597 MP:342/347
+B-
+C-Yamato-Takeru HP:467/705 MP:308/320
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:550/1227 MP:305/834
+B-
+C-
+D-Dzelarhons HP:124/127 MP:126/134
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Demi-Fiend
+2-Dzelarhons
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Demi-Fiend use
+1-Agidyne MP:14
+2-Samarecarm MP:40
+3-Javelin Rain MP:21
+4-Bufudyne MP:14
+5-Zio MP:5
+6-Luster Candy MP:50
+7-Maragion MP:20
+8-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Yu HP:363/597 MP:342/347
+2-Yamato-Takeru HP:467/705 MP:308/320
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Demi-Fiend lanza fuego a Yamato-Takeru
+Yamato-Takeru devuelve 250 daño a Demi-Fiend
+Demi-Fiend termina con HP:300/1227
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Yu (J1)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:363/597 MP:342/347
+B-
+C-Yamato-Takeru HP:467/705 MP:308/320
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:300/1227 MP:291/834
+B-
+C-
+D-Dzelarhons HP:124/127 MP:126/134
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Yamato-Takeru
+2-Yu
+----------------------------------------
+Seleccione una acción para Yamato-Takeru
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Yamato-Takeru use
+1-Berserker God MP:12
+2-Floral Gust MP:35
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Yamato-Takeru
+1-Demi-Fiend HP:300/1227 MP:291/834
+2-Dzelarhons HP:124/127 MP:126/134
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Yamato-Takeru ataca a Dzelarhons
+Dzelarhons recibe 158 de daño
+Dzelarhons termina con HP:0/127
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:363/597 MP:342/347
+B-
+C-Yamato-Takeru HP:467/705 MP:296/320
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:300/1227 MP:291/834
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Yu
+2-Yamato-Takeru
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Yu
+1-Demi-Fiend HP:300/1227 MP:291/834
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Yu
+1-Demi-Fiend HP:300/1227 MP:291/834
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:363/597 MP:342/347
+B-
+C-Yamato-Takeru HP:467/705 MP:296/320
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:300/1227 MP:291/834
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Yamato-Takeru
+2-Yu
+----------------------------------------
+Seleccione una acción para Yamato-Takeru
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Yamato-Takeru
+1-Demi-Fiend HP:300/1227 MP:291/834
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Yamato-Takeru ataca a Demi-Fiend
+Demi-Fiend absorbe 62 daño
+Demi-Fiend termina con HP:362/1227
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Demi-Fiend (J2)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:363/597 MP:342/347
+B-
+C-Yamato-Takeru HP:467/705 MP:296/320
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:362/1227 MP:291/834
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Demi-Fiend
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:363/597 MP:342/347
+B-
+C-Yamato-Takeru HP:467/705 MP:296/320
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:362/1227 MP:291/834
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Demi-Fiend
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Yu HP:363/597 MP:342/347
+2-Yamato-Takeru HP:467/705 MP:296/320
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Yu HP:363/597 MP:342/347
+2-Yamato-Takeru HP:467/705 MP:296/320
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Yu HP:363/597 MP:342/347
+2-Yamato-Takeru HP:467/705 MP:296/320
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Demi-Fiend ataca a Yu
+Yu es resistente el ataque de Demi-Fiend
+Yu recibe 52 de daño
+Yu termina con HP:311/597
+Yamato-Takeru contra ataca a Demi-Fiend
+Demi-Fiend recibe 26 de daño
+Demi-Fiend termina con HP:336/1227
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Yu (J1)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:311/597 MP:342/347
+B-
+C-Yamato-Takeru HP:467/705 MP:296/320
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:336/1227 MP:291/834
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Yamato-Takeru
+2-Yu
+----------------------------------------
+Seleccione una acción para Yamato-Takeru
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Yamato-Takeru
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:311/597 MP:342/347
+B-
+C-Yamato-Takeru HP:467/705 MP:296/320
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:336/1227 MP:291/834
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Yu
+2-Yamato-Takeru
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:311/597 MP:342/347
+B-
+C-Yamato-Takeru HP:467/705 MP:296/320
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:336/1227 MP:291/834
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Yamato-Takeru
+2-Yu
+----------------------------------------
+Seleccione una acción para Yamato-Takeru
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Yamato-Takeru
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Yamato-Takeru use
+1-Berserker God MP:12
+2-Floral Gust MP:35
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Yamato-Takeru
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:311/597 MP:342/347
+B-
+C-Yamato-Takeru HP:467/705 MP:296/320
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:336/1227 MP:291/834
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Yu
+2-Yamato-Takeru
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Yu
+1-Demi-Fiend HP:336/1227 MP:291/834
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Yu
+1-Demi-Fiend HP:336/1227 MP:291/834
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Yu use
+1-Serpent of Sheol MP:45
+2-Judgement MP:45
+3-Hamaon MP:10
+4-Rakukaja MP:15
+5-Agi MP:5
+6-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione un objetivo para Yu
+1-Demi-Fiend HP:336/1227 MP:291/834
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Yu
+1-Demi-Fiend HP:336/1227 MP:291/834
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Yu
+1-Demi-Fiend HP:336/1227 MP:291/834
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Yu
+1-Demi-Fiend HP:336/1227 MP:291/834
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Demi-Fiend (J2)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:311/597 MP:342/347
+B-
+C-Yamato-Takeru HP:467/705 MP:296/320
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:336/1227 MP:291/834
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Demi-Fiend
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Demi-Fiend use
+1-Agidyne MP:14
+2-Samarecarm MP:40
+3-Javelin Rain MP:21
+4-Bufudyne MP:14
+5-Zio MP:5
+6-Luster Candy MP:50
+7-Maragion MP:20
+8-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Yu HP:311/597 MP:342/347
+2-Yamato-Takeru HP:467/705 MP:296/320
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Yu HP:311/597 MP:342/347
+2-Yamato-Takeru HP:467/705 MP:296/320
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Demi-Fiend dispara a Yu
+Yu absorbe 114 daño
+Yu termina con HP:425/597
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Yu (J1)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:425/597 MP:342/347
+B-
+C-Yamato-Takeru HP:467/705 MP:296/320
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:336/1227 MP:291/834
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Yamato-Takeru
+2-Yu
+----------------------------------------
+Seleccione una acción para Yamato-Takeru
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Yamato-Takeru
+1-Demi-Fiend HP:336/1227 MP:291/834
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Yamato-Takeru ataca a Demi-Fiend
+Demi-Fiend absorbe 62 daño
+Demi-Fiend termina con HP:398/1227
+----------------------------------------
+Se han consumido 2 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Demi-Fiend (J2)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:425/597 MP:342/347
+B-
+C-Yamato-Takeru HP:467/705 MP:296/320
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:398/1227 MP:291/834
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Demi-Fiend
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Demi-Fiend use
+1-Agidyne MP:14
+2-Samarecarm MP:40
+3-Javelin Rain MP:21
+4-Bufudyne MP:14
+5-Zio MP:5
+6-Luster Candy MP:50
+7-Maragion MP:20
+8-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Yu HP:425/597 MP:342/347
+2-Yamato-Takeru HP:467/705 MP:296/320
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Demi-Fiend lanza hielo a Yu
+Yu es resistente el ataque de Demi-Fiend
+Yu recibe 78 de daño
+Yu termina con HP:347/597
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Yu (J1)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:347/597 MP:342/347
+B-
+C-Yamato-Takeru HP:467/705 MP:296/320
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:398/1227 MP:277/834
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Yamato-Takeru
+2-Yu
+----------------------------------------
+Seleccione una acción para Yamato-Takeru
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Yamato-Takeru use
+1-Berserker God MP:12
+2-Floral Gust MP:35
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Yamato-Takeru
+1-Demi-Fiend HP:398/1227 MP:277/834
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Yamato-Takeru ataca a Demi-Fiend
+Demi-Fiend absorbe 158 daño
+Demi-Fiend termina con HP:556/1227
+----------------------------------------
+Se han consumido 2 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Demi-Fiend (J2)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:347/597 MP:342/347
+B-
+C-Yamato-Takeru HP:467/705 MP:284/320
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:556/1227 MP:277/834
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Demi-Fiend
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Demi-Fiend use
+1-Agidyne MP:14
+2-Samarecarm MP:40
+3-Javelin Rain MP:21
+4-Bufudyne MP:14
+5-Zio MP:5
+6-Luster Candy MP:50
+7-Maragion MP:20
+8-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Yu HP:347/597 MP:342/347
+2-Yamato-Takeru HP:467/705 MP:284/320
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Demi-Fiend lanza electricidad a Yu
+Yu es resistente el ataque de Demi-Fiend
+Yu recibe 48 de daño
+Yu termina con HP:299/597
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Yu (J1)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:299/597 MP:342/347
+B-
+C-Yamato-Takeru HP:467/705 MP:284/320
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:556/1227 MP:272/834
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Yamato-Takeru
+2-Yu
+----------------------------------------
+Seleccione una acción para Yamato-Takeru
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Yamato-Takeru
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Yamato-Takeru
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Yamato-Takeru
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:299/597 MP:342/347
+B-
+C-Yamato-Takeru HP:467/705 MP:284/320
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:556/1227 MP:272/834
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Yu
+2-Yamato-Takeru
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Yu
+1-Demi-Fiend HP:556/1227 MP:272/834
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Yu dispara a Demi-Fiend
+Demi-Fiend recibe 159 de daño
+Demi-Fiend termina con HP:397/1227
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:299/597 MP:342/347
+B-
+C-Yamato-Takeru HP:467/705 MP:284/320
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:397/1227 MP:272/834
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Yamato-Takeru
+2-Yu
+----------------------------------------
+Seleccione una acción para Yamato-Takeru
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Yamato-Takeru use
+1-Berserker God MP:12
+2-Floral Gust MP:35
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Yamato-Takeru
+1-Demi-Fiend HP:397/1227 MP:272/834
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Yamato-Takeru
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Yamato-Takeru
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Yamato-Takeru
+1-Demi-Fiend HP:397/1227 MP:272/834
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Yamato-Takeru
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Yamato-Takeru
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:299/597 MP:342/347
+B-
+C-Yamato-Takeru HP:467/705 MP:284/320
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:397/1227 MP:272/834
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Yu
+2-Yamato-Takeru
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Yu
+1-Demi-Fiend HP:397/1227 MP:272/834
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Yu
+1-Demi-Fiend HP:397/1227 MP:272/834
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Yu
+1-Demi-Fiend HP:397/1227 MP:272/834
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Yu ataca a Demi-Fiend
+Demi-Fiend absorbe 49 daño
+Demi-Fiend termina con HP:446/1227
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Demi-Fiend (J2)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:299/597 MP:342/347
+B-
+C-Yamato-Takeru HP:467/705 MP:284/320
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:446/1227 MP:272/834
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Demi-Fiend
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Yu HP:299/597 MP:342/347
+2-Yamato-Takeru HP:467/705 MP:284/320
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Demi-Fiend ataca a Yu
+Yu es resistente el ataque de Demi-Fiend
+Yu recibe 52 de daño
+Yu termina con HP:247/597
+Yamato-Takeru contra ataca a Demi-Fiend
+Demi-Fiend recibe 26 de daño
+Demi-Fiend termina con HP:420/1227
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Yu (J1)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:247/597 MP:342/347
+B-
+C-Yamato-Takeru HP:467/705 MP:284/320
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:420/1227 MP:272/834
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Yamato-Takeru
+2-Yu
+----------------------------------------
+Seleccione una acción para Yamato-Takeru
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Yamato-Takeru
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Yamato-Takeru
+1-Demi-Fiend HP:420/1227 MP:272/834
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Yamato-Takeru ataca a Demi-Fiend
+Demi-Fiend absorbe 62 daño
+Demi-Fiend termina con HP:482/1227
+----------------------------------------
+Se han consumido 2 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Demi-Fiend (J2)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:247/597 MP:342/347
+B-
+C-Yamato-Takeru HP:467/705 MP:284/320
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:482/1227 MP:272/834
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Demi-Fiend
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Yu HP:247/597 MP:342/347
+2-Yamato-Takeru HP:467/705 MP:284/320
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Demi-Fiend dispara a Yamato-Takeru
+Yamato-Takeru recibe 71 de daño
+Yamato-Takeru termina con HP:396/705
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Yu (J1)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:247/597 MP:342/347
+B-
+C-Yamato-Takeru HP:396/705 MP:284/320
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:482/1227 MP:272/834
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Yamato-Takeru
+2-Yu
+----------------------------------------
+Seleccione una acción para Yamato-Takeru
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:247/597 MP:342/347
+B-
+C-Yamato-Takeru HP:396/705 MP:284/320
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:482/1227 MP:272/834
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Yu
+2-Yamato-Takeru
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Yu use
+1-Serpent of Sheol MP:45
+2-Judgement MP:45
+3-Hamaon MP:10
+4-Rakukaja MP:15
+5-Agi MP:5
+6-Cancelar
+INPUT: 4
+----------------------------------------
+La defensa de Yamato-Takeru ha aumentado
+La defensa de Yu ha aumentado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:247/597 MP:327/347
+B-
+C-Yamato-Takeru HP:396/705 MP:284/320
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:482/1227 MP:272/834
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Yamato-Takeru
+2-Yu
+----------------------------------------
+Seleccione una acción para Yamato-Takeru
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Yamato-Takeru use
+1-Berserker God MP:12
+2-Floral Gust MP:35
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Yamato-Takeru lanza viento a Demi-Fiend
+Demi-Fiend bloquea el ataque de Yamato-Takeru
+Yamato-Takeru lanza viento a Demi-Fiend
+Demi-Fiend bloquea el ataque de Yamato-Takeru
+Yamato-Takeru lanza viento a Demi-Fiend
+Demi-Fiend bloquea el ataque de Yamato-Takeru
+Yamato-Takeru lanza viento a Demi-Fiend
+Demi-Fiend bloquea el ataque de Yamato-Takeru
+Demi-Fiend termina con HP:482/1227
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Demi-Fiend (J2)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:247/597 MP:327/347
+B-
+C-Yamato-Takeru HP:396/705 MP:249/320
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:482/1227 MP:272/834
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Demi-Fiend
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Yu HP:247/597 MP:327/347
+2-Yamato-Takeru HP:396/705 MP:249/320
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Demi-Fiend ataca a Yamato-Takeru
+Yamato-Takeru recibe 91 de daño
+Yamato-Takeru termina con HP:305/705
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Yu (J1)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:247/597 MP:327/347
+B-
+C-Yamato-Takeru HP:305/705 MP:249/320
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:482/1227 MP:272/834
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Yamato-Takeru
+2-Yu
+----------------------------------------
+Seleccione una acción para Yamato-Takeru
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Yamato-Takeru use
+1-Berserker God MP:12
+2-Floral Gust MP:35
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Yamato-Takeru lanza viento a Demi-Fiend
+Demi-Fiend bloquea el ataque de Yamato-Takeru
+Demi-Fiend termina con HP:482/1227
+----------------------------------------
+Se han consumido 2 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Demi-Fiend (J2)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:247/597 MP:327/347
+B-
+C-Yamato-Takeru HP:305/705 MP:214/320
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:482/1227 MP:272/834
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Demi-Fiend
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Huang Di HP:189/672 MP:0/301
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una posición para invocar
+1-Vacío (Puesto 2)
+2-Vacío (Puesto 3)
+3-Vacío (Puesto 4)
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Demi-Fiend use
+1-Agidyne MP:14
+2-Samarecarm MP:40
+3-Javelin Rain MP:21
+4-Bufudyne MP:14
+5-Zio MP:5
+6-Luster Candy MP:50
+7-Maragion MP:20
+8-Cancelar
+INPUT: 3
+----------------------------------------
+Demi-Fiend ataca a Yu
+Yu es resistente el ataque de Demi-Fiend
+Yu recibe 53 de daño
+Yu termina con HP:194/597
+Yamato-Takeru contra ataca a Demi-Fiend
+Demi-Fiend recibe 26 de daño
+Demi-Fiend termina con HP:456/1227
+Demi-Fiend ataca a Yamato-Takeru
+Yamato-Takeru recibe 106 de daño
+Yamato-Takeru termina con HP:199/705
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Yu (J1)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:194/597 MP:327/347
+B-
+C-Yamato-Takeru HP:199/705 MP:214/320
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:456/1227 MP:251/834
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Yamato-Takeru
+2-Yu
+----------------------------------------
+Seleccione una acción para Yamato-Takeru
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Yamato-Takeru
+1-Demi-Fiend HP:456/1227 MP:251/834
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Yamato-Takeru
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Yamato-Takeru use
+1-Berserker God MP:12
+2-Floral Gust MP:35
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Yamato-Takeru lanza viento a Demi-Fiend
+Demi-Fiend bloquea el ataque de Yamato-Takeru
+Yamato-Takeru lanza viento a Demi-Fiend
+Demi-Fiend bloquea el ataque de Yamato-Takeru
+Demi-Fiend termina con HP:456/1227
+----------------------------------------
+Se han consumido 2 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Demi-Fiend (J2)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:194/597 MP:327/347
+B-
+C-Yamato-Takeru HP:199/705 MP:179/320
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:456/1227 MP:251/834
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Demi-Fiend
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Yu HP:194/597 MP:327/347
+2-Yamato-Takeru HP:199/705 MP:179/320
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Demi-Fiend ataca a Yu
+Yu es resistente el ataque de Demi-Fiend
+Yu recibe 45 de daño
+Yu termina con HP:149/597
+Yamato-Takeru contra ataca a Demi-Fiend
+Demi-Fiend recibe 22 de daño
+Demi-Fiend termina con HP:434/1227
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Yu (J1)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:149/597 MP:327/347
+B-
+C-Yamato-Takeru HP:199/705 MP:179/320
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:434/1227 MP:251/834
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Yamato-Takeru
+2-Yu
+----------------------------------------
+Seleccione una acción para Yamato-Takeru
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Yamato-Takeru
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Yamato-Takeru
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:149/597 MP:327/347
+B-
+C-Yamato-Takeru HP:199/705 MP:179/320
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:434/1227 MP:251/834
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Yu
+2-Yamato-Takeru
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Yu use
+1-Serpent of Sheol MP:45
+2-Judgement MP:45
+3-Hamaon MP:10
+4-Rakukaja MP:15
+5-Agi MP:5
+6-Cancelar
+INPUT: 2
+----------------------------------------
+Yu lanza un ataque todo poderoso a Demi-Fiend
+Demi-Fiend recibe 247 de daño
+Demi-Fiend termina con HP:187/1227
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:149/597 MP:282/347
+B-
+C-Yamato-Takeru HP:199/705 MP:179/320
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:187/1227 MP:251/834
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Yamato-Takeru
+2-Yu
+----------------------------------------
+Seleccione una acción para Yamato-Takeru
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Yamato-Takeru use
+1-Berserker God MP:12
+2-Floral Gust MP:35
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Yamato-Takeru
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Yamato-Takeru
+1-Demi-Fiend HP:187/1227 MP:251/834
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Yamato-Takeru ataca a Demi-Fiend
+Demi-Fiend absorbe 62 daño
+Demi-Fiend termina con HP:249/1227
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Demi-Fiend (J2)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:149/597 MP:282/347
+B-
+C-Yamato-Takeru HP:199/705 MP:179/320
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:249/1227 MP:251/834
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Demi-Fiend
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Demi-Fiend use
+1-Agidyne MP:14
+2-Samarecarm MP:40
+3-Javelin Rain MP:21
+4-Bufudyne MP:14
+5-Zio MP:5
+6-Luster Candy MP:50
+7-Maragion MP:20
+8-Cancelar
+INPUT: 7
+----------------------------------------
+Demi-Fiend lanza fuego a Yu
+Yu es resistente el ataque de Demi-Fiend
+Yu recibe 51 de daño
+Yu termina con HP:98/597
+Demi-Fiend lanza fuego a Yamato-Takeru
+Yamato-Takeru devuelve 189 daño a Demi-Fiend
+Demi-Fiend termina con HP:60/1227
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Yu (J1)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:98/597 MP:282/347
+B-
+C-Yamato-Takeru HP:199/705 MP:179/320
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:60/1227 MP:231/834
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Yamato-Takeru
+2-Yu
+----------------------------------------
+Seleccione una acción para Yamato-Takeru
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Yamato-Takeru use
+1-Berserker God MP:12
+2-Floral Gust MP:35
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Yamato-Takeru
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Yamato-Takeru
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Yamato-Takeru
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Yamato-Takeru
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Yamato-Takeru use
+1-Berserker God MP:12
+2-Floral Gust MP:35
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Yamato-Takeru
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Yamato-Takeru
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Yamato-Takeru
+1-Demi-Fiend HP:60/1227 MP:231/834
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Yamato-Takeru
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Yamato-Takeru
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Yamato-Takeru use
+1-Berserker God MP:12
+2-Floral Gust MP:35
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Yamato-Takeru lanza viento a Demi-Fiend
+Demi-Fiend bloquea el ataque de Yamato-Takeru
+Yamato-Takeru lanza viento a Demi-Fiend
+Demi-Fiend bloquea el ataque de Yamato-Takeru
+Yamato-Takeru lanza viento a Demi-Fiend
+Demi-Fiend bloquea el ataque de Yamato-Takeru
+Yamato-Takeru lanza viento a Demi-Fiend
+Demi-Fiend bloquea el ataque de Yamato-Takeru
+Demi-Fiend termina con HP:60/1227
+----------------------------------------
+Se han consumido 2 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Demi-Fiend (J2)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:98/597 MP:282/347
+B-
+C-Yamato-Takeru HP:199/705 MP:144/320
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:60/1227 MP:231/834
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Demi-Fiend
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Huang Di HP:189/672 MP:0/301
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Yu HP:98/597 MP:282/347
+2-Yamato-Takeru HP:199/705 MP:144/320
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Demi-Fiend dispara a Yamato-Takeru
+Yamato-Takeru recibe 62 de daño
+Yamato-Takeru termina con HP:137/705
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Yu (J1)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:98/597 MP:282/347
+B-
+C-Yamato-Takeru HP:137/705 MP:144/320
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:60/1227 MP:231/834
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Yamato-Takeru
+2-Yu
+----------------------------------------
+Seleccione una acción para Yamato-Takeru
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:98/597 MP:282/347
+B-
+C-Yamato-Takeru HP:137/705 MP:144/320
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:60/1227 MP:231/834
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Yu
+2-Yamato-Takeru
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Yu use
+1-Serpent of Sheol MP:45
+2-Judgement MP:45
+3-Hamaon MP:10
+4-Rakukaja MP:15
+5-Agi MP:5
+6-Cancelar
+INPUT: 2
+----------------------------------------
+Yu lanza un ataque todo poderoso a Demi-Fiend
+Demi-Fiend recibe 247 de daño
+Demi-Fiend termina con HP:0/1227
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ganador: Yu (J1)

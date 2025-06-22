@@ -1,0 +1,12 @@
+Player 1 Team
+[Samurai] Tadano (Zan,War Cry,Life Bonus,Repel Fire,Zanma,Critical Wave,Antichthon,Bad Company)
+Thoth
+Player 2 Team
+[Samurai] Kotone (Repel Phys)
+Abaddon
+Tiamat
+Nozuchi
+Yomotsu Shikome
+Gurulu
+Python
+Patrimpas

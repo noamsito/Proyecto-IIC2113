@@ -1,8 +1,0 @@
-Player 1 Team
-[Samurai] Flynn (Hamaon)
-Kanbari
-Tam Lin
-Player 2 Team
-[Samurai] Joker
-Asmodeus
-Python

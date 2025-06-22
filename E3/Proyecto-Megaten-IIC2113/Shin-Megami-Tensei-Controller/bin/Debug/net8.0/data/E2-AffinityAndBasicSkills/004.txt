@@ -1,9 +1,0 @@
-Player 1 Team
-[Samurai] Shujinko (Lunge)
-Goblin
-Koumokuten
-Tam Lin
-Player 2 Team
-[Samurai] Makoto
-Alciel
-Nozuchi

@@ -1,0 +1,12 @@
+Player 1 Team
+[Samurai] Tadano (Resist Elec,Mediarama,Fang Breaker,Mana Bonus)
+Nekomata
+Baal
+Arachne
+Hel
+Vetala
+Clotho
+Jarilo
+Player 2 Team
+[Samurai] Kotone (Heaven's Bow,Mudoon,Megidolaon,Null Phys,Drain Phys)
+Ancient of Days

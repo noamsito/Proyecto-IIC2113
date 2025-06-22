@@ -1,0 +1,595 @@
+﻿using Shin_Megami_Tensei_View;
+using Shin_Megami_Tensei.Combat;
+using Shin_Megami_Tensei.Gadgets;
+
+namespace Shin_Megami_Tensei.Managers
+{
+    public class GUICombatManager
+    {
+        private readonly IShinMegamiTenseiView _view;
+        private readonly Dictionary<string, Player> _players;
+        private bool _gameWon;
+        private bool _isNewRound;
+
+        private const string Player1Key = "Player 1";
+        private const string Player2Key = "Player 2";
+
+        public GUICombatManager(IShinMegamiTenseiView view, Dictionary<string, Player> players)
+        {
+            _view = view;
+            _players = players;
+            _gameWon = false;
+            _isNewRound = true;
+        }
+
+
+
+        public void StartCombat()
+        {
+            InitializePlayersForCombat();
+            ExecuteCombatLoop();
+        }
+
+        private void InitializePlayersForCombat()
+        {
+            foreach (var player in _players.Values)
+            {
+                PlayerTurnManager turnManager = player.TurnManager;
+                turnManager.SetTurns();
+            }
+        }
+
+        private void ExecuteCombatLoop()
+        {
+            Player currentPlayer = _players[Player1Key];
+
+            while (!_gameWon)
+            {
+                ProcessPlayerTurn(currentPlayer);
+
+                if (ShouldSwitchPlayer(currentPlayer))
+                {
+                    currentPlayer = GetOpponent(currentPlayer);
+                    _isNewRound = true;
+                }
+            }
+        }
+
+        private void ProcessPlayerTurn(Player currentPlayer)
+        {
+            int playerNumber = GetPlayerNumber(currentPlayer);
+
+            HandleNewRoundIfNeeded(currentPlayer, playerNumber);
+            
+            Unit activeUnit = TurnManager.GetCurrentUnit(currentPlayer);
+            if (activeUnit == null || !IsUnitAlive(activeUnit))
+            {
+                ConsumeCurrentTurn(currentPlayer);
+                return;
+            }
+            
+            var currentOptions = GetCurrentPlayerOptions(currentPlayer);
+            _view.DisplayGameState(_players, currentPlayer, currentOptions);
+
+            bool actionWasExecuted = ExecuteUnitAction(currentPlayer);
+            
+            if (!actionWasExecuted)
+            {
+                ConsumeCurrentTurn(currentPlayer);
+            }
+            
+            CheckForVictory(currentPlayer);
+        }
+
+        private List<string> GetCurrentPlayerOptions(Player currentPlayer)
+        {
+            Unit activeUnit = TurnManager.GetCurrentUnit(currentPlayer);
+            
+            if (activeUnit == null)
+                return new List<string>();
+
+            return activeUnit switch
+            {
+                Samurai => new List<string>
+                {
+                    "Atacar",
+                    "Disparar", 
+                    "Usar Habilidad", 
+                    "Invocar", 
+                    "Pasar Turno", 
+                    "Rendirse"
+                },
+                Demon => new List<string>
+                {
+                    "Atacar", 
+                    "Usar Habilidad", 
+                    "Invocar",
+                    "Pasar Turno"
+                },
+                _ => new List<string>()
+            };
+        }
+
+        private bool ExecuteUnitAction(Player currentPlayer)
+        {
+            Unit? activeUnit = TurnManager.GetCurrentUnit(currentPlayer);
+            
+            if (activeUnit == null || !IsUnitAlive(activeUnit))
+            {
+                return false;
+            }
+
+            return ExecuteActionWithGUI(activeUnit, currentPlayer);
+        }
+
+        private bool ExecuteActionWithGUI(Unit unit, Player currentPlayer)
+        {
+            string playerChoice = _view.GetPlayerChoice();
+            Player opponent = GetOpponent(currentPlayer);
+            
+            return unit switch
+            {
+                Samurai samurai => ExecuteSamuraiAction(samurai, playerChoice, currentPlayer, opponent),
+                Demon demon => ExecuteDemonAction(demon, playerChoice, currentPlayer, opponent),
+                _ => false
+            };
+        }
+
+        private bool ExecuteSamuraiAction(Samurai samurai, string choice, Player currentPlayer, Player opponent)
+        {
+            return choice switch
+            {
+                "1" => ExecuteBasicAttackAction(samurai, "Phys", currentPlayer, opponent),
+                "2" => ExecuteBasicAttackAction(samurai, "Gun", currentPlayer, opponent), 
+                "3" => ExecuteSkillAction(samurai, currentPlayer, opponent),
+                "4" => ExecuteSummonAction(currentPlayer, samurai),
+                "5" => ExecutePassTurnAction(currentPlayer),
+                "6" => ExecuteSurrenderAction(currentPlayer),
+                _ => false
+            };
+        }
+
+        private bool ExecuteDemonAction(Demon demon, string choice, Player currentPlayer, Player opponent)
+        {
+            return choice switch
+            {
+                "1" => ExecuteBasicAttackAction(demon, "Phys", currentPlayer, opponent),
+                "2" => ExecuteSkillAction(demon, currentPlayer, opponent),
+                "3" => ExecuteSummonAction(currentPlayer, demon),
+                "4" => ExecutePassTurnAction(currentPlayer),
+                _ => false
+            };
+        }
+
+        private bool ExecuteBasicAttackAction(Unit attacker, string attackType, Player currentPlayer, Player opponent)
+        {
+            Unit target = _view.SelectTarget(opponent);
+            if (target == null) return false;
+
+            try
+            {
+                double baseDamage = CalculateBaseDamageByType(attacker, attackType);
+                var affinityContext = new AffinityContext(attacker, target, attackType, baseDamage);
+                
+                ApplyAttackEffectsManually(affinityContext);
+                
+                var turnContext = CreateTurnContext(currentPlayer, opponent);
+                ConsumeTurnsBasedOnAffinitySimplified(affinityContext, turnContext);
+                UpdateGameStateAfterAction(turnContext);
+                
+                return true;
+            }
+            catch (Exception)
+            {
+                return false;
+            }
+        }
+
+        private void ApplyAttackEffectsManually(AffinityContext affinityCtx)
+        {
+            double finalDamage = AffinityEffectManager.GetDamageBasedOnAffinity(affinityCtx);
+            
+            if (finalDamage > 0)
+            {
+                UnitActionManager.ApplyDamageTaken(affinityCtx.Target, finalDamage);
+            }
+            else if (finalDamage == -1)
+            {
+                UnitActionManager.ApplyHealToUnit(affinityCtx.Target, affinityCtx.BaseDamage);
+            }
+            else if (finalDamage == -2)
+            {
+                UnitActionManager.ApplyDamageTaken(affinityCtx.Caster, affinityCtx.BaseDamage);
+            }
+        }
+
+        private void ConsumeTurnsBasedOnAffinitySimplified(AffinityContext affinityCtx, TurnContext turnCtx)
+        {
+            Player attackingPlayer = turnCtx.Attacker;
+            PlayerTurnManager turnManager = attackingPlayer.TurnManager;
+            
+            string affinity = AffinityResolver.GetAffinity(affinityCtx.Target, affinityCtx.AttackType);
+
+            switch (affinity)
+            {
+                case "Rp":
+                case "Dr":
+                    turnManager.ConsumeFullTurn(turnManager.GetFullTurns());
+                    turnManager.ConsumeBlinkingTurn(turnManager.GetBlinkingTurns());
+                    break;
+                
+                case "Nu":
+                    if (turnManager.GetBlinkingTurns() >= 2)
+                    {
+                        turnManager.ConsumeBlinkingTurn(2);
+                    }
+                    else
+                    {
+                        int blink = turnManager.GetBlinkingTurns();
+                        turnManager.ConsumeBlinkingTurn(blink);
+                        turnManager.ConsumeFullTurn(2 - blink);
+                    }
+                    break;
+
+                case "Wk":
+                    if (turnManager.GetFullTurns() > 0)
+                    {
+                        turnManager.ConsumeFullTurn(1);
+                        turnManager.GainBlinkingTurn(1);
+                    }
+                    else
+                    {
+                        turnManager.ConsumeBlinkingTurn(1);
+                    }
+                    break;
+                
+                default:
+                    if (turnManager.GetBlinkingTurns() > 0)
+                    {
+                        turnManager.ConsumeBlinkingTurn(1);
+                    }
+                    else
+                    {
+                        turnManager.ConsumeFullTurn(1);
+                    }
+                    break;
+            }
+        }
+
+        private bool ExecuteSkillAction(Unit caster, Player currentPlayer, Player opponent)
+        {
+            try
+            {
+                Skill skill = _view.SelectSkill(caster);
+                if (skill == null) return false;
+
+                if (skill.Cost > caster.GetCurrentStats().GetStatByName("MP"))
+                    return false;
+
+                bool success = HandleSkillSimplified(caster, skill, currentPlayer, opponent);
+
+                if (success)
+                {
+                    int currentMP = caster.GetCurrentStats().GetStatByName("MP");
+                    caster.GetCurrentStats().SetStatByName("MP", Math.Max(0, currentMP - skill.Cost));
+                    
+                    currentPlayer.TurnManager.IncreaseConstantKPlayer();
+                    
+                    var turnContext = CreateTurnContext(currentPlayer, opponent);
+                    UpdateGameStateAfterAction(turnContext);
+                }
+
+                return success;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error in ExecuteSkillAction: {ex.Message}");
+                return false;
+            }
+        }
+
+        private bool HandleSkillSimplified(Unit caster, Skill skill, Player currentPlayer, Player opponent)
+        {
+            try
+            {
+                var turnContext = CreateTurnContext(currentPlayer, opponent);
+                
+                Unit target = null;
+                if (skill.Target == "Single")
+                {
+                    target = _view.SelectTarget(opponent);
+                    if (target == null) return false;
+                }
+                else if (skill.Target == "Ally")
+                {
+                    target = _view.SelectTarget(currentPlayer);
+                    if (target == null) return false;
+                }
+                
+                switch (skill.Type)
+                {
+                    case "Heal":
+                        if (target != null)
+                        {
+                            int baseHp = target.GetBaseStats().GetStatByName("HP");
+                            double healAmount = Math.Floor((skill.Power / 100.0) * baseHp);
+                            UnitActionManager.ApplyHealToUnit(target, healAmount);
+                        }
+                        break;
+                        
+                    case "Phys":
+                    case "Gun":
+                    case "Fire":
+                    case "Ice":
+                    case "Elec":
+                    case "Force":
+                    case "Almighty":
+                        if (target != null)
+                        {
+                            int stat = GetStatForSkillType(caster, skill.Type);
+                            double baseDamage = Math.Sqrt(stat * skill.Power);
+                            var affinityCtx = new AffinityContext(caster, target, skill.Type, baseDamage);
+                            ApplyAttackEffectsManually(affinityCtx);
+                        }
+                        break;
+                }
+                
+                TurnManager.ConsumeTurn(turnContext);
+                UpdateGameStateAfterAction(turnContext);   
+                return true;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error in HandleSkillSimplified: {ex.Message}");
+                return false;
+            }
+        }
+
+        private int GetStatForSkillType(Unit caster, string skillType)
+        {
+            return skillType switch
+            {
+                "Phys" => caster.GetCurrentStats().GetStatByName("Str"),
+                "Gun" => caster.GetCurrentStats().GetStatByName("Skl"),
+                "Fire" or "Ice" or "Elec" or "Force" or "Almighty" => caster.GetCurrentStats().GetStatByName("Mag"),
+                _ => caster.GetCurrentStats().GetStatByName("Mag")
+            };
+        }
+
+        private bool ExecuteSummonAction(Player currentPlayer, Unit currentUnit)
+        {
+            try
+            {
+                Unit summonTarget = _view.SelectSummonTarget(currentPlayer);
+                if (summonTarget == null) return false;
+
+                int slot = _view.SelectSlot(currentPlayer);
+                if (slot < 0) return false;
+                
+                if (slot == 0) return false;
+                
+                var activeUnits = currentPlayer.UnitManager.GetActiveUnits();
+                var reserveUnits = currentPlayer.UnitManager.GetReservedUnits();
+                
+                if (slot >= activeUnits.Count) return false;
+                
+                Unit replacedUnit = activeUnits[slot];
+                
+                activeUnits[slot] = summonTarget;
+                
+                if (replacedUnit != null && replacedUnit.GetCurrentStats().GetStatByName("HP") > 0)
+                {
+                    reserveUnits.Add(replacedUnit);
+                }
+                
+                reserveUnits.Remove(summonTarget);
+                
+                var sortedUnits = currentPlayer.UnitManager.GetSortedActiveUnitsByOrderOfAttack();
+                if (replacedUnit != null)
+                {
+                    for (int i = 0; i < sortedUnits.Count; i++)
+                    {
+                        if (sortedUnits[i] == replacedUnit)
+                        {
+                            sortedUnits[i] = summonTarget;
+                            break;
+                        }
+                    }
+                }
+                else
+                {
+                    sortedUnits.Add(summonTarget);
+                }
+                
+                var turnContext = CreateTurnContext(currentPlayer, GetOpponent(currentPlayer));
+                TurnManager.ConsumeTurn(turnContext);
+                UpdateGameStateAfterAction(turnContext);
+                
+                return true;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error in ExecuteSummonAction: {ex.Message}");
+                return false;
+            }
+        }
+
+        private bool ExecutePassTurnAction(Player currentPlayer)
+        {
+            try
+            {
+                var turnContext = CreateTurnContext(
+                    currentPlayer, GetOpponent(currentPlayer));
+
+                var tm = currentPlayer.TurnManager;
+                if (tm.GetBlinkingTurns() > 0)
+                    tm.ConsumeBlinkingTurn(1);
+                else
+                {
+                    tm.ConsumeFullTurn(1);
+                    tm.GainBlinkingTurn(1);
+                }
+
+                currentPlayer.UnitManager.RearrangeSortedUnitsWhenAttacked();
+                UpdateGameStateAfterAction(turnContext);
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
+        }
+
+
+        private bool ExecuteSurrenderAction(Player currentPlayer)
+        {
+            currentPlayer.Surrender();
+            return true;
+        }
+
+        private double CalculateBaseDamageByType(Unit attacker, string attackType)
+        {
+            return attackType == "Phys"
+                ? AttackExecutor.ExecutePhysicalAttack(attacker, GameConstants.MODIFIER_PHYS_DAMAGE)
+                : AttackExecutor.ExecuteGunAttack(attacker, GameConstants.MODIFIER_GUN_DAMAGE);
+        }
+
+        private TurnContext CreateTurnContext(Player currentPlayer, Player opponent)
+        {
+            PlayerTurnManager turnManager = currentPlayer.TurnManager;
+            
+            int fullStart = turnManager.GetFullTurns();
+            int blinkStart = turnManager.GetBlinkingTurns();
+
+            return new TurnContext(currentPlayer, opponent, fullStart, blinkStart);
+        }
+
+        private void UpdateGameStateAfterAction(TurnContext turnContext)
+        {
+            UpdateDeadUnitsManually(turnContext.Defender);
+            
+            turnContext.Attacker.UnitManager.RearrangeSortedUnitsWhenAttacked();
+            
+            var currentOptions = GetCurrentPlayerOptions(turnContext.Attacker);
+            _view.DisplayGameState(_players, turnContext.Attacker, currentOptions);
+        }
+
+        private void UpdateDeadUnitsManually(Player player)
+        {
+            if (player == null) return;
+            
+            var unitManager = player.UnitManager;
+            var activeUnits = unitManager.GetActiveUnits();
+            
+            for (int i = 0; i < activeUnits.Count; i++)
+            {
+                var unit = activeUnits[i];
+                if (unit != null && unit.GetCurrentStats().GetStatByName("HP") <= 0)
+                {
+                    if (!(unit is Samurai))
+                    {
+                        unitManager.GetReservedUnits().Add(unit);
+                        activeUnits[i] = null;
+                        
+                        var sortedUnits = unitManager.GetSortedActiveUnitsByOrderOfAttack();
+                        for (int j = 0; j < sortedUnits.Count; j++)
+                        {
+                            if (sortedUnits[j] == unit)
+                            {
+                                sortedUnits.RemoveAt(j);
+                                break;
+                            }
+                        }
+                    }
+                }
+            }
+
+            player.CombatState.UpdateTeamContinuationStatus();
+        }
+
+        private void HandleNewRoundIfNeeded(Player currentPlayer, int playerNumber)
+        {
+            if (_isNewRound)
+            {
+                PrepareNewRoundForGUI(currentPlayer, playerNumber);
+                _isNewRound = false;
+            }
+        }
+
+        private void PrepareNewRoundForGUI(Player player, int playerNumber)
+        {
+            PlayerTurnManager turnManagerPlayer = player.TurnManager;
+            PlayerUnitManager unitManagerPlayer = player.UnitManager;
+            
+            turnManagerPlayer.SetTurns();
+            
+            unitManagerPlayer.SetOrderOfAttackOfActiveUnits();
+        }
+
+        private void ConsumeCurrentTurn(Player currentPlayer)
+        {
+            PlayerTurnManager turnManager = currentPlayer.TurnManager;
+            
+            if (turnManager.GetBlinkingTurns() > 0)
+            {
+                turnManager.ConsumeBlinkingTurn(1);
+            }
+            else if (turnManager.GetFullTurns() > 0)
+            {
+                turnManager.ConsumeFullTurn(1);
+            }
+            
+            currentPlayer.UnitManager.RearrangeSortedUnitsWhenAttacked();
+        }
+
+        private bool IsUnitAlive(Unit unit)
+        {
+            return unit.GetCurrentStats().GetStatByName("HP") > 0;
+        }
+
+        private int GetPlayerNumber(Player player)
+        {
+            return player.GetName() == Player1Key ? 1 : 2;
+        }
+
+        private bool ShouldSwitchPlayer(Player currentPlayer)
+        {
+            return currentPlayer.TurnManager.IsPlayerOutOfTurns();
+        }
+
+        public Player GetOpponent(Player currentPlayer)
+        {
+            return currentPlayer.GetName() == Player1Key ? _players[Player2Key] : _players[Player1Key];
+        }
+
+        private void CheckForVictory(Player currentPlayer)
+        {
+            Player opponent = GetOpponent(currentPlayer);
+
+            UpdateTeamsStatus(currentPlayer, opponent);
+
+            if (!currentPlayer.CombatState.IsTeamAbleToContinue())
+            {
+                AnnounceWinner(opponent);
+                return;
+            }
+
+            if (!opponent.CombatState.IsTeamAbleToContinue())
+            {
+                AnnounceWinner(currentPlayer);
+            }
+        }
+
+        private void UpdateTeamsStatus(Player currentPlayer, Player opponent)
+        {
+            currentPlayer.CombatState.CheckIfTeamIsAbleToContinue();
+            opponent.CombatState.CheckIfTeamIsAbleToContinue();
+        }
+
+        private void AnnounceWinner(Player winner)
+        {
+            _view.ShowWinner(winner);
+            _gameWon = true;
+        }
+    }
+}

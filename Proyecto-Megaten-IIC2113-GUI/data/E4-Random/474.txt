@@ -1,0 +1,11 @@
+Player 1 Team
+[Samurai] Kotone (Resist Phys)
+Python
+Guan Yu
+Ose
+Ame-no-Uzume
+Prometheus
+Chimera
+Player 2 Team
+[Samurai] Aleph (Ice Pleroma,Zionga,Ice Breath,Maragi,Fire Breath)
+Sraosha

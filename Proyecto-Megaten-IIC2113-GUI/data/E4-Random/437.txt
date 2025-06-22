@@ -1,0 +1,9 @@
+Player 1 Team
+[Samurai] Kyouji (Dekunda,Maragidyne,Megidola,Taunt)
+Orcus
+Asherah
+Kama
+Michizane
+Stonka
+Player 2 Team
+[Samurai] Shujinko (Megaton Press,Tarukaja,Drain Electric,Life Drain,Phys Pleroma,Mediarama,Spirit Drain)

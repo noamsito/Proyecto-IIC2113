@@ -1,0 +1,9 @@
+Player 1 Team
+[Samurai] Shujinko (Bad Company,Repel Phys,Null Force,Blast Arrow,Drain Ice,Refrigerate,Mazio)
+Fenrir
+Halphas
+Player 2 Team
+[Samurai] Kyouji (Mortal Jihad,Zionga,Acid Breath,Concentrate,High Fire Pleroma,High Gun Pleroma)
+Kwancha
+Fuu-Ki
+Mot

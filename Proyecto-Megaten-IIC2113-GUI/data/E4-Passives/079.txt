@@ -1,0 +1,4 @@
+Player 1 Team
+[Samurai] Joker (Mana Bonus,Mana Gain,Mana Surge,Awakening)
+Player 2 Team
+[Samurai] Joker

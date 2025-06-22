@@ -1,0 +1,11 @@
+Player 1 Team
+[Samurai] Tadano (Taunt,Ally Counter,Maragion,Mabufudyne,Megido,Null Dark,Recarmdra)
+Agathion
+Myrmecoleon
+Bifrons
+Samael
+Player 2 Team
+[Samurai] Tamaki (Rakunda,Desperate Hit,Resist Gun,Megido,Zandyne,Grand Tack)
+Caladrius
+Pales
+Yggdrasil

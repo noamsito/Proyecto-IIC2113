@@ -1,0 +1,4 @@
+Player 1 Team
+[Samurai] Itsuki (Bufula,Resist Force,Mana Bonus)
+Player 2 Team
+[Samurai] Kei (Tathlum Shot,Null Ice,Force Pleroma,Mana Surge,Javelin Rain,Mediarahan,Occult Flash,Doping)

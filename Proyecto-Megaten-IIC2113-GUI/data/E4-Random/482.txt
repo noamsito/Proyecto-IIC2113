@@ -1,0 +1,11 @@
+Player 1 Team
+[Samurai] Itsuki (Speed Lesson,High Heal Pleroma,Dekunda,Desperate Hit,Resist Phys,Mana Surge)
+Ogre
+Da Peng
+Alice
+Yamata-no-Orochi
+Player 2 Team
+[Samurai] Nanashi (Damascus Claw,Bouncing Claw,Zanma,Lunge,Diarahan,Spirit Drain,Null Elec)
+Diana
+Guedhe
+Seth

@@ -1,0 +1,659 @@
+Elige un archivo para cargar los equipos
+0: 001.txt
+1: 002.txt
+2: 003.txt
+3: 004.txt
+4: 005.txt
+5: 006.txt
+6: 007.txt
+7: 008.txt
+8: 009.txt
+9: 010.txt
+10: 011.txt
+11: 012.txt
+12: 013.txt
+13: 014.txt
+14: 015.txt
+15: 016.txt
+16: 017.txt
+INPUT: 5
+----------------------------------------
+Ronda de Shujinko (J1)
+----------------------------------------
+Equipo de Shujinko (J1)
+A-Shujinko HP:1317/1317 MP:625/625
+B-
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1227/1227 MP:834/834
+B-Jeanne D'Arc HP:277/277 MP:269/269
+C-Pele HP:76/76 MP:72/72
+D-Skadi HP:390/390 MP:378/378
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Shujinko
+----------------------------------------
+Seleccione una acción para Shujinko
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Shujinko
+1-Demi-Fiend HP:1227/1227 MP:834/834
+2-Jeanne D'Arc HP:277/277 MP:269/269
+3-Pele HP:76/76 MP:72/72
+4-Skadi HP:390/390 MP:378/378
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Shujinko ataca a Jeanne D'Arc
+Jeanne D'Arc recibe 187 de daño
+Jeanne D'Arc termina con HP:90/277
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Demi-Fiend (J2)
+----------------------------------------
+Equipo de Shujinko (J1)
+A-Shujinko HP:1317/1317 MP:625/625
+B-
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1227/1227 MP:834/834
+B-Jeanne D'Arc HP:90/277 MP:269/269
+C-Pele HP:76/76 MP:72/72
+D-Skadi HP:390/390 MP:378/378
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Demi-Fiend
+2-Skadi
+3-Jeanne D'Arc
+4-Pele
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Demi-Fiend use
+1-Makarakarn MP:50
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Jeanne D'Arc devolverá ataques mágicos por una ronda
+Pele devolverá ataques mágicos por una ronda
+Skadi devolverá ataques mágicos por una ronda
+Demi-Fiend devolverá ataques mágicos por una ronda
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Shujinko (J1)
+A-Shujinko HP:1317/1317 MP:625/625
+B-
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1227/1227 MP:784/834
+B-Jeanne D'Arc HP:90/277 MP:269/269
+C-Pele HP:76/76 MP:72/72
+D-Skadi HP:390/390 MP:378/378
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Skadi
+2-Jeanne D'Arc
+3-Pele
+4-Demi-Fiend
+----------------------------------------
+Seleccione una acción para Skadi
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Skadi
+1-Shujinko HP:1317/1317 MP:625/625
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Skadi ataca a Shujinko
+Shujinko es resistente el ataque de Skadi
+Shujinko recibe 20 de daño
+Shujinko termina con HP:1297/1317
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Shujinko (J1)
+A-Shujinko HP:1297/1317 MP:625/625
+B-
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1227/1227 MP:784/834
+B-Jeanne D'Arc HP:90/277 MP:269/269
+C-Pele HP:76/76 MP:72/72
+D-Skadi HP:390/390 MP:378/378
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Jeanne D'Arc
+2-Pele
+3-Demi-Fiend
+4-Skadi
+----------------------------------------
+Seleccione una acción para Jeanne D'Arc
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Jeanne D'Arc
+1-Shujinko HP:1297/1317 MP:625/625
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Jeanne D'Arc ataca a Shujinko
+Shujinko es resistente el ataque de Jeanne D'Arc
+Shujinko recibe 14 de daño
+Shujinko termina con HP:1283/1317
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Shujinko (J1)
+A-Shujinko HP:1283/1317 MP:625/625
+B-
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1227/1227 MP:784/834
+B-Jeanne D'Arc HP:90/277 MP:269/269
+C-Pele HP:76/76 MP:72/72
+D-Skadi HP:390/390 MP:378/378
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Pele
+2-Demi-Fiend
+3-Skadi
+4-Jeanne D'Arc
+----------------------------------------
+Seleccione una acción para Pele
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Pele
+1-Shujinko HP:1283/1317 MP:625/625
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Pele ataca a Shujinko
+Shujinko es resistente el ataque de Pele
+Shujinko recibe 3 de daño
+Shujinko termina con HP:1280/1317
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Shujinko (J1)
+----------------------------------------
+Equipo de Shujinko (J1)
+A-Shujinko HP:1280/1317 MP:625/625
+B-
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1227/1227 MP:784/834
+B-Jeanne D'Arc HP:90/277 MP:269/269
+C-Pele HP:76/76 MP:72/72
+D-Skadi HP:390/390 MP:378/378
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Shujinko
+----------------------------------------
+Seleccione una acción para Shujinko
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Shujinko use
+1-Antichthon MP:80
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Shujinko lanza un ataque todo poderoso a Demi-Fiend
+Demi-Fiend devuelve 178 daño a Shujinko
+El ataque de Shujinko ha disminuido
+La defensa de Shujinko ha disminuido
+Shujinko lanza un ataque todo poderoso a Jeanne D'Arc
+Jeanne D'Arc devuelve 178 daño a Shujinko
+El ataque de Shujinko ha disminuido
+La defensa de Shujinko ha disminuido
+Shujinko lanza un ataque todo poderoso a Pele
+Pele devuelve 178 daño a Shujinko
+El ataque de Shujinko ha disminuido
+La defensa de Shujinko ha disminuido
+Shujinko lanza un ataque todo poderoso a Skadi
+Skadi devuelve 178 daño a Shujinko
+Shujinko termina con HP:568/1317
+El ataque de Shujinko ha disminuido
+La defensa de Shujinko ha disminuido
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Demi-Fiend (J2)
+----------------------------------------
+Equipo de Shujinko (J1)
+A-Shujinko HP:568/1317 MP:545/625
+B-
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1227/1227 MP:784/834
+B-Jeanne D'Arc HP:90/277 MP:269/269
+C-Pele HP:76/76 MP:72/72
+D-Skadi HP:390/390 MP:378/378
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Demi-Fiend
+2-Skadi
+3-Jeanne D'Arc
+4-Pele
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Shujinko HP:568/1317 MP:545/625
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Demi-Fiend ataca a Shujinko
+Shujinko es resistente el ataque de Demi-Fiend
+Shujinko recibe 147 de daño
+Shujinko termina con HP:421/1317
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Shujinko (J1)
+A-Shujinko HP:421/1317 MP:545/625
+B-
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1227/1227 MP:784/834
+B-Jeanne D'Arc HP:90/277 MP:269/269
+C-Pele HP:76/76 MP:72/72
+D-Skadi HP:390/390 MP:378/378
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Skadi
+2-Jeanne D'Arc
+3-Pele
+4-Demi-Fiend
+----------------------------------------
+Seleccione una acción para Skadi
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Skadi
+1-Shujinko HP:421/1317 MP:545/625
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Skadi ataca a Shujinko
+Shujinko es resistente el ataque de Skadi
+Shujinko recibe 36 de daño
+Shujinko termina con HP:385/1317
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Shujinko (J1)
+A-Shujinko HP:385/1317 MP:545/625
+B-
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1227/1227 MP:784/834
+B-Jeanne D'Arc HP:90/277 MP:269/269
+C-Pele HP:76/76 MP:72/72
+D-Skadi HP:390/390 MP:378/378
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Jeanne D'Arc
+2-Pele
+3-Demi-Fiend
+4-Skadi
+----------------------------------------
+Seleccione una acción para Jeanne D'Arc
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Jeanne D'Arc
+1-Shujinko HP:385/1317 MP:545/625
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Jeanne D'Arc ataca a Shujinko
+Shujinko es resistente el ataque de Jeanne D'Arc
+Shujinko recibe 25 de daño
+Shujinko termina con HP:360/1317
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Shujinko (J1)
+A-Shujinko HP:360/1317 MP:545/625
+B-
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1227/1227 MP:784/834
+B-Jeanne D'Arc HP:90/277 MP:269/269
+C-Pele HP:76/76 MP:72/72
+D-Skadi HP:390/390 MP:378/378
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Pele
+2-Demi-Fiend
+3-Skadi
+4-Jeanne D'Arc
+----------------------------------------
+Seleccione una acción para Pele
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Pele
+1-Shujinko HP:360/1317 MP:545/625
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Pele ataca a Shujinko
+Shujinko es resistente el ataque de Pele
+Shujinko recibe 5 de daño
+Shujinko termina con HP:355/1317
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Shujinko (J1)
+----------------------------------------
+Equipo de Shujinko (J1)
+A-Shujinko HP:355/1317 MP:545/625
+B-
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1227/1227 MP:784/834
+B-Jeanne D'Arc HP:90/277 MP:269/269
+C-Pele HP:76/76 MP:72/72
+D-Skadi HP:390/390 MP:378/378
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Shujinko
+----------------------------------------
+Seleccione una acción para Shujinko
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Shujinko
+1-Demi-Fiend HP:1227/1227 MP:784/834
+2-Jeanne D'Arc HP:90/277 MP:269/269
+3-Pele HP:76/76 MP:72/72
+4-Skadi HP:390/390 MP:378/378
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Shujinko ataca a Jeanne D'Arc
+Jeanne D'Arc recibe 116 de daño
+Jeanne D'Arc termina con HP:0/277
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Demi-Fiend (J2)
+----------------------------------------
+Equipo de Shujinko (J1)
+A-Shujinko HP:355/1317 MP:545/625
+B-
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1227/1227 MP:784/834
+B-
+C-Pele HP:76/76 MP:72/72
+D-Skadi HP:390/390 MP:378/378
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Demi-Fiend
+2-Skadi
+3-Pele
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Demi-Fiend use
+1-Makarakarn MP:50
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Pele devolverá ataques mágicos por una ronda
+Skadi devolverá ataques mágicos por una ronda
+Demi-Fiend devolverá ataques mágicos por una ronda
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Shujinko (J1)
+A-Shujinko HP:355/1317 MP:545/625
+B-
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1227/1227 MP:734/834
+B-
+C-Pele HP:76/76 MP:72/72
+D-Skadi HP:390/390 MP:378/378
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Skadi
+2-Pele
+3-Demi-Fiend
+----------------------------------------
+Seleccione una acción para Skadi
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Skadi
+1-Shujinko HP:355/1317 MP:545/625
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Skadi ataca a Shujinko
+Shujinko es resistente el ataque de Skadi
+Shujinko recibe 36 de daño
+Shujinko termina con HP:319/1317
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Shujinko (J1)
+A-Shujinko HP:319/1317 MP:545/625
+B-
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1227/1227 MP:734/834
+B-
+C-Pele HP:76/76 MP:72/72
+D-Skadi HP:390/390 MP:378/378
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Pele
+2-Demi-Fiend
+3-Skadi
+----------------------------------------
+Seleccione una acción para Pele
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Pele
+1-Shujinko HP:319/1317 MP:545/625
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Pele ataca a Shujinko
+Shujinko es resistente el ataque de Pele
+Shujinko recibe 5 de daño
+Shujinko termina con HP:314/1317
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Shujinko (J1)
+----------------------------------------
+Equipo de Shujinko (J1)
+A-Shujinko HP:314/1317 MP:545/625
+B-
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1227/1227 MP:734/834
+B-
+C-Pele HP:76/76 MP:72/72
+D-Skadi HP:390/390 MP:378/378
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Shujinko
+----------------------------------------
+Seleccione una acción para Shujinko
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Shujinko use
+1-Antichthon MP:80
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Shujinko lanza un ataque todo poderoso a Demi-Fiend
+Demi-Fiend devuelve 178 daño a Shujinko
+El ataque de Shujinko ha disminuido
+La defensa de Shujinko ha disminuido
+Shujinko lanza un ataque todo poderoso a Pele
+Pele devuelve 178 daño a Shujinko
+El ataque de Shujinko ha disminuido
+La defensa de Shujinko ha disminuido
+Shujinko lanza un ataque todo poderoso a Skadi
+Skadi devuelve 178 daño a Shujinko
+Shujinko termina con HP:0/1317
+El ataque de Shujinko ha disminuido
+La defensa de Shujinko ha disminuido
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ganador: Demi-Fiend (J2)

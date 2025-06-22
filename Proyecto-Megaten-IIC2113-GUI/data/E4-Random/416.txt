@@ -1,0 +1,4 @@
+Player 1 Team
+[Samurai] Demi-Fiend (Bouncing Claw,Null Light,Mabufula,Life Surge)
+Player 2 Team
+[Samurai] Tamaki (Life Surge,Nihil Claw,Resist Dark,Plasma Discharge,Ally Retaliate,Gather Spirit Energy,Null Elec)

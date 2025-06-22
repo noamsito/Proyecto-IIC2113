@@ -1,0 +1,7 @@
+Player 1 Team
+[Samurai] Nahobino (Hama,Resist Phys)
+Salamander
+Ogre
+Player 2 Team
+[Samurai] Aleph (Heaven's Bow,Dark Energy,Tetrakarn,Drain Force)
+Rukh

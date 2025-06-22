@@ -1,0 +1,10 @@
+Player 1 Team
+[Samurai] Tadano (Counter,Dark Energy,Bar Toss,Drain Ice)
+Suzaku
+Omoikane
+Player 2 Team
+[Samurai] Nahobino (Life Gain)
+Apsaras
+Lachesis
+Salamander
+Odin

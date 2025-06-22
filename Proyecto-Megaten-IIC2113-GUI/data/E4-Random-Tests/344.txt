@@ -1,0 +1,4347 @@
+Elige un archivo para cargar los equipos
+0: 001.txt
+1: 002.txt
+2: 003.txt
+3: 004.txt
+4: 005.txt
+5: 006.txt
+6: 007.txt
+7: 008.txt
+8: 009.txt
+9: 010.txt
+10: 011.txt
+11: 012.txt
+12: 013.txt
+13: 014.txt
+14: 015.txt
+15: 016.txt
+16: 017.txt
+17: 018.txt
+18: 019.txt
+19: 020.txt
+20: 021.txt
+21: 022.txt
+22: 023.txt
+23: 024.txt
+24: 025.txt
+25: 026.txt
+26: 027.txt
+27: 028.txt
+28: 029.txt
+29: 030.txt
+30: 031.txt
+31: 032.txt
+32: 033.txt
+33: 034.txt
+34: 035.txt
+35: 036.txt
+36: 037.txt
+37: 038.txt
+38: 039.txt
+39: 040.txt
+40: 041.txt
+41: 042.txt
+42: 043.txt
+43: 044.txt
+44: 045.txt
+45: 046.txt
+46: 047.txt
+47: 048.txt
+48: 049.txt
+49: 050.txt
+50: 051.txt
+51: 052.txt
+52: 053.txt
+53: 054.txt
+54: 055.txt
+55: 056.txt
+56: 057.txt
+57: 058.txt
+58: 059.txt
+59: 060.txt
+60: 061.txt
+61: 062.txt
+62: 063.txt
+63: 064.txt
+64: 065.txt
+65: 066.txt
+66: 067.txt
+67: 068.txt
+68: 069.txt
+69: 070.txt
+70: 071.txt
+71: 072.txt
+72: 073.txt
+73: 074.txt
+74: 075.txt
+75: 076.txt
+76: 077.txt
+77: 078.txt
+78: 079.txt
+79: 080.txt
+80: 081.txt
+81: 082.txt
+82: 083.txt
+83: 084.txt
+84: 085.txt
+85: 086.txt
+86: 087.txt
+87: 088.txt
+88: 089.txt
+89: 090.txt
+90: 091.txt
+91: 092.txt
+92: 093.txt
+93: 094.txt
+94: 095.txt
+95: 096.txt
+96: 097.txt
+97: 098.txt
+98: 099.txt
+99: 100.txt
+100: 101.txt
+101: 102.txt
+102: 103.txt
+103: 104.txt
+104: 105.txt
+105: 106.txt
+106: 107.txt
+107: 108.txt
+108: 109.txt
+109: 110.txt
+110: 111.txt
+111: 112.txt
+112: 113.txt
+113: 114.txt
+114: 115.txt
+115: 116.txt
+116: 117.txt
+117: 118.txt
+118: 119.txt
+119: 120.txt
+120: 121.txt
+121: 122.txt
+122: 123.txt
+123: 124.txt
+124: 125.txt
+125: 126.txt
+126: 127.txt
+127: 128.txt
+128: 129.txt
+129: 130.txt
+130: 131.txt
+131: 132.txt
+132: 133.txt
+133: 134.txt
+134: 135.txt
+135: 136.txt
+136: 137.txt
+137: 138.txt
+138: 139.txt
+139: 140.txt
+140: 141.txt
+141: 142.txt
+142: 143.txt
+143: 144.txt
+144: 145.txt
+145: 146.txt
+146: 147.txt
+147: 148.txt
+148: 149.txt
+149: 150.txt
+150: 151.txt
+151: 152.txt
+152: 153.txt
+153: 154.txt
+154: 155.txt
+155: 156.txt
+156: 157.txt
+157: 158.txt
+158: 159.txt
+159: 160.txt
+160: 161.txt
+161: 162.txt
+162: 163.txt
+163: 164.txt
+164: 165.txt
+165: 166.txt
+166: 167.txt
+167: 168.txt
+168: 169.txt
+169: 170.txt
+170: 171.txt
+171: 172.txt
+172: 173.txt
+173: 174.txt
+174: 175.txt
+175: 176.txt
+176: 177.txt
+177: 178.txt
+178: 179.txt
+179: 180.txt
+180: 181.txt
+181: 182.txt
+182: 183.txt
+183: 184.txt
+184: 185.txt
+185: 186.txt
+186: 187.txt
+187: 188.txt
+188: 189.txt
+189: 190.txt
+190: 191.txt
+191: 192.txt
+192: 193.txt
+193: 194.txt
+194: 195.txt
+195: 196.txt
+196: 197.txt
+197: 198.txt
+198: 199.txt
+199: 200.txt
+200: 201.txt
+201: 202.txt
+202: 203.txt
+203: 204.txt
+204: 205.txt
+205: 206.txt
+206: 207.txt
+207: 208.txt
+208: 209.txt
+209: 210.txt
+210: 211.txt
+211: 212.txt
+212: 213.txt
+213: 214.txt
+214: 215.txt
+215: 216.txt
+216: 217.txt
+217: 218.txt
+218: 219.txt
+219: 220.txt
+220: 221.txt
+221: 222.txt
+222: 223.txt
+223: 224.txt
+224: 225.txt
+225: 226.txt
+226: 227.txt
+227: 228.txt
+228: 229.txt
+229: 230.txt
+230: 231.txt
+231: 232.txt
+232: 233.txt
+233: 234.txt
+234: 235.txt
+235: 236.txt
+236: 237.txt
+237: 238.txt
+238: 239.txt
+239: 240.txt
+240: 241.txt
+241: 242.txt
+242: 243.txt
+243: 244.txt
+244: 245.txt
+245: 246.txt
+246: 247.txt
+247: 248.txt
+248: 249.txt
+249: 250.txt
+250: 251.txt
+251: 252.txt
+252: 253.txt
+253: 254.txt
+254: 255.txt
+255: 256.txt
+256: 257.txt
+257: 258.txt
+258: 259.txt
+259: 260.txt
+260: 261.txt
+261: 262.txt
+262: 263.txt
+263: 264.txt
+264: 265.txt
+265: 266.txt
+266: 267.txt
+267: 268.txt
+268: 269.txt
+269: 270.txt
+270: 271.txt
+271: 272.txt
+272: 273.txt
+273: 274.txt
+274: 275.txt
+275: 276.txt
+276: 277.txt
+277: 278.txt
+278: 279.txt
+279: 280.txt
+280: 281.txt
+281: 282.txt
+282: 283.txt
+283: 284.txt
+284: 285.txt
+285: 286.txt
+286: 287.txt
+287: 288.txt
+288: 289.txt
+289: 290.txt
+290: 291.txt
+291: 292.txt
+292: 293.txt
+293: 294.txt
+294: 295.txt
+295: 296.txt
+296: 297.txt
+297: 298.txt
+298: 299.txt
+299: 300.txt
+300: 301.txt
+301: 302.txt
+302: 303.txt
+303: 304.txt
+304: 305.txt
+305: 306.txt
+306: 307.txt
+307: 308.txt
+308: 309.txt
+309: 310.txt
+310: 311.txt
+311: 312.txt
+312: 313.txt
+313: 314.txt
+314: 315.txt
+315: 316.txt
+316: 317.txt
+317: 318.txt
+318: 319.txt
+319: 320.txt
+320: 321.txt
+321: 322.txt
+322: 323.txt
+323: 324.txt
+324: 325.txt
+325: 326.txt
+326: 327.txt
+327: 328.txt
+328: 329.txt
+329: 330.txt
+330: 331.txt
+331: 332.txt
+332: 333.txt
+333: 334.txt
+334: 335.txt
+335: 336.txt
+336: 337.txt
+337: 338.txt
+338: 339.txt
+339: 340.txt
+340: 341.txt
+341: 342.txt
+342: 343.txt
+343: 344.txt
+344: 345.txt
+345: 346.txt
+346: 347.txt
+347: 348.txt
+348: 349.txt
+349: 350.txt
+350: 351.txt
+351: 352.txt
+352: 353.txt
+353: 354.txt
+354: 355.txt
+355: 356.txt
+356: 357.txt
+357: 358.txt
+358: 359.txt
+359: 360.txt
+360: 361.txt
+361: 362.txt
+362: 363.txt
+363: 364.txt
+364: 365.txt
+365: 366.txt
+366: 367.txt
+367: 368.txt
+368: 369.txt
+369: 370.txt
+370: 371.txt
+371: 372.txt
+372: 373.txt
+373: 374.txt
+374: 375.txt
+375: 376.txt
+376: 377.txt
+377: 378.txt
+378: 379.txt
+379: 380.txt
+380: 381.txt
+381: 382.txt
+382: 383.txt
+383: 384.txt
+384: 385.txt
+385: 386.txt
+386: 387.txt
+387: 388.txt
+388: 389.txt
+389: 390.txt
+390: 391.txt
+391: 392.txt
+392: 393.txt
+393: 394.txt
+394: 395.txt
+395: 396.txt
+396: 397.txt
+397: 398.txt
+398: 399.txt
+399: 400.txt
+400: 401.txt
+401: 402.txt
+402: 403.txt
+403: 404.txt
+404: 405.txt
+405: 406.txt
+406: 407.txt
+407: 408.txt
+408: 409.txt
+409: 410.txt
+410: 411.txt
+411: 412.txt
+412: 413.txt
+413: 414.txt
+414: 415.txt
+415: 416.txt
+416: 417.txt
+417: 418.txt
+418: 419.txt
+419: 420.txt
+420: 421.txt
+421: 422.txt
+422: 423.txt
+423: 424.txt
+424: 425.txt
+425: 426.txt
+426: 427.txt
+427: 428.txt
+428: 429.txt
+429: 430.txt
+430: 431.txt
+431: 432.txt
+432: 433.txt
+433: 434.txt
+434: 435.txt
+435: 436.txt
+436: 437.txt
+437: 438.txt
+438: 439.txt
+439: 440.txt
+440: 441.txt
+441: 442.txt
+442: 443.txt
+443: 444.txt
+444: 445.txt
+445: 446.txt
+446: 447.txt
+447: 448.txt
+448: 449.txt
+449: 450.txt
+450: 451.txt
+451: 452.txt
+452: 453.txt
+453: 454.txt
+454: 455.txt
+455: 456.txt
+456: 457.txt
+457: 458.txt
+458: 459.txt
+459: 460.txt
+460: 461.txt
+461: 462.txt
+462: 463.txt
+463: 464.txt
+464: 465.txt
+465: 466.txt
+466: 467.txt
+467: 468.txt
+468: 469.txt
+469: 470.txt
+470: 471.txt
+471: 472.txt
+472: 473.txt
+473: 474.txt
+474: 475.txt
+475: 476.txt
+476: 477.txt
+477: 478.txt
+478: 479.txt
+479: 480.txt
+480: 481.txt
+481: 482.txt
+482: 483.txt
+483: 484.txt
+484: 485.txt
+485: 486.txt
+486: 487.txt
+487: 488.txt
+488: 489.txt
+489: 490.txt
+490: 491.txt
+491: 492.txt
+492: 493.txt
+493: 494.txt
+494: 495.txt
+495: 496.txt
+496: 497.txt
+497: 498.txt
+498: 499.txt
+499: 500.txt
+INPUT: 343
+----------------------------------------
+Ronda de Nanashi (J1)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:140/140 MP:534/534
+B-Hua Po HP:113/113 MP:108/108
+C-Caladrius HP:155/155 MP:149/149
+D-Sedna HP:350/350 MP:68/68
+Equipo de Tadano (J2)
+A-Tadano HP:393/393 MP:198/198
+B-Pyro Jack HP:137/137 MP:144/144
+C-Kanbari HP:350/350 MP:68/68
+D-Minotaur HP:407/407 MP:81/81
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Nanashi
+2-Caladrius
+3-Sedna
+4-Hua Po
+----------------------------------------
+Seleccione una acción para Nanashi
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Nanashi
+1-Tadano HP:393/393 MP:198/198
+2-Pyro Jack HP:137/137 MP:144/144
+3-Kanbari HP:350/350 MP:68/68
+4-Minotaur HP:407/407 MP:81/81
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Nanashi
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Nanashi use
+1-Axel Claw MP:15
+2-Thunder Reign MP:22
+3-Recarmdra MP:2
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Nanashi lanza electricidad a Tadano
+Tadano recibe 72 de daño
+Tadano termina con HP:321/393
+Nanashi lanza electricidad a Pyro Jack
+Pyro Jack recibe 72 de daño
+Pyro Jack termina con HP:65/137
+Nanashi lanza electricidad a Kanbari
+Kanbari recibe 72 de daño
+Kanbari termina con HP:278/350
+Nanashi lanza electricidad a Minotaur
+Minotaur recibe 72 de daño
+Minotaur termina con HP:335/407
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:140/140 MP:512/534
+B-Hua Po HP:113/113 MP:108/108
+C-Caladrius HP:155/155 MP:149/149
+D-Sedna HP:350/350 MP:68/68
+Equipo de Tadano (J2)
+A-Tadano HP:321/393 MP:198/198
+B-Pyro Jack HP:65/137 MP:144/144
+C-Kanbari HP:278/350 MP:68/68
+D-Minotaur HP:335/407 MP:81/81
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Caladrius
+2-Sedna
+3-Hua Po
+4-Nanashi
+----------------------------------------
+Seleccione una acción para Caladrius
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:140/140 MP:512/534
+B-Hua Po HP:113/113 MP:108/108
+C-Caladrius HP:155/155 MP:149/149
+D-Sedna HP:350/350 MP:68/68
+Equipo de Tadano (J2)
+A-Tadano HP:321/393 MP:198/198
+B-Pyro Jack HP:65/137 MP:144/144
+C-Kanbari HP:278/350 MP:68/68
+D-Minotaur HP:335/407 MP:81/81
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Sedna
+2-Hua Po
+3-Nanashi
+4-Caladrius
+----------------------------------------
+Seleccione una acción para Sedna
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:140/140 MP:512/534
+B-Hua Po HP:113/113 MP:108/108
+C-Caladrius HP:155/155 MP:149/149
+D-Sedna HP:350/350 MP:68/68
+Equipo de Tadano (J2)
+A-Tadano HP:321/393 MP:198/198
+B-Pyro Jack HP:65/137 MP:144/144
+C-Kanbari HP:278/350 MP:68/68
+D-Minotaur HP:335/407 MP:81/81
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Hua Po
+2-Nanashi
+3-Caladrius
+4-Sedna
+----------------------------------------
+Seleccione una acción para Hua Po
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Hua Po
+1-Tadano HP:321/393 MP:198/198
+2-Pyro Jack HP:65/137 MP:144/144
+3-Kanbari HP:278/350 MP:68/68
+4-Minotaur HP:335/407 MP:81/81
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Hua Po
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:140/140 MP:512/534
+B-Hua Po HP:113/113 MP:108/108
+C-Caladrius HP:155/155 MP:149/149
+D-Sedna HP:350/350 MP:68/68
+Equipo de Tadano (J2)
+A-Tadano HP:321/393 MP:198/198
+B-Pyro Jack HP:65/137 MP:144/144
+C-Kanbari HP:278/350 MP:68/68
+D-Minotaur HP:335/407 MP:81/81
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Nanashi
+2-Caladrius
+3-Sedna
+4-Hua Po
+----------------------------------------
+Seleccione una acción para Nanashi
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Nanashi
+1-Tadano HP:321/393 MP:198/198
+2-Pyro Jack HP:65/137 MP:144/144
+3-Kanbari HP:278/350 MP:68/68
+4-Minotaur HP:335/407 MP:81/81
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Nanashi dispara a Minotaur
+Minotaur recibe 31 de daño
+Minotaur termina con HP:304/407
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:140/140 MP:512/534
+B-Hua Po HP:113/113 MP:108/108
+C-Caladrius HP:155/155 MP:149/149
+D-Sedna HP:350/350 MP:68/68
+Equipo de Tadano (J2)
+A-Tadano HP:321/393 MP:198/198
+B-Pyro Jack HP:65/137 MP:144/144
+C-Kanbari HP:278/350 MP:68/68
+D-Minotaur HP:304/407 MP:81/81
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Caladrius
+2-Sedna
+3-Hua Po
+4-Nanashi
+----------------------------------------
+Seleccione una acción para Caladrius
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:140/140 MP:512/534
+B-Hua Po HP:113/113 MP:108/108
+C-Caladrius HP:155/155 MP:149/149
+D-Sedna HP:350/350 MP:68/68
+Equipo de Tadano (J2)
+A-Tadano HP:321/393 MP:198/198
+B-Pyro Jack HP:65/137 MP:144/144
+C-Kanbari HP:278/350 MP:68/68
+D-Minotaur HP:304/407 MP:81/81
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Sedna
+2-Hua Po
+3-Nanashi
+4-Caladrius
+----------------------------------------
+Seleccione una acción para Sedna
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Lorelei HP:291/291 MP:283/283
+2-Tokisada HP:423/423 MP:533/533
+3-Quicksilver HP:203/203 MP:90/90
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Sedna
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Lorelei HP:291/291 MP:283/283
+2-Tokisada HP:423/423 MP:533/533
+3-Quicksilver HP:203/203 MP:90/90
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Lorelei ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Tadano (J2)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:140/140 MP:512/534
+B-Hua Po HP:113/113 MP:108/108
+C-Caladrius HP:155/155 MP:149/149
+D-Lorelei HP:291/291 MP:283/283
+Equipo de Tadano (J2)
+A-Tadano HP:321/393 MP:198/198
+B-Pyro Jack HP:65/137 MP:144/144
+C-Kanbari HP:278/350 MP:68/68
+D-Minotaur HP:304/407 MP:81/81
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Minotaur
+2-Tadano
+3-Kanbari
+4-Pyro Jack
+----------------------------------------
+Seleccione una acción para Minotaur
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:140/140 MP:512/534
+B-Hua Po HP:113/113 MP:108/108
+C-Caladrius HP:155/155 MP:149/149
+D-Lorelei HP:291/291 MP:283/283
+Equipo de Tadano (J2)
+A-Tadano HP:321/393 MP:198/198
+B-Pyro Jack HP:65/137 MP:144/144
+C-Kanbari HP:278/350 MP:68/68
+D-Minotaur HP:304/407 MP:81/81
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Tadano
+2-Kanbari
+3-Pyro Jack
+4-Minotaur
+----------------------------------------
+Seleccione una acción para Tadano
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Tadano
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Tadano
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:140/140 MP:512/534
+B-Hua Po HP:113/113 MP:108/108
+C-Caladrius HP:155/155 MP:149/149
+D-Lorelei HP:291/291 MP:283/283
+Equipo de Tadano (J2)
+A-Tadano HP:321/393 MP:198/198
+B-Pyro Jack HP:65/137 MP:144/144
+C-Kanbari HP:278/350 MP:68/68
+D-Minotaur HP:304/407 MP:81/81
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kanbari
+2-Pyro Jack
+3-Minotaur
+4-Tadano
+----------------------------------------
+Seleccione una acción para Kanbari
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Kanbari
+1-Nanashi HP:140/140 MP:512/534
+2-Hua Po HP:113/113 MP:108/108
+3-Caladrius HP:155/155 MP:149/149
+4-Lorelei HP:291/291 MP:283/283
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Kanbari ataca a Hua Po
+Hua Po recibe 25 de daño
+Hua Po termina con HP:88/113
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:140/140 MP:512/534
+B-Hua Po HP:88/113 MP:108/108
+C-Caladrius HP:155/155 MP:149/149
+D-Lorelei HP:291/291 MP:283/283
+Equipo de Tadano (J2)
+A-Tadano HP:321/393 MP:198/198
+B-Pyro Jack HP:65/137 MP:144/144
+C-Kanbari HP:278/350 MP:68/68
+D-Minotaur HP:304/407 MP:81/81
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Pyro Jack
+2-Minotaur
+3-Tadano
+4-Kanbari
+----------------------------------------
+Seleccione una acción para Pyro Jack
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Pyro Jack use
+1-Agilao MP:8
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Pyro Jack
+1-Nanashi HP:140/140 MP:512/534
+2-Hua Po HP:88/113 MP:108/108
+3-Caladrius HP:155/155 MP:149/149
+4-Lorelei HP:291/291 MP:283/283
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Pyro Jack lanza fuego a Hua Po
+Hua Po bloquea el ataque de Pyro Jack
+Hua Po termina con HP:88/113
+----------------------------------------
+Se han consumido 2 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Nanashi (J1)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:140/140 MP:512/534
+B-Hua Po HP:88/113 MP:108/108
+C-Caladrius HP:155/155 MP:149/149
+D-Lorelei HP:291/291 MP:283/283
+Equipo de Tadano (J2)
+A-Tadano HP:321/393 MP:198/198
+B-Pyro Jack HP:65/137 MP:136/144
+C-Kanbari HP:278/350 MP:68/68
+D-Minotaur HP:304/407 MP:81/81
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Nanashi
+2-Lorelei
+3-Caladrius
+4-Hua Po
+----------------------------------------
+Seleccione una acción para Nanashi
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Nanashi use
+1-Axel Claw MP:15
+2-Thunder Reign MP:22
+3-Recarmdra MP:2
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Nanashi lanza electricidad a Tadano
+Tadano recibe 72 de daño
+Tadano termina con HP:249/393
+Nanashi lanza electricidad a Pyro Jack
+Pyro Jack recibe 72 de daño
+Pyro Jack termina con HP:0/137
+Nanashi lanza electricidad a Kanbari
+Kanbari recibe 72 de daño
+Kanbari termina con HP:206/350
+Nanashi lanza electricidad a Minotaur
+Minotaur recibe 72 de daño
+Minotaur termina con HP:232/407
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:140/140 MP:490/534
+B-Hua Po HP:88/113 MP:108/108
+C-Caladrius HP:155/155 MP:149/149
+D-Lorelei HP:291/291 MP:283/283
+Equipo de Tadano (J2)
+A-Tadano HP:249/393 MP:198/198
+B-
+C-Kanbari HP:206/350 MP:68/68
+D-Minotaur HP:232/407 MP:81/81
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Lorelei
+2-Caladrius
+3-Hua Po
+4-Nanashi
+----------------------------------------
+Seleccione una acción para Lorelei
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Lorelei
+1-Tadano HP:249/393 MP:198/198
+2-Kanbari HP:206/350 MP:68/68
+3-Minotaur HP:232/407 MP:81/81
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Lorelei ataca a Kanbari
+Kanbari es débil contra el ataque de Lorelei
+Kanbari recibe 46 de daño
+Kanbari termina con HP:160/350
+Minotaur contra ataca a Lorelei
+Lorelei recibe 11 de daño
+Lorelei termina con HP:280/291
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:140/140 MP:490/534
+B-Hua Po HP:88/113 MP:108/108
+C-Caladrius HP:155/155 MP:149/149
+D-Lorelei HP:280/291 MP:283/283
+Equipo de Tadano (J2)
+A-Tadano HP:249/393 MP:198/198
+B-
+C-Kanbari HP:160/350 MP:68/68
+D-Minotaur HP:232/407 MP:81/81
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Caladrius
+2-Hua Po
+3-Nanashi
+4-Lorelei
+----------------------------------------
+Seleccione una acción para Caladrius
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:140/140 MP:490/534
+B-Hua Po HP:88/113 MP:108/108
+C-Caladrius HP:155/155 MP:149/149
+D-Lorelei HP:280/291 MP:283/283
+Equipo de Tadano (J2)
+A-Tadano HP:249/393 MP:198/198
+B-
+C-Kanbari HP:160/350 MP:68/68
+D-Minotaur HP:232/407 MP:81/81
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Hua Po
+2-Nanashi
+3-Lorelei
+4-Caladrius
+----------------------------------------
+Seleccione una acción para Hua Po
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Hua Po use
+1-Maragi MP:11
+2-Patra MP:5
+3-Posumudi MP:5
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Hua Po lanza fuego a Tadano
+Tadano recibe 33 de daño
+Tadano termina con HP:216/393
+Hua Po lanza fuego a Kanbari
+Kanbari recibe 33 de daño
+Kanbari termina con HP:127/350
+Hua Po lanza fuego a Minotaur
+Minotaur bloquea el ataque de Hua Po
+Minotaur termina con HP:232/407
+----------------------------------------
+Se han consumido 2 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Tadano (J2)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:140/140 MP:490/534
+B-Hua Po HP:88/113 MP:97/108
+C-Caladrius HP:155/155 MP:149/149
+D-Lorelei HP:280/291 MP:283/283
+Equipo de Tadano (J2)
+A-Tadano HP:216/393 MP:198/198
+B-
+C-Kanbari HP:127/350 MP:68/68
+D-Minotaur HP:232/407 MP:81/81
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Minotaur
+2-Tadano
+3-Kanbari
+----------------------------------------
+Seleccione una acción para Minotaur
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Minotaur
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Minotaur use
+1-Oni-Kagura MP:9
+2-Charge MP:9
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Minotaur
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:140/140 MP:490/534
+B-Hua Po HP:88/113 MP:97/108
+C-Caladrius HP:155/155 MP:149/149
+D-Lorelei HP:280/291 MP:283/283
+Equipo de Tadano (J2)
+A-Tadano HP:216/393 MP:198/198
+B-
+C-Kanbari HP:127/350 MP:68/68
+D-Minotaur HP:232/407 MP:81/81
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Tadano
+2-Kanbari
+3-Minotaur
+----------------------------------------
+Seleccione una acción para Tadano
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Tadano use
+1-Mahama MP:18
+2-Holy Wrath MP:45
+3-Concentrate MP:11
+4-Heat Wave MP:11
+5-Maragion MP:20
+6-Media MP:12
+7-Cancelar
+INPUT: 6
+----------------------------------------
+Tadano cura a Kanbari
+Kanbari recibe 87 de HP
+Kanbari termina con HP:214/350
+Tadano cura a Minotaur
+Minotaur recibe 101 de HP
+Minotaur termina con HP:333/407
+Tadano cura a Tadano
+Tadano recibe 98 de HP
+Tadano termina con HP:314/393
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:140/140 MP:490/534
+B-Hua Po HP:88/113 MP:97/108
+C-Caladrius HP:155/155 MP:149/149
+D-Lorelei HP:280/291 MP:283/283
+Equipo de Tadano (J2)
+A-Tadano HP:314/393 MP:186/198
+B-
+C-Kanbari HP:214/350 MP:68/68
+D-Minotaur HP:333/407 MP:81/81
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kanbari
+2-Minotaur
+3-Tadano
+----------------------------------------
+Seleccione una acción para Kanbari
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Kanbari use
+1-Hama MP:6
+2-Rapid Needle MP:9
+3-Tetrakarn MP:50
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Tadano devolverá ataques físicos o disparos por una ronda
+Minotaur devolverá ataques físicos o disparos por una ronda
+Kanbari devolverá ataques físicos o disparos por una ronda
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:140/140 MP:490/534
+B-Hua Po HP:88/113 MP:97/108
+C-Caladrius HP:155/155 MP:149/149
+D-Lorelei HP:280/291 MP:283/283
+Equipo de Tadano (J2)
+A-Tadano HP:314/393 MP:186/198
+B-
+C-Kanbari HP:214/350 MP:18/68
+D-Minotaur HP:333/407 MP:81/81
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Minotaur
+2-Tadano
+3-Kanbari
+----------------------------------------
+Seleccione una acción para Minotaur
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Minotaur
+1-Nanashi HP:140/140 MP:490/534
+2-Hua Po HP:88/113 MP:97/108
+3-Caladrius HP:155/155 MP:149/149
+4-Lorelei HP:280/291 MP:283/283
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Minotaur
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:140/140 MP:490/534
+B-Hua Po HP:88/113 MP:97/108
+C-Caladrius HP:155/155 MP:149/149
+D-Lorelei HP:280/291 MP:283/283
+Equipo de Tadano (J2)
+A-Tadano HP:314/393 MP:186/198
+B-
+C-Kanbari HP:214/350 MP:18/68
+D-Minotaur HP:333/407 MP:81/81
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Tadano
+2-Kanbari
+3-Minotaur
+----------------------------------------
+Seleccione una acción para Tadano
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Nanashi (J1)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:140/140 MP:490/534
+B-Hua Po HP:88/113 MP:97/108
+C-Caladrius HP:155/155 MP:149/149
+D-Lorelei HP:280/291 MP:283/283
+Equipo de Tadano (J2)
+A-Tadano HP:314/393 MP:186/198
+B-
+C-Kanbari HP:214/350 MP:18/68
+D-Minotaur HP:333/407 MP:81/81
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Nanashi
+2-Lorelei
+3-Caladrius
+4-Hua Po
+----------------------------------------
+Seleccione una acción para Nanashi
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:140/140 MP:490/534
+B-Hua Po HP:88/113 MP:97/108
+C-Caladrius HP:155/155 MP:149/149
+D-Lorelei HP:280/291 MP:283/283
+Equipo de Tadano (J2)
+A-Tadano HP:314/393 MP:186/198
+B-
+C-Kanbari HP:214/350 MP:18/68
+D-Minotaur HP:333/407 MP:81/81
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Lorelei
+2-Caladrius
+3-Hua Po
+4-Nanashi
+----------------------------------------
+Seleccione una acción para Lorelei
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Lorelei
+1-Tadano HP:314/393 MP:186/198
+2-Kanbari HP:214/350 MP:18/68
+3-Minotaur HP:333/407 MP:81/81
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Lorelei ataca a Tadano
+Tadano devuelve 30 daño a Lorelei
+Lorelei termina con HP:250/291
+----------------------------------------
+Se han consumido 3 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Tadano (J2)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:140/140 MP:490/534
+B-Hua Po HP:88/113 MP:97/108
+C-Caladrius HP:155/155 MP:149/149
+D-Lorelei HP:250/291 MP:283/283
+Equipo de Tadano (J2)
+A-Tadano HP:314/393 MP:186/198
+B-
+C-Kanbari HP:214/350 MP:18/68
+D-Minotaur HP:333/407 MP:81/81
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Minotaur
+2-Tadano
+3-Kanbari
+----------------------------------------
+Seleccione una acción para Minotaur
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Minotaur
+1-Nanashi HP:140/140 MP:490/534
+2-Hua Po HP:88/113 MP:97/108
+3-Caladrius HP:155/155 MP:149/149
+4-Lorelei HP:250/291 MP:283/283
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Minotaur ataca a Lorelei
+Lorelei recibe 36 de daño
+Lorelei termina con HP:214/291
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:140/140 MP:490/534
+B-Hua Po HP:88/113 MP:97/108
+C-Caladrius HP:155/155 MP:149/149
+D-Lorelei HP:214/291 MP:283/283
+Equipo de Tadano (J2)
+A-Tadano HP:314/393 MP:186/198
+B-
+C-Kanbari HP:214/350 MP:18/68
+D-Minotaur HP:333/407 MP:81/81
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Tadano
+2-Kanbari
+3-Minotaur
+----------------------------------------
+Seleccione una acción para Tadano
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Tadano
+1-Nanashi HP:140/140 MP:490/534
+2-Hua Po HP:88/113 MP:97/108
+3-Caladrius HP:155/155 MP:149/149
+4-Lorelei HP:214/291 MP:283/283
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Tadano dispara a Caladrius
+Caladrius es débil contra el ataque de Tadano
+Caladrius recibe 38 de daño
+Caladrius termina con HP:117/155
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:140/140 MP:490/534
+B-Hua Po HP:88/113 MP:97/108
+C-Caladrius HP:117/155 MP:149/149
+D-Lorelei HP:214/291 MP:283/283
+Equipo de Tadano (J2)
+A-Tadano HP:314/393 MP:186/198
+B-
+C-Kanbari HP:214/350 MP:18/68
+D-Minotaur HP:333/407 MP:81/81
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Kanbari
+2-Minotaur
+3-Tadano
+----------------------------------------
+Seleccione una acción para Kanbari
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Kanbari
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Kanbari
+1-Nanashi HP:140/140 MP:490/534
+2-Hua Po HP:88/113 MP:97/108
+3-Caladrius HP:117/155 MP:149/149
+4-Lorelei HP:214/291 MP:283/283
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Kanbari ataca a Lorelei
+Lorelei recibe 25 de daño
+Lorelei termina con HP:189/291
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:140/140 MP:490/534
+B-Hua Po HP:88/113 MP:97/108
+C-Caladrius HP:117/155 MP:149/149
+D-Lorelei HP:189/291 MP:283/283
+Equipo de Tadano (J2)
+A-Tadano HP:314/393 MP:186/198
+B-
+C-Kanbari HP:214/350 MP:18/68
+D-Minotaur HP:333/407 MP:81/81
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Minotaur
+2-Tadano
+3-Kanbari
+----------------------------------------
+Seleccione una acción para Minotaur
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Minotaur
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Minotaur
+1-Nanashi HP:140/140 MP:490/534
+2-Hua Po HP:88/113 MP:97/108
+3-Caladrius HP:117/155 MP:149/149
+4-Lorelei HP:189/291 MP:283/283
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Minotaur ataca a Hua Po
+Hua Po recibe 36 de daño
+Hua Po termina con HP:52/113
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Nanashi (J1)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:140/140 MP:490/534
+B-Hua Po HP:52/113 MP:97/108
+C-Caladrius HP:117/155 MP:149/149
+D-Lorelei HP:189/291 MP:283/283
+Equipo de Tadano (J2)
+A-Tadano HP:314/393 MP:186/198
+B-
+C-Kanbari HP:214/350 MP:18/68
+D-Minotaur HP:333/407 MP:81/81
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Nanashi
+2-Lorelei
+3-Caladrius
+4-Hua Po
+----------------------------------------
+Seleccione una acción para Nanashi
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Nanashi use
+1-Axel Claw MP:15
+2-Thunder Reign MP:22
+3-Recarmdra MP:2
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Nanashi lanza electricidad a Tadano
+Tadano recibe 72 de daño
+Tadano termina con HP:242/393
+Nanashi lanza electricidad a Kanbari
+Kanbari recibe 72 de daño
+Kanbari termina con HP:142/350
+Nanashi lanza electricidad a Minotaur
+Minotaur recibe 72 de daño
+Minotaur termina con HP:261/407
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:140/140 MP:468/534
+B-Hua Po HP:52/113 MP:97/108
+C-Caladrius HP:117/155 MP:149/149
+D-Lorelei HP:189/291 MP:283/283
+Equipo de Tadano (J2)
+A-Tadano HP:242/393 MP:186/198
+B-
+C-Kanbari HP:142/350 MP:18/68
+D-Minotaur HP:261/407 MP:81/81
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Lorelei
+2-Caladrius
+3-Hua Po
+4-Nanashi
+----------------------------------------
+Seleccione una acción para Lorelei
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Lorelei use
+1-Mediarama MP:22
+2-Mabufula MP:20
+3-Panic Voice MP:15
+4-Makarakarn MP:50
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Nanashi devolverá ataques mágicos por una ronda
+Hua Po devolverá ataques mágicos por una ronda
+Caladrius devolverá ataques mágicos por una ronda
+Lorelei devolverá ataques mágicos por una ronda
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:140/140 MP:468/534
+B-Hua Po HP:52/113 MP:97/108
+C-Caladrius HP:117/155 MP:149/149
+D-Lorelei HP:189/291 MP:233/283
+Equipo de Tadano (J2)
+A-Tadano HP:242/393 MP:186/198
+B-
+C-Kanbari HP:142/350 MP:18/68
+D-Minotaur HP:261/407 MP:81/81
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Caladrius
+2-Hua Po
+3-Nanashi
+4-Lorelei
+----------------------------------------
+Seleccione una acción para Caladrius
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Sedna HP:350/350 MP:68/68
+2-Tokisada HP:423/423 MP:533/533
+3-Quicksilver HP:203/203 MP:90/90
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Caladrius
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Caladrius
+1-Tadano HP:242/393 MP:186/198
+2-Kanbari HP:142/350 MP:18/68
+3-Minotaur HP:261/407 MP:81/81
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Caladrius ataca a Tadano
+Tadano es resistente el ataque de Caladrius
+Tadano recibe 8 de daño
+Tadano termina con HP:234/393
+Minotaur contra ataca a Caladrius
+Caladrius recibe 2 de daño
+Caladrius termina con HP:115/155
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:140/140 MP:468/534
+B-Hua Po HP:52/113 MP:97/108
+C-Caladrius HP:115/155 MP:149/149
+D-Lorelei HP:189/291 MP:233/283
+Equipo de Tadano (J2)
+A-Tadano HP:234/393 MP:186/198
+B-
+C-Kanbari HP:142/350 MP:18/68
+D-Minotaur HP:261/407 MP:81/81
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Hua Po
+2-Nanashi
+3-Lorelei
+4-Caladrius
+----------------------------------------
+Seleccione una acción para Hua Po
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Hua Po
+1-Tadano HP:234/393 MP:186/198
+2-Kanbari HP:142/350 MP:18/68
+3-Minotaur HP:261/407 MP:81/81
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Hua Po ataca a Minotaur
+Minotaur recibe 12 de daño
+Minotaur termina con HP:249/407
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Tadano (J2)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:140/140 MP:468/534
+B-Hua Po HP:52/113 MP:97/108
+C-Caladrius HP:115/155 MP:149/149
+D-Lorelei HP:189/291 MP:233/283
+Equipo de Tadano (J2)
+A-Tadano HP:234/393 MP:186/198
+B-
+C-Kanbari HP:142/350 MP:18/68
+D-Minotaur HP:249/407 MP:81/81
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Minotaur
+2-Tadano
+3-Kanbari
+----------------------------------------
+Seleccione una acción para Minotaur
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Minotaur
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Minotaur
+1-Nanashi HP:140/140 MP:468/534
+2-Hua Po HP:52/113 MP:97/108
+3-Caladrius HP:115/155 MP:149/149
+4-Lorelei HP:189/291 MP:233/283
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Minotaur ataca a Caladrius
+Caladrius recibe 36 de daño
+Caladrius termina con HP:79/155
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:140/140 MP:468/534
+B-Hua Po HP:52/113 MP:97/108
+C-Caladrius HP:79/155 MP:149/149
+D-Lorelei HP:189/291 MP:233/283
+Equipo de Tadano (J2)
+A-Tadano HP:234/393 MP:186/198
+B-
+C-Kanbari HP:142/350 MP:18/68
+D-Minotaur HP:249/407 MP:81/81
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Tadano
+2-Kanbari
+3-Minotaur
+----------------------------------------
+Seleccione una acción para Tadano
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Tadano use
+1-Mahama MP:18
+2-Holy Wrath MP:45
+3-Concentrate MP:11
+4-Heat Wave MP:11
+5-Maragion MP:20
+6-Media MP:12
+7-Cancelar
+INPUT: 2
+----------------------------------------
+Tadano lanza un ataque todo poderoso a Nanashi
+Nanashi devuelve 72 daño a Tadano
+Tadano lanza un ataque todo poderoso a Hua Po
+Hua Po devuelve 72 daño a Tadano
+Tadano lanza un ataque todo poderoso a Caladrius
+Caladrius devuelve 72 daño a Tadano
+Tadano lanza un ataque todo poderoso a Lorelei
+Lorelei devuelve 72 daño a Tadano
+Tadano termina con HP:0/393
+----------------------------------------
+Se han consumido 2 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Nanashi (J1)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:140/140 MP:468/534
+B-Hua Po HP:52/113 MP:97/108
+C-Caladrius HP:79/155 MP:149/149
+D-Lorelei HP:189/291 MP:233/283
+Equipo de Tadano (J2)
+A-Tadano HP:0/393 MP:141/198
+B-
+C-Kanbari HP:142/350 MP:18/68
+D-Minotaur HP:249/407 MP:81/81
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Nanashi
+2-Lorelei
+3-Caladrius
+4-Hua Po
+----------------------------------------
+Seleccione una acción para Nanashi
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Nanashi
+1-Kanbari HP:142/350 MP:18/68
+2-Minotaur HP:249/407 MP:81/81
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Nanashi
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Sedna HP:350/350 MP:68/68
+2-Tokisada HP:423/423 MP:533/533
+3-Quicksilver HP:203/203 MP:90/90
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Nanashi
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:140/140 MP:468/534
+B-Hua Po HP:52/113 MP:97/108
+C-Caladrius HP:79/155 MP:149/149
+D-Lorelei HP:189/291 MP:233/283
+Equipo de Tadano (J2)
+A-Tadano HP:0/393 MP:141/198
+B-
+C-Kanbari HP:142/350 MP:18/68
+D-Minotaur HP:249/407 MP:81/81
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Lorelei
+2-Caladrius
+3-Hua Po
+4-Nanashi
+----------------------------------------
+Seleccione una acción para Lorelei
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Sedna HP:350/350 MP:68/68
+2-Tokisada HP:423/423 MP:533/533
+3-Quicksilver HP:203/203 MP:90/90
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Tokisada ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:140/140 MP:468/534
+B-Hua Po HP:52/113 MP:97/108
+C-Caladrius HP:79/155 MP:149/149
+D-Tokisada HP:423/423 MP:533/533
+Equipo de Tadano (J2)
+A-Tadano HP:0/393 MP:141/198
+B-
+C-Kanbari HP:142/350 MP:18/68
+D-Minotaur HP:249/407 MP:81/81
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Caladrius
+2-Hua Po
+3-Nanashi
+4-Tokisada
+----------------------------------------
+Seleccione una acción para Caladrius
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:140/140 MP:468/534
+B-Hua Po HP:52/113 MP:97/108
+C-Caladrius HP:79/155 MP:149/149
+D-Tokisada HP:423/423 MP:533/533
+Equipo de Tadano (J2)
+A-Tadano HP:0/393 MP:141/198
+B-
+C-Kanbari HP:142/350 MP:18/68
+D-Minotaur HP:249/407 MP:81/81
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Hua Po
+2-Nanashi
+3-Tokisada
+4-Caladrius
+----------------------------------------
+Seleccione una acción para Hua Po
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Sedna HP:350/350 MP:68/68
+2-Lorelei HP:189/291 MP:233/283
+3-Quicksilver HP:203/203 MP:90/90
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Hua Po
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Hua Po use
+1-Maragi MP:11
+2-Patra MP:5
+3-Posumudi MP:5
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Hua Po lanza fuego a Kanbari
+Kanbari recibe 33 de daño
+Kanbari termina con HP:109/350
+Hua Po lanza fuego a Minotaur
+Minotaur bloquea el ataque de Hua Po
+Minotaur termina con HP:249/407
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:140/140 MP:468/534
+B-Hua Po HP:52/113 MP:86/108
+C-Caladrius HP:79/155 MP:149/149
+D-Tokisada HP:423/423 MP:533/533
+Equipo de Tadano (J2)
+A-Tadano HP:0/393 MP:141/198
+B-
+C-Kanbari HP:109/350 MP:18/68
+D-Minotaur HP:249/407 MP:81/81
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Nanashi
+2-Tokisada
+3-Caladrius
+4-Hua Po
+----------------------------------------
+Seleccione una acción para Nanashi
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Nanashi
+1-Kanbari HP:109/350 MP:18/68
+2-Minotaur HP:249/407 MP:81/81
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Nanashi dispara a Kanbari
+Kanbari bloquea el ataque de Nanashi
+Kanbari termina con HP:109/350
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Tadano (J2)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:140/140 MP:468/534
+B-Hua Po HP:52/113 MP:86/108
+C-Caladrius HP:79/155 MP:149/149
+D-Tokisada HP:423/423 MP:533/533
+Equipo de Tadano (J2)
+A-Tadano HP:0/393 MP:141/198
+B-
+C-Kanbari HP:109/350 MP:18/68
+D-Minotaur HP:249/407 MP:81/81
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Minotaur
+2-Kanbari
+----------------------------------------
+Seleccione una acción para Minotaur
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:140/140 MP:468/534
+B-Hua Po HP:52/113 MP:86/108
+C-Caladrius HP:79/155 MP:149/149
+D-Tokisada HP:423/423 MP:533/533
+Equipo de Tadano (J2)
+A-Tadano HP:0/393 MP:141/198
+B-
+C-Kanbari HP:109/350 MP:18/68
+D-Minotaur HP:249/407 MP:81/81
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Kanbari
+2-Minotaur
+----------------------------------------
+Seleccione una acción para Kanbari
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Kanbari use
+1-Hama MP:6
+2-Rapid Needle MP:9
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Kanbari dispara a Nanashi
+Nanashi recibe 46 de daño
+Nanashi termina con HP:94/140
+Kanbari dispara a Hua Po
+Hua Po recibe 46 de daño
+Hua Po termina con HP:6/113
+Kanbari dispara a Caladrius
+Caladrius es débil contra el ataque de Kanbari
+Caladrius recibe 69 de daño
+Caladrius termina con HP:10/155
+Kanbari dispara a Tokisada
+Tokisada absorbe 46 daño
+Tokisada termina con HP:423/423
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Nanashi (J1)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:94/140 MP:468/534
+B-Hua Po HP:6/113 MP:86/108
+C-Caladrius HP:10/155 MP:149/149
+D-Tokisada HP:423/423 MP:533/533
+Equipo de Tadano (J2)
+A-Tadano HP:0/393 MP:141/198
+B-
+C-Kanbari HP:109/350 MP:9/68
+D-Minotaur HP:249/407 MP:81/81
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Tokisada
+2-Nanashi
+3-Caladrius
+4-Hua Po
+----------------------------------------
+Seleccione una acción para Tokisada
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Sedna HP:350/350 MP:68/68
+2-Lorelei HP:189/291 MP:233/283
+3-Quicksilver HP:203/203 MP:90/90
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Quicksilver ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:94/140 MP:468/534
+B-Hua Po HP:6/113 MP:86/108
+C-Caladrius HP:10/155 MP:149/149
+D-Quicksilver HP:203/203 MP:90/90
+Equipo de Tadano (J2)
+A-Tadano HP:0/393 MP:141/198
+B-
+C-Kanbari HP:109/350 MP:9/68
+D-Minotaur HP:249/407 MP:81/81
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Nanashi
+2-Caladrius
+3-Hua Po
+4-Quicksilver
+----------------------------------------
+Seleccione una acción para Nanashi
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:94/140 MP:468/534
+B-Hua Po HP:6/113 MP:86/108
+C-Caladrius HP:10/155 MP:149/149
+D-Quicksilver HP:203/203 MP:90/90
+Equipo de Tadano (J2)
+A-Tadano HP:0/393 MP:141/198
+B-
+C-Kanbari HP:109/350 MP:9/68
+D-Minotaur HP:249/407 MP:81/81
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Caladrius
+2-Hua Po
+3-Quicksilver
+4-Nanashi
+----------------------------------------
+Seleccione una acción para Caladrius
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Caladrius
+1-Kanbari HP:109/350 MP:9/68
+2-Minotaur HP:249/407 MP:81/81
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Caladrius ataca a Minotaur
+Minotaur recibe 17 de daño
+Minotaur termina con HP:232/407
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:94/140 MP:468/534
+B-Hua Po HP:6/113 MP:86/108
+C-Caladrius HP:10/155 MP:149/149
+D-Quicksilver HP:203/203 MP:90/90
+Equipo de Tadano (J2)
+A-Tadano HP:0/393 MP:141/198
+B-
+C-Kanbari HP:109/350 MP:9/68
+D-Minotaur HP:232/407 MP:81/81
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Hua Po
+2-Quicksilver
+3-Nanashi
+4-Caladrius
+----------------------------------------
+Seleccione una acción para Hua Po
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Hua Po
+1-Kanbari HP:109/350 MP:9/68
+2-Minotaur HP:232/407 MP:81/81
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Hua Po ataca a Minotaur
+Minotaur recibe 12 de daño
+Minotaur termina con HP:220/407
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:94/140 MP:468/534
+B-Hua Po HP:6/113 MP:86/108
+C-Caladrius HP:10/155 MP:149/149
+D-Quicksilver HP:203/203 MP:90/90
+Equipo de Tadano (J2)
+A-Tadano HP:0/393 MP:141/198
+B-
+C-Kanbari HP:109/350 MP:9/68
+D-Minotaur HP:220/407 MP:81/81
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Quicksilver
+2-Nanashi
+3-Caladrius
+4-Hua Po
+----------------------------------------
+Seleccione una acción para Quicksilver
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Sedna HP:350/350 MP:68/68
+2-Lorelei HP:189/291 MP:233/283
+3-Tokisada HP:423/423 MP:533/533
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Lorelei ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:94/140 MP:468/534
+B-Hua Po HP:6/113 MP:86/108
+C-Caladrius HP:10/155 MP:149/149
+D-Lorelei HP:189/291 MP:233/283
+Equipo de Tadano (J2)
+A-Tadano HP:0/393 MP:141/198
+B-
+C-Kanbari HP:109/350 MP:9/68
+D-Minotaur HP:220/407 MP:81/81
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Nanashi
+2-Caladrius
+3-Hua Po
+4-Lorelei
+----------------------------------------
+Seleccione una acción para Nanashi
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Nanashi use
+1-Axel Claw MP:15
+2-Thunder Reign MP:22
+3-Recarmdra MP:2
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Nanashi cura a Hua Po
+Hua Po recibe 56 de HP
+Hua Po termina con HP:62/113
+Nanashi cura a Caladrius
+Caladrius recibe 77 de HP
+Caladrius termina con HP:87/155
+Nanashi cura a Lorelei
+Lorelei recibe 145 de HP
+Lorelei termina con HP:291/291
+Nanashi cura a Sedna
+Sedna recibe 175 de HP
+Sedna termina con HP:350/350
+Nanashi cura a Tokisada
+Tokisada recibe 211 de HP
+Tokisada termina con HP:423/423
+Nanashi cura a Quicksilver
+Quicksilver recibe 101 de HP
+Quicksilver termina con HP:203/203
+Nanashi termina con HP:0/140
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Tadano (J2)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:466/534
+B-Hua Po HP:62/113 MP:86/108
+C-Caladrius HP:87/155 MP:149/149
+D-Lorelei HP:291/291 MP:233/283
+Equipo de Tadano (J2)
+A-Tadano HP:0/393 MP:141/198
+B-
+C-Kanbari HP:109/350 MP:9/68
+D-Minotaur HP:220/407 MP:81/81
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Minotaur
+2-Kanbari
+----------------------------------------
+Seleccione una acción para Minotaur
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Minotaur
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Minotaur use
+1-Oni-Kagura MP:9
+2-Charge MP:9
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Minotaur
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:466/534
+B-Hua Po HP:62/113 MP:86/108
+C-Caladrius HP:87/155 MP:149/149
+D-Lorelei HP:291/291 MP:233/283
+Equipo de Tadano (J2)
+A-Tadano HP:0/393 MP:141/198
+B-
+C-Kanbari HP:109/350 MP:9/68
+D-Minotaur HP:220/407 MP:81/81
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Kanbari
+2-Minotaur
+----------------------------------------
+Seleccione una acción para Kanbari
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Kanbari
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Kanbari use
+1-Hama MP:6
+2-Rapid Needle MP:9
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Kanbari
+1-Hua Po HP:62/113 MP:86/108
+2-Caladrius HP:87/155 MP:149/149
+3-Lorelei HP:291/291 MP:233/283
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Kanbari ataca con luz a Lorelei
+Kanbari ha fallado el ataque
+Lorelei termina con HP:291/291
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:466/534
+B-Hua Po HP:62/113 MP:86/108
+C-Caladrius HP:87/155 MP:149/149
+D-Lorelei HP:291/291 MP:233/283
+Equipo de Tadano (J2)
+A-Tadano HP:0/393 MP:141/198
+B-
+C-Kanbari HP:109/350 MP:3/68
+D-Minotaur HP:220/407 MP:81/81
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Minotaur
+2-Kanbari
+----------------------------------------
+Seleccione una acción para Minotaur
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:466/534
+B-Hua Po HP:62/113 MP:86/108
+C-Caladrius HP:87/155 MP:149/149
+D-Lorelei HP:291/291 MP:233/283
+Equipo de Tadano (J2)
+A-Tadano HP:0/393 MP:141/198
+B-
+C-Kanbari HP:109/350 MP:3/68
+D-Minotaur HP:220/407 MP:81/81
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Kanbari
+2-Minotaur
+----------------------------------------
+Seleccione una acción para Kanbari
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Kanbari use
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Kanbari
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Kanbari use
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Kanbari
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Kanbari use
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Kanbari
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Nanashi (J1)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:466/534
+B-Hua Po HP:62/113 MP:86/108
+C-Caladrius HP:87/155 MP:149/149
+D-Lorelei HP:291/291 MP:233/283
+Equipo de Tadano (J2)
+A-Tadano HP:0/393 MP:141/198
+B-
+C-Kanbari HP:109/350 MP:3/68
+D-Minotaur HP:220/407 MP:81/81
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Lorelei
+2-Caladrius
+3-Hua Po
+----------------------------------------
+Seleccione una acción para Lorelei
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Sedna HP:350/350 MP:68/68
+2-Tokisada HP:423/423 MP:533/533
+3-Quicksilver HP:203/203 MP:90/90
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Quicksilver ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:466/534
+B-Hua Po HP:62/113 MP:86/108
+C-Caladrius HP:87/155 MP:149/149
+D-Quicksilver HP:203/203 MP:90/90
+Equipo de Tadano (J2)
+A-Tadano HP:0/393 MP:141/198
+B-
+C-Kanbari HP:109/350 MP:3/68
+D-Minotaur HP:220/407 MP:81/81
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Caladrius
+2-Hua Po
+3-Quicksilver
+----------------------------------------
+Seleccione una acción para Caladrius
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Caladrius
+1-Kanbari HP:109/350 MP:3/68
+2-Minotaur HP:220/407 MP:81/81
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Caladrius ataca a Kanbari
+Kanbari es débil contra el ataque de Caladrius
+Kanbari recibe 26 de daño
+Kanbari termina con HP:83/350
+Minotaur contra ataca a Caladrius
+Caladrius recibe 6 de daño
+Caladrius termina con HP:81/155
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:466/534
+B-Hua Po HP:62/113 MP:86/108
+C-Caladrius HP:81/155 MP:149/149
+D-Quicksilver HP:203/203 MP:90/90
+Equipo de Tadano (J2)
+A-Tadano HP:0/393 MP:141/198
+B-
+C-Kanbari HP:83/350 MP:3/68
+D-Minotaur HP:220/407 MP:81/81
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 2
+----------------------------------------
+Orden:
+1-Hua Po
+2-Quicksilver
+3-Caladrius
+----------------------------------------
+Seleccione una acción para Hua Po
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Hua Po use
+1-Maragi MP:11
+2-Patra MP:5
+3-Posumudi MP:5
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Hua Po lanza fuego a Kanbari
+Kanbari recibe 33 de daño
+Kanbari termina con HP:50/350
+Hua Po lanza fuego a Minotaur
+Minotaur bloquea el ataque de Hua Po
+Minotaur termina con HP:220/407
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 2 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:466/534
+B-Hua Po HP:62/113 MP:75/108
+C-Caladrius HP:81/155 MP:149/149
+D-Quicksilver HP:203/203 MP:90/90
+Equipo de Tadano (J2)
+A-Tadano HP:0/393 MP:141/198
+B-
+C-Kanbari HP:50/350 MP:3/68
+D-Minotaur HP:220/407 MP:81/81
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Quicksilver
+2-Caladrius
+3-Hua Po
+----------------------------------------
+Seleccione una acción para Quicksilver
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Quicksilver
+1-Kanbari HP:50/350 MP:3/68
+2-Minotaur HP:220/407 MP:81/81
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Quicksilver ataca a Kanbari
+Kanbari es débil contra el ataque de Quicksilver
+Kanbari recibe 23 de daño
+Kanbari termina con HP:27/350
+Minotaur contra ataca a Quicksilver
+Quicksilver recibe 5 de daño
+Quicksilver termina con HP:198/203
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:466/534
+B-Hua Po HP:62/113 MP:75/108
+C-Caladrius HP:81/155 MP:149/149
+D-Quicksilver HP:198/203 MP:90/90
+Equipo de Tadano (J2)
+A-Tadano HP:0/393 MP:141/198
+B-
+C-Kanbari HP:27/350 MP:3/68
+D-Minotaur HP:220/407 MP:81/81
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Caladrius
+2-Hua Po
+3-Quicksilver
+----------------------------------------
+Seleccione una acción para Caladrius
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Tadano (J2)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:466/534
+B-Hua Po HP:62/113 MP:75/108
+C-Caladrius HP:81/155 MP:149/149
+D-Quicksilver HP:198/203 MP:90/90
+Equipo de Tadano (J2)
+A-Tadano HP:0/393 MP:141/198
+B-
+C-Kanbari HP:27/350 MP:3/68
+D-Minotaur HP:220/407 MP:81/81
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Minotaur
+2-Kanbari
+----------------------------------------
+Seleccione una acción para Minotaur
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Minotaur
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:466/534
+B-Hua Po HP:62/113 MP:75/108
+C-Caladrius HP:81/155 MP:149/149
+D-Quicksilver HP:198/203 MP:90/90
+Equipo de Tadano (J2)
+A-Tadano HP:0/393 MP:141/198
+B-
+C-Kanbari HP:27/350 MP:3/68
+D-Minotaur HP:220/407 MP:81/81
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Kanbari
+2-Minotaur
+----------------------------------------
+Seleccione una acción para Kanbari
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:466/534
+B-Hua Po HP:62/113 MP:75/108
+C-Caladrius HP:81/155 MP:149/149
+D-Quicksilver HP:198/203 MP:90/90
+Equipo de Tadano (J2)
+A-Tadano HP:0/393 MP:141/198
+B-
+C-Kanbari HP:27/350 MP:3/68
+D-Minotaur HP:220/407 MP:81/81
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Minotaur
+2-Kanbari
+----------------------------------------
+Seleccione una acción para Minotaur
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Minotaur
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Minotaur use
+1-Oni-Kagura MP:9
+2-Charge MP:9
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Minotaur
+1-Hua Po HP:62/113 MP:75/108
+2-Caladrius HP:81/155 MP:149/149
+3-Quicksilver HP:198/203 MP:90/90
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Minotaur ataca a Quicksilver
+Quicksilver recibe 106 de daño
+Quicksilver termina con HP:92/203
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Nanashi (J1)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:466/534
+B-Hua Po HP:62/113 MP:75/108
+C-Caladrius HP:81/155 MP:149/149
+D-Quicksilver HP:92/203 MP:90/90
+Equipo de Tadano (J2)
+A-Tadano HP:0/393 MP:141/198
+B-
+C-Kanbari HP:27/350 MP:3/68
+D-Minotaur HP:220/407 MP:72/81
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Caladrius
+2-Quicksilver
+3-Hua Po
+----------------------------------------
+Seleccione una acción para Caladrius
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Sedna HP:350/350 MP:68/68
+2-Lorelei HP:291/291 MP:233/283
+3-Tokisada HP:423/423 MP:533/533
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Sedna ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:466/534
+B-Hua Po HP:62/113 MP:75/108
+C-Sedna HP:350/350 MP:68/68
+D-Quicksilver HP:92/203 MP:90/90
+Equipo de Tadano (J2)
+A-Tadano HP:0/393 MP:141/198
+B-
+C-Kanbari HP:27/350 MP:3/68
+D-Minotaur HP:220/407 MP:72/81
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Quicksilver
+2-Hua Po
+3-Sedna
+----------------------------------------
+Seleccione una acción para Quicksilver
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Quicksilver use
+1-Mazio MP:11
+2-Panic Caster MP:10
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Quicksilver
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:466/534
+B-Hua Po HP:62/113 MP:75/108
+C-Sedna HP:350/350 MP:68/68
+D-Quicksilver HP:92/203 MP:90/90
+Equipo de Tadano (J2)
+A-Tadano HP:0/393 MP:141/198
+B-
+C-Kanbari HP:27/350 MP:3/68
+D-Minotaur HP:220/407 MP:72/81
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Hua Po
+2-Sedna
+3-Quicksilver
+----------------------------------------
+Seleccione una acción para Hua Po
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Caladrius HP:81/155 MP:149/149
+2-Lorelei HP:291/291 MP:233/283
+3-Tokisada HP:423/423 MP:533/533
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Lorelei ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:466/534
+B-Lorelei HP:291/291 MP:233/283
+C-Sedna HP:350/350 MP:68/68
+D-Quicksilver HP:92/203 MP:90/90
+Equipo de Tadano (J2)
+A-Tadano HP:0/393 MP:141/198
+B-
+C-Kanbari HP:27/350 MP:3/68
+D-Minotaur HP:220/407 MP:72/81
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Sedna
+2-Quicksilver
+3-Lorelei
+----------------------------------------
+Seleccione una acción para Sedna
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Sedna
+1-Kanbari HP:27/350 MP:3/68
+2-Minotaur HP:220/407 MP:72/81
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Sedna ataca a Minotaur
+Minotaur recibe 25 de daño
+Minotaur termina con HP:195/407
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:466/534
+B-Lorelei HP:291/291 MP:233/283
+C-Sedna HP:350/350 MP:68/68
+D-Quicksilver HP:92/203 MP:90/90
+Equipo de Tadano (J2)
+A-Tadano HP:0/393 MP:141/198
+B-
+C-Kanbari HP:27/350 MP:3/68
+D-Minotaur HP:195/407 MP:72/81
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Quicksilver
+2-Lorelei
+3-Sedna
+----------------------------------------
+Seleccione una acción para Quicksilver
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:466/534
+B-Lorelei HP:291/291 MP:233/283
+C-Sedna HP:350/350 MP:68/68
+D-Quicksilver HP:92/203 MP:90/90
+Equipo de Tadano (J2)
+A-Tadano HP:0/393 MP:141/198
+B-
+C-Kanbari HP:27/350 MP:3/68
+D-Minotaur HP:195/407 MP:72/81
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Lorelei
+2-Sedna
+3-Quicksilver
+----------------------------------------
+Seleccione una acción para Lorelei
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Tadano (J2)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:466/534
+B-Lorelei HP:291/291 MP:233/283
+C-Sedna HP:350/350 MP:68/68
+D-Quicksilver HP:92/203 MP:90/90
+Equipo de Tadano (J2)
+A-Tadano HP:0/393 MP:141/198
+B-
+C-Kanbari HP:27/350 MP:3/68
+D-Minotaur HP:195/407 MP:72/81
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Minotaur
+2-Kanbari
+----------------------------------------
+Seleccione una acción para Minotaur
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Minotaur use
+1-Oni-Kagura MP:9
+2-Charge MP:9
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Minotaur ha cargado su siguiente ataque físico o disparo a más del doble
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:466/534
+B-Lorelei HP:291/291 MP:233/283
+C-Sedna HP:350/350 MP:68/68
+D-Quicksilver HP:92/203 MP:90/90
+Equipo de Tadano (J2)
+A-Tadano HP:0/393 MP:141/198
+B-
+C-Kanbari HP:27/350 MP:3/68
+D-Minotaur HP:195/407 MP:63/81
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kanbari
+2-Minotaur
+----------------------------------------
+Seleccione una acción para Kanbari
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:466/534
+B-Lorelei HP:291/291 MP:233/283
+C-Sedna HP:350/350 MP:68/68
+D-Quicksilver HP:92/203 MP:90/90
+Equipo de Tadano (J2)
+A-Tadano HP:0/393 MP:141/198
+B-
+C-Kanbari HP:27/350 MP:3/68
+D-Minotaur HP:195/407 MP:63/81
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Minotaur
+2-Kanbari
+----------------------------------------
+Seleccione una acción para Minotaur
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Minotaur use
+1-Oni-Kagura MP:9
+2-Charge MP:9
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Minotaur ha cargado su siguiente ataque físico o disparo a más del doble
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Nanashi (J1)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:466/534
+B-Lorelei HP:291/291 MP:233/283
+C-Sedna HP:350/350 MP:68/68
+D-Quicksilver HP:92/203 MP:90/90
+Equipo de Tadano (J2)
+A-Tadano HP:0/393 MP:141/198
+B-
+C-Kanbari HP:27/350 MP:3/68
+D-Minotaur HP:195/407 MP:54/81
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Lorelei
+2-Sedna
+3-Quicksilver
+----------------------------------------
+Seleccione una acción para Lorelei
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Hua Po HP:62/113 MP:75/108
+2-Caladrius HP:81/155 MP:149/149
+3-Tokisada HP:423/423 MP:533/533
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Caladrius ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:466/534
+B-Caladrius HP:81/155 MP:149/149
+C-Sedna HP:350/350 MP:68/68
+D-Quicksilver HP:92/203 MP:90/90
+Equipo de Tadano (J2)
+A-Tadano HP:0/393 MP:141/198
+B-
+C-Kanbari HP:27/350 MP:3/68
+D-Minotaur HP:195/407 MP:54/81
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Sedna
+2-Quicksilver
+3-Caladrius
+----------------------------------------
+Seleccione una acción para Sedna
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Hua Po HP:62/113 MP:75/108
+2-Lorelei HP:291/291 MP:233/283
+3-Tokisada HP:423/423 MP:533/533
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Sedna
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Hua Po HP:62/113 MP:75/108
+2-Lorelei HP:291/291 MP:233/283
+3-Tokisada HP:423/423 MP:533/533
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Hua Po ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:466/534
+B-Caladrius HP:81/155 MP:149/149
+C-Hua Po HP:62/113 MP:75/108
+D-Quicksilver HP:92/203 MP:90/90
+Equipo de Tadano (J2)
+A-Tadano HP:0/393 MP:141/198
+B-
+C-Kanbari HP:27/350 MP:3/68
+D-Minotaur HP:195/407 MP:54/81
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Quicksilver
+2-Caladrius
+3-Hua Po
+----------------------------------------
+Seleccione una acción para Quicksilver
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:466/534
+B-Caladrius HP:81/155 MP:149/149
+C-Hua Po HP:62/113 MP:75/108
+D-Quicksilver HP:92/203 MP:90/90
+Equipo de Tadano (J2)
+A-Tadano HP:0/393 MP:141/198
+B-
+C-Kanbari HP:27/350 MP:3/68
+D-Minotaur HP:195/407 MP:54/81
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Caladrius
+2-Hua Po
+3-Quicksilver
+----------------------------------------
+Seleccione una acción para Caladrius
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Caladrius
+1-Kanbari HP:27/350 MP:3/68
+2-Minotaur HP:195/407 MP:54/81
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Caladrius ataca a Kanbari
+Kanbari es débil contra el ataque de Caladrius
+Kanbari recibe 26 de daño
+Kanbari termina con HP:1/350
+Minotaur contra ataca a Caladrius
+Caladrius recibe 6 de daño
+Caladrius termina con HP:75/155
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:466/534
+B-Caladrius HP:75/155 MP:149/149
+C-Hua Po HP:62/113 MP:75/108
+D-Quicksilver HP:92/203 MP:90/90
+Equipo de Tadano (J2)
+A-Tadano HP:0/393 MP:141/198
+B-
+C-Kanbari HP:1/350 MP:3/68
+D-Minotaur HP:195/407 MP:54/81
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 2
+----------------------------------------
+Orden:
+1-Hua Po
+2-Quicksilver
+3-Caladrius
+----------------------------------------
+Seleccione una acción para Hua Po
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Sedna HP:350/350 MP:68/68
+2-Lorelei HP:291/291 MP:233/283
+3-Tokisada HP:423/423 MP:533/533
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Lorelei ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:466/534
+B-Caladrius HP:75/155 MP:149/149
+C-Lorelei HP:291/291 MP:233/283
+D-Quicksilver HP:92/203 MP:90/90
+Equipo de Tadano (J2)
+A-Tadano HP:0/393 MP:141/198
+B-
+C-Kanbari HP:1/350 MP:3/68
+D-Minotaur HP:195/407 MP:54/81
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Quicksilver
+2-Caladrius
+3-Lorelei
+----------------------------------------
+Seleccione una acción para Quicksilver
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Quicksilver
+1-Kanbari HP:1/350 MP:3/68
+2-Minotaur HP:195/407 MP:54/81
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Quicksilver ataca a Kanbari
+Kanbari es débil contra el ataque de Quicksilver
+Kanbari recibe 23 de daño
+Kanbari termina con HP:0/350
+Minotaur contra ataca a Quicksilver
+Quicksilver recibe 5 de daño
+Quicksilver termina con HP:87/203
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Tadano (J2)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:466/534
+B-Caladrius HP:75/155 MP:149/149
+C-Lorelei HP:291/291 MP:233/283
+D-Quicksilver HP:87/203 MP:90/90
+Equipo de Tadano (J2)
+A-Tadano HP:0/393 MP:141/198
+B-
+C-
+D-Minotaur HP:195/407 MP:54/81
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Minotaur
+----------------------------------------
+Seleccione una acción para Minotaur
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:466/534
+B-Caladrius HP:75/155 MP:149/149
+C-Lorelei HP:291/291 MP:233/283
+D-Quicksilver HP:87/203 MP:90/90
+Equipo de Tadano (J2)
+A-Tadano HP:0/393 MP:141/198
+B-
+C-
+D-Minotaur HP:195/407 MP:54/81
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Minotaur
+----------------------------------------
+Seleccione una acción para Minotaur
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Minotaur
+1-Caladrius HP:75/155 MP:149/149
+2-Lorelei HP:291/291 MP:233/283
+3-Quicksilver HP:87/203 MP:90/90
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Minotaur ataca a Quicksilver
+Quicksilver recibe 92 de daño
+Quicksilver termina con HP:0/203
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Nanashi (J1)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:466/534
+B-Caladrius HP:75/155 MP:149/149
+C-Lorelei HP:291/291 MP:233/283
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:0/393 MP:141/198
+B-
+C-
+D-Minotaur HP:195/407 MP:54/81
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Lorelei
+2-Caladrius
+----------------------------------------
+Seleccione una acción para Lorelei
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Lorelei use
+1-Mediarama MP:22
+2-Mabufula MP:20
+3-Panic Voice MP:15
+4-Makarakarn MP:50
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Lorelei lanza hielo a Minotaur
+Minotaur es débil contra el ataque de Lorelei
+Minotaur recibe 139 de daño
+Minotaur termina con HP:56/407
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:466/534
+B-Caladrius HP:75/155 MP:149/149
+C-Lorelei HP:291/291 MP:213/283
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:0/393 MP:141/198
+B-
+C-
+D-Minotaur HP:56/407 MP:54/81
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Caladrius
+2-Lorelei
+----------------------------------------
+Seleccione una acción para Caladrius
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Hua Po HP:62/113 MP:75/108
+2-Sedna HP:350/350 MP:68/68
+3-Tokisada HP:423/423 MP:533/533
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Caladrius
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:466/534
+B-Caladrius HP:75/155 MP:149/149
+C-Lorelei HP:291/291 MP:213/283
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:0/393 MP:141/198
+B-
+C-
+D-Minotaur HP:56/407 MP:54/81
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Lorelei
+2-Caladrius
+----------------------------------------
+Seleccione una acción para Lorelei
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Lorelei use
+1-Mediarama MP:22
+2-Mabufula MP:20
+3-Panic Voice MP:15
+4-Makarakarn MP:50
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Caladrius devolverá ataques mágicos por una ronda
+Lorelei devolverá ataques mágicos por una ronda
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Tadano (J2)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:466/534
+B-Caladrius HP:75/155 MP:149/149
+C-Lorelei HP:291/291 MP:163/283
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:0/393 MP:141/198
+B-
+C-
+D-Minotaur HP:56/407 MP:54/81
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Minotaur
+----------------------------------------
+Seleccione una acción para Minotaur
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Minotaur
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Minotaur
+1-Caladrius HP:75/155 MP:149/149
+2-Lorelei HP:291/291 MP:163/283
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Minotaur
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:466/534
+B-Caladrius HP:75/155 MP:149/149
+C-Lorelei HP:291/291 MP:163/283
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:0/393 MP:141/198
+B-
+C-
+D-Minotaur HP:56/407 MP:54/81
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Minotaur
+----------------------------------------
+Seleccione una acción para Minotaur
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Minotaur use
+1-Oni-Kagura MP:9
+2-Charge MP:9
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Minotaur
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Minotaur use
+1-Oni-Kagura MP:9
+2-Charge MP:9
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Minotaur ha cargado su siguiente ataque físico o disparo a más del doble
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Nanashi (J1)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:466/534
+B-Caladrius HP:75/155 MP:149/149
+C-Lorelei HP:291/291 MP:163/283
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:0/393 MP:141/198
+B-
+C-
+D-Minotaur HP:56/407 MP:45/81
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Lorelei
+2-Caladrius
+----------------------------------------
+Seleccione una acción para Lorelei
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Lorelei
+1-Minotaur HP:56/407 MP:45/81
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Lorelei ataca a Minotaur
+Minotaur recibe 30 de daño
+Minotaur termina con HP:26/407
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:466/534
+B-Caladrius HP:75/155 MP:149/149
+C-Lorelei HP:291/291 MP:163/283
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:0/393 MP:141/198
+B-
+C-
+D-Minotaur HP:26/407 MP:45/81
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Caladrius
+2-Lorelei
+----------------------------------------
+Seleccione una acción para Caladrius
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Hua Po HP:62/113 MP:75/108
+2-Sedna HP:350/350 MP:68/68
+3-Tokisada HP:423/423 MP:533/533
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Caladrius
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Hua Po HP:62/113 MP:75/108
+2-Sedna HP:350/350 MP:68/68
+3-Tokisada HP:423/423 MP:533/533
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Tokisada ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:466/534
+B-Tokisada HP:423/423 MP:533/533
+C-Lorelei HP:291/291 MP:163/283
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:0/393 MP:141/198
+B-
+C-
+D-Minotaur HP:26/407 MP:45/81
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Lorelei
+2-Tokisada
+----------------------------------------
+Seleccione una acción para Lorelei
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Lorelei
+1-Minotaur HP:26/407 MP:45/81
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Lorelei
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Lorelei use
+1-Mediarama MP:22
+2-Mabufula MP:20
+3-Panic Voice MP:15
+4-Makarakarn MP:50
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Lorelei
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Tadano (J2)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:466/534
+B-Tokisada HP:423/423 MP:533/533
+C-Lorelei HP:291/291 MP:163/283
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:0/393 MP:141/198
+B-
+C-
+D-Minotaur HP:26/407 MP:45/81
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Minotaur
+----------------------------------------
+Seleccione una acción para Minotaur
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Minotaur use
+1-Oni-Kagura MP:9
+2-Charge MP:9
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Minotaur
+1-Tokisada HP:423/423 MP:533/533
+2-Lorelei HP:291/291 MP:163/283
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Minotaur ataca a Lorelei
+Lorelei recibe 265 de daño
+Lorelei termina con HP:26/291
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Nanashi (J1)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:466/534
+B-Tokisada HP:423/423 MP:533/533
+C-Lorelei HP:26/291 MP:163/283
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:0/393 MP:141/198
+B-
+C-
+D-Minotaur HP:26/407 MP:36/81
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Tokisada
+2-Lorelei
+----------------------------------------
+Seleccione una acción para Tokisada
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:466/534
+B-Tokisada HP:423/423 MP:533/533
+C-Lorelei HP:26/291 MP:163/283
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:0/393 MP:141/198
+B-
+C-
+D-Minotaur HP:26/407 MP:36/81
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Lorelei
+2-Tokisada
+----------------------------------------
+Seleccione una acción para Lorelei
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Lorelei use
+1-Mediarama MP:22
+2-Mabufula MP:20
+3-Panic Voice MP:15
+4-Makarakarn MP:50
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Lorelei cura a Tokisada
+Tokisada recibe 211 de HP
+Tokisada termina con HP:423/423
+Lorelei cura a Lorelei
+Lorelei recibe 145 de HP
+Lorelei termina con HP:171/291
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:466/534
+B-Tokisada HP:423/423 MP:533/533
+C-Lorelei HP:171/291 MP:141/283
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:0/393 MP:141/198
+B-
+C-
+D-Minotaur HP:26/407 MP:36/81
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Tokisada
+2-Lorelei
+----------------------------------------
+Seleccione una acción para Tokisada
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Tokisada use
+1-Holy Wrath MP:45
+2-Recarmdra MP:2
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Tokisada
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:466/534
+B-Tokisada HP:423/423 MP:533/533
+C-Lorelei HP:171/291 MP:141/283
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:0/393 MP:141/198
+B-
+C-
+D-Minotaur HP:26/407 MP:36/81
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Lorelei
+2-Tokisada
+----------------------------------------
+Seleccione una acción para Lorelei
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Lorelei use
+1-Mediarama MP:22
+2-Mabufula MP:20
+3-Panic Voice MP:15
+4-Makarakarn MP:50
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Lorelei
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Hua Po HP:62/113 MP:75/108
+2-Caladrius HP:75/155 MP:149/149
+3-Sedna HP:350/350 MP:68/68
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Hua Po ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Tadano (J2)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:466/534
+B-Tokisada HP:423/423 MP:533/533
+C-Hua Po HP:62/113 MP:75/108
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:0/393 MP:141/198
+B-
+C-
+D-Minotaur HP:26/407 MP:36/81
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Minotaur
+----------------------------------------
+Seleccione una acción para Minotaur
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Minotaur use
+1-Oni-Kagura MP:9
+2-Charge MP:9
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Minotaur
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Minotaur
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Minotaur
+1-Tokisada HP:423/423 MP:533/533
+2-Hua Po HP:62/113 MP:75/108
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Minotaur ataca a Tokisada
+Tokisada recibe 36 de daño
+Tokisada termina con HP:387/423
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Nanashi (J1)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:466/534
+B-Tokisada HP:387/423 MP:533/533
+C-Hua Po HP:62/113 MP:75/108
+D-
+Equipo de Tadano (J2)
+A-Tadano HP:0/393 MP:141/198
+B-
+C-
+D-Minotaur HP:26/407 MP:36/81
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Tokisada
+2-Hua Po
+----------------------------------------
+Seleccione una acción para Tokisada
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Tokisada
+1-Minotaur HP:26/407 MP:36/81
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Tokisada ataca a Minotaur
+Minotaur recibe 45 de daño
+Minotaur termina con HP:0/407
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ganador: Nanashi (J1)

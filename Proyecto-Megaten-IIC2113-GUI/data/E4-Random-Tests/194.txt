@@ -1,0 +1,8331 @@
+Elige un archivo para cargar los equipos
+0: 001.txt
+1: 002.txt
+2: 003.txt
+3: 004.txt
+4: 005.txt
+5: 006.txt
+6: 007.txt
+7: 008.txt
+8: 009.txt
+9: 010.txt
+10: 011.txt
+11: 012.txt
+12: 013.txt
+13: 014.txt
+14: 015.txt
+15: 016.txt
+16: 017.txt
+17: 018.txt
+18: 019.txt
+19: 020.txt
+20: 021.txt
+21: 022.txt
+22: 023.txt
+23: 024.txt
+24: 025.txt
+25: 026.txt
+26: 027.txt
+27: 028.txt
+28: 029.txt
+29: 030.txt
+30: 031.txt
+31: 032.txt
+32: 033.txt
+33: 034.txt
+34: 035.txt
+35: 036.txt
+36: 037.txt
+37: 038.txt
+38: 039.txt
+39: 040.txt
+40: 041.txt
+41: 042.txt
+42: 043.txt
+43: 044.txt
+44: 045.txt
+45: 046.txt
+46: 047.txt
+47: 048.txt
+48: 049.txt
+49: 050.txt
+50: 051.txt
+51: 052.txt
+52: 053.txt
+53: 054.txt
+54: 055.txt
+55: 056.txt
+56: 057.txt
+57: 058.txt
+58: 059.txt
+59: 060.txt
+60: 061.txt
+61: 062.txt
+62: 063.txt
+63: 064.txt
+64: 065.txt
+65: 066.txt
+66: 067.txt
+67: 068.txt
+68: 069.txt
+69: 070.txt
+70: 071.txt
+71: 072.txt
+72: 073.txt
+73: 074.txt
+74: 075.txt
+75: 076.txt
+76: 077.txt
+77: 078.txt
+78: 079.txt
+79: 080.txt
+80: 081.txt
+81: 082.txt
+82: 083.txt
+83: 084.txt
+84: 085.txt
+85: 086.txt
+86: 087.txt
+87: 088.txt
+88: 089.txt
+89: 090.txt
+90: 091.txt
+91: 092.txt
+92: 093.txt
+93: 094.txt
+94: 095.txt
+95: 096.txt
+96: 097.txt
+97: 098.txt
+98: 099.txt
+99: 100.txt
+100: 101.txt
+101: 102.txt
+102: 103.txt
+103: 104.txt
+104: 105.txt
+105: 106.txt
+106: 107.txt
+107: 108.txt
+108: 109.txt
+109: 110.txt
+110: 111.txt
+111: 112.txt
+112: 113.txt
+113: 114.txt
+114: 115.txt
+115: 116.txt
+116: 117.txt
+117: 118.txt
+118: 119.txt
+119: 120.txt
+120: 121.txt
+121: 122.txt
+122: 123.txt
+123: 124.txt
+124: 125.txt
+125: 126.txt
+126: 127.txt
+127: 128.txt
+128: 129.txt
+129: 130.txt
+130: 131.txt
+131: 132.txt
+132: 133.txt
+133: 134.txt
+134: 135.txt
+135: 136.txt
+136: 137.txt
+137: 138.txt
+138: 139.txt
+139: 140.txt
+140: 141.txt
+141: 142.txt
+142: 143.txt
+143: 144.txt
+144: 145.txt
+145: 146.txt
+146: 147.txt
+147: 148.txt
+148: 149.txt
+149: 150.txt
+150: 151.txt
+151: 152.txt
+152: 153.txt
+153: 154.txt
+154: 155.txt
+155: 156.txt
+156: 157.txt
+157: 158.txt
+158: 159.txt
+159: 160.txt
+160: 161.txt
+161: 162.txt
+162: 163.txt
+163: 164.txt
+164: 165.txt
+165: 166.txt
+166: 167.txt
+167: 168.txt
+168: 169.txt
+169: 170.txt
+170: 171.txt
+171: 172.txt
+172: 173.txt
+173: 174.txt
+174: 175.txt
+175: 176.txt
+176: 177.txt
+177: 178.txt
+178: 179.txt
+179: 180.txt
+180: 181.txt
+181: 182.txt
+182: 183.txt
+183: 184.txt
+184: 185.txt
+185: 186.txt
+186: 187.txt
+187: 188.txt
+188: 189.txt
+189: 190.txt
+190: 191.txt
+191: 192.txt
+192: 193.txt
+193: 194.txt
+194: 195.txt
+195: 196.txt
+196: 197.txt
+197: 198.txt
+198: 199.txt
+199: 200.txt
+200: 201.txt
+201: 202.txt
+202: 203.txt
+203: 204.txt
+204: 205.txt
+205: 206.txt
+206: 207.txt
+207: 208.txt
+208: 209.txt
+209: 210.txt
+210: 211.txt
+211: 212.txt
+212: 213.txt
+213: 214.txt
+214: 215.txt
+215: 216.txt
+216: 217.txt
+217: 218.txt
+218: 219.txt
+219: 220.txt
+220: 221.txt
+221: 222.txt
+222: 223.txt
+223: 224.txt
+224: 225.txt
+225: 226.txt
+226: 227.txt
+227: 228.txt
+228: 229.txt
+229: 230.txt
+230: 231.txt
+231: 232.txt
+232: 233.txt
+233: 234.txt
+234: 235.txt
+235: 236.txt
+236: 237.txt
+237: 238.txt
+238: 239.txt
+239: 240.txt
+240: 241.txt
+241: 242.txt
+242: 243.txt
+243: 244.txt
+244: 245.txt
+245: 246.txt
+246: 247.txt
+247: 248.txt
+248: 249.txt
+249: 250.txt
+250: 251.txt
+251: 252.txt
+252: 253.txt
+253: 254.txt
+254: 255.txt
+255: 256.txt
+256: 257.txt
+257: 258.txt
+258: 259.txt
+259: 260.txt
+260: 261.txt
+261: 262.txt
+262: 263.txt
+263: 264.txt
+264: 265.txt
+265: 266.txt
+266: 267.txt
+267: 268.txt
+268: 269.txt
+269: 270.txt
+270: 271.txt
+271: 272.txt
+272: 273.txt
+273: 274.txt
+274: 275.txt
+275: 276.txt
+276: 277.txt
+277: 278.txt
+278: 279.txt
+279: 280.txt
+280: 281.txt
+281: 282.txt
+282: 283.txt
+283: 284.txt
+284: 285.txt
+285: 286.txt
+286: 287.txt
+287: 288.txt
+288: 289.txt
+289: 290.txt
+290: 291.txt
+291: 292.txt
+292: 293.txt
+293: 294.txt
+294: 295.txt
+295: 296.txt
+296: 297.txt
+297: 298.txt
+298: 299.txt
+299: 300.txt
+300: 301.txt
+301: 302.txt
+302: 303.txt
+303: 304.txt
+304: 305.txt
+305: 306.txt
+306: 307.txt
+307: 308.txt
+308: 309.txt
+309: 310.txt
+310: 311.txt
+311: 312.txt
+312: 313.txt
+313: 314.txt
+314: 315.txt
+315: 316.txt
+316: 317.txt
+317: 318.txt
+318: 319.txt
+319: 320.txt
+320: 321.txt
+321: 322.txt
+322: 323.txt
+323: 324.txt
+324: 325.txt
+325: 326.txt
+326: 327.txt
+327: 328.txt
+328: 329.txt
+329: 330.txt
+330: 331.txt
+331: 332.txt
+332: 333.txt
+333: 334.txt
+334: 335.txt
+335: 336.txt
+336: 337.txt
+337: 338.txt
+338: 339.txt
+339: 340.txt
+340: 341.txt
+341: 342.txt
+342: 343.txt
+343: 344.txt
+344: 345.txt
+345: 346.txt
+346: 347.txt
+347: 348.txt
+348: 349.txt
+349: 350.txt
+350: 351.txt
+351: 352.txt
+352: 353.txt
+353: 354.txt
+354: 355.txt
+355: 356.txt
+356: 357.txt
+357: 358.txt
+358: 359.txt
+359: 360.txt
+360: 361.txt
+361: 362.txt
+362: 363.txt
+363: 364.txt
+364: 365.txt
+365: 366.txt
+366: 367.txt
+367: 368.txt
+368: 369.txt
+369: 370.txt
+370: 371.txt
+371: 372.txt
+372: 373.txt
+373: 374.txt
+374: 375.txt
+375: 376.txt
+376: 377.txt
+377: 378.txt
+378: 379.txt
+379: 380.txt
+380: 381.txt
+381: 382.txt
+382: 383.txt
+383: 384.txt
+384: 385.txt
+385: 386.txt
+386: 387.txt
+387: 388.txt
+388: 389.txt
+389: 390.txt
+390: 391.txt
+391: 392.txt
+392: 393.txt
+393: 394.txt
+394: 395.txt
+395: 396.txt
+396: 397.txt
+397: 398.txt
+398: 399.txt
+399: 400.txt
+400: 401.txt
+401: 402.txt
+402: 403.txt
+403: 404.txt
+404: 405.txt
+405: 406.txt
+406: 407.txt
+407: 408.txt
+408: 409.txt
+409: 410.txt
+410: 411.txt
+411: 412.txt
+412: 413.txt
+413: 414.txt
+414: 415.txt
+415: 416.txt
+416: 417.txt
+417: 418.txt
+418: 419.txt
+419: 420.txt
+420: 421.txt
+421: 422.txt
+422: 423.txt
+423: 424.txt
+424: 425.txt
+425: 426.txt
+426: 427.txt
+427: 428.txt
+428: 429.txt
+429: 430.txt
+430: 431.txt
+431: 432.txt
+432: 433.txt
+433: 434.txt
+434: 435.txt
+435: 436.txt
+436: 437.txt
+437: 438.txt
+438: 439.txt
+439: 440.txt
+440: 441.txt
+441: 442.txt
+442: 443.txt
+443: 444.txt
+444: 445.txt
+445: 446.txt
+446: 447.txt
+447: 448.txt
+448: 449.txt
+449: 450.txt
+450: 451.txt
+451: 452.txt
+452: 453.txt
+453: 454.txt
+454: 455.txt
+455: 456.txt
+456: 457.txt
+457: 458.txt
+458: 459.txt
+459: 460.txt
+460: 461.txt
+461: 462.txt
+462: 463.txt
+463: 464.txt
+464: 465.txt
+465: 466.txt
+466: 467.txt
+467: 468.txt
+468: 469.txt
+469: 470.txt
+470: 471.txt
+471: 472.txt
+472: 473.txt
+473: 474.txt
+474: 475.txt
+475: 476.txt
+476: 477.txt
+477: 478.txt
+478: 479.txt
+479: 480.txt
+480: 481.txt
+481: 482.txt
+482: 483.txt
+483: 484.txt
+484: 485.txt
+485: 486.txt
+486: 487.txt
+487: 488.txt
+488: 489.txt
+489: 490.txt
+490: 491.txt
+491: 492.txt
+492: 493.txt
+493: 494.txt
+494: 495.txt
+495: 496.txt
+496: 497.txt
+497: 498.txt
+498: 499.txt
+499: 500.txt
+INPUT: 193
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:971/971 MP:527/527
+B-Koppa Tengu HP:196/196 MP:88/88
+C-Kwancha HP:160/160 MP:154/154
+D-Thoth HP:188/188 MP:199/199
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:527/527
+B-Centaur HP:104/104 MP:19/19
+C-Loki HP:319/319 MP:380/380
+D-
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Thoth
+3-Koppa Tengu
+4-Kwancha
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Flynn HP:971/971 MP:527/527
+2-Centaur HP:104/104 MP:19/19
+3-Loki HP:319/319 MP:380/380
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Flynn HP:971/971 MP:527/527
+2-Centaur HP:104/104 MP:19/19
+3-Loki HP:319/319 MP:380/380
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Flynn dispara a Loki
+Loki bloquea el ataque de Flynn
+Loki termina con HP:319/319
+----------------------------------------
+Se han consumido 2 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:971/971 MP:527/527
+B-Koppa Tengu HP:196/196 MP:88/88
+C-Kwancha HP:160/160 MP:154/154
+D-Thoth HP:188/188 MP:199/199
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:527/527
+B-Centaur HP:104/104 MP:19/19
+C-Loki HP:319/319 MP:380/380
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Thoth
+2-Koppa Tengu
+3-Kwancha
+4-Flynn
+----------------------------------------
+Seleccione una acción para Thoth
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:971/971 MP:527/527
+B-Koppa Tengu HP:196/196 MP:88/88
+C-Kwancha HP:160/160 MP:154/154
+D-Thoth HP:188/188 MP:199/199
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:527/527
+B-Centaur HP:104/104 MP:19/19
+C-Loki HP:319/319 MP:380/380
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Koppa Tengu
+2-Kwancha
+3-Flynn
+4-Thoth
+----------------------------------------
+Seleccione una acción para Koppa Tengu
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Xi Wangmu HP:418/418 MP:405/405
+2-Camazotz HP:180/180 MP:35/35
+3-Ometeotl HP:324/324 MP:315/315
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Camazotz ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:971/971 MP:527/527
+B-Camazotz HP:180/180 MP:35/35
+C-Kwancha HP:160/160 MP:154/154
+D-Thoth HP:188/188 MP:199/199
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:527/527
+B-Centaur HP:104/104 MP:19/19
+C-Loki HP:319/319 MP:380/380
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kwancha
+2-Flynn
+3-Thoth
+4-Camazotz
+----------------------------------------
+Seleccione una acción para Kwancha
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:971/971 MP:527/527
+B-Camazotz HP:180/180 MP:35/35
+C-Kwancha HP:160/160 MP:154/154
+D-Thoth HP:188/188 MP:199/199
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:527/527
+B-Centaur HP:104/104 MP:19/19
+C-Loki HP:319/319 MP:380/380
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Flynn
+2-Thoth
+3-Camazotz
+4-Kwancha
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Koppa Tengu HP:196/196 MP:88/88
+2-Xi Wangmu HP:418/418 MP:405/405
+3-Ometeotl HP:324/324 MP:315/315
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una posición para invocar
+1-Camazotz HP:180/180 MP:35/35 (Puesto 2)
+2-Kwancha HP:160/160 MP:154/154 (Puesto 3)
+3-Thoth HP:188/188 MP:199/199 (Puesto 4)
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Xi Wangmu ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:971/971 MP:527/527
+B-Camazotz HP:180/180 MP:35/35
+C-Xi Wangmu HP:418/418 MP:405/405
+D-Thoth HP:188/188 MP:199/199
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:527/527
+B-Centaur HP:104/104 MP:19/19
+C-Loki HP:319/319 MP:380/380
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Loki
+3-Centaur
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Flynn HP:971/971 MP:527/527
+2-Camazotz HP:180/180 MP:35/35
+3-Xi Wangmu HP:418/418 MP:405/405
+4-Thoth HP:188/188 MP:199/199
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Flynn ataca a Flynn
+Flynn recibe 88 de daño
+Flynn termina con HP:883/971
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:883/971 MP:527/527
+B-Camazotz HP:180/180 MP:35/35
+C-Xi Wangmu HP:418/418 MP:405/405
+D-Thoth HP:188/188 MP:199/199
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:527/527
+B-Centaur HP:104/104 MP:19/19
+C-Loki HP:319/319 MP:380/380
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Loki
+2-Centaur
+3-Flynn
+----------------------------------------
+Seleccione una acción para Loki
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Loki use
+1-Pulinpa MP:5
+2-Mabufudyne MP:32
+3-Taunt MP:20
+4-Dekunda MP:10
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Loki
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:883/971 MP:527/527
+B-Camazotz HP:180/180 MP:35/35
+C-Xi Wangmu HP:418/418 MP:405/405
+D-Thoth HP:188/188 MP:199/199
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:527/527
+B-Centaur HP:104/104 MP:19/19
+C-Loki HP:319/319 MP:380/380
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Centaur
+2-Flynn
+3-Loki
+----------------------------------------
+Seleccione una acción para Centaur
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Centaur use
+1-Bufu MP:5
+2-Needle Shot MP:4
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Centaur
+1-Flynn HP:883/971 MP:527/527
+2-Camazotz HP:180/180 MP:35/35
+3-Xi Wangmu HP:418/418 MP:405/405
+4-Thoth HP:188/188 MP:199/199
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Centaur dispara a Xi Wangmu
+Xi Wangmu recibe 24 de daño
+Xi Wangmu termina con HP:394/418
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:883/971 MP:527/527
+B-Camazotz HP:180/180 MP:35/35
+C-Xi Wangmu HP:394/418 MP:405/405
+D-Thoth HP:188/188 MP:199/199
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:527/527
+B-Centaur HP:104/104 MP:15/19
+C-Loki HP:319/319 MP:380/380
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Loki
+3-Centaur
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Flynn use
+1-Hamaon MP:10
+2-Diarama MP:9
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Flynn HP:883/971 MP:527/527
+2-Camazotz HP:180/180 MP:35/35
+3-Xi Wangmu HP:394/418 MP:405/405
+4-Thoth HP:188/188 MP:199/199
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Flynn ataca a Flynn
+Flynn recibe 88 de daño
+Flynn termina con HP:795/971
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:795/971 MP:527/527
+B-Camazotz HP:180/180 MP:35/35
+C-Xi Wangmu HP:394/418 MP:405/405
+D-Thoth HP:188/188 MP:199/199
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:527/527
+B-Centaur HP:104/104 MP:15/19
+C-Loki HP:319/319 MP:380/380
+D-
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Xi Wangmu
+3-Thoth
+4-Camazotz
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Koppa Tengu HP:196/196 MP:88/88
+2-Kwancha HP:160/160 MP:154/154
+3-Ometeotl HP:324/324 MP:315/315
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una posición para invocar
+1-Camazotz HP:180/180 MP:35/35 (Puesto 2)
+2-Xi Wangmu HP:394/418 MP:405/405 (Puesto 3)
+3-Thoth HP:188/188 MP:199/199 (Puesto 4)
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Kwancha ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:795/971 MP:527/527
+B-Camazotz HP:180/180 MP:35/35
+C-Kwancha HP:160/160 MP:154/154
+D-Thoth HP:188/188 MP:199/199
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:527/527
+B-Centaur HP:104/104 MP:15/19
+C-Loki HP:319/319 MP:380/380
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Kwancha
+2-Thoth
+3-Camazotz
+4-Flynn
+----------------------------------------
+Seleccione una acción para Kwancha
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Kwancha use
+1-Tetanus Cut MP:11
+2-Posumudi MP:5
+3-Pandemic Bomb MP:11
+4-Mahama MP:18
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Kwancha ataca con luz a Flynn
+Flynn bloquea el ataque de Kwancha
+Flynn termina con HP:971/971
+Kwancha ataca con luz a Centaur
+Centaur ha sido eliminado
+Centaur termina con HP:0/104
+Kwancha ataca con luz a Loki
+Kwancha ha fallado el ataque
+Loki termina con HP:319/319
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:795/971 MP:527/527
+B-Camazotz HP:180/180 MP:35/35
+C-Kwancha HP:160/160 MP:136/154
+D-Thoth HP:188/188 MP:199/199
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:527/527
+B-
+C-Loki HP:319/319 MP:380/380
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Thoth
+2-Camazotz
+3-Flynn
+4-Kwancha
+----------------------------------------
+Seleccione una acción para Thoth
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Koppa Tengu HP:196/196 MP:88/88
+2-Xi Wangmu HP:394/418 MP:405/405
+3-Ometeotl HP:324/324 MP:315/315
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Ometeotl ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:795/971 MP:527/527
+B-Camazotz HP:180/180 MP:35/35
+C-Kwancha HP:160/160 MP:136/154
+D-Ometeotl HP:324/324 MP:315/315
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:527/527
+B-
+C-Loki HP:319/319 MP:380/380
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Camazotz
+2-Flynn
+3-Kwancha
+4-Ometeotl
+----------------------------------------
+Seleccione una acción para Camazotz
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Koppa Tengu HP:196/196 MP:88/88
+2-Thoth HP:188/188 MP:199/199
+3-Xi Wangmu HP:394/418 MP:405/405
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Xi Wangmu ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:795/971 MP:527/527
+B-Xi Wangmu HP:394/418 MP:405/405
+C-Kwancha HP:160/160 MP:136/154
+D-Ometeotl HP:324/324 MP:315/315
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:527/527
+B-
+C-Loki HP:319/319 MP:380/380
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Kwancha
+3-Ometeotl
+4-Xi Wangmu
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:795/971 MP:527/527
+B-Xi Wangmu HP:394/418 MP:405/405
+C-Kwancha HP:160/160 MP:136/154
+D-Ometeotl HP:324/324 MP:315/315
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:527/527
+B-
+C-Loki HP:319/319 MP:380/380
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Kwancha
+2-Ometeotl
+3-Xi Wangmu
+4-Flynn
+----------------------------------------
+Seleccione una acción para Kwancha
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Koppa Tengu HP:196/196 MP:88/88
+2-Thoth HP:188/188 MP:199/199
+3-Camazotz HP:180/180 MP:35/35
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Camazotz ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:795/971 MP:527/527
+B-Xi Wangmu HP:394/418 MP:405/405
+C-Camazotz HP:180/180 MP:35/35
+D-Ometeotl HP:324/324 MP:315/315
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:527/527
+B-
+C-Loki HP:319/319 MP:380/380
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Loki
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Flynn use
+1-Hamaon MP:10
+2-Diarama MP:9
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Flynn HP:795/971 MP:527/527
+2-Xi Wangmu HP:394/418 MP:405/405
+3-Camazotz HP:180/180 MP:35/35
+4-Ometeotl HP:324/324 MP:315/315
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Flynn ataca a Camazotz
+Camazotz recibe 88 de daño
+Camazotz termina con HP:92/180
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:795/971 MP:527/527
+B-Xi Wangmu HP:394/418 MP:405/405
+C-Camazotz HP:92/180 MP:35/35
+D-Ometeotl HP:324/324 MP:315/315
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:527/527
+B-
+C-Loki HP:319/319 MP:380/380
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Loki
+2-Flynn
+----------------------------------------
+Seleccione una acción para Loki
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Loki
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:795/971 MP:527/527
+B-Xi Wangmu HP:394/418 MP:405/405
+C-Camazotz HP:92/180 MP:35/35
+D-Ometeotl HP:324/324 MP:315/315
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:527/527
+B-
+C-Loki HP:319/319 MP:380/380
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Flynn
+2-Loki
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:795/971 MP:527/527
+B-Xi Wangmu HP:394/418 MP:405/405
+C-Camazotz HP:92/180 MP:35/35
+D-Ometeotl HP:324/324 MP:315/315
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:527/527
+B-
+C-Loki HP:319/319 MP:380/380
+D-
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Xi Wangmu
+3-Ometeotl
+4-Camazotz
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:795/971 MP:527/527
+B-Xi Wangmu HP:394/418 MP:405/405
+C-Camazotz HP:92/180 MP:35/35
+D-Ometeotl HP:324/324 MP:315/315
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:527/527
+B-
+C-Loki HP:319/319 MP:380/380
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Xi Wangmu
+2-Ometeotl
+3-Camazotz
+4-Flynn
+----------------------------------------
+Seleccione una acción para Xi Wangmu
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Xi Wangmu use
+1-Makarakarn MP:50
+2-Myriad Arrows MP:30
+3-Invitation MP:45
+4-Megaton Press MP:17
+5-Doping MP:45
+6-Cancelar
+INPUT: 6
+----------------------------------------
+Seleccione una acción para Xi Wangmu
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:795/971 MP:527/527
+B-Xi Wangmu HP:394/418 MP:405/405
+C-Camazotz HP:92/180 MP:35/35
+D-Ometeotl HP:324/324 MP:315/315
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:527/527
+B-
+C-Loki HP:319/319 MP:380/380
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Ometeotl
+2-Camazotz
+3-Flynn
+4-Xi Wangmu
+----------------------------------------
+Seleccione una acción para Ometeotl
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ometeotl
+1-Flynn HP:971/971 MP:527/527
+2-Loki HP:319/319 MP:380/380
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Ometeotl ataca a Flynn
+Flynn recibe 34 de daño
+Flynn termina con HP:937/971
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:795/971 MP:527/527
+B-Xi Wangmu HP:394/418 MP:405/405
+C-Camazotz HP:92/180 MP:35/35
+D-Ometeotl HP:324/324 MP:315/315
+Equipo de Flynn (J2)
+A-Flynn HP:937/971 MP:527/527
+B-
+C-Loki HP:319/319 MP:380/380
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Camazotz
+2-Flynn
+3-Xi Wangmu
+4-Ometeotl
+----------------------------------------
+Seleccione una acción para Camazotz
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Camazotz use
+1-Tetanus Cut MP:11
+2-Life Drain MP:5
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Camazotz
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Koppa Tengu HP:196/196 MP:88/88
+2-Kwancha HP:160/160 MP:136/154
+3-Thoth HP:188/188 MP:199/199
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Kwancha ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:795/971 MP:527/527
+B-Xi Wangmu HP:394/418 MP:405/405
+C-Kwancha HP:160/160 MP:136/154
+D-Ometeotl HP:324/324 MP:315/315
+Equipo de Flynn (J2)
+A-Flynn HP:937/971 MP:527/527
+B-
+C-Loki HP:319/319 MP:380/380
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Flynn
+2-Xi Wangmu
+3-Ometeotl
+4-Kwancha
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Flynn HP:937/971 MP:527/527
+2-Loki HP:319/319 MP:380/380
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Flynn dispara a Flynn
+Flynn absorbe 110 daño
+Flynn termina con HP:971/971
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:795/971 MP:527/527
+B-Xi Wangmu HP:394/418 MP:405/405
+C-Kwancha HP:160/160 MP:136/154
+D-Ometeotl HP:324/324 MP:315/315
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:527/527
+B-
+C-Loki HP:319/319 MP:380/380
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Loki
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:795/971 MP:527/527
+B-Xi Wangmu HP:394/418 MP:405/405
+C-Kwancha HP:160/160 MP:136/154
+D-Ometeotl HP:324/324 MP:315/315
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:527/527
+B-
+C-Loki HP:319/319 MP:380/380
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Loki
+2-Flynn
+----------------------------------------
+Seleccione una acción para Loki
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Loki
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Loki
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:795/971 MP:527/527
+B-Xi Wangmu HP:394/418 MP:405/405
+C-Kwancha HP:160/160 MP:136/154
+D-Ometeotl HP:324/324 MP:315/315
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:527/527
+B-
+C-Loki HP:319/319 MP:380/380
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Loki
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:795/971 MP:527/527
+B-Xi Wangmu HP:394/418 MP:405/405
+C-Kwancha HP:160/160 MP:136/154
+D-Ometeotl HP:324/324 MP:315/315
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:527/527
+B-
+C-Loki HP:319/319 MP:380/380
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Loki
+2-Flynn
+----------------------------------------
+Seleccione una acción para Loki
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Loki
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:795/971 MP:527/527
+B-Xi Wangmu HP:394/418 MP:405/405
+C-Kwancha HP:160/160 MP:136/154
+D-Ometeotl HP:324/324 MP:315/315
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:527/527
+B-
+C-Loki HP:319/319 MP:380/380
+D-
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Xi Wangmu
+3-Ometeotl
+4-Kwancha
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Flynn HP:971/971 MP:527/527
+2-Loki HP:319/319 MP:380/380
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Flynn dispara a Flynn
+Flynn absorbe 110 daño
+Flynn termina con HP:971/971
+----------------------------------------
+Se han consumido 4 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:795/971 MP:527/527
+B-Xi Wangmu HP:394/418 MP:405/405
+C-Kwancha HP:160/160 MP:136/154
+D-Ometeotl HP:324/324 MP:315/315
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:527/527
+B-
+C-Loki HP:319/319 MP:380/380
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Loki
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Flynn HP:795/971 MP:527/527
+2-Xi Wangmu HP:394/418 MP:405/405
+3-Kwancha HP:160/160 MP:136/154
+4-Ometeotl HP:324/324 MP:315/315
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Flynn dispara a Xi Wangmu
+Xi Wangmu recibe 110 de daño
+Xi Wangmu termina con HP:284/418
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:795/971 MP:527/527
+B-Xi Wangmu HP:284/418 MP:405/405
+C-Kwancha HP:160/160 MP:136/154
+D-Ometeotl HP:324/324 MP:315/315
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:527/527
+B-
+C-Loki HP:319/319 MP:380/380
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Loki
+2-Flynn
+----------------------------------------
+Seleccione una acción para Loki
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Loki
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Loki use
+1-Pulinpa MP:5
+2-Mabufudyne MP:32
+3-Taunt MP:20
+4-Dekunda MP:10
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Los debuffs de Flynn han desaparecido
+Los debuffs de Loki han desaparecido
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:795/971 MP:527/527
+B-Xi Wangmu HP:284/418 MP:405/405
+C-Kwancha HP:160/160 MP:136/154
+D-Ometeotl HP:324/324 MP:315/315
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:527/527
+B-
+C-Loki HP:319/319 MP:370/380
+D-
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Xi Wangmu
+3-Ometeotl
+4-Kwancha
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:795/971 MP:527/527
+B-Xi Wangmu HP:284/418 MP:405/405
+C-Kwancha HP:160/160 MP:136/154
+D-Ometeotl HP:324/324 MP:315/315
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:527/527
+B-
+C-Loki HP:319/319 MP:370/380
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Xi Wangmu
+2-Ometeotl
+3-Kwancha
+4-Flynn
+----------------------------------------
+Seleccione una acción para Xi Wangmu
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Xi Wangmu use
+1-Makarakarn MP:50
+2-Myriad Arrows MP:30
+3-Invitation MP:45
+4-Megaton Press MP:17
+5-Doping MP:45
+6-Cancelar
+INPUT: 1
+----------------------------------------
+Flynn devolverá ataques mágicos por una ronda
+Kwancha devolverá ataques mágicos por una ronda
+Ometeotl devolverá ataques mágicos por una ronda
+Xi Wangmu devolverá ataques mágicos por una ronda
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:795/971 MP:527/527
+B-Xi Wangmu HP:284/418 MP:355/405
+C-Kwancha HP:160/160 MP:136/154
+D-Ometeotl HP:324/324 MP:315/315
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:527/527
+B-
+C-Loki HP:319/319 MP:370/380
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Ometeotl
+2-Kwancha
+3-Flynn
+4-Xi Wangmu
+----------------------------------------
+Seleccione una acción para Ometeotl
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Koppa Tengu HP:196/196 MP:88/88
+2-Thoth HP:188/188 MP:199/199
+3-Camazotz HP:92/180 MP:35/35
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Koppa Tengu ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:795/971 MP:527/527
+B-Xi Wangmu HP:284/418 MP:355/405
+C-Kwancha HP:160/160 MP:136/154
+D-Koppa Tengu HP:196/196 MP:88/88
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:527/527
+B-
+C-Loki HP:319/319 MP:370/380
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Kwancha
+2-Flynn
+3-Xi Wangmu
+4-Koppa Tengu
+----------------------------------------
+Seleccione una acción para Kwancha
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Kwancha use
+1-Tetanus Cut MP:11
+2-Posumudi MP:5
+3-Pandemic Bomb MP:11
+4-Mahama MP:18
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Kwancha
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Kwancha use
+1-Tetanus Cut MP:11
+2-Posumudi MP:5
+3-Pandemic Bomb MP:11
+4-Mahama MP:18
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Kwancha
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Kwancha use
+1-Tetanus Cut MP:11
+2-Posumudi MP:5
+3-Pandemic Bomb MP:11
+4-Mahama MP:18
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Kwancha ataca con luz a Flynn
+Flynn bloquea el ataque de Kwancha
+Flynn termina con HP:971/971
+Kwancha ataca con luz a Loki
+Kwancha ha fallado el ataque
+Loki termina con HP:319/319
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:795/971 MP:527/527
+B-Xi Wangmu HP:284/418 MP:355/405
+C-Kwancha HP:160/160 MP:118/154
+D-Koppa Tengu HP:196/196 MP:88/88
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:527/527
+B-
+C-Loki HP:319/319 MP:370/380
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Xi Wangmu
+3-Koppa Tengu
+4-Kwancha
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Thoth HP:188/188 MP:199/199
+2-Camazotz HP:92/180 MP:35/35
+3-Ometeotl HP:324/324 MP:315/315
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Flynn HP:971/971 MP:527/527
+2-Loki HP:319/319 MP:370/380
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Flynn ataca a Flynn
+Flynn recibe 88 de daño
+Flynn termina con HP:883/971
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:795/971 MP:527/527
+B-Xi Wangmu HP:284/418 MP:355/405
+C-Kwancha HP:160/160 MP:118/154
+D-Koppa Tengu HP:196/196 MP:88/88
+Equipo de Flynn (J2)
+A-Flynn HP:883/971 MP:527/527
+B-
+C-Loki HP:319/319 MP:370/380
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Loki
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:795/971 MP:527/527
+B-Xi Wangmu HP:284/418 MP:355/405
+C-Kwancha HP:160/160 MP:118/154
+D-Koppa Tengu HP:196/196 MP:88/88
+Equipo de Flynn (J2)
+A-Flynn HP:883/971 MP:527/527
+B-
+C-Loki HP:319/319 MP:370/380
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Loki
+2-Flynn
+----------------------------------------
+Seleccione una acción para Loki
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Loki
+1-Flynn HP:795/971 MP:527/527
+2-Xi Wangmu HP:284/418 MP:355/405
+3-Kwancha HP:160/160 MP:118/154
+4-Koppa Tengu HP:196/196 MP:88/88
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Loki ataca a Flynn
+Flynn recibe 33 de daño
+Flynn termina con HP:762/971
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:762/971 MP:527/527
+B-Xi Wangmu HP:284/418 MP:355/405
+C-Kwancha HP:160/160 MP:118/154
+D-Koppa Tengu HP:196/196 MP:88/88
+Equipo de Flynn (J2)
+A-Flynn HP:883/971 MP:527/527
+B-
+C-Loki HP:319/319 MP:370/380
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Loki
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Flynn HP:762/971 MP:527/527
+2-Xi Wangmu HP:284/418 MP:355/405
+3-Kwancha HP:160/160 MP:118/154
+4-Koppa Tengu HP:196/196 MP:88/88
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Flynn dispara a Flynn
+Flynn recibe 110 de daño
+Flynn termina con HP:652/971
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:652/971 MP:527/527
+B-Xi Wangmu HP:284/418 MP:355/405
+C-Kwancha HP:160/160 MP:118/154
+D-Koppa Tengu HP:196/196 MP:88/88
+Equipo de Flynn (J2)
+A-Flynn HP:883/971 MP:527/527
+B-
+C-Loki HP:319/319 MP:370/380
+D-
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Xi Wangmu
+3-Koppa Tengu
+4-Kwancha
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Flynn HP:883/971 MP:527/527
+2-Loki HP:319/319 MP:370/380
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Flynn ataca a Loki
+Loki recibe 88 de daño
+Loki termina con HP:231/319
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:652/971 MP:527/527
+B-Xi Wangmu HP:284/418 MP:355/405
+C-Kwancha HP:160/160 MP:118/154
+D-Koppa Tengu HP:196/196 MP:88/88
+Equipo de Flynn (J2)
+A-Flynn HP:883/971 MP:527/527
+B-
+C-Loki HP:231/319 MP:370/380
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Xi Wangmu
+2-Koppa Tengu
+3-Kwancha
+4-Flynn
+----------------------------------------
+Seleccione una acción para Xi Wangmu
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Thoth HP:188/188 MP:199/199
+2-Camazotz HP:92/180 MP:35/35
+3-Ometeotl HP:324/324 MP:315/315
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Camazotz ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:652/971 MP:527/527
+B-Camazotz HP:92/180 MP:35/35
+C-Kwancha HP:160/160 MP:118/154
+D-Koppa Tengu HP:196/196 MP:88/88
+Equipo de Flynn (J2)
+A-Flynn HP:883/971 MP:527/527
+B-
+C-Loki HP:231/319 MP:370/380
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Koppa Tengu
+2-Kwancha
+3-Flynn
+4-Camazotz
+----------------------------------------
+Seleccione una acción para Koppa Tengu
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Thoth HP:188/188 MP:199/199
+2-Xi Wangmu HP:284/418 MP:355/405
+3-Ometeotl HP:324/324 MP:315/315
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Ometeotl ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:652/971 MP:527/527
+B-Camazotz HP:92/180 MP:35/35
+C-Kwancha HP:160/160 MP:118/154
+D-Ometeotl HP:324/324 MP:315/315
+Equipo de Flynn (J2)
+A-Flynn HP:883/971 MP:527/527
+B-
+C-Loki HP:231/319 MP:370/380
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kwancha
+2-Flynn
+3-Camazotz
+4-Ometeotl
+----------------------------------------
+Seleccione una acción para Kwancha
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Kwancha
+1-Flynn HP:883/971 MP:527/527
+2-Loki HP:231/319 MP:370/380
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Kwancha ataca a Loki
+Loki recibe 16 de daño
+Loki termina con HP:215/319
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:652/971 MP:527/527
+B-Camazotz HP:92/180 MP:35/35
+C-Kwancha HP:160/160 MP:118/154
+D-Ometeotl HP:324/324 MP:315/315
+Equipo de Flynn (J2)
+A-Flynn HP:883/971 MP:527/527
+B-
+C-Loki HP:215/319 MP:370/380
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Camazotz
+3-Ometeotl
+4-Kwancha
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Flynn HP:883/971 MP:527/527
+2-Loki HP:215/319 MP:370/380
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Flynn ataca a Loki
+Loki recibe 88 de daño
+Loki termina con HP:127/319
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:652/971 MP:527/527
+B-Camazotz HP:92/180 MP:35/35
+C-Kwancha HP:160/160 MP:118/154
+D-Ometeotl HP:324/324 MP:315/315
+Equipo de Flynn (J2)
+A-Flynn HP:883/971 MP:527/527
+B-
+C-Loki HP:127/319 MP:370/380
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Loki
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Flynn use
+1-Hamaon MP:10
+2-Diarama MP:9
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Flynn HP:883/971 MP:527/527
+2-Loki HP:127/319 MP:370/380
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:652/971 MP:527/527
+B-Camazotz HP:92/180 MP:35/35
+C-Kwancha HP:160/160 MP:118/154
+D-Ometeotl HP:324/324 MP:315/315
+Equipo de Flynn (J2)
+A-Flynn HP:883/971 MP:527/527
+B-
+C-Loki HP:127/319 MP:370/380
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Loki
+2-Flynn
+----------------------------------------
+Seleccione una acción para Loki
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:652/971 MP:527/527
+B-Camazotz HP:92/180 MP:35/35
+C-Kwancha HP:160/160 MP:118/154
+D-Ometeotl HP:324/324 MP:315/315
+Equipo de Flynn (J2)
+A-Flynn HP:883/971 MP:527/527
+B-
+C-Loki HP:127/319 MP:370/380
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Loki
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Flynn HP:652/971 MP:527/527
+2-Camazotz HP:92/180 MP:35/35
+3-Kwancha HP:160/160 MP:118/154
+4-Ometeotl HP:324/324 MP:315/315
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Flynn ataca a Camazotz
+Camazotz recibe 88 de daño
+Camazotz termina con HP:4/180
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:652/971 MP:527/527
+B-Camazotz HP:4/180 MP:35/35
+C-Kwancha HP:160/160 MP:118/154
+D-Ometeotl HP:324/324 MP:315/315
+Equipo de Flynn (J2)
+A-Flynn HP:883/971 MP:527/527
+B-
+C-Loki HP:127/319 MP:370/380
+D-
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Ometeotl
+3-Kwancha
+4-Camazotz
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Flynn HP:883/971 MP:527/527
+2-Loki HP:127/319 MP:370/380
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Flynn ataca a Loki
+Loki recibe 88 de daño
+Loki termina con HP:39/319
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:652/971 MP:527/527
+B-Camazotz HP:4/180 MP:35/35
+C-Kwancha HP:160/160 MP:118/154
+D-Ometeotl HP:324/324 MP:315/315
+Equipo de Flynn (J2)
+A-Flynn HP:883/971 MP:527/527
+B-
+C-Loki HP:39/319 MP:370/380
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Ometeotl
+2-Kwancha
+3-Camazotz
+4-Flynn
+----------------------------------------
+Seleccione una acción para Ometeotl
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Koppa Tengu HP:196/196 MP:88/88
+2-Thoth HP:188/188 MP:199/199
+3-Xi Wangmu HP:284/418 MP:355/405
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Thoth ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:652/971 MP:527/527
+B-Camazotz HP:4/180 MP:35/35
+C-Kwancha HP:160/160 MP:118/154
+D-Thoth HP:188/188 MP:199/199
+Equipo de Flynn (J2)
+A-Flynn HP:883/971 MP:527/527
+B-
+C-Loki HP:39/319 MP:370/380
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Kwancha
+2-Camazotz
+3-Flynn
+4-Thoth
+----------------------------------------
+Seleccione una acción para Kwancha
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Kwancha use
+1-Tetanus Cut MP:11
+2-Posumudi MP:5
+3-Pandemic Bomb MP:11
+4-Mahama MP:18
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Kwancha
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Kwancha use
+1-Tetanus Cut MP:11
+2-Posumudi MP:5
+3-Pandemic Bomb MP:11
+4-Mahama MP:18
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Kwancha
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Kwancha
+1-Flynn HP:883/971 MP:527/527
+2-Loki HP:39/319 MP:370/380
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Kwancha ataca a Loki
+Loki recibe 16 de daño
+Loki termina con HP:23/319
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:652/971 MP:527/527
+B-Camazotz HP:4/180 MP:35/35
+C-Kwancha HP:160/160 MP:118/154
+D-Thoth HP:188/188 MP:199/199
+Equipo de Flynn (J2)
+A-Flynn HP:883/971 MP:527/527
+B-
+C-Loki HP:23/319 MP:370/380
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Camazotz
+2-Flynn
+3-Thoth
+4-Kwancha
+----------------------------------------
+Seleccione una acción para Camazotz
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:652/971 MP:527/527
+B-Camazotz HP:4/180 MP:35/35
+C-Kwancha HP:160/160 MP:118/154
+D-Thoth HP:188/188 MP:199/199
+Equipo de Flynn (J2)
+A-Flynn HP:883/971 MP:527/527
+B-
+C-Loki HP:23/319 MP:370/380
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Flynn
+2-Thoth
+3-Kwancha
+4-Camazotz
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Flynn use
+1-Grand Tack MP:11
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Flynn use
+1-Grand Tack MP:11
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Flynn HP:883/971 MP:527/527
+2-Loki HP:23/319 MP:370/380
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Flynn dispara a Flynn
+Flynn absorbe 165 daño
+Flynn termina con HP:971/971
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:652/971 MP:516/527
+B-Camazotz HP:4/180 MP:35/35
+C-Kwancha HP:160/160 MP:118/154
+D-Thoth HP:188/188 MP:199/199
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:527/527
+B-
+C-Loki HP:23/319 MP:370/380
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Loki
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Flynn HP:652/971 MP:516/527
+2-Camazotz HP:4/180 MP:35/35
+3-Kwancha HP:160/160 MP:118/154
+4-Thoth HP:188/188 MP:199/199
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Flynn ataca a Camazotz
+Camazotz recibe 88 de daño
+Camazotz termina con HP:0/180
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:652/971 MP:516/527
+B-
+C-Kwancha HP:160/160 MP:118/154
+D-Thoth HP:188/188 MP:199/199
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:527/527
+B-
+C-Loki HP:23/319 MP:370/380
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Loki
+2-Flynn
+----------------------------------------
+Seleccione una acción para Loki
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Loki
+1-Flynn HP:652/971 MP:516/527
+2-Kwancha HP:160/160 MP:118/154
+3-Thoth HP:188/188 MP:199/199
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Loki ataca a Flynn
+Flynn recibe 33 de daño
+Flynn termina con HP:619/971
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:619/971 MP:516/527
+B-
+C-Kwancha HP:160/160 MP:118/154
+D-Thoth HP:188/188 MP:199/199
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:527/527
+B-
+C-Loki HP:23/319 MP:370/380
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Thoth
+3-Kwancha
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Koppa Tengu HP:196/196 MP:88/88
+2-Xi Wangmu HP:284/418 MP:355/405
+3-Ometeotl HP:324/324 MP:315/315
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una posición para invocar
+1-Vacío (Puesto 2)
+2-Kwancha HP:160/160 MP:118/154 (Puesto 3)
+3-Thoth HP:188/188 MP:199/199 (Puesto 4)
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Koppa Tengu HP:196/196 MP:88/88
+2-Xi Wangmu HP:284/418 MP:355/405
+3-Ometeotl HP:324/324 MP:315/315
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una posición para invocar
+1-Vacío (Puesto 2)
+2-Kwancha HP:160/160 MP:118/154 (Puesto 3)
+3-Thoth HP:188/188 MP:199/199 (Puesto 4)
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Ometeotl ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:619/971 MP:516/527
+B-
+C-Ometeotl HP:324/324 MP:315/315
+D-Thoth HP:188/188 MP:199/199
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:527/527
+B-
+C-Loki HP:23/319 MP:370/380
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Thoth
+2-Ometeotl
+3-Flynn
+----------------------------------------
+Seleccione una acción para Thoth
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:619/971 MP:516/527
+B-
+C-Ometeotl HP:324/324 MP:315/315
+D-Thoth HP:188/188 MP:199/199
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:527/527
+B-
+C-Loki HP:23/319 MP:370/380
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Ometeotl
+2-Flynn
+3-Thoth
+----------------------------------------
+Seleccione una acción para Ometeotl
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Koppa Tengu HP:196/196 MP:88/88
+2-Kwancha HP:160/160 MP:118/154
+3-Xi Wangmu HP:284/418 MP:355/405
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Kwancha ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:619/971 MP:516/527
+B-
+C-Kwancha HP:160/160 MP:118/154
+D-Thoth HP:188/188 MP:199/199
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:527/527
+B-
+C-Loki HP:23/319 MP:370/380
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Flynn
+2-Thoth
+3-Kwancha
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Flynn use
+1-Grand Tack MP:11
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Flynn HP:971/971 MP:527/527
+2-Loki HP:23/319 MP:370/380
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Flynn dispara a Loki
+Loki bloquea el ataque de Flynn
+Loki termina con HP:23/319
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:619/971 MP:516/527
+B-
+C-Kwancha HP:160/160 MP:118/154
+D-Thoth HP:188/188 MP:199/199
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:527/527
+B-
+C-Loki HP:23/319 MP:370/380
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Loki
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Flynn HP:619/971 MP:516/527
+2-Kwancha HP:160/160 MP:118/154
+3-Thoth HP:188/188 MP:199/199
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Flynn dispara a Thoth
+Thoth es débil contra el ataque de Flynn
+Thoth recibe 165 de daño
+Thoth termina con HP:23/188
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:619/971 MP:516/527
+B-
+C-Kwancha HP:160/160 MP:118/154
+D-Thoth HP:23/188 MP:199/199
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:527/527
+B-
+C-Loki HP:23/319 MP:370/380
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Loki
+2-Flynn
+----------------------------------------
+Seleccione una acción para Loki
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Loki
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Loki
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Loki
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Loki use
+1-Pulinpa MP:5
+2-Mabufudyne MP:32
+3-Taunt MP:20
+4-Dekunda MP:10
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Loki
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Loki
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Loki use
+1-Pulinpa MP:5
+2-Mabufudyne MP:32
+3-Taunt MP:20
+4-Dekunda MP:10
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Loki
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Loki
+1-Flynn HP:619/971 MP:516/527
+2-Kwancha HP:160/160 MP:118/154
+3-Thoth HP:23/188 MP:199/199
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Loki ataca a Kwancha
+Kwancha recibe 33 de daño
+Kwancha termina con HP:127/160
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:619/971 MP:516/527
+B-
+C-Kwancha HP:127/160 MP:118/154
+D-Thoth HP:23/188 MP:199/199
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:527/527
+B-
+C-Loki HP:23/319 MP:370/380
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Loki
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:619/971 MP:516/527
+B-
+C-Kwancha HP:127/160 MP:118/154
+D-Thoth HP:23/188 MP:199/199
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:527/527
+B-
+C-Loki HP:23/319 MP:370/380
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Loki
+2-Flynn
+----------------------------------------
+Seleccione una acción para Loki
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Loki use
+1-Pulinpa MP:5
+2-Mabufudyne MP:32
+3-Taunt MP:20
+4-Dekunda MP:10
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Loki
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Loki
+1-Flynn HP:619/971 MP:516/527
+2-Kwancha HP:127/160 MP:118/154
+3-Thoth HP:23/188 MP:199/199
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Loki
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Loki
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Loki use
+1-Pulinpa MP:5
+2-Mabufudyne MP:32
+3-Taunt MP:20
+4-Dekunda MP:10
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Loki
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Loki
+1-Flynn HP:619/971 MP:516/527
+2-Kwancha HP:127/160 MP:118/154
+3-Thoth HP:23/188 MP:199/199
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Loki
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Loki
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Loki use
+1-Pulinpa MP:5
+2-Mabufudyne MP:32
+3-Taunt MP:20
+4-Dekunda MP:10
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Loki
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:619/971 MP:516/527
+B-
+C-Kwancha HP:127/160 MP:118/154
+D-Thoth HP:23/188 MP:199/199
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:527/527
+B-
+C-Loki HP:23/319 MP:370/380
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Thoth
+3-Kwancha
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Flynn HP:971/971 MP:527/527
+2-Loki HP:23/319 MP:370/380
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Flynn ataca a Flynn
+Flynn recibe 88 de daño
+Flynn termina con HP:883/971
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:619/971 MP:516/527
+B-
+C-Kwancha HP:127/160 MP:118/154
+D-Thoth HP:23/188 MP:199/199
+Equipo de Flynn (J2)
+A-Flynn HP:883/971 MP:527/527
+B-
+C-Loki HP:23/319 MP:370/380
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Thoth
+2-Kwancha
+3-Flynn
+----------------------------------------
+Seleccione una acción para Thoth
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:619/971 MP:516/527
+B-
+C-Kwancha HP:127/160 MP:118/154
+D-Thoth HP:23/188 MP:199/199
+Equipo de Flynn (J2)
+A-Flynn HP:883/971 MP:527/527
+B-
+C-Loki HP:23/319 MP:370/380
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Kwancha
+2-Flynn
+3-Thoth
+----------------------------------------
+Seleccione una acción para Kwancha
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Kwancha
+1-Flynn HP:883/971 MP:527/527
+2-Loki HP:23/319 MP:370/380
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Kwancha ataca a Loki
+Loki recibe 16 de daño
+Loki termina con HP:7/319
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:619/971 MP:516/527
+B-
+C-Kwancha HP:127/160 MP:118/154
+D-Thoth HP:23/188 MP:199/199
+Equipo de Flynn (J2)
+A-Flynn HP:883/971 MP:527/527
+B-
+C-Loki HP:7/319 MP:370/380
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Thoth
+3-Kwancha
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:619/971 MP:516/527
+B-
+C-Kwancha HP:127/160 MP:118/154
+D-Thoth HP:23/188 MP:199/199
+Equipo de Flynn (J2)
+A-Flynn HP:883/971 MP:527/527
+B-
+C-Loki HP:7/319 MP:370/380
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Thoth
+2-Kwancha
+3-Flynn
+----------------------------------------
+Seleccione una acción para Thoth
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:619/971 MP:516/527
+B-
+C-Kwancha HP:127/160 MP:118/154
+D-Thoth HP:23/188 MP:199/199
+Equipo de Flynn (J2)
+A-Flynn HP:883/971 MP:527/527
+B-
+C-Loki HP:7/319 MP:370/380
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Loki
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Flynn use
+1-Hamaon MP:10
+2-Diarama MP:9
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Flynn HP:883/971 MP:527/527
+2-Loki HP:7/319 MP:370/380
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Flynn cura a Loki
+Loki recibe 159 de HP
+Loki termina con HP:166/319
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:619/971 MP:516/527
+B-
+C-Kwancha HP:127/160 MP:118/154
+D-Thoth HP:23/188 MP:199/199
+Equipo de Flynn (J2)
+A-Flynn HP:883/971 MP:518/527
+B-
+C-Loki HP:166/319 MP:370/380
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Loki
+2-Flynn
+----------------------------------------
+Seleccione una acción para Loki
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Loki
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Loki
+1-Flynn HP:619/971 MP:516/527
+2-Kwancha HP:127/160 MP:118/154
+3-Thoth HP:23/188 MP:199/199
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Loki ataca a Kwancha
+Kwancha recibe 33 de daño
+Kwancha termina con HP:94/160
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:619/971 MP:516/527
+B-
+C-Kwancha HP:94/160 MP:118/154
+D-Thoth HP:23/188 MP:199/199
+Equipo de Flynn (J2)
+A-Flynn HP:883/971 MP:518/527
+B-
+C-Loki HP:166/319 MP:370/380
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Thoth
+3-Kwancha
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:619/971 MP:516/527
+B-
+C-Kwancha HP:94/160 MP:118/154
+D-Thoth HP:23/188 MP:199/199
+Equipo de Flynn (J2)
+A-Flynn HP:883/971 MP:518/527
+B-
+C-Loki HP:166/319 MP:370/380
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Thoth
+2-Kwancha
+3-Flynn
+----------------------------------------
+Seleccione una acción para Thoth
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Thoth use
+1-Megido MP:25
+2-Doping MP:45
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Thoth
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Thoth
+1-Flynn HP:883/971 MP:518/527
+2-Loki HP:166/319 MP:370/380
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Thoth
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Thoth
+1-Flynn HP:883/971 MP:518/527
+2-Loki HP:166/319 MP:370/380
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Thoth ataca a Flynn
+Flynn recibe 19 de daño
+Flynn termina con HP:864/971
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:619/971 MP:516/527
+B-
+C-Kwancha HP:94/160 MP:118/154
+D-Thoth HP:23/188 MP:199/199
+Equipo de Flynn (J2)
+A-Flynn HP:864/971 MP:518/527
+B-
+C-Loki HP:166/319 MP:370/380
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kwancha
+2-Flynn
+3-Thoth
+----------------------------------------
+Seleccione una acción para Kwancha
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Kwancha
+1-Flynn HP:864/971 MP:518/527
+2-Loki HP:166/319 MP:370/380
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Kwancha ataca a Flynn
+Flynn recibe 16 de daño
+Flynn termina con HP:848/971
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:619/971 MP:516/527
+B-
+C-Kwancha HP:94/160 MP:118/154
+D-Thoth HP:23/188 MP:199/199
+Equipo de Flynn (J2)
+A-Flynn HP:848/971 MP:518/527
+B-
+C-Loki HP:166/319 MP:370/380
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Thoth
+3-Kwancha
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Flynn HP:848/971 MP:518/527
+2-Loki HP:166/319 MP:370/380
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Flynn dispara a Loki
+Loki bloquea el ataque de Flynn
+Loki termina con HP:166/319
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:619/971 MP:516/527
+B-
+C-Kwancha HP:94/160 MP:118/154
+D-Thoth HP:23/188 MP:199/199
+Equipo de Flynn (J2)
+A-Flynn HP:848/971 MP:518/527
+B-
+C-Loki HP:166/319 MP:370/380
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Loki
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:619/971 MP:516/527
+B-
+C-Kwancha HP:94/160 MP:118/154
+D-Thoth HP:23/188 MP:199/199
+Equipo de Flynn (J2)
+A-Flynn HP:848/971 MP:518/527
+B-
+C-Loki HP:166/319 MP:370/380
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Loki
+2-Flynn
+----------------------------------------
+Seleccione una acción para Loki
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Loki use
+1-Pulinpa MP:5
+2-Mabufudyne MP:32
+3-Taunt MP:20
+4-Dekunda MP:10
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Los debuffs de Flynn han desaparecido
+Los debuffs de Loki han desaparecido
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:619/971 MP:516/527
+B-
+C-Kwancha HP:94/160 MP:118/154
+D-Thoth HP:23/188 MP:199/199
+Equipo de Flynn (J2)
+A-Flynn HP:848/971 MP:518/527
+B-
+C-Loki HP:166/319 MP:360/380
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Loki
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Flynn use
+1-Hamaon MP:10
+2-Diarama MP:9
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Flynn HP:619/971 MP:516/527
+2-Kwancha HP:94/160 MP:118/154
+3-Thoth HP:23/188 MP:199/199
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Flynn use
+1-Hamaon MP:10
+2-Diarama MP:9
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Flynn HP:848/971 MP:518/527
+2-Loki HP:166/319 MP:360/380
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Flynn cura a Loki
+Loki recibe 159 de HP
+Loki termina con HP:319/319
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:619/971 MP:516/527
+B-
+C-Kwancha HP:94/160 MP:118/154
+D-Thoth HP:23/188 MP:199/199
+Equipo de Flynn (J2)
+A-Flynn HP:848/971 MP:509/527
+B-
+C-Loki HP:319/319 MP:360/380
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Thoth
+3-Kwancha
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:619/971 MP:516/527
+B-
+C-Kwancha HP:94/160 MP:118/154
+D-Thoth HP:23/188 MP:199/199
+Equipo de Flynn (J2)
+A-Flynn HP:848/971 MP:509/527
+B-
+C-Loki HP:319/319 MP:360/380
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Thoth
+2-Kwancha
+3-Flynn
+----------------------------------------
+Seleccione una acción para Thoth
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Thoth use
+1-Megido MP:25
+2-Doping MP:45
+3-Cancelar
+INPUT: 2
+----------------------------------------
+El HP máximo de Flynn ha aumentado en 291
+Flynn termina con HP:619/1262
+El HP máximo de Kwancha ha aumentado en 48
+Kwancha termina con HP:94/208
+El HP máximo de Thoth ha aumentado en 56
+Thoth termina con HP:23/244
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:619/1262 MP:516/527
+B-
+C-Kwancha HP:94/208 MP:118/154
+D-Thoth HP:23/244 MP:154/199
+Equipo de Flynn (J2)
+A-Flynn HP:848/971 MP:509/527
+B-
+C-Loki HP:319/319 MP:360/380
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kwancha
+2-Flynn
+3-Thoth
+----------------------------------------
+Seleccione una acción para Kwancha
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Koppa Tengu HP:196/196 MP:88/88
+2-Xi Wangmu HP:284/418 MP:355/405
+3-Ometeotl HP:324/324 MP:315/315
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Koppa Tengu ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:619/1262 MP:516/527
+B-
+C-Koppa Tengu HP:196/196 MP:88/88
+D-Thoth HP:23/244 MP:154/199
+Equipo de Flynn (J2)
+A-Flynn HP:848/971 MP:509/527
+B-
+C-Loki HP:319/319 MP:360/380
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Flynn
+2-Thoth
+3-Koppa Tengu
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Flynn use
+1-Grand Tack MP:11
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Flynn HP:848/971 MP:509/527
+2-Loki HP:319/319 MP:360/380
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:619/1262 MP:516/527
+B-
+C-Koppa Tengu HP:196/196 MP:88/88
+D-Thoth HP:23/244 MP:154/199
+Equipo de Flynn (J2)
+A-Flynn HP:848/971 MP:509/527
+B-
+C-Loki HP:319/319 MP:360/380
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Thoth
+2-Koppa Tengu
+3-Flynn
+----------------------------------------
+Seleccione una acción para Thoth
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Kwancha HP:94/208 MP:118/154
+2-Xi Wangmu HP:284/418 MP:355/405
+3-Ometeotl HP:324/324 MP:315/315
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Ometeotl ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:619/1262 MP:516/527
+B-
+C-Koppa Tengu HP:196/196 MP:88/88
+D-Ometeotl HP:324/324 MP:315/315
+Equipo de Flynn (J2)
+A-Flynn HP:848/971 MP:509/527
+B-
+C-Loki HP:319/319 MP:360/380
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Koppa Tengu
+2-Flynn
+3-Ometeotl
+----------------------------------------
+Seleccione una acción para Koppa Tengu
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Koppa Tengu use
+1-Zanma MP:8
+2-Bad Company MP:15
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una posición para invocar
+1-Vacío (Puesto 2)
+2-Koppa Tengu HP:196/196 MP:88/88 (Puesto 3)
+3-Ometeotl HP:324/324 MP:315/315 (Puesto 4)
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Xi Wangmu ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:619/1262 MP:516/527
+B-Xi Wangmu HP:284/418 MP:355/405
+C-Koppa Tengu HP:196/196 MP:73/88
+D-Ometeotl HP:324/324 MP:315/315
+Equipo de Flynn (J2)
+A-Flynn HP:848/971 MP:509/527
+B-
+C-Loki HP:319/319 MP:360/380
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Loki
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Flynn HP:619/1262 MP:516/527
+2-Xi Wangmu HP:284/418 MP:355/405
+3-Koppa Tengu HP:196/196 MP:73/88
+4-Ometeotl HP:324/324 MP:315/315
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Flynn ataca a Ometeotl
+Ometeotl recibe 88 de daño
+Ometeotl termina con HP:236/324
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:619/1262 MP:516/527
+B-Xi Wangmu HP:284/418 MP:355/405
+C-Koppa Tengu HP:196/196 MP:73/88
+D-Ometeotl HP:236/324 MP:315/315
+Equipo de Flynn (J2)
+A-Flynn HP:848/971 MP:509/527
+B-
+C-Loki HP:319/319 MP:360/380
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Loki
+2-Flynn
+----------------------------------------
+Seleccione una acción para Loki
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Loki use
+1-Pulinpa MP:5
+2-Mabufudyne MP:32
+3-Taunt MP:20
+4-Dekunda MP:10
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Loki lanza hielo a Flynn
+Flynn recibe 120 de daño
+Flynn termina con HP:499/1262
+Loki lanza hielo a Xi Wangmu
+Xi Wangmu recibe 120 de daño
+Xi Wangmu termina con HP:164/418
+Loki lanza hielo a Koppa Tengu
+Koppa Tengu recibe 120 de daño
+Koppa Tengu termina con HP:76/196
+Loki lanza hielo a Ometeotl
+Ometeotl es resistente el ataque de Loki
+Ometeotl recibe 60 de daño
+Ometeotl termina con HP:176/324
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:499/1262 MP:516/527
+B-Xi Wangmu HP:164/418 MP:355/405
+C-Koppa Tengu HP:76/196 MP:73/88
+D-Ometeotl HP:176/324 MP:315/315
+Equipo de Flynn (J2)
+A-Flynn HP:848/971 MP:509/527
+B-
+C-Loki HP:319/319 MP:328/380
+D-
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Xi Wangmu
+3-Ometeotl
+4-Koppa Tengu
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Flynn use
+1-Grand Tack MP:11
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Flynn HP:848/971 MP:509/527
+2-Loki HP:319/319 MP:328/380
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Flynn dispara a Flynn
+Flynn absorbe 165 daño
+Flynn termina con HP:971/971
+----------------------------------------
+Se han consumido 4 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:499/1262 MP:505/527
+B-Xi Wangmu HP:164/418 MP:355/405
+C-Koppa Tengu HP:76/196 MP:73/88
+D-Ometeotl HP:176/324 MP:315/315
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:509/527
+B-
+C-Loki HP:319/319 MP:328/380
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Loki
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Flynn HP:499/1262 MP:505/527
+2-Xi Wangmu HP:164/418 MP:355/405
+3-Koppa Tengu HP:76/196 MP:73/88
+4-Ometeotl HP:176/324 MP:315/315
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Flynn dispara a Ometeotl
+Ometeotl recibe 110 de daño
+Ometeotl termina con HP:66/324
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:499/1262 MP:505/527
+B-Xi Wangmu HP:164/418 MP:355/405
+C-Koppa Tengu HP:76/196 MP:73/88
+D-Ometeotl HP:66/324 MP:315/315
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:509/527
+B-
+C-Loki HP:319/319 MP:328/380
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Loki
+2-Flynn
+----------------------------------------
+Seleccione una acción para Loki
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Loki
+1-Flynn HP:499/1262 MP:505/527
+2-Xi Wangmu HP:164/418 MP:355/405
+3-Koppa Tengu HP:76/196 MP:73/88
+4-Ometeotl HP:66/324 MP:315/315
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Loki ataca a Ometeotl
+Ometeotl recibe 33 de daño
+Ometeotl termina con HP:33/324
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:499/1262 MP:505/527
+B-Xi Wangmu HP:164/418 MP:355/405
+C-Koppa Tengu HP:76/196 MP:73/88
+D-Ometeotl HP:33/324 MP:315/315
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:509/527
+B-
+C-Loki HP:319/319 MP:328/380
+D-
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Xi Wangmu
+3-Ometeotl
+4-Koppa Tengu
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Flynn use
+1-Grand Tack MP:11
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Flynn HP:971/971 MP:509/527
+2-Loki HP:319/319 MP:328/380
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Flynn dispara a Loki
+Loki bloquea el ataque de Flynn
+Loki termina con HP:319/319
+----------------------------------------
+Se han consumido 2 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:499/1262 MP:505/527
+B-Xi Wangmu HP:164/418 MP:355/405
+C-Koppa Tengu HP:76/196 MP:73/88
+D-Ometeotl HP:33/324 MP:315/315
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:509/527
+B-
+C-Loki HP:319/319 MP:328/380
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Xi Wangmu
+2-Ometeotl
+3-Koppa Tengu
+4-Flynn
+----------------------------------------
+Seleccione una acción para Xi Wangmu
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:499/1262 MP:505/527
+B-Xi Wangmu HP:164/418 MP:355/405
+C-Koppa Tengu HP:76/196 MP:73/88
+D-Ometeotl HP:33/324 MP:315/315
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:509/527
+B-
+C-Loki HP:319/319 MP:328/380
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Ometeotl
+2-Koppa Tengu
+3-Flynn
+4-Xi Wangmu
+----------------------------------------
+Seleccione una acción para Ometeotl
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:499/1262 MP:505/527
+B-Xi Wangmu HP:164/418 MP:355/405
+C-Koppa Tengu HP:76/196 MP:73/88
+D-Ometeotl HP:33/324 MP:315/315
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:509/527
+B-
+C-Loki HP:319/319 MP:328/380
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Koppa Tengu
+2-Flynn
+3-Xi Wangmu
+4-Ometeotl
+----------------------------------------
+Seleccione una acción para Koppa Tengu
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Koppa Tengu use
+1-Zanma MP:8
+2-Bad Company MP:15
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Koppa Tengu
+1-Flynn HP:971/971 MP:509/527
+2-Loki HP:319/319 MP:328/380
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Koppa Tengu lanza viento a Loki
+Loki es resistente el ataque de Koppa Tengu
+Loki recibe 27 de daño
+Loki termina con HP:292/319
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:499/1262 MP:505/527
+B-Xi Wangmu HP:164/418 MP:355/405
+C-Koppa Tengu HP:76/196 MP:65/88
+D-Ometeotl HP:33/324 MP:315/315
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:509/527
+B-
+C-Loki HP:292/319 MP:328/380
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Loki
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Flynn HP:499/1262 MP:505/527
+2-Xi Wangmu HP:164/418 MP:355/405
+3-Koppa Tengu HP:76/196 MP:65/88
+4-Ometeotl HP:33/324 MP:315/315
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Flynn ataca a Xi Wangmu
+Xi Wangmu recibe 88 de daño
+Xi Wangmu termina con HP:76/418
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:499/1262 MP:505/527
+B-Xi Wangmu HP:76/418 MP:355/405
+C-Koppa Tengu HP:76/196 MP:65/88
+D-Ometeotl HP:33/324 MP:315/315
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:509/527
+B-
+C-Loki HP:292/319 MP:328/380
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Loki
+2-Flynn
+----------------------------------------
+Seleccione una acción para Loki
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Loki use
+1-Pulinpa MP:5
+2-Mabufudyne MP:32
+3-Taunt MP:20
+4-Dekunda MP:10
+5-Cancelar
+INPUT: 3
+----------------------------------------
+El ataque de Flynn ha aumentado
+La defensa de Flynn ha disminuido
+El ataque de Xi Wangmu ha aumentado
+La defensa de Xi Wangmu ha disminuido
+El ataque de Koppa Tengu ha aumentado
+La defensa de Koppa Tengu ha disminuido
+El ataque de Ometeotl ha aumentado
+La defensa de Ometeotl ha disminuido
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:499/1262 MP:505/527
+B-Xi Wangmu HP:76/418 MP:355/405
+C-Koppa Tengu HP:76/196 MP:65/88
+D-Ometeotl HP:33/324 MP:315/315
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:509/527
+B-
+C-Loki HP:292/319 MP:308/380
+D-
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Xi Wangmu
+3-Ometeotl
+4-Koppa Tengu
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Kwancha HP:94/208 MP:118/154
+2-Thoth HP:23/244 MP:154/199
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una posición para invocar
+1-Xi Wangmu HP:76/418 MP:355/405 (Puesto 2)
+2-Koppa Tengu HP:76/196 MP:65/88 (Puesto 3)
+3-Ometeotl HP:33/324 MP:315/315 (Puesto 4)
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Thoth ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:499/1262 MP:505/527
+B-Thoth HP:23/244 MP:154/199
+C-Koppa Tengu HP:76/196 MP:65/88
+D-Ometeotl HP:33/324 MP:315/315
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:509/527
+B-
+C-Loki HP:292/319 MP:308/380
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Thoth
+2-Ometeotl
+3-Koppa Tengu
+4-Flynn
+----------------------------------------
+Seleccione una acción para Thoth
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:499/1262 MP:505/527
+B-Thoth HP:23/244 MP:154/199
+C-Koppa Tengu HP:76/196 MP:65/88
+D-Ometeotl HP:33/324 MP:315/315
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:509/527
+B-
+C-Loki HP:292/319 MP:308/380
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Ometeotl
+2-Koppa Tengu
+3-Flynn
+4-Thoth
+----------------------------------------
+Seleccione una acción para Ometeotl
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Ometeotl use
+1-Agidyne MP:14
+2-Recarmdra MP:2
+3-Bufudyne MP:14
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Ometeotl cura a Flynn
+Flynn recibe 631 de HP
+Flynn termina con HP:1130/1262
+Ometeotl cura a Thoth
+Thoth recibe 122 de HP
+Thoth termina con HP:145/244
+Ometeotl cura a Koppa Tengu
+Koppa Tengu recibe 98 de HP
+Koppa Tengu termina con HP:174/196
+Ometeotl cura a Kwancha
+Kwancha recibe 104 de HP
+Kwancha termina con HP:198/208
+Ometeotl cura a Xi Wangmu
+Xi Wangmu recibe 209 de HP
+Xi Wangmu termina con HP:285/418
+Ometeotl revive a Camazotz
+Camazotz recibe 90 de HP
+Camazotz termina con HP:90/180
+Ometeotl termina con HP:0/324
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:1130/1262 MP:505/527
+B-Thoth HP:145/244 MP:154/199
+C-Koppa Tengu HP:174/196 MP:65/88
+D-
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:509/527
+B-
+C-Loki HP:292/319 MP:308/380
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Koppa Tengu
+2-Flynn
+3-Thoth
+----------------------------------------
+Seleccione una acción para Koppa Tengu
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:1130/1262 MP:505/527
+B-Thoth HP:145/244 MP:154/199
+C-Koppa Tengu HP:174/196 MP:65/88
+D-
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:509/527
+B-
+C-Loki HP:292/319 MP:308/380
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Flynn
+2-Thoth
+3-Koppa Tengu
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Kwancha HP:198/208 MP:118/154
+2-Xi Wangmu HP:285/418 MP:355/405
+3-Camazotz HP:90/180 MP:35/35
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una posición para invocar
+1-Thoth HP:145/244 MP:154/199 (Puesto 2)
+2-Koppa Tengu HP:174/196 MP:65/88 (Puesto 3)
+3-Vacío (Puesto 4)
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Kwancha ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:1130/1262 MP:505/527
+B-Thoth HP:145/244 MP:154/199
+C-Koppa Tengu HP:174/196 MP:65/88
+D-Kwancha HP:198/208 MP:118/154
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:509/527
+B-
+C-Loki HP:292/319 MP:308/380
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Thoth
+2-Koppa Tengu
+3-Kwancha
+4-Flynn
+----------------------------------------
+Seleccione una acción para Thoth
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Thoth
+1-Flynn HP:971/971 MP:509/527
+2-Loki HP:292/319 MP:308/380
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Thoth ataca a Flynn
+Flynn recibe 19 de daño
+Flynn termina con HP:952/971
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:1130/1262 MP:505/527
+B-Thoth HP:145/244 MP:154/199
+C-Koppa Tengu HP:174/196 MP:65/88
+D-Kwancha HP:198/208 MP:118/154
+Equipo de Flynn (J2)
+A-Flynn HP:952/971 MP:509/527
+B-
+C-Loki HP:292/319 MP:308/380
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Loki
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Flynn HP:1130/1262 MP:505/527
+2-Thoth HP:145/244 MP:154/199
+3-Koppa Tengu HP:174/196 MP:65/88
+4-Kwancha HP:198/208 MP:118/154
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Flynn dispara a Thoth
+Thoth es débil contra el ataque de Flynn
+Thoth recibe 165 de daño
+Thoth termina con HP:0/188
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:1130/1262 MP:505/527
+B-
+C-Koppa Tengu HP:174/196 MP:65/88
+D-Kwancha HP:198/208 MP:118/154
+Equipo de Flynn (J2)
+A-Flynn HP:952/971 MP:509/527
+B-
+C-Loki HP:292/319 MP:308/380
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Loki
+2-Flynn
+----------------------------------------
+Seleccione una acción para Loki
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:1130/1262 MP:505/527
+B-
+C-Koppa Tengu HP:174/196 MP:65/88
+D-Kwancha HP:198/208 MP:118/154
+Equipo de Flynn (J2)
+A-Flynn HP:952/971 MP:509/527
+B-
+C-Loki HP:292/319 MP:308/380
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Loki
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Flynn use
+1-Hamaon MP:10
+2-Diarama MP:9
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Flynn HP:1130/1262 MP:505/527
+2-Koppa Tengu HP:174/196 MP:65/88
+3-Kwancha HP:198/208 MP:118/154
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Flynn ataca con luz a Koppa Tengu
+Koppa Tengu ha sido eliminado
+Koppa Tengu termina con HP:0/196
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:1130/1262 MP:505/527
+B-
+C-
+D-Kwancha HP:198/208 MP:118/154
+Equipo de Flynn (J2)
+A-Flynn HP:952/971 MP:499/527
+B-
+C-Loki HP:292/319 MP:308/380
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Kwancha
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Xi Wangmu HP:285/418 MP:355/405
+2-Camazotz HP:90/180 MP:35/35
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una posición para invocar
+1-Vacío (Puesto 2)
+2-Vacío (Puesto 3)
+3-Kwancha HP:198/208 MP:118/154 (Puesto 4)
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Camazotz ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:1130/1262 MP:505/527
+B-
+C-
+D-Camazotz HP:90/180 MP:35/35
+Equipo de Flynn (J2)
+A-Flynn HP:952/971 MP:499/527
+B-
+C-Loki HP:292/319 MP:308/380
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Camazotz
+2-Flynn
+----------------------------------------
+Seleccione una acción para Camazotz
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Camazotz use
+1-Tetanus Cut MP:11
+2-Life Drain MP:5
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Camazotz
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Kwancha HP:198/208 MP:118/154
+2-Xi Wangmu HP:285/418 MP:355/405
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Kwancha ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:1130/1262 MP:505/527
+B-
+C-
+D-Kwancha HP:198/208 MP:118/154
+Equipo de Flynn (J2)
+A-Flynn HP:952/971 MP:499/527
+B-
+C-Loki HP:292/319 MP:308/380
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Kwancha
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Flynn use
+1-Grand Tack MP:11
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Flynn HP:952/971 MP:499/527
+2-Loki HP:292/319 MP:308/380
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Flynn dispara a Flynn
+Flynn absorbe 165 daño
+Flynn termina con HP:971/971
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:1130/1262 MP:494/527
+B-
+C-
+D-Kwancha HP:198/208 MP:118/154
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:499/527
+B-
+C-Loki HP:292/319 MP:308/380
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Loki
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:1130/1262 MP:494/527
+B-
+C-
+D-Kwancha HP:198/208 MP:118/154
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:499/527
+B-
+C-Loki HP:292/319 MP:308/380
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Loki
+2-Flynn
+----------------------------------------
+Seleccione una acción para Loki
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Loki use
+1-Pulinpa MP:5
+2-Mabufudyne MP:32
+3-Taunt MP:20
+4-Dekunda MP:10
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Loki
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Loki use
+1-Pulinpa MP:5
+2-Mabufudyne MP:32
+3-Taunt MP:20
+4-Dekunda MP:10
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Loki
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Loki
+1-Flynn HP:1130/1262 MP:494/527
+2-Kwancha HP:198/208 MP:118/154
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Loki
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:1130/1262 MP:494/527
+B-
+C-
+D-Kwancha HP:198/208 MP:118/154
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:499/527
+B-
+C-Loki HP:292/319 MP:308/380
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Loki
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:1130/1262 MP:494/527
+B-
+C-
+D-Kwancha HP:198/208 MP:118/154
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:499/527
+B-
+C-Loki HP:292/319 MP:308/380
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Loki
+2-Flynn
+----------------------------------------
+Seleccione una acción para Loki
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Loki use
+1-Pulinpa MP:5
+2-Mabufudyne MP:32
+3-Taunt MP:20
+4-Dekunda MP:10
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Loki
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Loki use
+1-Pulinpa MP:5
+2-Mabufudyne MP:32
+3-Taunt MP:20
+4-Dekunda MP:10
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Loki
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Loki
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Loki
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Loki
+1-Flynn HP:1130/1262 MP:494/527
+2-Kwancha HP:198/208 MP:118/154
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Loki ataca a Kwancha
+Kwancha recibe 33 de daño
+Kwancha termina con HP:165/208
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:1130/1262 MP:494/527
+B-
+C-
+D-Kwancha HP:165/208 MP:118/154
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:499/527
+B-
+C-Loki HP:292/319 MP:308/380
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Kwancha
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:1130/1262 MP:494/527
+B-
+C-
+D-Kwancha HP:165/208 MP:118/154
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:499/527
+B-
+C-Loki HP:292/319 MP:308/380
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Kwancha
+2-Flynn
+----------------------------------------
+Seleccione una acción para Kwancha
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Kwancha use
+1-Tetanus Cut MP:11
+2-Posumudi MP:5
+3-Pandemic Bomb MP:11
+4-Mahama MP:18
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Kwancha ataca con luz a Flynn
+Flynn bloquea el ataque de Kwancha
+Flynn termina con HP:971/971
+Kwancha ataca con luz a Loki
+Kwancha ha fallado el ataque
+Loki termina con HP:292/319
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:1130/1262 MP:494/527
+B-
+C-
+D-Kwancha HP:165/208 MP:100/154
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:499/527
+B-
+C-Loki HP:292/319 MP:308/380
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Loki
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Flynn use
+1-Hamaon MP:10
+2-Diarama MP:9
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Flynn HP:971/971 MP:499/527
+2-Loki HP:292/319 MP:308/380
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Flynn HP:1130/1262 MP:494/527
+2-Kwancha HP:165/208 MP:100/154
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Flynn HP:1130/1262 MP:494/527
+2-Kwancha HP:165/208 MP:100/154
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Flynn ataca a Kwancha
+Kwancha recibe 88 de daño
+Kwancha termina con HP:77/208
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:1130/1262 MP:494/527
+B-
+C-
+D-Kwancha HP:77/208 MP:100/154
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:499/527
+B-
+C-Loki HP:292/319 MP:308/380
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Loki
+2-Flynn
+----------------------------------------
+Seleccione una acción para Loki
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Loki
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:1130/1262 MP:494/527
+B-
+C-
+D-Kwancha HP:77/208 MP:100/154
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:499/527
+B-
+C-Loki HP:292/319 MP:308/380
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Flynn
+2-Loki
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:1130/1262 MP:494/527
+B-
+C-
+D-Kwancha HP:77/208 MP:100/154
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:499/527
+B-
+C-Loki HP:292/319 MP:308/380
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Kwancha
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Xi Wangmu HP:285/418 MP:355/405
+2-Camazotz HP:90/180 MP:35/35
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una posición para invocar
+1-Vacío (Puesto 2)
+2-Vacío (Puesto 3)
+3-Kwancha HP:77/208 MP:100/154 (Puesto 4)
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Xi Wangmu ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:1130/1262 MP:494/527
+B-
+C-
+D-Xi Wangmu HP:285/418 MP:355/405
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:499/527
+B-
+C-Loki HP:292/319 MP:308/380
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Xi Wangmu
+2-Flynn
+----------------------------------------
+Seleccione una acción para Xi Wangmu
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:1130/1262 MP:494/527
+B-
+C-
+D-Xi Wangmu HP:285/418 MP:355/405
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:499/527
+B-
+C-Loki HP:292/319 MP:308/380
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Xi Wangmu
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Flynn HP:971/971 MP:499/527
+2-Loki HP:292/319 MP:308/380
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Flynn HP:971/971 MP:499/527
+2-Loki HP:292/319 MP:308/380
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Flynn HP:971/971 MP:499/527
+2-Loki HP:292/319 MP:308/380
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Flynn ataca a Loki
+Loki recibe 110 de daño
+Loki termina con HP:182/319
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:1130/1262 MP:494/527
+B-
+C-
+D-Xi Wangmu HP:285/418 MP:355/405
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:499/527
+B-
+C-Loki HP:182/319 MP:308/380
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Loki
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Flynn HP:1130/1262 MP:494/527
+2-Xi Wangmu HP:285/418 MP:355/405
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Flynn ataca a Flynn
+Flynn recibe 110 de daño
+Flynn termina con HP:1020/1262
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:1020/1262 MP:494/527
+B-
+C-
+D-Xi Wangmu HP:285/418 MP:355/405
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:499/527
+B-
+C-Loki HP:182/319 MP:308/380
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Loki
+2-Flynn
+----------------------------------------
+Seleccione una acción para Loki
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Loki
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Loki
+1-Flynn HP:1020/1262 MP:494/527
+2-Xi Wangmu HP:285/418 MP:355/405
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Loki ataca a Flynn
+Flynn recibe 42 de daño
+Flynn termina con HP:978/1262
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:978/1262 MP:494/527
+B-
+C-
+D-Xi Wangmu HP:285/418 MP:355/405
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:499/527
+B-
+C-Loki HP:182/319 MP:308/380
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Xi Wangmu
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Flynn use
+1-Grand Tack MP:11
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Flynn HP:971/971 MP:499/527
+2-Loki HP:182/319 MP:308/380
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Flynn dispara a Flynn
+Flynn absorbe 165 daño
+Flynn termina con HP:971/971
+----------------------------------------
+Se han consumido 2 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:978/1262 MP:483/527
+B-
+C-
+D-Xi Wangmu HP:285/418 MP:355/405
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:499/527
+B-
+C-Loki HP:182/319 MP:308/380
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Loki
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Flynn HP:978/1262 MP:483/527
+2-Xi Wangmu HP:285/418 MP:355/405
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Flynn dispara a Xi Wangmu
+Xi Wangmu recibe 137 de daño
+Xi Wangmu termina con HP:148/418
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:978/1262 MP:483/527
+B-
+C-
+D-Xi Wangmu HP:148/418 MP:355/405
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:499/527
+B-
+C-Loki HP:182/319 MP:308/380
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Loki
+2-Flynn
+----------------------------------------
+Seleccione una acción para Loki
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Loki use
+1-Pulinpa MP:5
+2-Mabufudyne MP:32
+3-Taunt MP:20
+4-Dekunda MP:10
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Loki
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Loki use
+1-Pulinpa MP:5
+2-Mabufudyne MP:32
+3-Taunt MP:20
+4-Dekunda MP:10
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Loki lanza hielo a Flynn
+Flynn recibe 150 de daño
+Flynn termina con HP:828/1262
+Loki lanza hielo a Xi Wangmu
+Xi Wangmu recibe 150 de daño
+Xi Wangmu termina con HP:0/418
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:828/1262 MP:483/527
+B-
+C-
+D-
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:499/527
+B-
+C-Loki HP:182/319 MP:276/380
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Flynn HP:971/971 MP:499/527
+2-Loki HP:182/319 MP:276/380
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Flynn dispara a Loki
+Loki bloquea el ataque de Flynn
+Loki termina con HP:182/319
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:828/1262 MP:483/527
+B-
+C-
+D-
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:499/527
+B-
+C-Loki HP:182/319 MP:276/380
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Loki
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Flynn HP:828/1262 MP:483/527
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:828/1262 MP:483/527
+B-
+C-
+D-
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:499/527
+B-
+C-Loki HP:182/319 MP:276/380
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Loki
+2-Flynn
+----------------------------------------
+Seleccione una acción para Loki
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:828/1262 MP:483/527
+B-
+C-
+D-
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:499/527
+B-
+C-Loki HP:182/319 MP:276/380
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Loki
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Flynn HP:828/1262 MP:483/527
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Flynn HP:828/1262 MP:483/527
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Flynn use
+1-Hamaon MP:10
+2-Diarama MP:9
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Flynn HP:971/971 MP:499/527
+2-Loki HP:182/319 MP:276/380
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Flynn cura a Loki
+Loki recibe 159 de HP
+Loki termina con HP:319/319
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:828/1262 MP:483/527
+B-
+C-
+D-
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:490/527
+B-
+C-Loki HP:319/319 MP:276/380
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Flynn HP:971/971 MP:490/527
+2-Loki HP:319/319 MP:276/380
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Flynn use
+1-Grand Tack MP:11
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Flynn HP:971/971 MP:490/527
+2-Loki HP:319/319 MP:276/380
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Flynn dispara a Flynn
+Flynn absorbe 165 daño
+Flynn termina con HP:971/971
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:828/1262 MP:472/527
+B-
+C-
+D-
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:490/527
+B-
+C-Loki HP:319/319 MP:276/380
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Loki
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Flynn HP:828/1262 MP:472/527
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Flynn dispara a Flynn
+Flynn recibe 137 de daño
+Flynn termina con HP:691/1262
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:691/1262 MP:472/527
+B-
+C-
+D-
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:490/527
+B-
+C-Loki HP:319/319 MP:276/380
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Loki
+2-Flynn
+----------------------------------------
+Seleccione una acción para Loki
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:691/1262 MP:472/527
+B-
+C-
+D-
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:490/527
+B-
+C-Loki HP:319/319 MP:276/380
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Flynn
+2-Loki
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:691/1262 MP:472/527
+B-
+C-
+D-
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:490/527
+B-
+C-Loki HP:319/319 MP:276/380
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Flynn HP:971/971 MP:490/527
+2-Loki HP:319/319 MP:276/380
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Flynn HP:971/971 MP:490/527
+2-Loki HP:319/319 MP:276/380
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Flynn ataca a Loki
+Loki recibe 110 de daño
+Loki termina con HP:209/319
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:691/1262 MP:472/527
+B-
+C-
+D-
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:490/527
+B-
+C-Loki HP:209/319 MP:276/380
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Loki
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Flynn use
+1-Hamaon MP:10
+2-Diarama MP:9
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Flynn HP:691/1262 MP:472/527
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Flynn dispara a Flynn
+Flynn recibe 137 de daño
+Flynn termina con HP:554/1262
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:554/1262 MP:472/527
+B-
+C-
+D-
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:490/527
+B-
+C-Loki HP:209/319 MP:276/380
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Loki
+2-Flynn
+----------------------------------------
+Seleccione una acción para Loki
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Loki
+1-Flynn HP:554/1262 MP:472/527
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Loki
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:554/1262 MP:472/527
+B-
+C-
+D-
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:490/527
+B-
+C-Loki HP:209/319 MP:276/380
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Flynn
+2-Loki
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:554/1262 MP:472/527
+B-
+C-
+D-
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:490/527
+B-
+C-Loki HP:209/319 MP:276/380
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Kwancha HP:77/208 MP:100/154
+2-Camazotz HP:90/180 MP:35/35
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una posición para invocar
+1-Vacío (Puesto 2)
+2-Vacío (Puesto 3)
+3-Vacío (Puesto 4)
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Kwancha ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:554/1262 MP:472/527
+B-Kwancha HP:77/208 MP:100/154
+C-
+D-
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:490/527
+B-
+C-Loki HP:209/319 MP:276/380
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Kwancha
+2-Flynn
+----------------------------------------
+Seleccione una acción para Kwancha
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Kwancha
+1-Flynn HP:971/971 MP:490/527
+2-Loki HP:209/319 MP:276/380
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Kwancha ataca a Flynn
+Flynn recibe 16 de daño
+Flynn termina con HP:955/971
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:554/1262 MP:472/527
+B-Kwancha HP:77/208 MP:100/154
+C-
+D-
+Equipo de Flynn (J2)
+A-Flynn HP:955/971 MP:490/527
+B-
+C-Loki HP:209/319 MP:276/380
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Loki
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:554/1262 MP:472/527
+B-Kwancha HP:77/208 MP:100/154
+C-
+D-
+Equipo de Flynn (J2)
+A-Flynn HP:955/971 MP:490/527
+B-
+C-Loki HP:209/319 MP:276/380
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Loki
+2-Flynn
+----------------------------------------
+Seleccione una acción para Loki
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:554/1262 MP:472/527
+B-Kwancha HP:77/208 MP:100/154
+C-
+D-
+Equipo de Flynn (J2)
+A-Flynn HP:955/971 MP:490/527
+B-
+C-Loki HP:209/319 MP:276/380
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Loki
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Flynn HP:554/1262 MP:472/527
+2-Kwancha HP:77/208 MP:100/154
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Flynn HP:554/1262 MP:472/527
+2-Kwancha HP:77/208 MP:100/154
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Flynn ataca a Flynn
+Flynn recibe 110 de daño
+Flynn termina con HP:444/1262
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:444/1262 MP:472/527
+B-Kwancha HP:77/208 MP:100/154
+C-
+D-
+Equipo de Flynn (J2)
+A-Flynn HP:955/971 MP:490/527
+B-
+C-Loki HP:209/319 MP:276/380
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Kwancha
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Camazotz HP:90/180 MP:35/35
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una posición para invocar
+1-Kwancha HP:77/208 MP:100/154 (Puesto 2)
+2-Vacío (Puesto 3)
+3-Vacío (Puesto 4)
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Camazotz ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:444/1262 MP:472/527
+B-Camazotz HP:90/180 MP:35/35
+C-
+D-
+Equipo de Flynn (J2)
+A-Flynn HP:955/971 MP:490/527
+B-
+C-Loki HP:209/319 MP:276/380
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Camazotz
+2-Flynn
+----------------------------------------
+Seleccione una acción para Camazotz
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Kwancha HP:77/208 MP:100/154
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Kwancha ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:444/1262 MP:472/527
+B-Kwancha HP:77/208 MP:100/154
+C-
+D-
+Equipo de Flynn (J2)
+A-Flynn HP:955/971 MP:490/527
+B-
+C-Loki HP:209/319 MP:276/380
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Kwancha
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Flynn HP:955/971 MP:490/527
+2-Loki HP:209/319 MP:276/380
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:444/1262 MP:472/527
+B-Kwancha HP:77/208 MP:100/154
+C-
+D-
+Equipo de Flynn (J2)
+A-Flynn HP:955/971 MP:490/527
+B-
+C-Loki HP:209/319 MP:276/380
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Kwancha
+2-Flynn
+----------------------------------------
+Seleccione una acción para Kwancha
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Kwancha
+1-Flynn HP:955/971 MP:490/527
+2-Loki HP:209/319 MP:276/380
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Kwancha ataca a Flynn
+Flynn recibe 16 de daño
+Flynn termina con HP:939/971
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:444/1262 MP:472/527
+B-Kwancha HP:77/208 MP:100/154
+C-
+D-
+Equipo de Flynn (J2)
+A-Flynn HP:939/971 MP:490/527
+B-
+C-Loki HP:209/319 MP:276/380
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Loki
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:444/1262 MP:472/527
+B-Kwancha HP:77/208 MP:100/154
+C-
+D-
+Equipo de Flynn (J2)
+A-Flynn HP:939/971 MP:490/527
+B-
+C-Loki HP:209/319 MP:276/380
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Loki
+2-Flynn
+----------------------------------------
+Seleccione una acción para Loki
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Loki
+1-Flynn HP:444/1262 MP:472/527
+2-Kwancha HP:77/208 MP:100/154
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Loki
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Loki
+1-Flynn HP:444/1262 MP:472/527
+2-Kwancha HP:77/208 MP:100/154
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Loki
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Loki use
+1-Pulinpa MP:5
+2-Mabufudyne MP:32
+3-Taunt MP:20
+4-Dekunda MP:10
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Loki lanza hielo a Flynn
+Flynn recibe 150 de daño
+Flynn termina con HP:294/1262
+Loki lanza hielo a Kwancha
+Kwancha recibe 120 de daño
+Kwancha termina con HP:0/160
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:294/1262 MP:472/527
+B-
+C-
+D-
+Equipo de Flynn (J2)
+A-Flynn HP:939/971 MP:490/527
+B-
+C-Loki HP:209/319 MP:244/380
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Loki
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Flynn HP:294/1262 MP:472/527
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Flynn dispara a Flynn
+Flynn recibe 137 de daño
+Flynn termina con HP:157/1262
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:157/1262 MP:472/527
+B-
+C-
+D-
+Equipo de Flynn (J2)
+A-Flynn HP:939/971 MP:490/527
+B-
+C-Loki HP:209/319 MP:244/380
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:157/1262 MP:472/527
+B-
+C-
+D-
+Equipo de Flynn (J2)
+A-Flynn HP:939/971 MP:490/527
+B-
+C-Loki HP:209/319 MP:244/380
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Flynn
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Camazotz HP:90/180 MP:35/35
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una posición para invocar
+1-Vacío (Puesto 2)
+2-Vacío (Puesto 3)
+3-Vacío (Puesto 4)
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Camazotz ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:157/1262 MP:472/527
+B-Camazotz HP:90/180 MP:35/35
+C-
+D-
+Equipo de Flynn (J2)
+A-Flynn HP:939/971 MP:490/527
+B-
+C-Loki HP:209/319 MP:244/380
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Loki
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Flynn HP:157/1262 MP:472/527
+2-Camazotz HP:90/180 MP:35/35
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Flynn use
+1-Hamaon MP:10
+2-Diarama MP:9
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Flynn HP:157/1262 MP:472/527
+2-Camazotz HP:90/180 MP:35/35
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Flynn use
+1-Hamaon MP:10
+2-Diarama MP:9
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Flynn HP:157/1262 MP:472/527
+2-Camazotz HP:90/180 MP:35/35
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Flynn ataca con luz a Flynn
+Flynn bloquea el ataque de Flynn
+Flynn termina con HP:157/1262
+----------------------------------------
+Se han consumido 2 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:157/1262 MP:472/527
+B-Camazotz HP:90/180 MP:35/35
+C-
+D-
+Equipo de Flynn (J2)
+A-Flynn HP:939/971 MP:480/527
+B-
+C-Loki HP:209/319 MP:244/380
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Camazotz
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:157/1262 MP:472/527
+B-Camazotz HP:90/180 MP:35/35
+C-
+D-
+Equipo de Flynn (J2)
+A-Flynn HP:939/971 MP:480/527
+B-
+C-Loki HP:209/319 MP:244/380
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Camazotz
+2-Flynn
+----------------------------------------
+Seleccione una acción para Camazotz
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Camazotz
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Camazotz
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Camazotz
+1-Flynn HP:939/971 MP:480/527
+2-Loki HP:209/319 MP:244/380
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Camazotz ataca a Flynn
+Flynn recibe 11 de daño
+Flynn termina con HP:928/971
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:157/1262 MP:472/527
+B-Camazotz HP:90/180 MP:35/35
+C-
+D-
+Equipo de Flynn (J2)
+A-Flynn HP:928/971 MP:480/527
+B-
+C-Loki HP:209/319 MP:244/380
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Camazotz
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Flynn use
+1-Grand Tack MP:11
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Flynn HP:928/971 MP:480/527
+2-Loki HP:209/319 MP:244/380
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Flynn dispara a Flynn
+Flynn absorbe 165 daño
+Flynn termina con HP:971/971
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:157/1262 MP:461/527
+B-Camazotz HP:90/180 MP:35/35
+C-
+D-
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:480/527
+B-
+C-Loki HP:209/319 MP:244/380
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Loki
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Flynn HP:157/1262 MP:461/527
+2-Camazotz HP:90/180 MP:35/35
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Flynn ataca a Flynn
+Flynn recibe 110 de daño
+Flynn termina con HP:47/1262
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:47/1262 MP:461/527
+B-Camazotz HP:90/180 MP:35/35
+C-
+D-
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:480/527
+B-
+C-Loki HP:209/319 MP:244/380
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Loki
+2-Flynn
+----------------------------------------
+Seleccione una acción para Loki
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Loki
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:47/1262 MP:461/527
+B-Camazotz HP:90/180 MP:35/35
+C-
+D-
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:480/527
+B-
+C-Loki HP:209/319 MP:244/380
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Flynn
+2-Loki
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:47/1262 MP:461/527
+B-Camazotz HP:90/180 MP:35/35
+C-
+D-
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:480/527
+B-
+C-Loki HP:209/319 MP:244/380
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Camazotz
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Flynn use
+1-Grand Tack MP:11
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Flynn HP:971/971 MP:480/527
+2-Loki HP:209/319 MP:244/380
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Flynn HP:971/971 MP:480/527
+2-Loki HP:209/319 MP:244/380
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Flynn dispara a Loki
+Loki bloquea el ataque de Flynn
+Loki termina con HP:209/319
+----------------------------------------
+Se han consumido 2 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:47/1262 MP:461/527
+B-Camazotz HP:90/180 MP:35/35
+C-
+D-
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:480/527
+B-
+C-Loki HP:209/319 MP:244/380
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Loki
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Flynn use
+1-Hamaon MP:10
+2-Diarama MP:9
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Flynn HP:971/971 MP:480/527
+2-Loki HP:209/319 MP:244/380
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Flynn cura a Flynn
+Flynn recibe 485 de HP
+Flynn termina con HP:971/971
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:47/1262 MP:461/527
+B-Camazotz HP:90/180 MP:35/35
+C-
+D-
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:471/527
+B-
+C-Loki HP:209/319 MP:244/380
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Loki
+2-Flynn
+----------------------------------------
+Seleccione una acción para Loki
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:47/1262 MP:461/527
+B-Camazotz HP:90/180 MP:35/35
+C-
+D-
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:471/527
+B-
+C-Loki HP:209/319 MP:244/380
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Flynn
+2-Loki
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Flynn use
+1-Hamaon MP:10
+2-Diarama MP:9
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:47/1262 MP:461/527
+B-Camazotz HP:90/180 MP:35/35
+C-
+D-
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:471/527
+B-
+C-Loki HP:209/319 MP:244/380
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Camazotz
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:47/1262 MP:461/527
+B-Camazotz HP:90/180 MP:35/35
+C-
+D-
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:471/527
+B-
+C-Loki HP:209/319 MP:244/380
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Camazotz
+2-Flynn
+----------------------------------------
+Seleccione una acción para Camazotz
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:47/1262 MP:461/527
+B-Camazotz HP:90/180 MP:35/35
+C-
+D-
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:471/527
+B-
+C-Loki HP:209/319 MP:244/380
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Camazotz
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Flynn use
+1-Grand Tack MP:11
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Flynn HP:971/971 MP:471/527
+2-Loki HP:209/319 MP:244/380
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Flynn use
+1-Grand Tack MP:11
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Flynn HP:971/971 MP:471/527
+2-Loki HP:209/319 MP:244/380
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Flynn use
+1-Grand Tack MP:11
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:47/1262 MP:461/527
+B-Camazotz HP:90/180 MP:35/35
+C-
+D-
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:471/527
+B-
+C-Loki HP:209/319 MP:244/380
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Camazotz
+2-Flynn
+----------------------------------------
+Seleccione una acción para Camazotz
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Camazotz use
+1-Tetanus Cut MP:11
+2-Life Drain MP:5
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Camazotz
+1-Flynn HP:971/971 MP:471/527
+2-Loki HP:209/319 MP:244/380
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Camazotz lanza un ataque todo poderoso a Flynn
+El ataque drena 20 HP de Flynn
+Flynn termina con HP:951/971
+Camazotz termina con HP:110/180
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:47/1262 MP:461/527
+B-Camazotz HP:110/180 MP:30/35
+C-
+D-
+Equipo de Flynn (J2)
+A-Flynn HP:951/971 MP:471/527
+B-
+C-Loki HP:209/319 MP:244/380
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Loki
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Flynn HP:47/1262 MP:461/527
+2-Camazotz HP:110/180 MP:30/35
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:47/1262 MP:461/527
+B-Camazotz HP:110/180 MP:30/35
+C-
+D-
+Equipo de Flynn (J2)
+A-Flynn HP:951/971 MP:471/527
+B-
+C-Loki HP:209/319 MP:244/380
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Loki
+2-Flynn
+----------------------------------------
+Seleccione una acción para Loki
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Loki use
+1-Pulinpa MP:5
+2-Mabufudyne MP:32
+3-Taunt MP:20
+4-Dekunda MP:10
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Los debuffs de Flynn han desaparecido
+Los debuffs de Loki han desaparecido
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:47/1262 MP:461/527
+B-Camazotz HP:110/180 MP:30/35
+C-
+D-
+Equipo de Flynn (J2)
+A-Flynn HP:951/971 MP:471/527
+B-
+C-Loki HP:209/319 MP:234/380
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Loki
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Flynn use
+1-Hamaon MP:10
+2-Diarama MP:9
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Flynn HP:47/1262 MP:461/527
+2-Camazotz HP:110/180 MP:30/35
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Flynn ataca con luz a Camazotz
+Camazotz ha sido eliminado
+Camazotz termina con HP:0/180
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:47/1262 MP:461/527
+B-
+C-
+D-
+Equipo de Flynn (J2)
+A-Flynn HP:951/971 MP:461/527
+B-
+C-Loki HP:209/319 MP:234/380
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Flynn use
+1-Grand Tack MP:11
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:47/1262 MP:461/527
+B-
+C-
+D-
+Equipo de Flynn (J2)
+A-Flynn HP:951/971 MP:461/527
+B-
+C-Loki HP:209/319 MP:234/380
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Flynn
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Flynn HP:951/971 MP:461/527
+2-Loki HP:209/319 MP:234/380
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Flynn dispara a Flynn
+Flynn absorbe 110 daño
+Flynn termina con HP:971/971
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:47/1262 MP:461/527
+B-
+C-
+D-
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:461/527
+B-
+C-Loki HP:209/319 MP:234/380
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Loki
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:47/1262 MP:461/527
+B-
+C-
+D-
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:461/527
+B-
+C-Loki HP:209/319 MP:234/380
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Loki
+2-Flynn
+----------------------------------------
+Seleccione una acción para Loki
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:47/1262 MP:461/527
+B-
+C-
+D-
+Equipo de Flynn (J2)
+A-Flynn HP:971/971 MP:461/527
+B-
+C-Loki HP:209/319 MP:234/380
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Loki
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Flynn HP:47/1262 MP:461/527
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Flynn ataca a Flynn
+Flynn recibe 110 de daño
+Flynn termina con HP:0/971
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ganador: Flynn (J2)

@@ -1,0 +1,15 @@
+Player 1 Team
+[Samurai] Demi-Fiend (Dia,Energy Drain,Bouncing Claw,Repel Ice,Zio)
+Fafnir
+Asura
+Ym
+Apsaras
+Pabilsag
+Player 2 Team
+[Samurai] Flynn (High Elec Pleroma,Megido)
+Michizane
+Parvati
+Oni
+Suzaku
+Napaea
+Poltergeist

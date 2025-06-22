@@ -1,7 +1,0 @@
-Player 1 Team
-[Samurai] Joker
-Chupacabra
-Ose
-Halphas
-Player 2 Team
-[Samurai] Flynn

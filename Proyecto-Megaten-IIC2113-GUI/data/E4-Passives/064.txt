@@ -1,0 +1,8 @@
+Player 1 Team
+[Samurai] Tadano (Agi,Hama)
+Dantalion
+Loki
+Player 2 Team
+[Samurai] Tadano (Agi,Hama,Awakening)
+Dantalion
+Loki

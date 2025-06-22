@@ -1,9 +1,0 @@
-Player 1 Team
-[Samurai] Flynn
-Strix
-Raphael
-Player 2 Team
-[Samurai] Aleph (Zio)
-Naga
-Chagrin
-Aniel

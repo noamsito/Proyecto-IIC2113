@@ -1,0 +1,5414 @@
+Elige un archivo para cargar los equipos
+0: 001.txt
+1: 002.txt
+2: 003.txt
+3: 004.txt
+4: 005.txt
+5: 006.txt
+6: 007.txt
+7: 008.txt
+8: 009.txt
+9: 010.txt
+10: 011.txt
+11: 012.txt
+12: 013.txt
+13: 014.txt
+14: 015.txt
+15: 016.txt
+16: 017.txt
+17: 018.txt
+18: 019.txt
+19: 020.txt
+20: 021.txt
+21: 022.txt
+22: 023.txt
+23: 024.txt
+24: 025.txt
+25: 026.txt
+26: 027.txt
+27: 028.txt
+28: 029.txt
+29: 030.txt
+30: 031.txt
+31: 032.txt
+32: 033.txt
+33: 034.txt
+34: 035.txt
+35: 036.txt
+36: 037.txt
+37: 038.txt
+38: 039.txt
+39: 040.txt
+40: 041.txt
+41: 042.txt
+42: 043.txt
+43: 044.txt
+44: 045.txt
+45: 046.txt
+46: 047.txt
+47: 048.txt
+48: 049.txt
+49: 050.txt
+50: 051.txt
+51: 052.txt
+52: 053.txt
+53: 054.txt
+54: 055.txt
+55: 056.txt
+56: 057.txt
+57: 058.txt
+58: 059.txt
+59: 060.txt
+60: 061.txt
+61: 062.txt
+62: 063.txt
+63: 064.txt
+64: 065.txt
+65: 066.txt
+66: 067.txt
+67: 068.txt
+68: 069.txt
+69: 070.txt
+70: 071.txt
+71: 072.txt
+72: 073.txt
+73: 074.txt
+74: 075.txt
+75: 076.txt
+76: 077.txt
+77: 078.txt
+78: 079.txt
+79: 080.txt
+80: 081.txt
+81: 082.txt
+82: 083.txt
+83: 084.txt
+84: 085.txt
+85: 086.txt
+86: 087.txt
+87: 088.txt
+88: 089.txt
+89: 090.txt
+90: 091.txt
+91: 092.txt
+92: 093.txt
+93: 094.txt
+94: 095.txt
+95: 096.txt
+96: 097.txt
+97: 098.txt
+98: 099.txt
+99: 100.txt
+100: 101.txt
+101: 102.txt
+102: 103.txt
+103: 104.txt
+104: 105.txt
+105: 106.txt
+106: 107.txt
+107: 108.txt
+108: 109.txt
+109: 110.txt
+110: 111.txt
+111: 112.txt
+112: 113.txt
+113: 114.txt
+114: 115.txt
+115: 116.txt
+116: 117.txt
+117: 118.txt
+118: 119.txt
+119: 120.txt
+120: 121.txt
+121: 122.txt
+122: 123.txt
+123: 124.txt
+124: 125.txt
+125: 126.txt
+126: 127.txt
+127: 128.txt
+128: 129.txt
+129: 130.txt
+130: 131.txt
+131: 132.txt
+132: 133.txt
+133: 134.txt
+134: 135.txt
+135: 136.txt
+136: 137.txt
+137: 138.txt
+138: 139.txt
+139: 140.txt
+140: 141.txt
+141: 142.txt
+142: 143.txt
+143: 144.txt
+144: 145.txt
+145: 146.txt
+146: 147.txt
+147: 148.txt
+148: 149.txt
+149: 150.txt
+150: 151.txt
+151: 152.txt
+152: 153.txt
+153: 154.txt
+154: 155.txt
+155: 156.txt
+156: 157.txt
+157: 158.txt
+158: 159.txt
+159: 160.txt
+160: 161.txt
+161: 162.txt
+162: 163.txt
+163: 164.txt
+164: 165.txt
+165: 166.txt
+166: 167.txt
+167: 168.txt
+168: 169.txt
+169: 170.txt
+170: 171.txt
+171: 172.txt
+172: 173.txt
+173: 174.txt
+174: 175.txt
+175: 176.txt
+176: 177.txt
+177: 178.txt
+178: 179.txt
+179: 180.txt
+180: 181.txt
+181: 182.txt
+182: 183.txt
+183: 184.txt
+184: 185.txt
+185: 186.txt
+186: 187.txt
+187: 188.txt
+188: 189.txt
+189: 190.txt
+190: 191.txt
+191: 192.txt
+192: 193.txt
+193: 194.txt
+194: 195.txt
+195: 196.txt
+196: 197.txt
+197: 198.txt
+198: 199.txt
+199: 200.txt
+200: 201.txt
+201: 202.txt
+202: 203.txt
+203: 204.txt
+204: 205.txt
+205: 206.txt
+206: 207.txt
+207: 208.txt
+208: 209.txt
+209: 210.txt
+210: 211.txt
+211: 212.txt
+212: 213.txt
+213: 214.txt
+214: 215.txt
+215: 216.txt
+216: 217.txt
+217: 218.txt
+218: 219.txt
+219: 220.txt
+220: 221.txt
+221: 222.txt
+222: 223.txt
+223: 224.txt
+224: 225.txt
+225: 226.txt
+226: 227.txt
+227: 228.txt
+228: 229.txt
+229: 230.txt
+230: 231.txt
+231: 232.txt
+232: 233.txt
+233: 234.txt
+234: 235.txt
+235: 236.txt
+236: 237.txt
+237: 238.txt
+238: 239.txt
+239: 240.txt
+240: 241.txt
+241: 242.txt
+242: 243.txt
+243: 244.txt
+244: 245.txt
+245: 246.txt
+246: 247.txt
+247: 248.txt
+248: 249.txt
+249: 250.txt
+250: 251.txt
+251: 252.txt
+252: 253.txt
+253: 254.txt
+254: 255.txt
+255: 256.txt
+256: 257.txt
+257: 258.txt
+258: 259.txt
+259: 260.txt
+260: 261.txt
+261: 262.txt
+262: 263.txt
+263: 264.txt
+264: 265.txt
+265: 266.txt
+266: 267.txt
+267: 268.txt
+268: 269.txt
+269: 270.txt
+270: 271.txt
+271: 272.txt
+272: 273.txt
+273: 274.txt
+274: 275.txt
+275: 276.txt
+276: 277.txt
+277: 278.txt
+278: 279.txt
+279: 280.txt
+280: 281.txt
+281: 282.txt
+282: 283.txt
+283: 284.txt
+284: 285.txt
+285: 286.txt
+286: 287.txt
+287: 288.txt
+288: 289.txt
+289: 290.txt
+290: 291.txt
+291: 292.txt
+292: 293.txt
+293: 294.txt
+294: 295.txt
+295: 296.txt
+296: 297.txt
+297: 298.txt
+298: 299.txt
+299: 300.txt
+300: 301.txt
+301: 302.txt
+302: 303.txt
+303: 304.txt
+304: 305.txt
+305: 306.txt
+306: 307.txt
+307: 308.txt
+308: 309.txt
+309: 310.txt
+310: 311.txt
+311: 312.txt
+312: 313.txt
+313: 314.txt
+314: 315.txt
+315: 316.txt
+316: 317.txt
+317: 318.txt
+318: 319.txt
+319: 320.txt
+320: 321.txt
+321: 322.txt
+322: 323.txt
+323: 324.txt
+324: 325.txt
+325: 326.txt
+326: 327.txt
+327: 328.txt
+328: 329.txt
+329: 330.txt
+330: 331.txt
+331: 332.txt
+332: 333.txt
+333: 334.txt
+334: 335.txt
+335: 336.txt
+336: 337.txt
+337: 338.txt
+338: 339.txt
+339: 340.txt
+340: 341.txt
+341: 342.txt
+342: 343.txt
+343: 344.txt
+344: 345.txt
+345: 346.txt
+346: 347.txt
+347: 348.txt
+348: 349.txt
+349: 350.txt
+350: 351.txt
+351: 352.txt
+352: 353.txt
+353: 354.txt
+354: 355.txt
+355: 356.txt
+356: 357.txt
+357: 358.txt
+358: 359.txt
+359: 360.txt
+360: 361.txt
+361: 362.txt
+362: 363.txt
+363: 364.txt
+364: 365.txt
+365: 366.txt
+366: 367.txt
+367: 368.txt
+368: 369.txt
+369: 370.txt
+370: 371.txt
+371: 372.txt
+372: 373.txt
+373: 374.txt
+374: 375.txt
+375: 376.txt
+376: 377.txt
+377: 378.txt
+378: 379.txt
+379: 380.txt
+380: 381.txt
+381: 382.txt
+382: 383.txt
+383: 384.txt
+384: 385.txt
+385: 386.txt
+386: 387.txt
+387: 388.txt
+388: 389.txt
+389: 390.txt
+390: 391.txt
+391: 392.txt
+392: 393.txt
+393: 394.txt
+394: 395.txt
+395: 396.txt
+396: 397.txt
+397: 398.txt
+398: 399.txt
+399: 400.txt
+400: 401.txt
+401: 402.txt
+402: 403.txt
+403: 404.txt
+404: 405.txt
+405: 406.txt
+406: 407.txt
+407: 408.txt
+408: 409.txt
+409: 410.txt
+410: 411.txt
+411: 412.txt
+412: 413.txt
+413: 414.txt
+414: 415.txt
+415: 416.txt
+416: 417.txt
+417: 418.txt
+418: 419.txt
+419: 420.txt
+420: 421.txt
+421: 422.txt
+422: 423.txt
+423: 424.txt
+424: 425.txt
+425: 426.txt
+426: 427.txt
+427: 428.txt
+428: 429.txt
+429: 430.txt
+430: 431.txt
+431: 432.txt
+432: 433.txt
+433: 434.txt
+434: 435.txt
+435: 436.txt
+436: 437.txt
+437: 438.txt
+438: 439.txt
+439: 440.txt
+440: 441.txt
+441: 442.txt
+442: 443.txt
+443: 444.txt
+444: 445.txt
+445: 446.txt
+446: 447.txt
+447: 448.txt
+448: 449.txt
+449: 450.txt
+450: 451.txt
+451: 452.txt
+452: 453.txt
+453: 454.txt
+454: 455.txt
+455: 456.txt
+456: 457.txt
+457: 458.txt
+458: 459.txt
+459: 460.txt
+460: 461.txt
+461: 462.txt
+462: 463.txt
+463: 464.txt
+464: 465.txt
+465: 466.txt
+466: 467.txt
+467: 468.txt
+468: 469.txt
+469: 470.txt
+470: 471.txt
+471: 472.txt
+472: 473.txt
+473: 474.txt
+474: 475.txt
+475: 476.txt
+476: 477.txt
+477: 478.txt
+478: 479.txt
+479: 480.txt
+480: 481.txt
+481: 482.txt
+482: 483.txt
+483: 484.txt
+484: 485.txt
+485: 486.txt
+486: 487.txt
+487: 488.txt
+488: 489.txt
+489: 490.txt
+490: 491.txt
+491: 492.txt
+492: 493.txt
+493: 494.txt
+494: 495.txt
+495: 496.txt
+496: 497.txt
+497: 498.txt
+498: 499.txt
+499: 500.txt
+INPUT: 291
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:971/971 MP:527/527
+B-Morax HP:260/260 MP:46/46
+C-Pachacamac HP:287/287 MP:278/278
+D-Plasma HP:179/179 MP:172/172
+Equipo de Makoto (J2)
+A-Makoto HP:597/597 MP:347/347
+B-Ishtar HP:258/258 MP:251/251
+C-Astaroth HP:406/406 MP:181/181
+D-Churel HP:197/197 MP:190/190
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Pachacamac
+3-Plasma
+4-Morax
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Taraka HP:624/624 MP:124/124
+2-Baal HP:560/560 MP:252/252
+3-Power HP:407/407 MP:81/81
+4-Quicksilver HP:203/203 MP:90/90
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una posición para invocar
+1-Morax HP:260/260 MP:46/46 (Puesto 2)
+2-Pachacamac HP:287/287 MP:278/278 (Puesto 3)
+3-Plasma HP:179/179 MP:172/172 (Puesto 4)
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Makoto HP:597/597 MP:347/347
+2-Ishtar HP:258/258 MP:251/251
+3-Astaroth HP:406/406 MP:181/181
+4-Churel HP:197/197 MP:190/190
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Flynn dispara a Makoto
+Makoto es resistente el ataque de Flynn
+Makoto recibe 55 de daño
+Makoto termina con HP:542/597
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:971/971 MP:527/527
+B-Morax HP:260/260 MP:46/46
+C-Pachacamac HP:287/287 MP:278/278
+D-Plasma HP:179/179 MP:172/172
+Equipo de Makoto (J2)
+A-Makoto HP:542/597 MP:347/347
+B-Ishtar HP:258/258 MP:251/251
+C-Astaroth HP:406/406 MP:181/181
+D-Churel HP:197/197 MP:190/190
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Pachacamac
+2-Plasma
+3-Morax
+4-Flynn
+----------------------------------------
+Seleccione una acción para Pachacamac
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Pachacamac
+1-Makoto HP:542/597 MP:347/347
+2-Ishtar HP:258/258 MP:251/251
+3-Astaroth HP:406/406 MP:181/181
+4-Churel HP:197/197 MP:190/190
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Pachacamac ataca a Ishtar
+Ishtar recibe 30 de daño
+Ishtar termina con HP:228/258
+Makoto contra ataca a Pachacamac
+Pachacamac recibe 7 de daño
+Pachacamac termina con HP:280/287
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:971/971 MP:527/527
+B-Morax HP:260/260 MP:46/46
+C-Pachacamac HP:280/287 MP:278/278
+D-Plasma HP:179/179 MP:172/172
+Equipo de Makoto (J2)
+A-Makoto HP:542/597 MP:347/347
+B-Ishtar HP:228/258 MP:251/251
+C-Astaroth HP:406/406 MP:181/181
+D-Churel HP:197/197 MP:190/190
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Plasma
+2-Morax
+3-Flynn
+4-Pachacamac
+----------------------------------------
+Seleccione una acción para Plasma
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Plasma use
+1-Plasma Discharge MP:22
+2-Fog Breath MP:45
+3-Megidoplasma MP:41
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Plasma lanza un ataque todo poderoso a Makoto
+Makoto recibe 106 de daño
+Makoto termina con HP:436/597
+Plasma lanza un ataque todo poderoso a Ishtar
+Ishtar recibe 106 de daño
+Ishtar termina con HP:122/258
+Plasma lanza un ataque todo poderoso a Astaroth
+Astaroth recibe 106 de daño
+Astaroth termina con HP:300/406
+Plasma lanza un ataque todo poderoso a Churel
+Churel recibe 106 de daño
+Churel termina con HP:91/197
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:971/971 MP:527/527
+B-Morax HP:260/260 MP:46/46
+C-Pachacamac HP:280/287 MP:278/278
+D-Plasma HP:179/179 MP:131/172
+Equipo de Makoto (J2)
+A-Makoto HP:436/597 MP:347/347
+B-Ishtar HP:122/258 MP:251/251
+C-Astaroth HP:300/406 MP:181/181
+D-Churel HP:91/197 MP:190/190
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Morax
+2-Flynn
+3-Pachacamac
+4-Plasma
+----------------------------------------
+Seleccione una acción para Morax
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Morax
+1-Makoto HP:436/597 MP:347/347
+2-Ishtar HP:122/258 MP:251/251
+3-Astaroth HP:300/406 MP:181/181
+4-Churel HP:91/197 MP:190/190
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Morax ataca a Ishtar
+Ishtar recibe 16 de daño
+Ishtar termina con HP:106/258
+Makoto contra ataca a Morax
+Morax recibe 4 de daño
+Morax termina con HP:256/260
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Makoto (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:971/971 MP:527/527
+B-Morax HP:256/260 MP:46/46
+C-Pachacamac HP:280/287 MP:278/278
+D-Plasma HP:179/179 MP:131/172
+Equipo de Makoto (J2)
+A-Makoto HP:436/597 MP:347/347
+B-Ishtar HP:106/258 MP:251/251
+C-Astaroth HP:300/406 MP:181/181
+D-Churel HP:91/197 MP:190/190
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Makoto
+2-Astaroth
+3-Ishtar
+4-Churel
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Makoto use
+1-Spirit Drain MP:5
+2-Zanma MP:8
+3-Zionga MP:8
+4-Debilitate MP:50
+5-Shock MP:21
+6-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Makoto
+1-Flynn HP:971/971 MP:527/527
+2-Morax HP:256/260 MP:46/46
+3-Pachacamac HP:280/287 MP:278/278
+4-Plasma HP:179/179 MP:131/172
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Makoto lanza un ataque todo poderoso a Plasma
+El ataque drena 43 MP de Plasma
+Plasma termina con MP:88/172
+Makoto termina con MP:347/347
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:971/971 MP:527/527
+B-Morax HP:256/260 MP:46/46
+C-Pachacamac HP:280/287 MP:278/278
+D-Plasma HP:179/179 MP:88/172
+Equipo de Makoto (J2)
+A-Makoto HP:436/597 MP:347/347
+B-Ishtar HP:106/258 MP:251/251
+C-Astaroth HP:300/406 MP:181/181
+D-Churel HP:91/197 MP:190/190
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Astaroth
+2-Ishtar
+3-Churel
+4-Makoto
+----------------------------------------
+Seleccione una acción para Astaroth
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:971/971 MP:527/527
+B-Morax HP:256/260 MP:46/46
+C-Pachacamac HP:280/287 MP:278/278
+D-Plasma HP:179/179 MP:88/172
+Equipo de Makoto (J2)
+A-Makoto HP:436/597 MP:347/347
+B-Ishtar HP:106/258 MP:251/251
+C-Astaroth HP:300/406 MP:181/181
+D-Churel HP:91/197 MP:190/190
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Ishtar
+2-Churel
+3-Makoto
+4-Astaroth
+----------------------------------------
+Seleccione una acción para Ishtar
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Ishtar use
+1-Megidola MP:40
+2-Doping MP:45
+3-Samarecarm MP:40
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Ishtar
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:971/971 MP:527/527
+B-Morax HP:256/260 MP:46/46
+C-Pachacamac HP:280/287 MP:278/278
+D-Plasma HP:179/179 MP:88/172
+Equipo de Makoto (J2)
+A-Makoto HP:436/597 MP:347/347
+B-Ishtar HP:106/258 MP:251/251
+C-Astaroth HP:300/406 MP:181/181
+D-Churel HP:91/197 MP:190/190
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Churel
+2-Makoto
+3-Astaroth
+4-Ishtar
+----------------------------------------
+Seleccione una acción para Churel
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:971/971 MP:527/527
+B-Morax HP:256/260 MP:46/46
+C-Pachacamac HP:280/287 MP:278/278
+D-Plasma HP:179/179 MP:88/172
+Equipo de Makoto (J2)
+A-Makoto HP:436/597 MP:347/347
+B-Ishtar HP:106/258 MP:251/251
+C-Astaroth HP:300/406 MP:181/181
+D-Churel HP:91/197 MP:190/190
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Makoto
+2-Astaroth
+3-Ishtar
+4-Churel
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:971/971 MP:527/527
+B-Morax HP:256/260 MP:46/46
+C-Pachacamac HP:280/287 MP:278/278
+D-Plasma HP:179/179 MP:88/172
+Equipo de Makoto (J2)
+A-Makoto HP:436/597 MP:347/347
+B-Ishtar HP:106/258 MP:251/251
+C-Astaroth HP:300/406 MP:181/181
+D-Churel HP:91/197 MP:190/190
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Astaroth
+2-Ishtar
+3-Churel
+4-Makoto
+----------------------------------------
+Seleccione una acción para Astaroth
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Sudama HP:203/203 MP:90/90
+2-Lilith HP:380/380 MP:369/369
+3-Chemtrail HP:437/437 MP:423/423
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Sudama ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:971/971 MP:527/527
+B-Morax HP:256/260 MP:46/46
+C-Pachacamac HP:280/287 MP:278/278
+D-Plasma HP:179/179 MP:88/172
+Equipo de Makoto (J2)
+A-Makoto HP:436/597 MP:347/347
+B-Ishtar HP:106/258 MP:251/251
+C-Sudama HP:203/203 MP:90/90
+D-Churel HP:91/197 MP:190/190
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Ishtar
+2-Churel
+3-Makoto
+4-Sudama
+----------------------------------------
+Seleccione una acción para Ishtar
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Ishtar use
+1-Megidola MP:40
+2-Doping MP:45
+3-Samarecarm MP:40
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Ishtar lanza un ataque todo poderoso a Flynn
+Flynn recibe 122 de daño
+Flynn termina con HP:849/971
+Ishtar lanza un ataque todo poderoso a Morax
+Morax recibe 122 de daño
+Morax termina con HP:134/260
+Ishtar lanza un ataque todo poderoso a Pachacamac
+Pachacamac recibe 122 de daño
+Pachacamac termina con HP:158/287
+Ishtar lanza un ataque todo poderoso a Plasma
+Plasma recibe 122 de daño
+Plasma termina con HP:57/179
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:849/971 MP:527/527
+B-Morax HP:134/260 MP:46/46
+C-Pachacamac HP:158/287 MP:278/278
+D-Plasma HP:57/179 MP:88/172
+Equipo de Makoto (J2)
+A-Makoto HP:436/597 MP:347/347
+B-Ishtar HP:106/258 MP:211/251
+C-Sudama HP:203/203 MP:90/90
+D-Churel HP:91/197 MP:190/190
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Pachacamac
+3-Plasma
+4-Morax
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Makoto HP:436/597 MP:347/347
+2-Ishtar HP:106/258 MP:211/251
+3-Sudama HP:203/203 MP:90/90
+4-Churel HP:91/197 MP:190/190
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Flynn ataca a Makoto
+Makoto es resistente el ataque de Flynn
+Makoto recibe 44 de daño
+Makoto termina con HP:392/597
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:849/971 MP:527/527
+B-Morax HP:134/260 MP:46/46
+C-Pachacamac HP:158/287 MP:278/278
+D-Plasma HP:57/179 MP:88/172
+Equipo de Makoto (J2)
+A-Makoto HP:392/597 MP:347/347
+B-Ishtar HP:106/258 MP:211/251
+C-Sudama HP:203/203 MP:90/90
+D-Churel HP:91/197 MP:190/190
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Pachacamac
+2-Plasma
+3-Morax
+4-Flynn
+----------------------------------------
+Seleccione una acción para Pachacamac
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:849/971 MP:527/527
+B-Morax HP:134/260 MP:46/46
+C-Pachacamac HP:158/287 MP:278/278
+D-Plasma HP:57/179 MP:88/172
+Equipo de Makoto (J2)
+A-Makoto HP:392/597 MP:347/347
+B-Ishtar HP:106/258 MP:211/251
+C-Sudama HP:203/203 MP:90/90
+D-Churel HP:91/197 MP:190/190
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Plasma
+2-Morax
+3-Flynn
+4-Pachacamac
+----------------------------------------
+Seleccione una acción para Plasma
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:849/971 MP:527/527
+B-Morax HP:134/260 MP:46/46
+C-Pachacamac HP:158/287 MP:278/278
+D-Plasma HP:57/179 MP:88/172
+Equipo de Makoto (J2)
+A-Makoto HP:392/597 MP:347/347
+B-Ishtar HP:106/258 MP:211/251
+C-Sudama HP:203/203 MP:90/90
+D-Churel HP:91/197 MP:190/190
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Morax
+2-Flynn
+3-Pachacamac
+4-Plasma
+----------------------------------------
+Seleccione una acción para Morax
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:849/971 MP:527/527
+B-Morax HP:134/260 MP:46/46
+C-Pachacamac HP:158/287 MP:278/278
+D-Plasma HP:57/179 MP:88/172
+Equipo de Makoto (J2)
+A-Makoto HP:392/597 MP:347/347
+B-Ishtar HP:106/258 MP:211/251
+C-Sudama HP:203/203 MP:90/90
+D-Churel HP:91/197 MP:190/190
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Flynn
+2-Pachacamac
+3-Plasma
+4-Morax
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:849/971 MP:527/527
+B-Morax HP:134/260 MP:46/46
+C-Pachacamac HP:158/287 MP:278/278
+D-Plasma HP:57/179 MP:88/172
+Equipo de Makoto (J2)
+A-Makoto HP:392/597 MP:347/347
+B-Ishtar HP:106/258 MP:211/251
+C-Sudama HP:203/203 MP:90/90
+D-Churel HP:91/197 MP:190/190
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Pachacamac
+2-Plasma
+3-Morax
+4-Flynn
+----------------------------------------
+Seleccione una acción para Pachacamac
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Taraka HP:624/624 MP:124/124
+2-Baal HP:560/560 MP:252/252
+3-Power HP:407/407 MP:81/81
+4-Quicksilver HP:203/203 MP:90/90
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Quicksilver ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:849/971 MP:527/527
+B-Morax HP:134/260 MP:46/46
+C-Quicksilver HP:203/203 MP:90/90
+D-Plasma HP:57/179 MP:88/172
+Equipo de Makoto (J2)
+A-Makoto HP:392/597 MP:347/347
+B-Ishtar HP:106/258 MP:211/251
+C-Sudama HP:203/203 MP:90/90
+D-Churel HP:91/197 MP:190/190
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Plasma
+2-Morax
+3-Flynn
+4-Quicksilver
+----------------------------------------
+Seleccione una acción para Plasma
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Makoto (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:849/971 MP:527/527
+B-Morax HP:134/260 MP:46/46
+C-Quicksilver HP:203/203 MP:90/90
+D-Plasma HP:57/179 MP:88/172
+Equipo de Makoto (J2)
+A-Makoto HP:392/597 MP:347/347
+B-Ishtar HP:106/258 MP:211/251
+C-Sudama HP:203/203 MP:90/90
+D-Churel HP:91/197 MP:190/190
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Makoto
+2-Ishtar
+3-Churel
+4-Sudama
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Makoto use
+1-Spirit Drain MP:5
+2-Zanma MP:8
+3-Zionga MP:8
+4-Debilitate MP:50
+5-Shock MP:21
+6-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Makoto
+1-Flynn HP:849/971 MP:527/527
+2-Morax HP:134/260 MP:46/46
+3-Quicksilver HP:203/203 MP:90/90
+4-Plasma HP:57/179 MP:88/172
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:849/971 MP:527/527
+B-Morax HP:134/260 MP:46/46
+C-Quicksilver HP:203/203 MP:90/90
+D-Plasma HP:57/179 MP:88/172
+Equipo de Makoto (J2)
+A-Makoto HP:392/597 MP:347/347
+B-Ishtar HP:106/258 MP:211/251
+C-Sudama HP:203/203 MP:90/90
+D-Churel HP:91/197 MP:190/190
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Ishtar
+2-Churel
+3-Sudama
+4-Makoto
+----------------------------------------
+Seleccione una acción para Ishtar
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:849/971 MP:527/527
+B-Morax HP:134/260 MP:46/46
+C-Quicksilver HP:203/203 MP:90/90
+D-Plasma HP:57/179 MP:88/172
+Equipo de Makoto (J2)
+A-Makoto HP:392/597 MP:347/347
+B-Ishtar HP:106/258 MP:211/251
+C-Sudama HP:203/203 MP:90/90
+D-Churel HP:91/197 MP:190/190
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Churel
+2-Sudama
+3-Makoto
+4-Ishtar
+----------------------------------------
+Seleccione una acción para Churel
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Astaroth HP:300/406 MP:181/181
+2-Lilith HP:380/380 MP:369/369
+3-Chemtrail HP:437/437 MP:423/423
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Churel
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Astaroth HP:300/406 MP:181/181
+2-Lilith HP:380/380 MP:369/369
+3-Chemtrail HP:437/437 MP:423/423
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Chemtrail ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:849/971 MP:527/527
+B-Morax HP:134/260 MP:46/46
+C-Quicksilver HP:203/203 MP:90/90
+D-Plasma HP:57/179 MP:88/172
+Equipo de Makoto (J2)
+A-Makoto HP:392/597 MP:347/347
+B-Ishtar HP:106/258 MP:211/251
+C-Sudama HP:203/203 MP:90/90
+D-Chemtrail HP:437/437 MP:423/423
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Sudama
+2-Makoto
+3-Ishtar
+4-Chemtrail
+----------------------------------------
+Seleccione una acción para Sudama
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Sudama use
+1-Shock MP:21
+2-Pulinpa MP:5
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Sudama lanza electricidad a Flynn
+Flynn recibe 66 de daño
+Flynn termina con HP:783/971
+Sudama lanza electricidad a Quicksilver
+Quicksilver devuelve 66 daño a Sudama
+Sudama termina con HP:137/203
+Sudama lanza electricidad a Plasma
+Plasma absorbe 66 daño
+Plasma termina con HP:123/179
+----------------------------------------
+Se han consumido 2 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:783/971 MP:527/527
+B-Morax HP:134/260 MP:46/46
+C-Quicksilver HP:203/203 MP:90/90
+D-Plasma HP:123/179 MP:88/172
+Equipo de Makoto (J2)
+A-Makoto HP:392/597 MP:347/347
+B-Ishtar HP:106/258 MP:211/251
+C-Sudama HP:137/203 MP:69/90
+D-Chemtrail HP:437/437 MP:423/423
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Quicksilver
+3-Plasma
+4-Morax
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Pachacamac HP:158/287 MP:278/278
+2-Taraka HP:624/624 MP:124/124
+3-Baal HP:560/560 MP:252/252
+4-Power HP:407/407 MP:81/81
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una posición para invocar
+1-Morax HP:134/260 MP:46/46 (Puesto 2)
+2-Quicksilver HP:203/203 MP:90/90 (Puesto 3)
+3-Plasma HP:123/179 MP:88/172 (Puesto 4)
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Baal ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:783/971 MP:527/527
+B-Baal HP:560/560 MP:252/252
+C-Quicksilver HP:203/203 MP:90/90
+D-Plasma HP:123/179 MP:88/172
+Equipo de Makoto (J2)
+A-Makoto HP:392/597 MP:347/347
+B-Ishtar HP:106/258 MP:211/251
+C-Sudama HP:137/203 MP:69/90
+D-Chemtrail HP:437/437 MP:423/423
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Quicksilver
+2-Plasma
+3-Baal
+4-Flynn
+----------------------------------------
+Seleccione una acción para Quicksilver
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Quicksilver
+1-Makoto HP:392/597 MP:347/347
+2-Ishtar HP:106/258 MP:211/251
+3-Sudama HP:137/203 MP:69/90
+4-Chemtrail HP:437/437 MP:423/423
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Quicksilver ataca a Ishtar
+Ishtar recibe 15 de daño
+Ishtar termina con HP:91/258
+Makoto contra ataca a Quicksilver
+Quicksilver recibe 3 de daño
+Quicksilver termina con HP:200/203
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:783/971 MP:527/527
+B-Baal HP:560/560 MP:252/252
+C-Quicksilver HP:200/203 MP:90/90
+D-Plasma HP:123/179 MP:88/172
+Equipo de Makoto (J2)
+A-Makoto HP:392/597 MP:347/347
+B-Ishtar HP:91/258 MP:211/251
+C-Sudama HP:137/203 MP:69/90
+D-Chemtrail HP:437/437 MP:423/423
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Plasma
+2-Baal
+3-Flynn
+4-Quicksilver
+----------------------------------------
+Seleccione una acción para Plasma
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Morax HP:134/260 MP:46/46
+2-Pachacamac HP:158/287 MP:278/278
+3-Taraka HP:624/624 MP:124/124
+4-Power HP:407/407 MP:81/81
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Power ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:783/971 MP:527/527
+B-Baal HP:560/560 MP:252/252
+C-Quicksilver HP:200/203 MP:90/90
+D-Power HP:407/407 MP:81/81
+Equipo de Makoto (J2)
+A-Makoto HP:392/597 MP:347/347
+B-Ishtar HP:91/258 MP:211/251
+C-Sudama HP:137/203 MP:69/90
+D-Chemtrail HP:437/437 MP:423/423
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Baal
+2-Flynn
+3-Quicksilver
+4-Power
+----------------------------------------
+Seleccione una acción para Baal
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Baal
+1-Makoto HP:392/597 MP:347/347
+2-Ishtar HP:91/258 MP:211/251
+3-Sudama HP:137/203 MP:69/90
+4-Chemtrail HP:437/437 MP:423/423
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Baal ataca a Ishtar
+Ishtar recibe 46 de daño
+Ishtar termina con HP:45/258
+Makoto contra ataca a Baal
+Baal recibe 11 de daño
+Baal termina con HP:549/560
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:783/971 MP:527/527
+B-Baal HP:549/560 MP:252/252
+C-Quicksilver HP:200/203 MP:90/90
+D-Power HP:407/407 MP:81/81
+Equipo de Makoto (J2)
+A-Makoto HP:392/597 MP:347/347
+B-Ishtar HP:45/258 MP:211/251
+C-Sudama HP:137/203 MP:69/90
+D-Chemtrail HP:437/437 MP:423/423
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Quicksilver
+3-Power
+4-Baal
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Makoto HP:392/597 MP:347/347
+2-Ishtar HP:45/258 MP:211/251
+3-Sudama HP:137/203 MP:69/90
+4-Chemtrail HP:437/437 MP:423/423
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Flynn dispara a Makoto
+Makoto es resistente el ataque de Flynn
+Makoto recibe 55 de daño
+Makoto termina con HP:337/597
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:783/971 MP:527/527
+B-Baal HP:549/560 MP:252/252
+C-Quicksilver HP:200/203 MP:90/90
+D-Power HP:407/407 MP:81/81
+Equipo de Makoto (J2)
+A-Makoto HP:337/597 MP:347/347
+B-Ishtar HP:45/258 MP:211/251
+C-Sudama HP:137/203 MP:69/90
+D-Chemtrail HP:437/437 MP:423/423
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Quicksilver
+2-Power
+3-Baal
+4-Flynn
+----------------------------------------
+Seleccione una acción para Quicksilver
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Quicksilver use
+1-Mazio MP:11
+2-Panic Caster MP:10
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Quicksilver
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Morax HP:134/260 MP:46/46
+2-Pachacamac HP:158/287 MP:278/278
+3-Plasma HP:123/179 MP:88/172
+4-Taraka HP:624/624 MP:124/124
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Pachacamac ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:783/971 MP:527/527
+B-Baal HP:549/560 MP:252/252
+C-Pachacamac HP:158/287 MP:278/278
+D-Power HP:407/407 MP:81/81
+Equipo de Makoto (J2)
+A-Makoto HP:337/597 MP:347/347
+B-Ishtar HP:45/258 MP:211/251
+C-Sudama HP:137/203 MP:69/90
+D-Chemtrail HP:437/437 MP:423/423
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Power
+2-Baal
+3-Flynn
+4-Pachacamac
+----------------------------------------
+Seleccione una acción para Power
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Morax HP:134/260 MP:46/46
+2-Plasma HP:123/179 MP:88/172
+3-Taraka HP:624/624 MP:124/124
+4-Quicksilver HP:200/203 MP:90/90
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Plasma ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Makoto (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:783/971 MP:527/527
+B-Baal HP:549/560 MP:252/252
+C-Pachacamac HP:158/287 MP:278/278
+D-Plasma HP:123/179 MP:88/172
+Equipo de Makoto (J2)
+A-Makoto HP:337/597 MP:347/347
+B-Ishtar HP:45/258 MP:211/251
+C-Sudama HP:137/203 MP:69/90
+D-Chemtrail HP:437/437 MP:423/423
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Makoto
+2-Chemtrail
+3-Ishtar
+4-Sudama
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Makoto
+1-Flynn HP:783/971 MP:527/527
+2-Baal HP:549/560 MP:252/252
+3-Pachacamac HP:158/287 MP:278/278
+4-Plasma HP:123/179 MP:88/172
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Makoto dispara a Plasma
+Plasma es resistente el ataque de Makoto
+Plasma recibe 28 de daño
+Plasma termina con HP:95/179
+Baal contra ataca a Makoto
+Makoto recibe 14 de daño
+Makoto termina con HP:323/597
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:783/971 MP:527/527
+B-Baal HP:549/560 MP:252/252
+C-Pachacamac HP:158/287 MP:278/278
+D-Plasma HP:95/179 MP:88/172
+Equipo de Makoto (J2)
+A-Makoto HP:323/597 MP:347/347
+B-Ishtar HP:45/258 MP:211/251
+C-Sudama HP:137/203 MP:69/90
+D-Chemtrail HP:437/437 MP:423/423
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Chemtrail
+2-Ishtar
+3-Sudama
+4-Makoto
+----------------------------------------
+Seleccione una acción para Chemtrail
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Astaroth HP:300/406 MP:181/181
+2-Churel HP:91/197 MP:190/190
+3-Lilith HP:380/380 MP:369/369
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Astaroth ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:783/971 MP:527/527
+B-Baal HP:549/560 MP:252/252
+C-Pachacamac HP:158/287 MP:278/278
+D-Plasma HP:95/179 MP:88/172
+Equipo de Makoto (J2)
+A-Makoto HP:323/597 MP:347/347
+B-Ishtar HP:45/258 MP:211/251
+C-Sudama HP:137/203 MP:69/90
+D-Astaroth HP:300/406 MP:181/181
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Ishtar
+2-Sudama
+3-Makoto
+4-Astaroth
+----------------------------------------
+Seleccione una acción para Ishtar
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Churel HP:91/197 MP:190/190
+2-Lilith HP:380/380 MP:369/369
+3-Chemtrail HP:437/437 MP:423/423
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Ishtar
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Churel HP:91/197 MP:190/190
+2-Lilith HP:380/380 MP:369/369
+3-Chemtrail HP:437/437 MP:423/423
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Churel ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:783/971 MP:527/527
+B-Baal HP:549/560 MP:252/252
+C-Pachacamac HP:158/287 MP:278/278
+D-Plasma HP:95/179 MP:88/172
+Equipo de Makoto (J2)
+A-Makoto HP:323/597 MP:347/347
+B-Churel HP:91/197 MP:190/190
+C-Sudama HP:137/203 MP:69/90
+D-Astaroth HP:300/406 MP:181/181
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Sudama
+2-Makoto
+3-Astaroth
+4-Churel
+----------------------------------------
+Seleccione una acción para Sudama
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Sudama
+1-Flynn HP:783/971 MP:527/527
+2-Baal HP:549/560 MP:252/252
+3-Pachacamac HP:158/287 MP:278/278
+4-Plasma HP:95/179 MP:88/172
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Sudama ataca a Pachacamac
+Pachacamac recibe 15 de daño
+Pachacamac termina con HP:143/287
+Baal contra ataca a Sudama
+Sudama recibe 7 de daño
+Sudama termina con HP:130/203
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:783/971 MP:527/527
+B-Baal HP:549/560 MP:252/252
+C-Pachacamac HP:143/287 MP:278/278
+D-Plasma HP:95/179 MP:88/172
+Equipo de Makoto (J2)
+A-Makoto HP:323/597 MP:347/347
+B-Churel HP:91/197 MP:190/190
+C-Sudama HP:130/203 MP:69/90
+D-Astaroth HP:300/406 MP:181/181
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Makoto
+2-Astaroth
+3-Churel
+4-Sudama
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Ishtar HP:45/258 MP:211/251
+2-Lilith HP:380/380 MP:369/369
+3-Chemtrail HP:437/437 MP:423/423
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una posición para invocar
+1-Churel HP:91/197 MP:190/190 (Puesto 2)
+2-Sudama HP:130/203 MP:69/90 (Puesto 3)
+3-Astaroth HP:300/406 MP:181/181 (Puesto 4)
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Ishtar ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:783/971 MP:527/527
+B-Baal HP:549/560 MP:252/252
+C-Pachacamac HP:143/287 MP:278/278
+D-Plasma HP:95/179 MP:88/172
+Equipo de Makoto (J2)
+A-Makoto HP:323/597 MP:347/347
+B-Churel HP:91/197 MP:190/190
+C-Ishtar HP:45/258 MP:211/251
+D-Astaroth HP:300/406 MP:181/181
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Astaroth
+2-Churel
+3-Ishtar
+4-Makoto
+----------------------------------------
+Seleccione una acción para Astaroth
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:783/971 MP:527/527
+B-Baal HP:549/560 MP:252/252
+C-Pachacamac HP:143/287 MP:278/278
+D-Plasma HP:95/179 MP:88/172
+Equipo de Makoto (J2)
+A-Makoto HP:323/597 MP:347/347
+B-Churel HP:91/197 MP:190/190
+C-Ishtar HP:45/258 MP:211/251
+D-Astaroth HP:300/406 MP:181/181
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Baal
+3-Pachacamac
+4-Plasma
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Makoto HP:323/597 MP:347/347
+2-Churel HP:91/197 MP:190/190
+3-Ishtar HP:45/258 MP:211/251
+4-Astaroth HP:300/406 MP:181/181
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Morax HP:134/260 MP:46/46
+2-Taraka HP:624/624 MP:124/124
+3-Power HP:407/407 MP:81/81
+4-Quicksilver HP:200/203 MP:90/90
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una posición para invocar
+1-Baal HP:549/560 MP:252/252 (Puesto 2)
+2-Pachacamac HP:143/287 MP:278/278 (Puesto 3)
+3-Plasma HP:95/179 MP:88/172 (Puesto 4)
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Quicksilver ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:783/971 MP:527/527
+B-Baal HP:549/560 MP:252/252
+C-Quicksilver HP:200/203 MP:90/90
+D-Plasma HP:95/179 MP:88/172
+Equipo de Makoto (J2)
+A-Makoto HP:323/597 MP:347/347
+B-Churel HP:91/197 MP:190/190
+C-Ishtar HP:45/258 MP:211/251
+D-Astaroth HP:300/406 MP:181/181
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Baal
+2-Quicksilver
+3-Plasma
+4-Flynn
+----------------------------------------
+Seleccione una acción para Baal
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:783/971 MP:527/527
+B-Baal HP:549/560 MP:252/252
+C-Quicksilver HP:200/203 MP:90/90
+D-Plasma HP:95/179 MP:88/172
+Equipo de Makoto (J2)
+A-Makoto HP:323/597 MP:347/347
+B-Churel HP:91/197 MP:190/190
+C-Ishtar HP:45/258 MP:211/251
+D-Astaroth HP:300/406 MP:181/181
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Quicksilver
+2-Plasma
+3-Flynn
+4-Baal
+----------------------------------------
+Seleccione una acción para Quicksilver
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Quicksilver use
+1-Mazio MP:11
+2-Panic Caster MP:10
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Quicksilver lanza electricidad a Makoto
+Makoto es resistente el ataque de Quicksilver
+Makoto recibe 18 de daño
+Makoto termina con HP:305/597
+Quicksilver lanza electricidad a Churel
+Churel recibe 37 de daño
+Churel termina con HP:54/197
+Quicksilver lanza electricidad a Ishtar
+Ishtar absorbe 37 daño
+Ishtar termina con HP:82/258
+Quicksilver lanza electricidad a Astaroth
+Astaroth recibe 37 de daño
+Astaroth termina con HP:263/406
+----------------------------------------
+Se han consumido 3 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Makoto (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:783/971 MP:527/527
+B-Baal HP:549/560 MP:252/252
+C-Quicksilver HP:200/203 MP:79/90
+D-Plasma HP:95/179 MP:88/172
+Equipo de Makoto (J2)
+A-Makoto HP:305/597 MP:347/347
+B-Churel HP:54/197 MP:190/190
+C-Ishtar HP:82/258 MP:211/251
+D-Astaroth HP:263/406 MP:181/181
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Makoto
+2-Astaroth
+3-Ishtar
+4-Churel
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Makoto
+1-Flynn HP:783/971 MP:527/527
+2-Baal HP:549/560 MP:252/252
+3-Quicksilver HP:200/203 MP:79/90
+4-Plasma HP:95/179 MP:88/172
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Makoto ataca a Flynn
+Flynn recibe 38 de daño
+Flynn termina con HP:745/971
+Baal contra ataca a Makoto
+Makoto recibe 19 de daño
+Makoto termina con HP:286/597
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:745/971 MP:527/527
+B-Baal HP:549/560 MP:252/252
+C-Quicksilver HP:200/203 MP:79/90
+D-Plasma HP:95/179 MP:88/172
+Equipo de Makoto (J2)
+A-Makoto HP:286/597 MP:347/347
+B-Churel HP:54/197 MP:190/190
+C-Ishtar HP:82/258 MP:211/251
+D-Astaroth HP:263/406 MP:181/181
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Astaroth
+2-Ishtar
+3-Churel
+4-Makoto
+----------------------------------------
+Seleccione una acción para Astaroth
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Sudama HP:130/203 MP:69/90
+2-Lilith HP:380/380 MP:369/369
+3-Chemtrail HP:437/437 MP:423/423
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Astaroth
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Sudama HP:130/203 MP:69/90
+2-Lilith HP:380/380 MP:369/369
+3-Chemtrail HP:437/437 MP:423/423
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Chemtrail ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:745/971 MP:527/527
+B-Baal HP:549/560 MP:252/252
+C-Quicksilver HP:200/203 MP:79/90
+D-Plasma HP:95/179 MP:88/172
+Equipo de Makoto (J2)
+A-Makoto HP:286/597 MP:347/347
+B-Churel HP:54/197 MP:190/190
+C-Ishtar HP:82/258 MP:211/251
+D-Chemtrail HP:437/437 MP:423/423
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Ishtar
+2-Churel
+3-Makoto
+4-Chemtrail
+----------------------------------------
+Seleccione una acción para Ishtar
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:745/971 MP:527/527
+B-Baal HP:549/560 MP:252/252
+C-Quicksilver HP:200/203 MP:79/90
+D-Plasma HP:95/179 MP:88/172
+Equipo de Makoto (J2)
+A-Makoto HP:286/597 MP:347/347
+B-Churel HP:54/197 MP:190/190
+C-Ishtar HP:82/258 MP:211/251
+D-Chemtrail HP:437/437 MP:423/423
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Churel
+2-Makoto
+3-Chemtrail
+4-Ishtar
+----------------------------------------
+Seleccione una acción para Churel
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Astaroth HP:263/406 MP:181/181
+2-Sudama HP:130/203 MP:69/90
+3-Lilith HP:380/380 MP:369/369
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Astaroth ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:745/971 MP:527/527
+B-Baal HP:549/560 MP:252/252
+C-Quicksilver HP:200/203 MP:79/90
+D-Plasma HP:95/179 MP:88/172
+Equipo de Makoto (J2)
+A-Makoto HP:286/597 MP:347/347
+B-Astaroth HP:263/406 MP:181/181
+C-Ishtar HP:82/258 MP:211/251
+D-Chemtrail HP:437/437 MP:423/423
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Makoto
+2-Chemtrail
+3-Ishtar
+4-Astaroth
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Makoto
+1-Flynn HP:745/971 MP:527/527
+2-Baal HP:549/560 MP:252/252
+3-Quicksilver HP:200/203 MP:79/90
+4-Plasma HP:95/179 MP:88/172
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Makoto dispara a Baal
+Baal recibe 57 de daño
+Baal termina con HP:492/560
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:745/971 MP:527/527
+B-Baal HP:492/560 MP:252/252
+C-Quicksilver HP:200/203 MP:79/90
+D-Plasma HP:95/179 MP:88/172
+Equipo de Makoto (J2)
+A-Makoto HP:286/597 MP:347/347
+B-Astaroth HP:263/406 MP:181/181
+C-Ishtar HP:82/258 MP:211/251
+D-Chemtrail HP:437/437 MP:423/423
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Chemtrail
+2-Ishtar
+3-Astaroth
+4-Makoto
+----------------------------------------
+Seleccione una acción para Chemtrail
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Chemtrail use
+1-Shivering Taboo MP:40
+2-Fog Breath MP:45
+3-Acid Breath MP:45
+4-Riot Gun MP:30
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione un objetivo para Chemtrail
+1-Flynn HP:745/971 MP:527/527
+2-Baal HP:492/560 MP:252/252
+3-Quicksilver HP:200/203 MP:79/90
+4-Plasma HP:95/179 MP:88/172
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Chemtrail dispara a Plasma
+Plasma es resistente el ataque de Chemtrail
+Plasma recibe 86 de daño
+Plasma termina con HP:9/179
+Baal contra ataca a Chemtrail
+Chemtrail recibe 43 de daño
+Chemtrail termina con HP:394/437
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:745/971 MP:527/527
+B-Baal HP:492/560 MP:252/252
+C-Quicksilver HP:200/203 MP:79/90
+D-Plasma HP:9/179 MP:88/172
+Equipo de Makoto (J2)
+A-Makoto HP:286/597 MP:347/347
+B-Astaroth HP:263/406 MP:181/181
+C-Ishtar HP:82/258 MP:211/251
+D-Chemtrail HP:394/437 MP:393/423
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Baal
+3-Quicksilver
+4-Plasma
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Makoto HP:286/597 MP:347/347
+2-Astaroth HP:263/406 MP:181/181
+3-Ishtar HP:82/258 MP:211/251
+4-Chemtrail HP:394/437 MP:393/423
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Flynn dispara a Astaroth
+Astaroth recibe 110 de daño
+Astaroth termina con HP:153/406
+Makoto contra ataca a Flynn
+Flynn recibe 27 de daño
+Flynn termina con HP:718/971
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:718/971 MP:527/527
+B-Baal HP:492/560 MP:252/252
+C-Quicksilver HP:200/203 MP:79/90
+D-Plasma HP:9/179 MP:88/172
+Equipo de Makoto (J2)
+A-Makoto HP:286/597 MP:347/347
+B-Astaroth HP:153/406 MP:181/181
+C-Ishtar HP:82/258 MP:211/251
+D-Chemtrail HP:394/437 MP:393/423
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Baal
+2-Quicksilver
+3-Plasma
+4-Flynn
+----------------------------------------
+Seleccione una acción para Baal
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Morax HP:134/260 MP:46/46
+2-Pachacamac HP:143/287 MP:278/278
+3-Taraka HP:624/624 MP:124/124
+4-Power HP:407/407 MP:81/81
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Baal
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Baal use
+1-Mazandyne MP:32
+2-Bufudyne MP:14
+3-Maziodyne MP:32
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Baal lanza electricidad a Makoto
+Makoto es resistente el ataque de Baal
+Makoto recibe 58 de daño
+Makoto termina con HP:228/597
+Baal lanza electricidad a Astaroth
+Astaroth recibe 116 de daño
+Astaroth termina con HP:37/406
+Baal lanza electricidad a Ishtar
+Ishtar absorbe 116 daño
+Ishtar termina con HP:198/258
+Baal lanza electricidad a Chemtrail
+Chemtrail recibe 116 de daño
+Chemtrail termina con HP:278/437
+----------------------------------------
+Se han consumido 3 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Makoto (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:718/971 MP:527/527
+B-Baal HP:492/560 MP:220/252
+C-Quicksilver HP:200/203 MP:79/90
+D-Plasma HP:9/179 MP:88/172
+Equipo de Makoto (J2)
+A-Makoto HP:228/597 MP:347/347
+B-Astaroth HP:37/406 MP:181/181
+C-Ishtar HP:198/258 MP:211/251
+D-Chemtrail HP:278/437 MP:393/423
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Makoto
+2-Chemtrail
+3-Astaroth
+4-Ishtar
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:718/971 MP:527/527
+B-Baal HP:492/560 MP:220/252
+C-Quicksilver HP:200/203 MP:79/90
+D-Plasma HP:9/179 MP:88/172
+Equipo de Makoto (J2)
+A-Makoto HP:228/597 MP:347/347
+B-Astaroth HP:37/406 MP:181/181
+C-Ishtar HP:198/258 MP:211/251
+D-Chemtrail HP:278/437 MP:393/423
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Chemtrail
+2-Astaroth
+3-Ishtar
+4-Makoto
+----------------------------------------
+Seleccione una acción para Chemtrail
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Chemtrail use
+1-Shivering Taboo MP:40
+2-Fog Breath MP:45
+3-Acid Breath MP:45
+4-Riot Gun MP:30
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione un objetivo para Chemtrail
+1-Flynn HP:718/971 MP:527/527
+2-Baal HP:492/560 MP:220/252
+3-Quicksilver HP:200/203 MP:79/90
+4-Plasma HP:9/179 MP:88/172
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Chemtrail dispara a Flynn
+Flynn devuelve 172 daño a Chemtrail
+Chemtrail termina con HP:106/437
+----------------------------------------
+Se han consumido 3 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:718/971 MP:527/527
+B-Baal HP:492/560 MP:220/252
+C-Quicksilver HP:200/203 MP:79/90
+D-Plasma HP:9/179 MP:88/172
+Equipo de Makoto (J2)
+A-Makoto HP:228/597 MP:347/347
+B-Astaroth HP:37/406 MP:181/181
+C-Ishtar HP:198/258 MP:211/251
+D-Chemtrail HP:106/437 MP:363/423
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Baal
+3-Quicksilver
+4-Plasma
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Makoto HP:228/597 MP:347/347
+2-Astaroth HP:37/406 MP:181/181
+3-Ishtar HP:198/258 MP:211/251
+4-Chemtrail HP:106/437 MP:363/423
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Flynn ataca a Astaroth
+Astaroth recibe 88 de daño
+Astaroth termina con HP:0/406
+Makoto contra ataca a Flynn
+Flynn recibe 22 de daño
+Flynn termina con HP:696/971
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:696/971 MP:527/527
+B-Baal HP:492/560 MP:220/252
+C-Quicksilver HP:200/203 MP:79/90
+D-Plasma HP:9/179 MP:88/172
+Equipo de Makoto (J2)
+A-Makoto HP:228/597 MP:347/347
+B-
+C-Ishtar HP:198/258 MP:211/251
+D-Chemtrail HP:106/437 MP:363/423
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Baal
+2-Quicksilver
+3-Plasma
+4-Flynn
+----------------------------------------
+Seleccione una acción para Baal
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Baal use
+1-Mazandyne MP:32
+2-Bufudyne MP:14
+3-Maziodyne MP:32
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Baal
+1-Makoto HP:228/597 MP:347/347
+2-Ishtar HP:198/258 MP:211/251
+3-Chemtrail HP:106/437 MP:363/423
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Baal lanza hielo a Chemtrail
+Chemtrail recibe 126 de daño
+Chemtrail termina con HP:0/437
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:696/971 MP:527/527
+B-Baal HP:492/560 MP:206/252
+C-Quicksilver HP:200/203 MP:79/90
+D-Plasma HP:9/179 MP:88/172
+Equipo de Makoto (J2)
+A-Makoto HP:228/597 MP:347/347
+B-
+C-Ishtar HP:198/258 MP:211/251
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Quicksilver
+2-Plasma
+3-Flynn
+4-Baal
+----------------------------------------
+Seleccione una acción para Quicksilver
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Quicksilver use
+1-Mazio MP:11
+2-Panic Caster MP:10
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Quicksilver lanza electricidad a Makoto
+Makoto es resistente el ataque de Quicksilver
+Makoto recibe 18 de daño
+Makoto termina con HP:210/597
+Quicksilver lanza electricidad a Ishtar
+Ishtar absorbe 37 daño
+Ishtar termina con HP:235/258
+----------------------------------------
+Se han consumido 2 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Makoto (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:696/971 MP:527/527
+B-Baal HP:492/560 MP:206/252
+C-Quicksilver HP:200/203 MP:68/90
+D-Plasma HP:9/179 MP:88/172
+Equipo de Makoto (J2)
+A-Makoto HP:210/597 MP:347/347
+B-
+C-Ishtar HP:235/258 MP:211/251
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Makoto
+2-Ishtar
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Churel HP:54/197 MP:190/190
+2-Sudama HP:130/203 MP:69/90
+3-Lilith HP:380/380 MP:369/369
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una posición para invocar
+1-Vacío (Puesto 2)
+2-Ishtar HP:235/258 MP:211/251 (Puesto 3)
+3-Vacío (Puesto 4)
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Makoto
+1-Flynn HP:696/971 MP:527/527
+2-Baal HP:492/560 MP:206/252
+3-Quicksilver HP:200/203 MP:68/90
+4-Plasma HP:9/179 MP:88/172
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Makoto dispara a Baal
+Baal recibe 57 de daño
+Baal termina con HP:435/560
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:696/971 MP:527/527
+B-Baal HP:435/560 MP:206/252
+C-Quicksilver HP:200/203 MP:68/90
+D-Plasma HP:9/179 MP:88/172
+Equipo de Makoto (J2)
+A-Makoto HP:210/597 MP:347/347
+B-
+C-Ishtar HP:235/258 MP:211/251
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Ishtar
+2-Makoto
+----------------------------------------
+Seleccione una acción para Ishtar
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Ishtar use
+1-Megidola MP:40
+2-Doping MP:45
+3-Samarecarm MP:40
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Ishtar lanza un ataque todo poderoso a Flynn
+Flynn recibe 122 de daño
+Flynn termina con HP:574/971
+Ishtar lanza un ataque todo poderoso a Baal
+Baal recibe 122 de daño
+Baal termina con HP:313/560
+Ishtar lanza un ataque todo poderoso a Quicksilver
+Quicksilver recibe 122 de daño
+Quicksilver termina con HP:78/203
+Ishtar lanza un ataque todo poderoso a Plasma
+Plasma recibe 122 de daño
+Plasma termina con HP:0/179
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:574/971 MP:527/527
+B-Baal HP:313/560 MP:206/252
+C-Quicksilver HP:78/203 MP:68/90
+D-
+Equipo de Makoto (J2)
+A-Makoto HP:210/597 MP:347/347
+B-
+C-Ishtar HP:235/258 MP:171/251
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Baal
+3-Quicksilver
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:574/971 MP:527/527
+B-Baal HP:313/560 MP:206/252
+C-Quicksilver HP:78/203 MP:68/90
+D-
+Equipo de Makoto (J2)
+A-Makoto HP:210/597 MP:347/347
+B-
+C-Ishtar HP:235/258 MP:171/251
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Baal
+2-Quicksilver
+3-Flynn
+----------------------------------------
+Seleccione una acción para Baal
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:574/971 MP:527/527
+B-Baal HP:313/560 MP:206/252
+C-Quicksilver HP:78/203 MP:68/90
+D-
+Equipo de Makoto (J2)
+A-Makoto HP:210/597 MP:347/347
+B-
+C-Ishtar HP:235/258 MP:171/251
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Quicksilver
+2-Flynn
+3-Baal
+----------------------------------------
+Seleccione una acción para Quicksilver
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Quicksilver use
+1-Mazio MP:11
+2-Panic Caster MP:10
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Quicksilver
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Quicksilver
+1-Makoto HP:210/597 MP:347/347
+2-Ishtar HP:235/258 MP:171/251
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Quicksilver ataca a Makoto
+Makoto es resistente el ataque de Quicksilver
+Makoto recibe 7 de daño
+Makoto termina con HP:203/597
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:574/971 MP:527/527
+B-Baal HP:313/560 MP:206/252
+C-Quicksilver HP:78/203 MP:68/90
+D-
+Equipo de Makoto (J2)
+A-Makoto HP:203/597 MP:347/347
+B-
+C-Ishtar HP:235/258 MP:171/251
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Baal
+3-Quicksilver
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Makoto HP:203/597 MP:347/347
+2-Ishtar HP:235/258 MP:171/251
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Flynn dispara a Makoto
+Makoto es resistente el ataque de Flynn
+Makoto recibe 55 de daño
+Makoto termina con HP:148/597
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Makoto (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:574/971 MP:527/527
+B-Baal HP:313/560 MP:206/252
+C-Quicksilver HP:78/203 MP:68/90
+D-
+Equipo de Makoto (J2)
+A-Makoto HP:148/597 MP:347/347
+B-
+C-Ishtar HP:235/258 MP:171/251
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Makoto
+2-Ishtar
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Churel HP:54/197 MP:190/190
+2-Sudama HP:130/203 MP:69/90
+3-Lilith HP:380/380 MP:369/369
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una posición para invocar
+1-Vacío (Puesto 2)
+2-Ishtar HP:235/258 MP:171/251 (Puesto 3)
+3-Vacío (Puesto 4)
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Lilith ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:574/971 MP:527/527
+B-Baal HP:313/560 MP:206/252
+C-Quicksilver HP:78/203 MP:68/90
+D-
+Equipo de Makoto (J2)
+A-Makoto HP:148/597 MP:347/347
+B-
+C-Lilith HP:380/380 MP:369/369
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Lilith
+2-Makoto
+----------------------------------------
+Seleccione una acción para Lilith
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Lilith use
+1-Lullaby MP:11
+2-Spirit Drain MP:5
+3-Charm Lightning MP:45
+4-Mediarahan MP:40
+5-Invitation MP:45
+6-Cancelar
+INPUT: 4
+----------------------------------------
+Lilith cura a Makoto
+Makoto recibe 597 de HP
+Makoto termina con HP:597/597
+Lilith cura a Lilith
+Lilith recibe 380 de HP
+Lilith termina con HP:380/380
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:574/971 MP:527/527
+B-Baal HP:313/560 MP:206/252
+C-Quicksilver HP:78/203 MP:68/90
+D-
+Equipo de Makoto (J2)
+A-Makoto HP:597/597 MP:347/347
+B-
+C-Lilith HP:380/380 MP:329/369
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Makoto
+2-Lilith
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Makoto
+1-Flynn HP:574/971 MP:527/527
+2-Baal HP:313/560 MP:206/252
+3-Quicksilver HP:78/203 MP:68/90
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Makoto ataca a Baal
+Baal recibe 38 de daño
+Baal termina con HP:275/560
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:574/971 MP:527/527
+B-Baal HP:275/560 MP:206/252
+C-Quicksilver HP:78/203 MP:68/90
+D-
+Equipo de Makoto (J2)
+A-Makoto HP:597/597 MP:347/347
+B-
+C-Lilith HP:380/380 MP:329/369
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Baal
+3-Quicksilver
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Flynn use
+1-Damascus Claw MP:7
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Makoto HP:597/597 MP:347/347
+2-Lilith HP:380/380 MP:329/369
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Flynn use
+1-Damascus Claw MP:7
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Makoto HP:597/597 MP:347/347
+2-Lilith HP:380/380 MP:329/369
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Makoto HP:597/597 MP:347/347
+2-Lilith HP:380/380 MP:329/369
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Flynn ataca a Makoto
+Makoto es resistente el ataque de Flynn
+Makoto recibe 44 de daño
+Makoto termina con HP:553/597
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:574/971 MP:527/527
+B-Baal HP:275/560 MP:206/252
+C-Quicksilver HP:78/203 MP:68/90
+D-
+Equipo de Makoto (J2)
+A-Makoto HP:553/597 MP:347/347
+B-
+C-Lilith HP:380/380 MP:329/369
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Baal
+2-Quicksilver
+3-Flynn
+----------------------------------------
+Seleccione una acción para Baal
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Baal
+1-Makoto HP:553/597 MP:347/347
+2-Lilith HP:380/380 MP:329/369
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Baal ataca a Lilith
+Lilith recibe 46 de daño
+Lilith termina con HP:334/380
+Makoto contra ataca a Baal
+Baal recibe 11 de daño
+Baal termina con HP:264/560
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:574/971 MP:527/527
+B-Baal HP:264/560 MP:206/252
+C-Quicksilver HP:78/203 MP:68/90
+D-
+Equipo de Makoto (J2)
+A-Makoto HP:553/597 MP:347/347
+B-
+C-Lilith HP:334/380 MP:329/369
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Quicksilver
+2-Flynn
+3-Baal
+----------------------------------------
+Seleccione una acción para Quicksilver
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Quicksilver
+1-Makoto HP:553/597 MP:347/347
+2-Lilith HP:334/380 MP:329/369
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Quicksilver ataca a Lilith
+Lilith recibe 15 de daño
+Lilith termina con HP:319/380
+Makoto contra ataca a Quicksilver
+Quicksilver recibe 3 de daño
+Quicksilver termina con HP:75/203
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Makoto (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:574/971 MP:527/527
+B-Baal HP:264/560 MP:206/252
+C-Quicksilver HP:75/203 MP:68/90
+D-
+Equipo de Makoto (J2)
+A-Makoto HP:553/597 MP:347/347
+B-
+C-Lilith HP:319/380 MP:329/369
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Makoto
+2-Lilith
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Makoto use
+1-Spirit Drain MP:5
+2-Zanma MP:8
+3-Zionga MP:8
+4-Debilitate MP:50
+5-Shock MP:21
+6-Cancelar
+INPUT: 6
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Makoto
+1-Flynn HP:574/971 MP:527/527
+2-Baal HP:264/560 MP:206/252
+3-Quicksilver HP:75/203 MP:68/90
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Makoto dispara a Quicksilver
+Quicksilver bloquea el ataque de Makoto
+Quicksilver termina con HP:75/203
+----------------------------------------
+Se han consumido 2 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:574/971 MP:527/527
+B-Baal HP:264/560 MP:206/252
+C-Quicksilver HP:75/203 MP:68/90
+D-
+Equipo de Makoto (J2)
+A-Makoto HP:553/597 MP:347/347
+B-
+C-Lilith HP:319/380 MP:329/369
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Baal
+3-Quicksilver
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Makoto HP:553/597 MP:347/347
+2-Lilith HP:319/380 MP:329/369
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Morax HP:134/260 MP:46/46
+2-Pachacamac HP:143/287 MP:278/278
+3-Taraka HP:624/624 MP:124/124
+4-Power HP:407/407 MP:81/81
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una posición para invocar
+1-Baal HP:264/560 MP:206/252 (Puesto 2)
+2-Quicksilver HP:75/203 MP:68/90 (Puesto 3)
+3-Vacío (Puesto 4)
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Power ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:574/971 MP:527/527
+B-Power HP:407/407 MP:81/81
+C-Quicksilver HP:75/203 MP:68/90
+D-
+Equipo de Makoto (J2)
+A-Makoto HP:553/597 MP:347/347
+B-
+C-Lilith HP:319/380 MP:329/369
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Power
+2-Quicksilver
+3-Flynn
+----------------------------------------
+Seleccione una acción para Power
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:574/971 MP:527/527
+B-Power HP:407/407 MP:81/81
+C-Quicksilver HP:75/203 MP:68/90
+D-
+Equipo de Makoto (J2)
+A-Makoto HP:553/597 MP:347/347
+B-
+C-Lilith HP:319/380 MP:329/369
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Quicksilver
+2-Flynn
+3-Power
+----------------------------------------
+Seleccione una acción para Quicksilver
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:574/971 MP:527/527
+B-Power HP:407/407 MP:81/81
+C-Quicksilver HP:75/203 MP:68/90
+D-
+Equipo de Makoto (J2)
+A-Makoto HP:553/597 MP:347/347
+B-
+C-Lilith HP:319/380 MP:329/369
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Flynn
+2-Power
+3-Quicksilver
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Morax HP:134/260 MP:46/46
+2-Pachacamac HP:143/287 MP:278/278
+3-Taraka HP:624/624 MP:124/124
+4-Baal HP:264/560 MP:206/252
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una posición para invocar
+1-Power HP:407/407 MP:81/81 (Puesto 2)
+2-Quicksilver HP:75/203 MP:68/90 (Puesto 3)
+3-Vacío (Puesto 4)
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Pachacamac ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:574/971 MP:527/527
+B-Power HP:407/407 MP:81/81
+C-Quicksilver HP:75/203 MP:68/90
+D-Pachacamac HP:143/287 MP:278/278
+Equipo de Makoto (J2)
+A-Makoto HP:553/597 MP:347/347
+B-
+C-Lilith HP:319/380 MP:329/369
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Power
+2-Quicksilver
+3-Pachacamac
+4-Flynn
+----------------------------------------
+Seleccione una acción para Power
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Power use
+1-Tathlum Shot MP:7
+2-Diarama MP:9
+3-Megido MP:25
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Power
+1-Makoto HP:553/597 MP:347/347
+2-Lilith HP:319/380 MP:329/369
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Power dispara a Makoto
+Makoto es resistente el ataque de Power
+Makoto recibe 38 de daño
+Makoto termina con HP:515/597
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Makoto (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:574/971 MP:527/527
+B-Power HP:407/407 MP:74/81
+C-Quicksilver HP:75/203 MP:68/90
+D-Pachacamac HP:143/287 MP:278/278
+Equipo de Makoto (J2)
+A-Makoto HP:515/597 MP:347/347
+B-
+C-Lilith HP:319/380 MP:329/369
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Makoto
+2-Lilith
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Makoto
+1-Flynn HP:574/971 MP:527/527
+2-Power HP:407/407 MP:74/81
+3-Quicksilver HP:75/203 MP:68/90
+4-Pachacamac HP:143/287 MP:278/278
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Makoto use
+1-Spirit Drain MP:5
+2-Zanma MP:8
+3-Zionga MP:8
+4-Debilitate MP:50
+5-Shock MP:21
+6-Cancelar
+INPUT: 6
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Makoto
+1-Flynn HP:574/971 MP:527/527
+2-Power HP:407/407 MP:74/81
+3-Quicksilver HP:75/203 MP:68/90
+4-Pachacamac HP:143/287 MP:278/278
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Makoto
+1-Flynn HP:574/971 MP:527/527
+2-Power HP:407/407 MP:74/81
+3-Quicksilver HP:75/203 MP:68/90
+4-Pachacamac HP:143/287 MP:278/278
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Makoto dispara a Pachacamac
+Pachacamac recibe 57 de daño
+Pachacamac termina con HP:86/287
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:574/971 MP:527/527
+B-Power HP:407/407 MP:74/81
+C-Quicksilver HP:75/203 MP:68/90
+D-Pachacamac HP:86/287 MP:278/278
+Equipo de Makoto (J2)
+A-Makoto HP:515/597 MP:347/347
+B-
+C-Lilith HP:319/380 MP:329/369
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Lilith
+2-Makoto
+----------------------------------------
+Seleccione una acción para Lilith
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Lilith use
+1-Lullaby MP:11
+2-Spirit Drain MP:5
+3-Charm Lightning MP:45
+4-Mediarahan MP:40
+5-Invitation MP:45
+6-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Ishtar HP:235/258 MP:171/251
+2-Astaroth HP:0/406 MP:181/181
+3-Churel HP:54/197 MP:190/190
+4-Sudama HP:130/203 MP:69/90
+5-Chemtrail HP:0/437 MP:363/423
+6-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una posición para invocar
+1-Vacío (Puesto 2)
+2-Lilith HP:319/380 MP:329/369 (Puesto 3)
+3-Vacío (Puesto 4)
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Ishtar ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:574/971 MP:527/527
+B-Power HP:407/407 MP:74/81
+C-Quicksilver HP:75/203 MP:68/90
+D-Pachacamac HP:86/287 MP:278/278
+Equipo de Makoto (J2)
+A-Makoto HP:515/597 MP:347/347
+B-
+C-Ishtar HP:235/258 MP:171/251
+D-
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Pachacamac
+3-Power
+4-Quicksilver
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Makoto HP:515/597 MP:347/347
+2-Ishtar HP:235/258 MP:171/251
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Flynn dispara a Ishtar
+Ishtar recibe 110 de daño
+Ishtar termina con HP:125/258
+Makoto contra ataca a Flynn
+Flynn recibe 27 de daño
+Flynn termina con HP:547/971
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:547/971 MP:527/527
+B-Power HP:407/407 MP:74/81
+C-Quicksilver HP:75/203 MP:68/90
+D-Pachacamac HP:86/287 MP:278/278
+Equipo de Makoto (J2)
+A-Makoto HP:515/597 MP:347/347
+B-
+C-Ishtar HP:125/258 MP:171/251
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Pachacamac
+2-Power
+3-Quicksilver
+4-Flynn
+----------------------------------------
+Seleccione una acción para Pachacamac
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Morax HP:134/260 MP:46/46
+2-Taraka HP:624/624 MP:124/124
+3-Baal HP:264/560 MP:206/252
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Pachacamac
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:547/971 MP:527/527
+B-Power HP:407/407 MP:74/81
+C-Quicksilver HP:75/203 MP:68/90
+D-Pachacamac HP:86/287 MP:278/278
+Equipo de Makoto (J2)
+A-Makoto HP:515/597 MP:347/347
+B-
+C-Ishtar HP:125/258 MP:171/251
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Power
+2-Quicksilver
+3-Flynn
+4-Pachacamac
+----------------------------------------
+Seleccione una acción para Power
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Morax HP:134/260 MP:46/46
+2-Taraka HP:624/624 MP:124/124
+3-Baal HP:264/560 MP:206/252
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Power
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Power
+1-Makoto HP:515/597 MP:347/347
+2-Ishtar HP:125/258 MP:171/251
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Power
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Power use
+1-Tathlum Shot MP:7
+2-Diarama MP:9
+3-Megido MP:25
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Power
+1-Makoto HP:515/597 MP:347/347
+2-Ishtar HP:125/258 MP:171/251
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Power dispara a Makoto
+Makoto es resistente el ataque de Power
+Makoto recibe 38 de daño
+Makoto termina con HP:477/597
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:547/971 MP:527/527
+B-Power HP:407/407 MP:67/81
+C-Quicksilver HP:75/203 MP:68/90
+D-Pachacamac HP:86/287 MP:278/278
+Equipo de Makoto (J2)
+A-Makoto HP:477/597 MP:347/347
+B-
+C-Ishtar HP:125/258 MP:171/251
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Quicksilver
+2-Flynn
+3-Pachacamac
+4-Power
+----------------------------------------
+Seleccione una acción para Quicksilver
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:547/971 MP:527/527
+B-Power HP:407/407 MP:67/81
+C-Quicksilver HP:75/203 MP:68/90
+D-Pachacamac HP:86/287 MP:278/278
+Equipo de Makoto (J2)
+A-Makoto HP:477/597 MP:347/347
+B-
+C-Ishtar HP:125/258 MP:171/251
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Flynn
+2-Pachacamac
+3-Power
+4-Quicksilver
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Makoto HP:477/597 MP:347/347
+2-Ishtar HP:125/258 MP:171/251
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Flynn ataca a Ishtar
+Ishtar recibe 88 de daño
+Ishtar termina con HP:37/258
+Makoto contra ataca a Flynn
+Flynn recibe 22 de daño
+Flynn termina con HP:525/971
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:525/971 MP:527/527
+B-Power HP:407/407 MP:67/81
+C-Quicksilver HP:75/203 MP:68/90
+D-Pachacamac HP:86/287 MP:278/278
+Equipo de Makoto (J2)
+A-Makoto HP:477/597 MP:347/347
+B-
+C-Ishtar HP:37/258 MP:171/251
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Pachacamac
+2-Power
+3-Quicksilver
+4-Flynn
+----------------------------------------
+Seleccione una acción para Pachacamac
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:525/971 MP:527/527
+B-Power HP:407/407 MP:67/81
+C-Quicksilver HP:75/203 MP:68/90
+D-Pachacamac HP:86/287 MP:278/278
+Equipo de Makoto (J2)
+A-Makoto HP:477/597 MP:347/347
+B-
+C-Ishtar HP:37/258 MP:171/251
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Power
+2-Quicksilver
+3-Flynn
+4-Pachacamac
+----------------------------------------
+Seleccione una acción para Power
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Power
+1-Makoto HP:477/597 MP:347/347
+2-Ishtar HP:37/258 MP:171/251
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Power ataca a Ishtar
+Ishtar recibe 29 de daño
+Ishtar termina con HP:8/258
+Makoto contra ataca a Power
+Power recibe 7 de daño
+Power termina con HP:400/407
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Makoto (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:525/971 MP:527/527
+B-Power HP:400/407 MP:67/81
+C-Quicksilver HP:75/203 MP:68/90
+D-Pachacamac HP:86/287 MP:278/278
+Equipo de Makoto (J2)
+A-Makoto HP:477/597 MP:347/347
+B-
+C-Ishtar HP:8/258 MP:171/251
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Makoto
+2-Ishtar
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:525/971 MP:527/527
+B-Power HP:400/407 MP:67/81
+C-Quicksilver HP:75/203 MP:68/90
+D-Pachacamac HP:86/287 MP:278/278
+Equipo de Makoto (J2)
+A-Makoto HP:477/597 MP:347/347
+B-
+C-Ishtar HP:8/258 MP:171/251
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Ishtar
+2-Makoto
+----------------------------------------
+Seleccione una acción para Ishtar
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:525/971 MP:527/527
+B-Power HP:400/407 MP:67/81
+C-Quicksilver HP:75/203 MP:68/90
+D-Pachacamac HP:86/287 MP:278/278
+Equipo de Makoto (J2)
+A-Makoto HP:477/597 MP:347/347
+B-
+C-Ishtar HP:8/258 MP:171/251
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Makoto
+2-Ishtar
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:525/971 MP:527/527
+B-Power HP:400/407 MP:67/81
+C-Quicksilver HP:75/203 MP:68/90
+D-Pachacamac HP:86/287 MP:278/278
+Equipo de Makoto (J2)
+A-Makoto HP:477/597 MP:347/347
+B-
+C-Ishtar HP:8/258 MP:171/251
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Ishtar
+2-Makoto
+----------------------------------------
+Seleccione una acción para Ishtar
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:525/971 MP:527/527
+B-Power HP:400/407 MP:67/81
+C-Quicksilver HP:75/203 MP:68/90
+D-Pachacamac HP:86/287 MP:278/278
+Equipo de Makoto (J2)
+A-Makoto HP:477/597 MP:347/347
+B-
+C-Ishtar HP:8/258 MP:171/251
+D-
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Pachacamac
+3-Power
+4-Quicksilver
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:525/971 MP:527/527
+B-Power HP:400/407 MP:67/81
+C-Quicksilver HP:75/203 MP:68/90
+D-Pachacamac HP:86/287 MP:278/278
+Equipo de Makoto (J2)
+A-Makoto HP:477/597 MP:347/347
+B-
+C-Ishtar HP:8/258 MP:171/251
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Pachacamac
+2-Power
+3-Quicksilver
+4-Flynn
+----------------------------------------
+Seleccione una acción para Pachacamac
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Pachacamac
+1-Makoto HP:477/597 MP:347/347
+2-Ishtar HP:8/258 MP:171/251
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Pachacamac ataca a Makoto
+Makoto es resistente el ataque de Pachacamac
+Makoto recibe 15 de daño
+Makoto termina con HP:462/597
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:525/971 MP:527/527
+B-Power HP:400/407 MP:67/81
+C-Quicksilver HP:75/203 MP:68/90
+D-Pachacamac HP:86/287 MP:278/278
+Equipo de Makoto (J2)
+A-Makoto HP:462/597 MP:347/347
+B-
+C-Ishtar HP:8/258 MP:171/251
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Power
+2-Quicksilver
+3-Flynn
+4-Pachacamac
+----------------------------------------
+Seleccione una acción para Power
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Power use
+1-Tathlum Shot MP:7
+2-Diarama MP:9
+3-Megido MP:25
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Power
+1-Makoto HP:462/597 MP:347/347
+2-Ishtar HP:8/258 MP:171/251
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Power dispara a Ishtar
+Ishtar recibe 76 de daño
+Ishtar termina con HP:0/258
+Makoto contra ataca a Power
+Power recibe 19 de daño
+Power termina con HP:381/407
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:525/971 MP:527/527
+B-Power HP:381/407 MP:60/81
+C-Quicksilver HP:75/203 MP:68/90
+D-Pachacamac HP:86/287 MP:278/278
+Equipo de Makoto (J2)
+A-Makoto HP:462/597 MP:347/347
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Quicksilver
+2-Flynn
+3-Pachacamac
+4-Power
+----------------------------------------
+Seleccione una acción para Quicksilver
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Morax HP:134/260 MP:46/46
+2-Taraka HP:624/624 MP:124/124
+3-Baal HP:264/560 MP:206/252
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Baal ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:525/971 MP:527/527
+B-Power HP:381/407 MP:60/81
+C-Baal HP:264/560 MP:206/252
+D-Pachacamac HP:86/287 MP:278/278
+Equipo de Makoto (J2)
+A-Makoto HP:462/597 MP:347/347
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Flynn
+2-Pachacamac
+3-Power
+4-Baal
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:525/971 MP:527/527
+B-Power HP:381/407 MP:60/81
+C-Baal HP:264/560 MP:206/252
+D-Pachacamac HP:86/287 MP:278/278
+Equipo de Makoto (J2)
+A-Makoto HP:462/597 MP:347/347
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Pachacamac
+2-Power
+3-Baal
+4-Flynn
+----------------------------------------
+Seleccione una acción para Pachacamac
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Pachacamac use
+1-Mazanma MP:20
+2-Concentrate MP:11
+3-Bind Voice MP:15
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Pachacamac lanza viento a Makoto
+Makoto es resistente el ataque de Pachacamac
+Makoto recibe 46 de daño
+Makoto termina con HP:416/597
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Makoto (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:525/971 MP:527/527
+B-Power HP:381/407 MP:60/81
+C-Baal HP:264/560 MP:206/252
+D-Pachacamac HP:86/287 MP:258/278
+Equipo de Makoto (J2)
+A-Makoto HP:416/597 MP:347/347
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Makoto
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Churel HP:54/197 MP:190/190
+2-Sudama HP:130/203 MP:69/90
+3-Lilith HP:319/380 MP:284/369
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una posición para invocar
+1-Vacío (Puesto 2)
+2-Vacío (Puesto 3)
+3-Vacío (Puesto 4)
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Makoto
+1-Flynn HP:525/971 MP:527/527
+2-Power HP:381/407 MP:60/81
+3-Baal HP:264/560 MP:206/252
+4-Pachacamac HP:86/287 MP:258/278
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Makoto dispara a Pachacamac
+Pachacamac recibe 57 de daño
+Pachacamac termina con HP:29/287
+Baal contra ataca a Makoto
+Makoto recibe 28 de daño
+Makoto termina con HP:388/597
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:525/971 MP:527/527
+B-Power HP:381/407 MP:60/81
+C-Baal HP:264/560 MP:206/252
+D-Pachacamac HP:29/287 MP:258/278
+Equipo de Makoto (J2)
+A-Makoto HP:388/597 MP:347/347
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Baal
+3-Pachacamac
+4-Power
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Flynn use
+1-Damascus Claw MP:7
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Makoto HP:388/597 MP:347/347
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Makoto HP:388/597 MP:347/347
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Makoto HP:388/597 MP:347/347
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Morax HP:134/260 MP:46/46
+2-Taraka HP:624/624 MP:124/124
+3-Quicksilver HP:75/203 MP:68/90
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una posición para invocar
+1-Power HP:381/407 MP:60/81 (Puesto 2)
+2-Baal HP:264/560 MP:206/252 (Puesto 3)
+3-Pachacamac HP:29/287 MP:258/278 (Puesto 4)
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Quicksilver ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:525/971 MP:527/527
+B-Power HP:381/407 MP:60/81
+C-Baal HP:264/560 MP:206/252
+D-Quicksilver HP:75/203 MP:68/90
+Equipo de Makoto (J2)
+A-Makoto HP:388/597 MP:347/347
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Baal
+2-Quicksilver
+3-Power
+4-Flynn
+----------------------------------------
+Seleccione una acción para Baal
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Baal use
+1-Mazandyne MP:32
+2-Bufudyne MP:14
+3-Maziodyne MP:32
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Baal lanza electricidad a Makoto
+Makoto es resistente el ataque de Baal
+Makoto recibe 58 de daño
+Makoto termina con HP:330/597
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:525/971 MP:527/527
+B-Power HP:381/407 MP:60/81
+C-Baal HP:264/560 MP:174/252
+D-Quicksilver HP:75/203 MP:68/90
+Equipo de Makoto (J2)
+A-Makoto HP:330/597 MP:347/347
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Quicksilver
+2-Power
+3-Flynn
+4-Baal
+----------------------------------------
+Seleccione una acción para Quicksilver
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Morax HP:134/260 MP:46/46
+2-Pachacamac HP:29/287 MP:258/278
+3-Taraka HP:624/624 MP:124/124
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Taraka ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:525/971 MP:527/527
+B-Power HP:381/407 MP:60/81
+C-Baal HP:264/560 MP:174/252
+D-Taraka HP:624/624 MP:124/124
+Equipo de Makoto (J2)
+A-Makoto HP:330/597 MP:347/347
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Power
+2-Flynn
+3-Baal
+4-Taraka
+----------------------------------------
+Seleccione una acción para Power
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Power
+1-Makoto HP:330/597 MP:347/347
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Power ataca a Makoto
+Makoto es resistente el ataque de Power
+Makoto recibe 14 de daño
+Makoto termina con HP:316/597
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:525/971 MP:527/527
+B-Power HP:381/407 MP:60/81
+C-Baal HP:264/560 MP:174/252
+D-Taraka HP:624/624 MP:124/124
+Equipo de Makoto (J2)
+A-Makoto HP:316/597 MP:347/347
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Baal
+3-Taraka
+4-Power
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Morax HP:134/260 MP:46/46
+2-Pachacamac HP:29/287 MP:258/278
+3-Quicksilver HP:75/203 MP:68/90
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una posición para invocar
+1-Power HP:381/407 MP:60/81 (Puesto 2)
+2-Baal HP:264/560 MP:174/252 (Puesto 3)
+3-Taraka HP:624/624 MP:124/124 (Puesto 4)
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Quicksilver ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:525/971 MP:527/527
+B-Quicksilver HP:75/203 MP:68/90
+C-Baal HP:264/560 MP:174/252
+D-Taraka HP:624/624 MP:124/124
+Equipo de Makoto (J2)
+A-Makoto HP:316/597 MP:347/347
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Baal
+2-Taraka
+3-Quicksilver
+4-Flynn
+----------------------------------------
+Seleccione una acción para Baal
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:525/971 MP:527/527
+B-Quicksilver HP:75/203 MP:68/90
+C-Baal HP:264/560 MP:174/252
+D-Taraka HP:624/624 MP:124/124
+Equipo de Makoto (J2)
+A-Makoto HP:316/597 MP:347/347
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Taraka
+2-Quicksilver
+3-Flynn
+4-Baal
+----------------------------------------
+Seleccione una acción para Taraka
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:525/971 MP:527/527
+B-Quicksilver HP:75/203 MP:68/90
+C-Baal HP:264/560 MP:174/252
+D-Taraka HP:624/624 MP:124/124
+Equipo de Makoto (J2)
+A-Makoto HP:316/597 MP:347/347
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Quicksilver
+2-Flynn
+3-Baal
+4-Taraka
+----------------------------------------
+Seleccione una acción para Quicksilver
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Quicksilver use
+1-Mazio MP:11
+2-Panic Caster MP:10
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Quicksilver
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Quicksilver
+1-Makoto HP:316/597 MP:347/347
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Quicksilver ataca a Makoto
+Makoto es resistente el ataque de Quicksilver
+Makoto recibe 7 de daño
+Makoto termina con HP:309/597
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Makoto (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:525/971 MP:527/527
+B-Quicksilver HP:75/203 MP:68/90
+C-Baal HP:264/560 MP:174/252
+D-Taraka HP:624/624 MP:124/124
+Equipo de Makoto (J2)
+A-Makoto HP:309/597 MP:347/347
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Makoto
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Makoto
+1-Flynn HP:525/971 MP:527/527
+2-Quicksilver HP:75/203 MP:68/90
+3-Baal HP:264/560 MP:174/252
+4-Taraka HP:624/624 MP:124/124
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Makoto dispara a Flynn
+Flynn devuelve 57 daño a Makoto
+Makoto termina con HP:252/597
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:525/971 MP:527/527
+B-Quicksilver HP:75/203 MP:68/90
+C-Baal HP:264/560 MP:174/252
+D-Taraka HP:624/624 MP:124/124
+Equipo de Makoto (J2)
+A-Makoto HP:252/597 MP:347/347
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Baal
+3-Taraka
+4-Quicksilver
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Morax HP:134/260 MP:46/46
+2-Pachacamac HP:29/287 MP:258/278
+3-Power HP:381/407 MP:60/81
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una posición para invocar
+1-Quicksilver HP:75/203 MP:68/90 (Puesto 2)
+2-Baal HP:264/560 MP:174/252 (Puesto 3)
+3-Taraka HP:624/624 MP:124/124 (Puesto 4)
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Power ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:525/971 MP:527/527
+B-Quicksilver HP:75/203 MP:68/90
+C-Baal HP:264/560 MP:174/252
+D-Power HP:381/407 MP:60/81
+Equipo de Makoto (J2)
+A-Makoto HP:252/597 MP:347/347
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Baal
+2-Power
+3-Quicksilver
+4-Flynn
+----------------------------------------
+Seleccione una acción para Baal
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:525/971 MP:527/527
+B-Quicksilver HP:75/203 MP:68/90
+C-Baal HP:264/560 MP:174/252
+D-Power HP:381/407 MP:60/81
+Equipo de Makoto (J2)
+A-Makoto HP:252/597 MP:347/347
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Power
+2-Quicksilver
+3-Flynn
+4-Baal
+----------------------------------------
+Seleccione una acción para Power
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Power use
+1-Tathlum Shot MP:7
+2-Diarama MP:9
+3-Megido MP:25
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Power lanza un ataque todo poderoso a Makoto
+Makoto recibe 73 de daño
+Makoto termina con HP:179/597
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:525/971 MP:527/527
+B-Quicksilver HP:75/203 MP:68/90
+C-Baal HP:264/560 MP:174/252
+D-Power HP:381/407 MP:35/81
+Equipo de Makoto (J2)
+A-Makoto HP:179/597 MP:347/347
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Quicksilver
+2-Flynn
+3-Baal
+4-Power
+----------------------------------------
+Seleccione una acción para Quicksilver
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Morax HP:134/260 MP:46/46
+2-Pachacamac HP:29/287 MP:258/278
+3-Taraka HP:624/624 MP:124/124
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Quicksilver
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Quicksilver use
+1-Mazio MP:11
+2-Panic Caster MP:10
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Quicksilver
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:525/971 MP:527/527
+B-Quicksilver HP:75/203 MP:68/90
+C-Baal HP:264/560 MP:174/252
+D-Power HP:381/407 MP:35/81
+Equipo de Makoto (J2)
+A-Makoto HP:179/597 MP:347/347
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Flynn
+2-Baal
+3-Power
+4-Quicksilver
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Flynn use
+1-Damascus Claw MP:7
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:525/971 MP:527/527
+B-Quicksilver HP:75/203 MP:68/90
+C-Baal HP:264/560 MP:174/252
+D-Power HP:381/407 MP:35/81
+Equipo de Makoto (J2)
+A-Makoto HP:179/597 MP:347/347
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Baal
+2-Power
+3-Quicksilver
+4-Flynn
+----------------------------------------
+Seleccione una acción para Baal
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Baal use
+1-Mazandyne MP:32
+2-Bufudyne MP:14
+3-Maziodyne MP:32
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Baal
+1-Makoto HP:179/597 MP:347/347
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Baal
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Morax HP:134/260 MP:46/46
+2-Pachacamac HP:29/287 MP:258/278
+3-Taraka HP:624/624 MP:124/124
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Taraka ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:525/971 MP:527/527
+B-Quicksilver HP:75/203 MP:68/90
+C-Taraka HP:624/624 MP:124/124
+D-Power HP:381/407 MP:35/81
+Equipo de Makoto (J2)
+A-Makoto HP:179/597 MP:347/347
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Power
+2-Quicksilver
+3-Flynn
+4-Taraka
+----------------------------------------
+Seleccione una acción para Power
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Morax HP:134/260 MP:46/46
+2-Pachacamac HP:29/287 MP:258/278
+3-Baal HP:264/560 MP:174/252
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Pachacamac ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Makoto (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:525/971 MP:527/527
+B-Quicksilver HP:75/203 MP:68/90
+C-Taraka HP:624/624 MP:124/124
+D-Pachacamac HP:29/287 MP:258/278
+Equipo de Makoto (J2)
+A-Makoto HP:179/597 MP:347/347
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Makoto
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Makoto
+1-Flynn HP:525/971 MP:527/527
+2-Quicksilver HP:75/203 MP:68/90
+3-Taraka HP:624/624 MP:124/124
+4-Pachacamac HP:29/287 MP:258/278
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Makoto ataca a Flynn
+Flynn recibe 38 de daño
+Flynn termina con HP:487/971
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:487/971 MP:527/527
+B-Quicksilver HP:75/203 MP:68/90
+C-Taraka HP:624/624 MP:124/124
+D-Pachacamac HP:29/287 MP:258/278
+Equipo de Makoto (J2)
+A-Makoto HP:179/597 MP:347/347
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Taraka
+3-Pachacamac
+4-Quicksilver
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Flynn use
+1-Damascus Claw MP:7
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Makoto HP:179/597 MP:347/347
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Makoto HP:179/597 MP:347/347
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Makoto HP:179/597 MP:347/347
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Flynn use
+1-Damascus Claw MP:7
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Makoto HP:179/597 MP:347/347
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Flynn ataca a Makoto
+Makoto es resistente el ataque de Flynn
+Makoto recibe 70 de daño
+Flynn ataca a Makoto
+Makoto es resistente el ataque de Flynn
+Makoto recibe 70 de daño
+Flynn ataca a Makoto
+Makoto es resistente el ataque de Flynn
+Makoto recibe 70 de daño
+Makoto termina con HP:0/597
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ganador: Flynn (J1)

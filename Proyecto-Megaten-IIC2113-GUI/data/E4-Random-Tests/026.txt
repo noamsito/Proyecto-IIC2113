@@ -1,0 +1,6324 @@
+Elige un archivo para cargar los equipos
+0: 001.txt
+1: 002.txt
+2: 003.txt
+3: 004.txt
+4: 005.txt
+5: 006.txt
+6: 007.txt
+7: 008.txt
+8: 009.txt
+9: 010.txt
+10: 011.txt
+11: 012.txt
+12: 013.txt
+13: 014.txt
+14: 015.txt
+15: 016.txt
+16: 017.txt
+17: 018.txt
+18: 019.txt
+19: 020.txt
+20: 021.txt
+21: 022.txt
+22: 023.txt
+23: 024.txt
+24: 025.txt
+25: 026.txt
+26: 027.txt
+27: 028.txt
+28: 029.txt
+29: 030.txt
+30: 031.txt
+31: 032.txt
+32: 033.txt
+33: 034.txt
+34: 035.txt
+35: 036.txt
+36: 037.txt
+37: 038.txt
+38: 039.txt
+39: 040.txt
+40: 041.txt
+41: 042.txt
+42: 043.txt
+43: 044.txt
+44: 045.txt
+45: 046.txt
+46: 047.txt
+47: 048.txt
+48: 049.txt
+49: 050.txt
+50: 051.txt
+51: 052.txt
+52: 053.txt
+53: 054.txt
+54: 055.txt
+55: 056.txt
+56: 057.txt
+57: 058.txt
+58: 059.txt
+59: 060.txt
+60: 061.txt
+61: 062.txt
+62: 063.txt
+63: 064.txt
+64: 065.txt
+65: 066.txt
+66: 067.txt
+67: 068.txt
+68: 069.txt
+69: 070.txt
+70: 071.txt
+71: 072.txt
+72: 073.txt
+73: 074.txt
+74: 075.txt
+75: 076.txt
+76: 077.txt
+77: 078.txt
+78: 079.txt
+79: 080.txt
+80: 081.txt
+81: 082.txt
+82: 083.txt
+83: 084.txt
+84: 085.txt
+85: 086.txt
+86: 087.txt
+87: 088.txt
+88: 089.txt
+89: 090.txt
+90: 091.txt
+91: 092.txt
+92: 093.txt
+93: 094.txt
+94: 095.txt
+95: 096.txt
+96: 097.txt
+97: 098.txt
+98: 099.txt
+99: 100.txt
+100: 101.txt
+101: 102.txt
+102: 103.txt
+103: 104.txt
+104: 105.txt
+105: 106.txt
+106: 107.txt
+107: 108.txt
+108: 109.txt
+109: 110.txt
+110: 111.txt
+111: 112.txt
+112: 113.txt
+113: 114.txt
+114: 115.txt
+115: 116.txt
+116: 117.txt
+117: 118.txt
+118: 119.txt
+119: 120.txt
+120: 121.txt
+121: 122.txt
+122: 123.txt
+123: 124.txt
+124: 125.txt
+125: 126.txt
+126: 127.txt
+127: 128.txt
+128: 129.txt
+129: 130.txt
+130: 131.txt
+131: 132.txt
+132: 133.txt
+133: 134.txt
+134: 135.txt
+135: 136.txt
+136: 137.txt
+137: 138.txt
+138: 139.txt
+139: 140.txt
+140: 141.txt
+141: 142.txt
+142: 143.txt
+143: 144.txt
+144: 145.txt
+145: 146.txt
+146: 147.txt
+147: 148.txt
+148: 149.txt
+149: 150.txt
+150: 151.txt
+151: 152.txt
+152: 153.txt
+153: 154.txt
+154: 155.txt
+155: 156.txt
+156: 157.txt
+157: 158.txt
+158: 159.txt
+159: 160.txt
+160: 161.txt
+161: 162.txt
+162: 163.txt
+163: 164.txt
+164: 165.txt
+165: 166.txt
+166: 167.txt
+167: 168.txt
+168: 169.txt
+169: 170.txt
+170: 171.txt
+171: 172.txt
+172: 173.txt
+173: 174.txt
+174: 175.txt
+175: 176.txt
+176: 177.txt
+177: 178.txt
+178: 179.txt
+179: 180.txt
+180: 181.txt
+181: 182.txt
+182: 183.txt
+183: 184.txt
+184: 185.txt
+185: 186.txt
+186: 187.txt
+187: 188.txt
+188: 189.txt
+189: 190.txt
+190: 191.txt
+191: 192.txt
+192: 193.txt
+193: 194.txt
+194: 195.txt
+195: 196.txt
+196: 197.txt
+197: 198.txt
+198: 199.txt
+199: 200.txt
+200: 201.txt
+201: 202.txt
+202: 203.txt
+203: 204.txt
+204: 205.txt
+205: 206.txt
+206: 207.txt
+207: 208.txt
+208: 209.txt
+209: 210.txt
+210: 211.txt
+211: 212.txt
+212: 213.txt
+213: 214.txt
+214: 215.txt
+215: 216.txt
+216: 217.txt
+217: 218.txt
+218: 219.txt
+219: 220.txt
+220: 221.txt
+221: 222.txt
+222: 223.txt
+223: 224.txt
+224: 225.txt
+225: 226.txt
+226: 227.txt
+227: 228.txt
+228: 229.txt
+229: 230.txt
+230: 231.txt
+231: 232.txt
+232: 233.txt
+233: 234.txt
+234: 235.txt
+235: 236.txt
+236: 237.txt
+237: 238.txt
+238: 239.txt
+239: 240.txt
+240: 241.txt
+241: 242.txt
+242: 243.txt
+243: 244.txt
+244: 245.txt
+245: 246.txt
+246: 247.txt
+247: 248.txt
+248: 249.txt
+249: 250.txt
+250: 251.txt
+251: 252.txt
+252: 253.txt
+253: 254.txt
+254: 255.txt
+255: 256.txt
+256: 257.txt
+257: 258.txt
+258: 259.txt
+259: 260.txt
+260: 261.txt
+261: 262.txt
+262: 263.txt
+263: 264.txt
+264: 265.txt
+265: 266.txt
+266: 267.txt
+267: 268.txt
+268: 269.txt
+269: 270.txt
+270: 271.txt
+271: 272.txt
+272: 273.txt
+273: 274.txt
+274: 275.txt
+275: 276.txt
+276: 277.txt
+277: 278.txt
+278: 279.txt
+279: 280.txt
+280: 281.txt
+281: 282.txt
+282: 283.txt
+283: 284.txt
+284: 285.txt
+285: 286.txt
+286: 287.txt
+287: 288.txt
+288: 289.txt
+289: 290.txt
+290: 291.txt
+291: 292.txt
+292: 293.txt
+293: 294.txt
+294: 295.txt
+295: 296.txt
+296: 297.txt
+297: 298.txt
+298: 299.txt
+299: 300.txt
+300: 301.txt
+301: 302.txt
+302: 303.txt
+303: 304.txt
+304: 305.txt
+305: 306.txt
+306: 307.txt
+307: 308.txt
+308: 309.txt
+309: 310.txt
+310: 311.txt
+311: 312.txt
+312: 313.txt
+313: 314.txt
+314: 315.txt
+315: 316.txt
+316: 317.txt
+317: 318.txt
+318: 319.txt
+319: 320.txt
+320: 321.txt
+321: 322.txt
+322: 323.txt
+323: 324.txt
+324: 325.txt
+325: 326.txt
+326: 327.txt
+327: 328.txt
+328: 329.txt
+329: 330.txt
+330: 331.txt
+331: 332.txt
+332: 333.txt
+333: 334.txt
+334: 335.txt
+335: 336.txt
+336: 337.txt
+337: 338.txt
+338: 339.txt
+339: 340.txt
+340: 341.txt
+341: 342.txt
+342: 343.txt
+343: 344.txt
+344: 345.txt
+345: 346.txt
+346: 347.txt
+347: 348.txt
+348: 349.txt
+349: 350.txt
+350: 351.txt
+351: 352.txt
+352: 353.txt
+353: 354.txt
+354: 355.txt
+355: 356.txt
+356: 357.txt
+357: 358.txt
+358: 359.txt
+359: 360.txt
+360: 361.txt
+361: 362.txt
+362: 363.txt
+363: 364.txt
+364: 365.txt
+365: 366.txt
+366: 367.txt
+367: 368.txt
+368: 369.txt
+369: 370.txt
+370: 371.txt
+371: 372.txt
+372: 373.txt
+373: 374.txt
+374: 375.txt
+375: 376.txt
+376: 377.txt
+377: 378.txt
+378: 379.txt
+379: 380.txt
+380: 381.txt
+381: 382.txt
+382: 383.txt
+383: 384.txt
+384: 385.txt
+385: 386.txt
+386: 387.txt
+387: 388.txt
+388: 389.txt
+389: 390.txt
+390: 391.txt
+391: 392.txt
+392: 393.txt
+393: 394.txt
+394: 395.txt
+395: 396.txt
+396: 397.txt
+397: 398.txt
+398: 399.txt
+399: 400.txt
+400: 401.txt
+401: 402.txt
+402: 403.txt
+403: 404.txt
+404: 405.txt
+405: 406.txt
+406: 407.txt
+407: 408.txt
+408: 409.txt
+409: 410.txt
+410: 411.txt
+411: 412.txt
+412: 413.txt
+413: 414.txt
+414: 415.txt
+415: 416.txt
+416: 417.txt
+417: 418.txt
+418: 419.txt
+419: 420.txt
+420: 421.txt
+421: 422.txt
+422: 423.txt
+423: 424.txt
+424: 425.txt
+425: 426.txt
+426: 427.txt
+427: 428.txt
+428: 429.txt
+429: 430.txt
+430: 431.txt
+431: 432.txt
+432: 433.txt
+433: 434.txt
+434: 435.txt
+435: 436.txt
+436: 437.txt
+437: 438.txt
+438: 439.txt
+439: 440.txt
+440: 441.txt
+441: 442.txt
+442: 443.txt
+443: 444.txt
+444: 445.txt
+445: 446.txt
+446: 447.txt
+447: 448.txt
+448: 449.txt
+449: 450.txt
+450: 451.txt
+451: 452.txt
+452: 453.txt
+453: 454.txt
+454: 455.txt
+455: 456.txt
+456: 457.txt
+457: 458.txt
+458: 459.txt
+459: 460.txt
+460: 461.txt
+461: 462.txt
+462: 463.txt
+463: 464.txt
+464: 465.txt
+465: 466.txt
+466: 467.txt
+467: 468.txt
+468: 469.txt
+469: 470.txt
+470: 471.txt
+471: 472.txt
+472: 473.txt
+473: 474.txt
+474: 475.txt
+475: 476.txt
+476: 477.txt
+477: 478.txt
+478: 479.txt
+479: 480.txt
+480: 481.txt
+481: 482.txt
+482: 483.txt
+483: 484.txt
+484: 485.txt
+485: 486.txt
+486: 487.txt
+487: 488.txt
+488: 489.txt
+489: 490.txt
+490: 491.txt
+491: 492.txt
+492: 493.txt
+493: 494.txt
+494: 495.txt
+495: 496.txt
+496: 497.txt
+497: 498.txt
+498: 499.txt
+499: 500.txt
+INPUT: 25
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:971/971 MP:527/527
+B-Anat HP:511/511 MP:229/229
+C-Yomotsu Shikome HP:155/155 MP:149/149
+D-Apsaras HP:85/85 MP:81/81
+Equipo de Kotone (J2)
+A-Kotone HP:597/597 MP:347/347
+B-Jack Frost HP:103/103 MP:113/113
+C-Strix HP:189/189 MP:85/85
+D-Red Rider HP:917/917 MP:183/183
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Anat
+3-Yomotsu Shikome
+4-Apsaras
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Stonka HP:171/171 MP:34/34
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Kotone HP:597/597 MP:347/347
+2-Jack Frost HP:103/103 MP:113/113
+3-Strix HP:189/189 MP:85/85
+4-Red Rider HP:917/917 MP:183/183
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Flynn use
+1-Zan MP:5
+2-Zandyne MP:14
+3-Fang Breaker MP:12
+4-Agilao MP:8
+5-Gram Slice MP:5
+6-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Kotone HP:597/597 MP:347/347
+2-Jack Frost HP:103/103 MP:113/113
+3-Strix HP:189/189 MP:85/85
+4-Red Rider HP:917/917 MP:183/183
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Flynn lanza viento a Kotone
+Kotone es resistente el ataque de Flynn
+Kotone recibe 53 de daño
+Kotone termina con HP:544/597
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:971/971 MP:522/527
+B-Anat HP:511/511 MP:229/229
+C-Yomotsu Shikome HP:155/155 MP:149/149
+D-Apsaras HP:85/85 MP:81/81
+Equipo de Kotone (J2)
+A-Kotone HP:544/597 MP:347/347
+B-Jack Frost HP:103/103 MP:113/113
+C-Strix HP:189/189 MP:85/85
+D-Red Rider HP:917/917 MP:183/183
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Anat
+2-Yomotsu Shikome
+3-Apsaras
+4-Flynn
+----------------------------------------
+Seleccione una acción para Anat
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Stonka HP:171/171 MP:34/34
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Stonka ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:971/971 MP:522/527
+B-Stonka HP:171/171 MP:34/34
+C-Yomotsu Shikome HP:155/155 MP:149/149
+D-Apsaras HP:85/85 MP:81/81
+Equipo de Kotone (J2)
+A-Kotone HP:544/597 MP:347/347
+B-Jack Frost HP:103/103 MP:113/113
+C-Strix HP:189/189 MP:85/85
+D-Red Rider HP:917/917 MP:183/183
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Yomotsu Shikome
+2-Apsaras
+3-Flynn
+4-Stonka
+----------------------------------------
+Seleccione una acción para Yomotsu Shikome
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:971/971 MP:522/527
+B-Stonka HP:171/171 MP:34/34
+C-Yomotsu Shikome HP:155/155 MP:149/149
+D-Apsaras HP:85/85 MP:81/81
+Equipo de Kotone (J2)
+A-Kotone HP:544/597 MP:347/347
+B-Jack Frost HP:103/103 MP:113/113
+C-Strix HP:189/189 MP:85/85
+D-Red Rider HP:917/917 MP:183/183
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Apsaras
+2-Flynn
+3-Stonka
+4-Yomotsu Shikome
+----------------------------------------
+Seleccione una acción para Apsaras
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Apsaras
+1-Kotone HP:544/597 MP:347/347
+2-Jack Frost HP:103/103 MP:113/113
+3-Strix HP:189/189 MP:85/85
+4-Red Rider HP:917/917 MP:183/183
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Apsaras
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:971/971 MP:522/527
+B-Stonka HP:171/171 MP:34/34
+C-Yomotsu Shikome HP:155/155 MP:149/149
+D-Apsaras HP:85/85 MP:81/81
+Equipo de Kotone (J2)
+A-Kotone HP:544/597 MP:347/347
+B-Jack Frost HP:103/103 MP:113/113
+C-Strix HP:189/189 MP:85/85
+D-Red Rider HP:917/917 MP:183/183
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Flynn
+2-Stonka
+3-Yomotsu Shikome
+4-Apsaras
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Flynn use
+1-Zan MP:5
+2-Zandyne MP:14
+3-Fang Breaker MP:12
+4-Agilao MP:8
+5-Gram Slice MP:5
+6-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Kotone HP:544/597 MP:347/347
+2-Jack Frost HP:103/103 MP:113/113
+3-Strix HP:189/189 MP:85/85
+4-Red Rider HP:917/917 MP:183/183
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Flynn ataca a Strix
+Strix recibe 149 de daño
+Strix termina con HP:40/189
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:971/971 MP:517/527
+B-Stonka HP:171/171 MP:34/34
+C-Yomotsu Shikome HP:155/155 MP:149/149
+D-Apsaras HP:85/85 MP:81/81
+Equipo de Kotone (J2)
+A-Kotone HP:544/597 MP:347/347
+B-Jack Frost HP:103/103 MP:113/113
+C-Strix HP:40/189 MP:85/85
+D-Red Rider HP:917/917 MP:183/183
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Stonka
+2-Yomotsu Shikome
+3-Apsaras
+4-Flynn
+----------------------------------------
+Seleccione una acción para Stonka
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Stonka use
+1-Lunge MP:6
+2-Critical Wave MP:10
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Stonka ataca a Kotone
+Kotone es resistente el ataque de Stonka
+Kotone recibe 17 de daño
+Kotone termina con HP:527/597
+Stonka ataca a Jack Frost
+Jack Frost recibe 35 de daño
+Jack Frost termina con HP:68/103
+Stonka ataca a Strix
+Strix recibe 35 de daño
+Strix termina con HP:5/189
+Stonka ataca a Red Rider
+Red Rider recibe 35 de daño
+Red Rider termina con HP:882/917
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kotone (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:971/971 MP:517/527
+B-Stonka HP:171/171 MP:24/34
+C-Yomotsu Shikome HP:155/155 MP:149/149
+D-Apsaras HP:85/85 MP:81/81
+Equipo de Kotone (J2)
+A-Kotone HP:527/597 MP:347/347
+B-Jack Frost HP:68/103 MP:113/113
+C-Strix HP:5/189 MP:85/85
+D-Red Rider HP:882/917 MP:183/183
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Red Rider
+2-Kotone
+3-Strix
+4-Jack Frost
+----------------------------------------
+Seleccione una acción para Red Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:971/971 MP:517/527
+B-Stonka HP:171/171 MP:24/34
+C-Yomotsu Shikome HP:155/155 MP:149/149
+D-Apsaras HP:85/85 MP:81/81
+Equipo de Kotone (J2)
+A-Kotone HP:527/597 MP:347/347
+B-Jack Frost HP:68/103 MP:113/113
+C-Strix HP:5/189 MP:85/85
+D-Red Rider HP:882/917 MP:183/183
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Kotone
+2-Strix
+3-Jack Frost
+4-Red Rider
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Kotone use
+1-Dekaja MP:10
+2-Dia MP:5
+3-Great Logos MP:70
+4-Scratch Dance MP:9
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Los buffs de Flynn han desaparecido
+Los buffs de Stonka han desaparecido
+Los buffs de Yomotsu Shikome han desaparecido
+Los buffs de Apsaras han desaparecido
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:971/971 MP:517/527
+B-Stonka HP:171/171 MP:24/34
+C-Yomotsu Shikome HP:155/155 MP:149/149
+D-Apsaras HP:85/85 MP:81/81
+Equipo de Kotone (J2)
+A-Kotone HP:527/597 MP:337/347
+B-Jack Frost HP:68/103 MP:113/113
+C-Strix HP:5/189 MP:85/85
+D-Red Rider HP:882/917 MP:183/183
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Strix
+2-Jack Frost
+3-Red Rider
+4-Kotone
+----------------------------------------
+Seleccione una acción para Strix
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Strix use
+1-Spirit Drain MP:5
+2-Bouncing Claw MP:4
+3-Tarunda MP:15
+4-Mabufu MP:11
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Strix lanza hielo a Flynn
+Flynn recibe 37 de daño
+Flynn termina con HP:934/971
+Strix lanza hielo a Stonka
+Stonka recibe 37 de daño
+Stonka termina con HP:134/171
+Strix lanza hielo a Yomotsu Shikome
+Yomotsu Shikome recibe 37 de daño
+Yomotsu Shikome termina con HP:118/155
+Strix lanza hielo a Apsaras
+Apsaras absorbe 37 daño
+Apsaras termina con HP:85/85
+----------------------------------------
+Se han consumido 3 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:934/971 MP:517/527
+B-Stonka HP:134/171 MP:24/34
+C-Yomotsu Shikome HP:118/155 MP:149/149
+D-Apsaras HP:85/85 MP:81/81
+Equipo de Kotone (J2)
+A-Kotone HP:527/597 MP:337/347
+B-Jack Frost HP:68/103 MP:113/113
+C-Strix HP:5/189 MP:74/85
+D-Red Rider HP:882/917 MP:183/183
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Yomotsu Shikome
+3-Stonka
+4-Apsaras
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:934/971 MP:517/527
+B-Stonka HP:134/171 MP:24/34
+C-Yomotsu Shikome HP:118/155 MP:149/149
+D-Apsaras HP:85/85 MP:81/81
+Equipo de Kotone (J2)
+A-Kotone HP:527/597 MP:337/347
+B-Jack Frost HP:68/103 MP:113/113
+C-Strix HP:5/189 MP:74/85
+D-Red Rider HP:882/917 MP:183/183
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Yomotsu Shikome
+2-Stonka
+3-Apsaras
+4-Flynn
+----------------------------------------
+Seleccione una acción para Yomotsu Shikome
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:934/971 MP:517/527
+B-Stonka HP:134/171 MP:24/34
+C-Yomotsu Shikome HP:118/155 MP:149/149
+D-Apsaras HP:85/85 MP:81/81
+Equipo de Kotone (J2)
+A-Kotone HP:527/597 MP:337/347
+B-Jack Frost HP:68/103 MP:113/113
+C-Strix HP:5/189 MP:74/85
+D-Red Rider HP:882/917 MP:183/183
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Stonka
+2-Apsaras
+3-Flynn
+4-Yomotsu Shikome
+----------------------------------------
+Seleccione una acción para Stonka
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Anat HP:511/511 MP:229/229
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Anat ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:934/971 MP:517/527
+B-Anat HP:511/511 MP:229/229
+C-Yomotsu Shikome HP:118/155 MP:149/149
+D-Apsaras HP:85/85 MP:81/81
+Equipo de Kotone (J2)
+A-Kotone HP:527/597 MP:337/347
+B-Jack Frost HP:68/103 MP:113/113
+C-Strix HP:5/189 MP:74/85
+D-Red Rider HP:882/917 MP:183/183
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Apsaras
+2-Flynn
+3-Yomotsu Shikome
+4-Anat
+----------------------------------------
+Seleccione una acción para Apsaras
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Apsaras use
+1-Media MP:12
+2-Dormina MP:4
+3-Posumudi MP:5
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Apsaras cura a Flynn
+Flynn recibe 242 de HP
+Flynn termina con HP:971/971
+Apsaras cura a Anat
+Anat recibe 127 de HP
+Anat termina con HP:511/511
+Apsaras cura a Yomotsu Shikome
+Yomotsu Shikome recibe 38 de HP
+Yomotsu Shikome termina con HP:155/155
+Apsaras cura a Apsaras
+Apsaras recibe 21 de HP
+Apsaras termina con HP:85/85
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:971/971 MP:517/527
+B-Anat HP:511/511 MP:229/229
+C-Yomotsu Shikome HP:155/155 MP:149/149
+D-Apsaras HP:85/85 MP:69/81
+Equipo de Kotone (J2)
+A-Kotone HP:527/597 MP:337/347
+B-Jack Frost HP:68/103 MP:113/113
+C-Strix HP:5/189 MP:74/85
+D-Red Rider HP:882/917 MP:183/183
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Yomotsu Shikome
+3-Anat
+4-Apsaras
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Kotone HP:527/597 MP:337/347
+2-Jack Frost HP:68/103 MP:113/113
+3-Strix HP:5/189 MP:74/85
+4-Red Rider HP:882/917 MP:183/183
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Flynn ataca a Red Rider
+Red Rider recibe 110 de daño
+Red Rider termina con HP:772/917
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:971/971 MP:517/527
+B-Anat HP:511/511 MP:229/229
+C-Yomotsu Shikome HP:155/155 MP:149/149
+D-Apsaras HP:85/85 MP:69/81
+Equipo de Kotone (J2)
+A-Kotone HP:527/597 MP:337/347
+B-Jack Frost HP:68/103 MP:113/113
+C-Strix HP:5/189 MP:74/85
+D-Red Rider HP:772/917 MP:183/183
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Yomotsu Shikome
+2-Anat
+3-Apsaras
+4-Flynn
+----------------------------------------
+Seleccione una acción para Yomotsu Shikome
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Yomotsu Shikome
+1-Kotone HP:527/597 MP:337/347
+2-Jack Frost HP:68/103 MP:113/113
+3-Strix HP:5/189 MP:74/85
+4-Red Rider HP:772/917 MP:183/183
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Yomotsu Shikome ataca a Jack Frost
+Jack Frost recibe 16 de daño
+Jack Frost termina con HP:52/103
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kotone (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:971/971 MP:517/527
+B-Anat HP:511/511 MP:229/229
+C-Yomotsu Shikome HP:155/155 MP:149/149
+D-Apsaras HP:85/85 MP:69/81
+Equipo de Kotone (J2)
+A-Kotone HP:527/597 MP:337/347
+B-Jack Frost HP:52/103 MP:113/113
+C-Strix HP:5/189 MP:74/85
+D-Red Rider HP:772/917 MP:183/183
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Red Rider
+2-Kotone
+3-Strix
+4-Jack Frost
+----------------------------------------
+Seleccione una acción para Red Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Red Rider
+1-Flynn HP:971/971 MP:517/527
+2-Anat HP:511/511 MP:229/229
+3-Yomotsu Shikome HP:155/155 MP:149/149
+4-Apsaras HP:85/85 MP:69/81
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Red Rider ataca a Flynn
+Flynn recibe 71 de daño
+Flynn termina con HP:900/971
+Anat contra ataca a Red Rider
+Red Rider recibe 35 de daño
+Red Rider termina con HP:737/917
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:900/971 MP:517/527
+B-Anat HP:511/511 MP:229/229
+C-Yomotsu Shikome HP:155/155 MP:149/149
+D-Apsaras HP:85/85 MP:69/81
+Equipo de Kotone (J2)
+A-Kotone HP:527/597 MP:337/347
+B-Jack Frost HP:52/103 MP:113/113
+C-Strix HP:5/189 MP:74/85
+D-Red Rider HP:737/917 MP:183/183
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kotone
+2-Strix
+3-Jack Frost
+4-Red Rider
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Heimdall HP:581/581 MP:261/261
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una posición para invocar
+1-Jack Frost HP:52/103 MP:113/113 (Puesto 2)
+2-Strix HP:5/189 MP:74/85 (Puesto 3)
+3-Red Rider HP:737/917 MP:183/183 (Puesto 4)
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Heimdall ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:900/971 MP:517/527
+B-Anat HP:511/511 MP:229/229
+C-Yomotsu Shikome HP:155/155 MP:149/149
+D-Apsaras HP:85/85 MP:69/81
+Equipo de Kotone (J2)
+A-Kotone HP:527/597 MP:337/347
+B-Heimdall HP:581/581 MP:261/261
+C-Strix HP:5/189 MP:74/85
+D-Red Rider HP:737/917 MP:183/183
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Strix
+2-Heimdall
+3-Red Rider
+4-Kotone
+----------------------------------------
+Seleccione una acción para Strix
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Strix
+1-Flynn HP:900/971 MP:517/527
+2-Anat HP:511/511 MP:229/229
+3-Yomotsu Shikome HP:155/155 MP:149/149
+4-Apsaras HP:85/85 MP:69/81
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Strix ataca a Apsaras
+Apsaras recibe 14 de daño
+Apsaras termina con HP:71/85
+Anat contra ataca a Strix
+Strix recibe 7 de daño
+Strix termina con HP:0/189
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:900/971 MP:517/527
+B-Anat HP:511/511 MP:229/229
+C-Yomotsu Shikome HP:155/155 MP:149/149
+D-Apsaras HP:71/85 MP:69/81
+Equipo de Kotone (J2)
+A-Kotone HP:527/597 MP:337/347
+B-Heimdall HP:581/581 MP:261/261
+C-
+D-Red Rider HP:737/917 MP:183/183
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Heimdall
+2-Red Rider
+3-Kotone
+----------------------------------------
+Seleccione una acción para Heimdall
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Jack Frost HP:52/103 MP:113/113
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Jack Frost ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:900/971 MP:517/527
+B-Anat HP:511/511 MP:229/229
+C-Yomotsu Shikome HP:155/155 MP:149/149
+D-Apsaras HP:71/85 MP:69/81
+Equipo de Kotone (J2)
+A-Kotone HP:527/597 MP:337/347
+B-Jack Frost HP:52/103 MP:113/113
+C-
+D-Red Rider HP:737/917 MP:183/183
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Red Rider
+2-Kotone
+3-Jack Frost
+----------------------------------------
+Seleccione una acción para Red Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:900/971 MP:517/527
+B-Anat HP:511/511 MP:229/229
+C-Yomotsu Shikome HP:155/155 MP:149/149
+D-Apsaras HP:71/85 MP:69/81
+Equipo de Kotone (J2)
+A-Kotone HP:527/597 MP:337/347
+B-Jack Frost HP:52/103 MP:113/113
+C-
+D-Red Rider HP:737/917 MP:183/183
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kotone
+2-Jack Frost
+3-Red Rider
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Kotone
+1-Flynn HP:900/971 MP:517/527
+2-Anat HP:511/511 MP:229/229
+3-Yomotsu Shikome HP:155/155 MP:149/149
+4-Apsaras HP:71/85 MP:69/81
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Kotone ataca a Apsaras
+Apsaras recibe 38 de daño
+Apsaras termina con HP:33/85
+Anat contra ataca a Kotone
+Kotone recibe 19 de daño
+Kotone termina con HP:508/597
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:900/971 MP:517/527
+B-Anat HP:511/511 MP:229/229
+C-Yomotsu Shikome HP:155/155 MP:149/149
+D-Apsaras HP:33/85 MP:69/81
+Equipo de Kotone (J2)
+A-Kotone HP:508/597 MP:337/347
+B-Jack Frost HP:52/103 MP:113/113
+C-
+D-Red Rider HP:737/917 MP:183/183
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Anat
+3-Yomotsu Shikome
+4-Apsaras
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:900/971 MP:517/527
+B-Anat HP:511/511 MP:229/229
+C-Yomotsu Shikome HP:155/155 MP:149/149
+D-Apsaras HP:33/85 MP:69/81
+Equipo de Kotone (J2)
+A-Kotone HP:508/597 MP:337/347
+B-Jack Frost HP:52/103 MP:113/113
+C-
+D-Red Rider HP:737/917 MP:183/183
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Anat
+2-Yomotsu Shikome
+3-Apsaras
+4-Flynn
+----------------------------------------
+Seleccione una acción para Anat
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Anat
+1-Kotone HP:508/597 MP:337/347
+2-Jack Frost HP:52/103 MP:113/113
+3-Red Rider HP:737/917 MP:183/183
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Anat ataca a Red Rider
+Red Rider recibe 42 de daño
+Red Rider termina con HP:695/917
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:900/971 MP:517/527
+B-Anat HP:511/511 MP:229/229
+C-Yomotsu Shikome HP:155/155 MP:149/149
+D-Apsaras HP:33/85 MP:69/81
+Equipo de Kotone (J2)
+A-Kotone HP:508/597 MP:337/347
+B-Jack Frost HP:52/103 MP:113/113
+C-
+D-Red Rider HP:695/917 MP:183/183
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Yomotsu Shikome
+2-Apsaras
+3-Flynn
+4-Anat
+----------------------------------------
+Seleccione una acción para Yomotsu Shikome
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Yomotsu Shikome use
+1-Stun Needles MP:14
+2-Tarunda MP:15
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Yomotsu Shikome
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Stonka HP:134/171 MP:24/34
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Yomotsu Shikome
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Yomotsu Shikome use
+1-Stun Needles MP:14
+2-Tarunda MP:15
+3-Cancelar
+INPUT: 2
+----------------------------------------
+El ataque de Kotone ha disminuido
+El ataque de Jack Frost ha disminuido
+El ataque de Red Rider ha disminuido
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:900/971 MP:517/527
+B-Anat HP:511/511 MP:229/229
+C-Yomotsu Shikome HP:155/155 MP:134/149
+D-Apsaras HP:33/85 MP:69/81
+Equipo de Kotone (J2)
+A-Kotone HP:508/597 MP:337/347
+B-Jack Frost HP:52/103 MP:113/113
+C-
+D-Red Rider HP:695/917 MP:183/183
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Apsaras
+2-Flynn
+3-Anat
+4-Yomotsu Shikome
+----------------------------------------
+Seleccione una acción para Apsaras
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Apsaras use
+1-Media MP:12
+2-Dormina MP:4
+3-Posumudi MP:5
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Apsaras cura a Flynn
+Flynn recibe 242 de HP
+Flynn termina con HP:971/971
+Apsaras cura a Anat
+Anat recibe 127 de HP
+Anat termina con HP:511/511
+Apsaras cura a Yomotsu Shikome
+Yomotsu Shikome recibe 38 de HP
+Yomotsu Shikome termina con HP:155/155
+Apsaras cura a Apsaras
+Apsaras recibe 21 de HP
+Apsaras termina con HP:54/85
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:971/971 MP:517/527
+B-Anat HP:511/511 MP:229/229
+C-Yomotsu Shikome HP:155/155 MP:134/149
+D-Apsaras HP:54/85 MP:57/81
+Equipo de Kotone (J2)
+A-Kotone HP:508/597 MP:337/347
+B-Jack Frost HP:52/103 MP:113/113
+C-
+D-Red Rider HP:695/917 MP:183/183
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Anat
+3-Yomotsu Shikome
+4-Apsaras
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Stonka HP:134/171 MP:24/34
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Flynn use
+1-Zan MP:5
+2-Zandyne MP:14
+3-Fang Breaker MP:12
+4-Agilao MP:8
+5-Gram Slice MP:5
+6-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Kotone HP:508/597 MP:337/347
+2-Jack Frost HP:52/103 MP:113/113
+3-Red Rider HP:695/917 MP:183/183
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Flynn lanza viento a Kotone
+Kotone es resistente el ataque de Flynn
+Kotone recibe 86 de daño
+Kotone termina con HP:422/597
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kotone (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:971/971 MP:503/527
+B-Anat HP:511/511 MP:229/229
+C-Yomotsu Shikome HP:155/155 MP:134/149
+D-Apsaras HP:54/85 MP:57/81
+Equipo de Kotone (J2)
+A-Kotone HP:422/597 MP:337/347
+B-Jack Frost HP:52/103 MP:113/113
+C-
+D-Red Rider HP:695/917 MP:183/183
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Red Rider
+2-Kotone
+3-Jack Frost
+----------------------------------------
+Seleccione una acción para Red Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:971/971 MP:503/527
+B-Anat HP:511/511 MP:229/229
+C-Yomotsu Shikome HP:155/155 MP:134/149
+D-Apsaras HP:54/85 MP:57/81
+Equipo de Kotone (J2)
+A-Kotone HP:422/597 MP:337/347
+B-Jack Frost HP:52/103 MP:113/113
+C-
+D-Red Rider HP:695/917 MP:183/183
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Kotone
+2-Jack Frost
+3-Red Rider
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Kotone use
+1-Dekaja MP:10
+2-Dia MP:5
+3-Great Logos MP:70
+4-Scratch Dance MP:9
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Kotone
+1-Kotone HP:422/597 MP:337/347
+2-Jack Frost HP:52/103 MP:113/113
+3-Red Rider HP:695/917 MP:183/183
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Kotone cura a Jack Frost
+Jack Frost recibe 25 de HP
+Jack Frost termina con HP:77/103
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:971/971 MP:503/527
+B-Anat HP:511/511 MP:229/229
+C-Yomotsu Shikome HP:155/155 MP:134/149
+D-Apsaras HP:54/85 MP:57/81
+Equipo de Kotone (J2)
+A-Kotone HP:422/597 MP:332/347
+B-Jack Frost HP:77/103 MP:113/113
+C-
+D-Red Rider HP:695/917 MP:183/183
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Jack Frost
+2-Red Rider
+3-Kotone
+----------------------------------------
+Seleccione una acción para Jack Frost
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Heimdall HP:581/581 MP:261/261
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Jack Frost
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Jack Frost
+1-Flynn HP:971/971 MP:503/527
+2-Anat HP:511/511 MP:229/229
+3-Yomotsu Shikome HP:155/155 MP:134/149
+4-Apsaras HP:54/85 MP:57/81
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Jack Frost ataca a Flynn
+Flynn recibe 8 de daño
+Flynn termina con HP:963/971
+Anat contra ataca a Jack Frost
+Jack Frost recibe 4 de daño
+Jack Frost termina con HP:73/103
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:963/971 MP:503/527
+B-Anat HP:511/511 MP:229/229
+C-Yomotsu Shikome HP:155/155 MP:134/149
+D-Apsaras HP:54/85 MP:57/81
+Equipo de Kotone (J2)
+A-Kotone HP:422/597 MP:332/347
+B-Jack Frost HP:73/103 MP:113/113
+C-
+D-Red Rider HP:695/917 MP:183/183
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Red Rider
+2-Kotone
+3-Jack Frost
+----------------------------------------
+Seleccione una acción para Red Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Heimdall HP:581/581 MP:261/261
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Red Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:963/971 MP:503/527
+B-Anat HP:511/511 MP:229/229
+C-Yomotsu Shikome HP:155/155 MP:134/149
+D-Apsaras HP:54/85 MP:57/81
+Equipo de Kotone (J2)
+A-Kotone HP:422/597 MP:332/347
+B-Jack Frost HP:73/103 MP:113/113
+C-
+D-Red Rider HP:695/917 MP:183/183
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Kotone
+2-Jack Frost
+3-Red Rider
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Kotone
+1-Flynn HP:963/971 MP:503/527
+2-Anat HP:511/511 MP:229/229
+3-Yomotsu Shikome HP:155/155 MP:134/149
+4-Apsaras HP:54/85 MP:57/81
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Kotone ataca a Flynn
+Flynn recibe 33 de daño
+Flynn termina con HP:930/971
+Anat contra ataca a Kotone
+Kotone recibe 16 de daño
+Kotone termina con HP:406/597
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:930/971 MP:503/527
+B-Anat HP:511/511 MP:229/229
+C-Yomotsu Shikome HP:155/155 MP:134/149
+D-Apsaras HP:54/85 MP:57/81
+Equipo de Kotone (J2)
+A-Kotone HP:406/597 MP:332/347
+B-Jack Frost HP:73/103 MP:113/113
+C-
+D-Red Rider HP:695/917 MP:183/183
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Anat
+3-Yomotsu Shikome
+4-Apsaras
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Kotone HP:406/597 MP:332/347
+2-Jack Frost HP:73/103 MP:113/113
+3-Red Rider HP:695/917 MP:183/183
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Stonka HP:134/171 MP:24/34
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una posición para invocar
+1-Anat HP:511/511 MP:229/229 (Puesto 2)
+2-Yomotsu Shikome HP:155/155 MP:134/149 (Puesto 3)
+3-Apsaras HP:54/85 MP:57/81 (Puesto 4)
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Stonka ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:930/971 MP:503/527
+B-Stonka HP:134/171 MP:24/34
+C-Yomotsu Shikome HP:155/155 MP:134/149
+D-Apsaras HP:54/85 MP:57/81
+Equipo de Kotone (J2)
+A-Kotone HP:406/597 MP:332/347
+B-Jack Frost HP:73/103 MP:113/113
+C-
+D-Red Rider HP:695/917 MP:183/183
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Stonka
+2-Yomotsu Shikome
+3-Apsaras
+4-Flynn
+----------------------------------------
+Seleccione una acción para Stonka
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Stonka use
+1-Lunge MP:6
+2-Critical Wave MP:10
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Stonka ataca a Kotone
+Kotone es resistente el ataque de Stonka
+Kotone recibe 17 de daño
+Kotone termina con HP:389/597
+Stonka ataca a Jack Frost
+Jack Frost recibe 35 de daño
+Jack Frost termina con HP:38/103
+Stonka ataca a Red Rider
+Red Rider recibe 35 de daño
+Red Rider termina con HP:660/917
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:930/971 MP:503/527
+B-Stonka HP:134/171 MP:14/34
+C-Yomotsu Shikome HP:155/155 MP:134/149
+D-Apsaras HP:54/85 MP:57/81
+Equipo de Kotone (J2)
+A-Kotone HP:389/597 MP:332/347
+B-Jack Frost HP:38/103 MP:113/113
+C-
+D-Red Rider HP:660/917 MP:183/183
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Yomotsu Shikome
+2-Apsaras
+3-Flynn
+4-Stonka
+----------------------------------------
+Seleccione una acción para Yomotsu Shikome
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Yomotsu Shikome
+1-Kotone HP:389/597 MP:332/347
+2-Jack Frost HP:38/103 MP:113/113
+3-Red Rider HP:660/917 MP:183/183
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Yomotsu Shikome
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Yomotsu Shikome
+1-Kotone HP:389/597 MP:332/347
+2-Jack Frost HP:38/103 MP:113/113
+3-Red Rider HP:660/917 MP:183/183
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Yomotsu Shikome ataca a Kotone
+Kotone es resistente el ataque de Yomotsu Shikome
+Kotone recibe 8 de daño
+Kotone termina con HP:381/597
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:930/971 MP:503/527
+B-Stonka HP:134/171 MP:14/34
+C-Yomotsu Shikome HP:155/155 MP:134/149
+D-Apsaras HP:54/85 MP:57/81
+Equipo de Kotone (J2)
+A-Kotone HP:381/597 MP:332/347
+B-Jack Frost HP:38/103 MP:113/113
+C-
+D-Red Rider HP:660/917 MP:183/183
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Apsaras
+2-Flynn
+3-Stonka
+4-Yomotsu Shikome
+----------------------------------------
+Seleccione una acción para Apsaras
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Anat HP:511/511 MP:229/229
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Anat ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:930/971 MP:503/527
+B-Stonka HP:134/171 MP:14/34
+C-Yomotsu Shikome HP:155/155 MP:134/149
+D-Anat HP:511/511 MP:229/229
+Equipo de Kotone (J2)
+A-Kotone HP:381/597 MP:332/347
+B-Jack Frost HP:38/103 MP:113/113
+C-
+D-Red Rider HP:660/917 MP:183/183
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Flynn
+2-Stonka
+3-Yomotsu Shikome
+4-Anat
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Kotone HP:381/597 MP:332/347
+2-Jack Frost HP:38/103 MP:113/113
+3-Red Rider HP:660/917 MP:183/183
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Kotone HP:381/597 MP:332/347
+2-Jack Frost HP:38/103 MP:113/113
+3-Red Rider HP:660/917 MP:183/183
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Flynn ataca a Jack Frost
+Jack Frost recibe 110 de daño
+Jack Frost termina con HP:0/103
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:930/971 MP:503/527
+B-Stonka HP:134/171 MP:14/34
+C-Yomotsu Shikome HP:155/155 MP:134/149
+D-Anat HP:511/511 MP:229/229
+Equipo de Kotone (J2)
+A-Kotone HP:381/597 MP:332/347
+B-
+C-
+D-Red Rider HP:660/917 MP:183/183
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Stonka
+2-Yomotsu Shikome
+3-Anat
+4-Flynn
+----------------------------------------
+Seleccione una acción para Stonka
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Stonka
+1-Kotone HP:381/597 MP:332/347
+2-Red Rider HP:660/917 MP:183/183
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Stonka ataca a Kotone
+Kotone es resistente el ataque de Stonka
+Kotone recibe 5 de daño
+Kotone termina con HP:376/597
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kotone (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:930/971 MP:503/527
+B-Stonka HP:134/171 MP:14/34
+C-Yomotsu Shikome HP:155/155 MP:134/149
+D-Anat HP:511/511 MP:229/229
+Equipo de Kotone (J2)
+A-Kotone HP:376/597 MP:332/347
+B-
+C-
+D-Red Rider HP:660/917 MP:183/183
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Red Rider
+2-Kotone
+----------------------------------------
+Seleccione una acción para Red Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Red Rider
+1-Flynn HP:930/971 MP:503/527
+2-Stonka HP:134/171 MP:14/34
+3-Yomotsu Shikome HP:155/155 MP:134/149
+4-Anat HP:511/511 MP:229/229
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Red Rider ataca a Stonka
+Stonka recibe 62 de daño
+Stonka termina con HP:72/171
+Stonka contra ataca a Red Rider
+Red Rider recibe 15 de daño
+Anat contra ataca a Red Rider
+Red Rider recibe 31 de daño
+Red Rider termina con HP:614/917
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:930/971 MP:503/527
+B-Stonka HP:72/171 MP:14/34
+C-Yomotsu Shikome HP:155/155 MP:134/149
+D-Anat HP:511/511 MP:229/229
+Equipo de Kotone (J2)
+A-Kotone HP:376/597 MP:332/347
+B-
+C-
+D-Red Rider HP:614/917 MP:183/183
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kotone
+2-Red Rider
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Kotone
+1-Flynn HP:930/971 MP:503/527
+2-Stonka HP:72/171 MP:14/34
+3-Yomotsu Shikome HP:155/155 MP:134/149
+4-Anat HP:511/511 MP:229/229
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:930/971 MP:503/527
+B-Stonka HP:72/171 MP:14/34
+C-Yomotsu Shikome HP:155/155 MP:134/149
+D-Anat HP:511/511 MP:229/229
+Equipo de Kotone (J2)
+A-Kotone HP:376/597 MP:332/347
+B-
+C-
+D-Red Rider HP:614/917 MP:183/183
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Red Rider
+2-Kotone
+----------------------------------------
+Seleccione una acción para Red Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Red Rider use
+1-Antichthon MP:80
+2-War Cry MP:45
+3-Purple Smoke MP:14
+4-Trisagion MP:22
+5-Cancelar
+INPUT: 2
+----------------------------------------
+El ataque de Flynn ha disminuido
+La defensa de Flynn ha disminuido
+El ataque de Stonka ha disminuido
+La defensa de Stonka ha disminuido
+El ataque de Yomotsu Shikome ha disminuido
+La defensa de Yomotsu Shikome ha disminuido
+El ataque de Anat ha disminuido
+La defensa de Anat ha disminuido
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:930/971 MP:503/527
+B-Stonka HP:72/171 MP:14/34
+C-Yomotsu Shikome HP:155/155 MP:134/149
+D-Anat HP:511/511 MP:229/229
+Equipo de Kotone (J2)
+A-Kotone HP:376/597 MP:332/347
+B-
+C-
+D-Red Rider HP:614/917 MP:138/183
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Anat
+3-Yomotsu Shikome
+4-Stonka
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Flynn use
+1-Zan MP:5
+2-Zandyne MP:14
+3-Fang Breaker MP:12
+4-Agilao MP:8
+5-Gram Slice MP:5
+6-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Kotone HP:376/597 MP:332/347
+2-Red Rider HP:614/917 MP:138/183
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Flynn lanza fuego a Red Rider
+Red Rider devuelve 141 daño a Flynn
+Flynn termina con HP:789/971
+----------------------------------------
+Se han consumido 4 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kotone (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:789/971 MP:495/527
+B-Stonka HP:72/171 MP:14/34
+C-Yomotsu Shikome HP:155/155 MP:134/149
+D-Anat HP:511/511 MP:229/229
+Equipo de Kotone (J2)
+A-Kotone HP:376/597 MP:332/347
+B-
+C-
+D-Red Rider HP:614/917 MP:138/183
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Red Rider
+2-Kotone
+----------------------------------------
+Seleccione una acción para Red Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:789/971 MP:495/527
+B-Stonka HP:72/171 MP:14/34
+C-Yomotsu Shikome HP:155/155 MP:134/149
+D-Anat HP:511/511 MP:229/229
+Equipo de Kotone (J2)
+A-Kotone HP:376/597 MP:332/347
+B-
+C-
+D-Red Rider HP:614/917 MP:138/183
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Kotone
+2-Red Rider
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Heimdall HP:581/581 MP:261/261
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una posición para invocar
+1-Vacío (Puesto 2)
+2-Vacío (Puesto 3)
+3-Red Rider HP:614/917 MP:138/183 (Puesto 4)
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:789/971 MP:495/527
+B-Stonka HP:72/171 MP:14/34
+C-Yomotsu Shikome HP:155/155 MP:134/149
+D-Anat HP:511/511 MP:229/229
+Equipo de Kotone (J2)
+A-Kotone HP:376/597 MP:332/347
+B-
+C-
+D-Red Rider HP:614/917 MP:138/183
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Red Rider
+2-Kotone
+----------------------------------------
+Seleccione una acción para Red Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Red Rider
+1-Flynn HP:789/971 MP:495/527
+2-Stonka HP:72/171 MP:14/34
+3-Yomotsu Shikome HP:155/155 MP:134/149
+4-Anat HP:511/511 MP:229/229
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Red Rider ataca a Flynn
+Flynn recibe 78 de daño
+Flynn termina con HP:711/971
+Anat contra ataca a Red Rider
+Red Rider recibe 39 de daño
+Red Rider termina con HP:575/917
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:711/971 MP:495/527
+B-Stonka HP:72/171 MP:14/34
+C-Yomotsu Shikome HP:155/155 MP:134/149
+D-Anat HP:511/511 MP:229/229
+Equipo de Kotone (J2)
+A-Kotone HP:376/597 MP:332/347
+B-
+C-
+D-Red Rider HP:575/917 MP:138/183
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Anat
+3-Yomotsu Shikome
+4-Stonka
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Kotone HP:376/597 MP:332/347
+2-Red Rider HP:575/917 MP:138/183
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Kotone HP:376/597 MP:332/347
+2-Red Rider HP:575/917 MP:138/183
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Flynn ataca a Kotone
+Kotone es resistente el ataque de Flynn
+Kotone recibe 48 de daño
+Kotone termina con HP:328/597
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:711/971 MP:495/527
+B-Stonka HP:72/171 MP:14/34
+C-Yomotsu Shikome HP:155/155 MP:134/149
+D-Anat HP:511/511 MP:229/229
+Equipo de Kotone (J2)
+A-Kotone HP:328/597 MP:332/347
+B-
+C-
+D-Red Rider HP:575/917 MP:138/183
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Anat
+2-Yomotsu Shikome
+3-Stonka
+4-Flynn
+----------------------------------------
+Seleccione una acción para Anat
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:711/971 MP:495/527
+B-Stonka HP:72/171 MP:14/34
+C-Yomotsu Shikome HP:155/155 MP:134/149
+D-Anat HP:511/511 MP:229/229
+Equipo de Kotone (J2)
+A-Kotone HP:328/597 MP:332/347
+B-
+C-
+D-Red Rider HP:575/917 MP:138/183
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Yomotsu Shikome
+2-Stonka
+3-Flynn
+4-Anat
+----------------------------------------
+Seleccione una acción para Yomotsu Shikome
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Apsaras HP:54/85 MP:57/81
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Yomotsu Shikome
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Yomotsu Shikome use
+1-Stun Needles MP:14
+2-Tarunda MP:15
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Yomotsu Shikome
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Yomotsu Shikome
+1-Kotone HP:328/597 MP:332/347
+2-Red Rider HP:575/917 MP:138/183
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Yomotsu Shikome ataca a Kotone
+Kotone es resistente el ataque de Yomotsu Shikome
+Kotone recibe 7 de daño
+Kotone termina con HP:321/597
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:711/971 MP:495/527
+B-Stonka HP:72/171 MP:14/34
+C-Yomotsu Shikome HP:155/155 MP:134/149
+D-Anat HP:511/511 MP:229/229
+Equipo de Kotone (J2)
+A-Kotone HP:321/597 MP:332/347
+B-
+C-
+D-Red Rider HP:575/917 MP:138/183
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Stonka
+2-Flynn
+3-Anat
+4-Yomotsu Shikome
+----------------------------------------
+Seleccione una acción para Stonka
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Apsaras HP:54/85 MP:57/81
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Apsaras ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:711/971 MP:495/527
+B-Apsaras HP:54/85 MP:57/81
+C-Yomotsu Shikome HP:155/155 MP:134/149
+D-Anat HP:511/511 MP:229/229
+Equipo de Kotone (J2)
+A-Kotone HP:321/597 MP:332/347
+B-
+C-
+D-Red Rider HP:575/917 MP:138/183
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Flynn
+2-Anat
+3-Yomotsu Shikome
+4-Apsaras
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Flynn use
+1-Zan MP:5
+2-Zandyne MP:14
+3-Fang Breaker MP:12
+4-Agilao MP:8
+5-Gram Slice MP:5
+6-Cancelar
+INPUT: 6
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Kotone HP:321/597 MP:332/347
+2-Red Rider HP:575/917 MP:138/183
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Flynn ataca a Red Rider
+Red Rider recibe 96 de daño
+Red Rider termina con HP:479/917
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:711/971 MP:495/527
+B-Apsaras HP:54/85 MP:57/81
+C-Yomotsu Shikome HP:155/155 MP:134/149
+D-Anat HP:511/511 MP:229/229
+Equipo de Kotone (J2)
+A-Kotone HP:321/597 MP:332/347
+B-
+C-
+D-Red Rider HP:479/917 MP:138/183
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Anat
+2-Yomotsu Shikome
+3-Apsaras
+4-Flynn
+----------------------------------------
+Seleccione una acción para Anat
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:711/971 MP:495/527
+B-Apsaras HP:54/85 MP:57/81
+C-Yomotsu Shikome HP:155/155 MP:134/149
+D-Anat HP:511/511 MP:229/229
+Equipo de Kotone (J2)
+A-Kotone HP:321/597 MP:332/347
+B-
+C-
+D-Red Rider HP:479/917 MP:138/183
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Yomotsu Shikome
+2-Apsaras
+3-Flynn
+4-Anat
+----------------------------------------
+Seleccione una acción para Yomotsu Shikome
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Yomotsu Shikome use
+1-Stun Needles MP:14
+2-Tarunda MP:15
+3-Cancelar
+INPUT: 2
+----------------------------------------
+El ataque de Kotone ha disminuido
+El ataque de Red Rider ha disminuido
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kotone (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:711/971 MP:495/527
+B-Apsaras HP:54/85 MP:57/81
+C-Yomotsu Shikome HP:155/155 MP:119/149
+D-Anat HP:511/511 MP:229/229
+Equipo de Kotone (J2)
+A-Kotone HP:321/597 MP:332/347
+B-
+C-
+D-Red Rider HP:479/917 MP:138/183
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Red Rider
+2-Kotone
+----------------------------------------
+Seleccione una acción para Red Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:711/971 MP:495/527
+B-Apsaras HP:54/85 MP:57/81
+C-Yomotsu Shikome HP:155/155 MP:119/149
+D-Anat HP:511/511 MP:229/229
+Equipo de Kotone (J2)
+A-Kotone HP:321/597 MP:332/347
+B-
+C-
+D-Red Rider HP:479/917 MP:138/183
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Kotone
+2-Red Rider
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Kotone use
+1-Dekaja MP:10
+2-Dia MP:5
+3-Great Logos MP:70
+4-Scratch Dance MP:9
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Kotone use
+1-Dekaja MP:10
+2-Dia MP:5
+3-Great Logos MP:70
+4-Scratch Dance MP:9
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:711/971 MP:495/527
+B-Apsaras HP:54/85 MP:57/81
+C-Yomotsu Shikome HP:155/155 MP:119/149
+D-Anat HP:511/511 MP:229/229
+Equipo de Kotone (J2)
+A-Kotone HP:321/597 MP:332/347
+B-
+C-
+D-Red Rider HP:479/917 MP:138/183
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Red Rider
+2-Kotone
+----------------------------------------
+Seleccione una acción para Red Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Red Rider use
+1-Antichthon MP:80
+2-War Cry MP:45
+3-Purple Smoke MP:14
+4-Trisagion MP:22
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Red Rider lanza un ataque todo poderoso a Flynn
+Flynn recibe 167 de daño
+Flynn termina con HP:544/971
+El ataque de Flynn ha disminuido
+La defensa de Flynn ha disminuido
+Red Rider lanza un ataque todo poderoso a Apsaras
+Apsaras recibe 134 de daño
+Apsaras termina con HP:0/85
+El ataque de Apsaras ha disminuido
+La defensa de Apsaras ha disminuido
+Red Rider lanza un ataque todo poderoso a Yomotsu Shikome
+Yomotsu Shikome recibe 167 de daño
+Yomotsu Shikome termina con HP:0/155
+El ataque de Yomotsu Shikome ha disminuido
+La defensa de Yomotsu Shikome ha disminuido
+Red Rider lanza un ataque todo poderoso a Anat
+Anat recibe 167 de daño
+Anat termina con HP:344/511
+El ataque de Anat ha disminuido
+La defensa de Anat ha disminuido
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:544/971 MP:495/527
+B-
+C-
+D-Anat HP:344/511 MP:229/229
+Equipo de Kotone (J2)
+A-Kotone HP:321/597 MP:332/347
+B-
+C-
+D-Red Rider HP:479/917 MP:58/183
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Anat
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:544/971 MP:495/527
+B-
+C-
+D-Anat HP:344/511 MP:229/229
+Equipo de Kotone (J2)
+A-Kotone HP:321/597 MP:332/347
+B-
+C-
+D-Red Rider HP:479/917 MP:58/183
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Anat
+2-Flynn
+----------------------------------------
+Seleccione una acción para Anat
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Stonka HP:72/171 MP:14/34
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Anat
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Anat use
+1-Mortal Jihad MP:13
+2-Tarukaja MP:15
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Anat
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Stonka HP:72/171 MP:14/34
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Anat
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Anat
+1-Kotone HP:321/597 MP:332/347
+2-Red Rider HP:479/917 MP:58/183
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Anat ataca a Red Rider
+Red Rider recibe 31 de daño
+Red Rider termina con HP:448/917
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:544/971 MP:495/527
+B-
+C-
+D-Anat HP:344/511 MP:229/229
+Equipo de Kotone (J2)
+A-Kotone HP:321/597 MP:332/347
+B-
+C-
+D-Red Rider HP:448/917 MP:58/183
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Anat
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Kotone HP:321/597 MP:332/347
+2-Red Rider HP:448/917 MP:58/183
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Flynn dispara a Kotone
+Kotone es resistente el ataque de Flynn
+Kotone recibe 41 de daño
+Kotone termina con HP:280/597
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kotone (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:544/971 MP:495/527
+B-
+C-
+D-Anat HP:344/511 MP:229/229
+Equipo de Kotone (J2)
+A-Kotone HP:280/597 MP:332/347
+B-
+C-
+D-Red Rider HP:448/917 MP:58/183
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Red Rider
+2-Kotone
+----------------------------------------
+Seleccione una acción para Red Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Red Rider
+1-Flynn HP:544/971 MP:495/527
+2-Anat HP:344/511 MP:229/229
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Red Rider ataca a Flynn
+Flynn recibe 80 de daño
+Flynn termina con HP:464/971
+Anat contra ataca a Red Rider
+Red Rider recibe 40 de daño
+Red Rider termina con HP:408/917
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:464/971 MP:495/527
+B-
+C-
+D-Anat HP:344/511 MP:229/229
+Equipo de Kotone (J2)
+A-Kotone HP:280/597 MP:332/347
+B-
+C-
+D-Red Rider HP:408/917 MP:58/183
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kotone
+2-Red Rider
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Kotone
+1-Flynn HP:464/971 MP:495/527
+2-Anat HP:344/511 MP:229/229
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Kotone
+1-Flynn HP:464/971 MP:495/527
+2-Anat HP:344/511 MP:229/229
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Kotone
+1-Flynn HP:464/971 MP:495/527
+2-Anat HP:344/511 MP:229/229
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Kotone dispara a Anat
+Anat recibe 64 de daño
+Anat termina con HP:280/511
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:464/971 MP:495/527
+B-
+C-
+D-Anat HP:280/511 MP:229/229
+Equipo de Kotone (J2)
+A-Kotone HP:280/597 MP:332/347
+B-
+C-
+D-Red Rider HP:408/917 MP:58/183
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Anat
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Stonka HP:72/171 MP:14/34
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Kotone HP:280/597 MP:332/347
+2-Red Rider HP:408/917 MP:58/183
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Stonka HP:72/171 MP:14/34
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una posición para invocar
+1-Vacío (Puesto 2)
+2-Vacío (Puesto 3)
+3-Anat HP:280/511 MP:229/229 (Puesto 4)
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Stonka ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:464/971 MP:495/527
+B-Stonka HP:72/171 MP:14/34
+C-
+D-Anat HP:280/511 MP:229/229
+Equipo de Kotone (J2)
+A-Kotone HP:280/597 MP:332/347
+B-
+C-
+D-Red Rider HP:408/917 MP:58/183
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Anat
+2-Stonka
+3-Flynn
+----------------------------------------
+Seleccione una acción para Anat
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:464/971 MP:495/527
+B-Stonka HP:72/171 MP:14/34
+C-
+D-Anat HP:280/511 MP:229/229
+Equipo de Kotone (J2)
+A-Kotone HP:280/597 MP:332/347
+B-
+C-
+D-Red Rider HP:408/917 MP:58/183
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Stonka
+2-Flynn
+3-Anat
+----------------------------------------
+Seleccione una acción para Stonka
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Stonka use
+1-Lunge MP:6
+2-Critical Wave MP:10
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Stonka
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Stonka
+1-Kotone HP:280/597 MP:332/347
+2-Red Rider HP:408/917 MP:58/183
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Stonka ataca a Kotone
+Kotone es resistente el ataque de Stonka
+Kotone recibe 4 de daño
+Kotone termina con HP:276/597
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kotone (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:464/971 MP:495/527
+B-Stonka HP:72/171 MP:14/34
+C-
+D-Anat HP:280/511 MP:229/229
+Equipo de Kotone (J2)
+A-Kotone HP:276/597 MP:332/347
+B-
+C-
+D-Red Rider HP:408/917 MP:58/183
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Red Rider
+2-Kotone
+----------------------------------------
+Seleccione una acción para Red Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Red Rider use
+1-War Cry MP:45
+2-Purple Smoke MP:14
+3-Trisagion MP:22
+4-Cancelar
+INPUT: 1
+----------------------------------------
+El ataque de Flynn ha disminuido
+La defensa de Flynn ha disminuido
+El ataque de Stonka ha disminuido
+La defensa de Stonka ha disminuido
+El ataque de Anat ha disminuido
+La defensa de Anat ha disminuido
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:464/971 MP:495/527
+B-Stonka HP:72/171 MP:14/34
+C-
+D-Anat HP:280/511 MP:229/229
+Equipo de Kotone (J2)
+A-Kotone HP:276/597 MP:332/347
+B-
+C-
+D-Red Rider HP:408/917 MP:13/183
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kotone
+2-Red Rider
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:464/971 MP:495/527
+B-Stonka HP:72/171 MP:14/34
+C-
+D-Anat HP:280/511 MP:229/229
+Equipo de Kotone (J2)
+A-Kotone HP:276/597 MP:332/347
+B-
+C-
+D-Red Rider HP:408/917 MP:13/183
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Red Rider
+2-Kotone
+----------------------------------------
+Seleccione una acción para Red Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Red Rider use
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Red Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:464/971 MP:495/527
+B-Stonka HP:72/171 MP:14/34
+C-
+D-Anat HP:280/511 MP:229/229
+Equipo de Kotone (J2)
+A-Kotone HP:276/597 MP:332/347
+B-
+C-
+D-Red Rider HP:408/917 MP:13/183
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Anat
+3-Stonka
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Kotone HP:276/597 MP:332/347
+2-Red Rider HP:408/917 MP:13/183
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Kotone HP:276/597 MP:332/347
+2-Red Rider HP:408/917 MP:13/183
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Flynn dispara a Red Rider
+Red Rider es resistente el ataque de Flynn
+Red Rider recibe 34 de daño
+Red Rider termina con HP:374/917
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:464/971 MP:495/527
+B-Stonka HP:72/171 MP:14/34
+C-
+D-Anat HP:280/511 MP:229/229
+Equipo de Kotone (J2)
+A-Kotone HP:276/597 MP:332/347
+B-
+C-
+D-Red Rider HP:374/917 MP:13/183
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Anat
+2-Stonka
+3-Flynn
+----------------------------------------
+Seleccione una acción para Anat
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Anat
+1-Kotone HP:276/597 MP:332/347
+2-Red Rider HP:374/917 MP:13/183
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Anat ataca a Red Rider
+Red Rider recibe 26 de daño
+Red Rider termina con HP:348/917
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:464/971 MP:495/527
+B-Stonka HP:72/171 MP:14/34
+C-
+D-Anat HP:280/511 MP:229/229
+Equipo de Kotone (J2)
+A-Kotone HP:276/597 MP:332/347
+B-
+C-
+D-Red Rider HP:348/917 MP:13/183
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Stonka
+2-Flynn
+3-Anat
+----------------------------------------
+Seleccione una acción para Stonka
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Stonka
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:464/971 MP:495/527
+B-Stonka HP:72/171 MP:14/34
+C-
+D-Anat HP:280/511 MP:229/229
+Equipo de Kotone (J2)
+A-Kotone HP:276/597 MP:332/347
+B-
+C-
+D-Red Rider HP:348/917 MP:13/183
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Flynn
+2-Anat
+3-Stonka
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Kotone HP:276/597 MP:332/347
+2-Red Rider HP:348/917 MP:13/183
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Flynn dispara a Kotone
+Kotone es resistente el ataque de Flynn
+Kotone recibe 34 de daño
+Kotone termina con HP:242/597
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kotone (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:464/971 MP:495/527
+B-Stonka HP:72/171 MP:14/34
+C-
+D-Anat HP:280/511 MP:229/229
+Equipo de Kotone (J2)
+A-Kotone HP:242/597 MP:332/347
+B-
+C-
+D-Red Rider HP:348/917 MP:13/183
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Red Rider
+2-Kotone
+----------------------------------------
+Seleccione una acción para Red Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Red Rider use
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Red Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Red Rider
+1-Flynn HP:464/971 MP:495/527
+2-Stonka HP:72/171 MP:14/34
+3-Anat HP:280/511 MP:229/229
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Red Rider ataca a Anat
+Anat es resistente el ataque de Red Rider
+Anat recibe 46 de daño
+Anat termina con HP:234/511
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:464/971 MP:495/527
+B-Stonka HP:72/171 MP:14/34
+C-
+D-Anat HP:234/511 MP:229/229
+Equipo de Kotone (J2)
+A-Kotone HP:242/597 MP:332/347
+B-
+C-
+D-Red Rider HP:348/917 MP:13/183
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kotone
+2-Red Rider
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Kotone
+1-Flynn HP:464/971 MP:495/527
+2-Stonka HP:72/171 MP:14/34
+3-Anat HP:234/511 MP:229/229
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Kotone ataca a Anat
+Anat es resistente el ataque de Kotone
+Anat recibe 25 de daño
+Anat termina con HP:209/511
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:464/971 MP:495/527
+B-Stonka HP:72/171 MP:14/34
+C-
+D-Anat HP:209/511 MP:229/229
+Equipo de Kotone (J2)
+A-Kotone HP:242/597 MP:332/347
+B-
+C-
+D-Red Rider HP:348/917 MP:13/183
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Anat
+3-Stonka
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:464/971 MP:495/527
+B-Stonka HP:72/171 MP:14/34
+C-
+D-Anat HP:209/511 MP:229/229
+Equipo de Kotone (J2)
+A-Kotone HP:242/597 MP:332/347
+B-
+C-
+D-Red Rider HP:348/917 MP:13/183
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Anat
+2-Stonka
+3-Flynn
+----------------------------------------
+Seleccione una acción para Anat
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Anat
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Anat
+1-Kotone HP:242/597 MP:332/347
+2-Red Rider HP:348/917 MP:13/183
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Anat ataca a Kotone
+Kotone es resistente el ataque de Anat
+Kotone recibe 13 de daño
+Kotone termina con HP:229/597
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:464/971 MP:495/527
+B-Stonka HP:72/171 MP:14/34
+C-
+D-Anat HP:209/511 MP:229/229
+Equipo de Kotone (J2)
+A-Kotone HP:229/597 MP:332/347
+B-
+C-
+D-Red Rider HP:348/917 MP:13/183
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Stonka
+2-Flynn
+3-Anat
+----------------------------------------
+Seleccione una acción para Stonka
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Stonka
+1-Kotone HP:229/597 MP:332/347
+2-Red Rider HP:348/917 MP:13/183
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Stonka
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Stonka
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Stonka
+1-Kotone HP:229/597 MP:332/347
+2-Red Rider HP:348/917 MP:13/183
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Stonka ataca a Red Rider
+Red Rider recibe 7 de daño
+Red Rider termina con HP:341/917
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:464/971 MP:495/527
+B-Stonka HP:72/171 MP:14/34
+C-
+D-Anat HP:209/511 MP:229/229
+Equipo de Kotone (J2)
+A-Kotone HP:229/597 MP:332/347
+B-
+C-
+D-Red Rider HP:341/917 MP:13/183
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Anat
+3-Stonka
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Kotone HP:229/597 MP:332/347
+2-Red Rider HP:341/917 MP:13/183
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Flynn ataca a Kotone
+Kotone es resistente el ataque de Flynn
+Kotone recibe 34 de daño
+Kotone termina con HP:195/597
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kotone (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:464/971 MP:495/527
+B-Stonka HP:72/171 MP:14/34
+C-
+D-Anat HP:209/511 MP:229/229
+Equipo de Kotone (J2)
+A-Kotone HP:195/597 MP:332/347
+B-
+C-
+D-Red Rider HP:341/917 MP:13/183
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Red Rider
+2-Kotone
+----------------------------------------
+Seleccione una acción para Red Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:464/971 MP:495/527
+B-Stonka HP:72/171 MP:14/34
+C-
+D-Anat HP:209/511 MP:229/229
+Equipo de Kotone (J2)
+A-Kotone HP:195/597 MP:332/347
+B-
+C-
+D-Red Rider HP:341/917 MP:13/183
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Kotone
+2-Red Rider
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Kotone
+1-Flynn HP:464/971 MP:495/527
+2-Stonka HP:72/171 MP:14/34
+3-Anat HP:209/511 MP:229/229
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Kotone use
+1-Dekaja MP:10
+2-Dia MP:5
+3-Great Logos MP:70
+4-Scratch Dance MP:9
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Kotone
+1-Kotone HP:195/597 MP:332/347
+2-Red Rider HP:341/917 MP:13/183
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:464/971 MP:495/527
+B-Stonka HP:72/171 MP:14/34
+C-
+D-Anat HP:209/511 MP:229/229
+Equipo de Kotone (J2)
+A-Kotone HP:195/597 MP:332/347
+B-
+C-
+D-Red Rider HP:341/917 MP:13/183
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Red Rider
+2-Kotone
+----------------------------------------
+Seleccione una acción para Red Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:464/971 MP:495/527
+B-Stonka HP:72/171 MP:14/34
+C-
+D-Anat HP:209/511 MP:229/229
+Equipo de Kotone (J2)
+A-Kotone HP:195/597 MP:332/347
+B-
+C-
+D-Red Rider HP:341/917 MP:13/183
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Kotone
+2-Red Rider
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:464/971 MP:495/527
+B-Stonka HP:72/171 MP:14/34
+C-
+D-Anat HP:209/511 MP:229/229
+Equipo de Kotone (J2)
+A-Kotone HP:195/597 MP:332/347
+B-
+C-
+D-Red Rider HP:341/917 MP:13/183
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Anat
+3-Stonka
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Flynn use
+1-Zan MP:5
+2-Zandyne MP:14
+3-Fang Breaker MP:12
+4-Agilao MP:8
+5-Gram Slice MP:5
+6-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Kotone HP:195/597 MP:332/347
+2-Red Rider HP:341/917 MP:13/183
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Kotone HP:195/597 MP:332/347
+2-Red Rider HP:341/917 MP:13/183
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Kotone HP:195/597 MP:332/347
+2-Red Rider HP:341/917 MP:13/183
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Kotone HP:195/597 MP:332/347
+2-Red Rider HP:341/917 MP:13/183
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Flynn use
+1-Zan MP:5
+2-Zandyne MP:14
+3-Fang Breaker MP:12
+4-Agilao MP:8
+5-Gram Slice MP:5
+6-Cancelar
+INPUT: 6
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Kotone HP:195/597 MP:332/347
+2-Red Rider HP:341/917 MP:13/183
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Flynn ataca a Red Rider
+Red Rider recibe 68 de daño
+Red Rider termina con HP:273/917
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:464/971 MP:495/527
+B-Stonka HP:72/171 MP:14/34
+C-
+D-Anat HP:209/511 MP:229/229
+Equipo de Kotone (J2)
+A-Kotone HP:195/597 MP:332/347
+B-
+C-
+D-Red Rider HP:273/917 MP:13/183
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Anat
+2-Stonka
+3-Flynn
+----------------------------------------
+Seleccione una acción para Anat
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Anat use
+1-Mortal Jihad MP:13
+2-Tarukaja MP:15
+3-Cancelar
+INPUT: 2
+----------------------------------------
+El ataque de Flynn ha aumentado
+El ataque de Stonka ha aumentado
+El ataque de Anat ha aumentado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:464/971 MP:495/527
+B-Stonka HP:72/171 MP:14/34
+C-
+D-Anat HP:209/511 MP:214/229
+Equipo de Kotone (J2)
+A-Kotone HP:195/597 MP:332/347
+B-
+C-
+D-Red Rider HP:273/917 MP:13/183
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Stonka
+2-Flynn
+3-Anat
+----------------------------------------
+Seleccione una acción para Stonka
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Stonka
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:464/971 MP:495/527
+B-Stonka HP:72/171 MP:14/34
+C-
+D-Anat HP:209/511 MP:214/229
+Equipo de Kotone (J2)
+A-Kotone HP:195/597 MP:332/347
+B-
+C-
+D-Red Rider HP:273/917 MP:13/183
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Flynn
+2-Anat
+3-Stonka
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Flynn use
+1-Zan MP:5
+2-Zandyne MP:14
+3-Fang Breaker MP:12
+4-Agilao MP:8
+5-Gram Slice MP:5
+6-Cancelar
+INPUT: 6
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Kotone HP:195/597 MP:332/347
+2-Red Rider HP:273/917 MP:13/183
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kotone (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:464/971 MP:495/527
+B-Stonka HP:72/171 MP:14/34
+C-
+D-Anat HP:209/511 MP:214/229
+Equipo de Kotone (J2)
+A-Kotone HP:195/597 MP:332/347
+B-
+C-
+D-Red Rider HP:273/917 MP:13/183
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Red Rider
+2-Kotone
+----------------------------------------
+Seleccione una acción para Red Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Red Rider use
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Red Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Heimdall HP:581/581 MP:261/261
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Heimdall ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:464/971 MP:495/527
+B-Stonka HP:72/171 MP:14/34
+C-
+D-Anat HP:209/511 MP:214/229
+Equipo de Kotone (J2)
+A-Kotone HP:195/597 MP:332/347
+B-
+C-
+D-Heimdall HP:581/581 MP:261/261
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Kotone
+2-Heimdall
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Kotone use
+1-Dekaja MP:10
+2-Dia MP:5
+3-Great Logos MP:70
+4-Scratch Dance MP:9
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Kotone
+1-Kotone HP:195/597 MP:332/347
+2-Heimdall HP:581/581 MP:261/261
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Kotone cura a Kotone
+Kotone recibe 149 de HP
+Kotone termina con HP:344/597
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:464/971 MP:495/527
+B-Stonka HP:72/171 MP:14/34
+C-
+D-Anat HP:209/511 MP:214/229
+Equipo de Kotone (J2)
+A-Kotone HP:344/597 MP:327/347
+B-
+C-
+D-Heimdall HP:581/581 MP:261/261
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Heimdall
+2-Kotone
+----------------------------------------
+Seleccione una acción para Heimdall
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Heimdall use
+1-Charge MP:9
+2-Judgement MP:45
+3-Hades Blast MP:32
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Heimdall
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Heimdall
+1-Flynn HP:464/971 MP:495/527
+2-Stonka HP:72/171 MP:14/34
+3-Anat HP:209/511 MP:214/229
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Heimdall
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:464/971 MP:495/527
+B-Stonka HP:72/171 MP:14/34
+C-
+D-Anat HP:209/511 MP:214/229
+Equipo de Kotone (J2)
+A-Kotone HP:344/597 MP:327/347
+B-
+C-
+D-Heimdall HP:581/581 MP:261/261
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Kotone
+2-Heimdall
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Red Rider HP:273/917 MP:13/183
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una posición para invocar
+1-Vacío (Puesto 2)
+2-Vacío (Puesto 3)
+3-Heimdall HP:581/581 MP:261/261 (Puesto 4)
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Kotone
+1-Flynn HP:464/971 MP:495/527
+2-Stonka HP:72/171 MP:14/34
+3-Anat HP:209/511 MP:214/229
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Kotone dispara a Anat
+Anat recibe 75 de daño
+Anat termina con HP:134/511
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:464/971 MP:495/527
+B-Stonka HP:72/171 MP:14/34
+C-
+D-Anat HP:134/511 MP:214/229
+Equipo de Kotone (J2)
+A-Kotone HP:344/597 MP:327/347
+B-
+C-
+D-Heimdall HP:581/581 MP:261/261
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Anat
+3-Stonka
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Kotone HP:344/597 MP:327/347
+2-Heimdall HP:581/581 MP:261/261
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Flynn dispara a Heimdall
+Heimdall recibe 82 de daño
+Heimdall termina con HP:499/581
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:464/971 MP:495/527
+B-Stonka HP:72/171 MP:14/34
+C-
+D-Anat HP:134/511 MP:214/229
+Equipo de Kotone (J2)
+A-Kotone HP:344/597 MP:327/347
+B-
+C-
+D-Heimdall HP:499/581 MP:261/261
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Anat
+2-Stonka
+3-Flynn
+----------------------------------------
+Seleccione una acción para Anat
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:464/971 MP:495/527
+B-Stonka HP:72/171 MP:14/34
+C-
+D-Anat HP:134/511 MP:214/229
+Equipo de Kotone (J2)
+A-Kotone HP:344/597 MP:327/347
+B-
+C-
+D-Heimdall HP:499/581 MP:261/261
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Stonka
+2-Flynn
+3-Anat
+----------------------------------------
+Seleccione una acción para Stonka
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:464/971 MP:495/527
+B-Stonka HP:72/171 MP:14/34
+C-
+D-Anat HP:134/511 MP:214/229
+Equipo de Kotone (J2)
+A-Kotone HP:344/597 MP:327/347
+B-
+C-
+D-Heimdall HP:499/581 MP:261/261
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Anat
+3-Stonka
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Kotone HP:344/597 MP:327/347
+2-Heimdall HP:499/581 MP:261/261
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Flynn dispara a Heimdall
+Heimdall recibe 82 de daño
+Heimdall termina con HP:417/581
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kotone (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:464/971 MP:495/527
+B-Stonka HP:72/171 MP:14/34
+C-
+D-Anat HP:134/511 MP:214/229
+Equipo de Kotone (J2)
+A-Kotone HP:344/597 MP:327/347
+B-
+C-
+D-Heimdall HP:417/581 MP:261/261
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Heimdall
+2-Kotone
+----------------------------------------
+Seleccione una acción para Heimdall
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Heimdall
+1-Flynn HP:464/971 MP:495/527
+2-Stonka HP:72/171 MP:14/34
+3-Anat HP:134/511 MP:214/229
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Heimdall ataca a Flynn
+Flynn recibe 85 de daño
+Flynn termina con HP:379/971
+Anat contra ataca a Heimdall
+Heimdall recibe 42 de daño
+Heimdall termina con HP:375/581
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:379/971 MP:495/527
+B-Stonka HP:72/171 MP:14/34
+C-
+D-Anat HP:134/511 MP:214/229
+Equipo de Kotone (J2)
+A-Kotone HP:344/597 MP:327/347
+B-
+C-
+D-Heimdall HP:375/581 MP:261/261
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kotone
+2-Heimdall
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Kotone
+1-Flynn HP:379/971 MP:495/527
+2-Stonka HP:72/171 MP:14/34
+3-Anat HP:134/511 MP:214/229
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Kotone ataca a Anat
+Anat es resistente el ataque de Kotone
+Anat recibe 25 de daño
+Anat termina con HP:109/511
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:379/971 MP:495/527
+B-Stonka HP:72/171 MP:14/34
+C-
+D-Anat HP:109/511 MP:214/229
+Equipo de Kotone (J2)
+A-Kotone HP:344/597 MP:327/347
+B-
+C-
+D-Heimdall HP:375/581 MP:261/261
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Anat
+3-Stonka
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:379/971 MP:495/527
+B-Stonka HP:72/171 MP:14/34
+C-
+D-Anat HP:109/511 MP:214/229
+Equipo de Kotone (J2)
+A-Kotone HP:344/597 MP:327/347
+B-
+C-
+D-Heimdall HP:375/581 MP:261/261
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Anat
+2-Stonka
+3-Flynn
+----------------------------------------
+Seleccione una acción para Anat
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Anat
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Anat
+1-Kotone HP:344/597 MP:327/347
+2-Heimdall HP:375/581 MP:261/261
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Anat ataca a Kotone
+Kotone es resistente el ataque de Anat
+Kotone recibe 15 de daño
+Kotone termina con HP:329/597
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:379/971 MP:495/527
+B-Stonka HP:72/171 MP:14/34
+C-
+D-Anat HP:109/511 MP:214/229
+Equipo de Kotone (J2)
+A-Kotone HP:329/597 MP:327/347
+B-
+C-
+D-Heimdall HP:375/581 MP:261/261
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Stonka
+2-Flynn
+3-Anat
+----------------------------------------
+Seleccione una acción para Stonka
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Stonka
+1-Kotone HP:329/597 MP:327/347
+2-Heimdall HP:375/581 MP:261/261
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Stonka
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Stonka
+1-Kotone HP:329/597 MP:327/347
+2-Heimdall HP:375/581 MP:261/261
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Stonka
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Stonka use
+1-Lunge MP:6
+2-Critical Wave MP:10
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Stonka ataca a Kotone
+Kotone es resistente el ataque de Stonka
+Kotone recibe 15 de daño
+Kotone termina con HP:314/597
+Stonka ataca a Heimdall
+Heimdall recibe 31 de daño
+Heimdall termina con HP:344/581
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:379/971 MP:495/527
+B-Stonka HP:72/171 MP:4/34
+C-
+D-Anat HP:109/511 MP:214/229
+Equipo de Kotone (J2)
+A-Kotone HP:314/597 MP:327/347
+B-
+C-
+D-Heimdall HP:344/581 MP:261/261
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Anat
+3-Stonka
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:379/971 MP:495/527
+B-Stonka HP:72/171 MP:4/34
+C-
+D-Anat HP:109/511 MP:214/229
+Equipo de Kotone (J2)
+A-Kotone HP:314/597 MP:327/347
+B-
+C-
+D-Heimdall HP:344/581 MP:261/261
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Anat
+2-Stonka
+3-Flynn
+----------------------------------------
+Seleccione una acción para Anat
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Anat
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Anat
+1-Kotone HP:314/597 MP:327/347
+2-Heimdall HP:344/581 MP:261/261
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Anat
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Anat
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Anat
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kotone (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:379/971 MP:495/527
+B-Stonka HP:72/171 MP:4/34
+C-
+D-Anat HP:109/511 MP:214/229
+Equipo de Kotone (J2)
+A-Kotone HP:314/597 MP:327/347
+B-
+C-
+D-Heimdall HP:344/581 MP:261/261
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Heimdall
+2-Kotone
+----------------------------------------
+Seleccione una acción para Heimdall
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Red Rider HP:273/917 MP:13/183
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Red Rider ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:379/971 MP:495/527
+B-Stonka HP:72/171 MP:4/34
+C-
+D-Anat HP:109/511 MP:214/229
+Equipo de Kotone (J2)
+A-Kotone HP:314/597 MP:327/347
+B-
+C-
+D-Red Rider HP:273/917 MP:13/183
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Kotone
+2-Red Rider
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:379/971 MP:495/527
+B-Stonka HP:72/171 MP:4/34
+C-
+D-Anat HP:109/511 MP:214/229
+Equipo de Kotone (J2)
+A-Kotone HP:314/597 MP:327/347
+B-
+C-
+D-Red Rider HP:273/917 MP:13/183
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Red Rider
+2-Kotone
+----------------------------------------
+Seleccione una acción para Red Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:379/971 MP:495/527
+B-Stonka HP:72/171 MP:4/34
+C-
+D-Anat HP:109/511 MP:214/229
+Equipo de Kotone (J2)
+A-Kotone HP:314/597 MP:327/347
+B-
+C-
+D-Red Rider HP:273/917 MP:13/183
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Kotone
+2-Red Rider
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Kotone
+1-Flynn HP:379/971 MP:495/527
+2-Stonka HP:72/171 MP:4/34
+3-Anat HP:109/511 MP:214/229
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Kotone dispara a Stonka
+Stonka es débil contra el ataque de Kotone
+Stonka recibe 96 de daño
+Stonka termina con HP:0/171
+Anat contra ataca a Kotone
+Kotone recibe 48 de daño
+Kotone termina con HP:266/597
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:379/971 MP:495/527
+B-
+C-
+D-Anat HP:109/511 MP:214/229
+Equipo de Kotone (J2)
+A-Kotone HP:266/597 MP:327/347
+B-
+C-
+D-Red Rider HP:273/917 MP:13/183
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Anat
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:379/971 MP:495/527
+B-
+C-
+D-Anat HP:109/511 MP:214/229
+Equipo de Kotone (J2)
+A-Kotone HP:266/597 MP:327/347
+B-
+C-
+D-Red Rider HP:273/917 MP:13/183
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Anat
+2-Flynn
+----------------------------------------
+Seleccione una acción para Anat
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Anat use
+1-Mortal Jihad MP:13
+2-Tarukaja MP:15
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Anat
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Anat use
+1-Mortal Jihad MP:13
+2-Tarukaja MP:15
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Anat
+1-Kotone HP:266/597 MP:327/347
+2-Red Rider HP:273/917 MP:13/183
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Anat ataca a Red Rider
+Red Rider recibe 96 de daño
+Red Rider termina con HP:177/917
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:379/971 MP:495/527
+B-
+C-
+D-Anat HP:109/511 MP:201/229
+Equipo de Kotone (J2)
+A-Kotone HP:266/597 MP:327/347
+B-
+C-
+D-Red Rider HP:177/917 MP:13/183
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Anat
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Flynn use
+1-Zan MP:5
+2-Zandyne MP:14
+3-Fang Breaker MP:12
+4-Agilao MP:8
+5-Gram Slice MP:5
+6-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Kotone HP:266/597 MP:327/347
+2-Red Rider HP:177/917 MP:13/183
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Flynn ataca a Kotone
+Kotone es resistente el ataque de Flynn
+Kotone recibe 56 de daño
+Kotone termina con HP:210/597
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kotone (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:379/971 MP:490/527
+B-
+C-
+D-Anat HP:109/511 MP:201/229
+Equipo de Kotone (J2)
+A-Kotone HP:210/597 MP:327/347
+B-
+C-
+D-Red Rider HP:177/917 MP:13/183
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Red Rider
+2-Kotone
+----------------------------------------
+Seleccione una acción para Red Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Red Rider use
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Red Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Red Rider use
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Red Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Red Rider
+1-Flynn HP:379/971 MP:490/527
+2-Anat HP:109/511 MP:201/229
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Red Rider ataca a Flynn
+Flynn recibe 93 de daño
+Flynn termina con HP:286/971
+Anat contra ataca a Red Rider
+Red Rider recibe 46 de daño
+Red Rider termina con HP:131/917
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:286/971 MP:490/527
+B-
+C-
+D-Anat HP:109/511 MP:201/229
+Equipo de Kotone (J2)
+A-Kotone HP:210/597 MP:327/347
+B-
+C-
+D-Red Rider HP:131/917 MP:13/183
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kotone
+2-Red Rider
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Kotone
+1-Flynn HP:286/971 MP:490/527
+2-Anat HP:109/511 MP:201/229
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Kotone use
+1-Dekaja MP:10
+2-Dia MP:5
+3-Great Logos MP:70
+4-Scratch Dance MP:9
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Kotone lanza un ataque todo poderoso a Flynn
+Flynn recibe 203 de daño
+Flynn termina con HP:83/971
+Kotone lanza un ataque todo poderoso a Anat
+Anat recibe 203 de daño
+Anat termina con HP:0/511
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:83/971 MP:490/527
+B-
+C-
+D-
+Equipo de Kotone (J2)
+A-Kotone HP:210/597 MP:257/347
+B-
+C-
+D-Red Rider HP:131/917 MP:13/183
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Kotone HP:210/597 MP:257/347
+2-Red Rider HP:131/917 MP:13/183
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Flynn ataca a Red Rider
+Red Rider recibe 82 de daño
+Red Rider termina con HP:49/917
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kotone (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:83/971 MP:490/527
+B-
+C-
+D-
+Equipo de Kotone (J2)
+A-Kotone HP:210/597 MP:257/347
+B-
+C-
+D-Red Rider HP:49/917 MP:13/183
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Red Rider
+2-Kotone
+----------------------------------------
+Seleccione una acción para Red Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:83/971 MP:490/527
+B-
+C-
+D-
+Equipo de Kotone (J2)
+A-Kotone HP:210/597 MP:257/347
+B-
+C-
+D-Red Rider HP:49/917 MP:13/183
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Kotone
+2-Red Rider
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Kotone use
+1-Dekaja MP:10
+2-Dia MP:5
+3-Great Logos MP:70
+4-Scratch Dance MP:9
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Kotone
+1-Kotone HP:210/597 MP:257/347
+2-Red Rider HP:49/917 MP:13/183
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Kotone cura a Kotone
+Kotone recibe 149 de HP
+Kotone termina con HP:359/597
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:83/971 MP:490/527
+B-
+C-
+D-
+Equipo de Kotone (J2)
+A-Kotone HP:359/597 MP:252/347
+B-
+C-
+D-Red Rider HP:49/917 MP:13/183
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Red Rider
+2-Kotone
+----------------------------------------
+Seleccione una acción para Red Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:83/971 MP:490/527
+B-
+C-
+D-
+Equipo de Kotone (J2)
+A-Kotone HP:359/597 MP:252/347
+B-
+C-
+D-Red Rider HP:49/917 MP:13/183
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Kotone
+2-Red Rider
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Kotone
+1-Flynn HP:83/971 MP:490/527
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:83/971 MP:490/527
+B-
+C-
+D-
+Equipo de Kotone (J2)
+A-Kotone HP:359/597 MP:252/347
+B-
+C-
+D-Red Rider HP:49/917 MP:13/183
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Flynn use
+1-Zan MP:5
+2-Zandyne MP:14
+3-Fang Breaker MP:12
+4-Agilao MP:8
+5-Gram Slice MP:5
+6-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Kotone HP:359/597 MP:252/347
+2-Red Rider HP:49/917 MP:13/183
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Flynn ataca a Red Rider
+Red Rider recibe 112 de daño
+Red Rider termina con HP:0/917
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kotone (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:83/971 MP:485/527
+B-
+C-
+D-
+Equipo de Kotone (J2)
+A-Kotone HP:359/597 MP:252/347
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kotone
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Heimdall HP:344/581 MP:261/261
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una posición para invocar
+1-Vacío (Puesto 2)
+2-Vacío (Puesto 3)
+3-Vacío (Puesto 4)
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Heimdall ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:83/971 MP:485/527
+B-
+C-
+D-
+Equipo de Kotone (J2)
+A-Kotone HP:359/597 MP:252/347
+B-
+C-Heimdall HP:344/581 MP:261/261
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Heimdall
+2-Kotone
+----------------------------------------
+Seleccione una acción para Heimdall
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:83/971 MP:485/527
+B-
+C-
+D-
+Equipo de Kotone (J2)
+A-Kotone HP:359/597 MP:252/347
+B-
+C-Heimdall HP:344/581 MP:261/261
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Flynn use
+1-Zan MP:5
+2-Zandyne MP:14
+3-Fang Breaker MP:12
+4-Agilao MP:8
+5-Gram Slice MP:5
+6-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Kotone HP:359/597 MP:252/347
+2-Heimdall HP:344/581 MP:261/261
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Flynn lanza viento a Kotone
+Kotone es resistente el ataque de Flynn
+Kotone recibe 40 de daño
+Kotone termina con HP:319/597
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kotone (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:83/971 MP:480/527
+B-
+C-
+D-
+Equipo de Kotone (J2)
+A-Kotone HP:319/597 MP:252/347
+B-
+C-Heimdall HP:344/581 MP:261/261
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Heimdall
+2-Kotone
+----------------------------------------
+Seleccione una acción para Heimdall
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:83/971 MP:480/527
+B-
+C-
+D-
+Equipo de Kotone (J2)
+A-Kotone HP:319/597 MP:252/347
+B-
+C-Heimdall HP:344/581 MP:261/261
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Kotone
+2-Heimdall
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Kotone use
+1-Dekaja MP:10
+2-Dia MP:5
+3-Great Logos MP:70
+4-Scratch Dance MP:9
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Kotone use
+1-Dekaja MP:10
+2-Dia MP:5
+3-Great Logos MP:70
+4-Scratch Dance MP:9
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Kotone
+1-Kotone HP:319/597 MP:252/347
+2-Heimdall HP:344/581 MP:261/261
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Kotone cura a Kotone
+Kotone recibe 149 de HP
+Kotone termina con HP:468/597
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:83/971 MP:480/527
+B-
+C-
+D-
+Equipo de Kotone (J2)
+A-Kotone HP:468/597 MP:247/347
+B-
+C-Heimdall HP:344/581 MP:261/261
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Heimdall
+2-Kotone
+----------------------------------------
+Seleccione una acción para Heimdall
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Heimdall
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:83/971 MP:480/527
+B-
+C-
+D-
+Equipo de Kotone (J2)
+A-Kotone HP:468/597 MP:247/347
+B-
+C-Heimdall HP:344/581 MP:261/261
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Kotone
+2-Heimdall
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Kotone
+1-Flynn HP:83/971 MP:480/527
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Kotone ataca a Flynn
+Flynn recibe 50 de daño
+Flynn termina con HP:33/971
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:33/971 MP:480/527
+B-
+C-
+D-
+Equipo de Kotone (J2)
+A-Kotone HP:468/597 MP:247/347
+B-
+C-Heimdall HP:344/581 MP:261/261
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Kotone HP:468/597 MP:247/347
+2-Heimdall HP:344/581 MP:261/261
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Flynn ataca a Heimdall
+Heimdall recibe 82 de daño
+Heimdall termina con HP:262/581
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kotone (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:33/971 MP:480/527
+B-
+C-
+D-
+Equipo de Kotone (J2)
+A-Kotone HP:468/597 MP:247/347
+B-
+C-Heimdall HP:262/581 MP:261/261
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Heimdall
+2-Kotone
+----------------------------------------
+Seleccione una acción para Heimdall
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:33/971 MP:480/527
+B-
+C-
+D-
+Equipo de Kotone (J2)
+A-Kotone HP:468/597 MP:247/347
+B-
+C-Heimdall HP:262/581 MP:261/261
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Kotone
+2-Heimdall
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Kotone
+1-Flynn HP:33/971 MP:480/527
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Kotone use
+1-Dekaja MP:10
+2-Dia MP:5
+3-Great Logos MP:70
+4-Scratch Dance MP:9
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Kotone use
+1-Dekaja MP:10
+2-Dia MP:5
+3-Great Logos MP:70
+4-Scratch Dance MP:9
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Kotone
+1-Flynn HP:33/971 MP:480/527
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Kotone ataca a Flynn
+Flynn recibe 50 de daño
+Flynn termina con HP:0/971
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ganador: Kotone (J2)

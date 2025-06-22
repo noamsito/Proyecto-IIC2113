@@ -1,0 +1,415 @@
+Elige un archivo para cargar los equipos
+0: 001.txt
+1: 002.txt
+2: 003.txt
+3: 004.txt
+4: 005.txt
+5: 006.txt
+6: 007.txt
+7: 008.txt
+8: 009.txt
+9: 010.txt
+10: 011.txt
+11: 012.txt
+12: 013.txt
+13: 014.txt
+14: 015.txt
+15: 016.txt
+16: 017.txt
+INPUT: 3
+----------------------------------------
+Ronda de Tadano (J1)
+----------------------------------------
+Equipo de Tadano (J1)
+A-Tadano HP:388/388 MP:193/193
+B-Jeanne D'Arc HP:277/277 MP:269/269
+C-Pele HP:76/76 MP:72/72
+D-Skadi HP:390/390 MP:378/378
+Equipo de Shujinko (J2)
+A-Shujinko HP:1317/1317 MP:625/625
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Skadi
+2-Jeanne D'Arc
+3-Tadano
+4-Pele
+----------------------------------------
+Seleccione una acción para Skadi
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Skadi
+1-Shujinko HP:1317/1317 MP:625/625
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Skadi ataca a Shujinko
+Shujinko es resistente el ataque de Skadi
+Shujinko recibe 20 de daño
+Shujinko termina con HP:1297/1317
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Tadano (J1)
+A-Tadano HP:388/388 MP:193/193
+B-Jeanne D'Arc HP:277/277 MP:269/269
+C-Pele HP:76/76 MP:72/72
+D-Skadi HP:390/390 MP:378/378
+Equipo de Shujinko (J2)
+A-Shujinko HP:1297/1317 MP:625/625
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Jeanne D'Arc
+2-Tadano
+3-Pele
+4-Skadi
+----------------------------------------
+Seleccione una acción para Jeanne D'Arc
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Jeanne D'Arc
+1-Shujinko HP:1297/1317 MP:625/625
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Jeanne D'Arc ataca a Shujinko
+Shujinko es resistente el ataque de Jeanne D'Arc
+Shujinko recibe 14 de daño
+Shujinko termina con HP:1283/1317
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Tadano (J1)
+A-Tadano HP:388/388 MP:193/193
+B-Jeanne D'Arc HP:277/277 MP:269/269
+C-Pele HP:76/76 MP:72/72
+D-Skadi HP:390/390 MP:378/378
+Equipo de Shujinko (J2)
+A-Shujinko HP:1283/1317 MP:625/625
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Tadano
+2-Pele
+3-Skadi
+4-Jeanne D'Arc
+----------------------------------------
+Seleccione una acción para Tadano
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Tadano
+1-Shujinko HP:1283/1317 MP:625/625
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Tadano ataca a Shujinko
+Shujinko es resistente el ataque de Tadano
+Shujinko recibe 8 de daño
+Shujinko termina con HP:1275/1317
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Tadano (J1)
+A-Tadano HP:388/388 MP:193/193
+B-Jeanne D'Arc HP:277/277 MP:269/269
+C-Pele HP:76/76 MP:72/72
+D-Skadi HP:390/390 MP:378/378
+Equipo de Shujinko (J2)
+A-Shujinko HP:1275/1317 MP:625/625
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Pele
+2-Skadi
+3-Jeanne D'Arc
+4-Tadano
+----------------------------------------
+Seleccione una acción para Pele
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Pele
+1-Shujinko HP:1275/1317 MP:625/625
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Pele ataca a Shujinko
+Shujinko es resistente el ataque de Pele
+Shujinko recibe 3 de daño
+Shujinko termina con HP:1272/1317
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Shujinko (J2)
+----------------------------------------
+Equipo de Tadano (J1)
+A-Tadano HP:388/388 MP:193/193
+B-Jeanne D'Arc HP:277/277 MP:269/269
+C-Pele HP:76/76 MP:72/72
+D-Skadi HP:390/390 MP:378/378
+Equipo de Shujinko (J2)
+A-Shujinko HP:1272/1317 MP:625/625
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Shujinko
+----------------------------------------
+Seleccione una acción para Shujinko
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Shujinko use
+1-Antichthon MP:80
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Shujinko lanza un ataque todo poderoso a Tadano
+Tadano recibe 178 de daño
+Tadano termina con HP:210/388
+El ataque de Tadano ha disminuido
+La defensa de Tadano ha disminuido
+Shujinko lanza un ataque todo poderoso a Jeanne D'Arc
+Jeanne D'Arc recibe 178 de daño
+Jeanne D'Arc termina con HP:99/277
+El ataque de Jeanne D'Arc ha disminuido
+La defensa de Jeanne D'Arc ha disminuido
+Shujinko lanza un ataque todo poderoso a Pele
+Pele recibe 178 de daño
+Pele termina con HP:0/76
+El ataque de Pele ha disminuido
+La defensa de Pele ha disminuido
+Shujinko lanza un ataque todo poderoso a Skadi
+Skadi recibe 178 de daño
+Skadi termina con HP:212/390
+El ataque de Skadi ha disminuido
+La defensa de Skadi ha disminuido
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Tadano (J1)
+----------------------------------------
+Equipo de Tadano (J1)
+A-Tadano HP:210/388 MP:193/193
+B-Jeanne D'Arc HP:99/277 MP:269/269
+C-
+D-Skadi HP:212/390 MP:378/378
+Equipo de Shujinko (J2)
+A-Shujinko HP:1272/1317 MP:545/625
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Skadi
+2-Jeanne D'Arc
+3-Tadano
+----------------------------------------
+Seleccione una acción para Skadi
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Skadi
+1-Shujinko HP:1272/1317 MP:545/625
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Skadi ataca a Shujinko
+Shujinko es resistente el ataque de Skadi
+Shujinko recibe 18 de daño
+Shujinko termina con HP:1254/1317
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Tadano (J1)
+A-Tadano HP:210/388 MP:193/193
+B-Jeanne D'Arc HP:99/277 MP:269/269
+C-
+D-Skadi HP:212/390 MP:378/378
+Equipo de Shujinko (J2)
+A-Shujinko HP:1254/1317 MP:545/625
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Jeanne D'Arc
+2-Tadano
+3-Skadi
+----------------------------------------
+Seleccione una acción para Jeanne D'Arc
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Jeanne D'Arc
+1-Shujinko HP:1254/1317 MP:545/625
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Jeanne D'Arc ataca a Shujinko
+Shujinko es resistente el ataque de Jeanne D'Arc
+Shujinko recibe 12 de daño
+Shujinko termina con HP:1242/1317
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Tadano (J1)
+A-Tadano HP:210/388 MP:193/193
+B-Jeanne D'Arc HP:99/277 MP:269/269
+C-
+D-Skadi HP:212/390 MP:378/378
+Equipo de Shujinko (J2)
+A-Shujinko HP:1242/1317 MP:545/625
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Tadano
+2-Skadi
+3-Jeanne D'Arc
+----------------------------------------
+Seleccione una acción para Tadano
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Tadano
+1-Shujinko HP:1242/1317 MP:545/625
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Tadano ataca a Shujinko
+Shujinko es resistente el ataque de Tadano
+Shujinko recibe 7 de daño
+Shujinko termina con HP:1235/1317
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Shujinko (J2)
+----------------------------------------
+Equipo de Tadano (J1)
+A-Tadano HP:210/388 MP:193/193
+B-Jeanne D'Arc HP:99/277 MP:269/269
+C-
+D-Skadi HP:212/390 MP:378/378
+Equipo de Shujinko (J2)
+A-Shujinko HP:1235/1317 MP:545/625
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Shujinko
+----------------------------------------
+Seleccione una acción para Shujinko
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Shujinko use
+1-Antichthon MP:80
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Shujinko lanza un ataque todo poderoso a Tadano
+Tadano recibe 223 de daño
+Tadano termina con HP:0/388
+El ataque de Tadano ha disminuido
+La defensa de Tadano ha disminuido
+Shujinko lanza un ataque todo poderoso a Jeanne D'Arc
+Jeanne D'Arc recibe 223 de daño
+Jeanne D'Arc termina con HP:0/277
+El ataque de Jeanne D'Arc ha disminuido
+La defensa de Jeanne D'Arc ha disminuido
+Shujinko lanza un ataque todo poderoso a Skadi
+Skadi recibe 223 de daño
+Skadi termina con HP:0/390
+El ataque de Skadi ha disminuido
+La defensa de Skadi ha disminuido
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ganador: Shujinko (J2)

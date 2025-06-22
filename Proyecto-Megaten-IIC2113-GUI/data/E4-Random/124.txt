@@ -1,0 +1,9 @@
+Player 1 Team
+[Samurai] Yu (Refrigerate,Shining Seal,Resist Force,Hama)
+Rama
+Morax
+Player 2 Team
+[Samurai] Flynn (Shock,Judgement,Fire Pleroma)
+Manticore
+Valkyrie
+Dormarth

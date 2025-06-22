@@ -1,0 +1,73 @@
+Elige un archivo para cargar los equipos
+0: 001.txt
+1: 002.txt
+2: 003.txt
+3: 004.txt
+4: 005.txt
+5: 006.txt
+6: 007.txt
+7: 008.txt
+8: 009.txt
+9: 010.txt
+10: 011.txt
+11: 012.txt
+12: 013.txt
+13: 014.txt
+14: 015.txt
+15: 016.txt
+16: 017.txt
+INPUT: 15
+----------------------------------------
+Ronda de Demi-Fiend (J1)
+----------------------------------------
+Equipo de Demi-Fiend (J1)
+A-Demi-Fiend HP:1227/1227 MP:834/834
+B-
+C-
+D-
+Equipo de Kei (J2)
+A-Kei HP:760/760 MP:398/398
+B-Wendigo HP:331/331 MP:66/66
+C-Astaroth HP:406/406 MP:181/181
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Demi-Fiend
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Demi-Fiend use
+1-Cold World MP:50
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Demi-Fiend lanza hielo a Kei
+Kei es resistente el ataque de Demi-Fiend
+Kei recibe 106 de daño
+Demi-Fiend lanza un ataque todo poderoso a Kei
+Kei ha sido eliminado
+Kei termina con HP:0/760
+Demi-Fiend lanza hielo a Wendigo
+Wendigo devuelve 212 daño a Demi-Fiend
+Demi-Fiend lanza un ataque todo poderoso a Wendigo
+Wendigo devuelve el ataque a Demi-Fiend y lo elimina
+Demi-Fiend lanza hielo a Astaroth
+Astaroth devuelve 212 daño a Demi-Fiend
+Demi-Fiend lanza un ataque todo poderoso a Astaroth
+Astaroth devuelve el ataque a Demi-Fiend y lo elimina
+Demi-Fiend termina con HP:0/1227
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ganador: Kei (J2)

@@ -1,0 +1,2042 @@
+Elige un archivo para cargar los equipos
+0: 001.txt
+1: 002.txt
+2: 003.txt
+3: 004.txt
+4: 005.txt
+5: 006.txt
+6: 007.txt
+7: 008.txt
+8: 009.txt
+9: 010.txt
+10: 011.txt
+11: 012.txt
+12: 013.txt
+13: 014.txt
+14: 015.txt
+15: 016.txt
+16: 017.txt
+17: 018.txt
+18: 019.txt
+19: 020.txt
+20: 021.txt
+21: 022.txt
+22: 023.txt
+23: 024.txt
+24: 025.txt
+25: 026.txt
+26: 027.txt
+27: 028.txt
+28: 029.txt
+29: 030.txt
+30: 031.txt
+31: 032.txt
+32: 033.txt
+33: 034.txt
+34: 035.txt
+35: 036.txt
+36: 037.txt
+37: 038.txt
+38: 039.txt
+39: 040.txt
+40: 041.txt
+41: 042.txt
+42: 043.txt
+43: 044.txt
+44: 045.txt
+45: 046.txt
+46: 047.txt
+47: 048.txt
+48: 049.txt
+49: 050.txt
+50: 051.txt
+51: 052.txt
+52: 053.txt
+53: 054.txt
+54: 055.txt
+55: 056.txt
+56: 057.txt
+57: 058.txt
+58: 059.txt
+59: 060.txt
+60: 061.txt
+61: 062.txt
+62: 063.txt
+63: 064.txt
+64: 065.txt
+65: 066.txt
+66: 067.txt
+67: 068.txt
+68: 069.txt
+69: 070.txt
+70: 071.txt
+71: 072.txt
+72: 073.txt
+73: 074.txt
+74: 075.txt
+75: 076.txt
+76: 077.txt
+77: 078.txt
+78: 079.txt
+79: 080.txt
+80: 081.txt
+81: 082.txt
+82: 083.txt
+83: 084.txt
+84: 085.txt
+85: 086.txt
+86: 087.txt
+87: 088.txt
+88: 089.txt
+89: 090.txt
+90: 091.txt
+91: 092.txt
+92: 093.txt
+93: 094.txt
+94: 095.txt
+95: 096.txt
+96: 097.txt
+97: 098.txt
+98: 099.txt
+99: 100.txt
+100: 101.txt
+101: 102.txt
+102: 103.txt
+103: 104.txt
+104: 105.txt
+105: 106.txt
+106: 107.txt
+107: 108.txt
+108: 109.txt
+109: 110.txt
+INPUT: 109
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:971/971 MP:527/527
+B-Alilat HP:441/441 MP:428/428
+C-Metatron HP:879/879 MP:175/175
+D-
+Equipo de Nahobino (J2)
+A-Nahobino HP:453/453 MP:389/389
+B-Kazfiel HP:469/469 MP:211/211
+C-Michael HP:1002/1002 MP:199/199
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Metatron
+3-Alilat
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Nahobino HP:453/453 MP:389/389
+2-Kazfiel HP:469/469 MP:211/211
+3-Michael HP:1002/1002 MP:199/199
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Flynn ataca a Nahobino
+Nahobino recibe 88 de daño
+Nahobino termina con HP:365/453
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:971/971 MP:527/527
+B-Alilat HP:441/441 MP:428/428
+C-Metatron HP:879/879 MP:175/175
+D-
+Equipo de Nahobino (J2)
+A-Nahobino HP:365/453 MP:389/389
+B-Kazfiel HP:469/469 MP:211/211
+C-Michael HP:1002/1002 MP:199/199
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Metatron
+2-Alilat
+3-Flynn
+----------------------------------------
+Seleccione una acción para Metatron
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Metatron
+1-Nahobino HP:365/453 MP:389/389
+2-Kazfiel HP:469/469 MP:211/211
+3-Michael HP:1002/1002 MP:199/199
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Metatron ataca a Kazfiel
+Kazfiel recibe 68 de daño
+Kazfiel termina con HP:401/469
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:971/971 MP:527/527
+B-Alilat HP:441/441 MP:428/428
+C-Metatron HP:879/879 MP:175/175
+D-
+Equipo de Nahobino (J2)
+A-Nahobino HP:365/453 MP:389/389
+B-Kazfiel HP:401/469 MP:211/211
+C-Michael HP:1002/1002 MP:199/199
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Alilat
+2-Flynn
+3-Metatron
+----------------------------------------
+Seleccione una acción para Alilat
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alilat
+1-Nahobino HP:365/453 MP:389/389
+2-Kazfiel HP:401/469 MP:211/211
+3-Michael HP:1002/1002 MP:199/199
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Alilat ataca a Michael
+Michael recibe 47 de daño
+Michael termina con HP:955/1002
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Nahobino (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:971/971 MP:527/527
+B-Alilat HP:441/441 MP:428/428
+C-Metatron HP:879/879 MP:175/175
+D-
+Equipo de Nahobino (J2)
+A-Nahobino HP:365/453 MP:389/389
+B-Kazfiel HP:401/469 MP:211/211
+C-Michael HP:955/1002 MP:199/199
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Michael
+2-Kazfiel
+3-Nahobino
+----------------------------------------
+Seleccione una acción para Michael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Michael
+1-Flynn HP:971/971 MP:527/527
+2-Alilat HP:441/441 MP:428/428
+3-Metatron HP:879/879 MP:175/175
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Michael ataca a Flynn
+Flynn recibe 78 de daño
+Flynn termina con HP:893/971
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:893/971 MP:527/527
+B-Alilat HP:441/441 MP:428/428
+C-Metatron HP:879/879 MP:175/175
+D-
+Equipo de Nahobino (J2)
+A-Nahobino HP:365/453 MP:389/389
+B-Kazfiel HP:401/469 MP:211/211
+C-Michael HP:955/1002 MP:199/199
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kazfiel
+2-Nahobino
+3-Michael
+----------------------------------------
+Seleccione una acción para Kazfiel
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Kazfiel
+1-Flynn HP:893/971 MP:527/527
+2-Alilat HP:441/441 MP:428/428
+3-Metatron HP:879/879 MP:175/175
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Kazfiel ataca a Alilat
+Alilat es resistente el ataque de Kazfiel
+Alilat recibe 19 de daño
+Alilat termina con HP:422/441
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:893/971 MP:527/527
+B-Alilat HP:422/441 MP:428/428
+C-Metatron HP:879/879 MP:175/175
+D-
+Equipo de Nahobino (J2)
+A-Nahobino HP:365/453 MP:389/389
+B-Kazfiel HP:401/469 MP:211/211
+C-Michael HP:955/1002 MP:199/199
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Nahobino
+2-Michael
+3-Kazfiel
+----------------------------------------
+Seleccione una acción para Nahobino
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Nahobino
+1-Flynn HP:893/971 MP:527/527
+2-Alilat HP:422/441 MP:428/428
+3-Metatron HP:879/879 MP:175/175
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Nahobino ataca a Metatron
+Metatron recibe 29 de daño
+Metatron termina con HP:850/879
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:893/971 MP:527/527
+B-Alilat HP:422/441 MP:428/428
+C-Metatron HP:850/879 MP:175/175
+D-
+Equipo de Nahobino (J2)
+A-Nahobino HP:365/453 MP:389/389
+B-Kazfiel HP:401/469 MP:211/211
+C-Michael HP:955/1002 MP:199/199
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Metatron
+3-Alilat
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Flynn use
+1-War Cry MP:45
+2-Luster Candy MP:50
+3-Cancelar
+INPUT: 1
+----------------------------------------
+El ataque de Nahobino ha disminuido
+La defensa de Nahobino ha disminuido
+El ataque de Kazfiel ha disminuido
+La defensa de Kazfiel ha disminuido
+El ataque de Michael ha disminuido
+La defensa de Michael ha disminuido
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:893/971 MP:482/527
+B-Alilat HP:422/441 MP:428/428
+C-Metatron HP:850/879 MP:175/175
+D-
+Equipo de Nahobino (J2)
+A-Nahobino HP:365/453 MP:389/389
+B-Kazfiel HP:401/469 MP:211/211
+C-Michael HP:955/1002 MP:199/199
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Metatron
+2-Alilat
+3-Flynn
+----------------------------------------
+Seleccione una acción para Metatron
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:893/971 MP:482/527
+B-Alilat HP:422/441 MP:428/428
+C-Metatron HP:850/879 MP:175/175
+D-
+Equipo de Nahobino (J2)
+A-Nahobino HP:365/453 MP:389/389
+B-Kazfiel HP:401/469 MP:211/211
+C-Michael HP:955/1002 MP:199/199
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Alilat
+2-Flynn
+3-Metatron
+----------------------------------------
+Seleccione una acción para Alilat
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:893/971 MP:482/527
+B-Alilat HP:422/441 MP:428/428
+C-Metatron HP:850/879 MP:175/175
+D-
+Equipo de Nahobino (J2)
+A-Nahobino HP:365/453 MP:389/389
+B-Kazfiel HP:401/469 MP:211/211
+C-Michael HP:955/1002 MP:199/199
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Metatron
+3-Alilat
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Flynn use
+1-War Cry MP:45
+2-Luster Candy MP:50
+3-Cancelar
+INPUT: 2
+----------------------------------------
+El ataque de Alilat ha aumentado
+La defensa de Alilat ha aumentado
+El ataque de Metatron ha aumentado
+La defensa de Metatron ha aumentado
+El ataque de Flynn ha aumentado
+La defensa de Flynn ha aumentado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Nahobino (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:893/971 MP:432/527
+B-Alilat HP:422/441 MP:428/428
+C-Metatron HP:850/879 MP:175/175
+D-
+Equipo de Nahobino (J2)
+A-Nahobino HP:365/453 MP:389/389
+B-Kazfiel HP:401/469 MP:211/211
+C-Michael HP:955/1002 MP:199/199
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Michael
+2-Kazfiel
+3-Nahobino
+----------------------------------------
+Seleccione una acción para Michael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Michael
+1-Flynn HP:893/971 MP:432/527
+2-Alilat HP:422/441 MP:428/428
+3-Metatron HP:850/879 MP:175/175
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Michael ataca a Flynn
+Flynn recibe 59 de daño
+Flynn termina con HP:834/971
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:834/971 MP:432/527
+B-Alilat HP:422/441 MP:428/428
+C-Metatron HP:850/879 MP:175/175
+D-
+Equipo de Nahobino (J2)
+A-Nahobino HP:365/453 MP:389/389
+B-Kazfiel HP:401/469 MP:211/211
+C-Michael HP:955/1002 MP:199/199
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kazfiel
+2-Nahobino
+3-Michael
+----------------------------------------
+Seleccione una acción para Kazfiel
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Kazfiel
+1-Flynn HP:834/971 MP:432/527
+2-Alilat HP:422/441 MP:428/428
+3-Metatron HP:850/879 MP:175/175
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Kazfiel ataca a Alilat
+Alilat es resistente el ataque de Kazfiel
+Alilat recibe 14 de daño
+Alilat termina con HP:408/441
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:834/971 MP:432/527
+B-Alilat HP:408/441 MP:428/428
+C-Metatron HP:850/879 MP:175/175
+D-
+Equipo de Nahobino (J2)
+A-Nahobino HP:365/453 MP:389/389
+B-Kazfiel HP:401/469 MP:211/211
+C-Michael HP:955/1002 MP:199/199
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Nahobino
+2-Michael
+3-Kazfiel
+----------------------------------------
+Seleccione una acción para Nahobino
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Nahobino
+1-Flynn HP:834/971 MP:432/527
+2-Alilat HP:408/441 MP:428/428
+3-Metatron HP:850/879 MP:175/175
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Nahobino ataca a Metatron
+Metatron recibe 22 de daño
+Metatron termina con HP:828/879
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:834/971 MP:432/527
+B-Alilat HP:408/441 MP:428/428
+C-Metatron HP:828/879 MP:175/175
+D-
+Equipo de Nahobino (J2)
+A-Nahobino HP:365/453 MP:389/389
+B-Kazfiel HP:401/469 MP:211/211
+C-Michael HP:955/1002 MP:199/199
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Metatron
+3-Alilat
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Nahobino HP:365/453 MP:389/389
+2-Kazfiel HP:401/469 MP:211/211
+3-Michael HP:955/1002 MP:199/199
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Flynn ataca a Nahobino
+Nahobino recibe 137 de daño
+Nahobino termina con HP:228/453
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:834/971 MP:432/527
+B-Alilat HP:408/441 MP:428/428
+C-Metatron HP:828/879 MP:175/175
+D-
+Equipo de Nahobino (J2)
+A-Nahobino HP:228/453 MP:389/389
+B-Kazfiel HP:401/469 MP:211/211
+C-Michael HP:955/1002 MP:199/199
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Metatron
+2-Alilat
+3-Flynn
+----------------------------------------
+Seleccione una acción para Metatron
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Metatron
+1-Nahobino HP:228/453 MP:389/389
+2-Kazfiel HP:401/469 MP:211/211
+3-Michael HP:955/1002 MP:199/199
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Metatron ataca a Kazfiel
+Kazfiel recibe 106 de daño
+Kazfiel termina con HP:295/469
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:834/971 MP:432/527
+B-Alilat HP:408/441 MP:428/428
+C-Metatron HP:828/879 MP:175/175
+D-
+Equipo de Nahobino (J2)
+A-Nahobino HP:228/453 MP:389/389
+B-Kazfiel HP:295/469 MP:211/211
+C-Michael HP:955/1002 MP:199/199
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Alilat
+2-Flynn
+3-Metatron
+----------------------------------------
+Seleccione una acción para Alilat
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alilat
+1-Nahobino HP:228/453 MP:389/389
+2-Kazfiel HP:295/469 MP:211/211
+3-Michael HP:955/1002 MP:199/199
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Alilat ataca a Michael
+Michael recibe 74 de daño
+Michael termina con HP:881/1002
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Nahobino (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:834/971 MP:432/527
+B-Alilat HP:408/441 MP:428/428
+C-Metatron HP:828/879 MP:175/175
+D-
+Equipo de Nahobino (J2)
+A-Nahobino HP:228/453 MP:389/389
+B-Kazfiel HP:295/469 MP:211/211
+C-Michael HP:881/1002 MP:199/199
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Michael
+2-Kazfiel
+3-Nahobino
+----------------------------------------
+Seleccione una acción para Michael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:834/971 MP:432/527
+B-Alilat HP:408/441 MP:428/428
+C-Metatron HP:828/879 MP:175/175
+D-
+Equipo de Nahobino (J2)
+A-Nahobino HP:228/453 MP:389/389
+B-Kazfiel HP:295/469 MP:211/211
+C-Michael HP:881/1002 MP:199/199
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Kazfiel
+2-Nahobino
+3-Michael
+----------------------------------------
+Seleccione una acción para Kazfiel
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:834/971 MP:432/527
+B-Alilat HP:408/441 MP:428/428
+C-Metatron HP:828/879 MP:175/175
+D-
+Equipo de Nahobino (J2)
+A-Nahobino HP:228/453 MP:389/389
+B-Kazfiel HP:295/469 MP:211/211
+C-Michael HP:881/1002 MP:199/199
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Nahobino
+2-Michael
+3-Kazfiel
+----------------------------------------
+Seleccione una acción para Nahobino
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:834/971 MP:432/527
+B-Alilat HP:408/441 MP:428/428
+C-Metatron HP:828/879 MP:175/175
+D-
+Equipo de Nahobino (J2)
+A-Nahobino HP:228/453 MP:389/389
+B-Kazfiel HP:295/469 MP:211/211
+C-Michael HP:881/1002 MP:199/199
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Michael
+2-Kazfiel
+3-Nahobino
+----------------------------------------
+Seleccione una acción para Michael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:834/971 MP:432/527
+B-Alilat HP:408/441 MP:428/428
+C-Metatron HP:828/879 MP:175/175
+D-
+Equipo de Nahobino (J2)
+A-Nahobino HP:228/453 MP:389/389
+B-Kazfiel HP:295/469 MP:211/211
+C-Michael HP:881/1002 MP:199/199
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kazfiel
+2-Nahobino
+3-Michael
+----------------------------------------
+Seleccione una acción para Kazfiel
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:834/971 MP:432/527
+B-Alilat HP:408/441 MP:428/428
+C-Metatron HP:828/879 MP:175/175
+D-
+Equipo de Nahobino (J2)
+A-Nahobino HP:228/453 MP:389/389
+B-Kazfiel HP:295/469 MP:211/211
+C-Michael HP:881/1002 MP:199/199
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Nahobino
+2-Michael
+3-Kazfiel
+----------------------------------------
+Seleccione una acción para Nahobino
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Nahobino use
+1-Silent Prayer MP:15
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Los buffs de Kazfiel han desaparecido
+Los debuffs de Kazfiel han desaparecido
+Los buffs de Michael han desaparecido
+Los debuffs de Michael han desaparecido
+Los buffs de Flynn han desaparecido
+Los debuffs de Flynn han desaparecido
+Los buffs de Alilat han desaparecido
+Los debuffs de Alilat han desaparecido
+Los buffs de Metatron han desaparecido
+Los debuffs de Metatron han desaparecido
+Los buffs de Nahobino han desaparecido
+Los debuffs de Nahobino han desaparecido
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:834/971 MP:432/527
+B-Alilat HP:408/441 MP:428/428
+C-Metatron HP:828/879 MP:175/175
+D-
+Equipo de Nahobino (J2)
+A-Nahobino HP:228/453 MP:374/389
+B-Kazfiel HP:295/469 MP:211/211
+C-Michael HP:881/1002 MP:199/199
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Metatron
+3-Alilat
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Nahobino HP:228/453 MP:374/389
+2-Kazfiel HP:295/469 MP:211/211
+3-Michael HP:881/1002 MP:199/199
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Flynn ataca a Nahobino
+Nahobino recibe 88 de daño
+Nahobino termina con HP:140/453
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:834/971 MP:432/527
+B-Alilat HP:408/441 MP:428/428
+C-Metatron HP:828/879 MP:175/175
+D-
+Equipo de Nahobino (J2)
+A-Nahobino HP:140/453 MP:374/389
+B-Kazfiel HP:295/469 MP:211/211
+C-Michael HP:881/1002 MP:199/199
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Metatron
+2-Alilat
+3-Flynn
+----------------------------------------
+Seleccione una acción para Metatron
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Metatron
+1-Nahobino HP:140/453 MP:374/389
+2-Kazfiel HP:295/469 MP:211/211
+3-Michael HP:881/1002 MP:199/199
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Metatron ataca a Kazfiel
+Kazfiel recibe 68 de daño
+Kazfiel termina con HP:227/469
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:834/971 MP:432/527
+B-Alilat HP:408/441 MP:428/428
+C-Metatron HP:828/879 MP:175/175
+D-
+Equipo de Nahobino (J2)
+A-Nahobino HP:140/453 MP:374/389
+B-Kazfiel HP:227/469 MP:211/211
+C-Michael HP:881/1002 MP:199/199
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Alilat
+2-Flynn
+3-Metatron
+----------------------------------------
+Seleccione una acción para Alilat
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alilat
+1-Nahobino HP:140/453 MP:374/389
+2-Kazfiel HP:227/469 MP:211/211
+3-Michael HP:881/1002 MP:199/199
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Alilat ataca a Michael
+Michael recibe 47 de daño
+Michael termina con HP:834/1002
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Nahobino (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:834/971 MP:432/527
+B-Alilat HP:408/441 MP:428/428
+C-Metatron HP:828/879 MP:175/175
+D-
+Equipo de Nahobino (J2)
+A-Nahobino HP:140/453 MP:374/389
+B-Kazfiel HP:227/469 MP:211/211
+C-Michael HP:834/1002 MP:199/199
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Michael
+2-Kazfiel
+3-Nahobino
+----------------------------------------
+Seleccione una acción para Michael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Michael
+1-Flynn HP:834/971 MP:432/527
+2-Alilat HP:408/441 MP:428/428
+3-Metatron HP:828/879 MP:175/175
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Michael ataca a Flynn
+Flynn recibe 78 de daño
+Flynn termina con HP:756/971
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:756/971 MP:432/527
+B-Alilat HP:408/441 MP:428/428
+C-Metatron HP:828/879 MP:175/175
+D-
+Equipo de Nahobino (J2)
+A-Nahobino HP:140/453 MP:374/389
+B-Kazfiel HP:227/469 MP:211/211
+C-Michael HP:834/1002 MP:199/199
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kazfiel
+2-Nahobino
+3-Michael
+----------------------------------------
+Seleccione una acción para Kazfiel
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Kazfiel
+1-Flynn HP:756/971 MP:432/527
+2-Alilat HP:408/441 MP:428/428
+3-Metatron HP:828/879 MP:175/175
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Kazfiel ataca a Alilat
+Alilat es resistente el ataque de Kazfiel
+Alilat recibe 19 de daño
+Alilat termina con HP:389/441
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:756/971 MP:432/527
+B-Alilat HP:389/441 MP:428/428
+C-Metatron HP:828/879 MP:175/175
+D-
+Equipo de Nahobino (J2)
+A-Nahobino HP:140/453 MP:374/389
+B-Kazfiel HP:227/469 MP:211/211
+C-Michael HP:834/1002 MP:199/199
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Nahobino
+2-Michael
+3-Kazfiel
+----------------------------------------
+Seleccione una acción para Nahobino
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Nahobino
+1-Flynn HP:756/971 MP:432/527
+2-Alilat HP:389/441 MP:428/428
+3-Metatron HP:828/879 MP:175/175
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Nahobino ataca a Metatron
+Metatron recibe 29 de daño
+Metatron termina con HP:799/879
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:756/971 MP:432/527
+B-Alilat HP:389/441 MP:428/428
+C-Metatron HP:799/879 MP:175/175
+D-
+Equipo de Nahobino (J2)
+A-Nahobino HP:140/453 MP:374/389
+B-Kazfiel HP:227/469 MP:211/211
+C-Michael HP:834/1002 MP:199/199
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Metatron
+3-Alilat
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Flynn use
+1-War Cry MP:45
+2-Luster Candy MP:50
+3-Cancelar
+INPUT: 1
+----------------------------------------
+El ataque de Nahobino ha disminuido
+La defensa de Nahobino ha disminuido
+El ataque de Kazfiel ha disminuido
+La defensa de Kazfiel ha disminuido
+El ataque de Michael ha disminuido
+La defensa de Michael ha disminuido
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:756/971 MP:387/527
+B-Alilat HP:389/441 MP:428/428
+C-Metatron HP:799/879 MP:175/175
+D-
+Equipo de Nahobino (J2)
+A-Nahobino HP:140/453 MP:374/389
+B-Kazfiel HP:227/469 MP:211/211
+C-Michael HP:834/1002 MP:199/199
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Metatron
+2-Alilat
+3-Flynn
+----------------------------------------
+Seleccione una acción para Metatron
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:756/971 MP:387/527
+B-Alilat HP:389/441 MP:428/428
+C-Metatron HP:799/879 MP:175/175
+D-
+Equipo de Nahobino (J2)
+A-Nahobino HP:140/453 MP:374/389
+B-Kazfiel HP:227/469 MP:211/211
+C-Michael HP:834/1002 MP:199/199
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Alilat
+2-Flynn
+3-Metatron
+----------------------------------------
+Seleccione una acción para Alilat
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:756/971 MP:387/527
+B-Alilat HP:389/441 MP:428/428
+C-Metatron HP:799/879 MP:175/175
+D-
+Equipo de Nahobino (J2)
+A-Nahobino HP:140/453 MP:374/389
+B-Kazfiel HP:227/469 MP:211/211
+C-Michael HP:834/1002 MP:199/199
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Metatron
+3-Alilat
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Flynn use
+1-War Cry MP:45
+2-Luster Candy MP:50
+3-Cancelar
+INPUT: 2
+----------------------------------------
+El ataque de Alilat ha aumentado
+La defensa de Alilat ha aumentado
+El ataque de Metatron ha aumentado
+La defensa de Metatron ha aumentado
+El ataque de Flynn ha aumentado
+La defensa de Flynn ha aumentado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Nahobino (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:756/971 MP:337/527
+B-Alilat HP:389/441 MP:428/428
+C-Metatron HP:799/879 MP:175/175
+D-
+Equipo de Nahobino (J2)
+A-Nahobino HP:140/453 MP:374/389
+B-Kazfiel HP:227/469 MP:211/211
+C-Michael HP:834/1002 MP:199/199
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Michael
+2-Kazfiel
+3-Nahobino
+----------------------------------------
+Seleccione una acción para Michael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:756/971 MP:337/527
+B-Alilat HP:389/441 MP:428/428
+C-Metatron HP:799/879 MP:175/175
+D-
+Equipo de Nahobino (J2)
+A-Nahobino HP:140/453 MP:374/389
+B-Kazfiel HP:227/469 MP:211/211
+C-Michael HP:834/1002 MP:199/199
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Kazfiel
+2-Nahobino
+3-Michael
+----------------------------------------
+Seleccione una acción para Kazfiel
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:756/971 MP:337/527
+B-Alilat HP:389/441 MP:428/428
+C-Metatron HP:799/879 MP:175/175
+D-
+Equipo de Nahobino (J2)
+A-Nahobino HP:140/453 MP:374/389
+B-Kazfiel HP:227/469 MP:211/211
+C-Michael HP:834/1002 MP:199/199
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Nahobino
+2-Michael
+3-Kazfiel
+----------------------------------------
+Seleccione una acción para Nahobino
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:756/971 MP:337/527
+B-Alilat HP:389/441 MP:428/428
+C-Metatron HP:799/879 MP:175/175
+D-
+Equipo de Nahobino (J2)
+A-Nahobino HP:140/453 MP:374/389
+B-Kazfiel HP:227/469 MP:211/211
+C-Michael HP:834/1002 MP:199/199
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Michael
+2-Kazfiel
+3-Nahobino
+----------------------------------------
+Seleccione una acción para Michael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:756/971 MP:337/527
+B-Alilat HP:389/441 MP:428/428
+C-Metatron HP:799/879 MP:175/175
+D-
+Equipo de Nahobino (J2)
+A-Nahobino HP:140/453 MP:374/389
+B-Kazfiel HP:227/469 MP:211/211
+C-Michael HP:834/1002 MP:199/199
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kazfiel
+2-Nahobino
+3-Michael
+----------------------------------------
+Seleccione una acción para Kazfiel
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:756/971 MP:337/527
+B-Alilat HP:389/441 MP:428/428
+C-Metatron HP:799/879 MP:175/175
+D-
+Equipo de Nahobino (J2)
+A-Nahobino HP:140/453 MP:374/389
+B-Kazfiel HP:227/469 MP:211/211
+C-Michael HP:834/1002 MP:199/199
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Nahobino
+2-Michael
+3-Kazfiel
+----------------------------------------
+Seleccione una acción para Nahobino
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:756/971 MP:337/527
+B-Alilat HP:389/441 MP:428/428
+C-Metatron HP:799/879 MP:175/175
+D-
+Equipo de Nahobino (J2)
+A-Nahobino HP:140/453 MP:374/389
+B-Kazfiel HP:227/469 MP:211/211
+C-Michael HP:834/1002 MP:199/199
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Metatron
+3-Alilat
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Flynn use
+1-War Cry MP:45
+2-Luster Candy MP:50
+3-Cancelar
+INPUT: 1
+----------------------------------------
+El ataque de Nahobino ha disminuido
+La defensa de Nahobino ha disminuido
+El ataque de Kazfiel ha disminuido
+La defensa de Kazfiel ha disminuido
+El ataque de Michael ha disminuido
+La defensa de Michael ha disminuido
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:756/971 MP:292/527
+B-Alilat HP:389/441 MP:428/428
+C-Metatron HP:799/879 MP:175/175
+D-
+Equipo de Nahobino (J2)
+A-Nahobino HP:140/453 MP:374/389
+B-Kazfiel HP:227/469 MP:211/211
+C-Michael HP:834/1002 MP:199/199
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Metatron
+2-Alilat
+3-Flynn
+----------------------------------------
+Seleccione una acción para Metatron
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:756/971 MP:292/527
+B-Alilat HP:389/441 MP:428/428
+C-Metatron HP:799/879 MP:175/175
+D-
+Equipo de Nahobino (J2)
+A-Nahobino HP:140/453 MP:374/389
+B-Kazfiel HP:227/469 MP:211/211
+C-Michael HP:834/1002 MP:199/199
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Alilat
+2-Flynn
+3-Metatron
+----------------------------------------
+Seleccione una acción para Alilat
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:756/971 MP:292/527
+B-Alilat HP:389/441 MP:428/428
+C-Metatron HP:799/879 MP:175/175
+D-
+Equipo de Nahobino (J2)
+A-Nahobino HP:140/453 MP:374/389
+B-Kazfiel HP:227/469 MP:211/211
+C-Michael HP:834/1002 MP:199/199
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Metatron
+3-Alilat
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Flynn use
+1-War Cry MP:45
+2-Luster Candy MP:50
+3-Cancelar
+INPUT: 2
+----------------------------------------
+El ataque de Alilat ha aumentado
+La defensa de Alilat ha aumentado
+El ataque de Metatron ha aumentado
+La defensa de Metatron ha aumentado
+El ataque de Flynn ha aumentado
+La defensa de Flynn ha aumentado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Nahobino (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:756/971 MP:242/527
+B-Alilat HP:389/441 MP:428/428
+C-Metatron HP:799/879 MP:175/175
+D-
+Equipo de Nahobino (J2)
+A-Nahobino HP:140/453 MP:374/389
+B-Kazfiel HP:227/469 MP:211/211
+C-Michael HP:834/1002 MP:199/199
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Michael
+2-Kazfiel
+3-Nahobino
+----------------------------------------
+Seleccione una acción para Michael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Michael
+1-Flynn HP:756/971 MP:242/527
+2-Alilat HP:389/441 MP:428/428
+3-Metatron HP:799/879 MP:175/175
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Michael ataca a Flynn
+Flynn recibe 43 de daño
+Flynn termina con HP:713/971
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:713/971 MP:242/527
+B-Alilat HP:389/441 MP:428/428
+C-Metatron HP:799/879 MP:175/175
+D-
+Equipo de Nahobino (J2)
+A-Nahobino HP:140/453 MP:374/389
+B-Kazfiel HP:227/469 MP:211/211
+C-Michael HP:834/1002 MP:199/199
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kazfiel
+2-Nahobino
+3-Michael
+----------------------------------------
+Seleccione una acción para Kazfiel
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Kazfiel
+1-Flynn HP:713/971 MP:242/527
+2-Alilat HP:389/441 MP:428/428
+3-Metatron HP:799/879 MP:175/175
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Kazfiel ataca a Alilat
+Alilat es resistente el ataque de Kazfiel
+Alilat recibe 10 de daño
+Alilat termina con HP:379/441
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:713/971 MP:242/527
+B-Alilat HP:379/441 MP:428/428
+C-Metatron HP:799/879 MP:175/175
+D-
+Equipo de Nahobino (J2)
+A-Nahobino HP:140/453 MP:374/389
+B-Kazfiel HP:227/469 MP:211/211
+C-Michael HP:834/1002 MP:199/199
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Nahobino
+2-Michael
+3-Kazfiel
+----------------------------------------
+Seleccione una acción para Nahobino
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Nahobino
+1-Flynn HP:713/971 MP:242/527
+2-Alilat HP:379/441 MP:428/428
+3-Metatron HP:799/879 MP:175/175
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Nahobino ataca a Metatron
+Metatron recibe 16 de daño
+Metatron termina con HP:783/879
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:713/971 MP:242/527
+B-Alilat HP:379/441 MP:428/428
+C-Metatron HP:783/879 MP:175/175
+D-
+Equipo de Nahobino (J2)
+A-Nahobino HP:140/453 MP:374/389
+B-Kazfiel HP:227/469 MP:211/211
+C-Michael HP:834/1002 MP:199/199
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Metatron
+3-Alilat
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Nahobino HP:140/453 MP:374/389
+2-Kazfiel HP:227/469 MP:211/211
+3-Michael HP:834/1002 MP:199/199
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Flynn ataca a Nahobino
+Nahobino recibe 198 de daño
+Nahobino termina con HP:0/453
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:713/971 MP:242/527
+B-Alilat HP:379/441 MP:428/428
+C-Metatron HP:783/879 MP:175/175
+D-
+Equipo de Nahobino (J2)
+A-Nahobino HP:0/453 MP:374/389
+B-Kazfiel HP:227/469 MP:211/211
+C-Michael HP:834/1002 MP:199/199
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Metatron
+2-Alilat
+3-Flynn
+----------------------------------------
+Seleccione una acción para Metatron
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Metatron
+1-Kazfiel HP:227/469 MP:211/211
+2-Michael HP:834/1002 MP:199/199
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Metatron ataca a Michael
+Michael recibe 153 de daño
+Michael termina con HP:681/1002
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:713/971 MP:242/527
+B-Alilat HP:379/441 MP:428/428
+C-Metatron HP:783/879 MP:175/175
+D-
+Equipo de Nahobino (J2)
+A-Nahobino HP:0/453 MP:374/389
+B-Kazfiel HP:227/469 MP:211/211
+C-Michael HP:681/1002 MP:199/199
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Alilat
+2-Flynn
+3-Metatron
+----------------------------------------
+Seleccione una acción para Alilat
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alilat
+1-Kazfiel HP:227/469 MP:211/211
+2-Michael HP:681/1002 MP:199/199
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Alilat ataca a Kazfiel
+Kazfiel recibe 106 de daño
+Kazfiel termina con HP:121/469
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Nahobino (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:713/971 MP:242/527
+B-Alilat HP:379/441 MP:428/428
+C-Metatron HP:783/879 MP:175/175
+D-
+Equipo de Nahobino (J2)
+A-Nahobino HP:0/453 MP:374/389
+B-Kazfiel HP:121/469 MP:211/211
+C-Michael HP:681/1002 MP:199/199
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Michael
+2-Kazfiel
+----------------------------------------
+Seleccione una acción para Michael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Michael
+1-Flynn HP:713/971 MP:242/527
+2-Alilat HP:379/441 MP:428/428
+3-Metatron HP:783/879 MP:175/175
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Michael ataca a Flynn
+Flynn recibe 43 de daño
+Flynn termina con HP:670/971
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:670/971 MP:242/527
+B-Alilat HP:379/441 MP:428/428
+C-Metatron HP:783/879 MP:175/175
+D-
+Equipo de Nahobino (J2)
+A-Nahobino HP:0/453 MP:374/389
+B-Kazfiel HP:121/469 MP:211/211
+C-Michael HP:681/1002 MP:199/199
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kazfiel
+2-Michael
+----------------------------------------
+Seleccione una acción para Kazfiel
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Kazfiel
+1-Flynn HP:670/971 MP:242/527
+2-Alilat HP:379/441 MP:428/428
+3-Metatron HP:783/879 MP:175/175
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Kazfiel ataca a Flynn
+Flynn recibe 21 de daño
+Flynn termina con HP:649/971
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:649/971 MP:242/527
+B-Alilat HP:379/441 MP:428/428
+C-Metatron HP:783/879 MP:175/175
+D-
+Equipo de Nahobino (J2)
+A-Nahobino HP:0/453 MP:374/389
+B-Kazfiel HP:121/469 MP:211/211
+C-Michael HP:681/1002 MP:199/199
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Metatron
+3-Alilat
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 6
+----------------------------------------
+Flynn (J1) se rinde
+----------------------------------------
+Ganador: Nahobino (J2)

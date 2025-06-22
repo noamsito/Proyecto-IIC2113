@@ -1,0 +1,2915 @@
+Elige un archivo para cargar los equipos
+0: 001.txt
+1: 002.txt
+2: 003.txt
+3: 004.txt
+4: 005.txt
+5: 006.txt
+6: 007.txt
+7: 008.txt
+8: 009.txt
+9: 010.txt
+10: 011.txt
+11: 012.txt
+12: 013.txt
+13: 014.txt
+14: 015.txt
+15: 016.txt
+16: 017.txt
+17: 018.txt
+18: 019.txt
+19: 020.txt
+20: 021.txt
+21: 022.txt
+22: 023.txt
+23: 024.txt
+24: 025.txt
+25: 026.txt
+26: 027.txt
+27: 028.txt
+28: 029.txt
+29: 030.txt
+30: 031.txt
+31: 032.txt
+32: 033.txt
+33: 034.txt
+34: 035.txt
+35: 036.txt
+36: 037.txt
+37: 038.txt
+38: 039.txt
+39: 040.txt
+40: 041.txt
+41: 042.txt
+42: 043.txt
+43: 044.txt
+44: 045.txt
+45: 046.txt
+46: 047.txt
+47: 048.txt
+48: 049.txt
+49: 050.txt
+50: 051.txt
+51: 052.txt
+52: 053.txt
+53: 054.txt
+54: 055.txt
+55: 056.txt
+56: 057.txt
+57: 058.txt
+58: 059.txt
+59: 060.txt
+60: 061.txt
+61: 062.txt
+62: 063.txt
+63: 064.txt
+64: 065.txt
+65: 066.txt
+66: 067.txt
+67: 068.txt
+68: 069.txt
+69: 070.txt
+70: 071.txt
+71: 072.txt
+72: 073.txt
+73: 074.txt
+74: 075.txt
+75: 076.txt
+76: 077.txt
+77: 078.txt
+78: 079.txt
+79: 080.txt
+80: 081.txt
+81: 082.txt
+82: 083.txt
+83: 084.txt
+84: 085.txt
+85: 086.txt
+86: 087.txt
+87: 088.txt
+88: 089.txt
+89: 090.txt
+90: 091.txt
+91: 092.txt
+92: 093.txt
+93: 094.txt
+94: 095.txt
+95: 096.txt
+96: 097.txt
+97: 098.txt
+98: 099.txt
+99: 100.txt
+100: 101.txt
+101: 102.txt
+102: 103.txt
+103: 104.txt
+104: 105.txt
+105: 106.txt
+106: 107.txt
+107: 108.txt
+108: 109.txt
+109: 110.txt
+110: 111.txt
+111: 112.txt
+112: 113.txt
+113: 114.txt
+114: 115.txt
+115: 116.txt
+116: 117.txt
+117: 118.txt
+118: 119.txt
+119: 120.txt
+120: 121.txt
+121: 122.txt
+122: 123.txt
+123: 124.txt
+124: 125.txt
+125: 126.txt
+126: 127.txt
+127: 128.txt
+128: 129.txt
+129: 130.txt
+130: 131.txt
+131: 132.txt
+132: 133.txt
+133: 134.txt
+134: 135.txt
+135: 136.txt
+136: 137.txt
+137: 138.txt
+138: 139.txt
+139: 140.txt
+140: 141.txt
+141: 142.txt
+142: 143.txt
+143: 144.txt
+144: 145.txt
+145: 146.txt
+146: 147.txt
+147: 148.txt
+148: 149.txt
+149: 150.txt
+150: 151.txt
+151: 152.txt
+152: 153.txt
+153: 154.txt
+154: 155.txt
+155: 156.txt
+156: 157.txt
+157: 158.txt
+158: 159.txt
+159: 160.txt
+160: 161.txt
+161: 162.txt
+162: 163.txt
+163: 164.txt
+164: 165.txt
+165: 166.txt
+166: 167.txt
+167: 168.txt
+168: 169.txt
+169: 170.txt
+170: 171.txt
+171: 172.txt
+172: 173.txt
+173: 174.txt
+174: 175.txt
+175: 176.txt
+176: 177.txt
+177: 178.txt
+178: 179.txt
+179: 180.txt
+180: 181.txt
+181: 182.txt
+182: 183.txt
+183: 184.txt
+184: 185.txt
+185: 186.txt
+186: 187.txt
+187: 188.txt
+188: 189.txt
+189: 190.txt
+190: 191.txt
+191: 192.txt
+192: 193.txt
+193: 194.txt
+194: 195.txt
+195: 196.txt
+196: 197.txt
+197: 198.txt
+198: 199.txt
+199: 200.txt
+200: 201.txt
+201: 202.txt
+202: 203.txt
+203: 204.txt
+204: 205.txt
+205: 206.txt
+206: 207.txt
+207: 208.txt
+208: 209.txt
+209: 210.txt
+210: 211.txt
+211: 212.txt
+212: 213.txt
+213: 214.txt
+214: 215.txt
+215: 216.txt
+216: 217.txt
+217: 218.txt
+218: 219.txt
+219: 220.txt
+220: 221.txt
+221: 222.txt
+222: 223.txt
+223: 224.txt
+224: 225.txt
+225: 226.txt
+226: 227.txt
+227: 228.txt
+228: 229.txt
+229: 230.txt
+230: 231.txt
+231: 232.txt
+232: 233.txt
+233: 234.txt
+234: 235.txt
+235: 236.txt
+236: 237.txt
+237: 238.txt
+238: 239.txt
+239: 240.txt
+240: 241.txt
+241: 242.txt
+242: 243.txt
+243: 244.txt
+244: 245.txt
+245: 246.txt
+246: 247.txt
+247: 248.txt
+248: 249.txt
+249: 250.txt
+250: 251.txt
+251: 252.txt
+252: 253.txt
+253: 254.txt
+254: 255.txt
+255: 256.txt
+256: 257.txt
+257: 258.txt
+258: 259.txt
+259: 260.txt
+260: 261.txt
+261: 262.txt
+262: 263.txt
+263: 264.txt
+264: 265.txt
+265: 266.txt
+266: 267.txt
+267: 268.txt
+268: 269.txt
+269: 270.txt
+270: 271.txt
+271: 272.txt
+272: 273.txt
+273: 274.txt
+274: 275.txt
+275: 276.txt
+276: 277.txt
+277: 278.txt
+278: 279.txt
+279: 280.txt
+280: 281.txt
+281: 282.txt
+282: 283.txt
+283: 284.txt
+284: 285.txt
+285: 286.txt
+286: 287.txt
+287: 288.txt
+288: 289.txt
+289: 290.txt
+290: 291.txt
+291: 292.txt
+292: 293.txt
+293: 294.txt
+294: 295.txt
+295: 296.txt
+296: 297.txt
+297: 298.txt
+298: 299.txt
+299: 300.txt
+300: 301.txt
+301: 302.txt
+302: 303.txt
+303: 304.txt
+304: 305.txt
+305: 306.txt
+306: 307.txt
+307: 308.txt
+308: 309.txt
+309: 310.txt
+310: 311.txt
+311: 312.txt
+312: 313.txt
+313: 314.txt
+314: 315.txt
+315: 316.txt
+316: 317.txt
+317: 318.txt
+318: 319.txt
+319: 320.txt
+320: 321.txt
+321: 322.txt
+322: 323.txt
+323: 324.txt
+324: 325.txt
+325: 326.txt
+326: 327.txt
+327: 328.txt
+328: 329.txt
+329: 330.txt
+330: 331.txt
+331: 332.txt
+332: 333.txt
+333: 334.txt
+334: 335.txt
+335: 336.txt
+336: 337.txt
+337: 338.txt
+338: 339.txt
+339: 340.txt
+340: 341.txt
+341: 342.txt
+342: 343.txt
+343: 344.txt
+344: 345.txt
+345: 346.txt
+346: 347.txt
+347: 348.txt
+348: 349.txt
+349: 350.txt
+350: 351.txt
+351: 352.txt
+352: 353.txt
+353: 354.txt
+354: 355.txt
+355: 356.txt
+356: 357.txt
+357: 358.txt
+358: 359.txt
+359: 360.txt
+360: 361.txt
+361: 362.txt
+362: 363.txt
+363: 364.txt
+364: 365.txt
+365: 366.txt
+366: 367.txt
+367: 368.txt
+368: 369.txt
+369: 370.txt
+370: 371.txt
+371: 372.txt
+372: 373.txt
+373: 374.txt
+374: 375.txt
+375: 376.txt
+376: 377.txt
+377: 378.txt
+378: 379.txt
+379: 380.txt
+380: 381.txt
+381: 382.txt
+382: 383.txt
+383: 384.txt
+384: 385.txt
+385: 386.txt
+386: 387.txt
+387: 388.txt
+388: 389.txt
+389: 390.txt
+390: 391.txt
+391: 392.txt
+392: 393.txt
+393: 394.txt
+394: 395.txt
+395: 396.txt
+396: 397.txt
+397: 398.txt
+398: 399.txt
+399: 400.txt
+400: 401.txt
+401: 402.txt
+402: 403.txt
+403: 404.txt
+404: 405.txt
+405: 406.txt
+406: 407.txt
+407: 408.txt
+408: 409.txt
+409: 410.txt
+410: 411.txt
+411: 412.txt
+412: 413.txt
+413: 414.txt
+414: 415.txt
+415: 416.txt
+416: 417.txt
+417: 418.txt
+418: 419.txt
+419: 420.txt
+420: 421.txt
+421: 422.txt
+422: 423.txt
+423: 424.txt
+424: 425.txt
+425: 426.txt
+426: 427.txt
+427: 428.txt
+428: 429.txt
+429: 430.txt
+430: 431.txt
+431: 432.txt
+432: 433.txt
+433: 434.txt
+434: 435.txt
+435: 436.txt
+436: 437.txt
+437: 438.txt
+438: 439.txt
+439: 440.txt
+440: 441.txt
+441: 442.txt
+442: 443.txt
+443: 444.txt
+444: 445.txt
+445: 446.txt
+446: 447.txt
+447: 448.txt
+448: 449.txt
+449: 450.txt
+450: 451.txt
+451: 452.txt
+452: 453.txt
+453: 454.txt
+454: 455.txt
+455: 456.txt
+456: 457.txt
+457: 458.txt
+458: 459.txt
+459: 460.txt
+460: 461.txt
+461: 462.txt
+462: 463.txt
+463: 464.txt
+464: 465.txt
+465: 466.txt
+466: 467.txt
+467: 468.txt
+468: 469.txt
+469: 470.txt
+470: 471.txt
+471: 472.txt
+472: 473.txt
+473: 474.txt
+474: 475.txt
+475: 476.txt
+476: 477.txt
+477: 478.txt
+478: 479.txt
+479: 480.txt
+480: 481.txt
+481: 482.txt
+482: 483.txt
+483: 484.txt
+484: 485.txt
+485: 486.txt
+486: 487.txt
+487: 488.txt
+488: 489.txt
+489: 490.txt
+490: 491.txt
+491: 492.txt
+492: 493.txt
+493: 494.txt
+494: 495.txt
+495: 496.txt
+496: 497.txt
+497: 498.txt
+498: 499.txt
+499: 500.txt
+INPUT: 218
+----------------------------------------
+Ronda de Kotone (J1)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:347/347
+B-Yamata-no-Orochi HP:662/662 MP:131/131
+C-Gucumatz HP:301/301 MP:135/135
+D-Mou-Ryo HP:238/238 MP:107/107
+Equipo de Joker (J2)
+A-Joker HP:597/597 MP:347/347
+B-Melchom HP:71/71 MP:67/67
+C-Loki HP:319/319 MP:380/380
+D-Take-Minakata HP:293/293 MP:58/58
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Yamata-no-Orochi
+2-Kotone
+3-Gucumatz
+4-Mou-Ryo
+----------------------------------------
+Seleccione una acción para Yamata-no-Orochi
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:347/347
+B-Yamata-no-Orochi HP:662/662 MP:131/131
+C-Gucumatz HP:301/301 MP:135/135
+D-Mou-Ryo HP:238/238 MP:107/107
+Equipo de Joker (J2)
+A-Joker HP:597/597 MP:347/347
+B-Melchom HP:71/71 MP:67/67
+C-Loki HP:319/319 MP:380/380
+D-Take-Minakata HP:293/293 MP:58/58
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Kotone
+2-Gucumatz
+3-Mou-Ryo
+4-Yamata-no-Orochi
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:347/347
+B-Yamata-no-Orochi HP:662/662 MP:131/131
+C-Gucumatz HP:301/301 MP:135/135
+D-Mou-Ryo HP:238/238 MP:107/107
+Equipo de Joker (J2)
+A-Joker HP:597/597 MP:347/347
+B-Melchom HP:71/71 MP:67/67
+C-Loki HP:319/319 MP:380/380
+D-Take-Minakata HP:293/293 MP:58/58
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Gucumatz
+2-Mou-Ryo
+3-Yamata-no-Orochi
+4-Kotone
+----------------------------------------
+Seleccione una acción para Gucumatz
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Gucumatz
+1-Joker HP:597/597 MP:347/347
+2-Melchom HP:71/71 MP:67/67
+3-Loki HP:319/319 MP:380/380
+4-Take-Minakata HP:293/293 MP:58/58
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Gucumatz ataca a Melchom
+Melchom recibe 24 de daño
+Melchom termina con HP:47/71
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:347/347
+B-Yamata-no-Orochi HP:662/662 MP:131/131
+C-Gucumatz HP:301/301 MP:135/135
+D-Mou-Ryo HP:238/238 MP:107/107
+Equipo de Joker (J2)
+A-Joker HP:597/597 MP:347/347
+B-Melchom HP:47/71 MP:67/67
+C-Loki HP:319/319 MP:380/380
+D-Take-Minakata HP:293/293 MP:58/58
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Mou-Ryo
+2-Yamata-no-Orochi
+3-Kotone
+4-Gucumatz
+----------------------------------------
+Seleccione una acción para Mou-Ryo
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Mou-Ryo
+1-Joker HP:597/597 MP:347/347
+2-Melchom HP:47/71 MP:67/67
+3-Loki HP:319/319 MP:380/380
+4-Take-Minakata HP:293/293 MP:58/58
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Mou-Ryo ataca a Take-Minakata
+Take-Minakata recibe 18 de daño
+Take-Minakata termina con HP:275/293
+Take-Minakata contra ataca a Mou-Ryo
+Mou-Ryo recibe 4 de daño
+Mou-Ryo termina con HP:234/238
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:347/347
+B-Yamata-no-Orochi HP:662/662 MP:131/131
+C-Gucumatz HP:301/301 MP:135/135
+D-Mou-Ryo HP:234/238 MP:107/107
+Equipo de Joker (J2)
+A-Joker HP:597/597 MP:347/347
+B-Melchom HP:47/71 MP:67/67
+C-Loki HP:319/319 MP:380/380
+D-Take-Minakata HP:275/293 MP:58/58
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Yamata-no-Orochi
+2-Kotone
+3-Gucumatz
+4-Mou-Ryo
+----------------------------------------
+Seleccione una acción para Yamata-no-Orochi
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Yamata-no-Orochi
+1-Joker HP:597/597 MP:347/347
+2-Melchom HP:47/71 MP:67/67
+3-Loki HP:319/319 MP:380/380
+4-Take-Minakata HP:275/293 MP:58/58
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Yamata-no-Orochi ataca a Joker
+Joker recibe 50 de daño
+Joker termina con HP:547/597
+Joker contra ataca a Yamata-no-Orochi
+Yamata-no-Orochi recibe 12 de daño
+Yamata-no-Orochi termina con HP:650/662
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Joker (J2)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:347/347
+B-Yamata-no-Orochi HP:650/662 MP:131/131
+C-Gucumatz HP:301/301 MP:135/135
+D-Mou-Ryo HP:234/238 MP:107/107
+Equipo de Joker (J2)
+A-Joker HP:547/597 MP:347/347
+B-Melchom HP:47/71 MP:67/67
+C-Loki HP:319/319 MP:380/380
+D-Take-Minakata HP:275/293 MP:58/58
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Joker
+2-Loki
+3-Take-Minakata
+4-Melchom
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:347/347
+B-Yamata-no-Orochi HP:650/662 MP:131/131
+C-Gucumatz HP:301/301 MP:135/135
+D-Mou-Ryo HP:234/238 MP:107/107
+Equipo de Joker (J2)
+A-Joker HP:547/597 MP:347/347
+B-Melchom HP:47/71 MP:67/67
+C-Loki HP:319/319 MP:380/380
+D-Take-Minakata HP:275/293 MP:58/58
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Loki
+2-Take-Minakata
+3-Melchom
+4-Joker
+----------------------------------------
+Seleccione una acción para Loki
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Loki use
+1-Pulinpa MP:5
+2-Mabufudyne MP:32
+3-Taunt MP:20
+4-Dekunda MP:10
+5-Cancelar
+INPUT: 3
+----------------------------------------
+El ataque de Kotone ha aumentado
+La defensa de Kotone ha disminuido
+El ataque de Yamata-no-Orochi ha aumentado
+La defensa de Yamata-no-Orochi ha disminuido
+El ataque de Gucumatz ha aumentado
+La defensa de Gucumatz ha disminuido
+El ataque de Mou-Ryo ha aumentado
+La defensa de Mou-Ryo ha disminuido
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:347/347
+B-Yamata-no-Orochi HP:650/662 MP:131/131
+C-Gucumatz HP:301/301 MP:135/135
+D-Mou-Ryo HP:234/238 MP:107/107
+Equipo de Joker (J2)
+A-Joker HP:547/597 MP:347/347
+B-Melchom HP:47/71 MP:67/67
+C-Loki HP:319/319 MP:360/380
+D-Take-Minakata HP:275/293 MP:58/58
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Take-Minakata
+2-Melchom
+3-Joker
+4-Loki
+----------------------------------------
+Seleccione una acción para Take-Minakata
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Take-Minakata
+1-Kotone HP:597/597 MP:347/347
+2-Yamata-no-Orochi HP:650/662 MP:131/131
+3-Gucumatz HP:301/301 MP:135/135
+4-Mou-Ryo HP:234/238 MP:107/107
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Take-Minakata ataca a Yamata-no-Orochi
+Yamata-no-Orochi recibe 25 de daño
+Yamata-no-Orochi termina con HP:625/662
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:347/347
+B-Yamata-no-Orochi HP:625/662 MP:131/131
+C-Gucumatz HP:301/301 MP:135/135
+D-Mou-Ryo HP:234/238 MP:107/107
+Equipo de Joker (J2)
+A-Joker HP:547/597 MP:347/347
+B-Melchom HP:47/71 MP:67/67
+C-Loki HP:319/319 MP:360/380
+D-Take-Minakata HP:275/293 MP:58/58
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Melchom
+2-Joker
+3-Loki
+4-Take-Minakata
+----------------------------------------
+Seleccione una acción para Melchom
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Melchom
+1-Kotone HP:597/597 MP:347/347
+2-Yamata-no-Orochi HP:625/662 MP:131/131
+3-Gucumatz HP:301/301 MP:135/135
+4-Mou-Ryo HP:234/238 MP:107/107
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Melchom ataca a Gucumatz
+Gucumatz recibe 7 de daño
+Gucumatz termina con HP:294/301
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:347/347
+B-Yamata-no-Orochi HP:625/662 MP:131/131
+C-Gucumatz HP:294/301 MP:135/135
+D-Mou-Ryo HP:234/238 MP:107/107
+Equipo de Joker (J2)
+A-Joker HP:547/597 MP:347/347
+B-Melchom HP:47/71 MP:67/67
+C-Loki HP:319/319 MP:360/380
+D-Take-Minakata HP:275/293 MP:58/58
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Joker
+2-Loki
+3-Take-Minakata
+4-Melchom
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Joker use
+1-Refrigerate MP:26
+2-Scratch Dance MP:9
+3-Mazandyne MP:32
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Joker lanza viento a Kotone
+Kotone es resistente el ataque de Joker
+Kotone recibe 58 de daño
+Kotone termina con HP:539/597
+Joker lanza viento a Yamata-no-Orochi
+Yamata-no-Orochi recibe 117 de daño
+Yamata-no-Orochi termina con HP:508/662
+Joker lanza viento a Gucumatz
+Gucumatz es resistente el ataque de Joker
+Gucumatz recibe 58 de daño
+Gucumatz termina con HP:236/301
+Joker lanza viento a Mou-Ryo
+Mou-Ryo recibe 117 de daño
+Mou-Ryo termina con HP:117/238
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kotone (J1)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:539/597 MP:347/347
+B-Yamata-no-Orochi HP:508/662 MP:131/131
+C-Gucumatz HP:236/301 MP:135/135
+D-Mou-Ryo HP:117/238 MP:107/107
+Equipo de Joker (J2)
+A-Joker HP:547/597 MP:315/347
+B-Melchom HP:47/71 MP:67/67
+C-Loki HP:319/319 MP:360/380
+D-Take-Minakata HP:275/293 MP:58/58
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Yamata-no-Orochi
+2-Kotone
+3-Gucumatz
+4-Mou-Ryo
+----------------------------------------
+Seleccione una acción para Yamata-no-Orochi
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Yamata-no-Orochi use
+1-Bufudyne MP:14
+2-Megaton Press MP:17
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Yamata-no-Orochi ataca a Joker
+Joker recibe 131 de daño
+Joker termina con HP:416/597
+Joker contra ataca a Yamata-no-Orochi
+Yamata-no-Orochi recibe 32 de daño
+Yamata-no-Orochi ataca a Melchom
+Melchom recibe 131 de daño
+Melchom termina con HP:0/71
+Yamata-no-Orochi ataca a Loki
+Loki recibe 131 de daño
+Loki termina con HP:188/319
+Yamata-no-Orochi ataca a Take-Minakata
+Take-Minakata recibe 131 de daño
+Take-Minakata termina con HP:144/293
+Take-Minakata contra ataca a Yamata-no-Orochi
+Yamata-no-Orochi recibe 32 de daño
+Yamata-no-Orochi termina con HP:444/662
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:539/597 MP:347/347
+B-Yamata-no-Orochi HP:444/662 MP:114/131
+C-Gucumatz HP:236/301 MP:135/135
+D-Mou-Ryo HP:117/238 MP:107/107
+Equipo de Joker (J2)
+A-Joker HP:416/597 MP:315/347
+B-
+C-Loki HP:188/319 MP:360/380
+D-Take-Minakata HP:144/293 MP:58/58
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kotone
+2-Gucumatz
+3-Mou-Ryo
+4-Yamata-no-Orochi
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Kotone
+1-Joker HP:416/597 MP:315/347
+2-Loki HP:188/319 MP:360/380
+3-Take-Minakata HP:144/293 MP:58/58
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Azazel HP:371/371 MP:360/360
+2-Macabre HP:290/290 MP:66/66
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una posición para invocar
+1-Yamata-no-Orochi HP:444/662 MP:114/131 (Puesto 2)
+2-Gucumatz HP:236/301 MP:135/135 (Puesto 3)
+3-Mou-Ryo HP:117/238 MP:107/107 (Puesto 4)
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Kotone
+1-Joker HP:416/597 MP:315/347
+2-Loki HP:188/319 MP:360/380
+3-Take-Minakata HP:144/293 MP:58/58
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Kotone dispara a Loki
+Loki bloquea el ataque de Kotone
+Loki termina con HP:188/319
+----------------------------------------
+Se han consumido 2 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:539/597 MP:347/347
+B-Yamata-no-Orochi HP:444/662 MP:114/131
+C-Gucumatz HP:236/301 MP:135/135
+D-Mou-Ryo HP:117/238 MP:107/107
+Equipo de Joker (J2)
+A-Joker HP:416/597 MP:315/347
+B-
+C-Loki HP:188/319 MP:360/380
+D-Take-Minakata HP:144/293 MP:58/58
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Gucumatz
+2-Mou-Ryo
+3-Yamata-no-Orochi
+4-Kotone
+----------------------------------------
+Seleccione una acción para Gucumatz
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Gucumatz
+1-Joker HP:416/597 MP:315/347
+2-Loki HP:188/319 MP:360/380
+3-Take-Minakata HP:144/293 MP:58/58
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Gucumatz
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Azazel HP:371/371 MP:360/360
+2-Macabre HP:290/290 MP:66/66
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Azazel ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:539/597 MP:347/347
+B-Yamata-no-Orochi HP:444/662 MP:114/131
+C-Azazel HP:371/371 MP:360/360
+D-Mou-Ryo HP:117/238 MP:107/107
+Equipo de Joker (J2)
+A-Joker HP:416/597 MP:315/347
+B-
+C-Loki HP:188/319 MP:360/380
+D-Take-Minakata HP:144/293 MP:58/58
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Mou-Ryo
+2-Yamata-no-Orochi
+3-Kotone
+4-Azazel
+----------------------------------------
+Seleccione una acción para Mou-Ryo
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Gucumatz HP:236/301 MP:135/135
+2-Macabre HP:290/290 MP:66/66
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Gucumatz ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Joker (J2)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:539/597 MP:347/347
+B-Yamata-no-Orochi HP:444/662 MP:114/131
+C-Azazel HP:371/371 MP:360/360
+D-Gucumatz HP:236/301 MP:135/135
+Equipo de Joker (J2)
+A-Joker HP:416/597 MP:315/347
+B-
+C-Loki HP:188/319 MP:360/380
+D-Take-Minakata HP:144/293 MP:58/58
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Joker
+2-Loki
+3-Take-Minakata
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Joker use
+1-Refrigerate MP:26
+2-Scratch Dance MP:9
+3-Mazandyne MP:32
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Joker lanza hielo a Kotone
+Kotone es resistente el ataque de Joker
+Kotone recibe 83 de daño
+Kotone termina con HP:456/597
+Joker lanza hielo a Azazel
+Azazel es débil contra el ataque de Joker
+Azazel recibe 199 de daño
+Azazel termina con HP:172/371
+Joker lanza hielo a Gucumatz
+Gucumatz absorbe 132 daño
+Gucumatz termina con HP:301/301
+----------------------------------------
+Se han consumido 3 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kotone (J1)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:456/597 MP:347/347
+B-Yamata-no-Orochi HP:444/662 MP:114/131
+C-Azazel HP:172/371 MP:360/360
+D-Gucumatz HP:301/301 MP:135/135
+Equipo de Joker (J2)
+A-Joker HP:416/597 MP:289/347
+B-
+C-Loki HP:188/319 MP:360/380
+D-Take-Minakata HP:144/293 MP:58/58
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Yamata-no-Orochi
+2-Kotone
+3-Azazel
+4-Gucumatz
+----------------------------------------
+Seleccione una acción para Yamata-no-Orochi
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Yamata-no-Orochi
+1-Joker HP:416/597 MP:289/347
+2-Loki HP:188/319 MP:360/380
+3-Take-Minakata HP:144/293 MP:58/58
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Yamata-no-Orochi ataca a Joker
+Joker recibe 63 de daño
+Joker termina con HP:353/597
+Joker contra ataca a Yamata-no-Orochi
+Yamata-no-Orochi recibe 15 de daño
+Yamata-no-Orochi termina con HP:429/662
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:456/597 MP:347/347
+B-Yamata-no-Orochi HP:429/662 MP:114/131
+C-Azazel HP:172/371 MP:360/360
+D-Gucumatz HP:301/301 MP:135/135
+Equipo de Joker (J2)
+A-Joker HP:353/597 MP:289/347
+B-
+C-Loki HP:188/319 MP:360/380
+D-Take-Minakata HP:144/293 MP:58/58
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kotone
+2-Azazel
+3-Gucumatz
+4-Yamata-no-Orochi
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:456/597 MP:347/347
+B-Yamata-no-Orochi HP:429/662 MP:114/131
+C-Azazel HP:172/371 MP:360/360
+D-Gucumatz HP:301/301 MP:135/135
+Equipo de Joker (J2)
+A-Joker HP:353/597 MP:289/347
+B-
+C-Loki HP:188/319 MP:360/380
+D-Take-Minakata HP:144/293 MP:58/58
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Azazel
+2-Gucumatz
+3-Yamata-no-Orochi
+4-Kotone
+----------------------------------------
+Seleccione una acción para Azazel
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Azazel use
+1-Agidyne MP:14
+2-Recarmdra MP:2
+3-Zandyne MP:14
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Azazel
+1-Joker HP:353/597 MP:289/347
+2-Loki HP:188/319 MP:360/380
+3-Take-Minakata HP:144/293 MP:58/58
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Azazel lanza fuego a Joker
+Joker recibe 209 de daño
+Joker termina con HP:144/597
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:456/597 MP:347/347
+B-Yamata-no-Orochi HP:429/662 MP:114/131
+C-Azazel HP:172/371 MP:346/360
+D-Gucumatz HP:301/301 MP:135/135
+Equipo de Joker (J2)
+A-Joker HP:144/597 MP:289/347
+B-
+C-Loki HP:188/319 MP:360/380
+D-Take-Minakata HP:144/293 MP:58/58
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Gucumatz
+2-Yamata-no-Orochi
+3-Kotone
+4-Azazel
+----------------------------------------
+Seleccione una acción para Gucumatz
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Gucumatz
+1-Joker HP:144/597 MP:289/347
+2-Loki HP:188/319 MP:360/380
+3-Take-Minakata HP:144/293 MP:58/58
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Gucumatz ataca a Take-Minakata
+Take-Minakata recibe 30 de daño
+Take-Minakata termina con HP:114/293
+Take-Minakata contra ataca a Gucumatz
+Gucumatz recibe 7 de daño
+Gucumatz termina con HP:294/301
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:456/597 MP:347/347
+B-Yamata-no-Orochi HP:429/662 MP:114/131
+C-Azazel HP:172/371 MP:346/360
+D-Gucumatz HP:294/301 MP:135/135
+Equipo de Joker (J2)
+A-Joker HP:144/597 MP:289/347
+B-
+C-Loki HP:188/319 MP:360/380
+D-Take-Minakata HP:114/293 MP:58/58
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Yamata-no-Orochi
+2-Kotone
+3-Azazel
+4-Gucumatz
+----------------------------------------
+Seleccione una acción para Yamata-no-Orochi
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:456/597 MP:347/347
+B-Yamata-no-Orochi HP:429/662 MP:114/131
+C-Azazel HP:172/371 MP:346/360
+D-Gucumatz HP:294/301 MP:135/135
+Equipo de Joker (J2)
+A-Joker HP:144/597 MP:289/347
+B-
+C-Loki HP:188/319 MP:360/380
+D-Take-Minakata HP:114/293 MP:58/58
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Kotone
+2-Azazel
+3-Gucumatz
+4-Yamata-no-Orochi
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Kotone
+1-Joker HP:144/597 MP:289/347
+2-Loki HP:188/319 MP:360/380
+3-Take-Minakata HP:114/293 MP:58/58
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Kotone ataca a Joker
+Joker recibe 48 de daño
+Joker termina con HP:96/597
+Joker contra ataca a Kotone
+Kotone recibe 12 de daño
+Kotone termina con HP:444/597
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Joker (J2)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:444/597 MP:347/347
+B-Yamata-no-Orochi HP:429/662 MP:114/131
+C-Azazel HP:172/371 MP:346/360
+D-Gucumatz HP:294/301 MP:135/135
+Equipo de Joker (J2)
+A-Joker HP:96/597 MP:289/347
+B-
+C-Loki HP:188/319 MP:360/380
+D-Take-Minakata HP:114/293 MP:58/58
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Joker
+2-Loki
+3-Take-Minakata
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:444/597 MP:347/347
+B-Yamata-no-Orochi HP:429/662 MP:114/131
+C-Azazel HP:172/371 MP:346/360
+D-Gucumatz HP:294/301 MP:135/135
+Equipo de Joker (J2)
+A-Joker HP:96/597 MP:289/347
+B-
+C-Loki HP:188/319 MP:360/380
+D-Take-Minakata HP:114/293 MP:58/58
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Loki
+2-Take-Minakata
+3-Joker
+----------------------------------------
+Seleccione una acción para Loki
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Loki use
+1-Pulinpa MP:5
+2-Mabufudyne MP:32
+3-Taunt MP:20
+4-Dekunda MP:10
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Loki
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Kikuri-Hime HP:216/216 MP:210/210
+2-Katakirauwa HP:133/133 MP:58/58
+3-Taown HP:709/709 MP:140/140
+4-Clotho HP:221/221 MP:214/214
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Clotho ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:444/597 MP:347/347
+B-Yamata-no-Orochi HP:429/662 MP:114/131
+C-Azazel HP:172/371 MP:346/360
+D-Gucumatz HP:294/301 MP:135/135
+Equipo de Joker (J2)
+A-Joker HP:96/597 MP:289/347
+B-
+C-Clotho HP:221/221 MP:214/214
+D-Take-Minakata HP:114/293 MP:58/58
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Take-Minakata
+2-Joker
+3-Clotho
+----------------------------------------
+Seleccione una acción para Take-Minakata
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:444/597 MP:347/347
+B-Yamata-no-Orochi HP:429/662 MP:114/131
+C-Azazel HP:172/371 MP:346/360
+D-Gucumatz HP:294/301 MP:135/135
+Equipo de Joker (J2)
+A-Joker HP:96/597 MP:289/347
+B-
+C-Clotho HP:221/221 MP:214/214
+D-Take-Minakata HP:114/293 MP:58/58
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Joker
+2-Clotho
+3-Take-Minakata
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:444/597 MP:347/347
+B-Yamata-no-Orochi HP:429/662 MP:114/131
+C-Azazel HP:172/371 MP:346/360
+D-Gucumatz HP:294/301 MP:135/135
+Equipo de Joker (J2)
+A-Joker HP:96/597 MP:289/347
+B-
+C-Clotho HP:221/221 MP:214/214
+D-Take-Minakata HP:114/293 MP:58/58
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Clotho
+2-Take-Minakata
+3-Joker
+----------------------------------------
+Seleccione una acción para Clotho
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:444/597 MP:347/347
+B-Yamata-no-Orochi HP:429/662 MP:114/131
+C-Azazel HP:172/371 MP:346/360
+D-Gucumatz HP:294/301 MP:135/135
+Equipo de Joker (J2)
+A-Joker HP:96/597 MP:289/347
+B-
+C-Clotho HP:221/221 MP:214/214
+D-Take-Minakata HP:114/293 MP:58/58
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Take-Minakata
+2-Joker
+3-Clotho
+----------------------------------------
+Seleccione una acción para Take-Minakata
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kotone (J1)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:444/597 MP:347/347
+B-Yamata-no-Orochi HP:429/662 MP:114/131
+C-Azazel HP:172/371 MP:346/360
+D-Gucumatz HP:294/301 MP:135/135
+Equipo de Joker (J2)
+A-Joker HP:96/597 MP:289/347
+B-
+C-Clotho HP:221/221 MP:214/214
+D-Take-Minakata HP:114/293 MP:58/58
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Yamata-no-Orochi
+2-Kotone
+3-Azazel
+4-Gucumatz
+----------------------------------------
+Seleccione una acción para Yamata-no-Orochi
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Yamata-no-Orochi
+1-Joker HP:96/597 MP:289/347
+2-Clotho HP:221/221 MP:214/214
+3-Take-Minakata HP:114/293 MP:58/58
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Yamata-no-Orochi ataca a Joker
+Joker recibe 63 de daño
+Joker termina con HP:33/597
+Joker contra ataca a Yamata-no-Orochi
+Yamata-no-Orochi recibe 15 de daño
+Yamata-no-Orochi termina con HP:414/662
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:444/597 MP:347/347
+B-Yamata-no-Orochi HP:414/662 MP:114/131
+C-Azazel HP:172/371 MP:346/360
+D-Gucumatz HP:294/301 MP:135/135
+Equipo de Joker (J2)
+A-Joker HP:33/597 MP:289/347
+B-
+C-Clotho HP:221/221 MP:214/214
+D-Take-Minakata HP:114/293 MP:58/58
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kotone
+2-Azazel
+3-Gucumatz
+4-Yamata-no-Orochi
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Kotone use
+1-Mediarama MP:22
+2-Mudo MP:6
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Kotone cura a Yamata-no-Orochi
+Yamata-no-Orochi recibe 331 de HP
+Yamata-no-Orochi termina con HP:662/662
+Kotone cura a Azazel
+Azazel recibe 185 de HP
+Azazel termina con HP:357/371
+Kotone cura a Gucumatz
+Gucumatz recibe 150 de HP
+Gucumatz termina con HP:301/301
+Kotone cura a Kotone
+Kotone recibe 298 de HP
+Kotone termina con HP:597/597
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:325/347
+B-Yamata-no-Orochi HP:662/662 MP:114/131
+C-Azazel HP:357/371 MP:346/360
+D-Gucumatz HP:301/301 MP:135/135
+Equipo de Joker (J2)
+A-Joker HP:33/597 MP:289/347
+B-
+C-Clotho HP:221/221 MP:214/214
+D-Take-Minakata HP:114/293 MP:58/58
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Azazel
+2-Gucumatz
+3-Yamata-no-Orochi
+4-Kotone
+----------------------------------------
+Seleccione una acción para Azazel
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Azazel use
+1-Agidyne MP:14
+2-Recarmdra MP:2
+3-Zandyne MP:14
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione un objetivo para Azazel
+1-Joker HP:33/597 MP:289/347
+2-Clotho HP:221/221 MP:214/214
+3-Take-Minakata HP:114/293 MP:58/58
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Azazel
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Azazel
+1-Joker HP:33/597 MP:289/347
+2-Clotho HP:221/221 MP:214/214
+3-Take-Minakata HP:114/293 MP:58/58
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Azazel
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Azazel
+1-Joker HP:33/597 MP:289/347
+2-Clotho HP:221/221 MP:214/214
+3-Take-Minakata HP:114/293 MP:58/58
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Azazel
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Azazel
+1-Joker HP:33/597 MP:289/347
+2-Clotho HP:221/221 MP:214/214
+3-Take-Minakata HP:114/293 MP:58/58
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Azazel ataca a Clotho
+Clotho recibe 40 de daño
+Clotho termina con HP:181/221
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:325/347
+B-Yamata-no-Orochi HP:662/662 MP:114/131
+C-Azazel HP:357/371 MP:346/360
+D-Gucumatz HP:301/301 MP:135/135
+Equipo de Joker (J2)
+A-Joker HP:33/597 MP:289/347
+B-
+C-Clotho HP:181/221 MP:214/214
+D-Take-Minakata HP:114/293 MP:58/58
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Gucumatz
+2-Yamata-no-Orochi
+3-Kotone
+4-Azazel
+----------------------------------------
+Seleccione una acción para Gucumatz
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Mou-Ryo HP:117/238 MP:107/107
+2-Macabre HP:290/290 MP:66/66
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Mou-Ryo ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:325/347
+B-Yamata-no-Orochi HP:662/662 MP:114/131
+C-Azazel HP:357/371 MP:346/360
+D-Mou-Ryo HP:117/238 MP:107/107
+Equipo de Joker (J2)
+A-Joker HP:33/597 MP:289/347
+B-
+C-Clotho HP:181/221 MP:214/214
+D-Take-Minakata HP:114/293 MP:58/58
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Yamata-no-Orochi
+2-Kotone
+3-Azazel
+4-Mou-Ryo
+----------------------------------------
+Seleccione una acción para Yamata-no-Orochi
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Yamata-no-Orochi use
+1-Bufudyne MP:14
+2-Megaton Press MP:17
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Yamata-no-Orochi
+1-Joker HP:33/597 MP:289/347
+2-Clotho HP:181/221 MP:214/214
+3-Take-Minakata HP:114/293 MP:58/58
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Yamata-no-Orochi lanza hielo a Joker
+Joker recibe 136 de daño
+Joker termina con HP:0/597
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Joker (J2)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:325/347
+B-Yamata-no-Orochi HP:662/662 MP:100/131
+C-Azazel HP:357/371 MP:346/360
+D-Mou-Ryo HP:117/238 MP:107/107
+Equipo de Joker (J2)
+A-Joker HP:0/597 MP:289/347
+B-
+C-Clotho HP:181/221 MP:214/214
+D-Take-Minakata HP:114/293 MP:58/58
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Clotho
+2-Take-Minakata
+----------------------------------------
+Seleccione una acción para Clotho
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Clotho
+1-Kotone HP:597/597 MP:325/347
+2-Yamata-no-Orochi HP:662/662 MP:100/131
+3-Azazel HP:357/371 MP:346/360
+4-Mou-Ryo HP:117/238 MP:107/107
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Clotho ataca a Kotone
+Kotone es resistente el ataque de Clotho
+Kotone recibe 14 de daño
+Kotone termina con HP:583/597
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:583/597 MP:325/347
+B-Yamata-no-Orochi HP:662/662 MP:100/131
+C-Azazel HP:357/371 MP:346/360
+D-Mou-Ryo HP:117/238 MP:107/107
+Equipo de Joker (J2)
+A-Joker HP:0/597 MP:289/347
+B-
+C-Clotho HP:181/221 MP:214/214
+D-Take-Minakata HP:114/293 MP:58/58
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Take-Minakata
+2-Clotho
+----------------------------------------
+Seleccione una acción para Take-Minakata
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Take-Minakata
+1-Kotone HP:583/597 MP:325/347
+2-Yamata-no-Orochi HP:662/662 MP:100/131
+3-Azazel HP:357/371 MP:346/360
+4-Mou-Ryo HP:117/238 MP:107/107
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Take-Minakata ataca a Yamata-no-Orochi
+Yamata-no-Orochi recibe 25 de daño
+Yamata-no-Orochi termina con HP:637/662
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kotone (J1)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:583/597 MP:325/347
+B-Yamata-no-Orochi HP:637/662 MP:100/131
+C-Azazel HP:357/371 MP:346/360
+D-Mou-Ryo HP:117/238 MP:107/107
+Equipo de Joker (J2)
+A-Joker HP:0/597 MP:289/347
+B-
+C-Clotho HP:181/221 MP:214/214
+D-Take-Minakata HP:114/293 MP:58/58
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Yamata-no-Orochi
+2-Kotone
+3-Azazel
+4-Mou-Ryo
+----------------------------------------
+Seleccione una acción para Yamata-no-Orochi
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:583/597 MP:325/347
+B-Yamata-no-Orochi HP:637/662 MP:100/131
+C-Azazel HP:357/371 MP:346/360
+D-Mou-Ryo HP:117/238 MP:107/107
+Equipo de Joker (J2)
+A-Joker HP:0/597 MP:289/347
+B-
+C-Clotho HP:181/221 MP:214/214
+D-Take-Minakata HP:114/293 MP:58/58
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Kotone
+2-Azazel
+3-Mou-Ryo
+4-Yamata-no-Orochi
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Gucumatz HP:301/301 MP:135/135
+2-Macabre HP:290/290 MP:66/66
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una posición para invocar
+1-Yamata-no-Orochi HP:637/662 MP:100/131 (Puesto 2)
+2-Azazel HP:357/371 MP:346/360 (Puesto 3)
+3-Mou-Ryo HP:117/238 MP:107/107 (Puesto 4)
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Gucumatz ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:583/597 MP:325/347
+B-Yamata-no-Orochi HP:637/662 MP:100/131
+C-Azazel HP:357/371 MP:346/360
+D-Gucumatz HP:301/301 MP:135/135
+Equipo de Joker (J2)
+A-Joker HP:0/597 MP:289/347
+B-
+C-Clotho HP:181/221 MP:214/214
+D-Take-Minakata HP:114/293 MP:58/58
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Azazel
+2-Gucumatz
+3-Yamata-no-Orochi
+4-Kotone
+----------------------------------------
+Seleccione una acción para Azazel
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Azazel use
+1-Agidyne MP:14
+2-Recarmdra MP:2
+3-Zandyne MP:14
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Azazel
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Mou-Ryo HP:117/238 MP:107/107
+2-Macabre HP:290/290 MP:66/66
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Macabre ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:583/597 MP:325/347
+B-Yamata-no-Orochi HP:637/662 MP:100/131
+C-Macabre HP:290/290 MP:66/66
+D-Gucumatz HP:301/301 MP:135/135
+Equipo de Joker (J2)
+A-Joker HP:0/597 MP:289/347
+B-
+C-Clotho HP:181/221 MP:214/214
+D-Take-Minakata HP:114/293 MP:58/58
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Gucumatz
+2-Yamata-no-Orochi
+3-Kotone
+4-Macabre
+----------------------------------------
+Seleccione una acción para Gucumatz
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Mou-Ryo HP:117/238 MP:107/107
+2-Azazel HP:357/371 MP:346/360
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Azazel ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:583/597 MP:325/347
+B-Yamata-no-Orochi HP:637/662 MP:100/131
+C-Macabre HP:290/290 MP:66/66
+D-Azazel HP:357/371 MP:346/360
+Equipo de Joker (J2)
+A-Joker HP:0/597 MP:289/347
+B-
+C-Clotho HP:181/221 MP:214/214
+D-Take-Minakata HP:114/293 MP:58/58
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Yamata-no-Orochi
+2-Kotone
+3-Macabre
+4-Azazel
+----------------------------------------
+Seleccione una acción para Yamata-no-Orochi
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Yamata-no-Orochi
+1-Clotho HP:181/221 MP:214/214
+2-Take-Minakata HP:114/293 MP:58/58
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Yamata-no-Orochi ataca a Clotho
+Clotho recibe 63 de daño
+Clotho termina con HP:118/221
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:583/597 MP:325/347
+B-Yamata-no-Orochi HP:637/662 MP:100/131
+C-Macabre HP:290/290 MP:66/66
+D-Azazel HP:357/371 MP:346/360
+Equipo de Joker (J2)
+A-Joker HP:0/597 MP:289/347
+B-
+C-Clotho HP:118/221 MP:214/214
+D-Take-Minakata HP:114/293 MP:58/58
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kotone
+2-Macabre
+3-Azazel
+4-Yamata-no-Orochi
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:583/597 MP:325/347
+B-Yamata-no-Orochi HP:637/662 MP:100/131
+C-Macabre HP:290/290 MP:66/66
+D-Azazel HP:357/371 MP:346/360
+Equipo de Joker (J2)
+A-Joker HP:0/597 MP:289/347
+B-
+C-Clotho HP:118/221 MP:214/214
+D-Take-Minakata HP:114/293 MP:58/58
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Macabre
+2-Azazel
+3-Yamata-no-Orochi
+4-Kotone
+----------------------------------------
+Seleccione una acción para Macabre
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Macabre
+1-Clotho HP:118/221 MP:214/214
+2-Take-Minakata HP:114/293 MP:58/58
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Macabre ataca a Clotho
+Clotho recibe 21 de daño
+Clotho termina con HP:97/221
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Joker (J2)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:583/597 MP:325/347
+B-Yamata-no-Orochi HP:637/662 MP:100/131
+C-Macabre HP:290/290 MP:66/66
+D-Azazel HP:357/371 MP:346/360
+Equipo de Joker (J2)
+A-Joker HP:0/597 MP:289/347
+B-
+C-Clotho HP:97/221 MP:214/214
+D-Take-Minakata HP:114/293 MP:58/58
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Clotho
+2-Take-Minakata
+----------------------------------------
+Seleccione una acción para Clotho
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:583/597 MP:325/347
+B-Yamata-no-Orochi HP:637/662 MP:100/131
+C-Macabre HP:290/290 MP:66/66
+D-Azazel HP:357/371 MP:346/360
+Equipo de Joker (J2)
+A-Joker HP:0/597 MP:289/347
+B-
+C-Clotho HP:97/221 MP:214/214
+D-Take-Minakata HP:114/293 MP:58/58
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Take-Minakata
+2-Clotho
+----------------------------------------
+Seleccione una acción para Take-Minakata
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Loki HP:188/319 MP:360/380
+2-Kikuri-Hime HP:216/216 MP:210/210
+3-Katakirauwa HP:133/133 MP:58/58
+4-Taown HP:709/709 MP:140/140
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Loki ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:583/597 MP:325/347
+B-Yamata-no-Orochi HP:637/662 MP:100/131
+C-Macabre HP:290/290 MP:66/66
+D-Azazel HP:357/371 MP:346/360
+Equipo de Joker (J2)
+A-Joker HP:0/597 MP:289/347
+B-
+C-Clotho HP:97/221 MP:214/214
+D-Loki HP:188/319 MP:360/380
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Clotho
+2-Loki
+----------------------------------------
+Seleccione una acción para Clotho
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Clotho use
+1-Mediarama MP:22
+2-Recarm MP:20
+3-Lullaby MP:11
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Clotho
+1-Joker HP:0/597 MP:289/347
+2-Melchom HP:0/71 MP:67/67
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Clotho revive a Melchom
+Melchom recibe 35 de HP
+Melchom termina con HP:35/71
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kotone (J1)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:583/597 MP:325/347
+B-Yamata-no-Orochi HP:637/662 MP:100/131
+C-Macabre HP:290/290 MP:66/66
+D-Azazel HP:357/371 MP:346/360
+Equipo de Joker (J2)
+A-Joker HP:0/597 MP:289/347
+B-
+C-Clotho HP:97/221 MP:194/214
+D-Loki HP:188/319 MP:360/380
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Yamata-no-Orochi
+2-Kotone
+3-Azazel
+4-Macabre
+----------------------------------------
+Seleccione una acción para Yamata-no-Orochi
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Gucumatz HP:301/301 MP:135/135
+2-Mou-Ryo HP:117/238 MP:107/107
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Gucumatz ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:583/597 MP:325/347
+B-Gucumatz HP:301/301 MP:135/135
+C-Macabre HP:290/290 MP:66/66
+D-Azazel HP:357/371 MP:346/360
+Equipo de Joker (J2)
+A-Joker HP:0/597 MP:289/347
+B-
+C-Clotho HP:97/221 MP:194/214
+D-Loki HP:188/319 MP:360/380
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Kotone
+2-Azazel
+3-Macabre
+4-Gucumatz
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Yamata-no-Orochi HP:637/662 MP:100/131
+2-Mou-Ryo HP:117/238 MP:107/107
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una posición para invocar
+1-Gucumatz HP:301/301 MP:135/135 (Puesto 2)
+2-Macabre HP:290/290 MP:66/66 (Puesto 3)
+3-Azazel HP:357/371 MP:346/360 (Puesto 4)
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Yamata-no-Orochi ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:583/597 MP:325/347
+B-Gucumatz HP:301/301 MP:135/135
+C-Macabre HP:290/290 MP:66/66
+D-Yamata-no-Orochi HP:637/662 MP:100/131
+Equipo de Joker (J2)
+A-Joker HP:0/597 MP:289/347
+B-
+C-Clotho HP:97/221 MP:194/214
+D-Loki HP:188/319 MP:360/380
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Yamata-no-Orochi
+2-Macabre
+3-Gucumatz
+4-Kotone
+----------------------------------------
+Seleccione una acción para Yamata-no-Orochi
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Yamata-no-Orochi
+1-Clotho HP:97/221 MP:194/214
+2-Loki HP:188/319 MP:360/380
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Yamata-no-Orochi ataca a Clotho
+Clotho recibe 63 de daño
+Clotho termina con HP:34/221
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:583/597 MP:325/347
+B-Gucumatz HP:301/301 MP:135/135
+C-Macabre HP:290/290 MP:66/66
+D-Yamata-no-Orochi HP:637/662 MP:100/131
+Equipo de Joker (J2)
+A-Joker HP:0/597 MP:289/347
+B-
+C-Clotho HP:34/221 MP:194/214
+D-Loki HP:188/319 MP:360/380
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Macabre
+2-Gucumatz
+3-Kotone
+4-Yamata-no-Orochi
+----------------------------------------
+Seleccione una acción para Macabre
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Macabre
+1-Clotho HP:34/221 MP:194/214
+2-Loki HP:188/319 MP:360/380
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Macabre
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Macabre
+1-Clotho HP:34/221 MP:194/214
+2-Loki HP:188/319 MP:360/380
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Macabre ataca a Loki
+Loki recibe 21 de daño
+Loki termina con HP:167/319
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:583/597 MP:325/347
+B-Gucumatz HP:301/301 MP:135/135
+C-Macabre HP:290/290 MP:66/66
+D-Yamata-no-Orochi HP:637/662 MP:100/131
+Equipo de Joker (J2)
+A-Joker HP:0/597 MP:289/347
+B-
+C-Clotho HP:34/221 MP:194/214
+D-Loki HP:167/319 MP:360/380
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Gucumatz
+2-Kotone
+3-Yamata-no-Orochi
+4-Macabre
+----------------------------------------
+Seleccione una acción para Gucumatz
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:583/597 MP:325/347
+B-Gucumatz HP:301/301 MP:135/135
+C-Macabre HP:290/290 MP:66/66
+D-Yamata-no-Orochi HP:637/662 MP:100/131
+Equipo de Joker (J2)
+A-Joker HP:0/597 MP:289/347
+B-
+C-Clotho HP:34/221 MP:194/214
+D-Loki HP:167/319 MP:360/380
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Kotone
+2-Yamata-no-Orochi
+3-Macabre
+4-Gucumatz
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Kotone
+1-Clotho HP:34/221 MP:194/214
+2-Loki HP:167/319 MP:360/380
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Kotone dispara a Clotho
+Clotho recibe 71 de daño
+Clotho termina con HP:0/221
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Joker (J2)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:583/597 MP:325/347
+B-Gucumatz HP:301/301 MP:135/135
+C-Macabre HP:290/290 MP:66/66
+D-Yamata-no-Orochi HP:637/662 MP:100/131
+Equipo de Joker (J2)
+A-Joker HP:0/597 MP:289/347
+B-
+C-
+D-Loki HP:167/319 MP:360/380
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Loki
+----------------------------------------
+Seleccione una acción para Loki
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:583/597 MP:325/347
+B-Gucumatz HP:301/301 MP:135/135
+C-Macabre HP:290/290 MP:66/66
+D-Yamata-no-Orochi HP:637/662 MP:100/131
+Equipo de Joker (J2)
+A-Joker HP:0/597 MP:289/347
+B-
+C-
+D-Loki HP:167/319 MP:360/380
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Loki
+----------------------------------------
+Seleccione una acción para Loki
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Loki
+1-Kotone HP:583/597 MP:325/347
+2-Gucumatz HP:301/301 MP:135/135
+3-Macabre HP:290/290 MP:66/66
+4-Yamata-no-Orochi HP:637/662 MP:100/131
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Loki ataca a Gucumatz
+Gucumatz recibe 42 de daño
+Gucumatz termina con HP:259/301
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kotone (J1)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:583/597 MP:325/347
+B-Gucumatz HP:259/301 MP:135/135
+C-Macabre HP:290/290 MP:66/66
+D-Yamata-no-Orochi HP:637/662 MP:100/131
+Equipo de Joker (J2)
+A-Joker HP:0/597 MP:289/347
+B-
+C-
+D-Loki HP:167/319 MP:360/380
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Yamata-no-Orochi
+2-Kotone
+3-Gucumatz
+4-Macabre
+----------------------------------------
+Seleccione una acción para Yamata-no-Orochi
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Yamata-no-Orochi
+1-Loki HP:167/319 MP:360/380
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Yamata-no-Orochi ataca a Loki
+Loki recibe 63 de daño
+Loki termina con HP:104/319
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:583/597 MP:325/347
+B-Gucumatz HP:259/301 MP:135/135
+C-Macabre HP:290/290 MP:66/66
+D-Yamata-no-Orochi HP:637/662 MP:100/131
+Equipo de Joker (J2)
+A-Joker HP:0/597 MP:289/347
+B-
+C-
+D-Loki HP:104/319 MP:360/380
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kotone
+2-Gucumatz
+3-Macabre
+4-Yamata-no-Orochi
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Kotone
+1-Loki HP:104/319 MP:360/380
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Kotone ataca a Loki
+Loki recibe 48 de daño
+Loki termina con HP:56/319
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:583/597 MP:325/347
+B-Gucumatz HP:259/301 MP:135/135
+C-Macabre HP:290/290 MP:66/66
+D-Yamata-no-Orochi HP:637/662 MP:100/131
+Equipo de Joker (J2)
+A-Joker HP:0/597 MP:289/347
+B-
+C-
+D-Loki HP:56/319 MP:360/380
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Gucumatz
+2-Macabre
+3-Yamata-no-Orochi
+4-Kotone
+----------------------------------------
+Seleccione una acción para Gucumatz
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:583/597 MP:325/347
+B-Gucumatz HP:259/301 MP:135/135
+C-Macabre HP:290/290 MP:66/66
+D-Yamata-no-Orochi HP:637/662 MP:100/131
+Equipo de Joker (J2)
+A-Joker HP:0/597 MP:289/347
+B-
+C-
+D-Loki HP:56/319 MP:360/380
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Macabre
+2-Yamata-no-Orochi
+3-Kotone
+4-Gucumatz
+----------------------------------------
+Seleccione una acción para Macabre
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Macabre
+1-Loki HP:56/319 MP:360/380
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Macabre ataca a Loki
+Loki recibe 21 de daño
+Loki termina con HP:35/319
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:583/597 MP:325/347
+B-Gucumatz HP:259/301 MP:135/135
+C-Macabre HP:290/290 MP:66/66
+D-Yamata-no-Orochi HP:637/662 MP:100/131
+Equipo de Joker (J2)
+A-Joker HP:0/597 MP:289/347
+B-
+C-
+D-Loki HP:35/319 MP:360/380
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Yamata-no-Orochi
+2-Kotone
+3-Gucumatz
+4-Macabre
+----------------------------------------
+Seleccione una acción para Yamata-no-Orochi
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Yamata-no-Orochi use
+1-Bufudyne MP:14
+2-Megaton Press MP:17
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Yamata-no-Orochi
+1-Loki HP:35/319 MP:360/380
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Yamata-no-Orochi lanza hielo a Loki
+Loki es resistente el ataque de Yamata-no-Orochi
+Loki recibe 68 de daño
+Loki termina con HP:0/319
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ganador: Kotone (J1)

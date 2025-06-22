@@ -1,0 +1,54 @@
+C:\Users\Cristian\Desktop\U\IIC2113\projects\E2\Proyecto-Megaten-IIC2113\Shin-Megami-Tensei-View\bin\Debug\net8.0\Shin-Megami-Tensei-View.deps.json
+C:\Users\Cristian\Desktop\U\IIC2113\projects\E2\Proyecto-Megaten-IIC2113\Shin-Megami-Tensei-View\bin\Debug\net8.0\Shin-Megami-Tensei-View.dll
+C:\Users\Cristian\Desktop\U\IIC2113\projects\E2\Proyecto-Megaten-IIC2113\Shin-Megami-Tensei-View\bin\Debug\net8.0\Shin-Megami-Tensei-View.pdb
+C:\Users\Cristian\Desktop\U\IIC2113\projects\E2\Proyecto-Megaten-IIC2113\Shin-Megami-Tensei-View\obj\Debug\net8.0\Shin-Megami-Tensei-View.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cristian\Desktop\U\IIC2113\projects\E2\Proyecto-Megaten-IIC2113\Shin-Megami-Tensei-View\obj\Debug\net8.0\Shin-Megami-Tensei-View.AssemblyInfoInputs.cache
+C:\Users\Cristian\Desktop\U\IIC2113\projects\E2\Proyecto-Megaten-IIC2113\Shin-Megami-Tensei-View\obj\Debug\net8.0\Shin-Megami-Tensei-View.AssemblyInfo.cs
+C:\Users\Cristian\Desktop\U\IIC2113\projects\E2\Proyecto-Megaten-IIC2113\Shin-Megami-Tensei-View\obj\Debug\net8.0\Shin-Megami-Tensei-View.csproj.CoreCompileInputs.cache
+C:\Users\Cristian\Desktop\U\IIC2113\projects\E2\Proyecto-Megaten-IIC2113\Shin-Megami-Tensei-View\obj\Debug\net8.0\Shin-Megami-Tensei-View.dll
+C:\Users\Cristian\Desktop\U\IIC2113\projects\E2\Proyecto-Megaten-IIC2113\Shin-Megami-Tensei-View\obj\Debug\net8.0\refint\Shin-Megami-Tensei-View.dll
+C:\Users\Cristian\Desktop\U\IIC2113\projects\E2\Proyecto-Megaten-IIC2113\Shin-Megami-Tensei-View\obj\Debug\net8.0\Shin-Megami-Tensei-View.pdb
+C:\Users\Cristian\Desktop\U\IIC2113\projects\E2\Proyecto-Megaten-IIC2113\Shin-Megami-Tensei-View\obj\Debug\net8.0\ref\Shin-Megami-Tensei-View.dll
+C:\Users\colas\Downloads\Proyecto-Megaten-IIC2113\Proyecto-Megaten-IIC2113\Shin-Megami-Tensei-View\bin\Debug\net8.0\Shin-Megami-Tensei-View.deps.json
+C:\Users\colas\Downloads\Proyecto-Megaten-IIC2113\Proyecto-Megaten-IIC2113\Shin-Megami-Tensei-View\bin\Debug\net8.0\Shin-Megami-Tensei-View.dll
+C:\Users\colas\Downloads\Proyecto-Megaten-IIC2113\Proyecto-Megaten-IIC2113\Shin-Megami-Tensei-View\bin\Debug\net8.0\Shin-Megami-Tensei-View.pdb
+C:\Users\colas\Downloads\Proyecto-Megaten-IIC2113\Proyecto-Megaten-IIC2113\Shin-Megami-Tensei-View\obj\Debug\net8.0\Shin-Megami-Tensei-View.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\colas\Downloads\Proyecto-Megaten-IIC2113\Proyecto-Megaten-IIC2113\Shin-Megami-Tensei-View\obj\Debug\net8.0\Shin-Megami-Tensei-View.AssemblyInfoInputs.cache
+C:\Users\colas\Downloads\Proyecto-Megaten-IIC2113\Proyecto-Megaten-IIC2113\Shin-Megami-Tensei-View\obj\Debug\net8.0\Shin-Megami-Tensei-View.AssemblyInfo.cs
+C:\Users\colas\Downloads\Proyecto-Megaten-IIC2113\Proyecto-Megaten-IIC2113\Shin-Megami-Tensei-View\obj\Debug\net8.0\Shin-Megami-Tensei-View.csproj.CoreCompileInputs.cache
+C:\Users\colas\Downloads\Proyecto-Megaten-IIC2113\Proyecto-Megaten-IIC2113\Shin-Megami-Tensei-View\obj\Debug\net8.0\Shin-Megami-Tensei-View.dll
+C:\Users\colas\Downloads\Proyecto-Megaten-IIC2113\Proyecto-Megaten-IIC2113\Shin-Megami-Tensei-View\obj\Debug\net8.0\refint\Shin-Megami-Tensei-View.dll
+C:\Users\colas\Downloads\Proyecto-Megaten-IIC2113\Proyecto-Megaten-IIC2113\Shin-Megami-Tensei-View\obj\Debug\net8.0\Shin-Megami-Tensei-View.pdb
+C:\Users\colas\Downloads\Proyecto-Megaten-IIC2113\Proyecto-Megaten-IIC2113\Shin-Megami-Tensei-View\obj\Debug\net8.0\ref\Shin-Megami-Tensei-View.dll
+C:\Users\Cristian\Desktop\U\IIC2113\projects\Código Base\Proyecto-Megaten-IIC2113-GUI\Shin-Megami-Tensei-View\bin\Debug\net8.0\Shin-Megami-Tensei-View.deps.json
+C:\Users\Cristian\Desktop\U\IIC2113\projects\Código Base\Proyecto-Megaten-IIC2113-GUI\Shin-Megami-Tensei-View\bin\Debug\net8.0\Shin-Megami-Tensei-View.dll
+C:\Users\Cristian\Desktop\U\IIC2113\projects\Código Base\Proyecto-Megaten-IIC2113-GUI\Shin-Megami-Tensei-View\bin\Debug\net8.0\Shin-Megami-Tensei-View.pdb
+C:\Users\Cristian\Desktop\U\IIC2113\projects\Código Base\Proyecto-Megaten-IIC2113-GUI\Shin-Megami-Tensei-View\obj\Debug\net8.0\Shin-Megami-Tensei-View.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cristian\Desktop\U\IIC2113\projects\Código Base\Proyecto-Megaten-IIC2113-GUI\Shin-Megami-Tensei-View\obj\Debug\net8.0\Shin-Megami-Tensei-View.AssemblyInfoInputs.cache
+C:\Users\Cristian\Desktop\U\IIC2113\projects\Código Base\Proyecto-Megaten-IIC2113-GUI\Shin-Megami-Tensei-View\obj\Debug\net8.0\Shin-Megami-Tensei-View.AssemblyInfo.cs
+C:\Users\Cristian\Desktop\U\IIC2113\projects\Código Base\Proyecto-Megaten-IIC2113-GUI\Shin-Megami-Tensei-View\obj\Debug\net8.0\Shin-Megami-Tensei-View.csproj.CoreCompileInputs.cache
+C:\Users\Cristian\Desktop\U\IIC2113\projects\Código Base\Proyecto-Megaten-IIC2113-GUI\Shin-Megami-Tensei-View\obj\Debug\net8.0\Shin-Megami-Tensei-View.dll
+C:\Users\Cristian\Desktop\U\IIC2113\projects\Código Base\Proyecto-Megaten-IIC2113-GUI\Shin-Megami-Tensei-View\obj\Debug\net8.0\refint\Shin-Megami-Tensei-View.dll
+C:\Users\Cristian\Desktop\U\IIC2113\projects\Código Base\Proyecto-Megaten-IIC2113-GUI\Shin-Megami-Tensei-View\obj\Debug\net8.0\Shin-Megami-Tensei-View.pdb
+C:\Users\Cristian\Desktop\U\IIC2113\projects\Código Base\Proyecto-Megaten-IIC2113-GUI\Shin-Megami-Tensei-View\obj\Debug\net8.0\ref\Shin-Megami-Tensei-View.dll
+C:\Users\Cristian\Desktop\U\IIC2113\projects\Código Base\Proyecto-Megaten-IIC2113-GUI\Shin-Megami-Tensei-View\bin\Debug\net8.0\Shin-Megami-Tensei-GUI.dll
+C:\Users\Cristian\Desktop\U\IIC2113\projects\Código Base\Proyecto-Megaten-IIC2113-GUI\Shin-Megami-Tensei-View\bin\Debug\net8.0\Shin-Megami-Tensei-GUI.pdb
+C:\Users\Cristian\Desktop\U\IIC2113\projects\Código Base\Proyecto-Megaten-IIC2113-GUI\Shin-Megami-Tensei-View\obj\Debug\net8.0\Shin-Megami-Tensei-View.csproj.AssemblyReference.cache
+C:\Users\Cristian\Desktop\U\IIC2113\projects\Código Base\Proyecto-Megaten-IIC2113-GUI\Shin-Megami-Tensei-View\obj\Debug\net8.0\Avalonia\Resources.Inputs.cache
+C:\Users\Cristian\Desktop\U\IIC2113\projects\Código Base\Proyecto-Megaten-IIC2113-GUI\Shin-Megami-Tensei-View\obj\Debug\net8.0\Shin-Meg.6D01BA87.Up2Date
+C:\Users\vieir\Downloads\Proyecto-Megaten-IIC2113-GUI\Proyecto-Megaten-IIC2113-GUI\Shin-Megami-Tensei-View\bin\Debug\net8.0\Shin-Megami-Tensei-View.deps.json
+C:\Users\vieir\Downloads\Proyecto-Megaten-IIC2113-GUI\Proyecto-Megaten-IIC2113-GUI\Shin-Megami-Tensei-View\bin\Debug\net8.0\Shin-Megami-Tensei-View.dll
+C:\Users\vieir\Downloads\Proyecto-Megaten-IIC2113-GUI\Proyecto-Megaten-IIC2113-GUI\Shin-Megami-Tensei-View\bin\Debug\net8.0\Shin-Megami-Tensei-View.pdb
+C:\Users\vieir\Downloads\Proyecto-Megaten-IIC2113-GUI\Proyecto-Megaten-IIC2113-GUI\Shin-Megami-Tensei-View\bin\Debug\net8.0\Shin-Megami-Tensei-GUI.dll
+C:\Users\vieir\Downloads\Proyecto-Megaten-IIC2113-GUI\Proyecto-Megaten-IIC2113-GUI\Shin-Megami-Tensei-View\bin\Debug\net8.0\Shin-Megami-Tensei-GUI.pdb
+C:\Users\vieir\Downloads\Proyecto-Megaten-IIC2113-GUI\Proyecto-Megaten-IIC2113-GUI\Shin-Megami-Tensei-View\obj\Debug\net8.0\Shin-Megami-Tensei-View.csproj.AssemblyReference.cache
+C:\Users\vieir\Downloads\Proyecto-Megaten-IIC2113-GUI\Proyecto-Megaten-IIC2113-GUI\Shin-Megami-Tensei-View\obj\Debug\net8.0\Avalonia\Resources.Inputs.cache
+C:\Users\vieir\Downloads\Proyecto-Megaten-IIC2113-GUI\Proyecto-Megaten-IIC2113-GUI\Shin-Megami-Tensei-View\obj\Debug\net8.0\Shin-Megami-Tensei-View.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vieir\Downloads\Proyecto-Megaten-IIC2113-GUI\Proyecto-Megaten-IIC2113-GUI\Shin-Megami-Tensei-View\obj\Debug\net8.0\Shin-Megami-Tensei-View.AssemblyInfoInputs.cache
+C:\Users\vieir\Downloads\Proyecto-Megaten-IIC2113-GUI\Proyecto-Megaten-IIC2113-GUI\Shin-Megami-Tensei-View\obj\Debug\net8.0\Shin-Megami-Tensei-View.AssemblyInfo.cs
+C:\Users\vieir\Downloads\Proyecto-Megaten-IIC2113-GUI\Proyecto-Megaten-IIC2113-GUI\Shin-Megami-Tensei-View\obj\Debug\net8.0\Shin-Megami-Tensei-View.csproj.CoreCompileInputs.cache
+C:\Users\vieir\Downloads\Proyecto-Megaten-IIC2113-GUI\Proyecto-Megaten-IIC2113-GUI\Shin-Megami-Tensei-View\obj\Debug\net8.0\Shin-Meg.6D01BA87.Up2Date
+C:\Users\vieir\Downloads\Proyecto-Megaten-IIC2113-GUI\Proyecto-Megaten-IIC2113-GUI\Shin-Megami-Tensei-View\obj\Debug\net8.0\Shin-Megami-Tensei-View.dll
+C:\Users\vieir\Downloads\Proyecto-Megaten-IIC2113-GUI\Proyecto-Megaten-IIC2113-GUI\Shin-Megami-Tensei-View\obj\Debug\net8.0\refint\Shin-Megami-Tensei-View.dll
+C:\Users\vieir\Downloads\Proyecto-Megaten-IIC2113-GUI\Proyecto-Megaten-IIC2113-GUI\Shin-Megami-Tensei-View\obj\Debug\net8.0\Shin-Megami-Tensei-View.pdb
+C:\Users\vieir\Downloads\Proyecto-Megaten-IIC2113-GUI\Proyecto-Megaten-IIC2113-GUI\Shin-Megami-Tensei-View\obj\Debug\net8.0\ref\Shin-Megami-Tensei-View.dll

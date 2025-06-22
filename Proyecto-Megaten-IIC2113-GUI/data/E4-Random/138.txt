@@ -1,0 +1,9 @@
+Player 1 Team
+[Samurai] Makoto (Null Fire,Invitation,Fog Breath,Mudoon)
+Gremlin
+Scathach
+Patrimpas
+Sraosha
+Player 2 Team
+[Samurai] Flynn (Samarecarm,Resist Elec,Null Elec,Null Phys,Megidola,Oni-Kagura,Judgement Light,High Heal Pleroma)
+Mothman

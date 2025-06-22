@@ -1,9 +1,0 @@
-Player 1 Team
-[Samurai] Demi-Fiend (Shock)
-Plasma
-Kingu
-Player 2 Team
-[Samurai] Tamaki
-Metatron
-Trumpeter
-Erlkonig
