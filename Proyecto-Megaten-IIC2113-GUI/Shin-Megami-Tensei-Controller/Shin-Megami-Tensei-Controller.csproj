@@ -25,4 +25,8 @@
       <PackageReference Include="Avalonia.Themes.Fluent" Version="11.3.0" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Controllers\Combat\Processors\" />
+    </ItemGroup>
+
 </Project>

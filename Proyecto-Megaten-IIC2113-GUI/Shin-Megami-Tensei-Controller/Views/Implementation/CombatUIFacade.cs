@@ -61,6 +61,6 @@ public class CombatUIFacade
 
         private int DeterminePlayerNumber(Player winner)
         {
-            return winner.GetName() == PlayerConstants.PLAYER_ONE_NAME ? 1 : 2;
+            return winner.GetName() == PlayerNameConstants.PlayerOneName ? 1 : 2;
         }
     }

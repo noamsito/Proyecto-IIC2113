@@ -15,7 +15,7 @@ public class ActionExecutor : IActionExecutor
             _actionHandler = actionHandler ?? throw new ArgumentNullException(nameof(actionHandler));
         }
 
-        public bool ExecuteUnitAction(Unit activeUnit, Player currentPlayer)
+        public bool TryExecuteUnitAction(Unit activeUnit, Player currentPlayer)
         {
             if (!IsValidUnit(activeUnit))
                 return false;

@@ -2,5 +2,5 @@
 
 public interface IActionExecutor
 {
-    bool ExecuteUnitAction(Unit activeUnit, Player currentPlayer);
+    bool TryExecuteUnitAction(Unit activeUnit, Player currentPlayer);
 }

@@ -33,7 +33,7 @@ public class TurnManager : ITurnManager
                 return;
             }
 
-            bool actionWasExecuted = _actionExecutor.ExecuteUnitAction(activeUnit, currentPlayer);
+            bool actionWasExecuted = _actionExecutor.TryExecuteUnitAction(activeUnit, currentPlayer);
             
             if (!actionWasExecuted)
             {
@@ -48,9 +48,9 @@ public class TurnManager : ITurnManager
 
         public Player GetOpponent(Player currentPlayer)
         {
-            return currentPlayer.GetName() == PlayerConstants.PLAYER_ONE_NAME 
-                ? _players[PlayerConstants.PLAYER_TWO_NAME] 
-                : _players[PlayerConstants.PLAYER_ONE_NAME];
+            return currentPlayer.GetName() == PlayerNameConstants.PlayerOneName 
+                ? _players[PlayerNameConstants.PlayerTwoName] 
+                : _players[PlayerNameConstants.PlayerOneName];
         }
 
         private void HandleNewRoundIfNeeded(Player currentPlayer, int playerNumber)
@@ -96,6 +96,6 @@ public class TurnManager : ITurnManager
 
         private int DeterminePlayerNumber(Player player)
         {
-            return player.GetName() == PlayerConstants.PLAYER_ONE_NAME ? 1 : 2;
+            return player.GetName() == PlayerNameConstants.PlayerOneName ? 1 : 2;
         }
     }

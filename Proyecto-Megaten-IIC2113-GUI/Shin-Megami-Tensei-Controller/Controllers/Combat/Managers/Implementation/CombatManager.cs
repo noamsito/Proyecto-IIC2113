@@ -42,7 +42,7 @@ public class CombatManager : ICombatManager
 
         private void ExecuteCombatLoop()
         {
-            Player currentPlayer = _players[PlayerConstants.PLAYER_ONE_NAME];
+            Player currentPlayer = _players[PlayerNameConstants.PlayerOneName];
 
             while (!_gameWon)
             {

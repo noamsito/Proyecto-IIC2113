@@ -3,12 +3,12 @@ using Shin_Megami_Tensei.Enums;
 
 namespace Shin_Megami_Tensei.Managers.New_Actions.Implementation;
 
-public class ActionProcessor : IActionProcessor
+public class CombatActionProcessor : ICombatActionProcessor
 {
     private readonly ISamuraiActionExecutor _samuraiActionExecutor;
     private readonly IDemonActionExecutor _demonActionExecutor;
 
-    public ActionProcessor(
+    public CombatActionProcessor(
         ISamuraiActionExecutor samuraiActionExecutor,
         IDemonActionExecutor demonActionExecutor)
     {

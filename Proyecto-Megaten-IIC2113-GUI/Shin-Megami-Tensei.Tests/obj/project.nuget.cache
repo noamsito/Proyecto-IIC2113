@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0ZssY0g6dEM=",
+  "dgSpecHash": "SK4F21zQnj8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\vieir\\OneDrive\\Universidad\\Semestres\\Semestre 7\\Diseño detallado de software\\Proyecto-IIC2113\\Codigo\\Proyecto-Megaten-IIC2113-GUI\\Shin-Megami-Tensei.Tests\\Shin-Megami-Tensei.Tests.csproj",
+  "projectFilePath": "C:\\Users\\vieir\\OneDrive\\Universidad\\Semestres\\Semestre 7\\Diseño detallado de software\\Proyecto-IIC2113\\Proyecto-Megaten-IIC2113-GUI\\Shin-Megami-Tensei.Tests\\Shin-Megami-Tensei.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vieir\\.nuget\\packages\\avalonia\\11.3.0\\avalonia.11.3.0.nupkg.sha512",
     "C:\\Users\\vieir\\.nuget\\packages\\avalonia.angle.windows.natives\\2.1.22045.20230930\\avalonia.angle.windows.natives.2.1.22045.20230930.nupkg.sha512",

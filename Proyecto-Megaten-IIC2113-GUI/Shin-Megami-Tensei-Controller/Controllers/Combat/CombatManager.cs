@@ -60,7 +60,7 @@ public class CombatManager
         HandleNewRoundIfNeeded(currentPlayer, playerNumber);
         DisplayGameState(currentPlayer);
 
-        bool actionWasExecuted = ExecuteUnitAction(currentPlayer);
+        bool actionWasExecuted = TryExecuteUnitAction(currentPlayer);
         
         if (!actionWasExecuted)
         {
@@ -86,7 +86,7 @@ public class CombatManager
         CombatUI.DisplaySortedUnits(currentPlayer);
     }
 
-    private bool ExecuteUnitAction(Player currentPlayer)
+    private bool TryExecuteUnitAction(Player currentPlayer)
     {
         Unit? activeUnit = TurnManager.GetCurrentUnit(currentPlayer);
         
