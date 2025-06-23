@@ -53,11 +53,11 @@ public class CombatDisplayer : ICombatDisplayer
         {
             return attackType switch
             {
-                AttackType.Physical => "ataca a",
+                AttackType.Phys => "ataca a",
                 AttackType.Gun => "dispara a",
                 AttackType.Fire => "lanza fuego a",
                 AttackType.Ice => "lanza hielo a",
-                AttackType.Electric => "lanza electricidad a",
+                AttackType.Elec => "lanza electricidad a",
                 AttackType.Force => "lanza viento a",
                 _ => "ataca a"
             };
@@ -70,9 +70,9 @@ public class CombatDisplayer : ICombatDisplayer
             {
                 AttackType.Fire => "lanza fuego a",
                 AttackType.Ice => "lanza hielo a",
-                AttackType.Electric => "lanza electricidad a",
+                AttackType.Elec => "lanza electricidad a",
                 AttackType.Force => "lanza viento a",
-                AttackType.Physical => "ataca a",
+                AttackType.Phys => "ataca a",
                 AttackType.Gun => "dispara a",
                 AttackType.Light => "ataca con luz a",
                 AttackType.Dark => "ataca con oscuridad a",

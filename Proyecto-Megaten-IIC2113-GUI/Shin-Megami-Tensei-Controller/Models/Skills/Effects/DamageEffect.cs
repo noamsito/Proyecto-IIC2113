@@ -29,7 +29,6 @@ public class DamageEffect : ISkillEffect
 
     public bool CanApply(SkillExecutionContext context)
     {
-        // Damage effects can always be applied if there are valid targets
         return true;
     }
 
@@ -43,9 +42,9 @@ public class DamageEffect : ISkillEffect
     {
         return _attackType switch
         {
-            AttackType.Physical => caster.GetCurrentStats().GetStatByName(StatType.Strength.ToGameString()),
+            AttackType.Phys => caster.GetCurrentStats().GetStatByName(StatType.Strength.ToGameString()),
             AttackType.Gun => caster.GetCurrentStats().GetStatByName(StatType.Skill.ToGameString()),
-            AttackType.Fire or AttackType.Ice or AttackType.Electric or AttackType.Force or AttackType.Almighty 
+            AttackType.Fire or AttackType.Ice or AttackType.Elec or AttackType.Force or AttackType.Almighty 
                 => caster.GetCurrentStats().GetStatByName(StatType.Magic.ToGameString()),
             _ => caster.GetCurrentStats().GetStatByName(StatType.Magic.ToGameString())
         };

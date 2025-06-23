@@ -132,9 +132,9 @@ public static class AffinityEffectManager
     {
         return skillCtx.Skill.Type switch
         {
-            AttackType.Physical => skillCtx.Caster.GetCurrentStats().GetStatByName("Str"),
+            AttackType.Phys => skillCtx.Caster.GetCurrentStats().GetStatByName("Str"),
             AttackType.Gun => skillCtx.Caster.GetCurrentStats().GetStatByName("Skl"),
-            AttackType.Fire or AttackType.Ice or AttackType.Electric or AttackType.Force or AttackType.Almighty => skillCtx.Caster.GetCurrentStats().GetStatByName("Mag"),
+            AttackType.Fire or AttackType.Ice or AttackType.Elec or AttackType.Force or AttackType.Almighty => skillCtx.Caster.GetCurrentStats().GetStatByName("Mag"),
             _ => 0
         };
     }

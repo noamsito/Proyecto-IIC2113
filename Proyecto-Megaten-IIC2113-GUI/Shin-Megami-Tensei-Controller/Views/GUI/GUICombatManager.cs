@@ -141,7 +141,7 @@ public class GUICombatManager
     {
         return choice switch
         {
-            "1" => TryExecuteBasicAttackAction(samurai, AttackType.Physical, currentPlayer, opponent),
+            "1" => TryExecuteBasicAttackAction(samurai, AttackType.Phys, currentPlayer, opponent),
             "2" => TryExecuteBasicAttackAction(samurai, AttackType.Gun, currentPlayer, opponent), 
             "3" => TryExecuteSkillAction(samurai, currentPlayer, opponent),
             "4" => TryExecuteSummonAction(currentPlayer, samurai),
@@ -155,7 +155,7 @@ public class GUICombatManager
     {
         return choice switch
         {
-            "1" => TryExecuteBasicAttackAction(demon, AttackType.Physical, currentPlayer, opponent),
+            "1" => TryExecuteBasicAttackAction(demon, AttackType.Phys, currentPlayer, opponent),
             "2" => TryExecuteSkillAction(demon, currentPlayer, opponent),
             "3" => TryExecuteSummonAction(currentPlayer, demon),
             "4" => TryExecutePassTurnAction(currentPlayer),
@@ -319,11 +319,11 @@ public class GUICombatManager
                     }
                     break;
             
-                case AttackType.Physical:
+                case AttackType.Phys:
                 case AttackType.Gun:
                 case AttackType.Fire:
                 case AttackType.Ice:
-                case AttackType.Electric:
+                case AttackType.Elec:
                 case AttackType.Force:
                 case AttackType.Almighty:
                     if (target != null)
@@ -479,7 +479,7 @@ public class GUICombatManager
 
     private double CalculateBaseDamageByType(Unit attacker, AttackType attackType)
     {
-        return attackType == AttackType.Physical
+        return attackType == AttackType.Phys
             ? AttackExecutor.ExecutePhysicalAttack(attacker, GameConstants.MODIFIER_PHYS_DAMAGE)
             : AttackExecutor.ExecuteGunAttack(attacker, GameConstants.MODIFIER_GUN_DAMAGE);
     }

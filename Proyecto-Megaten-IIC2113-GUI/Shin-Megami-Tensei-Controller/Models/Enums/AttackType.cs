@@ -2,14 +2,16 @@
 
 public enum AttackType
 {
-    Physical,
+    Phys,
     Gun,
     Fire,
     Ice,
-    Electric,
+    Elec,
     Force,
     Light,
     Dark,
     Almighty,
-    Heal
+    Heal,
+    Support,
+    None
 }

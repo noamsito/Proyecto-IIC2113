@@ -25,7 +25,7 @@ public static class DemonActionExecutor
 
     private static bool ExecutePhysicalAttack(Demon demon, CombatContext combatContext, TurnContext turnContext)
     {
-        var attackContext = new AttackTargetContext(demon, combatContext.Opponent, AttackType.Physical);
+        var attackContext = new AttackTargetContext(demon, combatContext.Opponent, AttackType.Phys);
         return CombatActionExecutor.ExecuteAttack(attackContext, turnContext);
     }
 

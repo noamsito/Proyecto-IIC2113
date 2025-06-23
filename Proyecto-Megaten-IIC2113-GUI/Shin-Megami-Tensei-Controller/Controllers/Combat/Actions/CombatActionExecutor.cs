@@ -80,7 +80,7 @@ public static class CombatActionExecutor
 
     private static double CalculateBaseDamageByType(AttackData attackData)
     {
-        return attackData.AttackType == AttackType.Physical
+        return attackData.AttackType == AttackType.Phys
             ? AttackExecutor.ExecutePhysicalAttack(attackData.Attacker, GameConstants.MODIFIER_PHYS_DAMAGE)
             : AttackExecutor.ExecuteGunAttack(attackData.Attacker, GameConstants.MODIFIER_GUN_DAMAGE);
     }
@@ -107,7 +107,7 @@ public static class CombatActionExecutor
     {
         return skill.Type switch
         {
-            AttackType.Physical => HandleSpecialSkill(skill, caster, turnContext),
+            AttackType.Phys => HandleSpecialSkill(skill, caster, turnContext),
             AttackType.Heal => HandleHealSkill(skill, caster, combatContext, turnContext),
             _ => HandleDamageSkill(skill, caster, combatContext, turnContext)
         };

@@ -32,7 +32,7 @@ public static class SamuraiActionExecutor
 
     private static bool ExecutePhysicalAttack(Samurai samurai, CombatContext combatContext, TurnContext turnContext)
     {
-        var attackContext = new AttackTargetContext(samurai, combatContext.Opponent, AttackType.Physical);
+        var attackContext = new AttackTargetContext(samurai, combatContext.Opponent, AttackType.Phys);
         return CombatActionExecutor.ExecuteAttack(attackContext, turnContext);
     }
 

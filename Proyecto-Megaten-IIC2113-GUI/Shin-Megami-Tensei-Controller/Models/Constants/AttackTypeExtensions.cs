@@ -4,11 +4,11 @@ public static class AttackTypeExtensions
 {
     private static readonly Dictionary<AttackType, string> _attackTypeStrings = new()
     {
-        { AttackType.Physical, "Phys" },
+        { AttackType.Phys, "Phys" },
         { AttackType.Gun, "Gun" },
         { AttackType.Fire, "Fire" },
         { AttackType.Ice, "Ice" },
-        { AttackType.Electric, "Elec" },
+        { AttackType.Elec, "Elec" },
         { AttackType.Force, "Force" },
         { AttackType.Light, "Light" },
         { AttackType.Dark, "Dark" },
