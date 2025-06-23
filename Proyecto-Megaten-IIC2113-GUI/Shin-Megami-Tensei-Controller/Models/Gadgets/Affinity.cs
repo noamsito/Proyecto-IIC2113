@@ -1,3 +1,5 @@
+using Shin_Megami_Tensei.Enums;
+
 namespace Shin_Megami_Tensei.Gadgets;
 
 public class Affinity
@@ -9,9 +11,9 @@ public class Affinity
         _values = values;
     }
     
-    public string GetAffinityForType(string attackType)
+    public string GetAffinityForType(AttackType attackType)
     {
-        if (_values.TryGetValue(attackType, out string affinity))
+        if (_values.TryGetValue(attackType.ToString(), out string affinity))
         {
             return string.IsNullOrWhiteSpace(affinity) ? "-" : affinity;
         }

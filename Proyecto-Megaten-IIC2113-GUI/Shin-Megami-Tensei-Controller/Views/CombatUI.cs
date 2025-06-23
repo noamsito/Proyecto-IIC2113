@@ -1,6 +1,7 @@
 ﻿using Shin_Megami_Tensei_View;
 using Shin_Megami_Tensei;
 using Shin_Megami_Tensei.Combat;
+using Shin_Megami_Tensei.Enums;
 using Shin_Megami_Tensei.Gadgets;
 using Shin_Megami_Tensei.Managers;
 
@@ -195,16 +196,16 @@ public static class CombatUI
             _view.WriteLine($"Seleccione un objetivo para {attackerName}");
         }
     
-        public static void DisplayAttack(string attackerName, string targetName, string attackType)
+        public static void DisplayAttack(string attackerName, string targetName, AttackType attackType)
         {
             string action = attackType switch
             {
-                "Phys" => "ataca a",
-                "Gun" => "dispara a",
-                "Fire" => "lanza fuego a",
-                "Ice" => "lanza hielo a",
-                "Elec" => "lanza electricidad a",
-                "Force" => "lanza viento a",
+                AttackType.Physical => "ataca a",
+                AttackType.Gun => "dispara a",
+                AttackType.Fire => "lanza fuego a",
+                AttackType.Ice => "lanza hielo a",
+                AttackType.Electric => "lanza electricidad a",
+                AttackType.Force => "lanza viento a",
                 _ => "ataca a"
             };
     
@@ -285,19 +286,19 @@ public static class CombatUI
     
         public static void DisplaySkillUsage(Unit caster, Skill skill, Unit target)
         {
-            string action = skill.Type switch
+            string action =  skill.Type switch
             {
-                "Fire" => "lanza fuego a",
-                "Ice" => "lanza hielo a",
-                "Elec" => "lanza electricidad a",
-                "Force" => "lanza viento a",
-                "Phys" => "ataca a",
-                "Gun" => "dispara a",
-                "Light" => "ataca con luz a",
-                "Dark" => "ataca con oscuridad a",
-                "Almighty" => "lanza un ataque todo poderoso a",
-                "Heal" when skill.Name is "Recarm" or "Samarecarm" or "Invitation" => "revive a",
-                "Heal" => "cura a",
+                AttackType.Fire => "lanza fuego a",
+                AttackType.Ice => "lanza hielo a",
+                AttackType.Electric => "lanza electricidad a",
+                AttackType.Force => "lanza viento a",
+                AttackType.Physical => "ataca a",
+                AttackType.Gun => "dispara a",
+                AttackType.Light => "ataca con luz a",
+                AttackType.Dark => "ataca con oscuridad a",
+                AttackType.Almighty => "lanza un ataque todo poderoso a",
+                AttackType.Heal when skill.Name is "Recarm" or "Samarecarm" or "Invitation" => "revive a",
+                AttackType.Heal => "cura a",
                 _ => "usa " + skill.Name + " en"
             };
             
@@ -395,7 +396,7 @@ public static class CombatUI
             double finalDamage = AffinityEffectManager.GetDamageBasedOnAffinity(affinityCtx);
     
             Skill skillInUse = skillCtx.Skill;
-            bool isTargetAlly = skillInUse.Target == "Ally";
+            bool isTargetAlly = skillInUse.Target == SkillTarget.Ally;
     
             if (isTargetAlly)
             {

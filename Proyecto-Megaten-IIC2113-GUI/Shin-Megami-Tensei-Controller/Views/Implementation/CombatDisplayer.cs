@@ -65,7 +65,7 @@ public class CombatDisplayer : ICombatDisplayer
 
         private string GetSkillActionText(Skill skill)
         {
-            var attackType = AttackTypeExtensions.FromGameString(skill.Type);
+            var attackType = skill.Type;
             return attackType switch
             {
                 AttackType.Fire => "lanza fuego a",

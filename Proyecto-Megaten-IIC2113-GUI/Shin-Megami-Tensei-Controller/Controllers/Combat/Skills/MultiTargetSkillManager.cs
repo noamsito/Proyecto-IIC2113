@@ -1,6 +1,7 @@
 ﻿using Shin_Megami_Tensei_View;
 using Shin_Megami_Tensei.Combat;
 using Shin_Megami_Tensei.Data;
+using Shin_Megami_Tensei.Enums;
 using Shin_Megami_Tensei.Gadgets;
 
 namespace Shin_Megami_Tensei.Managers;
@@ -132,7 +133,7 @@ public static class MultiTargetSkillManager
 
     private static bool IsLightOrDarkSkill(Skill skill)
     {
-        return skill.Type == LIGHT_SKILL_TYPE || skill.Type == DARK_SKILL_TYPE;
+        return skill.Type is AttackType.Light or AttackType.Dark;
     }
 
     private static void ApplyRepelDamageToCaster(Unit caster, double totalRepelDamage)
@@ -175,7 +176,7 @@ public static class MultiTargetSkillManager
 
         DisplaySkillUsage(skillCtx.Caster, skillCtx.Skill, skillCtx.Target);
 
-        if (skillCtx.Skill.Type == "Light" || skillCtx.Skill.Type == "Dark")
+        if (skillCtx.Skill.Type == AttackType.Light || skillCtx.Skill.Type == AttackType.Dark)
         {
             HandleLightDarkSkill(affinityCtx, skillCtx, out isRepel);
         }
@@ -309,11 +310,11 @@ public static class MultiTargetSkillManager
         
         switch (skillCtx.Skill.Target)
         {
-            case "All":
+            case SkillTarget.All:
                 AddOpponentActiveUnits(skillCtx, orderedTargets);
                 break;
                 
-            case "Multi":
+            case SkillTarget.Multi:
                 return GetMultiTargetsUsingAlgorithm(skillCtx, turnCtx);
         }
         

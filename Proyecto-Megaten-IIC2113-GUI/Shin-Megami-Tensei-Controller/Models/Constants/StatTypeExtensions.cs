@@ -4,8 +4,8 @@ public static class StatTypeExtensions
 {
     private static readonly Dictionary<StatType, string> _statStrings = new()
     {
-        { StatType.HP, "HP" },
-        { StatType.MP, "MP" },
+        { StatType.Hp, "HP" },
+        { StatType.Mp, "MP" },
         { StatType.Strength, "Str" },
         { StatType.Skill, "Skl" },
         { StatType.Magic, "Mag" },

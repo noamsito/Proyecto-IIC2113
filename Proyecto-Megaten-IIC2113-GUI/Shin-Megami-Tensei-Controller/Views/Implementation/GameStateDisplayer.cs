@@ -99,7 +99,7 @@ public class GameStateDisplayer : IGameStateDisplayer
 
         private bool IsUnitDead(Unit unit)
         {
-            return unit.GetCurrentStats().GetStatByName(StatType.HP.ToGameString()) <= 0;
+            return unit.GetCurrentStats().GetStatByName(StatType.Hp.ToGameString()) <= 0;
         }
 
         private void DisplayEmptySlot(char label)
@@ -111,10 +111,10 @@ public class GameStateDisplayer : IGameStateDisplayer
         {
             var currentStats = unit.GetCurrentStats();
             var baseStats = unit.GetBaseStats();
-            int hp = currentStats.GetStatByName(StatType.HP.ToGameString());
-            int maxHp = baseStats.GetStatByName(StatType.HP.ToGameString());
-            int mp = currentStats.GetStatByName(StatType.MP.ToGameString());
-            int maxMp = baseStats.GetStatByName(StatType.MP.ToGameString());
+            int hp = currentStats.GetStatByName(StatType.Hp.ToGameString());
+            int maxHp = baseStats.GetStatByName(StatType.Hp.ToGameString());
+            int mp = currentStats.GetStatByName(StatType.Mp.ToGameString());
+            int maxMp = baseStats.GetStatByName(StatType.Mp.ToGameString());
             _displayService.WriteLine($"{label}-{unit.GetName()} HP:{hp}/{maxHp} MP:{mp}/{maxMp}");
         }
     }

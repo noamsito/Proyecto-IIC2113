@@ -75,7 +75,7 @@ public class TurnManager : ITurnManager
 
         private bool IsUnitAlive(Unit unit)
         {
-            return unit.GetCurrentStats().GetStatByName(StatType.HP.ToGameString()) > 0;
+            return unit.GetCurrentStats().GetStatByName(StatType.Hp.ToGameString()) > 0;
         }
 
         private void ConsumeCurrentTurn(Player currentPlayer)

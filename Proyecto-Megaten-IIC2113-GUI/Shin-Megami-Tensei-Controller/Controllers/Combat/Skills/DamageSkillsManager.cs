@@ -1,4 +1,5 @@
 ﻿using Shin_Megami_Tensei.Combat;
+using Shin_Megami_Tensei.Enums;
 using Shin_Megami_Tensei.Gadgets;
 
 namespace Shin_Megami_Tensei.Managers;
@@ -11,11 +12,11 @@ public class DamageSkillsManager
         
         switch (skill.Target)
         {
-            case "All":
+            case SkillTarget.All:
                 MultiTargetSkillManager.HandleMultiTargetOffensiveSkill(skillCtx, turnCtx);
                 break;
                 
-            case "Multi":
+            case SkillTarget.Multi:
                 MultiTargetSkillManager.HandleMultiTargetSkill(skillCtx, turnCtx);
                 break;
                 

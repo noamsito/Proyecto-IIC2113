@@ -43,10 +43,10 @@ public class TargetSelectionService : ITargetSelectionService
             return FindSelectedSkill(clickedElement.Text, availableSkills);
         }
 
-        private Unit GetUnitAtPosition(Player player, int slotIndex)
-        {
-            
-        }
+        // private Unit GetUnitAtPosition(Player player, int slotIndex)
+        // {
+        //     
+        // }
 
         public Unit SelectSummonableUnit(Player player)
         {

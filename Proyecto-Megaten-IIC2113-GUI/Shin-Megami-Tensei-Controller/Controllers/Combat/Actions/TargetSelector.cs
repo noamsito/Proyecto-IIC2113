@@ -1,5 +1,6 @@
 ﻿using Shin_Megami_Tensei_View;
 using Shin_Megami_Tensei.Combat;
+using Shin_Megami_Tensei.Enums;
 using Shin_Megami_Tensei.Gadgets;
 
 namespace Shin_Megami_Tensei.Managers;
@@ -66,7 +67,7 @@ public static class TargetSelector
 
     private static List<Unit> DeterminePossibleTargets(SkillTargetContext context)
     {
-        bool isAllyTargeting = context.Skill.Target == "Ally";
+        bool isAllyTargeting = context.Skill.Target == SkillTarget.Ally;
         bool canReviveUnits = IsReviveSkill(context.Skill.Name);
 
         if (isAllyTargeting)

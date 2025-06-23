@@ -1,8 +1,10 @@
 ﻿using Shin_Megami_Tensei_View;
 using Shin_Megami_Tensei;
 using Shin_Megami_Tensei.Combat;
+using Shin_Megami_Tensei.Enums;
 using Shin_Megami_Tensei.Gadgets;
 using Shin_Megami_Tensei.Managers;
+using Shin_Megami_Tensei.Models.Constants;
 
 public class GUICombatManager
 {
@@ -139,8 +141,8 @@ public class GUICombatManager
     {
         return choice switch
         {
-            "1" => TryExecuteBasicAttackAction(samurai, "Phys", currentPlayer, opponent),
-            "2" => TryExecuteBasicAttackAction(samurai, "Gun", currentPlayer, opponent), 
+            "1" => TryExecuteBasicAttackAction(samurai, AttackType.Physical, currentPlayer, opponent),
+            "2" => TryExecuteBasicAttackAction(samurai, AttackType.Gun, currentPlayer, opponent), 
             "3" => TryExecuteSkillAction(samurai, currentPlayer, opponent),
             "4" => TryExecuteSummonAction(currentPlayer, samurai),
             "5" => TryExecutePassTurnAction(currentPlayer),
@@ -153,7 +155,7 @@ public class GUICombatManager
     {
         return choice switch
         {
-            "1" => TryExecuteBasicAttackAction(demon, "Phys", currentPlayer, opponent),
+            "1" => TryExecuteBasicAttackAction(demon, AttackType.Physical, currentPlayer, opponent),
             "2" => TryExecuteSkillAction(demon, currentPlayer, opponent),
             "3" => TryExecuteSummonAction(currentPlayer, demon),
             "4" => TryExecutePassTurnAction(currentPlayer),
@@ -161,7 +163,7 @@ public class GUICombatManager
         };
     }
 
-    private bool TryExecuteBasicAttackAction(Unit attacker, string attackType, Player currentPlayer, Player opponent)
+    private bool TryExecuteBasicAttackAction(Unit attacker, AttackType attackType, Player currentPlayer, Player opponent)
     {
         Unit target = _view.SelectTarget(opponent);
         if (target == null) return false;
@@ -295,12 +297,12 @@ public class GUICombatManager
             var turnContext = CreateTurnContext(currentPlayer, opponent);
             
             Unit target = null;
-            if (skill.Target == "Single")
+         if (skill.Target == SkillTarget.Single)
             {
                 target = _view.SelectTarget(opponent);
                 if (target == null) return false;
             }
-            else if (skill.Target == "Ally")
+            else if (skill.Target == SkillTarget.Ally)
             {
                 target = _view.SelectTarget(currentPlayer);
                 if (target == null) return false;
@@ -308,32 +310,31 @@ public class GUICombatManager
             
             switch (skill.Type)
             {
-                case "Heal":
+                case AttackType.Heal:
                     if (target != null)
                     {
-                        int baseHp = target.GetBaseStats().GetStatByName("HP");
+                        int baseHp = target.GetBaseStats().GetStatByName(CombatConstants.HP_STAT);
                         double healAmount = Math.Floor((skill.Power / 100.0) * baseHp);
                         UnitActionManager.ApplyHealToUnit(target, healAmount);
                     }
                     break;
-                    
-                case "Phys":
-                case "Gun":
-                case "Fire":
-                case "Ice":
-                case "Elec":
-                case "Force":
-                case "Almighty":
+            
+                case AttackType.Physical:
+                case AttackType.Gun:
+                case AttackType.Fire:
+                case AttackType.Ice:
+                case AttackType.Electric:
+                case AttackType.Force:
+                case AttackType.Almighty:
                     if (target != null)
                     {
-                        int stat = GetStatForSkillType(caster, skill.Type);
+                        int stat = GetStatForSkillType(caster, skill.Type.ToString());
                         double baseDamage = Math.Sqrt(stat * skill.Power);
                         var affinityCtx = new AffinityContext(caster, target, skill.Type, baseDamage);
                         ApplyAttackEffectsManually(affinityCtx);
                     }
                     break;
             }
-            
             TurnManager.ConsumeTurn(turnContext);
             UpdateGameStateAfterAction(turnContext);   
             return true;
@@ -344,14 +345,14 @@ public class GUICombatManager
             return false;
         }
     }
-
+    
     private int GetStatForSkillType(Unit caster, string skillType)
     {
         return skillType switch
         {
-            "Phys" => caster.GetCurrentStats().GetStatByName("Str"),
-            "Gun" => caster.GetCurrentStats().GetStatByName("Skl"),
-            "Fire" or "Ice" or "Elec" or "Force" or "Almighty" => caster.GetCurrentStats().GetStatByName("Mag"),
+            CombatConstants.PHYS_TYPE => caster.GetCurrentStats().GetStatByName("Str"),
+            CombatConstants.GUN_TYPE => caster.GetCurrentStats().GetStatByName("Skl"),
+            "Fire" or "Ice" or "Elec" or CombatConstants.FORCE_TYPE or "Almighty" => caster.GetCurrentStats().GetStatByName("Mag"),
             _ => caster.GetCurrentStats().GetStatByName("Mag")
         };
     }
@@ -450,13 +451,13 @@ public class GUICombatManager
             var turnContext = CreateTurnContext(
                 currentPlayer, GetOpponent(currentPlayer));
 
-            var tm = currentPlayer.TurnManager;
-            if (tm.GetBlinkingTurns() > 0)
-                tm.ConsumeBlinkingTurn(1);
+            var turnManager = currentPlayer.TurnManager;
+            if (turnManager.GetBlinkingTurns() > 0)
+                turnManager.ConsumeBlinkingTurn(1);
             else
             {
-                tm.ConsumeFullTurn(1);
-                tm.GainBlinkingTurn(1);
+                turnManager.ConsumeFullTurn(1);
+                turnManager.GainBlinkingTurn(1);
             }
 
             currentPlayer.UnitManager.RearrangeSortedUnitsWhenAttacked();
@@ -476,9 +477,9 @@ public class GUICombatManager
         return true;
     }
 
-    private double CalculateBaseDamageByType(Unit attacker, string attackType)
+    private double CalculateBaseDamageByType(Unit attacker, AttackType attackType)
     {
-        return attackType == "Phys"
+        return attackType == AttackType.Physical
             ? AttackExecutor.ExecutePhysicalAttack(attacker, GameConstants.MODIFIER_PHYS_DAMAGE)
             : AttackExecutor.ExecuteGunAttack(attacker, GameConstants.MODIFIER_GUN_DAMAGE);
     }

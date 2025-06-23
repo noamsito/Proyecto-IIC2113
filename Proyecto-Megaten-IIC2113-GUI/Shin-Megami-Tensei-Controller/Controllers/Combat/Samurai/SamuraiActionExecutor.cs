@@ -1,5 +1,6 @@
 ﻿using Shin_Megami_Tensei_View;
 using Shin_Megami_Tensei.Combat;
+using Shin_Megami_Tensei.Enums;
 using Shin_Megami_Tensei.Gadgets;
 using Shin_Megami_Tensei.Managers;
 using Shin_Megami_Tensei.String_Handlers;
@@ -31,13 +32,13 @@ public static class SamuraiActionExecutor
 
     private static bool ExecutePhysicalAttack(Samurai samurai, CombatContext combatContext, TurnContext turnContext)
     {
-        var attackContext = new AttackTargetContext(samurai, combatContext.Opponent, "Phys");
+        var attackContext = new AttackTargetContext(samurai, combatContext.Opponent, AttackType.Physical);
         return CombatActionExecutor.ExecuteAttack(attackContext, turnContext);
     }
 
     private static bool ExecuteGunAttack(Samurai samurai, CombatContext combatContext, TurnContext turnContext)
     {
-        var attackContext = new AttackTargetContext(samurai, combatContext.Opponent, "Gun");
+        var attackContext = new AttackTargetContext(samurai, combatContext.Opponent, AttackType.Gun);
         return CombatActionExecutor.ExecuteAttack(attackContext, turnContext);
     }
 

@@ -2,6 +2,7 @@
 using Shin_Megami_Tensei_View;
 using Shin_Megami_Tensei.Combat;
 using Shin_Megami_Tensei.Data;
+using Shin_Megami_Tensei.Enums;
 using Shin_Megami_Tensei.Gadgets;
 
 namespace Shin_Megami_Tensei.Managers;
@@ -18,12 +19,8 @@ public static class AffinityEffectManager
         
         var affinityCtx = CreateAffinityContext(skillCtx, baseDamage);
         
-        bool isLightDarkSkill = (skill.Type == "Light" || skill.Type == "Dark");
-        bool isDrainSkill = (skill.Type == "Almighty" && 
-            skill.Name == "Life Drain" || 
-            skill.Name == "Spirit Drain" || 
-            skill.Name == "Energy Drain" ||
-            skill.Name == "Serpent of Sheol");
+        bool isLightDarkSkill = (skill.Type == AttackType.Light || skill.Type == AttackType.Dark);
+        bool isDrainSkill = (skill.Type == AttackType.Almighty && SkillConstants.DRAIN_SKILLS.Contains(skill.Name));
         
         if (isLightDarkSkill)
         {
@@ -135,9 +132,9 @@ public static class AffinityEffectManager
     {
         return skillCtx.Skill.Type switch
         {
-            "Phys" => skillCtx.Caster.GetCurrentStats().GetStatByName("Str"),
-            "Gun" => skillCtx.Caster.GetCurrentStats().GetStatByName("Skl"),
-            "Fire" or "Ice" or "Elec" or "Force" or "Almighty" => skillCtx.Caster.GetCurrentStats().GetStatByName("Mag"),
+            AttackType.Physical => skillCtx.Caster.GetCurrentStats().GetStatByName("Str"),
+            AttackType.Gun => skillCtx.Caster.GetCurrentStats().GetStatByName("Skl"),
+            AttackType.Fire or AttackType.Ice or AttackType.Electric or AttackType.Force or AttackType.Almighty => skillCtx.Caster.GetCurrentStats().GetStatByName("Mag"),
             _ => 0
         };
     }

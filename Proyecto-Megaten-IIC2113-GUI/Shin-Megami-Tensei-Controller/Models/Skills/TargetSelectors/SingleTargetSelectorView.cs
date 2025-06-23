@@ -37,6 +37,6 @@ public class SingleTargetSelectorView : ITargetSelector
     private IEnumerable<Unit> GetValidTargets(Player player)
     {
         return player.UnitManager.GetActiveUnits()
-            .Where(u => u != null && u.GetCurrentStats().GetStatByName(StatType.HP.ToGameString()) > 0);
+            .Where(u => u != null && u.GetCurrentStats().GetStatByName(StatType.Hp.ToGameString()) > 0);
     }
 }

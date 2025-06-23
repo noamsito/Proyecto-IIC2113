@@ -2,8 +2,8 @@
 
 public enum StatType
 {
-    HP,
-    MP,
+    Hp,
+    Mp,
     Strength,
     Skill,
     Magic,

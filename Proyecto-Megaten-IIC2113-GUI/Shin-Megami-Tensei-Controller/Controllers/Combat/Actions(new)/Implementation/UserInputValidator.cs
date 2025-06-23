@@ -18,9 +18,9 @@ public class UserInputValidator : IUserInputValidator
         };
     }
 
-    public T ParseInput<T>(string input) where T : Enum
+    public T ParseInput<T>(string input) where T : struct, Enum
     {
-        if (Enum.TryParse(input, out T result))
+        if (Enum.TryParse(input, true, out T result))
             return result;
         
         throw new InvalidActionException($"Invalid input for {typeof(T).Name}: {input}");
@@ -28,11 +28,11 @@ public class UserInputValidator : IUserInputValidator
 
     private bool IsValidSamuraiInput(string input)
     {
-        return Enum.TryParse<SamuraiAction>(input, out _);
+        return Enum.TryParse<SamuraiAction>(input, true, out _);
     }
 
     private bool IsValidDemonInput(string input)
     {
-        return Enum.TryParse<DemonAction>(input, out _);
+        return Enum.TryParse<DemonAction>(input, true, out _);
     }
 }

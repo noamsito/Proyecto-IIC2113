@@ -1,4 +1,5 @@
 ﻿using System.Text.Json;
+using Shin_Megami_Tensei.Enums;
 using Shin_Megami_Tensei.Gadgets;
 
 namespace Shin_Megami_Tensei.Units;
@@ -18,10 +19,10 @@ public static class SkillJsonReader
             {
                 return new Skill(
                     name,
-                    skillJson.GetProperty("type").GetString()!,
+                    Enum.Parse<AttackType>(skillJson.GetProperty("type").GetString()!),
                     skillJson.GetProperty("cost").GetInt32(),
                     skillJson.GetProperty("power").GetInt32(),
-                    skillJson.GetProperty("target").GetString()!,
+                    Enum.Parse<SkillTarget>(skillJson.GetProperty("target").GetString()!),
                     skillJson.GetProperty("hits").GetString()!,
                     skillJson.GetProperty("effect").GetString()!
                 );

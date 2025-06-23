@@ -1,5 +1,6 @@
 ﻿using Shin_Megami_Tensei_View;
 using Shin_Megami_Tensei.Combat;
+using Shin_Megami_Tensei.Enums;
 
 namespace Shin_Megami_Tensei.Controllers;
 
@@ -24,7 +25,7 @@ public static class DemonActionExecutor
 
     private static bool ExecutePhysicalAttack(Demon demon, CombatContext combatContext, TurnContext turnContext)
     {
-        var attackContext = new AttackTargetContext(demon, combatContext.Opponent, "Phys");
+        var attackContext = new AttackTargetContext(demon, combatContext.Opponent, AttackType.Physical);
         return CombatActionExecutor.ExecuteAttack(attackContext, turnContext);
     }
 

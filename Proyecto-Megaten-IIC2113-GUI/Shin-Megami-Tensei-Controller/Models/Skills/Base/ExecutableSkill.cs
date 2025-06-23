@@ -57,14 +57,14 @@ public class ExecutableSkill
 
         private bool HasSufficientMana(SkillExecutionContext context)
         {
-            var currentMana = context.Caster.GetCurrentStats().GetStatByName(StatType.MP.ToGameString());
+            var currentMana = context.Caster.GetCurrentStats().GetStatByName(StatType.Mp.ToGameString());
             return currentMana >= _skill.Cost;
         }
 
         private void ConsumeMana(SkillExecutionContext context)
         {
-            var currentMana = context.Caster.GetCurrentStats().GetStatByName(StatType.MP.ToGameString());
+            var currentMana = context.Caster.GetCurrentStats().GetStatByName(StatType.Mp.ToGameString());
             var newMana = Math.Max(0, currentMana - _skill.Cost);
-            context.Caster.GetCurrentStats().SetStatByName(StatType.MP.ToGameString(), newMana);
+            context.Caster.GetCurrentStats().SetStatByName(StatType.Mp.ToGameString(), newMana);
         }
     }

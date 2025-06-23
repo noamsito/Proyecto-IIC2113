@@ -114,6 +114,6 @@ public class UnitCollection
 
         private static bool IsUnitAlive(Unit unit)
         {
-            return unit.GetCurrentStats().GetStatByName(StatType.HP.ToGameString()) > 0;
+            return unit.GetCurrentStats().GetStatByName(StatType.Hp.ToGameString()) > 0;
         }
     }

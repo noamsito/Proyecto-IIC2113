@@ -1,6 +1,7 @@
 ﻿using System.Text.RegularExpressions;
 using Shin_Megami_Tensei_View;
 using Shin_Megami_Tensei.Combat;
+using Shin_Megami_Tensei.Enums;
 using Shin_Megami_Tensei.Gadgets;
 
 namespace Shin_Megami_Tensei.Managers;
@@ -130,15 +131,15 @@ public static class SkillManager
     private static void ManageIfTargetsAreAlliesOrEnemies(SkillUseContext skillCtx, ref List<Unit> targets)
     {
         Skill skill = skillCtx.Skill;
-        bool isHealSkill = skill.Type == "Heal";
+        bool isHealSkill = skill.Type == AttackType.Heal;
         
         switch (skill.Target)
         {
-            case "Party":
+            case SkillTarget.Party:
                 if (isHealSkill)
                     AddAllAlliesUnitsToTargets(skillCtx, ref targets);
                 break;
-            case "All":
+            case SkillTarget.All:
                 if (isHealSkill)
                 {
                     AddAllAlliesUnitsToTargets(skillCtx, ref targets);

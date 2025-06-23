@@ -1,5 +1,6 @@
 ﻿using Shin_Megami_Tensei;
 using Shin_Megami_Tensei.Combat;
+using Shin_Megami_Tensei.Enums;
 using Shin_Megami_Tensei.Gadgets;
 using Shin_Megami_Tensei.Managers;
 using Shin_Megami_Tensei.Managers.Helpers;
@@ -79,7 +80,7 @@ public static class CombatActionExecutor
 
     private static double CalculateBaseDamageByType(AttackData attackData)
     {
-        return attackData.AttackType == "Phys"
+        return attackData.AttackType == AttackType.Physical
             ? AttackExecutor.ExecutePhysicalAttack(attackData.Attacker, GameConstants.MODIFIER_PHYS_DAMAGE)
             : AttackExecutor.ExecuteGunAttack(attackData.Attacker, GameConstants.MODIFIER_GUN_DAMAGE);
     }
@@ -106,8 +107,8 @@ public static class CombatActionExecutor
     {
         return skill.Type switch
         {
-            "Special" => HandleSpecialSkill(skill, caster, turnContext),
-            "Heal" => HandleHealSkill(skill, caster, combatContext, turnContext),
+            AttackType.Physical => HandleSpecialSkill(skill, caster, turnContext),
+            AttackType.Heal => HandleHealSkill(skill, caster, combatContext, turnContext),
             _ => HandleDamageSkill(skill, caster, combatContext, turnContext)
         };
     }
@@ -173,16 +174,16 @@ public static class CombatActionExecutor
     {
         var skillsWithoutTargetSelection = SkillConstants.SKILLS_WITHOUT_TARGET_SELECTION;
         
-        if (skill.Name == "Invitation" || skill.Target == "Multi")
+        if (skill.Name == "Invitation" || skill.Target == SkillTarget.Multi)
             return false;
         
         return !skillsWithoutTargetSelection.Contains(skill.Name) || 
-               (skill.Target != "All" && skill.Target != "Party");
+               (skill.Target != SkillTarget.All && skill.Target != SkillTarget.Party);
     }
 
     private static bool IsMultiTargetSkill(Skill skill)
     {
-        return skill.Target is "All" or "Party" or "Multi";
+        return skill.Target is SkillTarget.All or SkillTarget.Party or SkillTarget.Multi;
     }
 
     private static SkillTargetResult SelectSkillTarget(Skill skill, Unit caster, CombatContext combatContext)

@@ -3,5 +3,5 @@
 public interface IUserInputValidator
 {
     bool IsValidInput(string input, Unit unit);
-    T ParseInput<T>(string input) where T : Enum;
+    public T ParseInput<T>(string input) where T : struct, Enum;
 }
