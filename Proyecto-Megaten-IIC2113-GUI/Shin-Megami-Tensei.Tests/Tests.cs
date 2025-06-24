@@ -78,15 +78,40 @@ public class Tests
     [MemberData(nameof(GetTestsAssociatedWithThisFolder), parameters: "E3-Random")]
     public void TestE3_Random(string teamsFolder, string testFile)
         => RunTest(teamsFolder, testFile);
-
+    
     [Theory]
-    [MemberData(nameof(GetTestsAssociatedWithThisFolder), parameters: "E4-Special")]
-    public void TestE4_Special(string teamsFolder, string testFile)
+    [MemberData(nameof(GetTestsAssociatedWithThisFolder), parameters: "E4-Ailment")]
+    public void TestE4_Ailment(string teamsFolder, string testFile)
+        => RunTest(teamsFolder, testFile);
+    
+    [Theory]
+    [MemberData(nameof(GetTestsAssociatedWithThisFolder), parameters: "E4-MultiTargetSupport")]
+    public void TestE4_MultiTargetSupport(string teamsFolder, string testFile)
+        => RunTest(teamsFolder, testFile);
+    
+    [Theory]
+    [MemberData(nameof(GetTestsAssociatedWithThisFolder), parameters: "E4-Passives")]
+    public void TestE4_Passives(string teamsFolder, string testFile)
+        => RunTest(teamsFolder, testFile);
+    
+    [Theory]
+    [MemberData(nameof(GetTestsAssociatedWithThisFolder), parameters: "E4-Random")]
+    public void TestE4_Random(string teamsFolder, string testFile)
         => RunTest(teamsFolder, testFile);
     
     [Theory]
     [MemberData(nameof(GetTestsAssociatedWithThisFolder), parameters: "E4-RandomSpecial")]
-    public void TestE4_SpecialRandom(string teamsFolder, string testFile)
+    public void TestE4_RandomSpecial(string teamsFolder, string testFile)
+        => RunTest(teamsFolder, testFile);
+    
+    [Theory]
+    [MemberData(nameof(GetTestsAssociatedWithThisFolder), parameters: "E4-SideEffects")]
+    public void TestE4_SideEffects(string teamsFolder, string testFile)
+        => RunTest(teamsFolder, testFile);
+    
+    [Theory]
+    [MemberData(nameof(GetTestsAssociatedWithThisFolder), parameters: "E4-Special")]
+    public void TestE4_Special(string teamsFolder, string testFile)
         => RunTest(teamsFolder, testFile);
     
     public static IEnumerable<object[]> GetTestsAssociatedWithThisFolder(string teamsfolder)
