@@ -1,6 +1,14 @@
-﻿namespace Shin_Megami_Tensei.Controllers.Exceptions;
+﻿namespace Shin_Megami_Tensei.Exceptions.Data;
 
-public class SkillNotFoundException : GameException
+public class SkillNotFoundException : Exception
 {
-    public SkillNotFoundException(string skillName) : base($"Skill '{skillName}' not found") { }
+    public string SkillName { get; }
+    
+    public SkillNotFoundException(string message) : base(message) { }
+    
+    public SkillNotFoundException(string skillName, string message) 
+        : base(message)
+    {
+        SkillName = skillName;
+    }
 }

@@ -107,7 +107,7 @@ public static class CombatActionExecutor
     {
         return skill.Type switch
         {
-            AttackType.Phys => HandleSpecialSkill(skill, caster, turnContext),
+            AttackType.Special => HandleSpecialSkill(skill, caster, turnContext),
             AttackType.Heal => HandleHealSkill(skill, caster, combatContext, turnContext),
             _ => HandleDamageSkill(skill, caster, combatContext, turnContext)
         };
@@ -175,7 +175,9 @@ public static class CombatActionExecutor
         var skillsWithoutTargetSelection = SkillConstants.SKILLS_WITHOUT_TARGET_SELECTION;
         
         if (skill.Name == "Invitation" || skill.Target == SkillTarget.Multi)
+        {
             return false;
+        }
         
         return !skillsWithoutTargetSelection.Contains(skill.Name) || 
                (skill.Target != SkillTarget.All && skill.Target != SkillTarget.Party);

@@ -62,23 +62,23 @@ public static class AffinityEffectManager
         
         if (skillName == "Life Drain")
         {
-            HandleHPDrain(skillCtx.Caster, skillCtx.Target, baseDamage);
+            HandleHpDrain(skillCtx.Caster, skillCtx.Target, baseDamage);
         }
         else if (skillName == "Spirit Drain")
         {
-            HandleMPDrain(skillCtx.Caster, skillCtx.Target, baseDamage);
+            HandleMpDrain(skillCtx.Caster, skillCtx.Target, baseDamage);
         }
         else if (skillName == "Energy Drain" || skillName == "Serpent of Sheol")
         {
-            HandleHPDrain(skillCtx.Caster, skillCtx.Target, baseDamage);
-            HandleMPDrain(skillCtx.Caster, skillCtx.Target, baseDamage);
+            HandleHpDrain(skillCtx.Caster, skillCtx.Target, baseDamage);
+            HandleMpDrain(skillCtx.Caster, skillCtx.Target, baseDamage);
         }
     }
 
-    private static void HandleHPDrain(Unit caster, Unit target, double damage)
+    private static void HandleHpDrain(Unit caster, Unit target, double damage)
     {
-        int targetCurrentHP = target.GetCurrentStats().GetStatByName("HP");
-        int actualDrain = Math.Min((int)Math.Floor(damage), targetCurrentHP);
+        int targetCurrentHp = target.GetCurrentStats().GetStatByName("HP");
+        int actualDrain = Math.Min((int)Math.Floor(damage), targetCurrentHp);
         
         UnitActionManager.ApplyDamageTaken(target, actualDrain);
         
@@ -89,18 +89,18 @@ public static class AffinityEffectManager
         CombatUI.DisplayFinalHP(caster);
     }
 
-    private static void HandleMPDrain(Unit caster, Unit target, double damage)
+    private static void HandleMpDrain(Unit caster, Unit target, double damage)
     {
-        int targetCurrentMP = target.GetCurrentStats().GetStatByName("MP");
-        int actualDrain = Math.Min((int)Math.Floor(damage), targetCurrentMP);
+        int targetCurrentMp = target.GetCurrentStats().GetStatByName("MP");
+        int actualDrain = Math.Min((int)Math.Floor(damage), targetCurrentMp);
         
-        int currentMP = target.GetCurrentStats().GetStatByName("MP");
-        target.GetCurrentStats().SetStatByName("MP", Math.Max(0, currentMP - actualDrain));
+        int currentMp = target.GetCurrentStats().GetStatByName("MP");
+        target.GetCurrentStats().SetStatByName("MP", Math.Max(0, currentMp - actualDrain));
         
-        int casterCurrentMP = caster.GetCurrentStats().GetStatByName("MP");
-        int casterMaxMP = caster.GetBaseStats().GetStatByName("MP");
-        int newCasterMP = Math.Min(casterMaxMP, casterCurrentMP + actualDrain);
-        caster.GetCurrentStats().SetStatByName("MP", newCasterMP);
+        int casterCurrentMp = caster.GetCurrentStats().GetStatByName("MP");
+        int casterMaxMp = caster.GetBaseStats().GetStatByName("MP");
+        int newCasterMp = Math.Min(casterMaxMp, casterCurrentMp + actualDrain);
+        caster.GetCurrentStats().SetStatByName("MP", newCasterMp);
         
         CombatUI.DisplayDrainMPMessage(target, actualDrain);
         CombatUI.DisplayFinalMP(target);

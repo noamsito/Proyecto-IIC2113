@@ -1,4 +1,5 @@
 ﻿using Shin_Megami_Tensei.Controllers.Exceptions;
+using Shin_Megami_Tensei.Exceptions.Data;
 using Shin_Megami_Tensei.Gadgets;
 
 namespace Shin_Megami_Tensei.Controllers.Collections;

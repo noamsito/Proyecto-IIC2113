@@ -6,5 +6,8 @@ public enum SkillTarget
     Ally,
     All,
     Party,
-    Multi
+    Multi,
+    Universal,
+    Self,
+    Enemy
 }
