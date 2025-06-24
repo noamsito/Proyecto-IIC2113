@@ -70,7 +70,7 @@ public static class SamuraiActionExecutor
 
     private static int DeterminePlayerNumber(CombatContext combatContext)
     {
-        return combatContext.CurrentPlayer.GetName() == "Player 1" ? 1 : 2;
+        return combatContext.CurrentPlayer.GetName() == PlayerNameConstants.PlayerOneName ? 1 : 2;
     }
 
     private static string GetCurrentSamuraiName(CombatContext combatContext)

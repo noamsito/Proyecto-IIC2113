@@ -19,10 +19,13 @@ public static class GameLoader
         string filePath = FileHelper.GetFileName(int.Parse(selected), folderPath);
         List<string> lines = StringHelper.GetNonEmptyLines(File.ReadAllText(filePath));
 
+        var player1Name = PlayerNameConstants.PlayerOneName;
+        var player2Name = PlayerNameConstants.PlayerTwoName;
+        
         var players = new Dictionary<string, Player>
         {
-            { "Player 1", new("Player 1") },
-            { "Player 2", new("Player 2") }
+            { player1Name, new(player1Name) },
+            { player2Name, new(player2Name) }
         };
 
         ParseTeamLines(lines, players);

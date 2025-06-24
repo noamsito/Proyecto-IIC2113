@@ -13,8 +13,8 @@ public class GUICombatManager
     private bool _gameWon;
     private bool _isNewRound;
 
-    private const string Player1Key = "Player 1";
-    private const string Player2Key = "Player 2";
+    private const string Player1Key = PlayerNameConstants.PlayerOneName;
+    private const string Player2Key = PlayerNameConstants.PlayerTwoName;
 
     public GUICombatManager(IShinMegamiTenseiView view, Dictionary<string, Player> players)
     {

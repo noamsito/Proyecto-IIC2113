@@ -92,8 +92,8 @@ namespace Shin_Megami_Tensei
 
         private bool AreTeamsValid()
         {
-            return _players["Player 1"].GetTeam().IsValid &&
-                   _players["Player 2"].GetTeam().IsValid;
+            return _players[PlayerNameConstants.PlayerOneName].GetTeam().IsValid &&
+                   _players[PlayerNameConstants.PlayerTwoName].GetTeam().IsValid;
         }
     }
 }

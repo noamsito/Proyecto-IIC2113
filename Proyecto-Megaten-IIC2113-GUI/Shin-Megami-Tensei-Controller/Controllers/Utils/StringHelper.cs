@@ -2,6 +2,9 @@
 
 public static class StringHelper
 {
+    static string team1Name = "Player 1 Team";
+    static string team2Name = "Player 2 Team";
+    
     public static (string SamuraiName, List<string> Skills) ExtractSamuraiNameAndSkills(string unitDescription)
     {
         const string SamuraiPrefix = "[Samurai]";
@@ -70,14 +73,18 @@ public static class StringHelper
     
     public static string GetPlayerIdentifierFromHeaderLine(string line)
     {
-        if (IsTeamHeaderForPlayer(line, "Player 1 Team"))
+        var player1Name = PlayerNameConstants.PlayerOneName;
+        var player2Name = PlayerNameConstants.PlayerTwoName;
+
+        
+        if (IsTeamHeaderForPlayer(line, team1Name))
         {
-            return "Player 1";
+            return player1Name;
         }
         
-        if (IsTeamHeaderForPlayer(line, "Player 2 Team"))
+        if (IsTeamHeaderForPlayer(line, team2Name))
         {
-            return "Player 2";
+            return player2Name;
         }
         
         return null;

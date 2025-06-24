@@ -245,13 +245,16 @@ public class TargetSelectionService : ITargetSelectionService
 
         private Player GetPlayerById(int? playerId)
         {
+            var player1Name = PlayerNameConstants.PlayerOneName;
+            var player2Name = PlayerNameConstants.PlayerTwoName;
+            
             if (_players == null)
                 throw new InvalidOperationException("Players not initialized");
             
             if (playerId == null)
                 throw new ArgumentException("Player ID cannot be null");
 
-            return playerId == 1 ? _players["Player 1"] : _players["Player 2"];
+            return playerId == 1 ? _players[player1Name] : _players[player2Name];
         }
 
         public void SetPlayers(Dictionary<string, Player> players)

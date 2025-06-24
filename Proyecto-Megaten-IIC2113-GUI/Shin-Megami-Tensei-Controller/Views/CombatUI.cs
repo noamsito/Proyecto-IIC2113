@@ -167,7 +167,7 @@ public static class CombatUI
     
         public static void DisplayWinner(Player winner)
         {
-            int playerNumber = winner.GetName() == "Player 1" ? 1 : 2;
+            int playerNumber = winner.GetName() == PlayerNameConstants.PlayerOneName ? 1 : 2;
             _view.WriteLine($"Ganador: {winner.GetTeam().Samurai.GetName()} (J{playerNumber})");
         }
         

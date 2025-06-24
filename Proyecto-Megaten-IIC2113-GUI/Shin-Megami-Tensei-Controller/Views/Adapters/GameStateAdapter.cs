@@ -16,8 +16,11 @@ public class GameStateAdapter : IState
         if (currentPlayer == null) throw new ArgumentNullException(nameof(currentPlayer));
         if (options == null) throw new ArgumentNullException(nameof(options));
 
-        Player1 = new PlayerAdapter(players["Player 1"]);
-        Player2 = new PlayerAdapter(players["Player 2"]);
+        var player1Name = PlayerNameConstants.PlayerOneName;
+        var player2Name = PlayerNameConstants.PlayerTwoName;
+        
+        Player1 = new PlayerAdapter(players[player1Name]);
+        Player2 = new PlayerAdapter(players[player2Name]);
         Options = options;
         Turns = currentPlayer.TurnManager.GetFullTurns();
         BlinkingTurns = currentPlayer.TurnManager.GetBlinkingTurns();

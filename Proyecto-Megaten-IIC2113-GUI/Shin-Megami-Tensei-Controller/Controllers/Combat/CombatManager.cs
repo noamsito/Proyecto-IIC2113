@@ -10,8 +10,8 @@ public class CombatManager
     private bool _gameWon;
     private bool _isNewRound;
 
-    private const string Player1Key = "Player 1";
-    private const string Player2Key = "Player 2";
+    private const string PLAYER1_KEY = PlayerNameConstants.PlayerOneName;
+    private const string PLAYER2_KEY = PlayerNameConstants.PlayerTwoName;
 
     public CombatManager(View view, Dictionary<string, Player> players)
     {
@@ -38,7 +38,7 @@ public class CombatManager
 
     private void ExecuteCombatLoop()
     {
-        Player currentPlayer = _players[Player1Key];
+        Player currentPlayer = _players[PLAYER1_KEY];
 
         _view.WriteLine(GameConstants.Separator);
         while (!_gameWon)
@@ -145,7 +145,7 @@ public class CombatManager
 
     private int GetPlayerNumber(Player player)
     {
-        return player.GetName() == Player1Key ? 1 : 2;
+        return player.GetName() == PLAYER1_KEY ? 1 : 2;
     }
 
     private bool ShouldSwitchPlayer(Player currentPlayer)
@@ -155,7 +155,7 @@ public class CombatManager
 
     public Player GetOpponent(Player currentPlayer)
     {
-        return currentPlayer.GetName() == Player1Key ? _players[Player2Key] : _players[Player1Key];
+        return currentPlayer.GetName() == PLAYER1_KEY ? _players[PLAYER2_KEY] : _players[PLAYER1_KEY];
     }
 
     private void CheckForVictory(Player currentPlayer)
